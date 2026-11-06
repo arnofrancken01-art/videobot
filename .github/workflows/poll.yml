@@ -36,4 +36,5 @@ jobs:
           git diff --cached --quiet || (git commit -qm "Status bijgewerkt" && git push -q)
       - name: Foutmelding naar Telegram
         if: failure()
-        run: python scripts/telegram.py send "Verwerken van de Telegram-knoppen mislukt. Bekijk: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+        run: |
+          python scripts/telegram.py send "Verwerken van de Telegram-knoppen mislukt. Bekijk: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
