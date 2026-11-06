@@ -1,0 +1,307 @@
+{
+ "id": "ep002",
+ "title": "The richest country is 629x richer per person than the poorest",
+ "source": "World Bank, GDP per capita in current US dollars (2025), data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+ "voice": "af_heart",
+ "hashtags": [
+  "money",
+  "economy",
+  "richestcountries",
+  "china",
+  "dataviz"
+ ],
+ "segments": [
+  {
+   "scene": "versus",
+   "text": "The average person in Luxembourg produces a hundred forty-seven thousand dollars a year.",
+   "props": {
+    "icon": "globe",
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 0
+    },
+    "item": {
+     "label": "Luxembourg",
+     "value": 147
+    },
+    "at": "hundred"
+   }
+  },
+  {
+   "scene": "versus",
+   "text": "In Burundi? Two hundred thirty-four.",
+   "props": {
+    "format": {
+     "prefix": "$"
+    },
+    "item": {
+     "label": "Burundi",
+     "value": 234
+    },
+    "at": "two"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "That's six hundred twenty-nine times more, per person.",
+   "props": {
+    "value": 629,
+    "format": {
+     "suffix": "x"
+    },
+    "caption": "GDP per person, Luxembourg vs Burundi, 2025",
+    "at": "six",
+    "compare": {
+     "format": {
+      "prefix": "$"
+     },
+     "items": [
+      {
+       "label": "Burundi",
+       "value": 234
+      },
+      {
+       "label": "Luxembourg",
+       "value": 147252
+      }
+     ]
+    }
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "These are the richest countries on Earth, per person.",
+   "props": {
+    "title": "GDP per person, 2025",
+    "subtitle": "thousands of US dollars",
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 1
+    },
+    "items": [
+     {
+      "label": "Luxembourg",
+      "value": 147.3
+     },
+     {
+      "label": "Ireland",
+      "value": 131.6
+     },
+     {
+      "label": "Switzerland",
+      "value": 114.8
+     },
+     {
+      "label": "Singapore",
+      "value": 98.8
+     },
+     {
+      "label": "Iceland",
+      "value": 98.3
+     },
+     {
+      "label": "Norway",
+      "value": 94.6
+     },
+     {
+      "label": "United States",
+      "value": 90.0
+     },
+     {
+      "label": "Denmark",
+      "value": 77.0
+     }
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "Luxembourg and Ireland lead, boosted by cross-border workers and global companies.",
+   "props": {
+    "highlight": [
+     "Luxembourg",
+     "Ireland"
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "America, at ninety thousand, is only seventh.",
+   "props": {
+    "highlight": [
+     "United States"
+    ]
+   }
+  },
+  {
+   "scene": "line",
+   "text": "Now look at China. In 1990, three hundred nineteen dollars per person.",
+   "props": {
+    "title": "China, GDP per person",
+    "subtitle": "1990 to 2025, US dollars",
+    "format": {
+     "prefix": "$"
+    },
+    "series": [
+     [
+      1990,
+      319
+     ],
+     [
+      1991,
+      334
+     ],
+     [
+      1992,
+      368
+     ],
+     [
+      1993,
+      379
+     ],
+     [
+      1994,
+      476
+     ],
+     [
+      1995,
+      613
+     ],
+     [
+      1996,
+      713
+     ],
+     [
+      1997,
+      787
+     ],
+     [
+      1998,
+      835
+     ],
+     [
+      1999,
+      881
+     ],
+     [
+      2000,
+      969
+     ],
+     [
+      2001,
+      1065
+     ],
+     [
+      2002,
+      1164
+     ],
+     [
+      2003,
+      1307
+     ],
+     [
+      2004,
+      1531
+     ],
+     [
+      2005,
+      1778
+     ],
+     [
+      2006,
+      2129
+     ],
+     [
+      2007,
+      2735
+     ],
+     [
+      2008,
+      3523
+     ],
+     [
+      2009,
+      3898
+     ],
+     [
+      2010,
+      4629
+     ],
+     [
+      2011,
+      5704
+     ],
+     [
+      2012,
+      6405
+     ],
+     [
+      2013,
+      7147
+     ],
+     [
+      2014,
+      7781
+     ],
+     [
+      2015,
+      8175
+     ],
+     [
+      2016,
+      8255
+     ],
+     [
+      2017,
+      8980
+     ],
+     [
+      2018,
+      10086
+     ],
+     [
+      2019,
+      10343
+     ],
+     [
+      2020,
+      10627
+     ],
+     [
+      2021,
+      12887
+     ],
+     [
+      2022,
+      12971
+     ],
+     [
+      2023,
+      12951
+     ],
+     [
+      2024,
+      13293
+     ],
+     [
+      2025,
+      13862
+     ]
+    ],
+    "badge": "43x since 1990"
+   }
+  },
+  {
+   "scene": "line",
+   "text": "Today? Almost fourteen thousand. Forty-three times more.",
+   "props": {}
+  },
+  {
+   "scene": "outro",
+   "text": "Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}

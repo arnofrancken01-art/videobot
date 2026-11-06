@@ -61,7 +61,7 @@ for i, s in enumerate(segs):
                     errors.append(f"segment {j + 1}: highlight '{h}' staat niet in de balken")
     if sc == "bignumber" and not isinstance(p.get("value"), (int, float)):
         errors.append(f"{where}: value moet een getal zijn")
-    if sc == "line":
+    if sc == "line" and prev != "line":
         ser = p.get("series", [])
         if len(ser) < 5 or any(len(x) != 2 for x in ser):
             errors.append(f"{where}: series moet minstens 5 punten [x, y] hebben")

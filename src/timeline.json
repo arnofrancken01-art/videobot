@@ -1,838 +1,692 @@
 {
- "id": "ep001",
- "title": "Same burger, almost 4x the price: the Big Mac around the world",
- "source": "The Economist, Big Mac Index (July 2026), github.com/TheEconomist/big-mac-data",
+ "id": "ep002",
+ "title": "The richest country is 629x richer per person than the poorest",
+ "source": "World Bank, GDP per capita in current US dollars (2025), data.worldbank.org/indicator/NY.GDP.PCAP.CD",
  "voice": "af_heart",
  "hashtags": [
-  "bigmac",
   "money",
   "economy",
-  "inflation",
+  "richestcountries",
+  "china",
   "dataviz"
  ],
  "segments": [
   {
    "scene": "versus",
-   "text": "This exact burger costs nine dollars in Switzerland.",
+   "text": "The average person in Luxembourg produces a hundred forty-seven thousand dollars a year.",
    "props": {
-    "icon": "burger",
+    "icon": "globe",
     "format": {
      "prefix": "$",
-     "decimals": 2
+     "suffix": "k",
+     "decimals": 0
     },
     "item": {
-     "label": "Switzerland",
-     "value": 9.04
+     "label": "Luxembourg",
+     "value": 147
     },
-    "at": "nine"
+    "at": "hundred"
    },
    "start": 0.1,
-   "end": 2.873,
+   "end": 4.985,
    "words": [
     {
-     "word": "This",
+     "word": "The",
      "start": 0.13,
-     "end": 0.399
+     "end": 0.37
     },
     {
-     "word": "exact",
-     "start": 0.399,
-     "end": 0.714
+     "word": "average",
+     "start": 0.37,
+     "end": 0.803
     },
     {
-     "word": "burger",
-     "start": 0.714,
-     "end": 1.073
-    },
-    {
-     "word": "costs",
-     "start": 1.073,
-     "end": 1.387
-    },
-    {
-     "word": "nine",
-     "start": 1.387,
-     "end": 1.656
-    },
-    {
-     "word": "dollars",
-     "start": 1.656,
-     "end": 2.06
+     "word": "person",
+     "start": 0.803,
+     "end": 1.187
     },
     {
      "word": "in",
-     "start": 2.06,
-     "end": 2.24
+     "start": 1.187,
+     "end": 1.379
     },
     {
-     "word": "Switzerland.",
-     "start": 2.24,
-     "end": 2.823
+     "word": "Luxembourg",
+     "start": 1.379,
+     "end": 1.956
+    },
+    {
+     "word": "produces",
+     "start": 1.956,
+     "end": 2.437
+    },
+    {
+     "word": "a",
+     "start": 2.437,
+     "end": 2.581
+    },
+    {
+     "word": "hundred",
+     "start": 2.581,
+     "end": 3.013
+    },
+    {
+     "word": "forty-seven",
+     "start": 3.013,
+     "end": 3.59
+    },
+    {
+     "word": "thousand",
+     "start": 3.59,
+     "end": 4.07
+    },
+    {
+     "word": "dollars",
+     "start": 4.07,
+     "end": 4.503
+    },
+    {
+     "word": "a",
+     "start": 4.503,
+     "end": 4.647
+    },
+    {
+     "word": "year.",
+     "start": 4.647,
+     "end": 4.935
     }
    ]
   },
   {
    "scene": "versus",
-   "text": "In Indonesia? Two thirty-eight.",
+   "text": "In Burundi? Two hundred thirty-four.",
    "props": {
+    "format": {
+     "prefix": "$"
+    },
     "item": {
-     "label": "Indonesia",
-     "value": 2.38
+     "label": "Burundi",
+     "value": 234
     },
     "at": "two"
    },
-   "start": 2.933,
-   "end": 4.683,
+   "start": 5.045,
+   "end": 7.008,
    "words": [
     {
      "word": "In",
-     "start": 2.963,
-     "end": 3.166
+     "start": 5.075,
+     "end": 5.268
     },
     {
-     "word": "Indonesia?",
-     "start": 3.166,
-     "end": 3.722
+     "word": "Burundi?",
+     "start": 5.268,
+     "end": 5.703
     },
     {
      "word": "Two",
-     "start": 3.722,
-     "end": 3.975
+     "start": 5.703,
+     "end": 5.944
     },
     {
-     "word": "thirty-eight.",
-     "start": 3.975,
-     "end": 4.633
-    }
-   ]
-  },
-  {
-   "scene": "bars",
-   "text": "Here's what one Big Mac costs, in dollars, around the world.",
-   "props": {
-    "title": "One Big Mac, in US dollars",
-    "subtitle": "July 2026",
-    "format": {
-     "prefix": "$",
-     "decimals": 2
-    },
-    "items": [
-     {
-      "label": "Indonesia",
-      "value": 2.38
-     },
-     {
-      "label": "Taiwan",
-      "value": 2.42
-     },
-     {
-      "label": "Philippines",
-      "value": 2.74
-     },
-     {
-      "label": "Egypt",
-      "value": 2.87
-     },
-     {
-      "label": "Vietnam",
-      "value": 2.89
-     },
-     {
-      "label": "United States",
-      "value": 6.22
-     },
-     {
-      "label": "Euro area",
-      "value": 7.08
-     },
-     {
-      "label": "Britain",
-      "value": 7.4
-     },
-     {
-      "label": "Norway",
-      "value": 8.05
-     },
-     {
-      "label": "Uruguay",
-      "value": 8.94
-     },
-     {
-      "label": "Switzerland",
-      "value": 9.04
-     }
-    ]
-   },
-   "start": 4.743,
-   "end": 7.836,
-   "words": [
-    {
-     "word": "Here's",
-     "start": 4.773,
-     "end": 5.083
+     "word": "hundred",
+     "start": 5.944,
+     "end": 6.379
     },
     {
-     "word": "what",
-     "start": 5.083,
-     "end": 5.349
-    },
-    {
-     "word": "one",
-     "start": 5.349,
-     "end": 5.57
-    },
-    {
-     "word": "Big",
-     "start": 5.57,
-     "end": 5.792
-    },
-    {
-     "word": "Mac",
-     "start": 5.792,
-     "end": 6.013
-    },
-    {
-     "word": "costs,",
-     "start": 6.013,
-     "end": 6.324
-    },
-    {
-     "word": "in",
-     "start": 6.324,
-     "end": 6.501
-    },
-    {
-     "word": "dollars,",
-     "start": 6.501,
-     "end": 6.9
-    },
-    {
-     "word": "around",
-     "start": 6.9,
-     "end": 7.254
-    },
-    {
-     "word": "the",
-     "start": 7.254,
-     "end": 7.476
-    },
-    {
-     "word": "world.",
-     "start": 7.476,
-     "end": 7.786
-    }
-   ]
-  },
-  {
-   "scene": "bars",
-   "text": "Indonesia, Taiwan and the Philippines are the cheapest.",
-   "props": {
-    "highlight": [
-     "Indonesia",
-     "Taiwan",
-     "Philippines"
-    ]
-   },
-   "start": 7.896,
-   "end": 10.84,
-   "words": [
-    {
-     "word": "Indonesia,",
-     "start": 7.926,
-     "end": 8.434
-    },
-    {
-     "word": "Taiwan",
-     "start": 8.434,
-     "end": 8.804
-    },
-    {
-     "word": "and",
-     "start": 8.804,
-     "end": 9.035
-    },
-    {
-     "word": "the",
-     "start": 9.035,
-     "end": 9.266
-    },
-    {
-     "word": "Philippines",
-     "start": 9.266,
-     "end": 9.866
-    },
-    {
-     "word": "are",
-     "start": 9.866,
-     "end": 10.097
-    },
-    {
-     "word": "the",
-     "start": 10.097,
-     "end": 10.328
-    },
-    {
-     "word": "cheapest.",
-     "start": 10.328,
-     "end": 10.79
-    }
-   ]
-  },
-  {
-   "scene": "bars",
-   "text": "America pays six twenty-two. The euro area, seven oh eight.",
-   "props": {
-    "highlight": [
-     "United States",
-     "Euro area"
-    ]
-   },
-   "start": 10.9,
-   "end": 14.399,
-   "words": [
-    {
-     "word": "America",
-     "start": 10.93,
-     "end": 11.396
-    },
-    {
-     "word": "pays",
-     "start": 11.396,
-     "end": 11.707
-    },
-    {
-     "word": "six",
-     "start": 11.707,
-     "end": 11.966
-    },
-    {
-     "word": "twenty-two.",
-     "start": 11.966,
-     "end": 12.536
-    },
-    {
-     "word": "The",
-     "start": 12.536,
-     "end": 12.795
-    },
-    {
-     "word": "euro",
-     "start": 12.795,
-     "end": 13.106
-    },
-    {
-     "word": "area,",
-     "start": 13.106,
-     "end": 13.416
-    },
-    {
-     "word": "seven",
-     "start": 13.416,
-     "end": 13.779
-    },
-    {
-     "word": "oh",
-     "start": 13.779,
-     "end": 13.986
-    },
-    {
-     "word": "eight.",
-     "start": 13.986,
-     "end": 14.349
-    }
-   ]
-  },
-  {
-   "scene": "bars",
-   "text": "And the top? Norway, Uruguay, and Switzerland.",
-   "props": {
-    "highlight": [
-     "Norway",
-     "Uruguay",
-     "Switzerland"
-    ]
-   },
-   "start": 14.459,
-   "end": 17.083,
-   "words": [
-    {
-     "word": "And",
-     "start": 14.489,
-     "end": 14.743
-    },
-    {
-     "word": "the",
-     "start": 14.743,
-     "end": 14.997
-    },
-    {
-     "word": "top?",
-     "start": 14.997,
-     "end": 15.252
-    },
-    {
-     "word": "Norway,",
-     "start": 15.252,
-     "end": 15.659
-    },
-    {
-     "word": "Uruguay,",
-     "start": 15.659,
-     "end": 16.117
-    },
-    {
-     "word": "and",
-     "start": 16.117,
-     "end": 16.371
-    },
-    {
-     "word": "Switzerland.",
-     "start": 16.371,
-     "end": 17.033
+     "word": "thirty-four.",
+     "start": 6.379,
+     "end": 6.958
     }
    ]
   },
   {
    "scene": "bignumber",
-   "text": "That's almost four times more, for the exact same burger.",
+   "text": "That's six hundred twenty-nine times more, per person.",
    "props": {
-    "value": 3.8,
+    "value": 629,
     "format": {
-     "suffix": "x",
-     "decimals": 1
+     "suffix": "x"
     },
-    "caption": "the price, same burger",
-    "at": "four",
+    "caption": "GDP per person, Luxembourg vs Burundi, 2025",
+    "at": "six",
     "compare": {
      "format": {
-      "prefix": "$",
-      "decimals": 2
+      "prefix": "$"
      },
      "items": [
       {
-       "label": "Indonesia",
-       "value": 2.38
+       "label": "Burundi",
+       "value": 234
       },
       {
-       "label": "Switzerland",
-       "value": 9.04
+       "label": "Luxembourg",
+       "value": 147252
       }
      ]
     }
    },
-   "start": 17.143,
-   "end": 20.172,
+   "start": 7.068,
+   "end": 9.799,
    "words": [
     {
      "word": "That's",
-     "start": 17.173,
-     "end": 17.49
+     "start": 7.098,
+     "end": 7.412
     },
     {
-     "word": "almost",
-     "start": 17.49,
-     "end": 17.853
+     "word": "six",
+     "start": 7.412,
+     "end": 7.637
     },
     {
-     "word": "four",
-     "start": 17.853,
-     "end": 18.126
+     "word": "hundred",
+     "start": 7.637,
+     "end": 8.041
+    },
+    {
+     "word": "twenty-nine",
+     "start": 8.041,
+     "end": 8.581
     },
     {
      "word": "times",
-     "start": 18.126,
-     "end": 18.443
+     "start": 8.581,
+     "end": 8.895
     },
     {
      "word": "more,",
-     "start": 18.443,
-     "end": 18.715
+     "start": 8.895,
+     "end": 9.165
     },
     {
-     "word": "for",
-     "start": 18.715,
-     "end": 18.942
+     "word": "per",
+     "start": 9.165,
+     "end": 9.389
     },
     {
-     "word": "the",
-     "start": 18.942,
-     "end": 19.169
-    },
-    {
-     "word": "exact",
-     "start": 19.169,
-     "end": 19.487
-    },
-    {
-     "word": "same",
-     "start": 19.487,
-     "end": 19.759
-    },
-    {
-     "word": "burger.",
-     "start": 19.759,
-     "end": 20.122
+     "word": "person.",
+     "start": 9.389,
+     "end": 9.749
     }
    ]
   },
   {
-   "scene": "bignumber",
-   "text": "Economists call this the Big Mac Index. It says the Indonesian rupiah is sixty-two percent undervalued.",
+   "scene": "bars",
+   "text": "These are the richest countries on Earth, per person.",
    "props": {
-    "value": -62,
+    "title": "GDP per person, 2025",
+    "subtitle": "thousands of US dollars",
     "format": {
-     "suffix": "%"
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 1
     },
-    "caption": "Indonesian rupiah, undervalued vs the dollar",
-    "at": "sixty",
-    "compare": {
-     "format": {
-      "prefix": "$",
-      "decimals": 2
+    "items": [
+     {
+      "label": "Luxembourg",
+      "value": 147.3
      },
-     "items": [
-      {
-       "label": "Fair price (US)",
-       "value": 6.22
-      },
-      {
-       "label": "Indonesia",
-       "value": 2.38
-      }
-     ]
-    }
+     {
+      "label": "Ireland",
+      "value": 131.6
+     },
+     {
+      "label": "Switzerland",
+      "value": 114.8
+     },
+     {
+      "label": "Singapore",
+      "value": 98.8
+     },
+     {
+      "label": "Iceland",
+      "value": 98.3
+     },
+     {
+      "label": "Norway",
+      "value": 94.6
+     },
+     {
+      "label": "United States",
+      "value": 90.0
+     },
+     {
+      "label": "Denmark",
+      "value": 77.0
+     }
+    ]
    },
-   "start": 20.232,
-   "end": 26.632,
+   "start": 9.859,
+   "end": 12.333,
    "words": [
     {
-     "word": "Economists",
-     "start": 20.262,
-     "end": 20.91
+     "word": "These",
+     "start": 9.889,
+     "end": 10.163
     },
     {
-     "word": "call",
-     "start": 20.91,
-     "end": 21.234
-    },
-    {
-     "word": "this",
-     "start": 21.234,
-     "end": 21.558
+     "word": "are",
+     "start": 10.163,
+     "end": 10.36
     },
     {
      "word": "the",
-     "start": 21.558,
-     "end": 21.828
+     "start": 10.36,
+     "end": 10.556
     },
     {
-     "word": "Big",
-     "start": 21.828,
-     "end": 22.099
+     "word": "richest",
+     "start": 10.556,
+     "end": 10.909
     },
     {
-     "word": "Mac",
-     "start": 22.099,
-     "end": 22.369
+     "word": "countries",
+     "start": 10.909,
+     "end": 11.341
     },
     {
-     "word": "Index.",
-     "start": 22.369,
-     "end": 22.747
+     "word": "on",
+     "start": 11.341,
+     "end": 11.498
     },
     {
-     "word": "It",
-     "start": 22.747,
-     "end": 22.963
+     "word": "Earth,",
+     "start": 11.498,
+     "end": 11.773
     },
     {
-     "word": "says",
-     "start": 22.963,
-     "end": 23.287
+     "word": "per",
+     "start": 11.773,
+     "end": 11.969
     },
     {
-     "word": "the",
-     "start": 23.287,
-     "end": 23.557
+     "word": "person.",
+     "start": 11.969,
+     "end": 12.283
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "Luxembourg and Ireland lead, boosted by cross-border workers and global companies.",
+   "props": {
+    "highlight": [
+     "Luxembourg",
+     "Ireland"
+    ]
+   },
+   "start": 12.393,
+   "end": 17.065,
+   "words": [
+    {
+     "word": "Luxembourg",
+     "start": 12.423,
+     "end": 13.029
     },
     {
-     "word": "Indonesian",
-     "start": 23.557,
-     "end": 24.205
+     "word": "and",
+     "start": 13.029,
+     "end": 13.281
     },
     {
-     "word": "rupiah",
-     "start": 24.205,
-     "end": 24.637
+     "word": "Ireland",
+     "start": 13.281,
+     "end": 13.735
+    },
+    {
+     "word": "lead,",
+     "start": 13.735,
+     "end": 14.038
+    },
+    {
+     "word": "boosted",
+     "start": 14.038,
+     "end": 14.492
+    },
+    {
+     "word": "by",
+     "start": 14.492,
+     "end": 14.694
+    },
+    {
+     "word": "cross-border",
+     "start": 14.694,
+     "end": 15.35
+    },
+    {
+     "word": "workers",
+     "start": 15.35,
+     "end": 15.804
+    },
+    {
+     "word": "and",
+     "start": 15.804,
+     "end": 16.057
+    },
+    {
+     "word": "global",
+     "start": 16.057,
+     "end": 16.46
+    },
+    {
+     "word": "companies.",
+     "start": 16.46,
+     "end": 17.015
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "America, at ninety thousand, is only seventh.",
+   "props": {
+    "highlight": [
+     "United States"
+    ]
+   },
+   "start": 17.125,
+   "end": 19.621,
+   "words": [
+    {
+     "word": "America,",
+     "start": 17.155,
+     "end": 17.59
+    },
+    {
+     "word": "at",
+     "start": 17.59,
+     "end": 17.783
+    },
+    {
+     "word": "ninety",
+     "start": 17.783,
+     "end": 18.17
+    },
+    {
+     "word": "thousand,",
+     "start": 18.17,
+     "end": 18.653
     },
     {
      "word": "is",
-     "start": 24.637,
-     "end": 24.853
+     "start": 18.653,
+     "end": 18.847
     },
     {
-     "word": "sixty-two",
-     "start": 24.853,
-     "end": 25.394
+     "word": "only",
+     "start": 18.847,
+     "end": 19.136
     },
     {
-     "word": "percent",
-     "start": 25.394,
-     "end": 25.88
-    },
-    {
-     "word": "undervalued.",
-     "start": 25.88,
-     "end": 26.582
+     "word": "seventh.",
+     "start": 19.136,
+     "end": 19.571
     }
    ]
   },
   {
    "scene": "line",
-   "text": "And even in America, the price nearly tripled since 2000.",
+   "text": "Now look at China. In 1990, three hundred nineteen dollars per person.",
    "props": {
-    "title": "Big Mac price in the US",
-    "subtitle": "2000 to 2026",
+    "title": "China, GDP per person",
+    "subtitle": "1990 to 2025, US dollars",
     "format": {
-     "prefix": "$",
-     "decimals": 2
+     "prefix": "$"
     },
     "series": [
      [
-      2000.25,
-      2.24
+      1990,
+      319
      ],
      [
-      2001.25,
-      2.24
+      1991,
+      334
      ],
      [
-      2002.25,
-      2.35
+      1992,
+      368
      ],
      [
-      2003.25,
-      2.46
+      1993,
+      379
      ],
      [
-      2004.33,
-      2.47
+      1994,
+      476
      ],
      [
-      2005.42,
-      2.58
+      1995,
+      613
      ],
      [
-      2006.0,
-      2.67
+      1996,
+      713
      ],
      [
-      2006.33,
-      2.78
+      1997,
+      787
      ],
      [
-      2007.0,
-      2.89
+      1998,
+      835
      ],
      [
-      2007.42,
-      3.0
+      1999,
+      881
      ],
      [
-      2008.42,
-      3.21
+      2000,
+      969
      ],
      [
-      2009.5,
-      3.43
+      2001,
+      1065
      ],
      [
-      2010.0,
-      3.43
+      2002,
+      1164
      ],
      [
-      2010.5,
-      3.53
+      2003,
+      1307
      ],
      [
-      2011.5,
-      3.64
+      2004,
+      1531
      ],
      [
-      2012.0,
-      3.81
+      2005,
+      1778
      ],
      [
-      2012.5,
-      3.96
+      2006,
+      2129
      ],
      [
-      2013.0,
-      4.03
+      2007,
+      2735
      ],
      [
-      2013.5,
-      4.18
+      2008,
+      3523
      ],
      [
-      2014.0,
-      4.24
+      2009,
+      3898
      ],
      [
-      2014.5,
-      4.29
+      2010,
+      4629
      ],
      [
-      2015.0,
-      4.29
+      2011,
+      5704
      ],
      [
-      2015.5,
-      4.29
+      2012,
+      6405
      ],
      [
-      2016.0,
-      4.29
+      2013,
+      7147
      ],
      [
-      2016.5,
-      4.5
+      2014,
+      7781
      ],
      [
-      2017.0,
-      4.5
+      2015,
+      8175
      ],
      [
-      2017.5,
-      4.5
+      2016,
+      8255
      ],
      [
-      2018.0,
-      4.61
+      2017,
+      8980
      ],
      [
-      2018.5,
-      4.62
+      2018,
+      10086
      ],
      [
-      2019.0,
-      4.71
+      2019,
+      10343
      ],
      [
-      2019.5,
-      4.71
+      2020,
+      10627
      ],
      [
-      2020.0,
-      4.82
+      2021,
+      12887
      ],
      [
-      2020.5,
-      4.82
+      2022,
+      12971
      ],
      [
-      2021.0,
-      4.89
+      2023,
+      12951
      ],
      [
-      2021.5,
-      4.93
+      2024,
+      13293
      ],
      [
-      2022.0,
-      5.04
-     ],
-     [
-      2022.5,
-      5.15
-     ],
-     [
-      2023.0,
-      5.36
-     ],
-     [
-      2023.5,
-      5.58
-     ],
-     [
-      2024.0,
-      5.69
-     ],
-     [
-      2024.5,
-      5.69
-     ],
-     [
-      2025.0,
-      5.79
-     ],
-     [
-      2025.5,
-      6.01
-     ],
-     [
-      2026.0,
-      6.12
-     ],
-     [
-      2026.5,
-      6.22
+      2025,
+      13862
      ]
     ],
-    "badge": "2.8x since 2000"
+    "badge": "43x since 1990"
    },
-   "start": 26.692,
-   "end": 30.105,
+   "start": 19.681,
+   "end": 24.481,
    "words": [
     {
-     "word": "And",
-     "start": 26.722,
-     "end": 26.975
+     "word": "Now",
+     "start": 19.711,
+     "end": 20.006
     },
     {
-     "word": "even",
-     "start": 26.975,
-     "end": 27.278
+     "word": "look",
+     "start": 20.006,
+     "end": 20.36
     },
     {
-     "word": "in",
-     "start": 27.278,
-     "end": 27.48
+     "word": "at",
+     "start": 20.36,
+     "end": 20.596
     },
     {
-     "word": "America,",
-     "start": 27.48,
-     "end": 27.934
+     "word": "China.",
+     "start": 20.596,
+     "end": 21.009
     },
     {
-     "word": "the",
-     "start": 27.934,
-     "end": 28.187
+     "word": "In",
+     "start": 21.009,
+     "end": 21.245
     },
     {
-     "word": "price",
-     "start": 28.187,
-     "end": 28.54
+     "word": "1990,",
+     "start": 21.245,
+     "end": 21.599
     },
     {
-     "word": "nearly",
-     "start": 28.54,
-     "end": 28.944
+     "word": "three",
+     "start": 21.599,
+     "end": 22.012
     },
     {
-     "word": "tripled",
-     "start": 28.944,
-     "end": 29.399
+     "word": "hundred",
+     "start": 22.012,
+     "end": 22.543
     },
     {
-     "word": "since",
-     "start": 29.399,
-     "end": 29.752
+     "word": "nineteen",
+     "start": 22.543,
+     "end": 23.133
     },
     {
-     "word": "2000.",
-     "start": 29.752,
-     "end": 30.055
+     "word": "dollars",
+     "start": 23.133,
+     "end": 23.664
+    },
+    {
+     "word": "per",
+     "start": 23.664,
+     "end": 23.959
+    },
+    {
+     "word": "person.",
+     "start": 23.959,
+     "end": 24.431
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "Today? Almost fourteen thousand. Forty-three times more.",
+   "props": {},
+   "start": 24.541,
+   "end": 27.699,
+   "words": [
+    {
+     "word": "Today?",
+     "start": 24.571,
+     "end": 24.93
+    },
+    {
+     "word": "Almost",
+     "start": 24.93,
+     "end": 25.341
+    },
+    {
+     "word": "fourteen",
+     "start": 25.341,
+     "end": 25.854
+    },
+    {
+     "word": "thousand.",
+     "start": 25.854,
+     "end": 26.366
+    },
+    {
+     "word": "Forty-three",
+     "start": 26.366,
+     "end": 26.982
+    },
+    {
+     "word": "times",
+     "start": 26.982,
+     "end": 27.341
+    },
+    {
+     "word": "more.",
+     "start": 27.341,
+     "end": 27.649
     }
    ]
   },
@@ -840,38 +694,38 @@
    "scene": "outro",
    "text": "Follow for more money, mapped.",
    "props": {},
-   "start": 30.165,
-   "end": 31.808,
+   "start": 27.759,
+   "end": 29.401,
    "words": [
     {
      "word": "Follow",
-     "start": 30.195,
-     "end": 30.563
+     "start": 27.789,
+     "end": 28.156
     },
     {
      "word": "for",
-     "start": 30.563,
-     "end": 30.793
+     "start": 28.156,
+     "end": 28.386
     },
     {
      "word": "more",
-     "start": 30.793,
-     "end": 31.069
+     "start": 28.386,
+     "end": 28.662
     },
     {
      "word": "money,",
-     "start": 31.069,
-     "end": 31.39
+     "start": 28.662,
+     "end": 28.984
     },
     {
      "word": "mapped.",
-     "start": 31.39,
-     "end": 31.758
+     "start": 28.984,
+     "end": 29.351
     }
    ]
   }
  ],
- "durationInFrames": 975,
+ "durationInFrames": 902,
  "fps": 30,
  "aligned": false
 }
