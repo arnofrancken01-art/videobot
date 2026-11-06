@@ -1,29 +1,33 @@
-import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
 import { theme } from "../theme";
-import { SceneProps, fadeUp, money, usePop } from "./common";
+import { Burger, SceneProps, money, slam, usePop, wordFrame } from "./common";
 
-const Card: React.FC<{ label: string; value: number; color: string; delay: number }> = ({ label, value, color, delay }) => {
-  const f = useCurrentFrame();
-  const p = usePop(delay);
-  const v = interpolate(f, [delay, delay + 30], [0, value], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+const Card: React.FC<{ label: string; value: number; color: string; at: number }> = ({ label, value, color, at }) => {
+  const p = usePop(at, 260);
   return (
-    <div style={{ ...fadeUp(p), background: theme.bgSoft, borderRadius: 36, padding: "50px 40px", width: 440, textAlign: "center", border: `4px solid ${color}` }}>
-      <div style={{ color: theme.muted, fontSize: 44, fontWeight: 700 }}>{label}</div>
-      <div style={{ color, fontSize: 130, fontWeight: 900, letterSpacing: -4 }}>{money(v)}</div>
+    <div style={{
+      ...slam(p), background: theme.bgSoft, borderRadius: 40, padding: "34px 56px", width: 860, gap: 30,
+      display: "flex", justifyContent: "space-between", alignItems: "center", border: `5px solid ${color}`,
+      boxShadow: `0 0 80px ${color}33`,
+    }}>
+      <div style={{ color: theme.text, fontSize: 56, fontWeight: 800 }}>{label}</div>
+      <div style={{ color, fontSize: 120, fontWeight: 900, letterSpacing: -4 }}>{money(value)}</div>
     </div>
   );
 };
 
-export const Versus: React.FC<SceneProps> = ({ segs, data, fps }) => {
-  const { left, right } = segs[0].props as { left: string; right: string };
-  const l = data.bars.find((b) => b.code === left)!;
-  const r = data.bars.find((b) => b.code === right)!;
-  const rDelay = Math.round((segs[0].words.find((w) => w.word.startsWith("less"))?.start ?? segs[0].start + 2) * fps - segs[0].start * fps);
+// Hook: burger staat er meteen, prijzen slaan in op het moment dat ze uitgesproken worden.
+export const Versus: React.FC<SceneProps> = ({ segs, data, fps, offset }) => {
+  const burger = usePop(0, 200);
+  const cards = segs.flatMap((s) =>
+    Object.entries((s.props as unknown as { at: Record<string, string> }).at).map(([code, word]) => ({ code, at: wordFrame(s, word, fps, offset) })),
+  );
   return (
-    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 50, paddingBottom: 480, flexDirection: "column" }}>
-      <Card label={l.label} value={l.value} color={theme.warm} delay={6} />
-      <div style={{ color: theme.muted, fontSize: 60, fontWeight: 900 }}>vs</div>
-      <Card label={r.label} value={r.value} color={theme.accent} delay={rDelay} />
-    </AbsoluteFill>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 40 }}>
+      <div style={{ transform: `scale(${burger}) rotate(${(1 - burger) * -20}deg)` }}><Burger size={380} /></div>
+      {cards.map((c, i) => {
+        const b = data.bars.find((x) => x.code === c.code)!;
+        return <Card key={c.code} label={b.label} value={b.value} color={i === 0 ? theme.warm : theme.accent} at={c.at} />;
+      })}
+    </div>
   );
 };

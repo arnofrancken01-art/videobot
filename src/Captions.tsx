@@ -1,27 +1,44 @@
-import { useCurrentFrame } from "remotion";
+import { interpolate, spring, useCurrentFrame } from "remotion";
 import { theme } from "./theme";
 import type { Seg } from "./Video";
 
-// Toont 3-4 woorden tegelijk, het gesproken woord licht op.
+type W = { word: string; start: number; end: number };
+
+// Maximaal 3 woorden per blok; een nieuw blok begint na een leesteken.
+const chunk = (words: W[]) => {
+  const out: W[][] = [];
+  let cur: W[] = [];
+  for (const w of words) {
+    cur.push(w);
+    if (cur.length === 3 || /[.,?!:;]$/.test(w.word)) { out.push(cur); cur = []; }
+  }
+  if (cur.length) out.push(cur);
+  return out;
+};
+
 export const Captions: React.FC<{ segments: Seg[]; fps: number }> = ({ segments, fps }) => {
-  const t = useCurrentFrame() / fps;
-  const seg = segments.find((s) => t >= s.start && t <= s.end + 0.2);
-  if (!seg) return null;
-  const words = seg.words;
-  const idx = Math.max(0, words.findIndex((w) => t < w.end));
-  const chunk = Math.floor(idx / 4) * 4;
-  const shown = words.slice(chunk, chunk + 4);
+  const f = useCurrentFrame();
+  const t = f / fps;
+  const chunks = segments.flatMap((s) => chunk(s.words));
+  const ci = chunks.findIndex((c, i) => t >= c[0].start && t < (chunks[i + 1]?.[0].start ?? c[c.length - 1].end + 0.3));
+  if (ci < 0) return null;
+  const c = chunks[ci];
+  const startF = Math.round(c[0].start * fps);
+  const p = spring({ frame: f - startF, fps, config: { damping: 12, stiffness: 300, mass: 0.4 } });
   return (
-    <div style={{ position: "absolute", top: 1330, width: "100%", padding: "0 80px", textAlign: "center", lineHeight: 1.15 }}>
-      {shown.map((w, i) => {
-        const active = chunk + i === idx;
+    <div style={{
+      position: "absolute", top: 1330, width: "100%", padding: "0 70px", textAlign: "center",
+      transform: `scale(${interpolate(p, [0, 1], [0.7, 1])})`, opacity: Math.min(1, p * 3),
+    }}>
+      {c.map((w, i) => {
+        const active = t >= w.start && t < (c[i + 1]?.start ?? w.end + 0.3);
         return (
           <span key={i} style={{
-            fontSize: 72, fontWeight: 900, margin: "0 16px", display: "inline-block",
+            fontSize: 92, fontWeight: 900, margin: "0 14px", display: "inline-block", letterSpacing: -1,
             color: active ? theme.accent : theme.text,
-            transform: active ? "scale(1.08)" : "none",
-            textShadow: "0 4px 18px rgba(0,0,0,0.6)",
-          }}>{w.word}</span>
+            WebkitTextStroke: "3px rgba(0,0,0,0.35)",
+            textShadow: "0 6px 24px rgba(0,0,0,0.7)",
+          }}>{w.word.toUpperCase().replace(/[.,!:;]$/, "")}</span>
         );
       })}
     </div>

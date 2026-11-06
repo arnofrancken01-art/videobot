@@ -1,14 +1,19 @@
-import { AbsoluteFill } from "remotion";
+import { useCurrentFrame } from "remotion";
 import { theme } from "../theme";
-import { SceneProps, fadeUp, usePop } from "./common";
+import { SceneProps, rise, slam, usePop } from "./common";
 
 export const Outro: React.FC<SceneProps> = () => {
-  const p = usePop(0);
+  const f = useCurrentFrame();
+  const p = usePop(0, 220);
+  const p2 = usePop(8);
   return (
-    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", paddingBottom: 500 }}>
-      <div style={{ ...fadeUp(p), fontSize: 120, fontWeight: 900, color: theme.text, letterSpacing: -3, textAlign: "center", lineHeight: 1 }}>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 50 }}>
+      <div style={{ ...slam(p), fontSize: 150, fontWeight: 900, color: theme.text, letterSpacing: -5, textAlign: "center", lineHeight: 0.95 }}>
         MONEY,<br /><span style={{ color: theme.accent }}>MAPPED.</span>
       </div>
-    </AbsoluteFill>
+      <div style={{ ...rise(p2), transform: `scale(${1 + 0.04 * Math.sin(f / 4)})`, padding: "18px 50px", borderRadius: 999, border: `4px solid ${theme.accent}`, color: theme.accent, fontSize: 48, fontWeight: 800 }}>
+        Follow for more
+      </div>
+    </div>
   );
 };

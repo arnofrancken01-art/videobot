@@ -1,0 +1,45 @@
+name: Render video
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Pad naar het episode-bestand"
+        default: "episodes/ep001.json"
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Modellen cachen
+        uses: actions/cache@v4
+        with:
+          path: models
+          key: kokoro-v1.0
+      - run: npm ci
+      - run: pip install -r requirements.txt faster-whisper==1.1.1
+      - name: Kokoro-model downloaden
+        run: test -f models/kokoro-v1.0.onnx || npm run models
+      - name: Stem maken
+        run: python scripts/tts.py "${{ inputs.episode }}"
+      - name: Woordtiming uitlijnen met Whisper
+        run: python scripts/align.py
+      - name: Video renderen
+        run: npx remotion render src/index.ts Short out/video.mp4 --concurrency=2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video
+          path: |
+            out/video.mp4
+            src/timeline.json
+          retention-days: 14

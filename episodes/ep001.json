@@ -246,32 +246,42 @@
  },
  "segments": [
   {
-   "scene": "hook",
-   "text": "A Big Mac is the same burger everywhere.",
+   "scene": "versus",
+   "text": "This exact burger costs nine dollars in Switzerland.",
    "props": {
-    "title": "SAME BURGER."
+    "show": [
+     "CHE"
+    ],
+    "at": {
+     "CHE": "nine"
+    }
    }
   },
   {
    "scene": "versus",
-   "text": "So why does it cost nine dollars in Switzerland, and less than two fifty in Indonesia?",
+   "text": "In Indonesia? Two thirty-eight.",
    "props": {
-    "left": "CHE",
-    "right": "IDN"
+    "show": [
+     "CHE",
+     "IDN"
+    ],
+    "at": {
+     "IDN": "Two"
+    }
    }
   },
   {
    "scene": "bars",
-   "text": "Here's what one Big Mac costs in U.S. dollars, as of July 2026.",
+   "text": "Here's what one Big Mac costs, in dollars, around the world.",
    "props": {
-    "reveal": 0
+    "reveal": 11
    }
   },
   {
    "scene": "bars",
-   "text": "Indonesia: two thirty-eight. Taiwan: two forty-two. The Philippines: two seventy-four.",
+   "text": "Indonesia, Taiwan and the Philippines are the cheapest.",
    "props": {
-    "reveal": 5,
+    "reveal": 11,
     "highlight": [
      "IDN",
      "TWN",
@@ -281,9 +291,9 @@
   },
   {
    "scene": "bars",
-   "text": "The United States sits in the middle, at six twenty-two. The euro area pays seven oh eight.",
+   "text": "America pays six twenty-two. The euro area, seven oh eight.",
    "props": {
-    "reveal": 7,
+    "reveal": 11,
     "highlight": [
      "USA",
      "EUZ"
@@ -292,7 +302,7 @@
   },
   {
    "scene": "bars",
-   "text": "And the most expensive: Norway at eight oh five, Uruguay at eight ninety-four, and Switzerland at nine oh four.",
+   "text": "And the top? Norway, Uruguay, and Switzerland.",
    "props": {
     "reveal": 11,
     "highlight": [
@@ -303,26 +313,25 @@
    }
   },
   {
-   "scene": "bignumber",
-   "text": "That's almost four times the price, for the exact same burger.",
+   "scene": "times",
+   "text": "That's almost four times more, for the exact same burger.",
    "props": {
     "value": 3.8,
-    "suffix": "x",
     "caption": "Switzerland vs Indonesia"
    }
   },
   {
-   "scene": "bignumber",
-   "text": "The Economist calls this the Big Mac Index. By that logic, the Indonesian rupiah is about sixty-two percent undervalued against the dollar.",
+   "scene": "undervalued",
+   "text": "Economists call this the Big Mac Index. It says the Indonesian rupiah is sixty-two percent undervalued.",
    "props": {
     "value": -62,
-    "suffix": "%",
-    "caption": "Indonesian rupiah vs US dollar"
+    "code": "IDN",
+    "base": "USA"
    }
   },
   {
    "scene": "line",
-   "text": "And in America itself? In 2000, a Big Mac cost two twenty-four. Today, six twenty-two.",
+   "text": "And even in America, the price nearly tripled since 2000.",
    "props": {}
   },
   {
