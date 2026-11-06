@@ -1,0 +1,731 @@
+{
+ "id": "ep002",
+ "title": "The richest country is 629x richer per person than the poorest",
+ "source": "World Bank, GDP per capita in current US dollars (2025), data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+ "voice": "af_heart",
+ "hashtags": [
+  "money",
+  "economy",
+  "richestcountries",
+  "china",
+  "dataviz"
+ ],
+ "segments": [
+  {
+   "scene": "versus",
+   "text": "The average person in Luxembourg produces a hundred forty-seven thousand dollars a year.",
+   "props": {
+    "icon": "globe",
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 0
+    },
+    "item": {
+     "label": "Luxembourg",
+     "value": 147
+    },
+    "at": "hundred"
+   },
+   "start": 0.1,
+   "end": 4.985,
+   "words": [
+    {
+     "word": "The",
+     "start": 0.0,
+     "end": 0.18
+    },
+    {
+     "word": "average",
+     "start": 0.18,
+     "end": 0.38
+    },
+    {
+     "word": "person",
+     "start": 0.38,
+     "end": 0.96
+    },
+    {
+     "word": "in",
+     "start": 0.96,
+     "end": 1.18
+    },
+    {
+     "word": "Luxembourg",
+     "start": 1.18,
+     "end": 1.38
+    },
+    {
+     "word": "produces",
+     "start": 1.38,
+     "end": 2.36
+    },
+    {
+     "word": "a",
+     "start": 2.36,
+     "end": 2.72
+    },
+    {
+     "word": "hundred",
+     "start": 2.72,
+     "end": 3.08
+    },
+    {
+     "word": "forty-seven",
+     "start": 3.08,
+     "end": 3.44
+    },
+    {
+     "word": "thousand",
+     "start": 3.44,
+     "end": 3.8
+    },
+    {
+     "word": "dollars",
+     "start": 3.8,
+     "end": 4.16
+    },
+    {
+     "word": "a",
+     "start": 4.16,
+     "end": 4.62
+    },
+    {
+     "word": "year.",
+     "start": 4.62,
+     "end": 4.82
+    }
+   ]
+  },
+  {
+   "scene": "versus",
+   "text": "In Burundi? Two hundred thirty-four.",
+   "props": {
+    "format": {
+     "prefix": "$"
+    },
+    "item": {
+     "label": "Burundi",
+     "value": 234
+    },
+    "at": "two"
+   },
+   "start": 5.045,
+   "end": 7.008,
+   "words": [
+    {
+     "word": "In",
+     "start": 5.12,
+     "end": 5.14
+    },
+    {
+     "word": "Burundi?",
+     "start": 5.14,
+     "end": 5.6
+    },
+    {
+     "word": "Two",
+     "start": 5.6,
+     "end": 6.1
+    },
+    {
+     "word": "hundred",
+     "start": 6.1,
+     "end": 6.6
+    },
+    {
+     "word": "thirty-four.",
+     "start": 6.6,
+     "end": 7.1
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "That's six hundred twenty-nine times more, per person.",
+   "props": {
+    "value": 629,
+    "format": {
+     "suffix": "x"
+    },
+    "caption": "GDP per person, Luxembourg vs Burundi, 2025",
+    "at": "six",
+    "compare": {
+     "format": {
+      "prefix": "$"
+     },
+     "items": [
+      {
+       "label": "Burundi",
+       "value": 234
+      },
+      {
+       "label": "Luxembourg",
+       "value": 147252
+      }
+     ]
+    }
+   },
+   "start": 7.068,
+   "end": 9.799,
+   "words": [
+    {
+     "word": "That's",
+     "start": 7.1,
+     "end": 7.26
+    },
+    {
+     "word": "six",
+     "start": 7.26,
+     "end": 7.473
+    },
+    {
+     "word": "hundred",
+     "start": 7.473,
+     "end": 7.687
+    },
+    {
+     "word": "twenty-nine",
+     "start": 7.687,
+     "end": 7.9
+    },
+    {
+     "word": "times",
+     "start": 7.9,
+     "end": 8.4
+    },
+    {
+     "word": "more,",
+     "start": 8.4,
+     "end": 8.78
+    },
+    {
+     "word": "per",
+     "start": 8.78,
+     "end": 9.18
+    },
+    {
+     "word": "person.",
+     "start": 9.18,
+     "end": 9.54
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "These are the richest countries on Earth, per person.",
+   "props": {
+    "title": "GDP per person, 2025",
+    "subtitle": "thousands of US dollars",
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 1
+    },
+    "items": [
+     {
+      "label": "Luxembourg",
+      "value": 147.3
+     },
+     {
+      "label": "Ireland",
+      "value": 131.6
+     },
+     {
+      "label": "Switzerland",
+      "value": 114.8
+     },
+     {
+      "label": "Singapore",
+      "value": 98.8
+     },
+     {
+      "label": "Iceland",
+      "value": 98.3
+     },
+     {
+      "label": "Norway",
+      "value": 94.6
+     },
+     {
+      "label": "United States",
+      "value": 90.0
+     },
+     {
+      "label": "Denmark",
+      "value": 77.0
+     }
+    ]
+   },
+   "start": 9.859,
+   "end": 12.333,
+   "words": [
+    {
+     "word": "These",
+     "start": 9.9,
+     "end": 9.98
+    },
+    {
+     "word": "are",
+     "start": 9.98,
+     "end": 10.16
+    },
+    {
+     "word": "the",
+     "start": 10.16,
+     "end": 10.24
+    },
+    {
+     "word": "richest",
+     "start": 10.24,
+     "end": 10.46
+    },
+    {
+     "word": "countries",
+     "start": 10.46,
+     "end": 10.76
+    },
+    {
+     "word": "on",
+     "start": 10.76,
+     "end": 11.1
+    },
+    {
+     "word": "Earth,",
+     "start": 11.1,
+     "end": 11.32
+    },
+    {
+     "word": "per",
+     "start": 11.32,
+     "end": 11.7
+    },
+    {
+     "word": "person.",
+     "start": 11.7,
+     "end": 12.12
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "Luxembourg and Ireland lead, boosted by cross-border workers and global companies.",
+   "props": {
+    "highlight": [
+     "Luxembourg",
+     "Ireland"
+    ]
+   },
+   "start": 12.393,
+   "end": 17.065,
+   "words": [
+    {
+     "word": "Luxembourg",
+     "start": 12.42,
+     "end": 12.58
+    },
+    {
+     "word": "and",
+     "start": 12.58,
+     "end": 13.2
+    },
+    {
+     "word": "Ireland",
+     "start": 13.2,
+     "end": 13.48
+    },
+    {
+     "word": "lead,",
+     "start": 13.48,
+     "end": 13.82
+    },
+    {
+     "word": "boosted",
+     "start": 14.5,
+     "end": 14.68
+    },
+    {
+     "word": "by",
+     "start": 14.68,
+     "end": 14.82
+    },
+    {
+     "word": "cross-border",
+     "start": 14.82,
+     "end": 15.36
+    },
+    {
+     "word": "workers",
+     "start": 15.36,
+     "end": 15.74
+    },
+    {
+     "word": "and",
+     "start": 15.74,
+     "end": 16.08
+    },
+    {
+     "word": "global",
+     "start": 16.08,
+     "end": 16.28
+    },
+    {
+     "word": "companies.",
+     "start": 16.28,
+     "end": 16.72
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "America, at ninety thousand, is only seventh.",
+   "props": {
+    "highlight": [
+     "United States"
+    ]
+   },
+   "start": 17.125,
+   "end": 19.621,
+   "words": [
+    {
+     "word": "America,",
+     "start": 17.16,
+     "end": 17.42
+    },
+    {
+     "word": "at",
+     "start": 17.42,
+     "end": 17.76
+    },
+    {
+     "word": "ninety",
+     "start": 17.76,
+     "end": 18.09
+    },
+    {
+     "word": "thousand,",
+     "start": 18.09,
+     "end": 18.42
+    },
+    {
+     "word": "is",
+     "start": 18.42,
+     "end": 18.82
+    },
+    {
+     "word": "only",
+     "start": 18.82,
+     "end": 18.98
+    },
+    {
+     "word": "seventh.",
+     "start": 18.98,
+     "end": 19.28
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "Now look at China. In 1990, three hundred nineteen dollars per person.",
+   "props": {
+    "title": "China, GDP per person",
+    "subtitle": "1990 to 2025, US dollars",
+    "format": {
+     "prefix": "$"
+    },
+    "series": [
+     [
+      1990,
+      319
+     ],
+     [
+      1991,
+      334
+     ],
+     [
+      1992,
+      368
+     ],
+     [
+      1993,
+      379
+     ],
+     [
+      1994,
+      476
+     ],
+     [
+      1995,
+      613
+     ],
+     [
+      1996,
+      713
+     ],
+     [
+      1997,
+      787
+     ],
+     [
+      1998,
+      835
+     ],
+     [
+      1999,
+      881
+     ],
+     [
+      2000,
+      969
+     ],
+     [
+      2001,
+      1065
+     ],
+     [
+      2002,
+      1164
+     ],
+     [
+      2003,
+      1307
+     ],
+     [
+      2004,
+      1531
+     ],
+     [
+      2005,
+      1778
+     ],
+     [
+      2006,
+      2129
+     ],
+     [
+      2007,
+      2735
+     ],
+     [
+      2008,
+      3523
+     ],
+     [
+      2009,
+      3898
+     ],
+     [
+      2010,
+      4629
+     ],
+     [
+      2011,
+      5704
+     ],
+     [
+      2012,
+      6405
+     ],
+     [
+      2013,
+      7147
+     ],
+     [
+      2014,
+      7781
+     ],
+     [
+      2015,
+      8175
+     ],
+     [
+      2016,
+      8255
+     ],
+     [
+      2017,
+      8980
+     ],
+     [
+      2018,
+      10086
+     ],
+     [
+      2019,
+      10343
+     ],
+     [
+      2020,
+      10627
+     ],
+     [
+      2021,
+      12887
+     ],
+     [
+      2022,
+      12971
+     ],
+     [
+      2023,
+      12951
+     ],
+     [
+      2024,
+      13293
+     ],
+     [
+      2025,
+      13862
+     ]
+    ],
+    "badge": "43x since 1990"
+   },
+   "start": 19.681,
+   "end": 24.481,
+   "words": [
+    {
+     "word": "Now",
+     "start": 19.76,
+     "end": 19.82
+    },
+    {
+     "word": "look",
+     "start": 19.82,
+     "end": 20.08
+    },
+    {
+     "word": "at",
+     "start": 20.08,
+     "end": 20.22
+    },
+    {
+     "word": "China.",
+     "start": 20.22,
+     "end": 20.4
+    },
+    {
+     "word": "In",
+     "start": 21.22,
+     "end": 21.22
+    },
+    {
+     "word": "1990,",
+     "start": 21.22,
+     "end": 21.56
+    },
+    {
+     "word": "three",
+     "start": 21.56,
+     "end": 21.9
+    },
+    {
+     "word": "hundred",
+     "start": 21.9,
+     "end": 22.24
+    },
+    {
+     "word": "nineteen",
+     "start": 22.24,
+     "end": 22.58
+    },
+    {
+     "word": "dollars",
+     "start": 22.58,
+     "end": 22.92
+    },
+    {
+     "word": "per",
+     "start": 22.92,
+     "end": 23.84
+    },
+    {
+     "word": "person.",
+     "start": 23.84,
+     "end": 24.18
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "Today? Almost fourteen thousand. Forty-three times more.",
+   "props": {},
+   "start": 24.541,
+   "end": 27.699,
+   "words": [
+    {
+     "word": "Today?",
+     "start": 24.58,
+     "end": 24.76
+    },
+    {
+     "word": "Almost",
+     "start": 24.98,
+     "end": 25.24
+    },
+    {
+     "word": "fourteen",
+     "start": 25.24,
+     "end": 25.733
+    },
+    {
+     "word": "thousand.",
+     "start": 25.733,
+     "end": 26.227
+    },
+    {
+     "word": "Forty-three",
+     "start": 26.227,
+     "end": 26.72
+    },
+    {
+     "word": "times",
+     "start": 26.72,
+     "end": 27.18
+    },
+    {
+     "word": "more.",
+     "start": 27.18,
+     "end": 27.46
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Follow for more money, mapped.",
+   "props": {},
+   "start": 27.759,
+   "end": 29.401,
+   "words": [
+    {
+     "word": "Follow",
+     "start": 27.46,
+     "end": 28.04
+    },
+    {
+     "word": "for",
+     "start": 28.04,
+     "end": 28.26
+    },
+    {
+     "word": "more",
+     "start": 28.26,
+     "end": 28.4
+    },
+    {
+     "word": "money,",
+     "start": 28.4,
+     "end": 28.68
+    },
+    {
+     "word": "mapped.",
+     "start": 28.68,
+     "end": 29.08
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 902,
+ "fps": 30,
+ "aligned": true
+}
