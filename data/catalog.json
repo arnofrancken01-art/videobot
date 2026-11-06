@@ -1,0 +1,174 @@
+{
+ "worldbank": {
+  "NY.GDP.PCAP.CD": {
+   "name": "GDP per person",
+   "unit": "US dollars",
+   "file": "data/worldbank/NY.GDP.PCAP.CD.csv",
+   "rows": 7401,
+   "latest_year": 2025,
+   "source": "World Bank, indicator NY.GDP.PCAP.CD",
+   "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD"
+  },
+  "NY.GDP.PCAP.PP.CD": {
+   "name": "GDP per person, adjusted for prices (PPP)",
+   "unit": "international dollars",
+   "file": "data/worldbank/NY.GDP.PCAP.PP.CD.csv",
+   "rows": 7020,
+   "latest_year": 2025,
+   "source": "World Bank, indicator NY.GDP.PCAP.PP.CD",
+   "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD"
+  },
+  "NY.GDP.MKTP.CD": {
+   "name": "Total GDP",
+   "unit": "US dollars",
+   "file": "data/worldbank/NY.GDP.MKTP.CD.csv",
+   "rows": 7401,
+   "latest_year": 2025,
+   "source": "World Bank, indicator NY.GDP.MKTP.CD",
+   "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
+  },
+  "FP.CPI.TOTL.ZG": {
+   "name": "Inflation, consumer prices",
+   "unit": "% per year",
+   "file": "data/worldbank/FP.CPI.TOTL.ZG.csv",
+   "rows": 6193,
+   "latest_year": 2025,
+   "source": "World Bank, indicator FP.CPI.TOTL.ZG",
+   "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+  },
+  "SL.UEM.TOTL.ZS": {
+   "name": "Unemployment",
+   "unit": "% of labour force",
+   "file": "data/worldbank/SL.UEM.TOTL.ZS.csv",
+   "rows": 6531,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SL.UEM.TOTL.ZS",
+   "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS"
+  },
+  "SP.DYN.LE00.IN": {
+   "name": "Life expectancy at birth",
+   "unit": "years",
+   "file": "data/worldbank/SP.DYN.LE00.IN.csv",
+   "rows": 7595,
+   "latest_year": 2024,
+   "source": "World Bank, indicator SP.DYN.LE00.IN",
+   "url": "https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+  },
+  "GC.TAX.TOTL.GD.ZS": {
+   "name": "Tax revenue",
+   "unit": "% of GDP",
+   "file": "data/worldbank/GC.TAX.TOTL.GD.ZS.csv",
+   "rows": 3881,
+   "latest_year": 2024,
+   "source": "World Bank, indicator GC.TAX.TOTL.GD.ZS",
+   "url": "https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS"
+  },
+  "GC.DOD.TOTL.GD.ZS": {
+   "name": "Central government debt",
+   "unit": "% of GDP",
+   "file": "data/worldbank/GC.DOD.TOTL.GD.ZS.csv",
+   "rows": 1646,
+   "latest_year": 2024,
+   "source": "World Bank, indicator GC.DOD.TOTL.GD.ZS",
+   "url": "https://data.worldbank.org/indicator/GC.DOD.TOTL.GD.ZS"
+  },
+  "SI.POV.GINI": {
+   "name": "Income inequality (Gini index)",
+   "unit": "0-100",
+   "file": "data/worldbank/SI.POV.GINI.csv",
+   "rows": 2245,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SI.POV.GINI",
+   "url": "https://data.worldbank.org/indicator/SI.POV.GINI"
+  },
+  "SH.XPD.CHEX.PC.CD": {
+   "name": "Health spending per person",
+   "unit": "US dollars",
+   "file": "data/worldbank/SH.XPD.CHEX.PC.CD.csv",
+   "rows": 4559,
+   "latest_year": 2024,
+   "source": "World Bank, indicator SH.XPD.CHEX.PC.CD",
+   "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD"
+  },
+  "SE.XPD.TOTL.GD.ZS": {
+   "name": "Education spending",
+   "unit": "% of GDP",
+   "file": "data/worldbank/SE.XPD.TOTL.GD.ZS.csv",
+   "rows": 4053,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SE.XPD.TOTL.GD.ZS",
+   "url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS"
+  },
+  "MS.MIL.XPND.GD.ZS": {
+   "name": "Military spending",
+   "unit": "% of GDP",
+   "file": "data/worldbank/MS.MIL.XPND.GD.ZS.csv",
+   "rows": 5334,
+   "latest_year": 2025,
+   "source": "World Bank, indicator MS.MIL.XPND.GD.ZS",
+   "url": "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS"
+  },
+  "BX.TRF.PWKR.CD.DT": {
+   "name": "Money sent home by migrants (remittances received)",
+   "unit": "US dollars",
+   "file": "data/worldbank/BX.TRF.PWKR.CD.DT.csv",
+   "rows": 5754,
+   "latest_year": 2025,
+   "source": "World Bank, indicator BX.TRF.PWKR.CD.DT",
+   "url": "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+  },
+  "NY.GNS.ICTR.ZS": {
+   "name": "Gross savings",
+   "unit": "% of GDP",
+   "file": "data/worldbank/NY.GNS.ICTR.ZS.csv",
+   "rows": 5090,
+   "latest_year": 2025,
+   "source": "World Bank, indicator NY.GNS.ICTR.ZS",
+   "url": "https://data.worldbank.org/indicator/NY.GNS.ICTR.ZS"
+  },
+  "PA.NUS.FCRF": {
+   "name": "Exchange rate",
+   "unit": "local currency per US dollar",
+   "file": "data/worldbank/PA.NUS.FCRF.csv",
+   "rows": 7318,
+   "latest_year": 2025,
+   "source": "World Bank, indicator PA.NUS.FCRF",
+   "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF"
+  },
+  "SP.POP.TOTL": {
+   "name": "Population",
+   "unit": "people",
+   "file": "data/worldbank/SP.POP.TOTL.csv",
+   "rows": 7812,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SP.POP.TOTL",
+   "url": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "NE.CON.PRVT.PC.KD": {
+   "name": "Household spending per person",
+   "unit": "constant 2015 US dollars",
+   "file": "data/worldbank/NE.CON.PRVT.PC.KD.csv",
+   "rows": 5205,
+   "latest_year": 2025,
+   "source": "World Bank, indicator NE.CON.PRVT.PC.KD",
+   "url": "https://data.worldbank.org/indicator/NE.CON.PRVT.PC.KD"
+  },
+  "IT.NET.USER.ZS": {
+   "name": "Internet users",
+   "unit": "% of population",
+   "file": "data/worldbank/IT.NET.USER.ZS.csv",
+   "rows": 6224,
+   "latest_year": 2025,
+   "source": "World Bank, indicator IT.NET.USER.ZS",
+   "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+  }
+ },
+ "other": {
+  "bigmac": {
+   "name": "Big Mac Index (price of a Big Mac per country, in local currency and US dollars)",
+   "file": "data/bigmac.csv",
+   "source": "The Economist, Big Mac Index",
+   "url": "https://github.com/TheEconomist/big-mac-data"
+  }
+ }
+}
