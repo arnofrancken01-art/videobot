@@ -1,0 +1,831 @@
+{
+ "id": "ep001-big-mac-world",
+ "title": "Same burger, 4x the price: the Big Mac around the world",
+ "source": "The Economist, Big Mac Index (July 2026), github.com/TheEconomist/big-mac-data",
+ "voice": "af_heart",
+ "data": {
+  "bars": [
+   {
+    "code": "IDN",
+    "label": "Indonesia",
+    "value": 2.38
+   },
+   {
+    "code": "TWN",
+    "label": "Taiwan",
+    "value": 2.42
+   },
+   {
+    "code": "PHL",
+    "label": "Philippines",
+    "value": 2.74
+   },
+   {
+    "code": "EGY",
+    "label": "Egypt",
+    "value": 2.87
+   },
+   {
+    "code": "VNM",
+    "label": "Vietnam",
+    "value": 2.89
+   },
+   {
+    "code": "USA",
+    "label": "United States",
+    "value": 6.22
+   },
+   {
+    "code": "EUZ",
+    "label": "Euro area",
+    "value": 7.08
+   },
+   {
+    "code": "GBR",
+    "label": "Britain",
+    "value": 7.4
+   },
+   {
+    "code": "NOR",
+    "label": "Norway",
+    "value": 8.05
+   },
+   {
+    "code": "URY",
+    "label": "Uruguay",
+    "value": 8.94
+   },
+   {
+    "code": "CHE",
+    "label": "Switzerland",
+    "value": 9.04
+   }
+  ],
+  "usSeries": [
+   {
+    "date": "2000-04",
+    "value": 2.24
+   },
+   {
+    "date": "2001-04",
+    "value": 2.24
+   },
+   {
+    "date": "2002-04",
+    "value": 2.35
+   },
+   {
+    "date": "2003-04",
+    "value": 2.46
+   },
+   {
+    "date": "2004-05",
+    "value": 2.47
+   },
+   {
+    "date": "2005-06",
+    "value": 2.58
+   },
+   {
+    "date": "2006-01",
+    "value": 2.67
+   },
+   {
+    "date": "2006-05",
+    "value": 2.78
+   },
+   {
+    "date": "2007-01",
+    "value": 2.89
+   },
+   {
+    "date": "2007-06",
+    "value": 3.0
+   },
+   {
+    "date": "2008-06",
+    "value": 3.21
+   },
+   {
+    "date": "2009-07",
+    "value": 3.43
+   },
+   {
+    "date": "2010-01",
+    "value": 3.43
+   },
+   {
+    "date": "2010-07",
+    "value": 3.53
+   },
+   {
+    "date": "2011-07",
+    "value": 3.64
+   },
+   {
+    "date": "2012-01",
+    "value": 3.81
+   },
+   {
+    "date": "2012-07",
+    "value": 3.96
+   },
+   {
+    "date": "2013-01",
+    "value": 4.03
+   },
+   {
+    "date": "2013-07",
+    "value": 4.18
+   },
+   {
+    "date": "2014-01",
+    "value": 4.24
+   },
+   {
+    "date": "2014-07",
+    "value": 4.29
+   },
+   {
+    "date": "2015-01",
+    "value": 4.29
+   },
+   {
+    "date": "2015-07",
+    "value": 4.29
+   },
+   {
+    "date": "2016-01",
+    "value": 4.29
+   },
+   {
+    "date": "2016-07",
+    "value": 4.5
+   },
+   {
+    "date": "2017-01",
+    "value": 4.5
+   },
+   {
+    "date": "2017-07",
+    "value": 4.5
+   },
+   {
+    "date": "2018-01",
+    "value": 4.61
+   },
+   {
+    "date": "2018-07",
+    "value": 4.62
+   },
+   {
+    "date": "2019-01",
+    "value": 4.71
+   },
+   {
+    "date": "2019-07",
+    "value": 4.71
+   },
+   {
+    "date": "2020-01",
+    "value": 4.82
+   },
+   {
+    "date": "2020-07",
+    "value": 4.82
+   },
+   {
+    "date": "2021-01",
+    "value": 4.89
+   },
+   {
+    "date": "2021-07",
+    "value": 4.93
+   },
+   {
+    "date": "2022-01",
+    "value": 5.04
+   },
+   {
+    "date": "2022-07",
+    "value": 5.15
+   },
+   {
+    "date": "2023-01",
+    "value": 5.36
+   },
+   {
+    "date": "2023-07",
+    "value": 5.58
+   },
+   {
+    "date": "2024-01",
+    "value": 5.69
+   },
+   {
+    "date": "2024-07",
+    "value": 5.69
+   },
+   {
+    "date": "2025-01",
+    "value": 5.79
+   },
+   {
+    "date": "2025-07",
+    "value": 6.01
+   },
+   {
+    "date": "2026-01",
+    "value": 6.12
+   },
+   {
+    "date": "2026-07",
+    "value": 6.22
+   }
+  ]
+ },
+ "segments": [
+  {
+   "scene": "versus",
+   "text": "This exact burger costs nine dollars in Switzerland.",
+   "props": {
+    "show": [
+     "CHE"
+    ],
+    "at": {
+     "CHE": "nine"
+    }
+   },
+   "start": 0.1,
+   "end": 2.873,
+   "words": [
+    {
+     "word": "This",
+     "start": 0.0,
+     "end": 0.2
+    },
+    {
+     "word": "exact",
+     "start": 0.2,
+     "end": 0.36
+    },
+    {
+     "word": "burger",
+     "start": 0.36,
+     "end": 0.8
+    },
+    {
+     "word": "costs",
+     "start": 0.8,
+     "end": 1.14
+    },
+    {
+     "word": "nine",
+     "start": 1.14,
+     "end": 1.37
+    },
+    {
+     "word": "dollars",
+     "start": 1.37,
+     "end": 1.6
+    },
+    {
+     "word": "in",
+     "start": 1.6,
+     "end": 2.16
+    },
+    {
+     "word": "Switzerland.",
+     "start": 2.16,
+     "end": 2.44
+    }
+   ]
+  },
+  {
+   "scene": "versus",
+   "text": "In Indonesia? Two thirty-eight.",
+   "props": {
+    "show": [
+     "CHE",
+     "IDN"
+    ],
+    "at": {
+     "IDN": "Two"
+    }
+   },
+   "start": 2.933,
+   "end": 4.683,
+   "words": [
+    {
+     "word": "In",
+     "start": 2.98,
+     "end": 3.0
+    },
+    {
+     "word": "Indonesia?",
+     "start": 3.0,
+     "end": 3.22
+    },
+    {
+     "word": "Two",
+     "start": 3.22,
+     "end": 4.0
+    },
+    {
+     "word": "thirty-eight.",
+     "start": 4.0,
+     "end": 4.78
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "Here's what one Big Mac costs, in dollars, around the world.",
+   "props": {
+    "reveal": 11
+   },
+   "start": 4.743,
+   "end": 7.836,
+   "words": [
+    {
+     "word": "Here's",
+     "start": 4.78,
+     "end": 5.02
+    },
+    {
+     "word": "what",
+     "start": 5.02,
+     "end": 5.1
+    },
+    {
+     "word": "one",
+     "start": 5.1,
+     "end": 5.32
+    },
+    {
+     "word": "Big",
+     "start": 5.32,
+     "end": 5.48
+    },
+    {
+     "word": "Mac",
+     "start": 5.48,
+     "end": 5.72
+    },
+    {
+     "word": "costs,",
+     "start": 5.72,
+     "end": 6.14
+    },
+    {
+     "word": "in",
+     "start": 6.14,
+     "end": 6.36
+    },
+    {
+     "word": "dollars,",
+     "start": 6.36,
+     "end": 6.66
+    },
+    {
+     "word": "around",
+     "start": 6.66,
+     "end": 7.14
+    },
+    {
+     "word": "the",
+     "start": 7.14,
+     "end": 7.38
+    },
+    {
+     "word": "world.",
+     "start": 7.38,
+     "end": 7.62
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "Indonesia, Taiwan and the Philippines are the cheapest.",
+   "props": {
+    "reveal": 11,
+    "highlight": [
+     "IDN",
+     "TWN",
+     "PHL"
+    ]
+   },
+   "start": 7.896,
+   "end": 10.84,
+   "words": [
+    {
+     "word": "Indonesia,",
+     "start": 8.18,
+     "end": 8.18
+    },
+    {
+     "word": "Taiwan",
+     "start": 8.76,
+     "end": 8.9
+    },
+    {
+     "word": "and",
+     "start": 9.36,
+     "end": 9.36
+    },
+    {
+     "word": "the",
+     "start": 9.36,
+     "end": 9.46
+    },
+    {
+     "word": "Philippines",
+     "start": 9.46,
+     "end": 9.72
+    },
+    {
+     "word": "are",
+     "start": 9.72,
+     "end": 10.1
+    },
+    {
+     "word": "the",
+     "start": 10.1,
+     "end": 10.2
+    },
+    {
+     "word": "cheapest.",
+     "start": 10.2,
+     "end": 10.46
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "America pays six twenty-two. The euro area, seven oh eight.",
+   "props": {
+    "reveal": 11,
+    "highlight": [
+     "USA",
+     "EUZ"
+    ]
+   },
+   "start": 10.9,
+   "end": 14.399,
+   "words": [
+    {
+     "word": "America",
+     "start": 10.94,
+     "end": 11.1
+    },
+    {
+     "word": "pays",
+     "start": 11.1,
+     "end": 11.48
+    },
+    {
+     "word": "six",
+     "start": 11.48,
+     "end": 12.1
+    },
+    {
+     "word": "twenty-two.",
+     "start": 12.1,
+     "end": 12.72
+    },
+    {
+     "word": "The",
+     "start": 12.72,
+     "end": 12.8
+    },
+    {
+     "word": "euro",
+     "start": 12.8,
+     "end": 12.96
+    },
+    {
+     "word": "area,",
+     "start": 12.96,
+     "end": 13.32
+    },
+    {
+     "word": "seven",
+     "start": 13.32,
+     "end": 13.687
+    },
+    {
+     "word": "oh",
+     "start": 13.687,
+     "end": 14.053
+    },
+    {
+     "word": "eight.",
+     "start": 14.053,
+     "end": 14.42
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "And the top? Norway, Uruguay, and Switzerland.",
+   "props": {
+    "reveal": 11,
+    "highlight": [
+     "NOR",
+     "URY",
+     "CHE"
+    ]
+   },
+   "start": 14.459,
+   "end": 17.083,
+   "words": [
+    {
+     "word": "And",
+     "start": 14.42,
+     "end": 14.54
+    },
+    {
+     "word": "the",
+     "start": 14.54,
+     "end": 14.64
+    },
+    {
+     "word": "top?",
+     "start": 14.64,
+     "end": 14.84
+    },
+    {
+     "word": "Norway,",
+     "start": 15.22,
+     "end": 15.36
+    },
+    {
+     "word": "Uruguay,",
+     "start": 15.96,
+     "end": 15.96
+    },
+    {
+     "word": "and",
+     "start": 16.32,
+     "end": 16.38
+    },
+    {
+     "word": "Switzerland.",
+     "start": 16.38,
+     "end": 16.62
+    }
+   ]
+  },
+  {
+   "scene": "times",
+   "text": "That's almost four times more, for the exact same burger.",
+   "props": {
+    "value": 3.8,
+    "caption": "Switzerland vs Indonesia"
+   },
+   "start": 17.143,
+   "end": 20.172,
+   "words": [
+    {
+     "word": "That's",
+     "start": 17.22,
+     "end": 17.34
+    },
+    {
+     "word": "almost",
+     "start": 17.34,
+     "end": 17.5
+    },
+    {
+     "word": "four",
+     "start": 17.5,
+     "end": 17.86
+    },
+    {
+     "word": "times",
+     "start": 17.86,
+     "end": 18.14
+    },
+    {
+     "word": "more,",
+     "start": 18.14,
+     "end": 18.46
+    },
+    {
+     "word": "for",
+     "start": 18.74,
+     "end": 18.88
+    },
+    {
+     "word": "the",
+     "start": 18.88,
+     "end": 19.0
+    },
+    {
+     "word": "exact",
+     "start": 19.0,
+     "end": 19.14
+    },
+    {
+     "word": "same",
+     "start": 19.14,
+     "end": 19.56
+    },
+    {
+     "word": "burger.",
+     "start": 19.56,
+     "end": 19.84
+    }
+   ]
+  },
+  {
+   "scene": "undervalued",
+   "text": "Economists call this the Big Mac Index. It says the Indonesian rupiah is sixty-two percent undervalued.",
+   "props": {
+    "value": -62,
+    "code": "IDN",
+    "base": "USA"
+   },
+   "start": 20.232,
+   "end": 26.632,
+   "words": [
+    {
+     "word": "Economists",
+     "start": 20.48,
+     "end": 20.8
+    },
+    {
+     "word": "call",
+     "start": 20.8,
+     "end": 21.04
+    },
+    {
+     "word": "this",
+     "start": 21.04,
+     "end": 21.28
+    },
+    {
+     "word": "the",
+     "start": 21.28,
+     "end": 21.42
+    },
+    {
+     "word": "Big",
+     "start": 21.42,
+     "end": 21.6
+    },
+    {
+     "word": "Mac",
+     "start": 21.6,
+     "end": 21.82
+    },
+    {
+     "word": "Index.",
+     "start": 21.82,
+     "end": 22.12
+    },
+    {
+     "word": "It",
+     "start": 22.9,
+     "end": 22.96
+    },
+    {
+     "word": "says",
+     "start": 22.96,
+     "end": 23.1
+    },
+    {
+     "word": "the",
+     "start": 23.1,
+     "end": 23.3
+    },
+    {
+     "word": "Indonesian",
+     "start": 23.3,
+     "end": 23.68
+    },
+    {
+     "word": "rupiah",
+     "start": 23.68,
+     "end": 24.44
+    },
+    {
+     "word": "is",
+     "start": 24.44,
+     "end": 24.74
+    },
+    {
+     "word": "sixty-two",
+     "start": 24.74,
+     "end": 25.24
+    },
+    {
+     "word": "percent",
+     "start": 25.24,
+     "end": 25.74
+    },
+    {
+     "word": "undervalued.",
+     "start": 25.74,
+     "end": 26.36
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "And even in America, the price nearly tripled since 2000.",
+   "props": {},
+   "start": 26.692,
+   "end": 30.105,
+   "words": [
+    {
+     "word": "And",
+     "start": 26.62,
+     "end": 26.76
+    },
+    {
+     "word": "even",
+     "start": 26.76,
+     "end": 27.0
+    },
+    {
+     "word": "in",
+     "start": 27.0,
+     "end": 27.16
+    },
+    {
+     "word": "America,",
+     "start": 27.16,
+     "end": 27.44
+    },
+    {
+     "word": "the",
+     "start": 27.44,
+     "end": 28.02
+    },
+    {
+     "word": "price",
+     "start": 28.02,
+     "end": 28.22
+    },
+    {
+     "word": "nearly",
+     "start": 28.22,
+     "end": 28.58
+    },
+    {
+     "word": "tripled",
+     "start": 28.58,
+     "end": 28.9
+    },
+    {
+     "word": "since",
+     "start": 28.9,
+     "end": 29.24
+    },
+    {
+     "word": "2000.",
+     "start": 29.24,
+     "end": 29.9
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Follow for more money, mapped.",
+   "props": {},
+   "start": 30.165,
+   "end": 31.808,
+   "words": [
+    {
+     "word": "Follow",
+     "start": 30.44,
+     "end": 30.44
+    },
+    {
+     "word": "for",
+     "start": 30.44,
+     "end": 30.66
+    },
+    {
+     "word": "more",
+     "start": 30.66,
+     "end": 30.8
+    },
+    {
+     "word": "money,",
+     "start": 30.8,
+     "end": 31.12
+    },
+    {
+     "word": "mapped.",
+     "start": 31.32,
+     "end": 31.5
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 975,
+ "fps": 30,
+ "aligned": true
+}
