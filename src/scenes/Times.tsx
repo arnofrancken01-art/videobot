@@ -19,7 +19,7 @@ export const Times: React.FC<SceneProps> = ({ segs, data }) => {
       {Array.from({ length: Math.ceil(count) }).map((_, i) => {
         const p = interpolate(f, [delay + i * 4, delay + i * 4 + 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
         const clip = i + 1 > count ? count - i : 1;
-        return <div key={i} style={{ transform: `scale(${p})` }}><Burger size={150} clip={clip} /></div>;
+        return <div key={i} style={{ transform: `scale(${p})` }}><Burger size={130} clip={clip} /></div>;
       })}
     </div>
   );
