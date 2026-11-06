@@ -5,6 +5,7 @@ Gebruik: python3 scripts/align.py
 """
 import difflib, json, re
 from pathlib import Path
+import numpy as np, soundfile as sf
 from faster_whisper import WhisperModel
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -12,7 +13,11 @@ tl_path = ROOT / "src/timeline.json"
 tl = json.loads(tl_path.read_text())
 
 model = WhisperModel("base.en", device="cpu", compute_type="int8")
-segments, _ = model.transcribe(str(ROOT / "public/voice.wav"), word_timestamps=True, language="en", beam_size=5)
+wav, sr = sf.read(ROOT / "public/voice.wav", dtype="float32")
+# naar 16 kHz mono, wat Whisper verwacht
+n16 = int(len(wav) * 16000 / sr)
+audio16 = np.interp(np.linspace(0, len(wav) - 1, n16), np.arange(len(wav)), wav).astype(np.float32)
+segments, _ = model.transcribe(audio16, word_timestamps=True, language="en", beam_size=5)
 heard = [w for s in segments for w in s.words]
 
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
