@@ -5,8 +5,7 @@ import { Background } from "./Background";
 import { Captions } from "./Captions";
 import { Versus } from "./scenes/Versus";
 import { Bars } from "./scenes/Bars";
-import { Times } from "./scenes/Times";
-import { Undervalued } from "./scenes/Undervalued";
+import { BigNumber } from "./scenes/BigNumber";
 import { LineScene } from "./scenes/LineScene";
 import { Outro } from "./scenes/Outro";
 import type { SceneProps } from "./scenes/common";
@@ -14,14 +13,14 @@ import type { SceneProps } from "./scenes/common";
 export type Seg = (typeof timeline.segments)[number];
 
 const SCENES: Record<string, React.FC<SceneProps>> = {
-  versus: Versus, bars: Bars, times: Times, undervalued: Undervalued, line: LineScene, outro: Outro,
+  versus: Versus, bars: Bars, bignumber: BigNumber, line: LineScene, outro: Outro,
 };
 
 // Opeenvolgende segmenten met dezelfde scene worden 1 doorlopende scene.
 const groups: { scene: string; segs: Seg[] }[] = [];
 for (const s of timeline.segments) {
   const last = groups[groups.length - 1];
-  if (last && last.scene === s.scene) last.segs.push(s);
+  if (last && last.scene === s.scene && ["bars", "versus", "line"].includes(s.scene)) last.segs.push(s);
   else groups.push({ scene: s.scene, segs: [s] });
 }
 
@@ -55,10 +54,11 @@ export const Video: React.FC = () => (
       const next = groups[i + 1];
       const to = next ? Math.round(next.segs[0].start * fps) + OVERLAP : timeline.durationInFrames;
       const Scene = SCENES[g.scene];
+      if (!Scene) throw new Error(`Onbekende scene: ${g.scene}`);
       return (
         <Sequence key={i} from={from} durationInFrames={to - from}>
           <Stage dur={next ? to - from : 99999} first={i === 0}>
-            <Scene segs={g.segs} data={timeline.data} fps={fps} offset={from / fps} />
+            <Scene segs={g.segs} fps={fps} offset={from / fps} />
           </Stage>
         </Sequence>
       );

@@ -1,0 +1,33 @@
+name: Data ophalen
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+concurrency: state
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python scripts/fetch_data.py
+      - name: Data bewaren
+        run: |
+          git config user.name "videobot"
+          git config user.email "videobot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || (git commit -qm "Data bijgewerkt" && git pull -q --rebase && git push -q)
+      - name: Foutmelding naar Telegram
+        if: failure()
+        run: |
+          python scripts/telegram.py send "Data ophalen mislukt. Bekijk: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
