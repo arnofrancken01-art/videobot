@@ -21,6 +21,13 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - run: python scripts/telegram.py poll
+      - name: Goedgekeurde video's posten
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: python scripts/publish.py
       - name: Status bewaren
         run: |
           git config user.name "videobot"
