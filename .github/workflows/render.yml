@@ -10,6 +10,8 @@ on:
 jobs:
   render:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
@@ -43,3 +45,14 @@ jobs:
             out/video.mp4
             src/timeline.json
           retention-days: 14
+      - name: Video bewaren op de renders-branch
+        run: |
+          name=$(basename "${{ inputs.episode }}" .json)
+          git config user.name "videobot"
+          git config user.email "videobot@users.noreply.github.com"
+          cp out/video.mp4 /tmp/$name.mp4 && cp src/timeline.json /tmp/$name.timeline.json
+          git fetch origin renders || true
+          git checkout -B renders origin/renders 2>/dev/null || git checkout --orphan renders
+          git rm -rfq --cached . >/dev/null 2>&1 || true
+          mkdir -p renders && cp /tmp/$name.mp4 /tmp/$name.timeline.json renders/
+          git add renders && git commit -qm "Render $name" && git push -q origin renders
