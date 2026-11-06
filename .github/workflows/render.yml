@@ -27,7 +27,7 @@ jobs:
           path: models
           key: kokoro-v1.0
       - run: npm ci
-      - run: pip install -r requirements.txt faster-whisper==1.1.1
+      - run: pip install -r requirements.txt faster-whisper==1.1.1 requests
       - name: Kokoro-model downloaden
         run: test -f models/kokoro-v1.0.onnx || npm run models
       - name: Stem maken
