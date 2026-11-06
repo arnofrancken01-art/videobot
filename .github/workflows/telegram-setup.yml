@@ -1,0 +1,32 @@
+name: Telegram koppelen
+
+on: workflow_dispatch
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Chat-id zoeken
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python scripts/telegram.py setup
+      - name: Chat-id bewaren
+        run: |
+          git config user.name "videobot"
+          git config user.email "videobot@users.noreply.github.com"
+          git add config/telegram.json
+          git diff --cached --quiet || (git commit -qm "Telegram gekoppeld" && git push -q)
+      - name: Welkomstbericht en laatste testvideo sturen
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          python scripts/telegram.py send "Hallo! Je videobot is gekoppeld. Hier krijg je straks elke video ter goedkeuring, plus een melding als er iets misloopt."
+          git fetch -q origin renders && git show origin/renders:renders/ep001.mp4 > /tmp/ep001.mp4
+          python scripts/telegram.py video /tmp/ep001.mp4 "Testvideo 2: Big Mac rond de wereld"
