@@ -1,0 +1,334 @@
+{
+ "id": "ep001-big-mac-world",
+ "title": "Same burger, 4x the price: the Big Mac around the world",
+ "source": "The Economist, Big Mac Index (July 2026), github.com/TheEconomist/big-mac-data",
+ "voice": "af_heart",
+ "data": {
+  "bars": [
+   {
+    "code": "IDN",
+    "label": "Indonesia",
+    "value": 2.38
+   },
+   {
+    "code": "TWN",
+    "label": "Taiwan",
+    "value": 2.42
+   },
+   {
+    "code": "PHL",
+    "label": "Philippines",
+    "value": 2.74
+   },
+   {
+    "code": "EGY",
+    "label": "Egypt",
+    "value": 2.87
+   },
+   {
+    "code": "VNM",
+    "label": "Vietnam",
+    "value": 2.89
+   },
+   {
+    "code": "USA",
+    "label": "United States",
+    "value": 6.22
+   },
+   {
+    "code": "EUZ",
+    "label": "Euro area",
+    "value": 7.08
+   },
+   {
+    "code": "GBR",
+    "label": "Britain",
+    "value": 7.4
+   },
+   {
+    "code": "NOR",
+    "label": "Norway",
+    "value": 8.05
+   },
+   {
+    "code": "URY",
+    "label": "Uruguay",
+    "value": 8.94
+   },
+   {
+    "code": "CHE",
+    "label": "Switzerland",
+    "value": 9.04
+   }
+  ],
+  "usSeries": [
+   {
+    "date": "2000-04",
+    "value": 2.24
+   },
+   {
+    "date": "2001-04",
+    "value": 2.24
+   },
+   {
+    "date": "2002-04",
+    "value": 2.35
+   },
+   {
+    "date": "2003-04",
+    "value": 2.46
+   },
+   {
+    "date": "2004-05",
+    "value": 2.47
+   },
+   {
+    "date": "2005-06",
+    "value": 2.58
+   },
+   {
+    "date": "2006-01",
+    "value": 2.67
+   },
+   {
+    "date": "2006-05",
+    "value": 2.78
+   },
+   {
+    "date": "2007-01",
+    "value": 2.89
+   },
+   {
+    "date": "2007-06",
+    "value": 3.0
+   },
+   {
+    "date": "2008-06",
+    "value": 3.21
+   },
+   {
+    "date": "2009-07",
+    "value": 3.43
+   },
+   {
+    "date": "2010-01",
+    "value": 3.43
+   },
+   {
+    "date": "2010-07",
+    "value": 3.53
+   },
+   {
+    "date": "2011-07",
+    "value": 3.64
+   },
+   {
+    "date": "2012-01",
+    "value": 3.81
+   },
+   {
+    "date": "2012-07",
+    "value": 3.96
+   },
+   {
+    "date": "2013-01",
+    "value": 4.03
+   },
+   {
+    "date": "2013-07",
+    "value": 4.18
+   },
+   {
+    "date": "2014-01",
+    "value": 4.24
+   },
+   {
+    "date": "2014-07",
+    "value": 4.29
+   },
+   {
+    "date": "2015-01",
+    "value": 4.29
+   },
+   {
+    "date": "2015-07",
+    "value": 4.29
+   },
+   {
+    "date": "2016-01",
+    "value": 4.29
+   },
+   {
+    "date": "2016-07",
+    "value": 4.5
+   },
+   {
+    "date": "2017-01",
+    "value": 4.5
+   },
+   {
+    "date": "2017-07",
+    "value": 4.5
+   },
+   {
+    "date": "2018-01",
+    "value": 4.61
+   },
+   {
+    "date": "2018-07",
+    "value": 4.62
+   },
+   {
+    "date": "2019-01",
+    "value": 4.71
+   },
+   {
+    "date": "2019-07",
+    "value": 4.71
+   },
+   {
+    "date": "2020-01",
+    "value": 4.82
+   },
+   {
+    "date": "2020-07",
+    "value": 4.82
+   },
+   {
+    "date": "2021-01",
+    "value": 4.89
+   },
+   {
+    "date": "2021-07",
+    "value": 4.93
+   },
+   {
+    "date": "2022-01",
+    "value": 5.04
+   },
+   {
+    "date": "2022-07",
+    "value": 5.15
+   },
+   {
+    "date": "2023-01",
+    "value": 5.36
+   },
+   {
+    "date": "2023-07",
+    "value": 5.58
+   },
+   {
+    "date": "2024-01",
+    "value": 5.69
+   },
+   {
+    "date": "2024-07",
+    "value": 5.69
+   },
+   {
+    "date": "2025-01",
+    "value": 5.79
+   },
+   {
+    "date": "2025-07",
+    "value": 6.01
+   },
+   {
+    "date": "2026-01",
+    "value": 6.12
+   },
+   {
+    "date": "2026-07",
+    "value": 6.22
+   }
+  ]
+ },
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "A Big Mac is the same burger everywhere.",
+   "props": {
+    "title": "SAME BURGER."
+   }
+  },
+  {
+   "scene": "versus",
+   "text": "So why does it cost nine dollars in Switzerland, and less than two fifty in Indonesia?",
+   "props": {
+    "left": "CHE",
+    "right": "IDN"
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "Here's what one Big Mac costs in U.S. dollars, as of July 2026.",
+   "props": {
+    "reveal": 0
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "Indonesia: two thirty-eight. Taiwan: two forty-two. The Philippines: two seventy-four.",
+   "props": {
+    "reveal": 5,
+    "highlight": [
+     "IDN",
+     "TWN",
+     "PHL"
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "The United States sits in the middle, at six twenty-two. The euro area pays seven oh eight.",
+   "props": {
+    "reveal": 7,
+    "highlight": [
+     "USA",
+     "EUZ"
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "And the most expensive: Norway at eight oh five, Uruguay at eight ninety-four, and Switzerland at nine oh four.",
+   "props": {
+    "reveal": 11,
+    "highlight": [
+     "NOR",
+     "URY",
+     "CHE"
+    ]
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "That's almost four times the price, for the exact same burger.",
+   "props": {
+    "value": 3.8,
+    "suffix": "x",
+    "caption": "Switzerland vs Indonesia"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "The Economist calls this the Big Mac Index. By that logic, the Indonesian rupiah is about sixty-two percent undervalued against the dollar.",
+   "props": {
+    "value": -62,
+    "suffix": "%",
+    "caption": "Indonesian rupiah vs US dollar"
+   }
+  },
+  {
+   "scene": "line",
+   "text": "And in America itself? In 2000, a Big Mac cost two twenty-four. Today, six twenty-two.",
+   "props": {}
+  },
+  {
+   "scene": "outro",
+   "text": "Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+node_modules/
+models/
+out/
+public/voice.wav
+__pycache__/
+.env
