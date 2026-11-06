@@ -1,20 +1,36 @@
 name: Render video
 
 on:
+  push:
+    branches: [main]
+    paths: ["episodes/*.json"]
   workflow_dispatch:
     inputs:
       episode:
         description: "Pad naar het episode-bestand"
         default: "episodes/ep001.json"
 
+concurrency: render
+
 jobs:
   render:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
-    timeout-minutes: 30
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Welke aflevering?
+        id: ep
+        run: |
+          ep="${{ inputs.episode }}"
+          if [ -z "$ep" ]; then ep=$(git diff --name-only HEAD~1 HEAD -- 'episodes/*.json' | tail -1); fi
+          echo "file=$ep" >> "$GITHUB_OUTPUT"
+          echo "name=$(basename "$ep" .json)" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -33,21 +49,14 @@ jobs:
       - name: Kokoro-model downloaden
         run: test -f models/kokoro-v1.0.onnx || npm run models
       - name: Stem maken
-        run: python scripts/tts.py "${{ inputs.episode }}"
+        run: python scripts/tts.py "${{ steps.ep.outputs.file }}"
       - name: Woordtiming uitlijnen met Whisper
         run: python scripts/align.py
       - name: Video renderen
         run: npx remotion render src/index.ts Short out/video.mp4 --concurrency=2
-      - uses: actions/upload-artifact@v4
-        with:
-          name: video
-          path: |
-            out/video.mp4
-            src/timeline.json
-          retention-days: 14
       - name: Video bewaren op de renders-branch
         run: |
-          name=$(basename "${{ inputs.episode }}" .json)
+          name="${{ steps.ep.outputs.name }}"
           git config user.name "videobot"
           git config user.email "videobot@users.noreply.github.com"
           cp out/video.mp4 /tmp/$name.mp4 && cp src/timeline.json /tmp/$name.timeline.json
@@ -56,3 +65,13 @@ jobs:
           git rm -rfq --cached . >/dev/null 2>&1 || true
           mkdir -p renders && cp /tmp/$name.mp4 /tmp/$name.timeline.json renders/
           git add renders && git commit -qm "Render $name" && git push -q origin renders
+          git checkout -q -f main
+      - name: Ter goedkeuring naar Telegram
+        run: |
+          title=$(python -c "import json;print(json.load(open('${{ steps.ep.outputs.file }}'))['title'])")
+          python scripts/telegram.py video out/video.mp4 "<b>Nieuwe video:</b> $title" "${{ steps.ep.outputs.name }}"
+      - name: Foutmelding naar Telegram
+        if: failure()
+        run: |
+          pip install requests >/dev/null 2>&1 || true
+          python scripts/telegram.py send "Render van ${{ steps.ep.outputs.name }} mislukt. Bekijk: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

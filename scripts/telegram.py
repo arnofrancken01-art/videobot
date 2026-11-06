@@ -52,9 +52,39 @@ def send(text):
     call("sendMessage", data={"chat_id": chat_id(), "text": text, "parse_mode": "HTML"})
 
 
-def video(path, caption=""):
+def video(path, caption="", episode=None):
+    data = {"chat_id": chat_id(), "caption": caption, "parse_mode": "HTML", "supports_streaming": "true"}
+    if episode:  # knoppen om goed te keuren of te weigeren
+        data["reply_markup"] = json.dumps({"inline_keyboard": [[
+            {"text": "Posten", "callback_data": f"ok:{episode}"},
+            {"text": "Weg", "callback_data": f"no:{episode}"},
+        ]]})
     with open(path, "rb") as f:
-        call("sendVideo", data={"chat_id": chat_id(), "caption": caption, "parse_mode": "HTML", "supports_streaming": "true"}, files={"video": f})
+        call("sendVideo", data=data, files={"video": f})
+
+
+def poll():
+    """Verwerk knopdrukken: zet de status van elke aflevering in state/queue.json."""
+    q_path = ROOT / "state/queue.json"
+    q_path.parent.mkdir(exist_ok=True)
+    queue = json.loads(q_path.read_text()) if q_path.exists() else {}
+    offset = queue.get("_offset", 0)
+    updates = call("getUpdates", data={"offset": offset, "allowed_updates": json.dumps(["callback_query", "message"])})
+    changed = []
+    for u in updates:
+        offset = max(offset, u["update_id"] + 1)
+        cq = u.get("callback_query")
+        if not cq or str(cq["from"]["id"]) != str(chat_id()):
+            continue
+        action, ep = cq["data"].split(":", 1)
+        status = "approved" if action == "ok" else "rejected"
+        queue.setdefault(ep, {})["status"] = status
+        changed.append((ep, status))
+        call("answerCallbackQuery", data={"callback_query_id": cq["id"], "text": "Wordt gepost" if status == "approved" else "Weggegooid"})
+    queue["_offset"] = offset
+    q_path.write_text(json.dumps(queue, indent=1))
+    for ep, st in changed:
+        print(f"{ep}: {st}")
 
 
 if __name__ == "__main__":
@@ -64,4 +94,6 @@ if __name__ == "__main__":
     elif cmd == "send":
         send(sys.argv[2])
     elif cmd == "video":
-        video(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "")
+        video(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "", sys.argv[4] if len(sys.argv) > 4 else None)
+    elif cmd == "poll":
+        poll()
