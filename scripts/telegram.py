@@ -10,7 +10,12 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 CFG = ROOT / "config/telegram.json"
-TOKEN = os.environ["TELEGRAM_BOT_TOKEN"].strip()
+import re
+TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+if not TOKEN:
+    raise SystemExit("TELEGRAM_BOT_TOKEN is leeg: het GitHub-secret bestaat niet of heeft een andere naam.")
+if not re.fullmatch(r"\d+:[\w-]{30,}", TOKEN):
+    raise SystemExit(f"TELEGRAM_BOT_TOKEN heeft niet de vorm 123456:ABC... (lengte {len(TOKEN)}, bevat ':' = {':' in TOKEN}).")
 API = f"https://api.telegram.org/bot{TOKEN}"
 
 
