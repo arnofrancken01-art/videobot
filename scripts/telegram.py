@@ -31,9 +31,15 @@ def call(method, **kw):
     return data["result"]
 
 
-def setup():
-    updates = call("getUpdates")
-    chats = [u["message"]["chat"] for u in updates if "message" in u and u["message"]["chat"]["type"] == "private"]
+def setup(wait_s=900):
+    import time
+    deadline = time.time() + wait_s
+    while True:
+        updates = call("getUpdates")
+        chats = [u["message"]["chat"] for u in updates if "message" in u and u["message"]["chat"]["type"] == "private"]
+        if chats or time.time() > deadline:
+            break
+        time.sleep(10)
     if not chats:
         raise SystemExit("Geen bericht gevonden. Stuur je bot eerst een bericht in Telegram en probeer opnieuw.")
     chat = chats[-1]
