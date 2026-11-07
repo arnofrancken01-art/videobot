@@ -1,6 +1,6 @@
 import { interpolate, interpolateColors, spring, useCurrentFrame } from "remotion";
 import { theme } from "../theme";
-import { Fmt, P, SceneProps, fmt, rise } from "./common";
+import { Flag, Fmt, P, SceneProps, fmt, rise } from "./common";
 
 /**
  * Gerangschikte balken. Het eerste segment van de groep bevat de data; latere
@@ -12,7 +12,7 @@ export const Bars: React.FC<SceneProps> = ({ segs, fps, offset }) => {
   const f = useCurrentFrame();
   const t = f / fps + offset;
   const base = P(segs[0]);
-  const items: { label: string; value: number }[] = base.items;
+  const items: { label: string; value: number; flag?: string }[] = base.items;
   const format: Fmt = base.format ?? {};
   let ai = 0;
   segs.forEach((s, i) => { if (t >= s.start - 0.05) ai = i; });
@@ -36,10 +36,11 @@ export const Bars: React.FC<SceneProps> = ({ segs, fps, offset }) => {
         const isHl = hl.includes(b.label);
         const dim = hl.length && !isHl ? interpolate(hlP, [0, 1], [1, 0.4]) : 1;
         const color = isHl ? interpolateColors(hlP, [0, 1], [theme.bar, theme.accent]) : theme.bar;
-        const w = p * (Math.abs(b.value) / max) * 450;
+        const w = p * (Math.abs(b.value) / max) * 400;
         return (
           <div key={b.label} style={{ display: "flex", alignItems: "center", height: rowH, opacity: Math.min(1, p * 2) * dim }}>
-            <div style={{ width: 330, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", textAlign: "right", paddingRight: 24, color: isHl ? theme.text : "#C3CAD6", fontSize: Math.min(40, rowH * 0.5), fontWeight: isHl ? 900 : 700 }}>{b.label}</div>
+            <div style={{ width: 300, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", textAlign: "right", paddingRight: 24, color: isHl ? theme.text : "#C3CAD6", fontSize: Math.min(40, rowH * 0.5), fontWeight: isHl ? 900 : 700 }}>{b.label}</div>
+            {b.flag && <div style={{ marginRight: 14 }}><Flag code={b.flag} h={rowH * 0.5} /></div>}
             <div style={{ width: w, height: rowH * 0.66, borderRadius: 12, background: color, boxShadow: isHl ? `0 0 40px ${theme.accent}55` : "none" }} />
             <div style={{ marginLeft: 18, color: isHl ? theme.accent : theme.text, fontSize: Math.min(42, rowH * 0.52), fontWeight: 900, whiteSpace: "nowrap" }}>{fmt(b.value * Math.min(p, 1), format)}</div>
           </div>

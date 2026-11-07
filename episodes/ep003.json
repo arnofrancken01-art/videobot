@@ -1,6 +1,6 @@
 {
  "id": "ep003",
- "title": "India gets $151 billion a year from people who left. The top 10 will surprise you",
+ "title": "India gets $151 billion a year from people who left. Number 3 makes no sense",
  "source": "World Bank, personal remittances received (2025), data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT; GDP from NY.GDP.MKTP.CD",
  "voice": "af_heart",
  "hashtags": [
@@ -12,39 +12,26 @@
  ],
  "segments": [
   {
-   "scene": "versus",
-   "text": "Indians abroad sent home a hundred fifty-one billion dollars last year.",
+   "scene": "hook",
+   "text": "Indians working abroad sent home a hundred fifty-one billion dollars. In one year.",
    "props": {
-    "icon": "coin",
+    "kicker": "Sent home by Indians abroad",
+    "big": 150.7,
     "format": {
      "prefix": "$",
      "suffix": "B",
      "decimals": 1
     },
-    "item": {
-     "label": "India",
-     "value": 150.7
-    },
-    "at": "hundred"
-   }
-  },
-  {
-   "scene": "versus",
-   "text": "Number two, Mexico? Sixty-five billion.",
-   "props": {
-    "item": {
-     "label": "Mexico",
-     "value": 65.1
-    },
-    "at": "sixty"
+    "sub": "in one year",
+    "flag": "in"
    }
   },
   {
    "scene": "bars",
-   "text": "These countries receive the most money from people working abroad.",
+   "text": "No country on Earth gets more. And number three makes no sense.",
    "props": {
-    "title": "Money sent home by migrants, 2025",
-    "subtitle": "billions of US dollars",
+    "title": "Money sent home by migrants",
+    "subtitle": "2025, billions of US dollars",
     "format": {
      "prefix": "$",
      "suffix": "B",
@@ -53,51 +40,55 @@
     "items": [
      {
       "label": "India",
-      "value": 150.7
+      "value": 150.7,
+      "flag": "in"
      },
      {
       "label": "Mexico",
-      "value": 65.1
+      "value": 65.1,
+      "flag": "mx"
      },
      {
       "label": "France",
-      "value": 44.5
+      "value": 44.5,
+      "flag": "fr"
      },
      {
       "label": "Philippines",
-      "value": 41.6
+      "value": 41.6,
+      "flag": "ph"
      },
      {
       "label": "Egypt",
-      "value": 41.5
+      "value": 41.5,
+      "flag": "eg"
      },
      {
       "label": "Pakistan",
-      "value": 40.5
+      "value": 40.5,
+      "flag": "pk"
      },
      {
       "label": "Bangladesh",
-      "value": 33.9
+      "value": 33.9,
+      "flag": "bd"
      },
      {
       "label": "China",
-      "value": 30.0
+      "value": 30.0,
+      "flag": "cn"
      },
      {
       "label": "Guatemala",
-      "value": 25.7
+      "value": 25.7,
+      "flag": "gt"
      },
      {
       "label": "Germany",
-      "value": 23.9
+      "value": 23.9,
+      "flag": "de"
      }
-    ]
-   }
-  },
-  {
-   "scene": "bars",
-   "text": "India gets more than Mexico and France combined.",
-   "props": {
+    ],
     "highlight": [
      "India"
     ]
@@ -105,7 +96,16 @@
   },
   {
    "scene": "bars",
-   "text": "Wait, France? Third place?",
+   "text": "Mexico is second, with sixty-five billion.",
+   "props": {
+    "highlight": [
+     "Mexico"
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "And third? France. Forty-four billion.",
    "props": {
     "highlight": [
      "France"
@@ -114,7 +114,7 @@
   },
   {
    "scene": "bars",
-   "text": "It counts wages of people who live in France but work across the border, in Switzerland or Luxembourg.",
+   "text": "Why? Hundreds of thousands of French people work across the border, in Switzerland and Luxembourg.",
    "props": {
     "highlight": [
      "France"
@@ -123,13 +123,13 @@
   },
   {
    "scene": "bignumber",
-   "text": "For some countries, this money is the economy. In Tajikistan, it equals fifty-eight percent of GDP.",
+   "text": "But for some countries, this money is the economy. In Tajikistan, it's fifty-eight percent of GDP.",
    "props": {
     "value": 58,
     "format": {
      "suffix": "%"
     },
-    "caption": "remittances vs GDP, Tajikistan, 2025",
+    "caption": "of Tajikistan's economy comes from abroad",
     "at": "fifty",
     "compare": {
      "format": {
@@ -151,22 +151,8 @@
    }
   },
   {
-   "scene": "bignumber",
-   "text": "Ten billion dollars from abroad, in an economy of under eighteen billion.",
-   "props": {
-    "value": 10.2,
-    "format": {
-     "prefix": "$",
-     "suffix": "B",
-     "decimals": 1
-    },
-    "caption": "sent home to Tajikistan, 2025",
-    "at": "ten"
-   }
-  },
-  {
    "scene": "line",
-   "text": "And India's number keeps exploding. Thirteen billion in 2000.",
+   "text": "And India? Thirteen billion in 2000. Now twelve times more.",
    "props": {
     "title": "Money sent home to India",
     "subtitle": "2000 to 2025, billions of US dollars",
@@ -281,17 +267,12 @@
       150.7
      ]
     ],
-    "badge": "11.7x since 2000"
+    "badge": "12x since 2000"
    }
   },
   {
-   "scene": "line",
-   "text": "Now almost twelve times more.",
-   "props": {}
-  },
-  {
    "scene": "outro",
-   "text": "Follow for more money, mapped.",
+   "text": "Which number surprised you? Follow for more money, mapped.",
    "props": {}
   }
  ]

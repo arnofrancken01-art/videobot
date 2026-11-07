@@ -6,6 +6,7 @@ import { Captions } from "./Captions";
 import { Versus } from "./scenes/Versus";
 import { Bars } from "./scenes/Bars";
 import { BigNumber } from "./scenes/BigNumber";
+import { Hook } from "./scenes/Hook";
 import { LineScene } from "./scenes/LineScene";
 import { Outro } from "./scenes/Outro";
 import type { SceneProps } from "./scenes/common";
@@ -13,7 +14,7 @@ import type { SceneProps } from "./scenes/common";
 export type Seg = (typeof timeline.segments)[number];
 
 const SCENES: Record<string, React.FC<SceneProps>> = {
-  versus: Versus, bars: Bars, bignumber: BigNumber, line: LineScene, outro: Outro,
+  hook: Hook, versus: Versus, bars: Bars, bignumber: BigNumber, line: LineScene, outro: Outro,
 };
 
 // Opeenvolgende segmenten met dezelfde scene worden 1 doorlopende scene.

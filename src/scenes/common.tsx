@@ -1,5 +1,5 @@
 import { useId } from "react";
-import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import type { Seg } from "../Video";
 
 export type SceneProps = { segs: Seg[]; fps: number; offset: number };
@@ -78,3 +78,9 @@ export const Icon: React.FC<{ name?: string; size: number }> = ({ name, size }) 
     </svg>
   );
 };
+
+/** Vlag van een land (ISO-code met 2 letters, bv. "be"), uit het open-source pakket flag-icons. */
+export const Flag: React.FC<{ code?: string; h: number }> = ({ code, h }) =>
+  code ? (
+    <Img src={staticFile(`flags/${code.toLowerCase()}.svg`)} style={{ height: h, width: (h * 4) / 3, borderRadius: h / 7, objectFit: "cover", boxShadow: "0 4px 14px rgba(0,0,0,0.4)", flexShrink: 0 }} />
+  ) : null;

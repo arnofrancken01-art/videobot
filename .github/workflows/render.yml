@@ -45,7 +45,16 @@ jobs:
           path: models
           key: kokoro-v1.0
       - run: npm ci
-      - run: pip install -r requirements.txt faster-whisper==1.1.1 requests
+      - name: Python-pakketten
+        run: |
+          pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt kokoro==0.9.4 "misaki[en]>=0.9.4" faster-whisper==1.1.1 requests
+          python -m spacy download en_core_web_sm || true
+      - name: Stemmodel cachen
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-kokoro-82m
       - name: Kokoro-model downloaden
         run: test -f models/kokoro-v1.0.onnx || npm run models
       - name: Stem maken

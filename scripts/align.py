@@ -11,6 +11,9 @@ from faster_whisper import WhisperModel
 ROOT = Path(__file__).resolve().parent.parent
 tl_path = ROOT / "src/timeline.json"
 tl = json.loads(tl_path.read_text())
+if tl.get("aligned") == "tts":
+    print("woordtiming komt al exact uit de stemgenerator, niets te doen")
+    raise SystemExit(0)
 
 model = WhisperModel("base.en", device="cpu", compute_type="int8")
 wav, sr = sf.read(ROOT / "public/voice.wav", dtype="float32")

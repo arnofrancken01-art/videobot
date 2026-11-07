@@ -1,731 +1,744 @@
 {
- "id": "ep002",
- "title": "The richest country is 629x richer per person than the poorest",
- "source": "World Bank, GDP per capita in current US dollars (2025), data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+ "id": "ep003",
+ "title": "India gets $151 billion a year from people who left. Number 3 makes no sense",
+ "source": "World Bank, personal remittances received (2025), data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT; GDP from NY.GDP.MKTP.CD",
  "voice": "af_heart",
  "hashtags": [
   "money",
+  "remittances",
+  "india",
   "economy",
-  "richestcountries",
-  "china",
   "dataviz"
  ],
  "segments": [
   {
-   "scene": "versus",
-   "text": "The average person in Luxembourg produces a hundred forty-seven thousand dollars a year.",
+   "scene": "hook",
+   "text": "Indians working abroad sent home a hundred fifty-one billion dollars. In one year.",
    "props": {
-    "icon": "globe",
+    "kicker": "Sent home by Indians abroad",
+    "big": 150.7,
     "format": {
      "prefix": "$",
-     "suffix": "k",
-     "decimals": 0
+     "suffix": "B",
+     "decimals": 1
     },
-    "item": {
-     "label": "Luxembourg",
-     "value": 147
-    },
-    "at": "hundred"
+    "sub": "in one year",
+    "flag": "in"
    },
-   "start": 0.1,
-   "end": 4.985,
+   "start": 0.05,
+   "end": 4.637,
    "words": [
     {
-     "word": "The",
-     "start": 0.13,
-     "end": 0.37
+     "word": "Indians",
+     "start": 0.08,
+     "end": 0.516
     },
     {
-     "word": "average",
-     "start": 0.37,
-     "end": 0.803
+     "word": "working",
+     "start": 0.516,
+     "end": 0.952
     },
     {
-     "word": "person",
-     "start": 0.803,
-     "end": 1.187
+     "word": "abroad",
+     "start": 0.952,
+     "end": 1.34
     },
     {
-     "word": "in",
-     "start": 1.187,
-     "end": 1.379
+     "word": "sent",
+     "start": 1.34,
+     "end": 1.631
     },
     {
-     "word": "Luxembourg",
-     "start": 1.379,
-     "end": 1.956
-    },
-    {
-     "word": "produces",
-     "start": 1.956,
-     "end": 2.437
+     "word": "home",
+     "start": 1.631,
+     "end": 1.921
     },
     {
      "word": "a",
-     "start": 2.437,
-     "end": 2.581
+     "start": 1.921,
+     "end": 2.067
     },
     {
      "word": "hundred",
-     "start": 2.581,
-     "end": 3.013
+     "start": 2.067,
+     "end": 2.503
     },
     {
-     "word": "forty-seven",
-     "start": 3.013,
-     "end": 3.59
+     "word": "fifty-one",
+     "start": 2.503,
+     "end": 2.988
     },
     {
-     "word": "thousand",
-     "start": 3.59,
-     "end": 4.07
+     "word": "billion",
+     "start": 2.988,
+     "end": 3.424
     },
     {
-     "word": "dollars",
-     "start": 4.07,
-     "end": 4.503
+     "word": "dollars.",
+     "start": 3.424,
+     "end": 3.86
     },
     {
-     "word": "a",
-     "start": 4.503,
-     "end": 4.647
+     "word": "In",
+     "start": 3.86,
+     "end": 4.054
+    },
+    {
+     "word": "one",
+     "start": 4.054,
+     "end": 4.296
     },
     {
      "word": "year.",
-     "start": 4.647,
-     "end": 4.935
+     "start": 4.296,
+     "end": 4.587
     }
    ]
   },
   {
-   "scene": "versus",
-   "text": "In Burundi? Two hundred thirty-four.",
+   "scene": "bars",
+   "text": "No country on Earth gets more. And number three makes no sense.",
    "props": {
+    "title": "Money sent home by migrants",
+    "subtitle": "2025, billions of US dollars",
     "format": {
-     "prefix": "$"
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1
     },
-    "item": {
-     "label": "Burundi",
-     "value": 234
-    },
-    "at": "two"
+    "items": [
+     {
+      "label": "India",
+      "value": 150.7,
+      "flag": "in"
+     },
+     {
+      "label": "Mexico",
+      "value": 65.1,
+      "flag": "mx"
+     },
+     {
+      "label": "France",
+      "value": 44.5,
+      "flag": "fr"
+     },
+     {
+      "label": "Philippines",
+      "value": 41.6,
+      "flag": "ph"
+     },
+     {
+      "label": "Egypt",
+      "value": 41.5,
+      "flag": "eg"
+     },
+     {
+      "label": "Pakistan",
+      "value": 40.5,
+      "flag": "pk"
+     },
+     {
+      "label": "Bangladesh",
+      "value": 33.9,
+      "flag": "bd"
+     },
+     {
+      "label": "China",
+      "value": 30.0,
+      "flag": "cn"
+     },
+     {
+      "label": "Guatemala",
+      "value": 25.7,
+      "flag": "gt"
+     },
+     {
+      "label": "Germany",
+      "value": 23.9,
+      "flag": "de"
+     }
+    ],
+    "highlight": [
+     "India"
+    ]
    },
-   "start": 5.045,
-   "end": 7.008,
+   "start": 4.697,
+   "end": 8.003,
    "words": [
     {
-     "word": "In",
-     "start": 5.075,
-     "end": 5.268
+     "word": "No",
+     "start": 4.727,
+     "end": 4.901
     },
     {
-     "word": "Burundi?",
-     "start": 5.268,
-     "end": 5.703
+     "word": "country",
+     "start": 4.901,
+     "end": 5.294
     },
     {
-     "word": "Two",
-     "start": 5.703,
-     "end": 5.944
+     "word": "on",
+     "start": 5.294,
+     "end": 5.468
     },
     {
-     "word": "hundred",
-     "start": 5.944,
-     "end": 6.379
+     "word": "Earth",
+     "start": 5.468,
+     "end": 5.773
     },
     {
-     "word": "thirty-four.",
-     "start": 6.379,
-     "end": 6.958
+     "word": "gets",
+     "start": 5.773,
+     "end": 6.035
+    },
+    {
+     "word": "more.",
+     "start": 6.035,
+     "end": 6.296
+    },
+    {
+     "word": "And",
+     "start": 6.296,
+     "end": 6.514
+    },
+    {
+     "word": "number",
+     "start": 6.514,
+     "end": 6.863
+    },
+    {
+     "word": "three",
+     "start": 6.863,
+     "end": 7.168
+    },
+    {
+     "word": "makes",
+     "start": 7.168,
+     "end": 7.474
+    },
+    {
+     "word": "no",
+     "start": 7.474,
+     "end": 7.648
+    },
+    {
+     "word": "sense.",
+     "start": 7.648,
+     "end": 7.953
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "Mexico is second, with sixty-five billion.",
+   "props": {
+    "highlight": [
+     "Mexico"
+    ]
+   },
+   "start": 8.063,
+   "end": 10.581,
+   "words": [
+    {
+     "word": "Mexico",
+     "start": 8.093,
+     "end": 8.517
+    },
+    {
+     "word": "is",
+     "start": 8.517,
+     "end": 8.729
+    },
+    {
+     "word": "second,",
+     "start": 8.729,
+     "end": 9.153
+    },
+    {
+     "word": "with",
+     "start": 9.153,
+     "end": 9.471
+    },
+    {
+     "word": "sixty-five",
+     "start": 9.471,
+     "end": 10.054
+    },
+    {
+     "word": "billion.",
+     "start": 10.054,
+     "end": 10.531
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "And third? France. Forty-four billion.",
+   "props": {
+    "highlight": [
+     "France"
+    ]
+   },
+   "start": 10.641,
+   "end": 12.881,
+   "words": [
+    {
+     "word": "And",
+     "start": 10.671,
+     "end": 10.941
+    },
+    {
+     "word": "third?",
+     "start": 10.941,
+     "end": 11.319
+    },
+    {
+     "word": "France.",
+     "start": 11.319,
+     "end": 11.751
+    },
+    {
+     "word": "Forty-four",
+     "start": 11.751,
+     "end": 12.345
+    },
+    {
+     "word": "billion.",
+     "start": 12.345,
+     "end": 12.831
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "Why? Hundreds of thousands of French people work across the border, in Switzerland and Luxembourg.",
+   "props": {
+    "highlight": [
+     "France"
+    ]
+   },
+   "start": 12.941,
+   "end": 18.21,
+   "words": [
+    {
+     "word": "Why?",
+     "start": 12.971,
+     "end": 13.204
+    },
+    {
+     "word": "Hundreds",
+     "start": 13.204,
+     "end": 13.672
+    },
+    {
+     "word": "of",
+     "start": 13.672,
+     "end": 13.859
+    },
+    {
+     "word": "thousands",
+     "start": 13.859,
+     "end": 14.373
+    },
+    {
+     "word": "of",
+     "start": 14.373,
+     "end": 14.56
+    },
+    {
+     "word": "French",
+     "start": 14.56,
+     "end": 14.934
+    },
+    {
+     "word": "people",
+     "start": 14.934,
+     "end": 15.308
+    },
+    {
+     "word": "work",
+     "start": 15.308,
+     "end": 15.589
+    },
+    {
+     "word": "across",
+     "start": 15.589,
+     "end": 15.963
+    },
+    {
+     "word": "the",
+     "start": 15.963,
+     "end": 16.196
+    },
+    {
+     "word": "border,",
+     "start": 16.196,
+     "end": 16.57
+    },
+    {
+     "word": "in",
+     "start": 16.57,
+     "end": 16.757
+    },
+    {
+     "word": "Switzerland",
+     "start": 16.757,
+     "end": 17.365
+    },
+    {
+     "word": "and",
+     "start": 17.365,
+     "end": 17.599
+    },
+    {
+     "word": "Luxembourg.",
+     "start": 17.599,
+     "end": 18.16
     }
    ]
   },
   {
    "scene": "bignumber",
-   "text": "That's six hundred twenty-nine times more, per person.",
+   "text": "But for some countries, this money is the economy. In Tajikistan, it's fifty-eight percent of GDP.",
    "props": {
-    "value": 629,
+    "value": 58,
     "format": {
-     "suffix": "x"
+     "suffix": "%"
     },
-    "caption": "GDP per person, Luxembourg vs Burundi, 2025",
-    "at": "six",
+    "caption": "of Tajikistan's economy comes from abroad",
+    "at": "fifty",
     "compare": {
      "format": {
-      "prefix": "$"
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1
      },
      "items": [
       {
-       "label": "Burundi",
-       "value": 234
+       "label": "Money from abroad",
+       "value": 10.2
       },
       {
-       "label": "Luxembourg",
-       "value": 147252
+       "label": "Whole economy (GDP)",
+       "value": 17.7
       }
      ]
     }
    },
-   "start": 7.068,
-   "end": 9.799,
+   "start": 18.27,
+   "end": 24.201,
    "words": [
     {
-     "word": "That's",
-     "start": 7.098,
-     "end": 7.412
+     "word": "But",
+     "start": 18.3,
+     "end": 18.568
     },
     {
-     "word": "six",
-     "start": 7.412,
-     "end": 7.637
+     "word": "for",
+     "start": 18.568,
+     "end": 18.837
     },
     {
-     "word": "hundred",
-     "start": 7.637,
-     "end": 8.041
+     "word": "some",
+     "start": 18.837,
+     "end": 19.159
     },
     {
-     "word": "twenty-nine",
-     "start": 8.041,
-     "end": 8.581
+     "word": "countries,",
+     "start": 19.159,
+     "end": 19.749
     },
     {
-     "word": "times",
-     "start": 8.581,
-     "end": 8.895
+     "word": "this",
+     "start": 19.749,
+     "end": 20.071
     },
     {
-     "word": "more,",
-     "start": 8.895,
-     "end": 9.165
-    },
-    {
-     "word": "per",
-     "start": 9.165,
-     "end": 9.389
-    },
-    {
-     "word": "person.",
-     "start": 9.389,
-     "end": 9.749
-    }
-   ]
-  },
-  {
-   "scene": "bars",
-   "text": "These are the richest countries on Earth, per person.",
-   "props": {
-    "title": "GDP per person, 2025",
-    "subtitle": "thousands of US dollars",
-    "format": {
-     "prefix": "$",
-     "suffix": "k",
-     "decimals": 1
-    },
-    "items": [
-     {
-      "label": "Luxembourg",
-      "value": 147.3
-     },
-     {
-      "label": "Ireland",
-      "value": 131.6
-     },
-     {
-      "label": "Switzerland",
-      "value": 114.8
-     },
-     {
-      "label": "Singapore",
-      "value": 98.8
-     },
-     {
-      "label": "Iceland",
-      "value": 98.3
-     },
-     {
-      "label": "Norway",
-      "value": 94.6
-     },
-     {
-      "label": "United States",
-      "value": 90.0
-     },
-     {
-      "label": "Denmark",
-      "value": 77.0
-     }
-    ]
-   },
-   "start": 9.859,
-   "end": 12.333,
-   "words": [
-    {
-     "word": "These",
-     "start": 9.889,
-     "end": 10.163
-    },
-    {
-     "word": "are",
-     "start": 10.163,
-     "end": 10.36
-    },
-    {
-     "word": "the",
-     "start": 10.36,
-     "end": 10.556
-    },
-    {
-     "word": "richest",
-     "start": 10.556,
-     "end": 10.909
-    },
-    {
-     "word": "countries",
-     "start": 10.909,
-     "end": 11.341
-    },
-    {
-     "word": "on",
-     "start": 11.341,
-     "end": 11.498
-    },
-    {
-     "word": "Earth,",
-     "start": 11.498,
-     "end": 11.773
-    },
-    {
-     "word": "per",
-     "start": 11.773,
-     "end": 11.969
-    },
-    {
-     "word": "person.",
-     "start": 11.969,
-     "end": 12.283
-    }
-   ]
-  },
-  {
-   "scene": "bars",
-   "text": "Luxembourg and Ireland lead, boosted by cross-border workers and global companies.",
-   "props": {
-    "highlight": [
-     "Luxembourg",
-     "Ireland"
-    ]
-   },
-   "start": 12.393,
-   "end": 17.065,
-   "words": [
-    {
-     "word": "Luxembourg",
-     "start": 12.423,
-     "end": 13.029
-    },
-    {
-     "word": "and",
-     "start": 13.029,
-     "end": 13.281
-    },
-    {
-     "word": "Ireland",
-     "start": 13.281,
-     "end": 13.735
-    },
-    {
-     "word": "lead,",
-     "start": 13.735,
-     "end": 14.038
-    },
-    {
-     "word": "boosted",
-     "start": 14.038,
-     "end": 14.492
-    },
-    {
-     "word": "by",
-     "start": 14.492,
-     "end": 14.694
-    },
-    {
-     "word": "cross-border",
-     "start": 14.694,
-     "end": 15.35
-    },
-    {
-     "word": "workers",
-     "start": 15.35,
-     "end": 15.804
-    },
-    {
-     "word": "and",
-     "start": 15.804,
-     "end": 16.057
-    },
-    {
-     "word": "global",
-     "start": 16.057,
-     "end": 16.46
-    },
-    {
-     "word": "companies.",
-     "start": 16.46,
-     "end": 17.015
-    }
-   ]
-  },
-  {
-   "scene": "bars",
-   "text": "America, at ninety thousand, is only seventh.",
-   "props": {
-    "highlight": [
-     "United States"
-    ]
-   },
-   "start": 17.125,
-   "end": 19.621,
-   "words": [
-    {
-     "word": "America,",
-     "start": 17.155,
-     "end": 17.59
-    },
-    {
-     "word": "at",
-     "start": 17.59,
-     "end": 17.783
-    },
-    {
-     "word": "ninety",
-     "start": 17.783,
-     "end": 18.17
-    },
-    {
-     "word": "thousand,",
-     "start": 18.17,
-     "end": 18.653
+     "word": "money",
+     "start": 20.071,
+     "end": 20.447
     },
     {
      "word": "is",
-     "start": 18.653,
-     "end": 18.847
+     "start": 20.447,
+     "end": 20.662
     },
     {
-     "word": "only",
-     "start": 18.847,
-     "end": 19.136
+     "word": "the",
+     "start": 20.662,
+     "end": 20.93
     },
     {
-     "word": "seventh.",
-     "start": 19.136,
-     "end": 19.571
-    }
-   ]
-  },
-  {
-   "scene": "line",
-   "text": "Now look at China. In 1990, three hundred nineteen dollars per person.",
-   "props": {
-    "title": "China, GDP per person",
-    "subtitle": "1990 to 2025, US dollars",
-    "format": {
-     "prefix": "$"
-    },
-    "series": [
-     [
-      1990,
-      319
-     ],
-     [
-      1991,
-      334
-     ],
-     [
-      1992,
-      368
-     ],
-     [
-      1993,
-      379
-     ],
-     [
-      1994,
-      476
-     ],
-     [
-      1995,
-      613
-     ],
-     [
-      1996,
-      713
-     ],
-     [
-      1997,
-      787
-     ],
-     [
-      1998,
-      835
-     ],
-     [
-      1999,
-      881
-     ],
-     [
-      2000,
-      969
-     ],
-     [
-      2001,
-      1065
-     ],
-     [
-      2002,
-      1164
-     ],
-     [
-      2003,
-      1307
-     ],
-     [
-      2004,
-      1531
-     ],
-     [
-      2005,
-      1778
-     ],
-     [
-      2006,
-      2129
-     ],
-     [
-      2007,
-      2735
-     ],
-     [
-      2008,
-      3523
-     ],
-     [
-      2009,
-      3898
-     ],
-     [
-      2010,
-      4629
-     ],
-     [
-      2011,
-      5704
-     ],
-     [
-      2012,
-      6405
-     ],
-     [
-      2013,
-      7147
-     ],
-     [
-      2014,
-      7781
-     ],
-     [
-      2015,
-      8175
-     ],
-     [
-      2016,
-      8255
-     ],
-     [
-      2017,
-      8980
-     ],
-     [
-      2018,
-      10086
-     ],
-     [
-      2019,
-      10343
-     ],
-     [
-      2020,
-      10627
-     ],
-     [
-      2021,
-      12887
-     ],
-     [
-      2022,
-      12971
-     ],
-     [
-      2023,
-      12951
-     ],
-     [
-      2024,
-      13293
-     ],
-     [
-      2025,
-      13862
-     ]
-    ],
-    "badge": "43x since 1990"
-   },
-   "start": 19.681,
-   "end": 24.481,
-   "words": [
-    {
-     "word": "Now",
-     "start": 19.711,
-     "end": 20.006
-    },
-    {
-     "word": "look",
-     "start": 20.006,
-     "end": 20.36
-    },
-    {
-     "word": "at",
-     "start": 20.36,
-     "end": 20.596
-    },
-    {
-     "word": "China.",
-     "start": 20.596,
-     "end": 21.009
+     "word": "economy.",
+     "start": 20.93,
+     "end": 21.413
     },
     {
      "word": "In",
-     "start": 21.009,
-     "end": 21.245
+     "start": 21.413,
+     "end": 21.628
     },
     {
-     "word": "1990,",
-     "start": 21.245,
-     "end": 21.599
+     "word": "Tajikistan,",
+     "start": 21.628,
+     "end": 22.272
     },
     {
-     "word": "three",
-     "start": 21.599,
-     "end": 22.012
+     "word": "it's",
+     "start": 22.272,
+     "end": 22.54
     },
     {
-     "word": "hundred",
-     "start": 22.012,
-     "end": 22.543
+     "word": "fifty-eight",
+     "start": 22.54,
+     "end": 23.185
     },
     {
-     "word": "nineteen",
-     "start": 22.543,
-     "end": 23.133
+     "word": "percent",
+     "start": 23.185,
+     "end": 23.668
     },
     {
-     "word": "dollars",
-     "start": 23.133,
-     "end": 23.664
+     "word": "of",
+     "start": 23.668,
+     "end": 23.882
     },
     {
-     "word": "per",
-     "start": 23.664,
-     "end": 23.959
-    },
-    {
-     "word": "person.",
-     "start": 23.959,
-     "end": 24.431
+     "word": "GDP.",
+     "start": 23.882,
+     "end": 24.151
     }
    ]
   },
   {
    "scene": "line",
-   "text": "Today? Almost fourteen thousand. Forty-three times more.",
-   "props": {},
-   "start": 24.541,
-   "end": 27.699,
+   "text": "And India? Thirteen billion in 2000. Now twelve times more.",
+   "props": {
+    "title": "Money sent home to India",
+    "subtitle": "2000 to 2025, billions of US dollars",
+    "format": {
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1
+    },
+    "series": [
+     [
+      2000,
+      12.9
+     ],
+     [
+      2001,
+      14.3
+     ],
+     [
+      2002,
+      15.7
+     ],
+     [
+      2003,
+      21.0
+     ],
+     [
+      2004,
+      18.8
+     ],
+     [
+      2005,
+      22.1
+     ],
+     [
+      2006,
+      28.3
+     ],
+     [
+      2007,
+      37.2
+     ],
+     [
+      2008,
+      50.0
+     ],
+     [
+      2009,
+      49.2
+     ],
+     [
+      2010,
+      53.5
+     ],
+     [
+      2011,
+      62.5
+     ],
+     [
+      2012,
+      68.8
+     ],
+     [
+      2013,
+      70.0
+     ],
+     [
+      2014,
+      70.4
+     ],
+     [
+      2015,
+      68.9
+     ],
+     [
+      2016,
+      62.7
+     ],
+     [
+      2017,
+      69.0
+     ],
+     [
+      2018,
+      78.8
+     ],
+     [
+      2019,
+      83.3
+     ],
+     [
+      2020,
+      83.1
+     ],
+     [
+      2021,
+      89.4
+     ],
+     [
+      2022,
+      111.2
+     ],
+     [
+      2023,
+      119.5
+     ],
+     [
+      2024,
+      137.7
+     ],
+     [
+      2025,
+      150.7
+     ]
+    ],
+    "badge": "12x since 2000"
+   },
+   "start": 24.261,
+   "end": 27.973,
    "words": [
     {
-     "word": "Today?",
-     "start": 24.571,
-     "end": 24.93
+     "word": "And",
+     "start": 24.291,
+     "end": 24.562
     },
     {
-     "word": "Almost",
-     "start": 24.93,
-     "end": 25.341
+     "word": "India?",
+     "start": 24.562,
+     "end": 24.941
     },
     {
-     "word": "fourteen",
-     "start": 25.341,
-     "end": 25.854
+     "word": "Thirteen",
+     "start": 24.941,
+     "end": 25.483
     },
     {
-     "word": "thousand.",
-     "start": 25.854,
-     "end": 26.366
+     "word": "billion",
+     "start": 25.483,
+     "end": 25.971
     },
     {
-     "word": "Forty-three",
-     "start": 26.366,
-     "end": 26.982
+     "word": "in",
+     "start": 25.971,
+     "end": 26.188
+    },
+    {
+     "word": "2000.",
+     "start": 26.188,
+     "end": 26.513
+    },
+    {
+     "word": "Now",
+     "start": 26.513,
+     "end": 26.784
+    },
+    {
+     "word": "twelve",
+     "start": 26.784,
+     "end": 27.218
     },
     {
      "word": "times",
-     "start": 26.982,
-     "end": 27.341
+     "start": 27.218,
+     "end": 27.597
     },
     {
      "word": "more.",
-     "start": 27.341,
-     "end": 27.649
+     "start": 27.597,
+     "end": 27.923
     }
    ]
   },
   {
    "scene": "outro",
-   "text": "Follow for more money, mapped.",
+   "text": "Which number surprised you? Follow for more money, mapped.",
    "props": {},
-   "start": 27.759,
-   "end": 29.401,
+   "start": 28.033,
+   "end": 30.955,
    "words": [
     {
+     "word": "Which",
+     "start": 28.063,
+     "end": 28.369
+    },
+    {
+     "word": "number",
+     "start": 28.369,
+     "end": 28.719
+    },
+    {
+     "word": "surprised",
+     "start": 28.719,
+     "end": 29.2
+    },
+    {
+     "word": "you?",
+     "start": 29.2,
+     "end": 29.418
+    },
+    {
      "word": "Follow",
-     "start": 27.789,
-     "end": 28.156
+     "start": 29.418,
+     "end": 29.768
     },
     {
      "word": "for",
-     "start": 28.156,
-     "end": 28.386
+     "start": 29.768,
+     "end": 29.987
     },
     {
      "word": "more",
-     "start": 28.386,
-     "end": 28.662
+     "start": 29.987,
+     "end": 30.249
     },
     {
      "word": "money,",
-     "start": 28.662,
-     "end": 28.984
+     "start": 30.249,
+     "end": 30.555
     },
     {
      "word": "mapped.",
-     "start": 28.984,
-     "end": 29.351
+     "start": 30.555,
+     "end": 30.905
     }
    ]
   }
  ],
- "durationInFrames": 902,
+ "durationInFrames": 949,
  "fps": 30,
  "aligned": false
 }

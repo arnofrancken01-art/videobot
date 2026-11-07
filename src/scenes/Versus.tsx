@@ -1,7 +1,7 @@
 import { theme } from "../theme";
-import { Fmt, Icon, P, SceneProps, fmt, rise, slam, usePop, wordFrame } from "./common";
+import { Flag, Fmt, Icon, P, SceneProps, fmt, rise, slam, usePop, wordFrame } from "./common";
 
-const Card: React.FC<{ label: string; value: string; color: string; at: number }> = ({ label, value, color, at }) => {
+const Card: React.FC<{ label: string; value: string; color: string; at: number; flag?: string }> = ({ label, value, color, at, flag }) => {
   const p = usePop(at, 260);
   return (
     <div style={{
@@ -9,7 +9,10 @@ const Card: React.FC<{ label: string; value: string; color: string; at: number }
       display: "flex", justifyContent: "space-between", alignItems: "center", border: `5px solid ${color}`,
       boxShadow: `0 0 80px ${color}33`,
     }}>
-      <div style={{ color: theme.text, fontSize: 56, fontWeight: 800 }}>{label}</div>
+      <div style={{ display: "flex", alignItems: "center", gap: 22 }}>
+        <Flag code={flag} h={54} />
+        <div style={{ color: theme.text, fontSize: 56, fontWeight: 800 }}>{label}</div>
+      </div>
       <div style={{ color, fontSize: 116, fontWeight: 900, letterSpacing: -4, whiteSpace: "nowrap" }}>{value}</div>
     </div>
   );
@@ -36,7 +39,7 @@ export const Versus: React.FC<SceneProps> = ({ segs, fps, offset }) => {
         const p = P(s);
         if (!p.item) return null;
         const f: Fmt = p.format ?? first.format ?? {};
-        return <Card key={i} label={p.item.label} value={fmt(p.item.value, f)} color={colors[i % colors.length]} at={wordFrame(s, p.at, fps, offset)} />;
+        return <Card key={i} label={p.item.label} value={fmt(p.item.value, f)} color={colors[i % colors.length]} at={wordFrame(s, p.at, fps, offset)} flag={p.item.flag} />;
       })}
     </div>
   );

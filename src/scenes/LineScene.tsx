@@ -44,7 +44,7 @@ export const LineScene: React.FC<SceneProps> = ({ segs, fps }) => {
         {ticks.map((v, k) => (
           <g key={k}>
             <line x1={0} x2={W} y1={y(v)} y2={y(v)} stroke={theme.border} strokeWidth={2} />
-            <text x={W} y={y(v) - 10} textAnchor="end" fill={theme.muted} fontSize={28} fontFamily="Inter">{fmt(v, { ...format, decimals: 0 })}</text>
+            <text x={0} y={y(v) - 10} fill={theme.muted} fontSize={28} fontFamily="Inter">{fmt(v, { ...format, decimals: 0 })}</text>
           </g>
         ))}
         <polygon points={area} fill="url(#area)" />

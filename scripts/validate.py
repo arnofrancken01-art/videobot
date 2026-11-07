@@ -5,7 +5,8 @@ Stopt met een duidelijke fout als iets niet klopt.
 import json, re, sys
 from pathlib import Path
 
-SCENES = {"versus", "bars", "bignumber", "line", "outro"}
+SCENES = {"hook", "versus", "bars", "bignumber", "line", "outro"}
+FLAGS = {f.stem for f in (Path(__file__).resolve().parent.parent / "public/flags").glob("*.svg")}
 ICONS = {None, "burger", "globe", "house", "clock", "coin"}
 errors, warnings = [], []
 path = Path(sys.argv[1])
@@ -20,8 +21,8 @@ if not 7 <= len(segs) <= 14:
 words = sum(len(s.get("text", "").split()) for s in segs)
 if not 70 <= words <= 170:
     errors.append(f"{words} woorden gesproken; mik op 90 tot 150 (ca. 30 tot 50 seconden)")
-if segs and segs[0].get("scene") != "versus":
-    warnings.append("eerste scene is geen 'versus': is de hook sterk genoeg?")
+if segs and segs[0].get("scene") != "hook":
+    errors.append("eerste segment moet scene 'hook' zijn: de schokkende claim staat er vanaf frame 1")
 if segs and segs[-1].get("scene") != "outro":
     errors.append("laatste segment moet scene 'outro' zijn")
 
@@ -39,6 +40,14 @@ for i, s in enumerate(segs):
     at = p.get("at")
     if at and not any(w.lower().strip(".,?!:;").startswith(at.lower()) for w in text.split()):
         errors.append(f"{where}: woord '{at}' uit props.at komt niet voor in de tekst")
+    def check_flag(obj, label):
+        if obj.get("flag") and obj["flag"] not in FLAGS:
+            errors.append(f"{where}: onbekende vlagcode '{obj['flag']}' bij {label}")
+    check_flag(p, "hook")
+    for it in p.get("items", []) + ([p["item"]] if "item" in p else []):
+        check_flag(it, it.get("label"))
+    if sc == "hook" and not (p.get("kicker") and isinstance(p.get("big"), (int, float))):
+        errors.append(f"{where}: hook heeft 'kicker' (tekst) en 'big' (getal) nodig")
     if sc == "versus":
         if prev != "versus" and not (p.get("icon") or p.get("headline")):
             errors.append(f"{where}: eerste versus heeft een icon of headline nodig")

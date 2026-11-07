@@ -10,7 +10,7 @@ export const BigNumber: React.FC<SceneProps> = ({ segs, fps, offset }) => {
   const f = useCurrentFrame();
   const p = P(segs[0]);
   const format: Fmt = p.format ?? {};
-  const at = wordFrame(segs[0], p.at, fps, offset);
+  const at = Math.min(wordFrame(segs[0], p.at, fps, offset), Math.round(fps * 0.5)); // nooit lang een leeg vak
   const big = usePop(at, 220);
   const intro = usePop(0, 180);
   const n: number = interpolate(f, [at, at + 18], [0, Number(p.value)], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
