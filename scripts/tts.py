@@ -100,7 +100,11 @@ def main():
     try:
         say, aligned = engine_torch(voice)
         print("motor: kokoro (exacte woordtiming)")
-    except ImportError:
+    except Exception as e:  # noqa: BLE001
+        import os, traceback
+        traceback.print_exc()
+        if os.environ.get("REQUIRE_EXACT_TIMING"):
+            raise SystemExit(f"Exacte woordtiming niet beschikbaar: {e}")
         say, aligned = engine_onnx(voice)
         print("motor: kokoro-onnx (geschatte woordtiming)")
 

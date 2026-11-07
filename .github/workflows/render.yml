@@ -58,6 +58,8 @@ jobs:
       - name: Kokoro-model downloaden
         run: test -f models/kokoro-v1.0.onnx || npm run models
       - name: Stem maken
+        env:
+          REQUIRE_EXACT_TIMING: "1"
         run: python scripts/tts.py "${{ steps.ep.outputs.file }}"
       - name: Woordtiming uitlijnen met Whisper
         run: python scripts/align.py
