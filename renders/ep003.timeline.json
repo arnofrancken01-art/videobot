@@ -1,6 +1,6 @@
 {
  "id": "ep003",
- "title": "India gets $151 billion a year from people who left. The top 10 will surprise you",
+ "title": "India gets $151 billion a year from people who left. Number 3 makes no sense",
  "source": "World Bank, personal remittances received (2025), data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT; GDP from NY.GDP.MKTP.CD",
  "voice": "af_heart",
  "hashtags": [
@@ -12,57 +12,60 @@
  ],
  "segments": [
   {
-   "scene": "versus",
-   "text": "Indians abroad sent home a hundred fifty-one billion dollars last year.",
+   "scene": "hook",
+   "text": "Indians working abroad sent home a hundred fifty-one billion dollars. In one year.",
    "props": {
-    "icon": "coin",
+    "kicker": "Sent home by Indians abroad",
+    "big": 150.7,
     "format": {
      "prefix": "$",
      "suffix": "B",
      "decimals": 1
     },
-    "item": {
-     "label": "India",
-     "value": 150.7
-    },
-    "at": "hundred"
+    "sub": "in one year",
+    "flag": "in"
    },
-   "start": 0.1,
-   "end": 4.068,
+   "start": 0.05,
+   "end": 4.637,
    "words": [
     {
      "word": "Indians",
      "start": 0.0,
-     "end": 0.4
+     "end": 0.18
+    },
+    {
+     "word": "working",
+     "start": 0.18,
+     "end": 0.6
     },
     {
      "word": "abroad",
-     "start": 0.4,
-     "end": 0.7
+     "start": 0.6,
+     "end": 0.98
     },
     {
      "word": "sent",
-     "start": 0.7,
-     "end": 1.16
+     "start": 0.98,
+     "end": 1.36
     },
     {
      "word": "home",
-     "start": 1.16,
-     "end": 1.42
+     "start": 1.36,
+     "end": 1.6
     },
     {
      "word": "a",
-     "start": 1.42,
-     "end": 1.72
+     "start": 1.6,
+     "end": 1.84
     },
     {
      "word": "hundred",
-     "start": 1.72,
-     "end": 2.02
+     "start": 1.84,
+     "end": 2.08
     },
     {
      "word": "fifty-one",
-     "start": 2.02,
+     "start": 2.08,
      "end": 2.32
     },
     {
@@ -71,68 +74,33 @@
      "end": 2.94
     },
     {
-     "word": "dollars",
+     "word": "dollars.",
      "start": 2.94,
-     "end": 2.94
+     "end": 3.74
     },
     {
-     "word": "last",
-     "start": 2.94,
-     "end": 3.56
+     "word": "In",
+     "start": 3.74,
+     "end": 4.02
+    },
+    {
+     "word": "one",
+     "start": 4.02,
+     "end": 4.18
     },
     {
      "word": "year.",
-     "start": 3.56,
-     "end": 3.9
-    }
-   ]
-  },
-  {
-   "scene": "versus",
-   "text": "Number two, Mexico? Sixty-five billion.",
-   "props": {
-    "item": {
-     "label": "Mexico",
-     "value": 65.1
-    },
-    "at": "sixty"
-   },
-   "start": 4.128,
-   "end": 6.56,
-   "words": [
-    {
-     "word": "Number",
-     "start": 4.26,
-     "end": 4.26
-    },
-    {
-     "word": "two,",
-     "start": 4.26,
-     "end": 4.54
-    },
-    {
-     "word": "Mexico?",
-     "start": 4.66,
-     "end": 4.98
-    },
-    {
-     "word": "Sixty-five",
-     "start": 4.98,
-     "end": 5.64
-    },
-    {
-     "word": "billion.",
-     "start": 5.64,
-     "end": 6.24
+     "start": 4.18,
+     "end": 4.44
     }
    ]
   },
   {
    "scene": "bars",
-   "text": "These countries receive the most money from people working abroad.",
+   "text": "No country on Earth gets more. And number three makes no sense.",
    "props": {
-    "title": "Money sent home by migrants, 2025",
-    "subtitle": "billions of US dollars",
+    "title": "Money sent home by migrants",
+    "subtitle": "2025, billions of US dollars",
     "format": {
      "prefix": "$",
      "suffix": "B",
@@ -141,299 +109,302 @@
     "items": [
      {
       "label": "India",
-      "value": 150.7
+      "value": 150.7,
+      "flag": "in"
      },
      {
       "label": "Mexico",
-      "value": 65.1
+      "value": 65.1,
+      "flag": "mx"
      },
      {
       "label": "France",
-      "value": 44.5
+      "value": 44.5,
+      "flag": "fr"
      },
      {
       "label": "Philippines",
-      "value": 41.6
+      "value": 41.6,
+      "flag": "ph"
      },
      {
       "label": "Egypt",
-      "value": 41.5
+      "value": 41.5,
+      "flag": "eg"
      },
      {
       "label": "Pakistan",
-      "value": 40.5
+      "value": 40.5,
+      "flag": "pk"
      },
      {
       "label": "Bangladesh",
-      "value": 33.9
+      "value": 33.9,
+      "flag": "bd"
      },
      {
       "label": "China",
-      "value": 30.0
+      "value": 30.0,
+      "flag": "cn"
      },
      {
       "label": "Guatemala",
-      "value": 25.7
+      "value": 25.7,
+      "flag": "gt"
      },
      {
       "label": "Germany",
-      "value": 23.9
+      "value": 23.9,
+      "flag": "de"
      }
-    ]
-   },
-   "start": 6.62,
-   "end": 9.799,
-   "words": [
-    {
-     "word": "These",
-     "start": 6.66,
-     "end": 6.7
-    },
-    {
-     "word": "countries",
-     "start": 6.7,
-     "end": 7.12
-    },
-    {
-     "word": "receive",
-     "start": 7.12,
-     "end": 7.6
-    },
-    {
-     "word": "the",
-     "start": 7.6,
-     "end": 7.94
-    },
-    {
-     "word": "most",
-     "start": 7.94,
-     "end": 8.08
-    },
-    {
-     "word": "money",
-     "start": 8.08,
-     "end": 8.36
-    },
-    {
-     "word": "from",
-     "start": 8.36,
-     "end": 8.52
-    },
-    {
-     "word": "people",
-     "start": 8.52,
-     "end": 8.84
-    },
-    {
-     "word": "working",
-     "start": 8.84,
-     "end": 9.06
-    },
-    {
-     "word": "abroad.",
-     "start": 9.06,
-     "end": 9.42
-    }
-   ]
-  },
-  {
-   "scene": "bars",
-   "text": "India gets more than Mexico and France combined.",
-   "props": {
+    ],
     "highlight": [
      "India"
     ]
    },
-   "start": 9.859,
-   "end": 12.419,
+   "start": 4.697,
+   "end": 8.003,
    "words": [
     {
-     "word": "India",
-     "start": 9.84,
-     "end": 10.08
+     "word": "No",
+     "start": 4.74,
+     "end": 4.84
+    },
+    {
+     "word": "country",
+     "start": 4.84,
+     "end": 5.1
+    },
+    {
+     "word": "on",
+     "start": 5.1,
+     "end": 5.36
+    },
+    {
+     "word": "Earth",
+     "start": 5.36,
+     "end": 5.58
     },
     {
      "word": "gets",
-     "start": 10.08,
-     "end": 10.38
+     "start": 5.58,
+     "end": 5.78
     },
     {
-     "word": "more",
-     "start": 10.38,
-     "end": 10.62
+     "word": "more.",
+     "start": 5.78,
+     "end": 6.06
     },
     {
-     "word": "than",
-     "start": 10.62,
-     "end": 10.78
+     "word": "And",
+     "start": 6.56,
+     "end": 6.56
     },
+    {
+     "word": "number",
+     "start": 6.56,
+     "end": 6.72
+    },
+    {
+     "word": "three",
+     "start": 6.72,
+     "end": 7.02
+    },
+    {
+     "word": "makes",
+     "start": 7.02,
+     "end": 7.2
+    },
+    {
+     "word": "no",
+     "start": 7.2,
+     "end": 7.44
+    },
+    {
+     "word": "sense.",
+     "start": 7.44,
+     "end": 7.72
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "Mexico is second, with sixty-five billion.",
+   "props": {
+    "highlight": [
+     "Mexico"
+    ]
+   },
+   "start": 8.063,
+   "end": 10.581,
+   "words": [
     {
      "word": "Mexico",
-     "start": 10.78,
-     "end": 11.14
+     "start": 8.12,
+     "end": 8.38
     },
     {
-     "word": "and",
-     "start": 11.14,
+     "word": "is",
+     "start": 8.38,
+     "end": 8.64
+    },
+    {
+     "word": "second,",
+     "start": 8.64,
+     "end": 8.84
+    },
+    {
+     "word": "with",
+     "start": 9.22,
+     "end": 9.36
+    },
+    {
+     "word": "sixty-five",
+     "start": 9.36,
+     "end": 9.66
+    },
+    {
+     "word": "billion.",
+     "start": 9.66,
+     "end": 10.24
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "And third? France. Forty-four billion.",
+   "props": {
+    "highlight": [
+     "France"
+    ]
+   },
+   "start": 10.641,
+   "end": 12.881,
+   "words": [
+    {
+     "word": "And",
+     "start": 10.64,
+     "end": 10.72
+    },
+    {
+     "word": "third?",
+     "start": 10.72,
+     "end": 10.92
+    },
+    {
+     "word": "France.",
+     "start": 11.2,
      "end": 11.42
     },
     {
-     "word": "France",
+     "word": "Forty-four",
      "start": 11.42,
-     "end": 11.62
+     "end": 12.02
     },
     {
-     "word": "combined.",
-     "start": 11.62,
-     "end": 12.04
+     "word": "billion.",
+     "start": 12.02,
+     "end": 12.58
     }
    ]
   },
   {
    "scene": "bars",
-   "text": "Wait, France? Third place?",
+   "text": "Why? Hundreds of thousands of French people work across the border, in Switzerland and Luxembourg.",
    "props": {
     "highlight": [
      "France"
     ]
    },
-   "start": 12.479,
-   "end": 14.079,
+   "start": 12.941,
+   "end": 18.21,
    "words": [
     {
-     "word": "Wait,",
-     "start": 12.52,
-     "end": 12.62
+     "word": "Why?",
+     "start": 12.96,
+     "end": 13.08
     },
     {
-     "word": "France?",
-     "start": 12.62,
-     "end": 12.92
-    },
-    {
-     "word": "Third",
-     "start": 13.3,
-     "end": 13.4
-    },
-    {
-     "word": "place?",
-     "start": 13.4,
-     "end": 13.78
-    }
-   ]
-  },
-  {
-   "scene": "bars",
-   "text": "It counts wages of people who live in France but work across the border, in Switzerland or Luxembourg.",
-   "props": {
-    "highlight": [
-     "France"
-    ]
-   },
-   "start": 14.139,
-   "end": 19.813,
-   "words": [
-    {
-     "word": "It",
-     "start": 14.18,
-     "end": 14.2
-    },
-    {
-     "word": "counts",
-     "start": 14.2,
-     "end": 14.42
-    },
-    {
-     "word": "wages",
-     "start": 14.42,
-     "end": 14.72
+     "word": "Hundreds",
+     "start": 13.72,
+     "end": 13.74
     },
     {
      "word": "of",
-     "start": 14.72,
-     "end": 15.04
+     "start": 13.74,
+     "end": 13.96
+    },
+    {
+     "word": "thousands",
+     "start": 13.96,
+     "end": 14.2
+    },
+    {
+     "word": "of",
+     "start": 14.2,
+     "end": 14.5
+    },
+    {
+     "word": "French",
+     "start": 14.5,
+     "end": 14.64
     },
     {
      "word": "people",
-     "start": 15.04,
-     "end": 15.24
-    },
-    {
-     "word": "who",
-     "start": 15.24,
-     "end": 15.52
-    },
-    {
-     "word": "live",
-     "start": 15.52,
-     "end": 15.68
-    },
-    {
-     "word": "in",
-     "start": 15.68,
-     "end": 15.84
-    },
-    {
-     "word": "France",
-     "start": 15.84,
-     "end": 16.08
-    },
-    {
-     "word": "but",
-     "start": 16.4,
-     "end": 16.58
+     "start": 14.64,
+     "end": 15.04
     },
     {
      "word": "work",
-     "start": 16.58,
-     "end": 16.74
+     "start": 15.04,
+     "end": 15.28
     },
     {
      "word": "across",
-     "start": 16.74,
-     "end": 17.0
+     "start": 15.28,
+     "end": 15.54
     },
     {
      "word": "the",
-     "start": 17.0,
-     "end": 17.26
+     "start": 15.54,
+     "end": 15.78
     },
     {
      "word": "border,",
-     "start": 17.26,
-     "end": 17.46
+     "start": 15.78,
+     "end": 16.0
     },
     {
      "word": "in",
-     "start": 18.04,
-     "end": 18.06
+     "start": 16.4,
+     "end": 16.56
     },
     {
      "word": "Switzerland",
-     "start": 18.06,
-     "end": 18.3
+     "start": 16.56,
+     "end": 16.82
     },
     {
-     "word": "or",
-     "start": 18.3,
-     "end": 18.98
+     "word": "and",
+     "start": 16.82,
+     "end": 17.42
     },
     {
      "word": "Luxembourg.",
-     "start": 18.98,
-     "end": 19.22
+     "start": 17.42,
+     "end": 17.66
     }
    ]
   },
   {
    "scene": "bignumber",
-   "text": "For some countries, this money is the economy. In Tajikistan, it equals fifty-eight percent of GDP.",
+   "text": "But for some countries, this money is the economy. In Tajikistan, it's fifty-eight percent of GDP.",
    "props": {
     "value": 58,
     "format": {
      "suffix": "%"
     },
-    "caption": "remittances vs GDP, Tajikistan, 2025",
+    "caption": "of Tajikistan's economy comes from abroad",
     "at": "fifty",
     "compare": {
      "format": {
@@ -453,172 +424,94 @@
      ]
     }
    },
-   "start": 19.873,
-   "end": 25.975,
+   "start": 18.27,
+   "end": 24.201,
    "words": [
     {
-     "word": "For",
-     "start": 19.9,
-     "end": 19.96
+     "word": "But",
+     "start": 18.28,
+     "end": 18.34
+    },
+    {
+     "word": "for",
+     "start": 18.34,
+     "end": 18.44
     },
     {
      "word": "some",
-     "start": 19.96,
-     "end": 20.16
+     "start": 18.44,
+     "end": 18.64
     },
     {
      "word": "countries,",
-     "start": 20.16,
-     "end": 20.38
+     "start": 18.64,
+     "end": 18.96
     },
     {
      "word": "this",
-     "start": 20.8,
-     "end": 20.94
+     "start": 19.4,
+     "end": 19.5
     },
     {
      "word": "money",
-     "start": 20.94,
-     "end": 21.16
+     "start": 19.5,
+     "end": 19.7
     },
     {
      "word": "is",
-     "start": 21.16,
-     "end": 21.44
+     "start": 19.7,
+     "end": 20.0
     },
     {
      "word": "the",
-     "start": 21.44,
-     "end": 21.56
+     "start": 20.0,
+     "end": 20.12
     },
     {
      "word": "economy.",
-     "start": 21.56,
-     "end": 21.84
+     "start": 20.12,
+     "end": 20.36
     },
     {
      "word": "In",
-     "start": 22.72,
-     "end": 22.74
+     "start": 21.28,
+     "end": 21.3
     },
     {
      "word": "Tajikistan,",
-     "start": 22.74,
-     "end": 23.32
+     "start": 21.3,
+     "end": 21.88
     },
     {
-     "word": "it",
-     "start": 23.68,
-     "end": 23.86
-    },
-    {
-     "word": "equals",
-     "start": 23.86,
-     "end": 24.1
+     "word": "it's",
+     "start": 22.3,
+     "end": 22.44
     },
     {
      "word": "fifty-eight",
-     "start": 24.1,
-     "end": 24.56
+     "start": 22.44,
+     "end": 22.83
     },
     {
      "word": "percent",
-     "start": 24.56,
-     "end": 25.02
+     "start": 22.83,
+     "end": 23.22
     },
     {
      "word": "of",
-     "start": 25.02,
-     "end": 25.22
+     "start": 23.22,
+     "end": 23.4
     },
     {
      "word": "GDP.",
-     "start": 25.22,
-     "end": 25.42
-    }
-   ]
-  },
-  {
-   "scene": "bignumber",
-   "text": "Ten billion dollars from abroad, in an economy of under eighteen billion.",
-   "props": {
-    "value": 10.2,
-    "format": {
-     "prefix": "$",
-     "suffix": "B",
-     "decimals": 1
-    },
-    "caption": "sent home to Tajikistan, 2025",
-    "at": "ten"
-   },
-   "start": 26.035,
-   "end": 30.003,
-   "words": [
-    {
-     "word": "Ten",
-     "start": 26.035,
-     "end": 26.2
-    },
-    {
-     "word": "billion",
-     "start": 26.2,
-     "end": 26.5
-    },
-    {
-     "word": "dollars",
-     "start": 26.5,
-     "end": 26.5
-    },
-    {
-     "word": "from",
-     "start": 26.5,
-     "end": 27.16
-    },
-    {
-     "word": "abroad,",
-     "start": 27.16,
-     "end": 27.4
-    },
-    {
-     "word": "in",
-     "start": 28.06,
-     "end": 28.06
-    },
-    {
-     "word": "an",
-     "start": 28.06,
-     "end": 28.14
-    },
-    {
-     "word": "economy",
-     "start": 28.14,
-     "end": 28.54
-    },
-    {
-     "word": "of",
-     "start": 28.54,
-     "end": 28.86
-    },
-    {
-     "word": "under",
-     "start": 28.86,
-     "end": 28.98
-    },
-    {
-     "word": "eighteen",
-     "start": 28.98,
-     "end": 29.34
-    },
-    {
-     "word": "billion.",
-     "start": 29.34,
-     "end": 29.66
+     "start": 23.4,
+     "end": 23.6
     }
    ]
   },
   {
    "scene": "line",
-   "text": "And India's number keeps exploding. Thirteen billion in 2000.",
+   "text": "And India? Thirteen billion in 2000. Now twelve times more.",
    "props": {
     "title": "Money sent home to India",
     "subtitle": "2000 to 2025, billions of US dollars",
@@ -733,128 +626,119 @@
       150.7
      ]
     ],
-    "badge": "11.7x since 2000"
+    "badge": "12x since 2000"
    },
-   "start": 30.063,
-   "end": 33.817,
+   "start": 24.261,
+   "end": 27.973,
    "words": [
     {
      "word": "And",
-     "start": 30.1,
-     "end": 30.14
+     "start": 24.18,
+     "end": 24.34
     },
     {
-     "word": "India's",
-     "start": 30.14,
-     "end": 30.56
-    },
-    {
-     "word": "number",
-     "start": 30.56,
-     "end": 30.78
-    },
-    {
-     "word": "keeps",
-     "start": 30.78,
-     "end": 30.98
-    },
-    {
-     "word": "exploding.",
-     "start": 30.98,
-     "end": 31.46
+     "word": "India?",
+     "start": 24.34,
+     "end": 24.56
     },
     {
      "word": "Thirteen",
-     "start": 31.46,
-     "end": 32.34
+     "start": 24.56,
+     "end": 25.16
     },
     {
      "word": "billion",
-     "start": 32.34,
-     "end": 32.72
+     "start": 25.16,
+     "end": 25.46
     },
     {
      "word": "in",
-     "start": 32.72,
-     "end": 33.0
+     "start": 25.46,
+     "end": 25.78
     },
     {
      "word": "2000.",
-     "start": 33.0,
-     "end": 33.22
-    }
-   ]
-  },
-  {
-   "scene": "line",
-   "text": "Now almost twelve times more.",
-   "props": {},
-   "start": 33.877,
-   "end": 35.499,
-   "words": [
-    {
-     "word": "Now",
-     "start": 33.9,
-     "end": 34.04
+     "start": 25.78,
+     "end": 26.0
     },
     {
-     "word": "almost",
-     "start": 34.04,
-     "end": 34.34
+     "word": "Now",
+     "start": 26.64,
+     "end": 26.9
     },
     {
      "word": "twelve",
-     "start": 34.34,
-     "end": 34.64
+     "start": 26.9,
+     "end": 27.1
     },
     {
      "word": "times",
-     "start": 34.64,
-     "end": 34.92
+     "start": 27.1,
+     "end": 27.42
     },
     {
      "word": "more.",
-     "start": 34.92,
-     "end": 35.26
+     "start": 27.42,
+     "end": 27.76
     }
    ]
   },
   {
    "scene": "outro",
-   "text": "Follow for more money, mapped.",
+   "text": "Which number surprised you? Follow for more money, mapped.",
    "props": {},
-   "start": 35.559,
-   "end": 37.201,
+   "start": 28.033,
+   "end": 30.955,
    "words": [
     {
+     "word": "Which",
+     "start": 28.0,
+     "end": 28.14
+    },
+    {
+     "word": "number",
+     "start": 28.14,
+     "end": 28.36
+    },
+    {
+     "word": "surprised",
+     "start": 28.36,
+     "end": 28.68
+    },
+    {
+     "word": "you?",
+     "start": 28.68,
+     "end": 29.1
+    },
+    {
      "word": "Follow",
-     "start": 35.64,
-     "end": 35.76
+     "start": 29.1,
+     "end": 29.7
     },
     {
      "word": "for",
-     "start": 35.76,
-     "end": 36.06
+     "start": 29.7,
+     "end": 29.92
     },
     {
      "word": "more",
-     "start": 36.06,
-     "end": 36.2
+     "start": 29.92,
+     "end": 30.08
     },
     {
      "word": "money,",
-     "start": 36.2,
-     "end": 36.48
+     "start": 30.08,
+     "end": 30.42
     },
     {
      "word": "mapped.",
-     "start": 36.48,
-     "end": 36.82
+     "start": 30.42,
+     "end": 30.68
     }
    ]
   }
  ],
- "durationInFrames": 1136,
+ "durationInFrames": 949,
  "fps": 30,
  "aligned": true
 }
