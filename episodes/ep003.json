@@ -1,0 +1,298 @@
+{
+ "id": "ep003",
+ "title": "India gets $151 billion a year from people who left. The top 10 will surprise you",
+ "source": "World Bank, personal remittances received (2025), data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT; GDP from NY.GDP.MKTP.CD",
+ "voice": "af_heart",
+ "hashtags": [
+  "money",
+  "remittances",
+  "india",
+  "economy",
+  "dataviz"
+ ],
+ "segments": [
+  {
+   "scene": "versus",
+   "text": "Indians abroad sent home a hundred fifty-one billion dollars last year.",
+   "props": {
+    "icon": "coin",
+    "format": {
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1
+    },
+    "item": {
+     "label": "India",
+     "value": 150.7
+    },
+    "at": "hundred"
+   }
+  },
+  {
+   "scene": "versus",
+   "text": "Number two, Mexico? Sixty-five billion.",
+   "props": {
+    "item": {
+     "label": "Mexico",
+     "value": 65.1
+    },
+    "at": "sixty"
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "These countries receive the most money from people working abroad.",
+   "props": {
+    "title": "Money sent home by migrants, 2025",
+    "subtitle": "billions of US dollars",
+    "format": {
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1
+    },
+    "items": [
+     {
+      "label": "India",
+      "value": 150.7
+     },
+     {
+      "label": "Mexico",
+      "value": 65.1
+     },
+     {
+      "label": "France",
+      "value": 44.5
+     },
+     {
+      "label": "Philippines",
+      "value": 41.6
+     },
+     {
+      "label": "Egypt",
+      "value": 41.5
+     },
+     {
+      "label": "Pakistan",
+      "value": 40.5
+     },
+     {
+      "label": "Bangladesh",
+      "value": 33.9
+     },
+     {
+      "label": "China",
+      "value": 30.0
+     },
+     {
+      "label": "Guatemala",
+      "value": 25.7
+     },
+     {
+      "label": "Germany",
+      "value": 23.9
+     }
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "India gets more than Mexico and France combined.",
+   "props": {
+    "highlight": [
+     "India"
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "Wait, France? Third place?",
+   "props": {
+    "highlight": [
+     "France"
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "It counts wages of people who live in France but work across the border, in Switzerland or Luxembourg.",
+   "props": {
+    "highlight": [
+     "France"
+    ]
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "For some countries, this money is the economy. In Tajikistan, it equals fifty-eight percent of GDP.",
+   "props": {
+    "value": 58,
+    "format": {
+     "suffix": "%"
+    },
+    "caption": "remittances vs GDP, Tajikistan, 2025",
+    "at": "fifty",
+    "compare": {
+     "format": {
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1
+     },
+     "items": [
+      {
+       "label": "Money from abroad",
+       "value": 10.2
+      },
+      {
+       "label": "Whole economy (GDP)",
+       "value": 17.7
+      }
+     ]
+    }
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "Ten billion dollars from abroad, in an economy of under eighteen billion.",
+   "props": {
+    "value": 10.2,
+    "format": {
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1
+    },
+    "caption": "sent home to Tajikistan, 2025",
+    "at": "ten"
+   }
+  },
+  {
+   "scene": "line",
+   "text": "And India's number keeps exploding. Thirteen billion in 2000.",
+   "props": {
+    "title": "Money sent home to India",
+    "subtitle": "2000 to 2025, billions of US dollars",
+    "format": {
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1
+    },
+    "series": [
+     [
+      2000,
+      12.9
+     ],
+     [
+      2001,
+      14.3
+     ],
+     [
+      2002,
+      15.7
+     ],
+     [
+      2003,
+      21.0
+     ],
+     [
+      2004,
+      18.8
+     ],
+     [
+      2005,
+      22.1
+     ],
+     [
+      2006,
+      28.3
+     ],
+     [
+      2007,
+      37.2
+     ],
+     [
+      2008,
+      50.0
+     ],
+     [
+      2009,
+      49.2
+     ],
+     [
+      2010,
+      53.5
+     ],
+     [
+      2011,
+      62.5
+     ],
+     [
+      2012,
+      68.8
+     ],
+     [
+      2013,
+      70.0
+     ],
+     [
+      2014,
+      70.4
+     ],
+     [
+      2015,
+      68.9
+     ],
+     [
+      2016,
+      62.7
+     ],
+     [
+      2017,
+      69.0
+     ],
+     [
+      2018,
+      78.8
+     ],
+     [
+      2019,
+      83.3
+     ],
+     [
+      2020,
+      83.1
+     ],
+     [
+      2021,
+      89.4
+     ],
+     [
+      2022,
+      111.2
+     ],
+     [
+      2023,
+      119.5
+     ],
+     [
+      2024,
+      137.7
+     ],
+     [
+      2025,
+      150.7
+     ]
+    ],
+    "badge": "11.7x since 2000"
+   }
+  },
+  {
+   "scene": "line",
+   "text": "Now almost twelve times more.",
+   "props": {}
+  },
+  {
+   "scene": "outro",
+   "text": "Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}
