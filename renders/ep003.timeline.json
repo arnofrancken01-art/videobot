@@ -26,72 +26,72 @@
     "flag": "in"
    },
    "start": 0.05,
-   "end": 4.637,
+   "end": 5.15,
    "words": [
     {
      "word": "Indians",
-     "start": 0.0,
-     "end": 0.18
+     "start": 0.3,
+     "end": 0.775
     },
     {
      "word": "working",
-     "start": 0.18,
-     "end": 0.6
+     "start": 0.775,
+     "end": 1.075
     },
     {
      "word": "abroad",
-     "start": 0.6,
-     "end": 0.98
+     "start": 1.075,
+     "end": 1.475
     },
     {
      "word": "sent",
-     "start": 0.98,
-     "end": 1.36
+     "start": 1.475,
+     "end": 1.65
     },
     {
      "word": "home",
-     "start": 1.36,
-     "end": 1.6
+     "start": 1.65,
+     "end": 1.875
     },
     {
      "word": "a",
-     "start": 1.6,
-     "end": 1.84
+     "start": 1.875,
+     "end": 1.95
     },
     {
      "word": "hundred",
-     "start": 1.84,
-     "end": 2.08
+     "start": 1.95,
+     "end": 2.3
     },
     {
      "word": "fifty-one",
-     "start": 2.08,
-     "end": 2.32
+     "start": 2.3,
+     "end": 2.825
     },
     {
      "word": "billion",
-     "start": 2.32,
-     "end": 2.94
+     "start": 2.825,
+     "end": 3.175
     },
     {
      "word": "dollars.",
-     "start": 2.94,
-     "end": 3.74
+     "start": 3.175,
+     "end": 3.925
     },
     {
      "word": "In",
-     "start": 3.74,
-     "end": 4.02
+     "start": 4.062,
+     "end": 4.225
     },
     {
      "word": "one",
-     "start": 4.02,
-     "end": 4.18
+     "start": 4.225,
+     "end": 4.45
     },
     {
      "word": "year.",
-     "start": 4.18,
-     "end": 4.44
+     "start": 4.45,
+     "end": 4.925
     }
    ]
   },
@@ -162,68 +162,68 @@
      "India"
     ]
    },
-   "start": 4.697,
-   "end": 8.003,
+   "start": 5.21,
+   "end": 9.01,
    "words": [
     {
      "word": "No",
-     "start": 4.74,
-     "end": 4.84
+     "start": 5.485,
+     "end": 5.66
     },
     {
      "word": "country",
-     "start": 4.84,
-     "end": 5.1
+     "start": 5.66,
+     "end": 5.997
     },
     {
      "word": "on",
-     "start": 5.1,
-     "end": 5.36
+     "start": 5.997,
+     "end": 6.11
     },
     {
      "word": "Earth",
-     "start": 5.36,
-     "end": 5.58
+     "start": 6.11,
+     "end": 6.335
     },
     {
      "word": "gets",
-     "start": 5.58,
-     "end": 5.78
+     "start": 6.335,
+     "end": 6.585
     },
     {
      "word": "more.",
-     "start": 5.78,
-     "end": 6.06
+     "start": 6.585,
+     "end": 7.01
     },
     {
      "word": "And",
-     "start": 6.56,
-     "end": 6.56
+     "start": 7.11,
+     "end": 7.247
     },
     {
      "word": "number",
-     "start": 6.56,
-     "end": 6.72
+     "start": 7.247,
+     "end": 7.497
     },
     {
      "word": "three",
-     "start": 6.72,
-     "end": 7.02
+     "start": 7.497,
+     "end": 7.735
     },
     {
      "word": "makes",
-     "start": 7.02,
-     "end": 7.2
+     "start": 7.735,
+     "end": 8.01
     },
     {
      "word": "no",
-     "start": 7.2,
-     "end": 7.44
+     "start": 8.01,
+     "end": 8.185
     },
     {
      "word": "sense.",
-     "start": 7.44,
-     "end": 7.72
+     "start": 8.185,
+     "end": 8.76
     }
    ]
   },
@@ -235,38 +235,38 @@
      "Mexico"
     ]
    },
-   "start": 8.063,
-   "end": 10.581,
+   "start": 9.07,
+   "end": 12.12,
    "words": [
     {
      "word": "Mexico",
-     "start": 8.12,
-     "end": 8.38
+     "start": 9.345,
+     "end": 9.77
     },
     {
      "word": "is",
-     "start": 8.38,
-     "end": 8.64
+     "start": 9.77,
+     "end": 9.895
     },
     {
      "word": "second,",
-     "start": 8.64,
-     "end": 8.84
+     "start": 9.895,
+     "end": 10.395
     },
     {
      "word": "with",
-     "start": 9.22,
-     "end": 9.36
+     "start": 10.47,
+     "end": 10.645
     },
     {
      "word": "sixty-five",
-     "start": 9.36,
-     "end": 9.66
+     "start": 10.645,
+     "end": 11.245
     },
     {
      "word": "billion.",
-     "start": 9.66,
-     "end": 10.24
+     "start": 11.245,
+     "end": 11.895
     }
    ]
   },
@@ -278,33 +278,33 @@
      "France"
     ]
    },
-   "start": 10.641,
-   "end": 12.881,
+   "start": 12.18,
+   "end": 14.905,
    "words": [
     {
      "word": "And",
-     "start": 10.64,
-     "end": 10.72
+     "start": 12.405,
+     "end": 12.555
     },
     {
      "word": "third?",
-     "start": 10.72,
-     "end": 10.92
+     "start": 12.555,
+     "end": 12.905
     },
     {
      "word": "France.",
-     "start": 11.2,
-     "end": 11.42
+     "start": 12.992,
+     "end": 13.455
     },
     {
      "word": "Forty-four",
-     "start": 11.42,
-     "end": 12.02
+     "start": 13.555,
+     "end": 14.03
     },
     {
      "word": "billion.",
-     "start": 12.02,
-     "end": 12.58
+     "start": 14.03,
+     "end": 14.68
     }
    ]
   },
@@ -316,83 +316,83 @@
      "France"
     ]
    },
-   "start": 12.941,
-   "end": 18.21,
+   "start": 14.965,
+   "end": 20.79,
    "words": [
     {
      "word": "Why?",
-     "start": 12.96,
-     "end": 13.08
+     "start": 15.215,
+     "end": 15.59
     },
     {
      "word": "Hundreds",
-     "start": 13.72,
-     "end": 13.74
+     "start": 15.715,
+     "end": 16.102
     },
     {
      "word": "of",
-     "start": 13.74,
-     "end": 13.96
+     "start": 16.102,
+     "end": 16.215
     },
     {
      "word": "thousands",
-     "start": 13.96,
-     "end": 14.2
+     "start": 16.215,
+     "end": 16.652
     },
     {
      "word": "of",
-     "start": 14.2,
-     "end": 14.5
+     "start": 16.652,
+     "end": 16.74
     },
     {
      "word": "French",
-     "start": 14.5,
-     "end": 14.64
+     "start": 16.74,
+     "end": 17.015
     },
     {
      "word": "people",
-     "start": 14.64,
-     "end": 15.04
+     "start": 17.015,
+     "end": 17.365
     },
     {
      "word": "work",
-     "start": 15.04,
-     "end": 15.28
+     "start": 17.365,
+     "end": 17.552
     },
     {
      "word": "across",
-     "start": 15.28,
-     "end": 15.54
+     "start": 17.552,
+     "end": 17.89
     },
     {
      "word": "the",
-     "start": 15.54,
-     "end": 15.78
+     "start": 17.89,
+     "end": 17.99
     },
     {
      "word": "border,",
-     "start": 15.78,
-     "end": 16.0
+     "start": 17.99,
+     "end": 18.565
     },
     {
      "word": "in",
-     "start": 16.4,
-     "end": 16.56
+     "start": 18.665,
+     "end": 18.815
     },
     {
      "word": "Switzerland",
-     "start": 16.56,
-     "end": 16.82
+     "start": 18.815,
+     "end": 19.577
     },
     {
      "word": "and",
-     "start": 16.82,
-     "end": 17.42
+     "start": 19.577,
+     "end": 19.715
     },
     {
      "word": "Luxembourg.",
-     "start": 17.42,
-     "end": 17.66
+     "start": 19.715,
+     "end": 20.565
     }
    ]
   },
@@ -424,88 +424,88 @@
      ]
     }
    },
-   "start": 18.27,
-   "end": 24.201,
+   "start": 20.85,
+   "end": 27.175,
    "words": [
     {
      "word": "But",
-     "start": 18.28,
-     "end": 18.34
+     "start": 21.05,
+     "end": 21.175
     },
     {
      "word": "for",
-     "start": 18.34,
-     "end": 18.44
-    },
-    {
-     "word": "some",
-     "start": 18.44,
-     "end": 18.64
-    },
-    {
-     "word": "countries,",
-     "start": 18.64,
-     "end": 18.96
-    },
-    {
-     "word": "this",
-     "start": 19.4,
-     "end": 19.5
-    },
-    {
-     "word": "money",
-     "start": 19.5,
-     "end": 19.7
-    },
-    {
-     "word": "is",
-     "start": 19.7,
-     "end": 20.0
-    },
-    {
-     "word": "the",
-     "start": 20.0,
-     "end": 20.12
-    },
-    {
-     "word": "economy.",
-     "start": 20.12,
-     "end": 20.36
-    },
-    {
-     "word": "In",
-     "start": 21.28,
+     "start": 21.175,
      "end": 21.3
     },
     {
-     "word": "Tajikistan,",
+     "word": "some",
      "start": 21.3,
-     "end": 21.88
+     "end": 21.525
+    },
+    {
+     "word": "countries,",
+     "start": 21.525,
+     "end": 22.075
+    },
+    {
+     "word": "this",
+     "start": 22.15,
+     "end": 22.35
+    },
+    {
+     "word": "money",
+     "start": 22.35,
+     "end": 22.675
+    },
+    {
+     "word": "is",
+     "start": 22.675,
+     "end": 22.787
+    },
+    {
+     "word": "the",
+     "start": 22.787,
+     "end": 22.925
+    },
+    {
+     "word": "economy.",
+     "start": 22.925,
+     "end": 23.825
+    },
+    {
+     "word": "In",
+     "start": 23.962,
+     "end": 24.125
+    },
+    {
+     "word": "Tajikistan,",
+     "start": 24.125,
+     "end": 24.9
     },
     {
      "word": "it's",
-     "start": 22.3,
-     "end": 22.44
+     "start": 24.975,
+     "end": 25.175
     },
     {
      "word": "fifty-eight",
-     "start": 22.44,
-     "end": 22.83
+     "start": 25.175,
+     "end": 25.625
     },
     {
      "word": "percent",
-     "start": 22.83,
-     "end": 23.22
+     "start": 25.625,
+     "end": 25.987
     },
     {
      "word": "of",
-     "start": 23.22,
-     "end": 23.4
+     "start": 25.987,
+     "end": 26.075
     },
     {
      "word": "GDP.",
-     "start": 23.4,
-     "end": 23.6
+     "start": 26.075,
+     "end": 26.95
     }
    ]
   },
@@ -628,58 +628,58 @@
     ],
     "badge": "12x since 2000"
    },
-   "start": 24.261,
-   "end": 27.973,
+   "start": 27.235,
+   "end": 31.51,
    "words": [
     {
      "word": "And",
-     "start": 24.18,
-     "end": 24.34
+     "start": 27.46,
+     "end": 27.61
     },
     {
      "word": "India?",
-     "start": 24.34,
-     "end": 24.56
+     "start": 27.61,
+     "end": 28.01
     },
     {
      "word": "Thirteen",
-     "start": 24.56,
-     "end": 25.16
+     "start": 28.11,
+     "end": 28.51
     },
     {
      "word": "billion",
-     "start": 25.16,
-     "end": 25.46
+     "start": 28.51,
+     "end": 28.885
     },
     {
      "word": "in",
-     "start": 25.46,
-     "end": 25.78
+     "start": 28.885,
+     "end": 29.035
     },
     {
      "word": "2000.",
-     "start": 25.78,
-     "end": 26.0
+     "start": 29.035,
+     "end": 29.835
     },
     {
      "word": "Now",
-     "start": 26.64,
-     "end": 26.9
+     "start": 29.973,
+     "end": 30.16
     },
     {
      "word": "twelve",
-     "start": 26.9,
-     "end": 27.1
+     "start": 30.16,
+     "end": 30.46
     },
     {
      "word": "times",
-     "start": 27.1,
-     "end": 27.42
+     "start": 30.46,
+     "end": 30.785
     },
     {
      "word": "more.",
-     "start": 27.42,
-     "end": 27.76
+     "start": 30.785,
+     "end": 31.26
     }
    ]
   },
@@ -687,58 +687,58 @@
    "scene": "outro",
    "text": "Which number surprised you? Follow for more money, mapped.",
    "props": {},
-   "start": 28.033,
-   "end": 30.955,
+   "start": 31.57,
+   "end": 34.87,
    "words": [
     {
      "word": "Which",
-     "start": 28.0,
-     "end": 28.14
+     "start": 31.795,
+     "end": 31.97
     },
     {
      "word": "number",
-     "start": 28.14,
-     "end": 28.36
+     "start": 31.97,
+     "end": 32.245
     },
     {
      "word": "surprised",
-     "start": 28.36,
-     "end": 28.68
+     "start": 32.245,
+     "end": 32.695
     },
     {
      "word": "you?",
-     "start": 28.68,
-     "end": 29.1
+     "start": 32.695,
+     "end": 32.995
     },
     {
      "word": "Follow",
-     "start": 29.1,
-     "end": 29.7
+     "start": 33.157,
+     "end": 33.47
     },
     {
      "word": "for",
-     "start": 29.7,
-     "end": 29.92
+     "start": 33.47,
+     "end": 33.595
     },
     {
      "word": "more",
-     "start": 29.92,
-     "end": 30.08
+     "start": 33.595,
+     "end": 33.795
     },
     {
      "word": "money,",
-     "start": 30.08,
-     "end": 30.42
+     "start": 33.795,
+     "end": 34.045
     },
     {
      "word": "mapped.",
-     "start": 30.42,
-     "end": 30.68
+     "start": 34.095,
+     "end": 34.645
     }
    ]
   }
  ],
- "durationInFrames": 949,
+ "durationInFrames": 1066,
  "fps": 30,
- "aligned": true
+ "aligned": "tts"
 }
