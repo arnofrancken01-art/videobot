@@ -5,7 +5,7 @@ import { MapKey, WorldMap } from "./WorldMap";
 
 /**
  * Top 5 aftelling: één doorlopende scene over alle opeenvolgende "rank"-segmenten.
- * Eerste segment: { title, format, rank: 5, label, value, flag, note? }
+ * Eerste segment: { title, format, map?: true, rank: 5, label, value, flag, note? }
  * Volgende: { rank: 4..1, label, value, flag, note? }. Een segment zonder rank laat het huidige land staan.
  * Bovenaan het land dat nu genoemd wordt, onderaan de ladder 1..5 waarin onthulde landen verschijnen
  * en de rest als "?" wacht (houdt de kijker vast tot nummer 1).
@@ -44,10 +44,12 @@ export const Rank: React.FC<SceneProps> = ({ segs, fps, offset }) => {
     ...(i > 0 ? [{ at: s.start, code: null }] : []),
     { at: s.reveal, code: (s.item as Item).flag ?? null },
   ]);
+  const useMap = !!first.map; // kaart alleen als de episode erom vraagt (af en toe)
   const done = ranked.filter((s) => s.reveal <= f && s !== cur).map((s) => (s.item as Item).flag ?? "");
 
   return (
     <div style={{ width: 940, display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
+      {useMap ? (<>
       <WorldMap keys={keys} done={done} current={shown ? it.flag ?? null : null} color={color} />
 
       {/* Huidig land */}
@@ -71,6 +73,28 @@ export const Rank: React.FC<SceneProps> = ({ segs, fps, offset }) => {
           )}
         </div>
       </div>
+
+      </>) : (<>
+      {/* Huidig land, groot (zonder kaart) */}
+      <div style={{ height: 480, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 40 }}>
+        <div style={{
+          color, fontSize: 250, fontWeight: 900, letterSpacing: -12, lineHeight: 1,
+          transform: `translateX(${interpolate(numIn, [0, 1], [-160, 0])}px) scale(${interpolate(numIn, [0, 1], [1.5, 1])}) rotate(${interpolate(numIn, [0, 1], [-8, 0])}deg)`, opacity: Math.min(1, numIn * 2),
+          textShadow: isOne ? `0 0 ${50 + 50 * glow}px rgba(255,176,32,0.55)` : undefined,
+        }}>#{it.rank}</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 14, minWidth: 460 }}>
+          {shown ? (
+            <div style={{ display: "flex", flexDirection: "column", gap: 14, opacity: Math.min(1, nameIn * 2), transform: `translateX(${interpolate(nameIn, [0, 1], [140, 0])}px) scale(${interpolate(nameIn, [0, 1], [1.25, 1])})` }}>
+              <Flag code={it.flag} h={110} />
+              <div style={{ color: theme.text, fontSize: it.label.length > 12 ? 62 : 78, fontWeight: 900, lineHeight: 1, letterSpacing: -1 }}>{it.label}</div>
+              <div style={{ color, fontSize: 92, fontWeight: 900, lineHeight: 1, letterSpacing: -3 }}>{fmt(count, format)}</div>
+            </div>
+          ) : (
+            <div style={{ color: theme.muted, fontSize: 200, fontWeight: 900, lineHeight: 1 }}>?</div>
+          )}
+        </div>
+      </div>
+      </>)}
 
       {/* Ladder 1..5 */}
       <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: 10 }}>

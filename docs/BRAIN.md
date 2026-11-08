@@ -31,6 +31,7 @@ Schrijf eerst **drie hooks**, kies de sterkste.
 | 9 | `outro` | | Een vraag die tot reacties leidt + "Follow for more money, mapped." |
 
 Regels voor de aftelling:
+- **Wereldkaart (af en toe):** zet `"map": true` in het eerste rank-segment om een kaart te tonen die van land naar land vliegt. Doe dat in ongeveer **1 op 3 video's**, en alleen als de landen verspreid over de wereld liggen. Kijk in `episodes/` naar de vorige twee: hadden die een kaart, dan nu niet.
 - **Stem (belangrijk):** schrijf korte, volledige zinnen die op een punt eindigen. Geen dubbelpunten, geen komma-opsommingen zoals "Malawi, twenty-eight percent" (de stem gaat dan omhoog alsof het een vraag is). Goed: "Number five is Malawi. Twenty-eight percent." Alleen een echte vraag eindigt op "?".
 - **Zeg de landnaam letterlijk zoals in `label`**: het land, de vlag en het getal slaan in op dat woord. Gebruik gewone Engelse namen ("Turkey", "Iran", niet "Turkiye" of "Iran, Islamic Rep.").
 - Nummer 1 moet verrassen. Is de top 1 voorspelbaar, kies dan een andere maatstaf of een ander jaar.
