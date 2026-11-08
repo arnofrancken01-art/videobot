@@ -63,13 +63,14 @@ def video(path, caption="", episode=None):
         call("sendVideo", data=data, files={"video": f})
 
 
-def poll():
-    """Verwerk knopdrukken: zet de status van elke aflevering in state/queue.json."""
+def poll(wait=0):
+    """Verwerk knopdrukken: zet de status van elke aflevering in state/queue.json.
+    wait > 0: wacht tot zoveel seconden op een nieuwe klik (long polling)."""
     q_path = ROOT / "state/queue.json"
     q_path.parent.mkdir(exist_ok=True)
     queue = json.loads(q_path.read_text()) if q_path.exists() else {}
     offset = queue.get("_offset", 0)
-    updates = call("getUpdates", data={"offset": offset, "allowed_updates": json.dumps(["callback_query", "message"])})
+    updates = call("getUpdates", data={"offset": offset, "timeout": wait, "allowed_updates": json.dumps(["callback_query", "message"])})
     changed = []
     for u in updates:
         offset = max(offset, u["update_id"] + 1)
@@ -85,6 +86,7 @@ def poll():
     q_path.write_text(json.dumps(queue, indent=1))
     for ep, st in changed:
         print(f"{ep}: {st}")
+    return changed
 
 
 if __name__ == "__main__":
@@ -97,3 +99,11 @@ if __name__ == "__main__":
         video(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "", sys.argv[4] if len(sys.argv) > 4 else None)
     elif cmd == "poll":
         poll()
+    elif cmd == "watch":
+        # Blijf ~55 minuten luisteren; bij een klik meteen posten en status bewaren.
+        import subprocess, time
+        end = time.time() + float(sys.argv[2] if len(sys.argv) > 2 else 3300)
+        while time.time() < end:
+            if poll(wait=50):
+                subprocess.run([sys.executable, str(ROOT / "scripts/publish.py")], check=True)
+                subprocess.run(["bash", "-c", 'git add state && (git diff --cached --quiet || (git commit -qm "Status bijgewerkt" && git pull -q --rebase && git push -q))'], check=True, cwd=ROOT)
