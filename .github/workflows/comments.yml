@@ -1,0 +1,43 @@
+name: Reactieronde YouTube
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "fetch (reacties ophalen) of apply (antwoorden plaatsen)"
+        default: fetch
+  push:
+    branches: [main]
+    paths: ["state/replies.json"]
+
+concurrency: comments
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Reactieronde
+        run: python scripts/comments.py ${{ github.event_name == 'push' && 'apply' || inputs.mode }}
+      - name: Bewaren
+        if: always()
+        run: |
+          git config user.name "videobot"
+          git config user.email "videobot@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet || (git commit -qm "Reactieronde" && git pull -q --rebase && git push -q)
+      - name: Foutmelding naar Telegram
+        if: failure()
+        run: |
+          python scripts/telegram.py send "Reactieronde mislukt. Bekijk: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
