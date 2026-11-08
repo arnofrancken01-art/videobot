@@ -1,6 +1,7 @@
 import { interpolate, spring, useCurrentFrame } from "remotion";
 import { theme } from "../theme";
 import { Flag, Fmt, P, SceneProps, fmt, wordFrame } from "./common";
+import { MapKey, WorldMap } from "./WorldMap";
 
 /**
  * Top 5 aftelling: één doorlopende scene over alle opeenvolgende "rank"-segmenten.
@@ -38,32 +39,41 @@ export const Rank: React.FC<SceneProps> = ({ segs, fps, offset }) => {
   const max = Math.max(...ranked.map((s) => Math.abs((s.item as Item).value)));
   const glow = 0.5 + 0.5 * Math.sin(f / 7);
 
+  // Kaart: bij elk nieuw nummer zoomt ze uit naar de wereld, op de landnaam vliegt ze naar het land.
+  const keys: MapKey[] = ranked.flatMap((s, i) => [
+    ...(i > 0 ? [{ at: s.start, code: null }] : []),
+    { at: s.reveal, code: (s.item as Item).flag ?? null },
+  ]);
+  const done = ranked.filter((s) => s.reveal <= f && s !== cur).map((s) => (s.item as Item).flag ?? "");
+
   return (
-    <div style={{ width: 940, display: "flex", flexDirection: "column", alignItems: "center" }}>
-      {/* De titel staat al in de kop bovenaan (Header). */}
+    <div style={{ width: 940, display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
+      <WorldMap keys={keys} done={done} current={shown ? it.flag ?? null : null} color={color} />
 
       {/* Huidig land */}
-      <div style={{ height: 460, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 40 }}>
+      <div style={{ height: 170, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 34 }}>
         <div style={{
-          color, fontSize: 250, fontWeight: 900, letterSpacing: -12, lineHeight: 1,
+          color, fontSize: 170, fontWeight: 900, letterSpacing: -8, lineHeight: 1,
           transform: `translateX(${interpolate(numIn, [0, 1], [-160, 0])}px) scale(${interpolate(numIn, [0, 1], [1.5, 1])}) rotate(${interpolate(numIn, [0, 1], [-8, 0])}deg)`, opacity: Math.min(1, numIn * 2),
           textShadow: isOne ? `0 0 ${50 + 50 * glow}px rgba(255,176,32,0.55)` : undefined,
         }}>#{it.rank}</div>
-        <div style={{ display: "flex", flexDirection: "column", gap: 14, minWidth: 460 }}>
+        <div style={{ minWidth: 520 }}>
           {shown ? (
-            <div style={{ display: "flex", flexDirection: "column", gap: 14, opacity: Math.min(1, nameIn * 2), transform: `translateX(${interpolate(nameIn, [0, 1], [140, 0])}px) scale(${interpolate(nameIn, [0, 1], [1.25, 1])})` }}>
-              <Flag code={it.flag} h={110} />
-              <div style={{ color: theme.text, fontSize: it.label.length > 12 ? 62 : 78, fontWeight: 900, lineHeight: 1, letterSpacing: -1 }}>{it.label}</div>
-              <div style={{ color, fontSize: 92, fontWeight: 900, lineHeight: 1, letterSpacing: -3 }}>{fmt(count, format)}</div>
+            <div style={{ display: "flex", alignItems: "center", gap: 22, opacity: Math.min(1, nameIn * 2), transform: `translateX(${interpolate(nameIn, [0, 1], [140, 0])}px) scale(${interpolate(nameIn, [0, 1], [1.25, 1])})` }}>
+              <Flag code={it.flag} h={96} />
+              <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                <div style={{ color: theme.text, fontSize: it.label.length > 10 ? 54 : 68, fontWeight: 900, lineHeight: 1, letterSpacing: -1 }}>{it.label}</div>
+                <div style={{ color, fontSize: 80, fontWeight: 900, lineHeight: 1, letterSpacing: -3 }}>{fmt(count, format)}</div>
+              </div>
             </div>
           ) : (
-            <div style={{ color: theme.muted, fontSize: 200, fontWeight: 900, lineHeight: 1 }}>?</div>
+            <div style={{ color: theme.muted, fontSize: 150, fontWeight: 900, lineHeight: 1 }}>?</div>
           )}
         </div>
       </div>
 
       {/* Ladder 1..5 */}
-      <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: 12 }}>
+      <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: 10 }}>
         {Array.from({ length: total }, (_, k) => k + 1).map((r) => {
           const st = ranked.find((s) => (s.item as Item).rank === r);
           const open = st && f >= st.reveal;
@@ -73,7 +83,7 @@ export const Rank: React.FC<SceneProps> = ({ segs, fps, offset }) => {
           const c = r === 1 ? theme.warm : theme.accent;
           return (
             <div key={r} style={{
-              height: 74, borderRadius: 16, display: "flex", alignItems: "center", gap: 18, padding: "0 22px", position: "relative", overflow: "hidden",
+              height: 62, borderRadius: 14, display: "flex", alignItems: "center", gap: 18, padding: "0 22px", position: "relative", overflow: "hidden",
               background: theme.bgSoft, border: `2px solid ${active && open ? c : theme.border}`,
             }}>
               {open && x && (
