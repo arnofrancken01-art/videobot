@@ -12,18 +12,31 @@ Taal van de video's: Engels. Doelgroep: nieuwsgierige 18-35-jarigen in de VS en 
 5. Controleer: `python3 scripts/validate.py episodes/epNNN.json`. Los elke FOUT op.
 6. Commit en push naar `main`. GitHub Actions maakt dan de video en stuurt hem naar Telegram ter goedkeuring.
 
-## Verhaalopbouw (verplicht)
+## Vast stramien: Top 5 aftelling (verplicht, elke video)
 
-Schrijf eerst **drie hooks**, kies de sterkste, en bouw dan dit verhaal:
+Elke video volgt exact dezelfde opbouw. Kijkers leren het format kennen en blijven tot nummer 1.
+Kies dus een onderwerp waarvoor `data/` een **echte top 5 per land** geeft (meest recente jaar met genoeg landen).
+Schrijf eerst **drie hooks**, kies de sterkste.
 
-1. **Hook (0-3 s), scene `hook`**: het schokkendste getal staat vanaf frame 1 groot in beeld, de stem zegt de claim in max. 15 woorden. Formules die werken: "X krijgt/betaalt/verdient [groot getal]", "X is [N] keer meer dan Y", een getal dat tegen de intuïtie ingaat. Nooit beginnen met "Did you know", "Here's", "Today" of "In this video".
-2. **Open lus (3-6 s)**: beloof een verrassing die pas later komt ("and number three makes no sense", "but one country breaks the pattern"). Zo blijven mensen kijken.
-3. **Opbouw**: de ranglijst of vergelijking, elk segment één nieuw feit, en zet in de kijker wat je zegt.
-4. **Wending / betaling**: los de open lus op met een echte uitleg (een reden, geen gok). Dat is het moment dat mensen delen.
-5. **Laatste klap**: een tweede verrassend getal of een verloop in de tijd.
-6. **Einde**: een vraag die tot reacties leidt + "Follow for more money, mapped." (scene `outro`).
+| # | Scene | Tijd | Wat de stem zegt |
+|---|---|---|---|
+| 1 | `hook` | 0-3 s | Het getal van nummer 1 groot in beeld, **zonder het land te verklappen**, + een raadvraag. "In one country, prices jumped forty-two percent in a single year. Can you guess which?" Gebruik `icon`, geen `flag` (anders verklap je het). |
+| 2 | `rank` 5 | | "Top five. Number five: [land], [getal]." |
+| 3 | `rank` 4 | | "Number four: [land], [getal]." Max. 8 woorden. |
+| 4 | `rank` 3 | | "Number three: [land], [getal]." |
+| 5 | `rank` 2 | | Bouw spanning op: "Number two is a holiday favorite. Turkey, thirty-five percent." |
+| 6 | `rank` 1 | | "And number one: [land]. [getal]." + **één zin waarom** (echte reden). |
+| 7 | `line` / `bignumber` / `versus` | | De wending: een tweede verrassend getal of verloop in de tijd ("But Turkey has seen worse..."). |
+| 8 | eventueel nog 1 `bignumber` | | De laatste klap, één getal om te delen. |
+| 9 | `outro` | | Een vraag die tot reacties leidt + "Follow for more money, mapped." |
 
-Toets je script: zou iemand die scrollt na 1 seconde blijven hangen? Zou hij het naar een vriend sturen? Zo niet, herschrijf.
+Regels voor de aftelling:
+- **Zeg de landnaam letterlijk zoals in `label`**: het land, de vlag en het getal slaan in op dat woord. Gebruik gewone Engelse namen ("Turkey", "Iran", niet "Turkiye" of "Iran, Islamic Rep.").
+- Nummer 1 moet verrassen. Is de top 1 voorspelbaar, kies dan een andere maatstaf of een ander jaar.
+- Elke rank-zin max. ca. 10 woorden; alleen bij nummer 1 mag er een uitleg bij.
+- Titel van de video: verrassend getal + "Top 5 ..." (bv. "Prices rose 42% in ONE year in this country. Top 5 highest inflation in 2025").
+
+Toets je script: zou iemand die scrollt na 1 seconde blijven hangen? Zou hij willen raden wie nummer 1 is? Zo niet, herschrijf.
 
 ## Wat een goede video is (feedback van Arno)
 
@@ -49,6 +62,12 @@ Toets je script: zou iemand die scrollt na 1 seconde blijven hangen? Zou hij het
 Regels voor `text`: getallen voluit schrijven zoals je ze uitspreekt ("nine dollars", "sixty-two percent", "two thirty-eight"); jaartallen mogen als cijfers. Interpunctie bepaalt de captions (een leesteken sluit een caption-blok af).
 
 ### Scenes
+
+**rank** (de aftelling, 5 opeenvolgende segmenten): eerste segment bevat `title` en `format`; elk segment `rank`, `label`, `value`, `flag`. Onderaan groeit een ladder 1-5 waarin de nog geheime plekken als "?" wachten.
+```json
+{"scene":"rank","text":"Top five. Number five: Malawi, twenty-eight percent.","props":{"title":"Highest inflation, 2025","format":{"suffix":"%","decimals":1},"rank":5,"label":"Malawi","value":28.4,"flag":"mw"}}
+{"scene":"rank","text":"Number four: Haiti, almost twenty-nine.","props":{"rank":4,"label":"Haiti","value":28.6,"flag":"ht"}}
+```
 
 **hook** (altijd het eerste segment): de claim staat er vanaf frame 1.
 ```json

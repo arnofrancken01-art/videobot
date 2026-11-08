@@ -9,19 +9,20 @@ import { BigNumber } from "./scenes/BigNumber";
 import { Hook } from "./scenes/Hook";
 import { LineScene } from "./scenes/LineScene";
 import { Outro } from "./scenes/Outro";
+import { Rank } from "./scenes/Rank";
 import type { SceneProps } from "./scenes/common";
 
 export type Seg = (typeof timeline.segments)[number];
 
 const SCENES: Record<string, React.FC<SceneProps>> = {
-  hook: Hook, versus: Versus, bars: Bars, bignumber: BigNumber, line: LineScene, outro: Outro,
+  hook: Hook, versus: Versus, bars: Bars, bignumber: BigNumber, line: LineScene, outro: Outro, rank: Rank,
 };
 
 // Opeenvolgende segmenten met dezelfde scene worden 1 doorlopende scene.
 const groups: { scene: string; segs: Seg[] }[] = [];
 for (const s of timeline.segments) {
   const last = groups[groups.length - 1];
-  if (last && last.scene === s.scene && ["bars", "versus", "line"].includes(s.scene)) last.segs.push(s);
+  if (last && last.scene === s.scene && ["bars", "versus", "line", "rank"].includes(s.scene)) last.segs.push(s);
   else groups.push({ scene: s.scene, segs: [s] });
 }
 

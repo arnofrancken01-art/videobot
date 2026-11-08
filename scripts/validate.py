@@ -5,10 +5,11 @@ Stopt met een duidelijke fout als iets niet klopt.
 import json, re, sys
 from pathlib import Path
 
-SCENES = {"hook", "versus", "bars", "bignumber", "line", "outro"}
+SCENES = {"hook", "rank", "versus", "bars", "bignumber", "line", "outro"}
 FLAGS = {f.stem for f in (Path(__file__).resolve().parent.parent / "public/flags").glob("*.svg")}
 ICONS = {None, "burger", "globe", "house", "clock", "coin"}
 errors, warnings = [], []
+norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 path = Path(sys.argv[1])
 ep = json.loads(path.read_text())
 
@@ -25,6 +26,16 @@ if segs and segs[0].get("scene") != "hook":
     errors.append("eerste segment moet scene 'hook' zijn: de schokkende claim staat er vanaf frame 1")
 if segs and segs[-1].get("scene") != "outro":
     errors.append("laatste segment moet scene 'outro' zijn")
+
+# Vast stramien: hook, dan Top 5 aftelling (rank 5, 4, 3, 2, 1), dan wending, dan outro.
+ranks = [s.get("props", {}).get("rank") for s in segs if s.get("scene") == "rank" and s.get("props", {}).get("rank")]
+if ranks != [5, 4, 3, 2, 1]:
+    errors.append(f"stramien: de rank-segmenten moeten aftellen 5, 4, 3, 2, 1 (nu {ranks})")
+rank_idx = [i for i, s in enumerate(segs) if s.get("scene") == "rank"]
+if rank_idx and (rank_idx[0] > 2 or rank_idx != list(range(rank_idx[0], rank_idx[-1] + 1))):
+    errors.append("stramien: de aftelling begint uiterlijk als 3e segment en loopt zonder onderbreking")
+if rank_idx and len(segs) - 1 - rank_idx[-1] < 2:
+    errors.append("stramien: na nummer 1 komt minstens een wending (bignumber, line of versus) en dan de outro")
 
 prev = None
 for i, s in enumerate(segs):
@@ -68,6 +79,14 @@ for i, s in enumerate(segs):
             for h in segs[j].get("props", {}).get("highlight", []):
                 if h not in labels:
                     errors.append(f"segment {j + 1}: highlight '{h}' staat niet in de balken")
+    if sc == "rank":
+        if prev != "rank" and not (p.get("title") and "format" in p):
+            errors.append(f"{where}: eerste rank-segment heeft 'title' en 'format' nodig")
+        if p.get("rank"):
+            if not (p.get("label") and isinstance(p.get("value"), (int, float)) and p.get("flag")):
+                errors.append(f"{where}: rank heeft label, value en flag nodig")
+            elif not any(norm(w) == norm(p["label"].split()[0]) for w in text.split()):
+                warnings.append(f"{where}: de landnaam '{p['label']}' wordt niet letterlijk uitgesproken; het land verschijnt dan pas na 1,2 s")
     if sc == "bignumber" and not isinstance(p.get("value"), (int, float)):
         errors.append(f"{where}: value moet een getal zijn")
     if sc == "line" and prev != "line":
