@@ -1,14 +1,27 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-08T18:05:38Z",
+ "fetched_at": "2026-11-08T19:42:17Z",
  "videos": [
   {
    "video_id": "87rc7aPFs1A",
    "title": "Prices rose 42% in ONE year in this country. Top 5 highest inflation in 2025 #shorts",
-   "views": 2,
-   "question_posted": false,
+   "views": 66,
+   "question_posted": true,
    "question": "How fast are prices rising where you live?",
-   "comments": []
+   "comments": [
+    {
+     "id": "Ugw9VAA-o342bmMy4i94AaABAg",
+     "author": "@RankedFails-t7x",
+     "text": "🎉",
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "thx"
+      }
+     ]
+    }
+   ]
   }
  ]
 }
