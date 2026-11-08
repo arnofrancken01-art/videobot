@@ -113,3 +113,7 @@ Opeenvolgende segmenten met dezelfde scene `versus`, `bars` of `line` worden é�
 - Hoeveel landen uitgeven aan gezondheid vs leger
 - Geld dat migranten naar huis sturen: de grootste ontvangers
 - Rijkste en armste landen, en hoe dat in 30 jaar veranderde
+
+## Skills
+
+De officiële Remotion-skills staan in `.agents/skills/` (gekoppeld in `.claude/skills/`). Lees `remotion-best-practices` voordat je iets aan de scenes in `src/` verandert. Voor een gewone aflevering (alleen `episodes/epNNN.json`) zijn ze niet nodig.
