@@ -18,6 +18,17 @@ SPEED = 1.15  # spreeksnelheid
 norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
 
 
+def speak(text):
+    """Tekst voor de stem: dubbelpunten en puntkomma's worden punten (anders gaat de toon
+    omhoog alsof het een vraag is), en elke zin eindigt op een leesteken.
+    De captions gebruiken de originele tekst; de woorden blijven gelijk."""
+    t = re.sub(r"\s*[:;]\s*", ". ", text.strip())
+    t = re.sub(r"\s+[-\u2013\u2014]\s+", ". ", t)
+    if t and t[-1] not in ".!?":
+        t += "."
+    return t
+
+
 def map_words(words, toks):
     """Koppel scriptwoorden aan (tekst, start, eind)-tokens via letters, robuust voor
     koppeltekens en leestekens. Geeft per woord (start, eind) of None."""
@@ -112,7 +123,7 @@ def main():
     audio = [np.zeros(int(SR * t), dtype=np.float32)]
     segs = []
     for s in ep["segments"]:
-        samples, toks = say(s["text"])
+        samples, toks = say(speak(s["text"]))
         dur = len(samples) / SR
         words = s["text"].split()
         times = fill_gaps(map_words(words, toks), 0.0, dur)

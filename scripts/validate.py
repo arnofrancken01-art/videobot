@@ -37,6 +37,12 @@ if rank_idx and (rank_idx[0] > 2 or rank_idx != list(range(rank_idx[0], rank_idx
 if rank_idx and len(segs) - 1 - rank_idx[-1] < 2:
     errors.append("stramien: na nummer 1 komt minstens een wending (bignumber, line of versus) en dan de outro")
 
+for key in ("topic", "description", "tags"):
+    if key not in ep:
+        warnings.append(f"veld '{key}' ontbreekt (beter bereik op YouTube)")
+if len(ep.get("title", "")) > 90:
+    errors.append("title is langer dan 90 tekens")
+
 prev = None
 for i, s in enumerate(segs):
     sc, p, text = s.get("scene"), s.get("props", {}), s.get("text", "")
@@ -46,6 +52,8 @@ for i, s in enumerate(segs):
         continue
     if re.search(r"\d", re.sub(r"\b(19|20)\d\d\b", "", text)):
         errors.append(f"{where}: schrijf getallen voluit in de gesproken tekst (\"two thirty-eight\", niet \"2.38\")")
+    if re.search(r"[:;]", text):
+        warnings.append(f"{where}: dubbelpunt of puntkomma in de tekst; schrijf liever twee korte zinnen")
     if len(text.split()) > 22:
         warnings.append(f"{where}: lange zin ({len(text.split())} woorden), splitsen maakt het tempo hoger")
     at = p.get("at")

@@ -15,4 +15,4 @@ export const theme = {
   font: "Inter, sans-serif",
 };
 // Inhoud blijft binnen deze zone, zodat ze nooit onder de captions of de app-knoppen valt.
-export const STAGE = { top: 230, height: 1040 };
+export const STAGE = { top: 290, height: 1000 };

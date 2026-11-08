@@ -31,6 +31,7 @@ Schrijf eerst **drie hooks**, kies de sterkste.
 | 9 | `outro` | | Een vraag die tot reacties leidt + "Follow for more money, mapped." |
 
 Regels voor de aftelling:
+- **Stem (belangrijk):** schrijf korte, volledige zinnen die op een punt eindigen. Geen dubbelpunten, geen komma-opsommingen zoals "Malawi, twenty-eight percent" (de stem gaat dan omhoog alsof het een vraag is). Goed: "Number five is Malawi. Twenty-eight percent." Alleen een echte vraag eindigt op "?".
 - **Zeg de landnaam letterlijk zoals in `label`**: het land, de vlag en het getal slaan in op dat woord. Gebruik gewone Engelse namen ("Turkey", "Iran", niet "Turkiye" of "Iran, Islamic Rep.").
 - Nummer 1 moet verrassen. Is de top 1 voorspelbaar, kies dan een andere maatstaf of een ander jaar.
 - Elke rank-zin max. ca. 10 woorden; alleen bij nummer 1 mag er een uitleg bij.
@@ -46,12 +47,24 @@ Toets je script: zou iemand die scrollt na 1 seconde blijven hangen? Zou hij wil
 - **Echte inhoud, geen slop**: elk getal met bron, één duidelijke conclusie, een verrassende wending in het midden.
 - **Einde**: een vraag + `"Follow for more money, mapped."` als laatste segment (scene `outro`).
 
+## Uploadtekst (voor zoveel mogelijk bereik)
+
+Vul in elke episode ook in:
+- `title`: max. 70 tekens, getal + nieuwsgierigheid, geen clickbait-leugen ("Prices rose 42% in ONE year here. Top 5 highest inflation 2025").
+- `topic`: 2-4 woorden voor de kop bovenaan de video ("Highest inflation 2025").
+- `description`: 1-2 zinnen: een vraag + "number one will surprise you" + dat het echte data is.
+- `hashtags`: 4 stuks, eerst het onderwerp (#inflation), dan #money, #economy en één specifieke (#top5). `#shorts` komt er automatisch bij.
+- `tags`: 6-10 zoekwoorden die mensen echt intypen ("highest inflation", "cost of living", landnamen).
+
 ## Formaat van een episode
 
 ```json
 {
  "id": "ep002",
- "title": "Korte, klikbare titel (max. 90 tekens)",
+ "title": "Korte, klikbare titel (max. 70 tekens)",
+ "topic": "Highest inflation 2025",
+ "description": "Which country has the fastest rising prices? Number one will surprise you.",
+ "tags": ["highest inflation", "cost of living"],
  "source": "World Bank, GDP per capita (2024), data.worldbank.org",
  "voice": "af_heart",
  "hashtags": ["money", "economy", "dataviz"],

@@ -1,8 +1,9 @@
-import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import timeline from "./timeline.json";
 import { STAGE, theme } from "./theme";
 import { Background } from "./Background";
 import { Captions } from "./Captions";
+import { Header } from "./Header";
 import { Versus } from "./scenes/Versus";
 import { Bars } from "./scenes/Bars";
 import { BigNumber } from "./scenes/BigNumber";
@@ -11,6 +12,8 @@ import { LineScene } from "./scenes/LineScene";
 import { Outro } from "./scenes/Outro";
 import { Rank } from "./scenes/Rank";
 import type { SceneProps } from "./scenes/common";
+
+const SR = (w: string) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 
 export type Seg = (typeof timeline.segments)[number];
 
@@ -27,6 +30,59 @@ for (const s of timeline.segments) {
 }
 
 const fps = timeline.fps;
+
+// Geluidseffecten: whoosh bij elke scenewissel, pop bij het onthullen, boem + ding bij nummer 1.
+type Fx = { at: number; src: string; vol: number };
+const fx: Fx[] = [];
+const wordAt = (s: Seg, w?: string) => {
+  const hit = w ? s.words.find((x) => SR(x.word).startsWith(SR(w))) : undefined;
+  return hit ? hit.start : null;
+};
+timeline.segments.forEach((s, i) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const p: any = s.props;
+  const prev = timeline.segments[i - 1];
+  if (i > 0 && (prev.scene !== s.scene || p.rank)) fx.push({ at: s.start - 0.12, src: "whoosh", vol: 0.35 });
+  if (s.scene === "rank" && p.rank) {
+    const t = Math.min(wordAt(s, String(p.label).split(/[\s-]/)[0]) ?? s.start, s.start + 1.2);
+    if (p.rank === 1) {
+      fx.push({ at: t, src: "boom", vol: 0.55 });
+      fx.push({ at: t + 0.05, src: "ding", vol: 0.3 });
+    } else fx.push({ at: t, src: "pop", vol: 0.45 });
+  }
+  if (s.scene === "bignumber" || s.scene === "hook") {
+    const t = s.scene === "hook" ? s.start : Math.min(wordAt(s, p.at) ?? s.start, s.start + 0.5);
+    fx.push({ at: t, src: "pop", vol: 0.45 });
+  }
+});
+
+// Achtergrondvlag: de vlag van het land waar het nu over gaat, groot en wazig.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const flagOf = (s: Seg): string | undefined => { const p: any = s.props; return p.flag ?? p.item?.flag; };
+const flags: { from: number; to: number; code: string }[] = [];
+timeline.segments.forEach((s, i) => {
+  const code = flagOf(s);
+  if (!code) return;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const p: any = s.props;
+  const reveal = p.rank ? Math.min(wordAt(s, String(p.label).split(/[\s-]/)[0]) ?? s.start, s.start + 1.2) : s.start;
+  const from = Math.round(reveal * fps);
+  const nxt = timeline.segments.slice(i + 1).find((x) => flagOf(x) || x.scene !== s.scene);
+  const to = nxt ? Math.round(nxt.start * fps) + 8 : timeline.durationInFrames;
+  flags.push({ from, to, code });
+});
+const FlagGlow: React.FC<{ code: string; dur: number }> = ({ code, dur }) => {
+  const f = useCurrentFrame();
+  const o = interpolate(f, [0, 8, dur - 8, dur], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ opacity: o * 0.16 }}>
+      <Img src={staticFile(`flags/${code}.svg`)} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "blur(30px) saturate(1.3)", transform: `scale(${1.15 + 0.08 * (f / dur)})` }} />
+    </AbsoluteFill>
+  );
+};
+const topic: string = (timeline as { topic?: string }).topic
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  ?? (timeline.segments.find((s) => s.scene === "rank")?.props as any)?.title ?? "";
 const OVERLAP = 6; // frames waarin twee scenes in elkaar overvloeien
 
 // Elke scene komt binnen met een veer, zoomt traag in en vloeit weg in de volgende.
@@ -51,6 +107,12 @@ const Stage: React.FC<{ dur: number; first: boolean; children: React.ReactNode }
 export const Video: React.FC = () => (
   <AbsoluteFill style={{ fontFamily: theme.font }}>
     <Background />
+    {flags.map((g, i) => (
+      <Sequence key={`flag${i}`} from={g.from} durationInFrames={g.to - g.from}>
+        <FlagGlow code={g.code} dur={g.to - g.from} />
+      </Sequence>
+    ))}
+    <Header topic={topic} />
     {groups.map((g, i) => {
       const from = i === 0 ? 0 : Math.round(g.segs[0].start * fps);
       const next = groups[i + 1];
@@ -70,5 +132,10 @@ export const Video: React.FC = () => (
       Source: {timeline.source.split(",")[0]}
     </div>
     <Audio src={staticFile("voice.wav")} />
+    {fx.map((e, i) => (
+      <Sequence key={`fx${i}`} from={Math.max(0, Math.round(e.at * fps))} durationInFrames={fps * 2}>
+        <Audio src={staticFile(`sfx/${e.src}.wav`)} volume={e.vol} />
+      </Sequence>
+    ))}
   </AbsoluteFill>
 );

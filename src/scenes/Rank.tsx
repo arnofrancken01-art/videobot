@@ -40,18 +40,18 @@ export const Rank: React.FC<SceneProps> = ({ segs, fps, offset }) => {
 
   return (
     <div style={{ width: 940, display: "flex", flexDirection: "column", alignItems: "center" }}>
-      <div style={{ color: theme.muted, fontSize: 40, fontWeight: 800, textTransform: "uppercase", letterSpacing: 2, textAlign: "center" }}>{first.title}</div>
+      {/* De titel staat al in de kop bovenaan (Header). */}
 
       {/* Huidig land */}
-      <div style={{ height: 430, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 40 }}>
+      <div style={{ height: 460, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 40 }}>
         <div style={{
           color, fontSize: 250, fontWeight: 900, letterSpacing: -12, lineHeight: 1,
-          transform: `scale(${interpolate(numIn, [0, 1], [1.7, 1])})`, opacity: Math.min(1, numIn * 2),
+          transform: `translateX(${interpolate(numIn, [0, 1], [-160, 0])}px) scale(${interpolate(numIn, [0, 1], [1.5, 1])}) rotate(${interpolate(numIn, [0, 1], [-8, 0])}deg)`, opacity: Math.min(1, numIn * 2),
           textShadow: isOne ? `0 0 ${50 + 50 * glow}px rgba(255,176,32,0.55)` : undefined,
         }}>#{it.rank}</div>
         <div style={{ display: "flex", flexDirection: "column", gap: 14, minWidth: 460 }}>
           {shown ? (
-            <div style={{ display: "flex", flexDirection: "column", gap: 14, opacity: Math.min(1, nameIn * 2), transform: `translateX(${interpolate(nameIn, [0, 1], [60, 0])}px)` }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: 14, opacity: Math.min(1, nameIn * 2), transform: `translateX(${interpolate(nameIn, [0, 1], [140, 0])}px) scale(${interpolate(nameIn, [0, 1], [1.25, 1])})` }}>
               <Flag code={it.flag} h={110} />
               <div style={{ color: theme.text, fontSize: it.label.length > 12 ? 62 : 78, fontWeight: 900, lineHeight: 1, letterSpacing: -1 }}>{it.label}</div>
               <div style={{ color, fontSize: 92, fontWeight: 900, lineHeight: 1, letterSpacing: -3 }}>{fmt(count, format)}</div>

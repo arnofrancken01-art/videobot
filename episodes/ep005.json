@@ -3,24 +3,154 @@
  "title": "Prices rose 42% in ONE year in this country. Top 5 highest inflation in 2025",
  "source": "World Bank, inflation, consumer prices (annual %, 2025), data.worldbank.org/indicator/FP.CPI.TOTL.ZG",
  "voice": "af_heart",
- "hashtags": ["money", "inflation", "economy", "top5", "dataviz"],
+ "hashtags": [
+  "inflation",
+  "money",
+  "economy",
+  "top5"
+ ],
  "segments": [
-  {"scene": "hook", "text": "In one country, prices jumped forty-two percent in a single year. Can you guess which?",
-   "props": {"kicker": "Prices rose in one year", "big": 42.2, "format": {"suffix": "%", "decimals": 1}, "sub": "Guess the country", "icon": "coin"}},
-  {"scene": "rank", "text": "Top five. Number five: Malawi, twenty-eight percent.",
-   "props": {"title": "Highest inflation, 2025", "format": {"suffix": "%", "decimals": 1}, "rank": 5, "label": "Malawi", "value": 28.4, "flag": "mw"}},
-  {"scene": "rank", "text": "Number four: Haiti, almost twenty-nine.",
-   "props": {"rank": 4, "label": "Haiti", "value": 28.6, "flag": "ht"}},
-  {"scene": "rank", "text": "Number three: Burundi, thirty-four percent.",
-   "props": {"rank": 3, "label": "Burundi", "value": 34.1, "flag": "bi"}},
-  {"scene": "rank", "text": "Number two is a holiday favorite. Turkey, thirty-five percent.",
-   "props": {"rank": 2, "label": "Turkey", "value": 34.9, "flag": "tr"}},
-  {"scene": "rank", "text": "And number one: Iran. Forty-two percent. Sanctions and a crashing currency make everything pricier.",
-   "props": {"rank": 1, "label": "Iran", "value": 42.2, "flag": "ir"}},
-  {"scene": "line", "text": "But Turkey has seen worse. In 2022, prices there rose seventy-two percent.",
-   "props": {"title": "Inflation in Turkey", "subtitle": "2019 to 2025", "format": {"suffix": "%", "decimals": 0}, "series": [[2019, 15.2], [2020, 12.3], [2021, 19.6], [2022, 72.3], [2023, 53.9], [2024, 58.5], [2025, 34.9]], "badge": "72% in 2022"}},
-  {"scene": "bignumber", "text": "Since 2019, prices in Turkey went up more than seven times.",
-   "props": {"value": 7.6, "format": {"suffix": "x", "decimals": 1}, "caption": "prices in Turkey since 2019", "at": "seven"}},
-  {"scene": "outro", "text": "How fast are prices rising where you live? Follow for more money, mapped.", "props": {}}
+  {
+   "scene": "hook",
+   "text": "In one country, prices jumped forty-two percent in a single year. Can you guess which?",
+   "props": {
+    "kicker": "Prices rose in one year",
+    "big": 42.2,
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "sub": "Guess the country",
+    "icon": "coin"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five is Malawi. Twenty-eight percent.",
+   "props": {
+    "title": "Highest inflation, 2025",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "rank": 5,
+    "label": "Malawi",
+    "value": 28.4,
+    "flag": "mw"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is Haiti. Almost twenty-nine.",
+   "props": {
+    "rank": 4,
+    "label": "Haiti",
+    "value": 28.6,
+    "flag": "ht"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Burundi. Thirty-four percent.",
+   "props": {
+    "rank": 3,
+    "label": "Burundi",
+    "value": 34.1,
+    "flag": "bi"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number two is a holiday favorite. Turkey. Thirty-five percent.",
+   "props": {
+    "rank": 2,
+    "label": "Turkey",
+    "value": 34.9,
+    "flag": "tr"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Iran. Forty-two percent. Sanctions and a crashing currency make everything pricier.",
+   "props": {
+    "rank": 1,
+    "label": "Iran",
+    "value": 42.2,
+    "flag": "ir"
+   }
+  },
+  {
+   "scene": "line",
+   "text": "But Turkey has seen worse. In 2022, prices there rose seventy-two percent.",
+   "props": {
+    "title": "Inflation in Turkey",
+    "subtitle": "2019 to 2025",
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "series": [
+     [
+      2019,
+      15.2
+     ],
+     [
+      2020,
+      12.3
+     ],
+     [
+      2021,
+      19.6
+     ],
+     [
+      2022,
+      72.3
+     ],
+     [
+      2023,
+      53.9
+     ],
+     [
+      2024,
+      58.5
+     ],
+     [
+      2025,
+      34.9
+     ]
+    ],
+    "badge": "72% in 2022"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "Since 2019, prices in Turkey went up more than seven times.",
+   "props": {
+    "value": 7.6,
+    "format": {
+     "suffix": "x",
+     "decimals": 1
+    },
+    "caption": "prices in Turkey since 2019",
+    "at": "seven"
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "How fast are prices rising where you live? Follow for more money, mapped.",
+   "props": {}
+  }
+ ],
+ "topic": "Highest inflation 2025",
+ "description": "Which country has the fastest rising prices on Earth? Number one will surprise you. Real World Bank data, counted down from five to one.",
+ "tags": [
+  "inflation",
+  "highest inflation",
+  "inflation 2025",
+  "cost of living",
+  "prices",
+  "iran",
+  "turkey",
+  "economics"
  ]
 }

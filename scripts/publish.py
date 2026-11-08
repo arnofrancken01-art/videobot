@@ -3,7 +3,7 @@ Leest state/queue.json (status "approved"), post naar elk platform waarvoor een
 token bestaat, en bewaart de resultaten. Platformen zonder token worden overgeslagen.
 Gebruik: python scripts/publish.py
 """
-import json, os, subprocess, sys, time
+import json, os, re, subprocess, sys, time
 from pathlib import Path
 import requests
 
@@ -16,9 +16,40 @@ Q_PATH = ROOT / "state/queue.json"
 IG_API = "https://graph.instagram.com/v23.0"
 
 
+DEFAULT_TAGS = ["money", "economy", "finance", "data", "countries", "top 5", "world", "dataviz", "facts"]
+
+
+def hashtags(ep):
+    """3 tot 5 hashtags: de eerste drie toont YouTube boven de titel. Altijd #shorts erbij."""
+    tags = []
+    for t in ep.get("hashtags", []) + ["money", "shorts"]:
+        t = re.sub(r"[^a-z0-9]", "", t.lower())
+        if t and t not in tags:
+            tags.append(t)
+    if "shorts" in tags[5:]:
+        tags = tags[:4] + ["shorts"]
+    return ["#" + t for t in tags[:5]]
+
+
 def caption(ep):
-    tags = " ".join("#" + t for t in ep.get("hashtags", ["money", "economy", "data", "dataviz"]))
-    return f"{ep['title']}\n\nSource: {ep['source'].split(',')[0]}\n\n{tags}"
+    hook = ep.get("description") or ep["title"]
+    return (f"{hook}\n\n"
+            f"Source: {ep['source']}\n"
+            f"Follow for more money, mapped.\n\n"
+            f"{' '.join(hashtags(ep))}")
+
+
+def yt_title(ep):
+    t = ep.get("yt_title") or ep["title"]
+    return (t if len(t) <= 90 else t[:87].rsplit(" ", 1)[0] + "...") + " #shorts"
+
+
+def yt_tags(ep):
+    out = []
+    for t in ep.get("tags", []) + ep.get("hashtags", []) + DEFAULT_TAGS:
+        if t.lower() not in out and sum(len(x) + 1 for x in out) + len(t) < 450:
+            out.append(t.lower())
+    return out
 
 
 def video_url(name):
@@ -58,14 +89,15 @@ def youtube_token():
     return r["access_token"]
 
 
-def youtube(name, ep, privacy="public"):
+def youtube(name, ep, privacy="private"):  # privé: Arno kijkt na en zet zelf openbaar
     path = Path(f"/tmp/{name}.mp4")
     if not path.exists():
         subprocess.run(["git", "fetch", "-q", "origin", "renders:refs/remotes/origin/renders"], check=True, cwd=ROOT)
         path.write_bytes(subprocess.run(["git", "show", f"origin/renders:renders/{name}.mp4"], check=True, capture_output=True, cwd=ROOT).stdout)
     token = youtube_token()
     meta = {
-        "snippet": {"title": ep["title"][:95] + " #Shorts", "description": caption(ep), "categoryId": "27", "tags": ep.get("hashtags", [])},
+        "snippet": {"title": yt_title(ep), "description": caption(ep), "categoryId": "27", "tags": yt_tags(ep),
+                    "defaultLanguage": "en", "defaultAudioLanguage": "en"},
         "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False},
     }
     init = requests.post(
@@ -101,8 +133,11 @@ def main():
                 continue  # na 3 mislukte pogingen niet blijven proberen
             try:
                 posts[platform] = {**fn(name, ep), "at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
-                note = " (privé tot de YouTube-audit rond is)" if posts[platform].get("privacy") == "private" else ""
-                telegram.send(f"Gepost op {platform}{note}: {posts[platform]['url']}")
+                if platform == "youtube":
+                    vid = posts[platform]["id"]
+                    telegram.send(f"<b>Staat (privé) op YouTube:</b> {ep['title']}\n{posts[platform]['url']}\n\nBekijk en zet openbaar in YouTube Studio: https://studio.youtube.com/video/{vid}/edit")
+                else:
+                    telegram.send(f"Gepost op {platform}: {posts[platform]['url']}")
             except Exception as e:  # één platform mag de andere niet blokkeren
                 item.setdefault("errors", []).append(f"{platform}: {e}")
                 telegram.send(f"Posten van {name} op {platform} mislukt: {e}")
@@ -115,6 +150,6 @@ if __name__ == "__main__":
         n = sys.argv[2]
         res = youtube(n, json.loads((ROOT / f"episodes/{n}.json").read_text()), privacy="private")
         print(res)
-        telegram.send(f"YouTube-test gelukt (privé): {res['url']}")
+        telegram.send(f"YouTube-test gelukt (privé): {res['url']}\nStudio: https://studio.youtube.com/video/{res['id']}/edit")
     else:
         main()
