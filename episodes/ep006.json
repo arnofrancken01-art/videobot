@@ -1,0 +1,168 @@
+{
+ "id": "ep006",
+ "title": "1 in 3 people can't find a job here. Top 5 highest unemployment 2025",
+ "topic": "Highest unemployment 2025",
+ "description": "Where is it hardest to find a job? Number one will surprise you. Real World Bank data, counted down from five to one.",
+ "tags": [
+  "unemployment",
+  "highest unemployment",
+  "unemployment rate",
+  "jobs",
+  "eswatini",
+  "south africa",
+  "botswana",
+  "economy"
+ ],
+ "source": "World Bank, unemployment (% of labour force, ILO estimate, 2025), data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+ "voice": "af_heart",
+ "hashtags": [
+  "unemployment",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "In one country, one in three people who want a job can't find one. Can you guess which?",
+   "props": {
+    "kicker": "Can't find a job",
+    "big": 34.2,
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "sub": "Guess the country",
+    "icon": "globe"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five is Gabon. Twenty percent.",
+   "props": {
+    "title": "Highest unemployment, 2025",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "rank": 5,
+    "label": "Gabon",
+    "value": 20.2,
+    "flag": "ga"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is Botswana. Twenty-four and a half percent.",
+   "props": {
+    "rank": 4,
+    "label": "Botswana",
+    "value": 24.5,
+    "flag": "bw"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Djibouti. Twenty-six percent.",
+   "props": {
+    "rank": 3,
+    "label": "Djibouti",
+    "value": 26.0,
+    "flag": "dj"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number two is everyone's first guess. South Africa. Thirty-two percent.",
+   "props": {
+    "rank": 2,
+    "label": "South Africa",
+    "value": 32.4,
+    "flag": "za"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Eswatini. Thirty-four percent. A tiny kingdom of one point three million, with too few jobs to go around.",
+   "props": {
+    "rank": 1,
+    "label": "Eswatini",
+    "value": 34.2,
+    "flag": "sz"
+   }
+  },
+  {
+   "scene": "line",
+   "text": "And South Africa keeps getting worse. Twenty-three percent in 2000. Thirty-two today.",
+   "props": {
+    "title": "Unemployment in South Africa",
+    "subtitle": "2000 to 2025",
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "series": [
+     [
+      2000,
+      22.8
+     ],
+     [
+      2005,
+      22.5
+     ],
+     [
+      2010,
+      24.7
+     ],
+     [
+      2015,
+      25.1
+     ],
+     [
+      2020,
+      29.2
+     ],
+     [
+      2025,
+      32.4
+     ]
+    ],
+    "badge": "23% to 32%"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "In Eswatini, that's eight times the rate in the United States.",
+   "props": {
+    "value": 8.1,
+    "format": {
+     "suffix": "x",
+     "decimals": 1
+    },
+    "caption": "unemployment vs the US",
+    "at": "eight",
+    "compare": {
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     },
+     "items": [
+      {
+       "label": "United States",
+       "value": 4.2
+      },
+      {
+       "label": "Eswatini",
+       "value": 34.2
+      }
+     ]
+    }
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "How easy is it to find a job where you live? Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}
