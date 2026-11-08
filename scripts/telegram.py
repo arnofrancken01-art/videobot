@@ -81,7 +81,10 @@ def poll(wait=0):
         status = "approved" if action == "ok" else "rejected"
         queue.setdefault(ep, {})["status"] = status
         changed.append((ep, status))
-        call("answerCallbackQuery", data={"callback_query_id": cq["id"], "text": "Wordt gepost" if status == "approved" else "Weggegooid"})
+        try:  # een oude klik kan niet meer beantwoord worden; de status telt wel
+            call("answerCallbackQuery", data={"callback_query_id": cq["id"], "text": "Wordt gepost" if status == "approved" else "Weggegooid"})
+        except (Exception, SystemExit) as e:  # noqa: BLE001
+            print("antwoord op klik mislukt:", e)
     queue["_offset"] = offset
     q_path.write_text(json.dumps(queue, indent=1))
     for ep, st in changed:
@@ -107,7 +110,7 @@ if __name__ == "__main__":
         while time.time() < end:
             try:
                 changed = poll(wait=50)
-            except Exception:  # noqa: BLE001
+            except (Exception, SystemExit):  # noqa: BLE001
                 traceback.print_exc()
                 time.sleep(15)
                 continue
