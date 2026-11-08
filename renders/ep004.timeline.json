@@ -1,0 +1,821 @@
+{
+ "id": "ep004",
+ "title": "Ukraine spends almost 40% of its economy on its army. Number 2 isn't who you think",
+ "source": "World Bank, military expenditure (% of GDP, 2025), data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS; dollars via NY.GDP.MKTP.CD",
+ "voice": "af_heart",
+ "hashtags": [
+  "money",
+  "military",
+  "defense",
+  "economy",
+  "dataviz"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "Ukraine spends almost forty cents of every dollar its economy makes on its military.",
+   "props": {
+    "kicker": "Ukraine's economy spent on the military",
+    "big": 39.6,
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "sub": "of GDP, 2025",
+    "flag": "ua"
+   },
+   "start": 0.05,
+   "end": 5.375,
+   "words": [
+    {
+     "word": "Ukraine",
+     "start": 0.3,
+     "end": 0.8
+    },
+    {
+     "word": "spends",
+     "start": 0.8,
+     "end": 1.125
+    },
+    {
+     "word": "almost",
+     "start": 1.125,
+     "end": 1.562
+    },
+    {
+     "word": "forty",
+     "start": 1.562,
+     "end": 1.9
+    },
+    {
+     "word": "cents",
+     "start": 1.9,
+     "end": 2.137
+    },
+    {
+     "word": "of",
+     "start": 2.137,
+     "end": 2.262
+    },
+    {
+     "word": "every",
+     "start": 2.262,
+     "end": 2.575
+    },
+    {
+     "word": "dollar",
+     "start": 2.575,
+     "end": 2.975
+    },
+    {
+     "word": "its",
+     "start": 2.975,
+     "end": 3.1
+    },
+    {
+     "word": "economy",
+     "start": 3.1,
+     "end": 3.875
+    },
+    {
+     "word": "makes",
+     "start": 3.875,
+     "end": 4.138
+    },
+    {
+     "word": "on",
+     "start": 4.138,
+     "end": 4.237
+    },
+    {
+     "word": "its",
+     "start": 4.237,
+     "end": 4.35
+    },
+    {
+     "word": "military.",
+     "start": 4.35,
+     "end": 5.15
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "No country comes close. But number two isn't who you think.",
+   "props": {
+    "title": "Military spending, % of GDP",
+    "subtitle": "2025, World Bank",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "items": [
+     {
+      "label": "Ukraine",
+      "value": 39.6,
+      "flag": "ua"
+     },
+     {
+      "label": "Algeria",
+      "value": 8.8,
+      "flag": "dz"
+     },
+     {
+      "label": "Israel",
+      "value": 7.8,
+      "flag": "il"
+     },
+     {
+      "label": "Russia",
+      "value": 7.5,
+      "flag": "ru"
+     },
+     {
+      "label": "Saudi Arabia",
+      "value": 6.5,
+      "flag": "sa"
+     },
+     {
+      "label": "Azerbaijan",
+      "value": 6.5,
+      "flag": "az"
+     },
+     {
+      "label": "Armenia",
+      "value": 6.1,
+      "flag": "am"
+     },
+     {
+      "label": "Oman",
+      "value": 5.7,
+      "flag": "om"
+     },
+     {
+      "label": "Kuwait",
+      "value": 4.7,
+      "flag": "kw"
+     },
+     {
+      "label": "Jordan",
+      "value": 4.6,
+      "flag": "jo"
+     },
+     {
+      "label": "Poland",
+      "value": 4.5,
+      "flag": "pl"
+     }
+    ],
+    "highlight": [
+     "Ukraine"
+    ]
+   },
+   "start": 5.435,
+   "end": 9.235,
+   "words": [
+    {
+     "word": "No",
+     "start": 5.71,
+     "end": 5.91
+    },
+    {
+     "word": "country",
+     "start": 5.91,
+     "end": 6.285
+    },
+    {
+     "word": "comes",
+     "start": 6.285,
+     "end": 6.535
+    },
+    {
+     "word": "close.",
+     "start": 6.535,
+     "end": 7.085
+    },
+    {
+     "word": "But",
+     "start": 7.185,
+     "end": 7.335
+    },
+    {
+     "word": "number",
+     "start": 7.335,
+     "end": 7.622
+    },
+    {
+     "word": "two",
+     "start": 7.622,
+     "end": 7.973
+    },
+    {
+     "word": "isn't",
+     "start": 7.973,
+     "end": 8.223
+    },
+    {
+     "word": "who",
+     "start": 8.223,
+     "end": 8.335
+    },
+    {
+     "word": "you",
+     "start": 8.335,
+     "end": 8.473
+    },
+    {
+     "word": "think.",
+     "start": 8.473,
+     "end": 8.985
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "Not Russia. Not Israel.",
+   "props": {
+    "highlight": [
+     "Russia",
+     "Israel"
+    ]
+   },
+   "start": 9.295,
+   "end": 11.32,
+   "words": [
+    {
+     "word": "Not",
+     "start": 9.545,
+     "end": 9.72
+    },
+    {
+     "word": "Russia.",
+     "start": 9.72,
+     "end": 10.145
+    },
+    {
+     "word": "Not",
+     "start": 10.245,
+     "end": 10.42
+    },
+    {
+     "word": "Israel.",
+     "start": 10.42,
+     "end": 11.095
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "It's Algeria. Almost nine percent.",
+   "props": {
+    "highlight": [
+     "Algeria"
+    ]
+   },
+   "start": 11.38,
+   "end": 13.905,
+   "words": [
+    {
+     "word": "It's",
+     "start": 11.58,
+     "end": 11.755
+    },
+    {
+     "word": "Algeria.",
+     "start": 11.755,
+     "end": 12.38
+    },
+    {
+     "word": "Almost",
+     "start": 12.48,
+     "end": 12.83
+    },
+    {
+     "word": "nine",
+     "start": 12.83,
+     "end": 13.03
+    },
+    {
+     "word": "percent.",
+     "start": 13.03,
+     "end": 13.68
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "Why? A long rivalry with neighbouring Morocco, and oil and gas money to pay for weapons.",
+   "props": {
+    "highlight": [
+     "Algeria"
+    ]
+   },
+   "start": 13.965,
+   "end": 19.29,
+   "words": [
+    {
+     "word": "Why?",
+     "start": 14.215,
+     "end": 14.54
+    },
+    {
+     "word": "A",
+     "start": 14.64,
+     "end": 14.752
+    },
+    {
+     "word": "long",
+     "start": 14.752,
+     "end": 15.065
+    },
+    {
+     "word": "rivalry",
+     "start": 15.065,
+     "end": 15.502
+    },
+    {
+     "word": "with",
+     "start": 15.502,
+     "end": 15.665
+    },
+    {
+     "word": "neighbouring",
+     "start": 15.665,
+     "end": 16.052
+    },
+    {
+     "word": "Morocco,",
+     "start": 16.052,
+     "end": 16.74
+    },
+    {
+     "word": "and",
+     "start": 16.865,
+     "end": 17.027
+    },
+    {
+     "word": "oil",
+     "start": 17.027,
+     "end": 17.34
+    },
+    {
+     "word": "and",
+     "start": 17.34,
+     "end": 17.465
+    },
+    {
+     "word": "gas",
+     "start": 17.465,
+     "end": 17.727
+    },
+    {
+     "word": "money",
+     "start": 17.727,
+     "end": 17.94
+    },
+    {
+     "word": "to",
+     "start": 17.94,
+     "end": 18.04
+    },
+    {
+     "word": "pay",
+     "start": 18.04,
+     "end": 18.265
+    },
+    {
+     "word": "for",
+     "start": 18.265,
+     "end": 18.39
+    },
+    {
+     "word": "weapons.",
+     "start": 18.39,
+     "end": 19.065
+    }
+   ]
+  },
+  {
+   "scene": "bars",
+   "text": "Russia doubled its share since 2021, to seven and a half percent.",
+   "props": {
+    "highlight": [
+     "Russia"
+    ]
+   },
+   "start": 19.35,
+   "end": 23.825,
+   "words": [
+    {
+     "word": "Russia",
+     "start": 19.6,
+     "end": 19.963
+    },
+    {
+     "word": "doubled",
+     "start": 19.963,
+     "end": 20.312
+    },
+    {
+     "word": "its",
+     "start": 20.312,
+     "end": 20.463
+    },
+    {
+     "word": "share",
+     "start": 20.463,
+     "end": 20.775
+    },
+    {
+     "word": "since",
+     "start": 20.775,
+     "end": 21.0
+    },
+    {
+     "word": "2021,",
+     "start": 21.0,
+     "end": 21.975
+    },
+    {
+     "word": "to",
+     "start": 22.075,
+     "end": 22.213
+    },
+    {
+     "word": "seven",
+     "start": 22.213,
+     "end": 22.513
+    },
+    {
+     "word": "and",
+     "start": 22.513,
+     "end": 22.613
+    },
+    {
+     "word": "a",
+     "start": 22.613,
+     "end": 22.675
+    },
+    {
+     "word": "half",
+     "start": 22.675,
+     "end": 22.925
+    },
+    {
+     "word": "percent.",
+     "start": 22.925,
+     "end": 23.6
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "But in dollars, America wins. Nine hundred fifty-nine billion. More than the next six countries combined.",
+   "props": {
+    "value": 959.2,
+    "format": {
+     "prefix": "$",
+     "suffix": "B"
+    },
+    "caption": "US military spending in 2025",
+    "at": "nine",
+    "compare": {
+     "format": {
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1
+     },
+     "items": [
+      {
+       "label": "United States",
+       "value": 959.2
+      },
+      {
+       "label": "Next six combined",
+       "value": 912.7
+      }
+     ]
+    }
+   },
+   "start": 23.885,
+   "end": 30.36,
+   "words": [
+    {
+     "word": "But",
+     "start": 24.085,
+     "end": 24.198
+    },
+    {
+     "word": "in",
+     "start": 24.198,
+     "end": 24.335
+    },
+    {
+     "word": "dollars,",
+     "start": 24.335,
+     "end": 24.91
+    },
+    {
+     "word": "America",
+     "start": 24.985,
+     "end": 25.46
+    },
+    {
+     "word": "wins.",
+     "start": 25.46,
+     "end": 26.085
+    },
+    {
+     "word": "Nine",
+     "start": 26.235,
+     "end": 26.51
+    },
+    {
+     "word": "hundred",
+     "start": 26.51,
+     "end": 26.835
+    },
+    {
+     "word": "fifty-nine",
+     "start": 26.835,
+     "end": 27.36
+    },
+    {
+     "word": "billion.",
+     "start": 27.36,
+     "end": 27.985
+    },
+    {
+     "word": "More",
+     "start": 28.098,
+     "end": 28.297
+    },
+    {
+     "word": "than",
+     "start": 28.297,
+     "end": 28.398
+    },
+    {
+     "word": "the",
+     "start": 28.398,
+     "end": 28.485
+    },
+    {
+     "word": "next",
+     "start": 28.485,
+     "end": 28.76
+    },
+    {
+     "word": "six",
+     "start": 28.76,
+     "end": 29.01
+    },
+    {
+     "word": "countries",
+     "start": 29.01,
+     "end": 29.41
+    },
+    {
+     "word": "combined.",
+     "start": 29.41,
+     "end": 30.135
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "And Europe is waking up. Poland went from under two percent to four and a half.",
+   "props": {
+    "title": "Poland's military spending",
+    "subtitle": "2010 to 2025, % of GDP",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "series": [
+     [
+      2010,
+      1.84
+     ],
+     [
+      2011,
+      1.79
+     ],
+     [
+      2012,
+      1.8
+     ],
+     [
+      2013,
+      1.79
+     ],
+     [
+      2014,
+      1.91
+     ],
+     [
+      2015,
+      2.13
+     ],
+     [
+      2016,
+      1.94
+     ],
+     [
+      2017,
+      1.89
+     ],
+     [
+      2018,
+      2.02
+     ],
+     [
+      2019,
+      1.95
+     ],
+     [
+      2020,
+      2.26
+     ],
+     [
+      2021,
+      2.22
+     ],
+     [
+      2022,
+      2.2
+     ],
+     [
+      2023,
+      3.26
+     ],
+     [
+      2024,
+      3.75
+     ],
+     [
+      2025,
+      4.5
+     ]
+    ],
+    "badge": "2.5x since 2013"
+   },
+   "start": 30.42,
+   "end": 35.045,
+   "words": [
+    {
+     "word": "And",
+     "start": 30.645,
+     "end": 30.808
+    },
+    {
+     "word": "Europe",
+     "start": 30.808,
+     "end": 31.195
+    },
+    {
+     "word": "is",
+     "start": 31.195,
+     "end": 31.345
+    },
+    {
+     "word": "waking",
+     "start": 31.345,
+     "end": 31.67
+    },
+    {
+     "word": "up.",
+     "start": 31.67,
+     "end": 32.095
+    },
+    {
+     "word": "Poland",
+     "start": 32.233,
+     "end": 32.695
+    },
+    {
+     "word": "went",
+     "start": 32.695,
+     "end": 32.858
+    },
+    {
+     "word": "from",
+     "start": 32.858,
+     "end": 32.983
+    },
+    {
+     "word": "under",
+     "start": 32.983,
+     "end": 33.208
+    },
+    {
+     "word": "two",
+     "start": 33.208,
+     "end": 33.42
+    },
+    {
+     "word": "percent",
+     "start": 33.42,
+     "end": 33.795
+    },
+    {
+     "word": "to",
+     "start": 33.795,
+     "end": 33.92
+    },
+    {
+     "word": "four",
+     "start": 33.92,
+     "end": 34.108
+    },
+    {
+     "word": "and",
+     "start": 34.108,
+     "end": 34.208
+    },
+    {
+     "word": "a",
+     "start": 34.208,
+     "end": 34.27
+    },
+    {
+     "word": "half.",
+     "start": 34.27,
+     "end": 34.82
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Should your country spend more on defense? Follow for more money, mapped.",
+   "props": {},
+   "start": 35.105,
+   "end": 39.055,
+   "words": [
+    {
+     "word": "Should",
+     "start": 35.355,
+     "end": 35.468
+    },
+    {
+     "word": "your",
+     "start": 35.468,
+     "end": 35.58
+    },
+    {
+     "word": "country",
+     "start": 35.58,
+     "end": 35.955
+    },
+    {
+     "word": "spend",
+     "start": 35.955,
+     "end": 36.18
+    },
+    {
+     "word": "more",
+     "start": 36.18,
+     "end": 36.368
+    },
+    {
+     "word": "on",
+     "start": 36.368,
+     "end": 36.468
+    },
+    {
+     "word": "defense?",
+     "start": 36.468,
+     "end": 37.105
+    },
+    {
+     "word": "Follow",
+     "start": 37.243,
+     "end": 37.58
+    },
+    {
+     "word": "for",
+     "start": 37.58,
+     "end": 37.705
+    },
+    {
+     "word": "more",
+     "start": 37.705,
+     "end": 37.905
+    },
+    {
+     "word": "money,",
+     "start": 37.905,
+     "end": 38.23
+    },
+    {
+     "word": "mapped.",
+     "start": 38.28,
+     "end": 38.83
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 1192,
+ "fps": 30,
+ "aligned": "tts"
+}
