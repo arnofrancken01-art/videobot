@@ -1,0 +1,639 @@
+{
+ "id": "ep005",
+ "title": "Prices rose 42% in ONE year in this country. Top 5 highest inflation in 2025",
+ "source": "World Bank, inflation, consumer prices (annual %, 2025), data.worldbank.org/indicator/FP.CPI.TOTL.ZG",
+ "voice": "af_heart",
+ "hashtags": [
+  "money",
+  "inflation",
+  "economy",
+  "top5",
+  "dataviz"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "In one country, prices jumped forty-two percent in a single year. Can you guess which?",
+   "props": {
+    "kicker": "Prices rose in one year",
+    "big": 42.2,
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "sub": "Guess the country",
+    "icon": "coin"
+   },
+   "start": 0.05,
+   "end": 5.275,
+   "words": [
+    {
+     "word": "In",
+     "start": 0.3,
+     "end": 0.4
+    },
+    {
+     "word": "one",
+     "start": 0.4,
+     "end": 0.625
+    },
+    {
+     "word": "country,",
+     "start": 0.625,
+     "end": 1.125
+    },
+    {
+     "word": "prices",
+     "start": 1.225,
+     "end": 1.713
+    },
+    {
+     "word": "jumped",
+     "start": 1.713,
+     "end": 2.062
+    },
+    {
+     "word": "forty-two",
+     "start": 2.062,
+     "end": 2.5
+    },
+    {
+     "word": "percent",
+     "start": 2.5,
+     "end": 2.925
+    },
+    {
+     "word": "in",
+     "start": 2.925,
+     "end": 3.012
+    },
+    {
+     "word": "a",
+     "start": 3.012,
+     "end": 3.087
+    },
+    {
+     "word": "single",
+     "start": 3.087,
+     "end": 3.4
+    },
+    {
+     "word": "year.",
+     "start": 3.4,
+     "end": 3.9
+    },
+    {
+     "word": "Can",
+     "start": 4.025,
+     "end": 4.162
+    },
+    {
+     "word": "you",
+     "start": 4.162,
+     "end": 4.25
+    },
+    {
+     "word": "guess",
+     "start": 4.25,
+     "end": 4.525
+    },
+    {
+     "word": "which?",
+     "start": 4.525,
+     "end": 5.025
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five: Malawi, twenty-eight percent.",
+   "props": {
+    "title": "Highest inflation, 2025",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "rank": 5,
+    "label": "Malawi",
+    "value": 28.4,
+    "flag": "mw"
+   },
+   "start": 5.335,
+   "end": 8.96,
+   "words": [
+    {
+     "word": "Top",
+     "start": 5.56,
+     "end": 5.81
+    },
+    {
+     "word": "five.",
+     "start": 5.81,
+     "end": 6.185
+    },
+    {
+     "word": "Number",
+     "start": 6.26,
+     "end": 6.485
+    },
+    {
+     "word": "five:",
+     "start": 6.485,
+     "end": 6.985
+    },
+    {
+     "word": "Malawi,",
+     "start": 7.085,
+     "end": 7.56
+    },
+    {
+     "word": "twenty-eight",
+     "start": 7.61,
+     "end": 8.06
+    },
+    {
+     "word": "percent.",
+     "start": 8.06,
+     "end": 8.735
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number four: Haiti, almost twenty-nine.",
+   "props": {
+    "rank": 4,
+    "label": "Haiti",
+    "value": 28.6,
+    "flag": "ht"
+   },
+   "start": 9.02,
+   "end": 11.695,
+   "words": [
+    {
+     "word": "Number",
+     "start": 9.27,
+     "end": 9.532
+    },
+    {
+     "word": "four:",
+     "start": 9.532,
+     "end": 9.92
+    },
+    {
+     "word": "Haiti,",
+     "start": 9.995,
+     "end": 10.32
+    },
+    {
+     "word": "almost",
+     "start": 10.37,
+     "end": 10.695
+    },
+    {
+     "word": "twenty-nine.",
+     "start": 10.695,
+     "end": 11.445
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number three: Burundi, thirty-four percent.",
+   "props": {
+    "rank": 3,
+    "label": "Burundi",
+    "value": 34.1,
+    "flag": "bi"
+   },
+   "start": 11.755,
+   "end": 14.605,
+   "words": [
+    {
+     "word": "Number",
+     "start": 12.005,
+     "end": 12.267
+    },
+    {
+     "word": "three:",
+     "start": 12.267,
+     "end": 12.655
+    },
+    {
+     "word": "Burundi,",
+     "start": 12.755,
+     "end": 13.205
+    },
+    {
+     "word": "thirty-four",
+     "start": 13.255,
+     "end": 13.705
+    },
+    {
+     "word": "percent.",
+     "start": 13.705,
+     "end": 14.38
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number two is a holiday favorite. Turkey, thirty-five percent.",
+   "props": {
+    "rank": 2,
+    "label": "Turkey",
+    "value": 34.9,
+    "flag": "tr"
+   },
+   "start": 14.665,
+   "end": 18.865,
+   "words": [
+    {
+     "word": "Number",
+     "start": 14.915,
+     "end": 15.177
+    },
+    {
+     "word": "two",
+     "start": 15.177,
+     "end": 15.49
+    },
+    {
+     "word": "is",
+     "start": 15.49,
+     "end": 15.602
+    },
+    {
+     "word": "a",
+     "start": 15.602,
+     "end": 15.665
+    },
+    {
+     "word": "holiday",
+     "start": 15.665,
+     "end": 16.09
+    },
+    {
+     "word": "favorite.",
+     "start": 16.09,
+     "end": 16.74
+    },
+    {
+     "word": "Turkey,",
+     "start": 16.865,
+     "end": 17.34
+    },
+    {
+     "word": "thirty-five",
+     "start": 17.44,
+     "end": 17.965
+    },
+    {
+     "word": "percent.",
+     "start": 17.965,
+     "end": 18.64
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "And number one: Iran. Forty-two percent. Sanctions and a crashing currency make everything pricier.",
+   "props": {
+    "rank": 1,
+    "label": "Iran",
+    "value": 42.2,
+    "flag": "ir"
+   },
+   "start": 18.925,
+   "end": 25.375,
+   "words": [
+    {
+     "word": "And",
+     "start": 19.15,
+     "end": 19.287
+    },
+    {
+     "word": "number",
+     "start": 19.287,
+     "end": 19.525
+    },
+    {
+     "word": "one:",
+     "start": 19.525,
+     "end": 19.95
+    },
+    {
+     "word": "Iran.",
+     "start": 20.062,
+     "end": 20.65
+    },
+    {
+     "word": "Forty-two",
+     "start": 20.787,
+     "end": 21.25
+    },
+    {
+     "word": "percent.",
+     "start": 21.25,
+     "end": 21.975
+    },
+    {
+     "word": "Sanctions",
+     "start": 22.112,
+     "end": 22.675
+    },
+    {
+     "word": "and",
+     "start": 22.675,
+     "end": 22.787
+    },
+    {
+     "word": "a",
+     "start": 22.787,
+     "end": 22.85
+    },
+    {
+     "word": "crashing",
+     "start": 22.85,
+     "end": 23.275
+    },
+    {
+     "word": "currency",
+     "start": 23.275,
+     "end": 23.75
+    },
+    {
+     "word": "make",
+     "start": 23.75,
+     "end": 23.987
+    },
+    {
+     "word": "everything",
+     "start": 23.987,
+     "end": 24.4
+    },
+    {
+     "word": "pricier.",
+     "start": 24.4,
+     "end": 25.15
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "But Turkey has seen worse. In 2022, prices there rose seventy-two percent.",
+   "props": {
+    "title": "Inflation in Turkey",
+    "subtitle": "2019 to 2025",
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "series": [
+     [
+      2019,
+      15.2
+     ],
+     [
+      2020,
+      12.3
+     ],
+     [
+      2021,
+      19.6
+     ],
+     [
+      2022,
+      72.3
+     ],
+     [
+      2023,
+      53.9
+     ],
+     [
+      2024,
+      58.5
+     ],
+     [
+      2025,
+      34.9
+     ]
+    ],
+    "badge": "72% in 2022"
+   },
+   "start": 25.435,
+   "end": 30.96,
+   "words": [
+    {
+     "word": "But",
+     "start": 25.635,
+     "end": 25.76
+    },
+    {
+     "word": "Turkey",
+     "start": 25.76,
+     "end": 26.11
+    },
+    {
+     "word": "has",
+     "start": 26.11,
+     "end": 26.26
+    },
+    {
+     "word": "seen",
+     "start": 26.26,
+     "end": 26.485
+    },
+    {
+     "word": "worse.",
+     "start": 26.485,
+     "end": 27.135
+    },
+    {
+     "word": "In",
+     "start": 27.272,
+     "end": 27.41
+    },
+    {
+     "word": "2022,",
+     "start": 27.41,
+     "end": 28.41
+    },
+    {
+     "word": "prices",
+     "start": 28.51,
+     "end": 28.922
+    },
+    {
+     "word": "there",
+     "start": 28.922,
+     "end": 29.085
+    },
+    {
+     "word": "rose",
+     "start": 29.085,
+     "end": 29.447
+    },
+    {
+     "word": "seventy-two",
+     "start": 29.447,
+     "end": 30.06
+    },
+    {
+     "word": "percent.",
+     "start": 30.06,
+     "end": 30.735
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "Since 2019, prices in Turkey went up more than seven times.",
+   "props": {
+    "value": 7.6,
+    "format": {
+     "suffix": "x",
+     "decimals": 1
+    },
+    "caption": "prices in Turkey since 2019",
+    "at": "seven"
+   },
+   "start": 31.02,
+   "end": 35.345,
+   "words": [
+    {
+     "word": "Since",
+     "start": 31.245,
+     "end": 31.445
+    },
+    {
+     "word": "2019,",
+     "start": 31.445,
+     "end": 32.32
+    },
+    {
+     "word": "prices",
+     "start": 32.42,
+     "end": 32.82
+    },
+    {
+     "word": "in",
+     "start": 32.82,
+     "end": 32.97
+    },
+    {
+     "word": "Turkey",
+     "start": 32.97,
+     "end": 33.395
+    },
+    {
+     "word": "went",
+     "start": 33.395,
+     "end": 33.557
+    },
+    {
+     "word": "up",
+     "start": 33.557,
+     "end": 33.745
+    },
+    {
+     "word": "more",
+     "start": 33.745,
+     "end": 33.932
+    },
+    {
+     "word": "than",
+     "start": 33.932,
+     "end": 34.107
+    },
+    {
+     "word": "seven",
+     "start": 34.107,
+     "end": 34.445
+    },
+    {
+     "word": "times.",
+     "start": 34.445,
+     "end": 35.095
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "How fast are prices rising where you live? Follow for more money, mapped.",
+   "props": {},
+   "start": 35.405,
+   "end": 39.655,
+   "words": [
+    {
+     "word": "How",
+     "start": 35.63,
+     "end": 35.78
+    },
+    {
+     "word": "fast",
+     "start": 35.78,
+     "end": 36.092
+    },
+    {
+     "word": "are",
+     "start": 36.092,
+     "end": 36.18
+    },
+    {
+     "word": "prices",
+     "start": 36.18,
+     "end": 36.63
+    },
+    {
+     "word": "rising",
+     "start": 36.63,
+     "end": 36.992
+    },
+    {
+     "word": "where",
+     "start": 36.992,
+     "end": 37.13
+    },
+    {
+     "word": "you",
+     "start": 37.13,
+     "end": 37.28
+    },
+    {
+     "word": "live?",
+     "start": 37.28,
+     "end": 37.705
+    },
+    {
+     "word": "Follow",
+     "start": 37.842,
+     "end": 38.18
+    },
+    {
+     "word": "for",
+     "start": 38.18,
+     "end": 38.305
+    },
+    {
+     "word": "more",
+     "start": 38.305,
+     "end": 38.505
+    },
+    {
+     "word": "money,",
+     "start": 38.505,
+     "end": 38.83
+    },
+    {
+     "word": "mapped.",
+     "start": 38.88,
+     "end": 39.43
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 1210,
+ "fps": 30,
+ "aligned": "tts"
+}
