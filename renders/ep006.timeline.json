@@ -1,0 +1,767 @@
+{
+ "id": "ep006",
+ "title": "1 in 3 people can't find a job here. Top 5 highest unemployment 2025",
+ "topic": "Highest unemployment 2025",
+ "description": "Where is it hardest to find a job? Number one will surprise you. Real World Bank data, counted down from five to one.",
+ "tags": [
+  "unemployment",
+  "highest unemployment",
+  "unemployment rate",
+  "jobs",
+  "eswatini",
+  "south africa",
+  "botswana",
+  "economy"
+ ],
+ "source": "World Bank, unemployment (% of labour force, ILO estimate, 2025), data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+ "voice": "af_heart",
+ "hashtags": [
+  "unemployment",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "In one country, one in three people who want a job can't find one. Can you guess which?",
+   "props": {
+    "kicker": "Can't find a job",
+    "big": 34.2,
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "sub": "Guess the country",
+    "icon": "globe"
+   },
+   "start": 0.05,
+   "end": 5.225,
+   "words": [
+    {
+     "word": "In",
+     "start": 0.3,
+     "end": 0.425
+    },
+    {
+     "word": "one",
+     "start": 0.425,
+     "end": 0.65
+    },
+    {
+     "word": "country,",
+     "start": 0.65,
+     "end": 1.15
+    },
+    {
+     "word": "one",
+     "start": 1.25,
+     "end": 1.413
+    },
+    {
+     "word": "in",
+     "start": 1.413,
+     "end": 1.562
+    },
+    {
+     "word": "three",
+     "start": 1.562,
+     "end": 1.8
+    },
+    {
+     "word": "people",
+     "start": 1.8,
+     "end": 2.175
+    },
+    {
+     "word": "who",
+     "start": 2.175,
+     "end": 2.3
+    },
+    {
+     "word": "want",
+     "start": 2.3,
+     "end": 2.487
+    },
+    {
+     "word": "a",
+     "start": 2.487,
+     "end": 2.562
+    },
+    {
+     "word": "job",
+     "start": 2.562,
+     "end": 2.85
+    },
+    {
+     "word": "can't",
+     "start": 2.85,
+     "end": 3.125
+    },
+    {
+     "word": "find",
+     "start": 3.125,
+     "end": 3.4
+    },
+    {
+     "word": "one.",
+     "start": 3.4,
+     "end": 3.85
+    },
+    {
+     "word": "Can",
+     "start": 3.975,
+     "end": 4.112
+    },
+    {
+     "word": "you",
+     "start": 4.112,
+     "end": 4.2
+    },
+    {
+     "word": "guess",
+     "start": 4.2,
+     "end": 4.475
+    },
+    {
+     "word": "which?",
+     "start": 4.475,
+     "end": 4.975
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five is Gabon. Twenty percent.",
+   "props": {
+    "title": "Highest unemployment, 2025",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "rank": 5,
+    "label": "Gabon",
+    "value": 20.2,
+    "flag": "ga"
+   },
+   "start": 5.285,
+   "end": 8.61,
+   "words": [
+    {
+     "word": "Top",
+     "start": 5.51,
+     "end": 5.76
+    },
+    {
+     "word": "five.",
+     "start": 5.76,
+     "end": 6.135
+    },
+    {
+     "word": "Number",
+     "start": 6.21,
+     "end": 6.435
+    },
+    {
+     "word": "five",
+     "start": 6.435,
+     "end": 6.697
+    },
+    {
+     "word": "is",
+     "start": 6.697,
+     "end": 6.81
+    },
+    {
+     "word": "Gabon.",
+     "start": 6.81,
+     "end": 7.31
+    },
+    {
+     "word": "Twenty",
+     "start": 7.41,
+     "end": 7.71
+    },
+    {
+     "word": "percent.",
+     "start": 7.71,
+     "end": 8.385
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is Botswana. Twenty-four and a half percent.",
+   "props": {
+    "rank": 4,
+    "label": "Botswana",
+    "value": 24.5,
+    "flag": "bw"
+   },
+   "start": 8.67,
+   "end": 12.22,
+   "words": [
+    {
+     "word": "Number",
+     "start": 8.92,
+     "end": 9.182
+    },
+    {
+     "word": "four",
+     "start": 9.182,
+     "end": 9.495
+    },
+    {
+     "word": "is",
+     "start": 9.495,
+     "end": 9.62
+    },
+    {
+     "word": "Botswana.",
+     "start": 9.62,
+     "end": 10.345
+    },
+    {
+     "word": "Twenty-four",
+     "start": 10.47,
+     "end": 10.907
+    },
+    {
+     "word": "and",
+     "start": 10.907,
+     "end": 11.008
+    },
+    {
+     "word": "a",
+     "start": 11.008,
+     "end": 11.07
+    },
+    {
+     "word": "half",
+     "start": 11.07,
+     "end": 11.32
+    },
+    {
+     "word": "percent.",
+     "start": 11.32,
+     "end": 11.995
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Djibouti. Twenty-six percent.",
+   "props": {
+    "rank": 3,
+    "label": "Djibouti",
+    "value": 26.0,
+    "flag": "dj"
+   },
+   "start": 12.28,
+   "end": 15.355,
+   "words": [
+    {
+     "word": "Number",
+     "start": 12.53,
+     "end": 12.792
+    },
+    {
+     "word": "three",
+     "start": 12.792,
+     "end": 13.105
+    },
+    {
+     "word": "is",
+     "start": 13.105,
+     "end": 13.255
+    },
+    {
+     "word": "Djibouti.",
+     "start": 13.255,
+     "end": 13.805
+    },
+    {
+     "word": "Twenty-six",
+     "start": 13.93,
+     "end": 14.48
+    },
+    {
+     "word": "percent.",
+     "start": 14.48,
+     "end": 15.13
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number two is everyone's first guess. South Africa. Thirty-two percent.",
+   "props": {
+    "rank": 2,
+    "label": "South Africa",
+    "value": 32.4,
+    "flag": "za"
+   },
+   "start": 15.415,
+   "end": 20.14,
+   "words": [
+    {
+     "word": "Number",
+     "start": 15.665,
+     "end": 15.927
+    },
+    {
+     "word": "two",
+     "start": 15.927,
+     "end": 16.215
+    },
+    {
+     "word": "is",
+     "start": 16.215,
+     "end": 16.365
+    },
+    {
+     "word": "everyone's",
+     "start": 16.365,
+     "end": 16.865
+    },
+    {
+     "word": "first",
+     "start": 16.865,
+     "end": 17.102
+    },
+    {
+     "word": "guess.",
+     "start": 17.102,
+     "end": 17.59
+    },
+    {
+     "word": "South",
+     "start": 17.727,
+     "end": 18.04
+    },
+    {
+     "word": "Africa.",
+     "start": 18.04,
+     "end": 18.615
+    },
+    {
+     "word": "Thirty-two",
+     "start": 18.752,
+     "end": 19.24
+    },
+    {
+     "word": "percent.",
+     "start": 19.24,
+     "end": 19.915
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Eswatini. Thirty-four percent. A tiny kingdom of one point three million, with too few jobs to go around.",
+   "props": {
+    "rank": 1,
+    "label": "Eswatini",
+    "value": 34.2,
+    "flag": "sz"
+   },
+   "start": 20.2,
+   "end": 28.2,
+   "words": [
+    {
+     "word": "And",
+     "start": 20.425,
+     "end": 20.562
+    },
+    {
+     "word": "number",
+     "start": 20.562,
+     "end": 20.825
+    },
+    {
+     "word": "one",
+     "start": 20.825,
+     "end": 21.162
+    },
+    {
+     "word": "is",
+     "start": 21.162,
+     "end": 21.325
+    },
+    {
+     "word": "Eswatini.",
+     "start": 21.325,
+     "end": 22.2
+    },
+    {
+     "word": "Thirty-four",
+     "start": 22.337,
+     "end": 22.875
+    },
+    {
+     "word": "percent.",
+     "start": 22.875,
+     "end": 23.6
+    },
+    {
+     "word": "A",
+     "start": 23.712,
+     "end": 23.825
+    },
+    {
+     "word": "tiny",
+     "start": 23.825,
+     "end": 24.15
+    },
+    {
+     "word": "kingdom",
+     "start": 24.15,
+     "end": 24.5
+    },
+    {
+     "word": "of",
+     "start": 24.5,
+     "end": 24.65
+    },
+    {
+     "word": "one",
+     "start": 24.65,
+     "end": 24.875
+    },
+    {
+     "word": "point",
+     "start": 24.875,
+     "end": 25.188
+    },
+    {
+     "word": "three",
+     "start": 25.188,
+     "end": 25.425
+    },
+    {
+     "word": "million,",
+     "start": 25.425,
+     "end": 25.975
+    },
+    {
+     "word": "with",
+     "start": 26.05,
+     "end": 26.237
+    },
+    {
+     "word": "too",
+     "start": 26.237,
+     "end": 26.462
+    },
+    {
+     "word": "few",
+     "start": 26.462,
+     "end": 26.7
+    },
+    {
+     "word": "jobs",
+     "start": 26.7,
+     "end": 27.075
+    },
+    {
+     "word": "to",
+     "start": 27.075,
+     "end": 27.163
+    },
+    {
+     "word": "go",
+     "start": 27.163,
+     "end": 27.325
+    },
+    {
+     "word": "around.",
+     "start": 27.325,
+     "end": 27.95
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "And South Africa keeps getting worse. Twenty-three percent in 2000. Thirty-two today.",
+   "props": {
+    "title": "Unemployment in South Africa",
+    "subtitle": "2000 to 2025",
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "series": [
+     [
+      2000,
+      22.8
+     ],
+     [
+      2005,
+      22.5
+     ],
+     [
+      2010,
+      24.7
+     ],
+     [
+      2015,
+      25.1
+     ],
+     [
+      2020,
+      29.2
+     ],
+     [
+      2025,
+      32.4
+     ]
+    ],
+    "badge": "23% to 32%"
+   },
+   "start": 28.26,
+   "end": 33.885,
+   "words": [
+    {
+     "word": "And",
+     "start": 28.485,
+     "end": 28.635
+    },
+    {
+     "word": "South",
+     "start": 28.635,
+     "end": 28.91
+    },
+    {
+     "word": "Africa",
+     "start": 28.91,
+     "end": 29.372
+    },
+    {
+     "word": "keeps",
+     "start": 29.372,
+     "end": 29.685
+    },
+    {
+     "word": "getting",
+     "start": 29.685,
+     "end": 29.96
+    },
+    {
+     "word": "worse.",
+     "start": 29.96,
+     "end": 30.51
+    },
+    {
+     "word": "Twenty-three",
+     "start": 30.61,
+     "end": 31.06
+    },
+    {
+     "word": "percent",
+     "start": 31.06,
+     "end": 31.485
+    },
+    {
+     "word": "in",
+     "start": 31.485,
+     "end": 31.635
+    },
+    {
+     "word": "2000.",
+     "start": 31.635,
+     "end": 32.435
+    },
+    {
+     "word": "Thirty-two",
+     "start": 32.547,
+     "end": 33.06
+    },
+    {
+     "word": "today.",
+     "start": 33.06,
+     "end": 33.635
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "In Eswatini, that's eight times the rate in the United States.",
+   "props": {
+    "value": 8.1,
+    "format": {
+     "suffix": "x",
+     "decimals": 1
+    },
+    "caption": "unemployment vs the US",
+    "at": "eight",
+    "compare": {
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     },
+     "items": [
+      {
+       "label": "United States",
+       "value": 4.2
+      },
+      {
+       "label": "Eswatini",
+       "value": 34.2
+      }
+     ]
+    }
+   },
+   "start": 33.945,
+   "end": 37.62,
+   "words": [
+    {
+     "word": "In",
+     "start": 34.195,
+     "end": 34.282
+    },
+    {
+     "word": "Eswatini,",
+     "start": 34.282,
+     "end": 35.045
+    },
+    {
+     "word": "that's",
+     "start": 35.145,
+     "end": 35.42
+    },
+    {
+     "word": "eight",
+     "start": 35.42,
+     "end": 35.595
+    },
+    {
+     "word": "times",
+     "start": 35.595,
+     "end": 35.907
+    },
+    {
+     "word": "the",
+     "start": 35.907,
+     "end": 35.995
+    },
+    {
+     "word": "rate",
+     "start": 35.995,
+     "end": 36.258
+    },
+    {
+     "word": "in",
+     "start": 36.258,
+     "end": 36.333
+    },
+    {
+     "word": "the",
+     "start": 36.333,
+     "end": 36.407
+    },
+    {
+     "word": "United",
+     "start": 36.407,
+     "end": 36.795
+    },
+    {
+     "word": "States.",
+     "start": 36.795,
+     "end": 37.395
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "How easy is it to find a job where you live? Follow for more money, mapped.",
+   "props": {},
+   "start": 37.68,
+   "end": 41.98,
+   "words": [
+    {
+     "word": "How",
+     "start": 37.905,
+     "end": 38.093
+    },
+    {
+     "word": "easy",
+     "start": 38.093,
+     "end": 38.43
+    },
+    {
+     "word": "is",
+     "start": 38.43,
+     "end": 38.542
+    },
+    {
+     "word": "it",
+     "start": 38.542,
+     "end": 38.63
+    },
+    {
+     "word": "to",
+     "start": 38.63,
+     "end": 38.73
+    },
+    {
+     "word": "find",
+     "start": 38.73,
+     "end": 38.917
+    },
+    {
+     "word": "a",
+     "start": 38.917,
+     "end": 38.98
+    },
+    {
+     "word": "job",
+     "start": 38.98,
+     "end": 39.267
+    },
+    {
+     "word": "where",
+     "start": 39.267,
+     "end": 39.405
+    },
+    {
+     "word": "you",
+     "start": 39.405,
+     "end": 39.53
+    },
+    {
+     "word": "live?",
+     "start": 39.53,
+     "end": 39.98
+    },
+    {
+     "word": "Follow",
+     "start": 40.117,
+     "end": 40.455
+    },
+    {
+     "word": "for",
+     "start": 40.455,
+     "end": 40.58
+    },
+    {
+     "word": "more",
+     "start": 40.58,
+     "end": 40.78
+    },
+    {
+     "word": "money,",
+     "start": 40.78,
+     "end": 41.13
+    },
+    {
+     "word": "mapped.",
+     "start": 41.205,
+     "end": 41.755
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 1280,
+ "fps": 30,
+ "aligned": "tts"
+}
