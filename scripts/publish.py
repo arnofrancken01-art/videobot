@@ -58,7 +58,7 @@ def youtube_token():
     return r["access_token"]
 
 
-def youtube(name, ep):
+def youtube(name, ep, privacy="public"):
     path = Path(f"/tmp/{name}.mp4")
     if not path.exists():
         subprocess.run(["git", "fetch", "-q", "origin", "renders:refs/remotes/origin/renders"], check=True, cwd=ROOT)
@@ -66,7 +66,7 @@ def youtube(name, ep):
     token = youtube_token()
     meta = {
         "snippet": {"title": ep["title"][:95] + " #Shorts", "description": caption(ep), "categoryId": "27", "tags": ep.get("hashtags", [])},
-        "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False},
+        "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False},
     }
     init = requests.post(
         "https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
@@ -110,4 +110,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 2 and sys.argv[1] == "test-youtube":
+        # Testupload: altijd privé, raakt de wachtrij niet aan.
+        n = sys.argv[2]
+        res = youtube(n, json.loads((ROOT / f"episodes/{n}.json").read_text()), privacy="private")
+        print(res)
+        telegram.send(f"YouTube-test gelukt (privé): {res['url']}")
+    else:
+        main()

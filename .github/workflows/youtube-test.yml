@@ -1,0 +1,31 @@
+name: YouTube-koppeling testen
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Aflevering, bv. ep005"
+        default: ep005
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Sleutels aanwezig?
+        run: |
+          for n in YOUTUBE_CLIENT_ID YOUTUBE_CLIENT_SECRET YOUTUBE_REFRESH_TOKEN; do
+            if [ -z "${!n}" ]; then echo "ONTBREEKT: $n"; missing=1; else echo "ok: $n"; fi
+          done
+          [ -z "$missing" ]
+      - name: Privé testupload
+        run: python scripts/publish.py test-youtube "${{ inputs.episode }}"
