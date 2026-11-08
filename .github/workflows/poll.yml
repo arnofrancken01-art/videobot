@@ -2,7 +2,7 @@ name: Telegram-knoppen verwerken
 
 on:
   schedule:
-    - cron: "5 * * * *"  # elk uur; elke run luistert ~55 min live naar de knoppen
+    - cron: "5 */2 * * *"  # reserve: elke run luistert ~5,5 uur en start dan zelf de volgende
   workflow_dispatch:
 
 concurrency: state
@@ -10,8 +10,10 @@ concurrency: state
 jobs:
   poll:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     permissions:
       contents: write
+      actions: write
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     steps:
@@ -29,7 +31,7 @@ jobs:
         run: |
           git config user.name "videobot"
           git config user.email "videobot@users.noreply.github.com"
-          python scripts/telegram.py watch 3300
+          python scripts/telegram.py watch 19800
       - name: Goedgekeurde video's posten
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
@@ -41,6 +43,11 @@ jobs:
         run: |
           git add state
           git diff --cached --quiet || (git commit -qm "Status bijgewerkt" && git pull -q --rebase && git push -q)
+      - name: Volgende luisterbeurt starten
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run poll.yml --ref main
       - name: Foutmelding naar Telegram
         if: failure()
         run: |

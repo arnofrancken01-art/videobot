@@ -100,10 +100,17 @@ if __name__ == "__main__":
     elif cmd == "poll":
         poll()
     elif cmd == "watch":
-        # Blijf ~55 minuten luisteren; bij een klik meteen posten en status bewaren.
-        import subprocess, time
+        # Blijf luisteren; bij een klik meteen posten en status bewaren.
+        # Een netwerkfout stopt de wachter niet: even wachten en opnieuw proberen.
+        import subprocess, time, traceback
         end = time.time() + float(sys.argv[2] if len(sys.argv) > 2 else 3300)
         while time.time() < end:
-            if poll(wait=50):
-                subprocess.run([sys.executable, str(ROOT / "scripts/publish.py")], check=True)
-                subprocess.run(["bash", "-c", 'git add state && (git diff --cached --quiet || (git commit -qm "Status bijgewerkt" && git pull -q --rebase && git push -q))'], check=True, cwd=ROOT)
+            try:
+                changed = poll(wait=50)
+            except Exception:  # noqa: BLE001
+                traceback.print_exc()
+                time.sleep(15)
+                continue
+            if changed:
+                subprocess.run([sys.executable, str(ROOT / "scripts/publish.py")])
+                subprocess.run(["bash", "-c", 'git add state && (git diff --cached --quiet || (git commit -qm "Status bijgewerkt" && git pull -q --rebase && git push -q))'], cwd=ROOT)
