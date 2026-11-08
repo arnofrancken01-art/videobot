@@ -1,3 +1,14 @@
 {
- "_offset": 607496326
+ "_offset": 607496330,
+ "ep006": {
+  "status": "approved",
+  "posts": {
+   "youtube": {
+    "id": "gbxv_eV3y1w",
+    "url": "https://youtube.com/shorts/gbxv_eV3y1w",
+    "privacy": "private",
+    "at": "2026-11-08T19:00:39Z"
+   }
+  }
+ }
 }
