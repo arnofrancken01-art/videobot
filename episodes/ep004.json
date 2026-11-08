@@ -1,0 +1,252 @@
+{
+ "id": "ep004",
+ "title": "Ukraine spends almost 40% of its economy on its army. Number 2 isn't who you think",
+ "source": "World Bank, military expenditure (% of GDP, 2025), data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS; dollars via NY.GDP.MKTP.CD",
+ "voice": "af_heart",
+ "hashtags": [
+  "money",
+  "military",
+  "defense",
+  "economy",
+  "dataviz"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "Ukraine spends almost forty cents of every dollar its economy makes on its military.",
+   "props": {
+    "kicker": "Ukraine's economy spent on the military",
+    "big": 39.6,
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "sub": "of GDP, 2025",
+    "flag": "ua"
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "No country comes close. But number two isn't who you think.",
+   "props": {
+    "title": "Military spending, % of GDP",
+    "subtitle": "2025, World Bank",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "items": [
+     {
+      "label": "Ukraine",
+      "value": 39.6,
+      "flag": "ua"
+     },
+     {
+      "label": "Algeria",
+      "value": 8.8,
+      "flag": "dz"
+     },
+     {
+      "label": "Israel",
+      "value": 7.8,
+      "flag": "il"
+     },
+     {
+      "label": "Russia",
+      "value": 7.5,
+      "flag": "ru"
+     },
+     {
+      "label": "Saudi Arabia",
+      "value": 6.5,
+      "flag": "sa"
+     },
+     {
+      "label": "Azerbaijan",
+      "value": 6.5,
+      "flag": "az"
+     },
+     {
+      "label": "Armenia",
+      "value": 6.1,
+      "flag": "am"
+     },
+     {
+      "label": "Oman",
+      "value": 5.7,
+      "flag": "om"
+     },
+     {
+      "label": "Kuwait",
+      "value": 4.7,
+      "flag": "kw"
+     },
+     {
+      "label": "Jordan",
+      "value": 4.6,
+      "flag": "jo"
+     },
+     {
+      "label": "Poland",
+      "value": 4.5,
+      "flag": "pl"
+     }
+    ],
+    "highlight": [
+     "Ukraine"
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "Not Russia. Not Israel.",
+   "props": {
+    "highlight": [
+     "Russia",
+     "Israel"
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "It's Algeria. Almost nine percent.",
+   "props": {
+    "highlight": [
+     "Algeria"
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "Why? A long rivalry with neighbouring Morocco, and oil and gas money to pay for weapons.",
+   "props": {
+    "highlight": [
+     "Algeria"
+    ]
+   }
+  },
+  {
+   "scene": "bars",
+   "text": "Russia doubled its share since 2021, to seven and a half percent.",
+   "props": {
+    "highlight": [
+     "Russia"
+    ]
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "But in dollars, America wins. Nine hundred fifty-nine billion. More than the next six countries combined.",
+   "props": {
+    "value": 959.2,
+    "format": {
+     "prefix": "$",
+     "suffix": "B"
+    },
+    "caption": "US military spending in 2025",
+    "at": "nine",
+    "compare": {
+     "format": {
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1
+     },
+     "items": [
+      {
+       "label": "United States",
+       "value": 959.2
+      },
+      {
+       "label": "Next six combined",
+       "value": 912.7
+      }
+     ]
+    }
+   }
+  },
+  {
+   "scene": "line",
+   "text": "And Europe is waking up. Poland went from under two percent to four and a half.",
+   "props": {
+    "title": "Poland's military spending",
+    "subtitle": "2010 to 2025, % of GDP",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "series": [
+     [
+      2010,
+      1.84
+     ],
+     [
+      2011,
+      1.79
+     ],
+     [
+      2012,
+      1.8
+     ],
+     [
+      2013,
+      1.79
+     ],
+     [
+      2014,
+      1.91
+     ],
+     [
+      2015,
+      2.13
+     ],
+     [
+      2016,
+      1.94
+     ],
+     [
+      2017,
+      1.89
+     ],
+     [
+      2018,
+      2.02
+     ],
+     [
+      2019,
+      1.95
+     ],
+     [
+      2020,
+      2.26
+     ],
+     [
+      2021,
+      2.22
+     ],
+     [
+      2022,
+      2.2
+     ],
+     [
+      2023,
+      3.26
+     ],
+     [
+      2024,
+      3.75
+     ],
+     [
+      2025,
+      4.5
+     ]
+    ],
+    "badge": "2.5x since 2013"
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "Should your country spend more on defense? Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}
