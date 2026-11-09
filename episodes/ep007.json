@@ -1,0 +1,102 @@
+{
+ "id": "ep007",
+ "title": "$17 a year for ALL health care. Top 5 lowest health spending",
+ "topic": "Lowest health spending",
+ "description": "Where does a whole year of health care cost less than a pizza? Number one will surprise you. Real World Bank data, counted down from five to one.",
+ "tags": [
+  "health spending",
+  "health care costs",
+  "healthcare by country",
+  "poorest countries",
+  "madagascar",
+  "sudan",
+  "us healthcare",
+  "economy"
+ ],
+ "source": "World Bank, current health expenditure per capita (current US$, 2023), data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD; income via NY.GDP.PCAP.CD",
+ "voice": "af_heart",
+ "hashtags": [
+  "healthcare",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "One country spends just seventeen dollars per person on health. For a whole year. Can you guess which?",
+   "props": {
+    "kicker": "Health care, per person",
+    "big": 17.44,
+    "format": {"prefix": "$", "decimals": 0},
+    "sub": "for a whole year",
+    "icon": "globe"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Top five lowest. Number five is Gambia. Twenty-six dollars.",
+   "props": {
+    "title": "Lowest health spending per person, 2023",
+    "format": {"prefix": "$", "decimals": 0},
+    "rank": 5,
+    "label": "Gambia",
+    "value": 25.74,
+    "flag": "gm"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is DR Congo. Twenty-three dollars.",
+   "props": {"rank": 4, "label": "DR Congo", "value": 23.43, "flag": "cd"}
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Somalia. Twenty-two dollars.",
+   "props": {"rank": 3, "label": "Somalia", "value": 22.37, "flag": "so"}
+  },
+  {
+   "scene": "rank",
+   "text": "Number two was torn apart by war in 2023. Sudan. Twenty-one dollars.",
+   "props": {"rank": 2, "label": "Sudan", "value": 21.08, "flag": "sd"}
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Madagascar. Seventeen dollars. The average income there is only five hundred fourteen dollars a year.",
+   "props": {"rank": 1, "label": "Madagascar", "value": 17.44, "flag": "mg"}
+  },
+  {
+   "scene": "line",
+   "text": "Now the other extreme. The United States spends almost thirteen and a half thousand dollars per person. Triple what it spent in 2000.",
+   "props": {
+    "title": "Health spending per person, USA",
+    "subtitle": "2000 to 2023",
+    "format": {"prefix": "$", "suffix": "k", "decimals": 1},
+    "series": [[2000, 4.5], [2005, 6.4], [2010, 7.8], [2015, 9.2], [2020, 11.6], [2023, 13.5]],
+    "badge": "3x since 2000"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "That's seven hundred seventy-two times more than Madagascar.",
+   "props": {
+    "value": 772,
+    "format": {"suffix": "x", "decimals": 0},
+    "caption": "health spending vs Madagascar",
+    "at": "seven",
+    "compare": {
+     "format": {"prefix": "$", "decimals": 0},
+     "items": [
+      {"label": "Madagascar", "value": 17.44},
+      {"label": "United States", "value": 13473.19}
+     ]
+    }
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "What does a doctor visit cost where you live? Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}
