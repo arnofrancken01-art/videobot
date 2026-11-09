@@ -1,0 +1,788 @@
+{
+ "id": "ep007",
+ "title": "$17 a year for ALL health care. Top 5 lowest health spending",
+ "topic": "Lowest health spending",
+ "description": "Where does a whole year of health care cost less than a pizza? Number one will surprise you. Real World Bank data, counted down from five to one.",
+ "tags": [
+  "health spending",
+  "health care costs",
+  "healthcare by country",
+  "poorest countries",
+  "madagascar",
+  "sudan",
+  "us healthcare",
+  "economy"
+ ],
+ "source": "World Bank, current health expenditure per capita (current US$, 2023), data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD; income via NY.GDP.PCAP.CD",
+ "voice": "af_heart",
+ "hashtags": [
+  "healthcare",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "One country spends just seventeen dollars per person on health. For a whole year. Can you guess which?",
+   "props": {
+    "kicker": "Health care, per person",
+    "big": 17.44,
+    "format": {
+     "prefix": "$",
+     "decimals": 0
+    },
+    "sub": "for a whole year",
+    "icon": "globe"
+   },
+   "start": 0.05,
+   "end": 5.7,
+   "words": [
+    {
+     "word": "One",
+     "start": 0.3,
+     "end": 0.525
+    },
+    {
+     "word": "country",
+     "start": 0.525,
+     "end": 0.9
+    },
+    {
+     "word": "spends",
+     "start": 0.9,
+     "end": 1.225
+    },
+    {
+     "word": "just",
+     "start": 1.225,
+     "end": 1.4
+    },
+    {
+     "word": "seventeen",
+     "start": 1.4,
+     "end": 1.875
+    },
+    {
+     "word": "dollars",
+     "start": 1.875,
+     "end": 2.25
+    },
+    {
+     "word": "per",
+     "start": 2.25,
+     "end": 2.375
+    },
+    {
+     "word": "person",
+     "start": 2.375,
+     "end": 2.762
+    },
+    {
+     "word": "on",
+     "start": 2.762,
+     "end": 2.9
+    },
+    {
+     "word": "health.",
+     "start": 2.9,
+     "end": 3.425
+    },
+    {
+     "word": "For",
+     "start": 3.525,
+     "end": 3.662
+    },
+    {
+     "word": "a",
+     "start": 3.662,
+     "end": 3.725
+    },
+    {
+     "word": "whole",
+     "start": 3.725,
+     "end": 3.95
+    },
+    {
+     "word": "year.",
+     "start": 3.95,
+     "end": 4.4
+    },
+    {
+     "word": "Can",
+     "start": 4.5,
+     "end": 4.638
+    },
+    {
+     "word": "you",
+     "start": 4.638,
+     "end": 4.725
+    },
+    {
+     "word": "guess",
+     "start": 4.725,
+     "end": 4.975
+    },
+    {
+     "word": "which?",
+     "start": 4.975,
+     "end": 5.45
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Top five lowest. Number five is Gambia. Twenty-six dollars.",
+   "props": {
+    "title": "Lowest health spending per person, 2023",
+    "format": {
+     "prefix": "$",
+     "decimals": 0
+    },
+    "rank": 5,
+    "label": "Gambia",
+    "value": 25.74,
+    "flag": "gm"
+   },
+   "start": 5.76,
+   "end": 9.86,
+   "words": [
+    {
+     "word": "Top",
+     "start": 5.985,
+     "end": 6.235
+    },
+    {
+     "word": "five",
+     "start": 6.235,
+     "end": 6.51
+    },
+    {
+     "word": "lowest.",
+     "start": 6.51,
+     "end": 7.06
+    },
+    {
+     "word": "Number",
+     "start": 7.16,
+     "end": 7.385
+    },
+    {
+     "word": "five",
+     "start": 7.385,
+     "end": 7.672
+    },
+    {
+     "word": "is",
+     "start": 7.672,
+     "end": 7.785
+    },
+    {
+     "word": "Gambia.",
+     "start": 7.785,
+     "end": 8.31
+    },
+    {
+     "word": "Twenty-six",
+     "start": 8.41,
+     "end": 8.96
+    },
+    {
+     "word": "dollars.",
+     "start": 8.96,
+     "end": 9.635
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is DR Congo. Twenty-three dollars.",
+   "props": {
+    "rank": 4,
+    "label": "DR Congo",
+    "value": 23.43,
+    "flag": "cd"
+   },
+   "start": 9.92,
+   "end": 13.245,
+   "words": [
+    {
+     "word": "Number",
+     "start": 10.17,
+     "end": 10.432
+    },
+    {
+     "word": "four",
+     "start": 10.432,
+     "end": 10.745
+    },
+    {
+     "word": "is",
+     "start": 10.745,
+     "end": 10.895
+    },
+    {
+     "word": "DR",
+     "start": 10.895,
+     "end": 11.22
+    },
+    {
+     "word": "Congo.",
+     "start": 11.22,
+     "end": 11.72
+    },
+    {
+     "word": "Twenty-three",
+     "start": 11.845,
+     "end": 12.32
+    },
+    {
+     "word": "dollars.",
+     "start": 12.32,
+     "end": 12.995
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Somalia. Twenty-two dollars.",
+   "props": {
+    "rank": 3,
+    "label": "Somalia",
+    "value": 22.37,
+    "flag": "so"
+   },
+   "start": 13.305,
+   "end": 16.355,
+   "words": [
+    {
+     "word": "Number",
+     "start": 13.555,
+     "end": 13.817
+    },
+    {
+     "word": "three",
+     "start": 13.817,
+     "end": 14.13
+    },
+    {
+     "word": "is",
+     "start": 14.13,
+     "end": 14.255
+    },
+    {
+     "word": "Somalia.",
+     "start": 14.255,
+     "end": 14.855
+    },
+    {
+     "word": "Twenty-two",
+     "start": 14.98,
+     "end": 15.455
+    },
+    {
+     "word": "dollars.",
+     "start": 15.455,
+     "end": 16.105
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number two was torn apart by war in 2023. Sudan. Twenty-one dollars.",
+   "props": {
+    "rank": 2,
+    "label": "Sudan",
+    "value": 21.08,
+    "flag": "sd"
+   },
+   "start": 16.415,
+   "end": 21.715,
+   "words": [
+    {
+     "word": "Number",
+     "start": 16.665,
+     "end": 16.927
+    },
+    {
+     "word": "two",
+     "start": 16.927,
+     "end": 17.19
+    },
+    {
+     "word": "was",
+     "start": 17.19,
+     "end": 17.315
+    },
+    {
+     "word": "torn",
+     "start": 17.315,
+     "end": 17.552
+    },
+    {
+     "word": "apart",
+     "start": 17.552,
+     "end": 17.815
+    },
+    {
+     "word": "by",
+     "start": 17.815,
+     "end": 17.965
+    },
+    {
+     "word": "war",
+     "start": 17.965,
+     "end": 18.215
+    },
+    {
+     "word": "in",
+     "start": 18.215,
+     "end": 18.315
+    },
+    {
+     "word": "2023.",
+     "start": 18.315,
+     "end": 19.415
+    },
+    {
+     "word": "Sudan.",
+     "start": 19.578,
+     "end": 20.19
+    },
+    {
+     "word": "Twenty-one",
+     "start": 20.29,
+     "end": 20.815
+    },
+    {
+     "word": "dollars.",
+     "start": 20.815,
+     "end": 21.49
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Madagascar. Seventeen dollars. The average income there is only five hundred fourteen dollars a year.",
+   "props": {
+    "rank": 1,
+    "label": "Madagascar",
+    "value": 17.44,
+    "flag": "mg"
+   },
+   "start": 21.775,
+   "end": 29.325,
+   "words": [
+    {
+     "word": "And",
+     "start": 22.0,
+     "end": 22.137
+    },
+    {
+     "word": "number",
+     "start": 22.137,
+     "end": 22.4
+    },
+    {
+     "word": "one",
+     "start": 22.4,
+     "end": 22.812
+    },
+    {
+     "word": "is",
+     "start": 22.812,
+     "end": 22.975
+    },
+    {
+     "word": "Madagascar.",
+     "start": 22.975,
+     "end": 23.925
+    },
+    {
+     "word": "Seventeen",
+     "start": 24.062,
+     "end": 24.675
+    },
+    {
+     "word": "dollars.",
+     "start": 24.675,
+     "end": 25.375
+    },
+    {
+     "word": "The",
+     "start": 25.475,
+     "end": 25.637
+    },
+    {
+     "word": "average",
+     "start": 25.637,
+     "end": 26.05
+    },
+    {
+     "word": "income",
+     "start": 26.05,
+     "end": 26.5
+    },
+    {
+     "word": "there",
+     "start": 26.5,
+     "end": 26.675
+    },
+    {
+     "word": "is",
+     "start": 26.675,
+     "end": 26.825
+    },
+    {
+     "word": "only",
+     "start": 26.825,
+     "end": 27.137
+    },
+    {
+     "word": "five",
+     "start": 27.137,
+     "end": 27.412
+    },
+    {
+     "word": "hundred",
+     "start": 27.412,
+     "end": 27.7
+    },
+    {
+     "word": "fourteen",
+     "start": 27.7,
+     "end": 28.15
+    },
+    {
+     "word": "dollars",
+     "start": 28.15,
+     "end": 28.487
+    },
+    {
+     "word": "a",
+     "start": 28.487,
+     "end": 28.55
+    },
+    {
+     "word": "year.",
+     "start": 28.55,
+     "end": 29.1
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "Now the other extreme. The United States spends almost thirteen and a half thousand dollars per person. Triple what it spent in 2000.",
+   "props": {
+    "title": "Health spending per person, USA",
+    "subtitle": "2000 to 2023",
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 1
+    },
+    "series": [
+     [
+      2000,
+      4.5
+     ],
+     [
+      2005,
+      6.4
+     ],
+     [
+      2010,
+      7.8
+     ],
+     [
+      2015,
+      9.2
+     ],
+     [
+      2020,
+      11.6
+     ],
+     [
+      2023,
+      13.5
+     ]
+    ],
+    "badge": "3x since 2000"
+   },
+   "start": 29.385,
+   "end": 37.435,
+   "words": [
+    {
+     "word": "Now",
+     "start": 29.66,
+     "end": 29.847
+    },
+    {
+     "word": "the",
+     "start": 29.847,
+     "end": 29.96
+    },
+    {
+     "word": "other",
+     "start": 29.96,
+     "end": 30.235
+    },
+    {
+     "word": "extreme.",
+     "start": 30.235,
+     "end": 31.035
+    },
+    {
+     "word": "The",
+     "start": 31.135,
+     "end": 31.235
+    },
+    {
+     "word": "United",
+     "start": 31.235,
+     "end": 31.66
+    },
+    {
+     "word": "States",
+     "start": 31.66,
+     "end": 32.035
+    },
+    {
+     "word": "spends",
+     "start": 32.035,
+     "end": 32.335
+    },
+    {
+     "word": "almost",
+     "start": 32.335,
+     "end": 32.773
+    },
+    {
+     "word": "thirteen",
+     "start": 32.773,
+     "end": 33.247
+    },
+    {
+     "word": "and",
+     "start": 33.247,
+     "end": 33.347
+    },
+    {
+     "word": "a",
+     "start": 33.347,
+     "end": 33.41
+    },
+    {
+     "word": "half",
+     "start": 33.41,
+     "end": 33.66
+    },
+    {
+     "word": "thousand",
+     "start": 33.66,
+     "end": 34.035
+    },
+    {
+     "word": "dollars",
+     "start": 34.035,
+     "end": 34.435
+    },
+    {
+     "word": "per",
+     "start": 34.435,
+     "end": 34.56
+    },
+    {
+     "word": "person.",
+     "start": 34.56,
+     "end": 35.26
+    },
+    {
+     "word": "Triple",
+     "start": 35.398,
+     "end": 35.722
+    },
+    {
+     "word": "what",
+     "start": 35.722,
+     "end": 35.847
+    },
+    {
+     "word": "it",
+     "start": 35.847,
+     "end": 35.935
+    },
+    {
+     "word": "spent",
+     "start": 35.935,
+     "end": 36.197
+    },
+    {
+     "word": "in",
+     "start": 36.197,
+     "end": 36.31
+    },
+    {
+     "word": "2000.",
+     "start": 36.31,
+     "end": 37.21
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "That's seven hundred seventy-two times more than Madagascar.",
+   "props": {
+    "value": 772,
+    "format": {
+     "suffix": "x",
+     "decimals": 0
+    },
+    "caption": "health spending vs Madagascar",
+    "at": "seven",
+    "compare": {
+     "format": {
+      "prefix": "$",
+      "decimals": 0
+     },
+     "items": [
+      {
+       "label": "Madagascar",
+       "value": 17.44
+      },
+      {
+       "label": "United States",
+       "value": 13473.19
+      }
+     ]
+    }
+   },
+   "start": 37.495,
+   "end": 41.12,
+   "words": [
+    {
+     "word": "That's",
+     "start": 37.72,
+     "end": 37.995
+    },
+    {
+     "word": "seven",
+     "start": 37.995,
+     "end": 38.27
+    },
+    {
+     "word": "hundred",
+     "start": 38.27,
+     "end": 38.57
+    },
+    {
+     "word": "seventy-two",
+     "start": 38.57,
+     "end": 39.37
+    },
+    {
+     "word": "times",
+     "start": 39.37,
+     "end": 39.72
+    },
+    {
+     "word": "more",
+     "start": 39.72,
+     "end": 39.932
+    },
+    {
+     "word": "than",
+     "start": 39.932,
+     "end": 40.032
+    },
+    {
+     "word": "Madagascar.",
+     "start": 40.032,
+     "end": 40.895
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "What does a doctor visit cost where you live? Follow for more money, mapped.",
+   "props": {},
+   "start": 41.18,
+   "end": 45.38,
+   "words": [
+    {
+     "word": "What",
+     "start": 41.405,
+     "end": 41.517
+    },
+    {
+     "word": "does",
+     "start": 41.517,
+     "end": 41.642
+    },
+    {
+     "word": "a",
+     "start": 41.642,
+     "end": 41.705
+    },
+    {
+     "word": "doctor",
+     "start": 41.705,
+     "end": 42.08
+    },
+    {
+     "word": "visit",
+     "start": 42.08,
+     "end": 42.405
+    },
+    {
+     "word": "cost",
+     "start": 42.405,
+     "end": 42.693
+    },
+    {
+     "word": "where",
+     "start": 42.693,
+     "end": 42.83
+    },
+    {
+     "word": "you",
+     "start": 42.83,
+     "end": 42.955
+    },
+    {
+     "word": "live?",
+     "start": 42.955,
+     "end": 43.405
+    },
+    {
+     "word": "Follow",
+     "start": 43.542,
+     "end": 43.88
+    },
+    {
+     "word": "for",
+     "start": 43.88,
+     "end": 44.005
+    },
+    {
+     "word": "more",
+     "start": 44.005,
+     "end": 44.23
+    },
+    {
+     "word": "money,",
+     "start": 44.23,
+     "end": 44.555
+    },
+    {
+     "word": "mapped.",
+     "start": 44.605,
+     "end": 45.155
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 1382,
+ "fps": 30,
+ "aligned": "tts"
+}
