@@ -1,12 +1,20 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-09T14:42:07Z",
+ "fetched_at": "2026-11-09T16:16:36Z",
  "videos": [
+  {
+   "video_id": "VoPfnM12ugk",
+   "title": "This country saves 48% of its economy. Top 5 biggest savers 2024 #shorts",
+   "views": 0,
+   "question_posted": false,
+   "question": "America saves just seventeen percent. How much do you save?",
+   "comments": []
+  },
   {
    "video_id": "d7WjOEisHcs",
    "title": "$17 a year for ALL health care. Top 5 lowest health spending #shorts",
-   "views": 0,
-   "question_posted": false,
+   "views": 2,
+   "question_posted": true,
    "question": "What does a doctor visit cost where you live?",
    "comments": []
   },
@@ -14,22 +22,27 @@
    "video_id": "gbxv_eV3y1w",
    "title": "1 in 3 people can't find a job here. Top 5 highest unemployment 2025 #shorts",
    "views": 5,
-   "question_posted": false,
+   "question_posted": true,
    "question": "How easy is it to find a job where you live?",
    "comments": [
     {
      "id": "UgySbPtYVB3xb-F33bR4AaABAg",
      "author": "@RankedFails-t7x",
      "text": "🎉",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Thanks for celebrating with us 🎉 Where are you watching from?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "87rc7aPFs1A",
    "title": "Prices rose 42% in ONE year in this country. Top 5 highest inflation in 2025 #shorts",
-   "views": 152,
+   "views": 153,
    "question_posted": true,
    "question": "How fast are prices rising where you live?",
    "comments": [
