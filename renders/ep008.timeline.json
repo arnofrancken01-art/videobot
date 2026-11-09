@@ -1,0 +1,802 @@
+{
+ "id": "ep008",
+ "title": "This country saves 48% of its economy. Top 5 biggest savers 2024",
+ "topic": "Biggest savers 2024",
+ "description": "Which country saves the biggest share of everything it earns? Number one will surprise you. Real World Bank data, counted down from five to one.",
+ "tags": [
+  "savings rate by country",
+  "highest savings rate",
+  "gross savings",
+  "brunei",
+  "kuwait",
+  "china savings",
+  "burundi",
+  "cambodia",
+  "economy"
+ ],
+ "source": "World Bank, gross savings (% of GDP, 2024, sovereign countries only), data.worldbank.org/indicator/NY.GNS.ICTR.ZS; population via SP.POP.TOTL",
+ "voice": "af_heart",
+ "hashtags": [
+  "savings",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "One country saves forty-eight percent of its entire economy. In a single year. Can you guess which?",
+   "props": {
+    "kicker": "Saved, share of the whole economy",
+    "big": 47.65,
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "sub": "in a single year",
+    "icon": "coin"
+   },
+   "start": 0.05,
+   "end": 5.925,
+   "words": [
+    {
+     "word": "One",
+     "start": 0.3,
+     "end": 0.525
+    },
+    {
+     "word": "country",
+     "start": 0.525,
+     "end": 0.9
+    },
+    {
+     "word": "saves",
+     "start": 0.9,
+     "end": 1.238
+    },
+    {
+     "word": "forty-eight",
+     "start": 1.238,
+     "end": 1.725
+    },
+    {
+     "word": "percent",
+     "start": 1.725,
+     "end": 2.087
+    },
+    {
+     "word": "of",
+     "start": 2.087,
+     "end": 2.162
+    },
+    {
+     "word": "its",
+     "start": 2.162,
+     "end": 2.262
+    },
+    {
+     "word": "entire",
+     "start": 2.262,
+     "end": 2.725
+    },
+    {
+     "word": "economy.",
+     "start": 2.725,
+     "end": 3.55
+    },
+    {
+     "word": "In",
+     "start": 3.675,
+     "end": 3.787
+    },
+    {
+     "word": "a",
+     "start": 3.787,
+     "end": 3.887
+    },
+    {
+     "word": "single",
+     "start": 3.887,
+     "end": 4.2
+    },
+    {
+     "word": "year.",
+     "start": 4.2,
+     "end": 4.6
+    },
+    {
+     "word": "Can",
+     "start": 4.7,
+     "end": 4.837
+    },
+    {
+     "word": "you",
+     "start": 4.837,
+     "end": 4.925
+    },
+    {
+     "word": "guess",
+     "start": 4.925,
+     "end": 5.2
+    },
+    {
+     "word": "which?",
+     "start": 5.2,
+     "end": 5.675
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Top five savers. Number five is Cambodia. Forty-one percent.",
+   "props": {
+    "title": "Highest savings rate, 2024",
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "map": true,
+    "rank": 5,
+    "label": "Cambodia",
+    "value": 40.53,
+    "flag": "kh"
+   },
+   "start": 5.985,
+   "end": 10.16,
+   "words": [
+    {
+     "word": "Top",
+     "start": 6.21,
+     "end": 6.46
+    },
+    {
+     "word": "five",
+     "start": 6.46,
+     "end": 6.735
+    },
+    {
+     "word": "savers.",
+     "start": 6.735,
+     "end": 7.335
+    },
+    {
+     "word": "Number",
+     "start": 7.435,
+     "end": 7.66
+    },
+    {
+     "word": "five",
+     "start": 7.66,
+     "end": 7.972
+    },
+    {
+     "word": "is",
+     "start": 7.972,
+     "end": 8.085
+    },
+    {
+     "word": "Cambodia.",
+     "start": 8.085,
+     "end": 8.735
+    },
+    {
+     "word": "Forty-one",
+     "start": 8.848,
+     "end": 9.26
+    },
+    {
+     "word": "percent.",
+     "start": 9.26,
+     "end": 9.935
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is one of the poorest countries on Earth. Burundi. Also forty-one percent.",
+   "props": {
+    "rank": 4,
+    "label": "Burundi",
+    "value": 40.83,
+    "flag": "bi"
+   },
+   "start": 10.22,
+   "end": 15.57,
+   "words": [
+    {
+     "word": "Number",
+     "start": 10.47,
+     "end": 10.732
+    },
+    {
+     "word": "four",
+     "start": 10.732,
+     "end": 11.095
+    },
+    {
+     "word": "is",
+     "start": 11.095,
+     "end": 11.207
+    },
+    {
+     "word": "one",
+     "start": 11.207,
+     "end": 11.332
+    },
+    {
+     "word": "of",
+     "start": 11.332,
+     "end": 11.407
+    },
+    {
+     "word": "the",
+     "start": 11.407,
+     "end": 11.495
+    },
+    {
+     "word": "poorest",
+     "start": 11.495,
+     "end": 11.92
+    },
+    {
+     "word": "countries",
+     "start": 11.92,
+     "end": 12.282
+    },
+    {
+     "word": "on",
+     "start": 12.282,
+     "end": 12.42
+    },
+    {
+     "word": "Earth.",
+     "start": 12.42,
+     "end": 12.945
+    },
+    {
+     "word": "Burundi.",
+     "start": 13.07,
+     "end": 13.745
+    },
+    {
+     "word": "Also",
+     "start": 13.895,
+     "end": 14.282
+    },
+    {
+     "word": "forty-one",
+     "start": 14.282,
+     "end": 14.695
+    },
+    {
+     "word": "percent.",
+     "start": 14.695,
+     "end": 15.345
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is the world's factory. China. Forty-three percent.",
+   "props": {
+    "rank": 3,
+    "label": "China",
+    "value": 42.72,
+    "flag": "cn"
+   },
+   "start": 15.63,
+   "end": 19.83,
+   "words": [
+    {
+     "word": "Number",
+     "start": 15.88,
+     "end": 16.142
+    },
+    {
+     "word": "three",
+     "start": 16.142,
+     "end": 16.455
+    },
+    {
+     "word": "is",
+     "start": 16.455,
+     "end": 16.592
+    },
+    {
+     "word": "the",
+     "start": 16.592,
+     "end": 16.68
+    },
+    {
+     "word": "world's",
+     "start": 16.68,
+     "end": 17.005
+    },
+    {
+     "word": "factory.",
+     "start": 17.005,
+     "end": 17.73
+    },
+    {
+     "word": "China.",
+     "start": 17.867,
+     "end": 18.33
+    },
+    {
+     "word": "Forty-three",
+     "start": 18.442,
+     "end": 18.93
+    },
+    {
+     "word": "percent.",
+     "start": 18.93,
+     "end": 19.605
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number two is swimming in oil. Kuwait. Forty-four percent.",
+   "props": {
+    "rank": 2,
+    "label": "Kuwait",
+    "value": 44.13,
+    "flag": "kw"
+   },
+   "start": 19.89,
+   "end": 23.865,
+   "words": [
+    {
+     "word": "Number",
+     "start": 20.14,
+     "end": 20.402
+    },
+    {
+     "word": "two",
+     "start": 20.402,
+     "end": 20.665
+    },
+    {
+     "word": "is",
+     "start": 20.665,
+     "end": 20.79
+    },
+    {
+     "word": "swimming",
+     "start": 20.79,
+     "end": 21.102
+    },
+    {
+     "word": "in",
+     "start": 21.102,
+     "end": 21.19
+    },
+    {
+     "word": "oil.",
+     "start": 21.19,
+     "end": 21.665
+    },
+    {
+     "word": "Kuwait.",
+     "start": 21.803,
+     "end": 22.365
+    },
+    {
+     "word": "Forty-four",
+     "start": 22.477,
+     "end": 22.965
+    },
+    {
+     "word": "percent.",
+     "start": 22.965,
+     "end": 23.64
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Brunei. Forty-eight percent. Just four hundred sixty thousand people, sitting on oil and gas.",
+   "props": {
+    "rank": 1,
+    "label": "Brunei",
+    "value": 47.65,
+    "flag": "bn"
+   },
+   "start": 23.925,
+   "end": 30.75,
+   "words": [
+    {
+     "word": "And",
+     "start": 24.15,
+     "end": 24.288
+    },
+    {
+     "word": "number",
+     "start": 24.288,
+     "end": 24.55
+    },
+    {
+     "word": "one",
+     "start": 24.55,
+     "end": 24.8
+    },
+    {
+     "word": "is",
+     "start": 24.8,
+     "end": 24.95
+    },
+    {
+     "word": "Brunei.",
+     "start": 24.95,
+     "end": 25.575
+    },
+    {
+     "word": "Forty-eight",
+     "start": 25.713,
+     "end": 26.2
+    },
+    {
+     "word": "percent.",
+     "start": 26.2,
+     "end": 26.9
+    },
+    {
+     "word": "Just",
+     "start": 27.0,
+     "end": 27.225
+    },
+    {
+     "word": "four",
+     "start": 27.225,
+     "end": 27.413
+    },
+    {
+     "word": "hundred",
+     "start": 27.413,
+     "end": 27.725
+    },
+    {
+     "word": "sixty",
+     "start": 27.725,
+     "end": 28.075
+    },
+    {
+     "word": "thousand",
+     "start": 28.075,
+     "end": 28.45
+    },
+    {
+     "word": "people,",
+     "start": 28.45,
+     "end": 28.925
+    },
+    {
+     "word": "sitting",
+     "start": 29.038,
+     "end": 29.288
+    },
+    {
+     "word": "on",
+     "start": 29.288,
+     "end": 29.462
+    },
+    {
+     "word": "oil",
+     "start": 29.462,
+     "end": 29.775
+    },
+    {
+     "word": "and",
+     "start": 29.775,
+     "end": 29.9
+    },
+    {
+     "word": "gas.",
+     "start": 29.9,
+     "end": 30.5
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "But Kuwait's savings ride the oil price. Sixty-seven percent in 2006. Just twenty-three in 2020.",
+   "props": {
+    "title": "Kuwait's savings rate",
+    "subtitle": "2000 to 2024, share of GDP",
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "series": [
+     [
+      2000,
+      49.6
+     ],
+     [
+      2006,
+      66.9
+     ],
+     [
+      2010,
+      50.7
+     ],
+     [
+      2015,
+      30.9
+     ],
+     [
+      2020,
+      23.0
+     ],
+     [
+      2022,
+      50.9
+     ],
+     [
+      2024,
+      44.1
+     ]
+    ],
+    "badge": "Follows the oil price"
+   },
+   "start": 30.81,
+   "end": 37.96,
+   "words": [
+    {
+     "word": "But",
+     "start": 31.01,
+     "end": 31.135
+    },
+    {
+     "word": "Kuwait's",
+     "start": 31.135,
+     "end": 31.56
+    },
+    {
+     "word": "savings",
+     "start": 31.56,
+     "end": 32.073
+    },
+    {
+     "word": "ride",
+     "start": 32.073,
+     "end": 32.323
+    },
+    {
+     "word": "the",
+     "start": 32.323,
+     "end": 32.435
+    },
+    {
+     "word": "oil",
+     "start": 32.435,
+     "end": 32.685
+    },
+    {
+     "word": "price.",
+     "start": 32.685,
+     "end": 33.285
+    },
+    {
+     "word": "Sixty-seven",
+     "start": 33.398,
+     "end": 34.06
+    },
+    {
+     "word": "percent",
+     "start": 34.06,
+     "end": 34.51
+    },
+    {
+     "word": "in",
+     "start": 34.51,
+     "end": 34.635
+    },
+    {
+     "word": "2006.",
+     "start": 34.635,
+     "end": 35.735
+    },
+    {
+     "word": "Just",
+     "start": 35.848,
+     "end": 36.11
+    },
+    {
+     "word": "twenty-three",
+     "start": 36.11,
+     "end": 36.735
+    },
+    {
+     "word": "in",
+     "start": 36.735,
+     "end": 36.835
+    },
+    {
+     "word": "2020.",
+     "start": 36.835,
+     "end": 37.735
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "And the very bottom is Timor-Leste. Minus twenty-one percent. It spends more than it earns.",
+   "props": {
+    "value": -21.13,
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "caption": "Timor-Leste's savings rate, 2024",
+    "at": "minus"
+   },
+   "start": 38.02,
+   "end": 43.57,
+   "words": [
+    {
+     "word": "And",
+     "start": 38.245,
+     "end": 38.358
+    },
+    {
+     "word": "the",
+     "start": 38.358,
+     "end": 38.445
+    },
+    {
+     "word": "very",
+     "start": 38.445,
+     "end": 38.72
+    },
+    {
+     "word": "bottom",
+     "start": 38.72,
+     "end": 39.095
+    },
+    {
+     "word": "is",
+     "start": 39.095,
+     "end": 39.258
+    },
+    {
+     "word": "Timor-Leste.",
+     "start": 39.258,
+     "end": 40.145
+    },
+    {
+     "word": "Minus",
+     "start": 40.258,
+     "end": 40.595
+    },
+    {
+     "word": "twenty-one",
+     "start": 40.595,
+     "end": 41.07
+    },
+    {
+     "word": "percent.",
+     "start": 41.07,
+     "end": 41.72
+    },
+    {
+     "word": "It",
+     "start": 41.82,
+     "end": 41.97
+    },
+    {
+     "word": "spends",
+     "start": 41.97,
+     "end": 42.295
+    },
+    {
+     "word": "more",
+     "start": 42.295,
+     "end": 42.508
+    },
+    {
+     "word": "than",
+     "start": 42.508,
+     "end": 42.608
+    },
+    {
+     "word": "it",
+     "start": 42.608,
+     "end": 42.695
+    },
+    {
+     "word": "earns.",
+     "start": 42.695,
+     "end": 43.32
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "America saves just seventeen percent. How much do you save? Follow for more money, mapped.",
+   "props": {},
+   "start": 43.63,
+   "end": 48.98,
+   "words": [
+    {
+     "word": "America",
+     "start": 43.88,
+     "end": 44.355
+    },
+    {
+     "word": "saves",
+     "start": 44.355,
+     "end": 44.655
+    },
+    {
+     "word": "just",
+     "start": 44.655,
+     "end": 44.83
+    },
+    {
+     "word": "seventeen",
+     "start": 44.83,
+     "end": 45.255
+    },
+    {
+     "word": "percent.",
+     "start": 45.255,
+     "end": 45.88
+    },
+    {
+     "word": "How",
+     "start": 45.992,
+     "end": 46.18
+    },
+    {
+     "word": "much",
+     "start": 46.18,
+     "end": 46.393
+    },
+    {
+     "word": "do",
+     "start": 46.393,
+     "end": 46.492
+    },
+    {
+     "word": "you",
+     "start": 46.492,
+     "end": 46.58
+    },
+    {
+     "word": "save?",
+     "start": 46.58,
+     "end": 47.08
+    },
+    {
+     "word": "Follow",
+     "start": 47.193,
+     "end": 47.505
+    },
+    {
+     "word": "for",
+     "start": 47.505,
+     "end": 47.63
+    },
+    {
+     "word": "more",
+     "start": 47.63,
+     "end": 47.855
+    },
+    {
+     "word": "money,",
+     "start": 47.855,
+     "end": 48.155
+    },
+    {
+     "word": "mapped.",
+     "start": 48.205,
+     "end": 48.755
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 1490,
+ "fps": 30,
+ "aligned": "tts"
+}
