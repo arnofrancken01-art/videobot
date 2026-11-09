@@ -44,7 +44,10 @@ jobs:
         with:
           path: models
           key: kokoro-v1.0
-      - run: npm ci
+      - name: Node-pakketten
+        env:
+          ONNXRUNTIME_NODE_INSTALL_CUDA: skip  # geen GPU-download nodig (faalde soms met 504)
+        run: npm ci || (sleep 20 && npm ci)
       - name: Python-pakketten
         run: |
           pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
