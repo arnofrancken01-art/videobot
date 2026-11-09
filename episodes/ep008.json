@@ -1,0 +1,158 @@
+{
+ "id": "ep008",
+ "title": "This country saves 48% of its economy. Top 5 biggest savers 2024",
+ "topic": "Biggest savers 2024",
+ "description": "Which country saves the biggest share of everything it earns? Number one will surprise you. Real World Bank data, counted down from five to one.",
+ "tags": [
+  "savings rate by country",
+  "highest savings rate",
+  "gross savings",
+  "brunei",
+  "kuwait",
+  "china savings",
+  "burundi",
+  "cambodia",
+  "economy"
+ ],
+ "source": "World Bank, gross savings (% of GDP, 2024, sovereign countries only), data.worldbank.org/indicator/NY.GNS.ICTR.ZS; population via SP.POP.TOTL",
+ "voice": "af_heart",
+ "hashtags": [
+  "savings",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "One country saves forty-eight percent of its entire economy. In a single year. Can you guess which?",
+   "props": {
+    "kicker": "Saved, share of the whole economy",
+    "big": 47.65,
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "sub": "in a single year",
+    "icon": "coin"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Top five savers. Number five is Cambodia. Forty-one percent.",
+   "props": {
+    "title": "Highest savings rate, 2024",
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "map": true,
+    "rank": 5,
+    "label": "Cambodia",
+    "value": 40.53,
+    "flag": "kh"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is one of the poorest countries on Earth. Burundi. Also forty-one percent.",
+   "props": {
+    "rank": 4,
+    "label": "Burundi",
+    "value": 40.83,
+    "flag": "bi"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is the world's factory. China. Forty-three percent.",
+   "props": {
+    "rank": 3,
+    "label": "China",
+    "value": 42.72,
+    "flag": "cn"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number two is swimming in oil. Kuwait. Forty-four percent.",
+   "props": {
+    "rank": 2,
+    "label": "Kuwait",
+    "value": 44.13,
+    "flag": "kw"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Brunei. Forty-eight percent. Just four hundred sixty thousand people, sitting on oil and gas.",
+   "props": {
+    "rank": 1,
+    "label": "Brunei",
+    "value": 47.65,
+    "flag": "bn"
+   }
+  },
+  {
+   "scene": "line",
+   "text": "But Kuwait's savings ride the oil price. Sixty-seven percent in 2006. Just twenty-three in 2020.",
+   "props": {
+    "title": "Kuwait's savings rate",
+    "subtitle": "2000 to 2024, share of GDP",
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "series": [
+     [
+      2000,
+      49.6
+     ],
+     [
+      2006,
+      66.9
+     ],
+     [
+      2010,
+      50.7
+     ],
+     [
+      2015,
+      30.9
+     ],
+     [
+      2020,
+      23.0
+     ],
+     [
+      2022,
+      50.9
+     ],
+     [
+      2024,
+      44.1
+     ]
+    ],
+    "badge": "Follows the oil price"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "And the very bottom is Timor-Leste. Minus twenty-one percent. It spends more than it earns.",
+   "props": {
+    "value": -21.13,
+    "format": {
+     "suffix": "%",
+     "decimals": 0
+    },
+    "caption": "Timor-Leste's savings rate, 2024",
+    "at": "minus"
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "America saves just seventeen percent. How much do you save? Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}
