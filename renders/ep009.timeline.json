@@ -1,0 +1,788 @@
+{
+ "id": "ep009",
+ "title": "$1 = 89,500 of this money. Top 5 currencies with the most per dollar",
+ "topic": "Most money per dollar",
+ "description": "In which country does one US dollar get you the most local money? Number one will surprise you. Real World Bank data (official exchange rates, 2024), counted down from five to one.",
+ "tags": [
+  "weakest currency in the world",
+  "exchange rate",
+  "lebanese pound",
+  "vietnamese dong",
+  "indonesian rupiah",
+  "lao kip",
+  "uzbek som",
+  "kuwaiti dinar",
+  "strongest currency"
+ ],
+ "source": "World Bank, official exchange rate (local currency per US$, period average, 2024, countries with 2024 data; Iran has no 2024 value), data.worldbank.org/indicator/PA.NUS.FCRF",
+ "voice": "af_heart",
+ "hashtags": [
+  "currency",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "In one country, a single dollar gets you eighty-nine thousand five hundred. Can you guess which?",
+   "props": {
+    "kicker": "Local money for one US dollar",
+    "big": 89500,
+    "format": {
+     "decimals": 0
+    },
+    "sub": "official rate, 2024",
+    "icon": "coin"
+   },
+   "start": 0.05,
+   "end": 5.575,
+   "words": [
+    {
+     "word": "In",
+     "start": 0.3,
+     "end": 0.425
+    },
+    {
+     "word": "one",
+     "start": 0.425,
+     "end": 0.65
+    },
+    {
+     "word": "country,",
+     "start": 0.65,
+     "end": 1.175
+    },
+    {
+     "word": "a",
+     "start": 1.275,
+     "end": 1.387
+    },
+    {
+     "word": "single",
+     "start": 1.387,
+     "end": 1.725
+    },
+    {
+     "word": "dollar",
+     "start": 1.725,
+     "end": 2.05
+    },
+    {
+     "word": "gets",
+     "start": 2.05,
+     "end": 2.262
+    },
+    {
+     "word": "you",
+     "start": 2.262,
+     "end": 2.438
+    },
+    {
+     "word": "eighty-nine",
+     "start": 2.438,
+     "end": 3.05
+    },
+    {
+     "word": "thousand",
+     "start": 3.05,
+     "end": 3.4
+    },
+    {
+     "word": "five",
+     "start": 3.4,
+     "end": 3.612
+    },
+    {
+     "word": "hundred.",
+     "start": 3.612,
+     "end": 4.2
+    },
+    {
+     "word": "Can",
+     "start": 4.325,
+     "end": 4.462
+    },
+    {
+     "word": "you",
+     "start": 4.462,
+     "end": 4.55
+    },
+    {
+     "word": "guess",
+     "start": 4.55,
+     "end": 4.825
+    },
+    {
+     "word": "which?",
+     "start": 4.825,
+     "end": 5.325
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five is Uzbekistan. Twelve thousand six hundred.",
+   "props": {
+    "title": "Local money per US dollar, 2024",
+    "format": {
+     "decimals": 0
+    },
+    "rank": 5,
+    "label": "Uzbekistan",
+    "value": 12652,
+    "flag": "uz"
+   },
+   "start": 5.635,
+   "end": 10.01,
+   "words": [
+    {
+     "word": "Top",
+     "start": 5.86,
+     "end": 6.11
+    },
+    {
+     "word": "five.",
+     "start": 6.11,
+     "end": 6.535
+    },
+    {
+     "word": "Number",
+     "start": 6.61,
+     "end": 6.835
+    },
+    {
+     "word": "five",
+     "start": 6.835,
+     "end": 7.185
+    },
+    {
+     "word": "is",
+     "start": 7.185,
+     "end": 7.31
+    },
+    {
+     "word": "Uzbekistan.",
+     "start": 7.31,
+     "end": 8.16
+    },
+    {
+     "word": "Twelve",
+     "start": 8.285,
+     "end": 8.61
+    },
+    {
+     "word": "thousand",
+     "start": 8.61,
+     "end": 8.96
+    },
+    {
+     "word": "six",
+     "start": 8.96,
+     "end": 9.172
+    },
+    {
+     "word": "hundred.",
+     "start": 9.172,
+     "end": 9.76
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is Southeast Asia's biggest economy. Indonesia. Almost sixteen thousand.",
+   "props": {
+    "rank": 4,
+    "label": "Indonesia",
+    "value": 15855,
+    "flag": "id"
+   },
+   "start": 10.07,
+   "end": 15.77,
+   "words": [
+    {
+     "word": "Number",
+     "start": 10.32,
+     "end": 10.582
+    },
+    {
+     "word": "four",
+     "start": 10.582,
+     "end": 10.895
+    },
+    {
+     "word": "is",
+     "start": 10.895,
+     "end": 11.02
+    },
+    {
+     "word": "Southeast",
+     "start": 11.02,
+     "end": 11.47
+    },
+    {
+     "word": "Asia's",
+     "start": 11.47,
+     "end": 11.883
+    },
+    {
+     "word": "biggest",
+     "start": 11.883,
+     "end": 12.22
+    },
+    {
+     "word": "economy.",
+     "start": 12.22,
+     "end": 13.02
+    },
+    {
+     "word": "Indonesia.",
+     "start": 13.145,
+     "end": 13.895
+    },
+    {
+     "word": "Almost",
+     "start": 14.02,
+     "end": 14.383
+    },
+    {
+     "word": "sixteen",
+     "start": 14.383,
+     "end": 14.845
+    },
+    {
+     "word": "thousand.",
+     "start": 14.845,
+     "end": 15.545
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Laos. Over twenty thousand.",
+   "props": {
+    "rank": 3,
+    "label": "Laos",
+    "value": 20167,
+    "flag": "la"
+   },
+   "start": 15.83,
+   "end": 18.88,
+   "words": [
+    {
+     "word": "Number",
+     "start": 16.08,
+     "end": 16.343
+    },
+    {
+     "word": "three",
+     "start": 16.343,
+     "end": 16.655
+    },
+    {
+     "word": "is",
+     "start": 16.655,
+     "end": 16.805
+    },
+    {
+     "word": "Laos.",
+     "start": 16.805,
+     "end": 17.33
+    },
+    {
+     "word": "Over",
+     "start": 17.43,
+     "end": 17.655
+    },
+    {
+     "word": "twenty",
+     "start": 17.655,
+     "end": 17.955
+    },
+    {
+     "word": "thousand.",
+     "start": 17.955,
+     "end": 18.63
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number two is a backpacker favorite. Vietnam. Over twenty-four thousand.",
+   "props": {
+    "rank": 2,
+    "label": "Vietnam",
+    "value": 24165,
+    "flag": "vn"
+   },
+   "start": 18.94,
+   "end": 23.765,
+   "words": [
+    {
+     "word": "Number",
+     "start": 19.19,
+     "end": 19.453
+    },
+    {
+     "word": "two",
+     "start": 19.453,
+     "end": 19.765
+    },
+    {
+     "word": "is",
+     "start": 19.765,
+     "end": 19.878
+    },
+    {
+     "word": "a",
+     "start": 19.878,
+     "end": 19.94
+    },
+    {
+     "word": "backpacker",
+     "start": 19.94,
+     "end": 20.515
+    },
+    {
+     "word": "favorite.",
+     "start": 20.515,
+     "end": 21.14
+    },
+    {
+     "word": "Vietnam.",
+     "start": 21.253,
+     "end": 21.965
+    },
+    {
+     "word": "Over",
+     "start": 22.065,
+     "end": 22.29
+    },
+    {
+     "word": "twenty-four",
+     "start": 22.29,
+     "end": 22.815
+    },
+    {
+     "word": "thousand.",
+     "start": 22.815,
+     "end": 23.515
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Lebanon. Eighty-nine thousand five hundred. Its banks collapsed, and the pound lost almost everything.",
+   "props": {
+    "rank": 1,
+    "label": "Lebanon",
+    "value": 89500,
+    "flag": "lb"
+   },
+   "start": 23.825,
+   "end": 31.025,
+   "words": [
+    {
+     "word": "And",
+     "start": 24.05,
+     "end": 24.188
+    },
+    {
+     "word": "number",
+     "start": 24.188,
+     "end": 24.45
+    },
+    {
+     "word": "one",
+     "start": 24.45,
+     "end": 24.75
+    },
+    {
+     "word": "is",
+     "start": 24.75,
+     "end": 24.9
+    },
+    {
+     "word": "Lebanon.",
+     "start": 24.9,
+     "end": 25.6
+    },
+    {
+     "word": "Eighty-nine",
+     "start": 25.713,
+     "end": 26.325
+    },
+    {
+     "word": "thousand",
+     "start": 26.325,
+     "end": 26.675
+    },
+    {
+     "word": "five",
+     "start": 26.675,
+     "end": 26.888
+    },
+    {
+     "word": "hundred.",
+     "start": 26.888,
+     "end": 27.525
+    },
+    {
+     "word": "Its",
+     "start": 27.625,
+     "end": 27.825
+    },
+    {
+     "word": "banks",
+     "start": 27.825,
+     "end": 28.1
+    },
+    {
+     "word": "collapsed,",
+     "start": 28.1,
+     "end": 28.7
+    },
+    {
+     "word": "and",
+     "start": 28.775,
+     "end": 28.888
+    },
+    {
+     "word": "the",
+     "start": 28.888,
+     "end": 28.975
+    },
+    {
+     "word": "pound",
+     "start": 28.975,
+     "end": 29.325
+    },
+    {
+     "word": "lost",
+     "start": 29.325,
+     "end": 29.625
+    },
+    {
+     "word": "almost",
+     "start": 29.625,
+     "end": 30.05
+    },
+    {
+     "word": "everything.",
+     "start": 30.05,
+     "end": 30.8
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "For over twenty years, one dollar was fifteen hundred pounds. Now it's fifty-nine times more.",
+   "props": {
+    "title": "Lebanese pounds per US dollar",
+    "subtitle": "1990 to 2024, official rate",
+    "format": {
+     "decimals": 0
+    },
+    "series": [
+     [
+      1990,
+      695
+     ],
+     [
+      1992,
+      1713
+     ],
+     [
+      2000,
+      1508
+     ],
+     [
+      2010,
+      1508
+     ],
+     [
+      2022,
+      1508
+     ],
+     [
+      2023,
+      13876
+     ],
+     [
+      2024,
+      89500
+     ]
+    ],
+    "badge": "59x since 2022"
+   },
+   "start": 31.085,
+   "end": 36.685,
+   "words": [
+    {
+     "word": "For",
+     "start": 31.31,
+     "end": 31.422
+    },
+    {
+     "word": "over",
+     "start": 31.422,
+     "end": 31.635
+    },
+    {
+     "word": "twenty",
+     "start": 31.635,
+     "end": 31.935
+    },
+    {
+     "word": "years,",
+     "start": 31.935,
+     "end": 32.385
+    },
+    {
+     "word": "one",
+     "start": 32.46,
+     "end": 32.685
+    },
+    {
+     "word": "dollar",
+     "start": 32.685,
+     "end": 33.01
+    },
+    {
+     "word": "was",
+     "start": 33.01,
+     "end": 33.185
+    },
+    {
+     "word": "fifteen",
+     "start": 33.185,
+     "end": 33.585
+    },
+    {
+     "word": "hundred",
+     "start": 33.585,
+     "end": 33.885
+    },
+    {
+     "word": "pounds.",
+     "start": 33.885,
+     "end": 34.61
+    },
+    {
+     "word": "Now",
+     "start": 34.748,
+     "end": 34.985
+    },
+    {
+     "word": "it's",
+     "start": 34.985,
+     "end": 35.16
+    },
+    {
+     "word": "fifty-nine",
+     "start": 35.16,
+     "end": 35.635
+    },
+    {
+     "word": "times",
+     "start": 35.635,
+     "end": 35.96
+    },
+    {
+     "word": "more.",
+     "start": 35.96,
+     "end": 36.435
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "The other extreme is Kuwait. One dinar costs three dollars twenty-six. The strongest in the data.",
+   "props": {
+    "value": 3.26,
+    "format": {
+     "prefix": "$",
+     "decimals": 2
+    },
+    "caption": "for one Kuwaiti dinar, 2024",
+    "at": "three"
+   },
+   "start": 36.745,
+   "end": 42.695,
+   "words": [
+    {
+     "word": "The",
+     "start": 36.945,
+     "end": 37.07
+    },
+    {
+     "word": "other",
+     "start": 37.07,
+     "end": 37.32
+    },
+    {
+     "word": "extreme",
+     "start": 37.32,
+     "end": 37.795
+    },
+    {
+     "word": "is",
+     "start": 37.795,
+     "end": 37.945
+    },
+    {
+     "word": "Kuwait.",
+     "start": 37.945,
+     "end": 38.595
+    },
+    {
+     "word": "One",
+     "start": 38.707,
+     "end": 38.907
+    },
+    {
+     "word": "dinar",
+     "start": 38.907,
+     "end": 39.195
+    },
+    {
+     "word": "costs",
+     "start": 39.195,
+     "end": 39.582
+    },
+    {
+     "word": "three",
+     "start": 39.582,
+     "end": 39.82
+    },
+    {
+     "word": "dollars",
+     "start": 39.82,
+     "end": 40.195
+    },
+    {
+     "word": "twenty-six.",
+     "start": 40.195,
+     "end": 41.02
+    },
+    {
+     "word": "The",
+     "start": 41.12,
+     "end": 41.22
+    },
+    {
+     "word": "strongest",
+     "start": 41.22,
+     "end": 41.732
+    },
+    {
+     "word": "in",
+     "start": 41.732,
+     "end": 41.807
+    },
+    {
+     "word": "the",
+     "start": 41.807,
+     "end": 41.895
+    },
+    {
+     "word": "data.",
+     "start": 41.895,
+     "end": 42.445
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Iran is missing from the 2024 data. Where would it rank? Follow for more money, mapped.",
+   "props": {},
+   "start": 42.755,
+   "end": 48.43,
+   "words": [
+    {
+     "word": "Iran",
+     "start": 43.005,
+     "end": 43.405
+    },
+    {
+     "word": "is",
+     "start": 43.405,
+     "end": 43.555
+    },
+    {
+     "word": "missing",
+     "start": 43.555,
+     "end": 43.905
+    },
+    {
+     "word": "from",
+     "start": 43.905,
+     "end": 44.042
+    },
+    {
+     "word": "the",
+     "start": 44.042,
+     "end": 44.13
+    },
+    {
+     "word": "2024",
+     "start": 44.13,
+     "end": 44.93
+    },
+    {
+     "word": "data.",
+     "start": 44.93,
+     "end": 45.455
+    },
+    {
+     "word": "Where",
+     "start": 45.58,
+     "end": 45.742
+    },
+    {
+     "word": "would",
+     "start": 45.742,
+     "end": 45.842
+    },
+    {
+     "word": "it",
+     "start": 45.842,
+     "end": 45.93
+    },
+    {
+     "word": "rank?",
+     "start": 45.93,
+     "end": 46.43
+    },
+    {
+     "word": "Follow",
+     "start": 46.567,
+     "end": 46.905
+    },
+    {
+     "word": "for",
+     "start": 46.905,
+     "end": 47.03
+    },
+    {
+     "word": "more",
+     "start": 47.03,
+     "end": 47.255
+    },
+    {
+     "word": "money,",
+     "start": 47.255,
+     "end": 47.58
+    },
+    {
+     "word": "mapped.",
+     "start": 47.655,
+     "end": 48.205
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 1473,
+ "fps": 30,
+ "aligned": "tts"
+}
