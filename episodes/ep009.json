@@ -1,0 +1,96 @@
+{
+ "id": "ep009",
+ "title": "$1 = 89,500 of this money. Top 5 currencies with the most per dollar",
+ "topic": "Most money per dollar",
+ "description": "In which country does one US dollar get you the most local money? Number one will surprise you. Real World Bank data (official exchange rates, 2024), counted down from five to one.",
+ "tags": [
+  "weakest currency in the world",
+  "exchange rate",
+  "lebanese pound",
+  "vietnamese dong",
+  "indonesian rupiah",
+  "lao kip",
+  "uzbek som",
+  "kuwaiti dinar",
+  "strongest currency"
+ ],
+ "source": "World Bank, official exchange rate (local currency per US$, period average, 2024, countries with 2024 data; Iran has no 2024 value), data.worldbank.org/indicator/PA.NUS.FCRF",
+ "voice": "af_heart",
+ "hashtags": [
+  "currency",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "In one country, a single dollar gets you eighty-nine thousand five hundred. Can you guess which?",
+   "props": {
+    "kicker": "Local money for one US dollar",
+    "big": 89500,
+    "format": {"decimals": 0},
+    "sub": "official rate, 2024",
+    "icon": "coin"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five is Uzbekistan. Twelve thousand six hundred.",
+   "props": {
+    "title": "Local money per US dollar, 2024",
+    "format": {"decimals": 0},
+    "rank": 5,
+    "label": "Uzbekistan",
+    "value": 12652,
+    "flag": "uz"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is Southeast Asia's biggest economy. Indonesia. Almost sixteen thousand.",
+   "props": {"rank": 4, "label": "Indonesia", "value": 15855, "flag": "id"}
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Laos. Over twenty thousand.",
+   "props": {"rank": 3, "label": "Laos", "value": 20167, "flag": "la"}
+  },
+  {
+   "scene": "rank",
+   "text": "Number two is a backpacker favorite. Vietnam. Over twenty-four thousand.",
+   "props": {"rank": 2, "label": "Vietnam", "value": 24165, "flag": "vn"}
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Lebanon. Eighty-nine thousand five hundred. Its banks collapsed, and the pound lost almost everything.",
+   "props": {"rank": 1, "label": "Lebanon", "value": 89500, "flag": "lb"}
+  },
+  {
+   "scene": "line",
+   "text": "For over twenty years, one dollar was fifteen hundred pounds. Now it's fifty-nine times more.",
+   "props": {
+    "title": "Lebanese pounds per US dollar",
+    "subtitle": "1990 to 2024, official rate",
+    "format": {"decimals": 0},
+    "series": [[1990, 695], [1992, 1713], [2000, 1508], [2010, 1508], [2022, 1508], [2023, 13876], [2024, 89500]],
+    "badge": "59x since 2022"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "The other extreme is Kuwait. One dinar costs three dollars twenty-six. The strongest in the data.",
+   "props": {
+    "value": 3.26,
+    "format": {"prefix": "$", "decimals": 2},
+    "caption": "for one Kuwaiti dinar, 2024",
+    "at": "three"
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "Iran is missing from the 2024 data. Where would it rank? Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}
