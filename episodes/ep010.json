@@ -1,0 +1,101 @@
+{
+ "id": "ep010",
+ "title": "This government takes 35% of the economy in tax. Top 5 highest taxes",
+ "topic": "Highest tax revenue 2024",
+ "description": "Which government collects the most tax compared to the size of its economy? Number one will surprise you. Real World Bank data (central government tax revenue, % of GDP, 2024), counted down from five to one.",
+ "tags": [
+  "highest taxes in the world",
+  "tax revenue",
+  "tax burden",
+  "countries with highest taxes",
+  "lesotho",
+  "namibia",
+  "denmark taxes",
+  "new zealand",
+  "luxembourg",
+  "uae no tax"
+ ],
+ "source": "World Bank, tax revenue (% of GDP, central government, 2024, 93 countries with 2024 data), data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS",
+ "voice": "af_heart",
+ "hashtags": [
+  "taxes",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "One government collects taxes worth thirty-five percent of its whole economy. Can you guess which?",
+   "props": {
+    "kicker": "Tax revenue, share of the economy",
+    "big": 35.4,
+    "format": {"suffix": "%", "decimals": 1},
+    "sub": "one country, 2024",
+    "icon": "coin"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five is Luxembourg. Almost twenty-nine percent.",
+   "props": {
+    "title": "Tax revenue, % of GDP, 2024",
+    "format": {"suffix": "%", "decimals": 1},
+    "rank": 5,
+    "label": "Luxembourg",
+    "value": 28.6,
+    "flag": "lu"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is New Zealand. Almost thirty percent.",
+   "props": {"rank": 4, "label": "New Zealand", "value": 29.5, "flag": "nz"}
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is the one you expected. Denmark. Thirty-three percent.",
+   "props": {"rank": 3, "label": "Denmark", "value": 33.4, "flag": "dk"}
+  },
+  {
+   "scene": "rank",
+   "text": "Number two is home to the oldest desert on Earth. Namibia. Almost thirty-four percent.",
+   "props": {"rank": 2, "label": "Namibia", "value": 33.9, "flag": "na"}
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Lesotho. Thirty-five percent. A customs union with South Africa hands it a big share of shared import duties.",
+   "props": {"rank": 1, "label": "Lesotho", "value": 35.4, "flag": "ls"}
+  },
+  {
+   "scene": "line",
+   "text": "And it's no fluke. Lesotho hit forty percent in 2009 and again in 2023.",
+   "props": {
+    "title": "Lesotho tax revenue, % of GDP",
+    "subtitle": "1995 to 2024, central government",
+    "format": {"suffix": "%", "decimals": 1},
+    "series": [[1995, 28.8], [2000, 22.9], [2005, 28.6], [2009, 40.0], [2012, 38.1], [2016, 29.3], [2020, 36.0], [2022, 30.4], [2023, 40.0], [2024, 35.4]],
+    "badge": "40% in 2009 and 2023"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "The other extreme is the United Arab Emirates. Under one percent. Oil pays the bills.",
+   "props": {
+    "value": 0.6,
+    "format": {"suffix": "%", "decimals": 1},
+    "caption": "UAE tax revenue, % of GDP, 2024",
+    "at": "one",
+    "compare": {
+     "format": {"suffix": "%", "decimals": 1},
+     "items": [{"label": "Lesotho", "value": 35.4}, {"label": "UAE", "value": 0.6}]
+    }
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "This counts central government taxes only. Where does your country land? Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}
