@@ -1,5 +1,5 @@
 {
- "_offset": 607496338,
+ "_offset": 607496339,
  "ep006": {
   "status": "approved",
   "posts": {
@@ -45,6 +45,14 @@
   }
  },
  "ep010": {
-  "status": "approved"
+  "status": "approved",
+  "posts": {
+   "youtube": {
+    "id": "09dHai904-U",
+    "url": "https://youtube.com/shorts/09dHai904-U",
+    "privacy": "private",
+    "at": "2026-11-10T12:12:03Z"
+   }
+  }
  }
 }
