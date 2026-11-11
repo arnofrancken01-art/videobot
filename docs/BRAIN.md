@@ -27,7 +27,7 @@ een sterkere hook en **nooit twee keer na elkaar dezelfde soort video**.
    als ijkpunt: USA, UK, Canada, Australia, Germany, France, Italy, Spain, Netherlands, Ireland, Switzerland, Sweden,
    Norway, Poland, Japan, South Korea, China, India, Brazil, Mexico, Turkey, Russia, Saudi Arabia, UAE, South Africa,
    Nigeria, Egypt, Argentina, Indonesia, Philippines. Een onbekend land mag alleen als verrassing tussen bekende.
-3. **Kort.** 15 tot 25 seconden, dus ca. 40 tot 65 gesproken woorden. Elke zin die geen nieuw beeld oplevert, gaat eruit.
+3. **Kort.** 10 tot 25 seconden, dus ca. 30 tot 65 gesproken woorden. Elke zin die geen nieuw beeld oplevert, gaat eruit.
 4. **Afwisseling.** Het `format` mag niet hetzelfde zijn als dat van de vorige twee afleveringen (validate.py weigert het).
    Wissel ook de invalshoek: niet drie keer na elkaar "wie is rijker".
 
@@ -49,9 +49,20 @@ een sterkere hook en **nooit twee keer na elkaar dezelfde soort video**.
 | `story` | Eén verrassend feit, tastbaar gemaakt met pictogrammen, een vergelijking of een lijn. | `grid` of `hook` → `grid` / `versus` / `line` / `bignumber` → `outro` |
 | `countdown` | Top 3 (liefst) of top 5 aftelling. Alleen met bekende landen en een nummer 1 dat verrast. | `hook` → `rank` 3, 2, 1 → evt. 1 wending → `outro` |
 
-Richtlijn voor de mix over een week: ca. 4 × quiz, 4 × story, 3 × race, 3 × countdown.
-Bedenk gerust een nieuwe invalshoek binnen een format (bv. quiz "hoger of lager dan Amerika?", story "wat 100 dollar uit 2000 nu waard is",
-race "wie had de hoogste inflatie"). Creativiteit mag, zolang elk getal uit `data/` komt.
+| `truefalse` | Waar of niet waar: een stelling, timer, stempel TRUE/FALSE met het echte cijfer. 1 tot 3 stellingen. | `truefalse` (stelling + `pause`) → `truefalse` (`reveal`) → ... → `outro` |
+| `choice` | Meerkeuzevraag A/B/C met timer ("How much is a Big Mac in Switzerland?"). 1 of 2 vragen. | `choice` (vraag + `pause`) → `choice` (`reveal`) → `outro` |
+| `clues` | Raad het land: 3 aanwijzingen slaan in, timer, de vlag draait om. | 3 × `clues` (clue) → `clues` (`reveal`) → `outro` |
+| `thennow` | Toen en nu: twee zuilen, de tweede groeit en toont het verschil ("14.5x"). 1 tot 3 paren. | `thennow` → `thennow` (`reveal`) → `outro` |
+| `dots` | 100 bolletjes: "als de wereld 100 dollar / 100 mensen was". | 3 tot 5 × `dots` → `outro` |
+| `podium` | Brons, zilver, goud stijgen op met vlag en getal. | 3 × `podium` (place 3, 2, 1) → `outro` |
+| `battle` | Duel tussen twee bekende landen over 3 of 4 cijfers, met scorebord. | 3 of 4 × `battle` → `outro` |
+| `ticker` | Live tellers die echt meelopen: "since you started watching, America earned...". | 2 of 3 × `ticker` → `outro` |
+| `receipt` | Kassabon op wit papier: regels worden geprint, eventueel een totaal. | 3 tot 5 × `receipt` → `outro` |
+| `bubbles` | Bellen waarvan de oppervlakte het getal is; ze ploppen een voor een op. | 3 of 4 × `bubbles` → `outro` |
+
+Er zijn dus **14 formats**. Gebruik ze allemaal: kijk in `episodes/` welke formats de laatste 10 afleveringen hadden en kies er een
+dat daar niet of het minst in voorkomt (en nooit een van de laatste twee). Kies daarna pas het onderwerp dat bij dat format past.
+Bedenk gerust een nieuwe invalshoek binnen een format. Creativiteit mag, zolang elk getal uit `data/` komt.
 
 Regels voor de tekst:
 - **Stem:** korte, volledige zinnen die op een punt eindigen. Geen dubbelpunten of komma-opsommingen (de stem gaat dan omhoog).
@@ -123,6 +134,62 @@ het jaar waarop de race staat als die zin gedaan is, zodat stem en beeld gelijk 
 ```json
 {"scene":"grid","text":"Twenty dollars. In Switzerland, that buys you two Big Macs.","props":{"title":"What $20 buys in Big Macs","icon":"burger","row":{"label":"Switzerland","flag":"ch","count":2},"at":"two"}}
 {"scene":"grid","text":"In America, you get three.","props":{"row":{"label":"United States","flag":"us","count":3},"at":"three"}}
+```
+
+**truefalse**: stelling (max. 70 tekens) met `answer` (true/false), `fact` (het echte cijfer, kort) en `pause`; daarna een reveal-segment dat begint met "True." of "False.".
+```json
+{"scene":"truefalse","text":"True or false? A Big Mac costs more in Mexico than in America.","props":{"statement":"A Big Mac costs more in Mexico than in America","answer":true,"fact":"Mexico $6.27 · USA $6.22","flag":"mx","pause":1.6}}
+{"scene":"truefalse","text":"True. By five cents.","props":{"reveal":true}}
+```
+
+**choice**: `options` = 3 korte teksten, `answer` = index (0, 1 of 2), optioneel `flag` en `fact`. Lees de drie opties voor in de vraag.
+```json
+{"scene":"choice","text":"How much does one Big Mac cost in Switzerland? Five, seven or nine dollars?","props":{"question":"One Big Mac in Switzerland?","options":["$5","$7","$9"],"answer":2,"flag":"ch","fact":"$9.04. In the US it's $6.22","pause":1.8}}
+{"scene":"choice","text":"Nine dollars. The most expensive Big Mac on Earth.","props":{"reveal":true}}
+```
+
+**clues**: elke aanwijzing is een segment met `clue` {label, value als tekst}; de laatste aanwijzing krijgt `pause`. Kies een bekend land en ga van vaag naar duidelijk.
+```json
+{"scene":"clues","text":"Guess the country. It has a hundred twenty-three million people.","props":{"title":"Guess the country","clue":{"label":"Population","value":"123 million"},"at":"hundred"}}
+{"scene":"clues","text":"And a Big Mac costs just three dollars.","props":{"clue":{"label":"Big Mac","value":"$3.08"},"at":"three","pause":1.8}}
+{"scene":"clues","text":"It's Japan.","props":{"reveal":true,"label":"Japan","flag":"jp"}}
+```
+
+**thennow**: `then` en `now` elk {year, value}; het verschil-etiket wordt zelf berekend. `"good": false` kleurt een stijging rood (bv. prijzen), `true` groen.
+```json
+{"scene":"thennow","text":"In 2015, one dollar got you under three Turkish lira. Guess what it gets you now.","props":{"label":"$1 in Turkish lira","flag":"tr","then":{"year":2015,"value":2.72},"now":{"year":2025,"value":39.45},"format":{"decimals":1},"good":false}}
+{"scene":"thennow","text":"Thirty-nine. The lira lost over ninety percent of its value.","props":{"reveal":true}}
+```
+
+**dots**: eerste segment bevat `title` en alle `parts` (counts samen precies 100, reken af met Python en zet de rest in "Everyone else"); elk segment kleurt één `part` in op het woord `at`.
+```json
+{"scene":"dots","text":"Imagine the whole world economy is one hundred dollars. America holds twenty-six of them.","props":{"title":"The world economy as $100","parts":[{"label":"USA","count":26,"flag":"us"},{"label":"China","count":17,"flag":"cn"},{"label":"Everyone else","count":57}],"part":"USA","at":"twenty"}}
+{"scene":"dots","text":"China has seventeen.","props":{"part":"China","at":"seventeen"}}
+```
+
+**podium**: drie segmenten met `place` 3, 2, 1; het eerste bevat `title` en `format`. Zeg de landnaam letterlijk.
+```json
+{"scene":"podium","text":"Where is the most expensive Big Mac on Earth? Bronze goes to Norway. Eight dollars.","props":{"title":"Most expensive Big Mac","format":{"prefix":"$","decimals":2},"place":3,"label":"Norway","flag":"no","value":8.05}}
+```
+
+**battle**: eerste segment bevat `a` en `b` (label, flag); elk segment een `stat` {label, a, b, format, optioneel "pick":"lower" als lager wint}. Zeg de winnaar op het woord `at`.
+```json
+{"scene":"battle","text":"America against China. Four rounds. Size of the economy? America wins.","props":{"a":{"label":"USA","flag":"us"},"b":{"label":"China","flag":"cn"},"stat":{"label":"Economy","a":30.8,"b":19.5,"format":{"prefix":"$","suffix":"T","decimals":1}},"at":"America"}}
+```
+
+**ticker**: elke `item` heeft `perSecond` (jaarcijfer gedeeld door 31,557,600); de teller loopt echt mee met de video. Begin de video met deze scene.
+```json
+{"scene":"ticker","text":"Since this video started, America's economy made this much money.","props":{"title":"Since you started watching","format":{"prefix":"$"},"item":{"label":"America earned","flag":"us","perSecond":975033},"at":"America"}}
+```
+
+**receipt**: eerste segment `title` en `format`; elk segment een `line` {label, value, flag} of op het einde een `total` {label, value} (alleen als optellen zin heeft).
+```json
+{"scene":"receipt","text":"Same burger, four countries. In India it costs two forty-five.","props":{"title":"One Big Mac, please","format":{"prefix":"$","decimals":2},"line":{"label":"India","value":2.45,"flag":"in"},"at":"India"}}
+```
+
+**bubbles**: eerste segment `title` en `format`; elk segment een `item` {label, flag, value}. Begin met de grootste. Werkt het best als de grootste minstens 3 keer de kleinste is.
+```json
+{"scene":"bubbles","text":"This is America's economy. Thirty-one trillion dollars.","props":{"title":"Size of the economy","format":{"prefix":"$","suffix":"T","decimals":1},"item":{"label":"USA","flag":"us","value":30.8},"at":"America"}}
 ```
 
 **rank** (de aftelling, 3 of 5 opeenvolgende segmenten): eerste segment bevat `title` en `format`; elk segment `rank`, `label`, `value`, `flag`.

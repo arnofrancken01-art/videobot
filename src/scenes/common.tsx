@@ -84,3 +84,48 @@ export const Flag: React.FC<{ code?: string; h: number }> = ({ code, h }) =>
   code ? (
     <Img src={staticFile(`flags/${code.toLowerCase()}.svg`)} style={{ height: h, width: (h * 4) / 3, borderRadius: h / 7, objectFit: "cover", boxShadow: "0 4px 14px rgba(0,0,0,0.4)", flexShrink: 0 }} />
   ) : null;
+
+/** Rondes met denktijd: een segment met `key` in de props start een ronde; het volgende segment met `reveal` onthult. */
+export const buildRoundsFor = (segs: Seg[], fps: number, offset: number, key: string) => {
+  const fr = (t: number) => Math.round((t - offset) * fps);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const out: { p: any; rp: any; start: number; think: number; reveal: number }[] = [];
+  segs.forEach((s, i) => {
+    const p = P(s);
+    if (p[key] === undefined) return;
+    const nxt = segs[i + 1];
+    const has = nxt && P(nxt).reveal;
+    out.push({ p, rp: has ? P(nxt) : {}, start: fr(s.start), think: fr(s.end), reveal: has ? fr(nxt.start) : fr(s.end) + fps });
+  });
+  return out;
+};
+/** Index van de ronde die nu loopt. */
+export const currentRound = (rounds: { start: number }[], f: number) => {
+  let ri = 0;
+  rounds.forEach((r, i) => { if (f >= r.start - 2) ri = i; });
+  return ri;
+};
+/** Timerbalk met aftellende seconden. */
+export const TimerBar: React.FC<{ f: number; think: number; reveal: number; fps: number; width?: number }> = ({ f, think, reveal, fps, width = 940 }) => {
+  const thinking = f >= think && f < reveal;
+  const frac = f < think ? 1 : thinking ? (reveal - f) / Math.max(1, reveal - think) : 0;
+  const color = thinking ? "#FFB020" : "#2BD47D";
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 20, width, opacity: f >= reveal ? 0.25 : 1 }}>
+      <div style={{ flex: 1, height: 22, borderRadius: 11, background: "rgba(255,255,255,0.12)", overflow: "hidden" }}>
+        <div style={{ width: `${frac * 100}%`, height: "100%", borderRadius: 11, background: color }} />
+      </div>
+      <div style={{ width: 70, textAlign: "right", color, fontSize: 60, fontWeight: 900, lineHeight: 1, transform: `scale(${thinking ? 1 + 0.08 * Math.sin(f / 2.5) : 1})` }}>{thinking ? Math.ceil((reveal - f) / fps) : ""}</div>
+    </div>
+  );
+};
+export const Check: React.FC<{ size: number; color?: string }> = ({ size, color = "#0B0F17" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12.5 L10 18 L20 6" /></svg>
+);
+export const Cross: React.FC<{ size: number; color?: string }> = ({ size, color = "#0B0F17" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="4" strokeLinecap="round"><path d="M5 5 L19 19 M19 5 L5 19" /></svg>
+);
+export const RED = "#FF5C5C";
+export const Title: React.FC<{ children: React.ReactNode; size?: number }> = ({ children, size = 64 }) => (
+  <div style={{ color: "#F4F6FA", fontSize: size, fontWeight: 900, letterSpacing: -2, textAlign: "center", lineHeight: 1.04, maxWidth: 960, textTransform: "uppercase" }}>{children}</div>
+);

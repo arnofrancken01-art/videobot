@@ -5,8 +5,9 @@ Stopt met een duidelijke fout als iets niet klopt.
 import json, re, sys
 from pathlib import Path
 
-SCENES = {"hook", "rank", "versus", "bars", "bignumber", "line", "outro", "quiz", "race", "grid"}
-FORMATS = {"countdown", "quiz", "race", "story"}
+NEW = ["truefalse", "choice", "clues", "thennow", "dots", "podium", "battle", "ticker", "receipt", "bubbles"]
+SCENES = {"hook", "rank", "versus", "bars", "bignumber", "line", "outro", "quiz", "race", "grid", *NEW}
+FORMATS = {"countdown", "quiz", "race", "story", *NEW}
 FLAGS = {f.stem for f in (Path(__file__).resolve().parent.parent / "public/flags").glob("*.svg")}
 ICONS = {None, "burger", "globe", "house", "clock", "coin"}
 errors, warnings = [], []
@@ -21,16 +22,16 @@ segs = ep.get("segments", [])
 fmt = ep.get("format")
 if fmt not in FORMATS:
     errors.append(f"format moet een van {sorted(FORMATS)} zijn")
-if not 4 <= len(segs) <= 10:
-    errors.append(f"{len(segs)} segmenten; mik op 5 tot 9")
+if not 3 <= len(segs) <= 10:
+    errors.append(f"{len(segs)} segmenten; mik op 4 tot 9")
 words = sum(len(s.get("text", "").split()) for s in segs)
 pauses = sum(float(s.get("props", {}).get("pause", 0)) for s in segs)
 secs = words / 2.8 + pauses  # ruwe schatting van de duur
-if words < 35 or secs > 30:
-    errors.append(f"{words} woorden + {pauses:.1f} s denktijd = ca. {secs:.0f} s; mik op 15 tot 25 seconden (max. 30)")
+if words < 25 or secs > 30:
+    errors.append(f"{words} woorden + {pauses:.1f} s denktijd = ca. {secs:.0f} s; mik op 10 tot 25 seconden (max. 30)")
 scenes = [s.get("scene") for s in segs]
-if segs and scenes[0] not in ("hook", "quiz", "grid", "versus"):
-    errors.append("eerste segment moet 'hook', 'quiz', 'grid' of 'versus' zijn: er staat meteen iets sterks in beeld")
+if segs and scenes[0] in ("outro", "rank", "bignumber", "line", "bars", "race"):
+    errors.append("eerste segment moet meteen iets sterks tonen: 'hook' of de hoofdscene van het format")
 if segs and scenes[-1] != "outro":
     errors.append("laatste segment moet scene 'outro' zijn")
 if segs and len(segs[-1].get("text", "").split()) > 12:
@@ -61,6 +62,20 @@ if fmt == "quiz":
         errors.append(f"quiz: 2 of 3 rondes (nu {rounds})")
     if scenes[0] != "quiz":
         errors.append("quiz begint meteen met de eerste vraag (scene 'quiz'), zonder aparte hook")
+if fmt in NEW:
+    if fmt not in scenes:
+        errors.append(f"format '{fmt}' heeft scene '{fmt}' nodig")
+    elif scenes[0] not in (fmt, "hook"):
+        errors.append(f"format '{fmt}' begint met scene '{fmt}' (of een korte hook)")
+    mine = [s.get("props", {}) for s in segs if s.get("scene") == fmt]
+    n = lambda key: sum(1 for q in mine if key in q)
+    need = {"truefalse": ("statement", 1, 3), "choice": ("question", 1, 2), "clues": ("clue", 2, 4), "thennow": ("then", 1, 3),
+            "dots": ("part", 2, 6), "podium": ("place", 3, 3), "battle": ("stat", 3, 4), "ticker": ("item", 1, 3),
+            "receipt": ("line", 2, 5), "bubbles": ("item", 2, 4)}[fmt]
+    if not need[1] <= n(need[0]) <= need[2]:
+        errors.append(f"{fmt}: {need[1]} tot {need[2]} segmenten met '{need[0]}' (nu {n(need[0])})")
+if fmt == "podium" and [q.get("place") for q in (s.get("props", {}) for s in segs) if "place" in q] != [3, 2, 1]:
+    errors.append("podium: de volgorde is place 3, dan 2, dan 1")
 if fmt == "race" and "race" not in scenes:
     errors.append("format 'race' heeft een scene 'race' nodig")
 if fmt == "story" and not ({"grid", "versus", "line", "bars"} & set(scenes)):
@@ -94,6 +109,80 @@ for i, s in enumerate(segs):
     check_flag(p, "hook")
     for it in p.get("items", []) + ([p["item"]] if "item" in p else []):
         check_flag(it, it.get("label"))
+    def needs_reveal():
+        nxt = segs[i + 1] if i + 1 < len(segs) else {}
+        if not (nxt.get("scene") == sc and nxt.get("props", {}).get("reveal")):
+            errors.append(f"{where}: hierna komt een {sc}-segment met \"reveal\": true")
+    def needs_pause():
+        if not 1.2 <= float(p.get("pause", 0)) <= 2.5:
+            errors.append(f"{where}: pause (denktijd) moet tussen 1.2 en 2.5 seconden zijn")
+    num = lambda v: isinstance(v, (int, float)) and not isinstance(v, bool)
+    for obj in (p.get("row"), p.get("line"), p.get("a"), p.get("b")):
+        if isinstance(obj, dict):
+            check_flag(obj, obj.get("label"))
+    for obj in p.get("parts", []):
+        check_flag(obj, obj.get("label"))
+    if sc == "truefalse" and "statement" in p:
+        if not (p["statement"] and isinstance(p.get("answer"), bool) and p.get("fact")):
+            errors.append(f"{where}: statement, answer (true/false) en fact (het echte cijfer) zijn nodig")
+        if len(str(p["statement"])) > 70:
+            errors.append(f"{where}: statement max. 70 tekens")
+        needs_reveal(); needs_pause()
+    if sc == "choice" and "question" in p:
+        o = p.get("options", [])
+        if not (len(o) == 3 and all(isinstance(x, str) and len(x) <= 18 for x in o) and p.get("answer") in (0, 1, 2)):
+            errors.append(f"{where}: options = 3 korte teksten (max. 18 tekens), answer = 0, 1 of 2")
+        needs_reveal(); needs_pause()
+    if sc == "clues":
+        if "clue" in p and not (isinstance(p["clue"], dict) and p["clue"].get("label") and isinstance(p["clue"].get("value"), str)):
+            errors.append(f"{where}: clue heeft label en value (tekst, bv. \"123 million\") nodig")
+        if p.get("reveal") and not (p.get("label") and p.get("flag")):
+            errors.append(f"{where}: het reveal-segment heeft label en flag van het land nodig")
+        if "clue" in p and not any("clue" in x.get("props", {}) for x in segs[i + 1:]):
+            needs_reveal(); needs_pause()
+    if sc == "thennow" and "then" in p:
+        t, n2 = p.get("then", {}), p.get("now", {})
+        if not (p.get("label") and num(t.get("value")) and num(n2.get("value")) and t.get("year") and n2.get("year") and t["value"] > 0 and n2["value"] > 0):
+            errors.append(f"{where}: label, then {{year, value}} en now {{year, value}} (positieve getallen) zijn nodig")
+        needs_reveal()
+    if sc == "dots":
+        if prev != "dots":
+            parts = p.get("parts", [])
+            if not p.get("title") or sum(x.get("count", 0) for x in parts) != 100 or not 2 <= len(parts) <= 6:
+                errors.append(f"{where}: title en 2 tot 6 parts waarvan de counts samen precies 100 zijn")
+            labels = {x.get("label") for x in parts}
+            for j in range(i, len(segs)):
+                if segs[j]["scene"] != "dots":
+                    break
+                if segs[j].get("props", {}).get("part") not in labels | {None}:
+                    errors.append(f"segment {j + 1}: part staat niet in parts")
+    if sc == "podium":
+        if prev != "podium" and not (p.get("title") and "format" in p):
+            errors.append(f"{where}: eerste podium-segment heeft title en format nodig")
+        if "place" in p and not (p["place"] in (1, 2, 3) and p.get("label") and p.get("flag") and num(p.get("value"))):
+            errors.append(f"{where}: place (3, 2 of 1), label, flag en value zijn nodig")
+    if sc == "battle":
+        if prev != "battle" and not all(isinstance(p.get(k), dict) and p[k].get("label") and p[k].get("flag") for k in ("a", "b")):
+            errors.append(f"{where}: eerste battle-segment heeft a en b nodig, elk met label en flag")
+        st = p.get("stat")
+        if st is not None and not (st.get("label") and num(st.get("a")) and num(st.get("b")) and st["a"] != st["b"]):
+            errors.append(f"{where}: stat heeft label en twee verschillende getallen a en b nodig")
+    if sc == "ticker":
+        if prev != "ticker" and not p.get("title"):
+            errors.append(f"{where}: title ontbreekt")
+        if "item" in p and not (p["item"].get("label") and num(p["item"].get("perSecond"))):
+            errors.append(f"{where}: item heeft label en perSecond (getal per seconde) nodig")
+    if sc == "receipt":
+        if prev != "receipt" and not (p.get("title") and "format" in p):
+            errors.append(f"{where}: eerste receipt-segment heeft title en format nodig")
+        for k in ("line", "total"):
+            if k in p and not (p[k].get("label") and num(p[k].get("value"))):
+                errors.append(f"{where}: {k} heeft label en value nodig")
+    if sc == "bubbles":
+        if prev != "bubbles" and not (p.get("title") and "format" in p):
+            errors.append(f"{where}: eerste bubbles-segment heeft title en format nodig")
+        if "item" in p and not (p["item"].get("label") and p["item"].get("flag") and num(p["item"].get("value")) and p["item"]["value"] > 0):
+            errors.append(f"{where}: item heeft label, flag en een positieve value nodig")
     if sc == "quiz":
         if p.get("options"):
             o = p["options"]
