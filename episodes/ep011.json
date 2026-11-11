@@ -1,0 +1,101 @@
+{
+ "id": "ep011",
+ "title": "One country spends 15% of its economy on school. Top 5 education 2022",
+ "topic": "Education spending 2022",
+ "description": "Which country spends the biggest share of its economy on education? Number one will surprise you. Real World Bank data (government education spending, % of GDP, 2022), counted down from five to one.",
+ "tags": [
+  "education spending by country",
+  "government spending on education",
+  "education budget",
+  "kiribati",
+  "tuvalu",
+  "vanuatu",
+  "namibia",
+  "solomon islands",
+  "germany education"
+ ],
+ "source": "World Bank, government expenditure on education (% of GDP, 2022, 164 countries with 2022 data), data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS; dollars per person via NY.GDP.PCAP.CD",
+ "voice": "af_heart",
+ "hashtags": [
+  "education",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "One country spends almost fifteen percent of its whole economy on education. Can you guess which?",
+   "props": {
+    "kicker": "Spent on education, share of the economy",
+    "big": 14.8,
+    "format": {"suffix": "%", "decimals": 1},
+    "sub": "one country, 2022",
+    "icon": "globe"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five is the Solomon Islands. Eight and a half percent.",
+   "props": {
+    "title": "Education spending, % of GDP, 2022",
+    "format": {"suffix": "%", "decimals": 1},
+    "map": true,
+    "rank": 5,
+    "label": "Solomon Islands",
+    "value": 8.5,
+    "flag": "sb"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is Namibia. Over nine percent.",
+   "props": {"rank": 4, "label": "Namibia", "value": 9.4, "flag": "na"}
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Vanuatu. Almost eleven percent.",
+   "props": {"rank": 3, "label": "Vanuatu", "value": 10.7, "flag": "vu"}
+  },
+  {
+   "scene": "rank",
+   "text": "Number two has fewer than ten thousand people. Tuvalu. Almost fourteen percent.",
+   "props": {"rank": 2, "label": "Tuvalu", "value": 13.8, "flag": "tv"}
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Kiribati. Almost fifteen percent. A tiny economy has to run schools on thirty-three islands.",
+   "props": {"rank": 1, "label": "Kiribati", "value": 14.8, "flag": "ki"}
+  },
+  {
+   "scene": "line",
+   "text": "And it keeps climbing. In 2023 Kiribati hit sixteen percent.",
+   "props": {
+    "title": "Kiribati education spending, % of GDP",
+    "subtitle": "2012 to 2023",
+    "format": {"suffix": "%", "decimals": 1},
+    "series": [[2012, 12.5], [2013, 12.09], [2014, 11.51], [2015, 10.77], [2016, 11.65], [2017, 11.48], [2018, 12.92], [2019, 14.52], [2020, 16.23], [2021, 13.99], [2022, 14.79], [2023, 16.39]],
+    "badge": "16.4% in 2023"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "But that is only about three hundred dollars per person. Germany spends almost nine times more.",
+   "props": {
+    "value": 307,
+    "format": {"prefix": "$", "decimals": 0},
+    "caption": "Kiribati, education spending per person, 2022",
+    "at": "three",
+    "compare": {
+     "format": {"prefix": "$", "decimals": 0},
+     "items": [{"label": "Kiribati", "value": 307}, {"label": "Germany", "value": 2646}]
+    }
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "How much does your country spend on school? Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}
