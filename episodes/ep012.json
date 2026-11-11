@@ -1,0 +1,201 @@
+{
+ "id": "ep012",
+ "title": "The average person here spends $49,000 a year. Top 5 biggest spenders",
+ "topic": "Biggest spenders 2024",
+ "description": "Where does the average person spend the most money in a year? Number one will surprise you. Real World Bank data (household spending per person, 2024, in constant 2015 US dollars), counted down from five to one.",
+ "tags": [
+  "household spending by country",
+  "cost of living",
+  "consumer spending",
+  "average spending per person",
+  "bermuda",
+  "united states",
+  "switzerland",
+  "norway",
+  "luxembourg",
+  "burundi"
+ ],
+ "source": "World Bank, household final consumption expenditure per capita (constant 2015 US$, 2024, 159 countries with 2024 data), data.worldbank.org/indicator/NE.CON.PRVT.PC.KD",
+ "voice": "af_heart",
+ "hashtags": [
+  "costofliving",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "The average person here spends forty-nine thousand dollars a year. Can you guess where?",
+   "props": {
+    "kicker": "Spent per person, in one year",
+    "big": 49.4,
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 1
+    },
+    "sub": "one place, 2024",
+    "icon": "coin"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five is Luxembourg. Thirty-eight thousand dollars.",
+   "props": {
+    "title": "Household spending per person, 2024",
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 1
+    },
+    "rank": 5,
+    "label": "Luxembourg",
+    "value": 38.0,
+    "flag": "lu"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is Norway. Thirty-nine thousand.",
+   "props": {
+    "rank": 4,
+    "label": "Norway",
+    "value": 39.0,
+    "flag": "no"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Switzerland. Almost forty-six thousand.",
+   "props": {
+    "rank": 3,
+    "label": "Switzerland",
+    "value": 45.8,
+    "flag": "ch"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "Number two beats the Swiss. The United States. Forty-six thousand dollars.",
+   "props": {
+    "rank": 2,
+    "label": "United States",
+    "value": 46.0,
+    "flag": "us"
+   }
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Bermuda. Over forty-nine thousand. Almost everything on the island is shipped in, so daily life costs a fortune.",
+   "props": {
+    "rank": 1,
+    "label": "Bermuda",
+    "value": 49.4,
+    "flag": "bm"
+   }
+  },
+  {
+   "scene": "line",
+   "text": "In America, spending per person grew forty-six percent since 2000. Even after inflation.",
+   "props": {
+    "title": "US household spending per person",
+    "subtitle": "2000 to 2024, in 2015 dollars",
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 1
+    },
+    "series": [
+     [
+      2000,
+      31.6
+     ],
+     [
+      2002,
+      32.6
+     ],
+     [
+      2004,
+      34.3
+     ],
+     [
+      2006,
+      35.8
+     ],
+     [
+      2008,
+      36.1
+     ],
+     [
+      2010,
+      35.7
+     ],
+     [
+      2012,
+      36.2
+     ],
+     [
+      2014,
+      37.3
+     ],
+     [
+      2016,
+      38.8
+     ],
+     [
+      2018,
+      40.4
+     ],
+     [
+      2020,
+      39.9
+     ],
+     [
+      2022,
+      44.4
+     ],
+     [
+      2024,
+      46.0
+     ]
+    ],
+    "badge": "+46% since 2000"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "In Burundi, people spend just one hundred ninety-five dollars a year. Bermuda spends two hundred fifty-four times more.",
+   "props": {
+    "value": 254,
+    "format": {
+     "suffix": "x",
+     "decimals": 0
+    },
+    "caption": "Bermuda vs Burundi, spending per person, 2024",
+    "at": "two",
+    "compare": {
+     "format": {
+      "prefix": "$",
+      "decimals": 0
+     },
+     "items": [
+      {
+       "label": "Burundi",
+       "value": 195
+      },
+      {
+       "label": "Bermuda",
+       "value": 49424
+      }
+     ]
+    }
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "How much do you spend in a year? Follow for more money, mapped.",
+   "props": {}
+  }
+ ]
+}
