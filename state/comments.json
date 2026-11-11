@@ -1,28 +1,41 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-11T14:42:32Z",
+ "fetched_at": "2026-11-11T16:14:42Z",
  "videos": [
+  {
+   "video_id": "koBRVJRPw2E",
+   "title": "The average person here spends $49,000 a year. Top 5 biggest spenders #shorts",
+   "views": 0,
+   "question_posted": false,
+   "question": "How much do you spend in a year?",
+   "comments": []
+  },
   {
    "video_id": "R0w_Pkv9cek",
    "title": "One country spends 15% of its economy on school. Top 5 education 2022 #shorts",
-   "views": 0,
-   "question_posted": false,
+   "views": 1,
+   "question_posted": true,
    "question": "How much does your country spend on school?",
    "comments": []
   },
   {
    "video_id": "jjxdL2HxUE8",
    "title": "$1 = 89,500 of this money. Top 5 currencies with the most per dollar #shorts",
-   "views": 27,
-   "question_posted": false,
+   "views": 28,
+   "question_posted": true,
    "question": "Iran is missing from the 2024 data. Where would it rank?",
    "comments": [
     {
      "id": "UgyCxjr_Bz3ZPCJUBUB4AaABAg",
      "author": "@alperez9",
      "text": "Well thank you for that I'll never go to any of those places thank God",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Ha, fair! A cheap currency isn't always a bad trip though, Vietnam is a backpacker favorite. Where would you go instead?"
+      }
+     ]
     }
    ]
   },
