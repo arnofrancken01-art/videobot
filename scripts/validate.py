@@ -5,7 +5,8 @@ Stopt met een duidelijke fout als iets niet klopt.
 import json, re, sys
 from pathlib import Path
 
-SCENES = {"hook", "rank", "versus", "bars", "bignumber", "line", "outro"}
+SCENES = {"hook", "rank", "versus", "bars", "bignumber", "line", "outro", "quiz", "race", "grid"}
+FORMATS = {"countdown", "quiz", "race", "story"}
 FLAGS = {f.stem for f in (Path(__file__).resolve().parent.parent / "public/flags").glob("*.svg")}
 ICONS = {None, "burger", "globe", "house", "clock", "coin"}
 errors, warnings = [], []
@@ -13,29 +14,57 @@ norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 path = Path(sys.argv[1])
 ep = json.loads(path.read_text())
 
-for key in ("id", "title", "source", "segments", "hashtags"):
+for key in ("id", "title", "source", "segments", "hashtags", "format"):
     if key not in ep:
         errors.append(f"veld '{key}' ontbreekt")
 segs = ep.get("segments", [])
-if not 7 <= len(segs) <= 14:
-    errors.append(f"{len(segs)} segmenten; mik op 8 tot 12")
+fmt = ep.get("format")
+if fmt not in FORMATS:
+    errors.append(f"format moet een van {sorted(FORMATS)} zijn")
+if not 4 <= len(segs) <= 10:
+    errors.append(f"{len(segs)} segmenten; mik op 5 tot 9")
 words = sum(len(s.get("text", "").split()) for s in segs)
-if not 70 <= words <= 170:
-    errors.append(f"{words} woorden gesproken; mik op 90 tot 150 (ca. 30 tot 50 seconden)")
-if segs and segs[0].get("scene") != "hook":
-    errors.append("eerste segment moet scene 'hook' zijn: de schokkende claim staat er vanaf frame 1")
-if segs and segs[-1].get("scene") != "outro":
+pauses = sum(float(s.get("props", {}).get("pause", 0)) for s in segs)
+secs = words / 2.8 + pauses  # ruwe schatting van de duur
+if words < 35 or secs > 30:
+    errors.append(f"{words} woorden + {pauses:.1f} s denktijd = ca. {secs:.0f} s; mik op 15 tot 25 seconden (max. 30)")
+scenes = [s.get("scene") for s in segs]
+if segs and scenes[0] not in ("hook", "quiz", "grid", "versus"):
+    errors.append("eerste segment moet 'hook', 'quiz', 'grid' of 'versus' zijn: er staat meteen iets sterks in beeld")
+if segs and scenes[-1] != "outro":
     errors.append("laatste segment moet scene 'outro' zijn")
+if segs and len(segs[-1].get("text", "").split()) > 12:
+    errors.append("outro: maximaal 12 woorden (een korte vraag + 'Follow for more.')")
 
-# Vast stramien: hook, dan Top 5 aftelling (rank 5, 4, 3, 2, 1), dan wending, dan outro.
+# Afwisseling: niet hetzelfde format als een van de vorige twee afleveringen.
+m = re.fullmatch(r"ep(\d+)", path.stem)
+if m and fmt in FORMATS:
+    for k in (1, 2):
+        prev_path = path.parent / f"ep{int(m.group(1)) - k:03d}.json"
+        if prev_path.exists() and json.loads(prev_path.read_text()).get("format", "countdown") == fmt:
+            errors.append(f"afwisseling: {prev_path.name} was ook format '{fmt}'; kies een ander format")
+
 ranks = [s.get("props", {}).get("rank") for s in segs if s.get("scene") == "rank" and s.get("props", {}).get("rank")]
-if ranks != [5, 4, 3, 2, 1]:
-    errors.append(f"stramien: de rank-segmenten moeten aftellen 5, 4, 3, 2, 1 (nu {ranks})")
 rank_idx = [i for i, s in enumerate(segs) if s.get("scene") == "rank"]
-if rank_idx and (rank_idx[0] > 2 or rank_idx != list(range(rank_idx[0], rank_idx[-1] + 1))):
-    errors.append("stramien: de aftelling begint uiterlijk als 3e segment en loopt zonder onderbreking")
-if rank_idx and len(segs) - 1 - rank_idx[-1] < 2:
-    errors.append("stramien: na nummer 1 komt minstens een wending (bignumber, line of versus) en dan de outro")
+if fmt == "countdown":
+    if ranks not in ([5, 4, 3, 2, 1], [3, 2, 1]):
+        errors.append(f"countdown: de rank-segmenten tellen af 3, 2, 1 of 5, 4, 3, 2, 1 (nu {ranks})")
+    if scenes[0] != "hook":
+        errors.append("countdown begint met scene 'hook'")
+    if rank_idx and (rank_idx[0] > 1 or rank_idx != list(range(rank_idx[0], rank_idx[-1] + 1))):
+        errors.append("countdown: de aftelling begint meteen na de hook en loopt zonder onderbreking")
+elif ranks:
+    errors.append(f"scene 'rank' hoort alleen bij format 'countdown'")
+if fmt == "quiz":
+    rounds = sum(1 for s in segs if s.get("scene") == "quiz" and s.get("props", {}).get("options"))
+    if not 2 <= rounds <= 3:
+        errors.append(f"quiz: 2 of 3 rondes (nu {rounds})")
+    if scenes[0] != "quiz":
+        errors.append("quiz begint meteen met de eerste vraag (scene 'quiz'), zonder aparte hook")
+if fmt == "race" and "race" not in scenes:
+    errors.append("format 'race' heeft een scene 'race' nodig")
+if fmt == "story" and not ({"grid", "versus", "line", "bars"} & set(scenes)):
+    errors.append("format 'story' heeft minstens een scene 'grid', 'versus', 'line' of 'bars' nodig")
 
 for key in ("topic", "description", "tags"):
     if key not in ep:
@@ -65,6 +94,62 @@ for i, s in enumerate(segs):
     check_flag(p, "hook")
     for it in p.get("items", []) + ([p["item"]] if "item" in p else []):
         check_flag(it, it.get("label"))
+    if sc == "quiz":
+        if p.get("options"):
+            o = p["options"]
+            if len(o) != 2 or any(not (x.get("label") and x.get("flag") and isinstance(x.get("value"), (int, float))) for x in o):
+                errors.append(f"{where}: options = precies 2 keuzes met label, flag en value")
+            else:
+                for x in o:
+                    check_flag(x, x["label"])
+                    if not any(norm(w) == norm(x["label"].split()[0]) for w in text.split()) and not x.get("say"):
+                        warnings.append(f"{where}: '{x['label']}' wordt niet letterlijk uitgesproken in de vraag")
+                if o[0]["value"] == o[1]["value"]:
+                    errors.append(f"{where}: de twee waarden zijn gelijk")
+            if not p.get("question"):
+                errors.append(f"{where}: question ontbreekt")
+            if not 1.2 <= float(p.get("pause", 0)) <= 2.5:
+                errors.append(f"{where}: pause (denktijd) moet tussen 1.2 en 2.5 seconden zijn")
+            nxt = segs[i + 1] if i + 1 < len(segs) else {}
+            if not (nxt.get("scene") == "quiz" and nxt.get("props", {}).get("reveal")):
+                errors.append(f"{where}: na een vraag komt een quiz-segment met \"reveal\": true")
+            if not text.strip().endswith("?"):
+                warnings.append(f"{where}: de vraag eindigt best op een vraagteken")
+        elif not p.get("reveal"):
+            errors.append(f"{where}: quiz-segment heeft 'options' (vraag) of 'reveal' nodig")
+        if prev != "quiz" and "format" not in p:
+            errors.append(f"{where}: eerste quiz-segment heeft 'format' nodig")
+    if sc == "race" and prev != "race":
+        yrs, its = p.get("years", []), p.get("items", [])
+        if len(yrs) < 5 or yrs != sorted(yrs):
+            errors.append(f"{where}: years = minstens 5 oplopende jaren")
+        if not 4 <= len(its) <= 10:
+            errors.append(f"{where}: 4 tot 10 landen in items")
+        for x in its:
+            if len(x.get("values", [])) != len(yrs):
+                errors.append(f"{where}: {x.get('label')} heeft {len(x.get('values', []))} waarden, verwacht {len(yrs)}")
+            check_flag(x, x.get("label"))
+        if not p.get("title"):
+            errors.append(f"{where}: title ontbreekt")
+        if p.get("focus") and p["focus"] not in {x.get("label") for x in its}:
+            errors.append(f"{where}: focus '{p['focus']}' staat niet in items")
+        last = None
+        for j in range(i, len(segs)):
+            if segs[j]["scene"] != "race":
+                break
+            to = segs[j].get("props", {}).get("to")
+            if to is not None and (not yrs or not yrs[0] <= to <= yrs[-1] or (last and to < last)):
+                errors.append(f"segment {j + 1}: 'to' moet een jaar binnen years zijn en mag niet teruggaan")
+            last = to or last
+    if sc == "grid":
+        if prev != "grid" and not (p.get("title") and p.get("icon") in ICONS and p.get("icon")):
+            errors.append(f"{where}: eerste grid-segment heeft title en icon nodig")
+        r = p.get("row")
+        if r:
+            if not (r.get("label") and r.get("flag") and isinstance(r.get("count"), int) and 1 <= r["count"] <= 36):
+                errors.append(f"{where}: row heeft label, flag en count (geheel getal, 1 tot 36) nodig")
+            else:
+                check_flag(r, r["label"])
     if sc == "hook" and not (p.get("kicker") and isinstance(p.get("big"), (int, float))):
         errors.append(f"{where}: hook heeft 'kicker' (tekst) en 'big' (getal) nodig")
     if sc == "versus":

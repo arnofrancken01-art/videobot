@@ -1,61 +1,82 @@
 # Brein: zo schrijft Claude een nieuwe video
 
-Kanaal: **Money, Mapped**. Korte video's (30 tot 50 seconden) over geld en de wereld, gebouwd op echte data.
+Kanaal: **Money, Mapped**. Korte video's (15 tot 25 seconden) over geld en de wereld, gebouwd op echte data.
 Taal van de video's: Engels. Doelgroep: nieuwsgierige 18-35-jarigen in de VS en Europa.
 
 ## Werkwijze per run
 
 1. `git pull`. Lees `data/catalog.json`, `state/queue.json`, `state/stats.json` (als die bestaat) en de titels in `episodes/`.
-2. Kies **één** onderwerp dat nog niet gedaan is. Gebruik `state/stats.json`: maak meer van wat goed scoort (views, kijkduur), minder van wat flopt.
+2. Kies **één** onderwerp dat nog niet gedaan is en een **format dat anders is dan de vorige twee afleveringen** (zie hieronder). Gebruik `state/stats.json`: maak meer van wat goed scoort (views, kijkduur), minder van wat flopt.
 3. Haal de cijfers **alleen** uit de bestanden in `data/` (lees ze met Python). Verzin nooit een getal. Kies het meest recente jaar met data voor alle landen in de vergelijking en noem dat jaar.
 4. Schrijf `episodes/epNNN.json` (volgend nummer, drie cijfers).
 5. Controleer: `python3 scripts/validate.py episodes/epNNN.json`. Los elke FOUT op.
 6. Commit en push naar `main`. GitHub Actions maakt dan de video en stuurt hem naar Telegram ter goedkeuring.
 
-## Vast stramien: Top 5 aftelling (verplicht, elke video)
+## Waarom dit zo moet (cijfers van 2026-11-11)
 
-Elke video volgt exact dezelfde opbouw. Kijkers leren het format kennen en blijven tot nummer 1.
-Kies dus een onderwerp waarvoor `data/` een **echte top 5 per land** geeft (meest recente jaar met genoeg landen).
-Schrijf eerst **drie hooks**, kies de sterkste.
+Van de eerste video's bleef maar **34% kijken**; twee op drie veegden meteen weg. Een Short groeit pas boven ca. 70%.
+Arno's opdracht: onderwerpen waarbij de kijker denkt "amai, dit gaat over mij", bekende landen, kortere video's,
+een sterkere hook en **nooit twee keer na elkaar dezelfde soort video**.
 
-| # | Scene | Tijd | Wat de stem zegt |
-|---|---|---|---|
-| 1 | `hook` | 0-3 s | Het getal van nummer 1 groot in beeld, **zonder het land te verklappen**, + een raadvraag. "In one country, prices jumped forty-two percent in a single year. Can you guess which?" Gebruik `icon`, geen `flag` (anders verklap je het). |
-| 2 | `rank` 5 | | "Top five. Number five: [land], [getal]." |
-| 3 | `rank` 4 | | "Number four: [land], [getal]." Max. 8 woorden. |
-| 4 | `rank` 3 | | "Number three: [land], [getal]." |
-| 5 | `rank` 2 | | Bouw spanning op: "Number two is a holiday favorite. Turkey, thirty-five percent." |
-| 6 | `rank` 1 | | "And number one: [land]. [getal]." + **één zin waarom** (echte reden). |
-| 7 | `line` / `bignumber` / `versus` | | De wending: een tweede verrassend getal of verloop in de tijd ("But Turkey has seen worse..."). |
-| 8 | eventueel nog 1 `bignumber` | | De laatste klap, één getal om te delen. |
-| 9 | `outro` | | Een vraag die tot reacties leidt + "Follow for more money, mapped." |
+## De vier harde regels
 
-Regels voor de aftelling:
-- **Wereldkaart (af en toe):** zet `"map": true` in het eerste rank-segment om een kaart te tonen die van land naar land vliegt. Doe dat in ongeveer **1 op 3 video's**, en alleen als de landen verspreid over de wereld liggen. Kijk in `episodes/` naar de vorige twee: hadden die een kaart, dan nu niet.
-- **Stem (belangrijk):** schrijf korte, volledige zinnen die op een punt eindigen. Geen dubbelpunten, geen komma-opsommingen zoals "Malawi, twenty-eight percent" (de stem gaat dan omhoog alsof het een vraag is). Goed: "Number five is Malawi. Twenty-eight percent." Alleen een echte vraag eindigt op "?".
-- **Zeg de landnaam letterlijk zoals in `label`**: het land, de vlag en het getal slaan in op dat woord. Gebruik gewone Engelse namen ("Turkey", "Iran", niet "Turkiye" of "Iran, Islamic Rep.").
-- Nummer 1 moet verrassen. Is de top 1 voorspelbaar, kies dan een andere maatstaf of een ander jaar.
-- Elke rank-zin max. ca. 10 woorden; alleen bij nummer 1 mag er een uitleg bij.
-- Titel van de video: verrassend getal + "Top 5 ..." (bv. "Prices rose 42% in ONE year in this country. Top 5 highest inflation in 2025").
+1. **De kijker staat centraal.** Kies iets wat een 18-35-jarige in de VS of Europa zelf voelt: lonen, prijzen, huur,
+   werk, reizen, wat je geld waard is, wie rijker is. Geen droge begrotingscijfers ("% of GDP") tenzij je ze vertaalt
+   naar iets tastbaars (dollars per persoon, aantal Big Macs, uren werk).
+2. **Bekende landen.** Minstens de helft van de landen in beeld komt uit deze lijst, en de VS zit er bijna altijd bij
+   als ijkpunt: USA, UK, Canada, Australia, Germany, France, Italy, Spain, Netherlands, Ireland, Switzerland, Sweden,
+   Norway, Poland, Japan, South Korea, China, India, Brazil, Mexico, Turkey, Russia, Saudi Arabia, UAE, South Africa,
+   Nigeria, Egypt, Argentina, Indonesia, Philippines. Een onbekend land mag alleen als verrassing tussen bekende.
+3. **Kort.** 15 tot 25 seconden, dus ca. 40 tot 65 gesproken woorden. Elke zin die geen nieuw beeld oplevert, gaat eruit.
+4. **Afwisseling.** Het `format` mag niet hetzelfde zijn als dat van de vorige twee afleveringen (validate.py weigert het).
+   Wissel ook de invalshoek: niet drie keer na elkaar "wie is rijker".
 
-Toets je script: zou iemand die scrollt na 1 seconde blijven hangen? Zou hij willen raden wie nummer 1 is? Zo niet, herschrijf.
+## De hook (eerste 2 seconden beslissen alles)
 
-## Wat een goede video is (feedback van Arno)
+- Spreek de kijker aan of zet hem voor een keuze: "Japan or Spain. Who is richer?", "Twenty dollars. How many Big Macs?",
+  "In 1990, China was smaller than Italy."
+- Vanaf frame 1 staat er iets groots in beeld (twee vlaggen, een getal, een icoon). Nooit een inleiding.
+- Eerste zin maximaal 10 woorden. Schrijf drie hooks en kies de sterkste.
+- De titel belooft hetzelfde als de hook en noemt een bekend land ("Japan or Spain: who is richer per person?").
+  Geen verzonnen beweringen zoals "99% gets this wrong".
 
-- **Hook in de eerste 3 seconden**: een verrassend contrast of getal, meteen in beeld. Geen intro, geen "did you know".
-- **Snel tempo**: korte zinnen (maximaal ca. 15 woorden), elk segment toont iets nieuws.
-- **Nooit een leeg scherm**: elke scene heeft vanaf het begin iets in beeld; `at` laat het grote getal inslaan op het gesproken woord.
-- **Echte inhoud, geen slop**: elk getal met bron, één duidelijke conclusie, een verrassende wending in het midden.
-- **Einde**: een vraag + `"Follow for more money, mapped."` als laatste segment (scene `outro`).
+## Formats (kies er één per aflevering, veld `format`)
+
+| format | Wat het is | Opbouw |
+|---|---|---|
+| `quiz` | Raadspel: twee landen, timer, onthulling. 2 of 3 rondes. Kijkers spelen mee en zetten hun score in de reacties. | `quiz` (vraag + `pause`) → `quiz` (`reveal`) → ... → `outro` ("How many did you get?") |
+| `race` | Balkenrace door de tijd: landen halen elkaar in terwijl het jaartal oploopt. | `hook` → 2 tot 4 × `race` → evt. `bignumber` → `outro` |
+| `story` | Eén verrassend feit, tastbaar gemaakt met pictogrammen, een vergelijking of een lijn. | `grid` of `hook` → `grid` / `versus` / `line` / `bignumber` → `outro` |
+| `countdown` | Top 3 (liefst) of top 5 aftelling. Alleen met bekende landen en een nummer 1 dat verrast. | `hook` → `rank` 3, 2, 1 → evt. 1 wending → `outro` |
+
+Richtlijn voor de mix over een week: ca. 4 × quiz, 4 × story, 3 × race, 3 × countdown.
+Bedenk gerust een nieuwe invalshoek binnen een format (bv. quiz "hoger of lager dan Amerika?", story "wat 100 dollar uit 2000 nu waard is",
+race "wie had de hoogste inflatie"). Creativiteit mag, zolang elk getal uit `data/` komt.
+
+Regels voor de tekst:
+- **Stem:** korte, volledige zinnen die op een punt eindigen. Geen dubbelpunten of komma-opsommingen (de stem gaat dan omhoog).
+  Alleen een echte vraag eindigt op "?".
+- **Zeg de landnaam letterlijk zoals in `label`**: het beeld slaat in op dat woord. Gewone Engelse namen ("Turkey", niet "Turkiye").
+- **Eerlijk:** bij een quiz moet het antwoord ondubbelzinnig uit de data volgen. Is het verschil kleiner dan 1%, zeg dat erbij ("by just twenty-seven dollars").
+  Geef waar het kan in vijf woorden de reden ("Big tech books its profits there.").
+- **Outro:** maximaal 12 woorden: een korte vraag die reacties uitlokt + "Follow for more."
+- **Wereldkaart** (`"map": true` in het eerste rank-segment): alleen bij een countdown met landen op verschillende continenten.
 
 ## Uploadtekst (voor zoveel mogelijk bereik)
 
 Vul in elke episode ook in:
-- `title`: max. 70 tekens, getal + nieuwsgierigheid, geen clickbait-leugen ("Prices rose 42% in ONE year here. Top 5 highest inflation 2025").
-- `topic`: 2-4 woorden voor de kop bovenaan de video ("Highest inflation 2025").
-- `description`: 1-2 zinnen: een vraag + "number one will surprise you" + dat het echte data is.
-- `hashtags`: 4 stuks, eerst het onderwerp (#inflation), dan #money, #economy en één specifieke (#top5). `#shorts` komt er automatisch bij.
-- `tags`: 6-10 zoekwoorden die mensen echt intypen ("highest inflation", "cost of living", landnamen).
+- `title`: max. 70 tekens, bekend land of vraag + nieuwsgierigheid, geen leugen.
+- `topic`: 2-4 woorden voor de kop bovenaan de video ("Who is richer?").
+- `description`: 1-2 zinnen: de vraag aan de kijker + dat het echte data is.
+- `hashtags`: 4 stuks, eerst het onderwerp, dan #money, #economy en één specifieke (#quiz, #top3, #dataviz). `#shorts` komt er automatisch bij.
+- `tags`: 6-10 zoekwoorden die mensen echt intypen, met de landnamen.
+
+## Wat een goede video is (feedback van Arno)
+
+- **Snel tempo**: korte zinnen (max. ca. 12 woorden), elk segment toont iets nieuws.
+- **Nooit een leeg scherm**: elke scene heeft vanaf het begin iets in beeld.
+- **Echte inhoud, geen slop**: elk getal uit `data/`, met bron, en een verrassing op het einde.
+- **Visueel sterk**: vlaggen bij elk land, één scene-type per idee, niet meer dan 3 verschillende scenes per video.
 
 ## Formaat van een episode
 
@@ -69,6 +90,7 @@ Vul in elke episode ook in:
  "source": "World Bank, GDP per capita (2024), data.worldbank.org",
  "voice": "af_heart",
  "hashtags": ["money", "economy", "dataviz"],
+ "format": "quiz",
  "segments": [ { "scene": "...", "text": "Wat de stem zegt.", "props": { } } ]
 }
 ```
@@ -77,13 +99,38 @@ Regels voor `text`: getallen voluit schrijven zoals je ze uitspreekt ("nine doll
 
 ### Scenes
 
-**rank** (de aftelling, 5 opeenvolgende segmenten): eerste segment bevat `title` en `format`; elk segment `rank`, `label`, `value`, `flag`. Onderaan groeit een ladder 1-5 waarin de nog geheime plekken als "?" wachten.
+**quiz** (raadspel): een ronde = een vraag-segment + een reveal-segment. Het eerste segment bevat `format`.
+`pause` is de denktijd in seconden (1.2 tot 2.5): de timer tikt af, daarna licht de winnaar groen op en tellen de getallen op.
+Winnaar = hoogste `value` (of laagste met `"pick": "lower"`).
 ```json
-{"scene":"rank","text":"Top five. Number five: Malawi, twenty-eight percent.","props":{"title":"Highest inflation, 2025","format":{"suffix":"%","decimals":1},"rank":5,"label":"Malawi","value":28.4,"flag":"mw"}}
-{"scene":"rank","text":"Number four: Haiti, almost twenty-nine.","props":{"rank":4,"label":"Haiti","value":28.6,"flag":"ht"}}
+{"scene":"quiz","text":"Three rounds. Which country is richer per person? Japan or Spain?","props":{"question":"Who is richer per person?","format":{"prefix":"$"},"options":[{"label":"Japan","flag":"jp","value":35951},{"label":"Spain","flag":"es","value":38627}],"pause":1.6}}
+{"scene":"quiz","text":"Spain. By almost three thousand dollars.","props":{"reveal":true}}
+{"scene":"quiz","text":"Round two. China or Mexico?","props":{"question":"Who is richer per person?","options":[{"label":"China","flag":"cn","value":13862},{"label":"Mexico","flag":"mx","value":13889}],"pause":1.6}}
+{"scene":"quiz","text":"Mexico. By just twenty-seven dollars.","props":{"reveal":true}}
+```
+Begin het reveal-segment met de naam van de winnaar. Bewaar de grootste verrassing voor de laatste ronde.
+
+**race** (balkenrace): het eerste segment bevat alle data; `years` en per land evenveel `values` (haal ze met Python uit `data/`, alle jaren).
+`show` = aantal zichtbare balken (5 of 6), `focus` = het land waar het verhaal om draait (groen). Elk segment kan `to` krijgen:
+het jaar waarop de race staat als die zin gedaan is, zodat stem en beeld gelijk lopen. Het laatste segment eindigt op het laatste jaar.
+```json
+{"scene":"race","text":"Japan is number two. China is not even on the board.","props":{"title":"Biggest economies","format":{"prefix":"$","suffix":"T","decimals":1},"years":[1990,1991],"focus":"China","show":6,"to":1998,"items":[{"label":"United States","flag":"us","values":[5.963,6.158]}]}}
+{"scene":"race","text":"In 2010, it passes Japan.","props":{"to":2010}}
 ```
 
-**hook** (altijd het eerste segment): de claim staat er vanaf frame 1.
+**grid** (pictogram, "zoveel krijg je voor..."): per segment een rij icoontjes die een voor een inploppen op het woord `at`. 2 tot 4 rijen,
+`count` is een geheel getal van 1 tot 36. Iconen: `burger`, `coin`, `house`, `clock`, `globe`.
+```json
+{"scene":"grid","text":"Twenty dollars. In Switzerland, that buys you two Big Macs.","props":{"title":"What $20 buys in Big Macs","icon":"burger","row":{"label":"Switzerland","flag":"ch","count":2},"at":"two"}}
+{"scene":"grid","text":"In America, you get three.","props":{"row":{"label":"United States","flag":"us","count":3},"at":"three"}}
+```
+
+**rank** (de aftelling, 3 of 5 opeenvolgende segmenten): eerste segment bevat `title` en `format`; elk segment `rank`, `label`, `value`, `flag`.
+```json
+{"scene":"rank","text":"Number three is Germany. Sixty thousand dollars.","props":{"title":"Richest big countries, 2025","format":{"prefix":"$"},"rank":3,"label":"Germany","value":60496,"flag":"de"}}
+```
+
+**hook** (opening van race, countdown en vaak story): de claim staat er vanaf frame 1.
 ```json
 {"scene":"hook","text":"Indians working abroad sent home a hundred fifty-one billion dollars. In one year.","props":{"kicker":"Sent home by Indians abroad","big":150.7,"format":{"prefix":"$","suffix":"B","decimals":1},"sub":"in one year","flag":"in"}}
 ```
@@ -114,19 +161,20 @@ Opeenvolgende segmenten met dezelfde scene `versus`, `bars` of `line` worden é�
 {"scene":"line","text":"And the price nearly tripled since 2000.","props":{"title":"Big Mac price in the US","subtitle":"2000 to 2026","format":{"prefix":"$","decimals":2},"series":[[2000,2.24],[2026,6.22]],"badge":"2.8x since 2000"}}
 ```
 
-**outro**: `{"scene":"outro","text":"Which number surprised you? Follow for more money, mapped.","props":{}}`
+**outro**: `{"scene":"outro","text":"How many did you get? Follow for more.","props":{}}`
 
 `format` velden: `prefix`, `suffix`, `decimals`. Grote bedragen liever omrekenen naar duizenden of miljarden met een duidelijke suffix (bv. `{"prefix":"$","suffix":"k"}`).
 
-## Onderwerpideeën
+## Onderwerpideeën (herkenbaar, bekende landen)
 
-- Hoeveel uur werk je voor X, per land
-- Landen waar je loon het verst reikt (PPP vs gewoon)
-- Inflatie: wat 100 dollar in 2000 waard was, nu
-- Staatsschuld per land, wie de meeste schuld heeft
-- Hoeveel landen uitgeven aan gezondheid vs leger
-- Geld dat migranten naar huis sturen: de grootste ontvangers
-- Rijkste en armste landen, en hoe dat in 30 jaar veranderde
+- Quiz: wie is rijker per persoon / waar is het leven duurder (Big Mac) / waar leven mensen langer / wie heeft meer inwoners
+- Quiz "hoger of lager dan Amerika": werkloosheid, inflatie, levensverwachting, internetgebruik
+- Story: wat 20 dollar aan Big Macs koopt per land; hoeveel een dollar waard is in lira, yen of peso, toen en nu
+- Story: je loon reikt hier dubbel zo ver (GDP per persoon gewoon vs PPP)
+- Story: prijzen in jouw land sinds 2000 of 2020 (consumentenprijsindex, lijn)
+- Race: grootste economieën, rijkste landen per persoon, grootste bevolking (India haalt China in), meeste toeristen
+- Countdown top 3: duurste Big Mac, hoogste jeugdwerkloosheid in Europa, oudste bevolking, minste kinderen per vrouw
+- Kijk in `data/catalog.json`: daar staan ook geboortes per vrouw, 65-plussers, toerisme, beurswaarde, rente, moorden, stroomverbruik (zodra opgehaald)
 
 ## Skills
 

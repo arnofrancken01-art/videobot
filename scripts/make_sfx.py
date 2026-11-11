@@ -43,4 +43,7 @@ d = 1.0; tt = t(d)
 f = 110 * np.exp(-tt * 6) + 42
 x = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt * 4.5) + 0.3 * lowpass(rng.standard_normal(len(tt)), 0.05) * np.exp(-tt * 12)
 sf.write(OUT / "boom.wav", norm(x, 0.7), SR)
+# tick: droge klik voor de timer
+d = 0.07; tt = t(d)
+sf.write(OUT / "tick.wav", norm(np.sin(2 * np.pi * 1900 * tt) * np.exp(-tt * 90) + 0.4 * np.sin(2 * np.pi * 950 * tt) * np.exp(-tt * 60), 0.45), SR)
 print("sfx klaar:", sorted(p.name for p in OUT.glob("*.wav")))

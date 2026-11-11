@@ -16,7 +16,7 @@ export const Rank: React.FC<SceneProps> = ({ segs, fps, offset }) => {
   const f = useCurrentFrame();
   const first = P(segs[0]);
   const format: Fmt = first.format ?? {};
-  const total: number = first.of ?? 5;
+  const total: number = first.of ?? first.rank ?? 5;
 
   // Per segment: wanneer begint het en wanneer valt de landnaam (= onthulling).
   const steps = segs.map((s) => {

@@ -129,8 +129,9 @@ def main():
         times = fill_gaps(map_words(words, toks), 0.0, dur)
         wt = [{"word": w, "start": round(t + a, 3), "end": round(t + b, 3)} for w, (a, b) in zip(words, times)]
         segs.append({**s, "start": round(t, 3), "end": round(t + dur, 3), "words": wt})
-        audio += [samples, np.zeros(int(SR * GAP), dtype=np.float32)]
-        t += dur + GAP
+        gap = GAP + float(s.get("props", {}).get("pause", 0))  # pause = denktijd (stilte) na dit segment
+        audio += [samples, np.zeros(int(SR * gap), dtype=np.float32)]
+        t += dur + gap
 
     audio.append(np.zeros(int(SR * 0.6), dtype=np.float32))
     t += 0.6

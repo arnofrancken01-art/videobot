@@ -11,6 +11,9 @@ import { Hook } from "./scenes/Hook";
 import { LineScene } from "./scenes/LineScene";
 import { Outro } from "./scenes/Outro";
 import { Rank } from "./scenes/Rank";
+import { Quiz, buildRounds } from "./scenes/Quiz";
+import { Race } from "./scenes/Race";
+import { Grid } from "./scenes/Grid";
 import type { SceneProps } from "./scenes/common";
 
 const SR = (w: string) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -18,14 +21,14 @@ const SR = (w: string) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 export type Seg = (typeof timeline.segments)[number];
 
 const SCENES: Record<string, React.FC<SceneProps>> = {
-  hook: Hook, versus: Versus, bars: Bars, bignumber: BigNumber, line: LineScene, outro: Outro, rank: Rank,
+  hook: Hook, versus: Versus, bars: Bars, bignumber: BigNumber, line: LineScene, outro: Outro, rank: Rank, quiz: Quiz, race: Race, grid: Grid,
 };
 
 // Opeenvolgende segmenten met dezelfde scene worden 1 doorlopende scene.
 const groups: { scene: string; segs: Seg[] }[] = [];
 for (const s of timeline.segments) {
   const last = groups[groups.length - 1];
-  if (last && last.scene === s.scene && ["bars", "versus", "line", "rank"].includes(s.scene)) last.segs.push(s);
+  if (last && last.scene === s.scene && ["bars", "versus", "line", "rank", "quiz", "race", "grid"].includes(s.scene)) last.segs.push(s);
   else groups.push({ scene: s.scene, segs: [s] });
 }
 
@@ -42,7 +45,7 @@ timeline.segments.forEach((s, i) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const p: any = s.props;
   const prev = timeline.segments[i - 1];
-  if (i > 0 && (prev.scene !== s.scene || p.rank)) fx.push({ at: s.start - 0.12, src: "whoosh", vol: 0.35 });
+  if (i > 0 && (prev.scene !== s.scene || p.rank || p.options)) fx.push({ at: s.start - 0.12, src: "whoosh", vol: 0.35 });
   if (s.scene === "rank" && p.rank) {
     const t = Math.min(wordAt(s, String(p.label).split(/[\s-]/)[0]) ?? s.start, s.start + 1.2);
     if (p.rank === 1) {
@@ -50,10 +53,29 @@ timeline.segments.forEach((s, i) => {
       fx.push({ at: t + 0.05, src: "ding", vol: 0.3 });
     } else fx.push({ at: t, src: "pop", vol: 0.45 });
   }
+  if (s.scene === "grid" && p.row) fx.push({ at: Math.min(wordAt(s, p.at) ?? s.start, s.start + 1.2), src: "pop", vol: 0.45 });
+  if (s.scene === "versus" && p.item) fx.push({ at: wordAt(s, p.at) ?? s.start, src: "pop", vol: 0.45 });
   if (s.scene === "bignumber" || s.scene === "hook") {
     const t = s.scene === "hook" ? s.start : Math.min(wordAt(s, p.at) ?? s.start, s.start + 0.5);
     fx.push({ at: t, src: "pop", vol: 0.45 });
   }
+});
+
+// Raadspel: tik per seconde denktijd, ding bij de onthulling.
+groups.filter((g) => g.scene === "quiz").forEach((g) => {
+  const off = g === groups[0] ? 0 : Math.round(g.segs[0].start * fps) / fps;
+  buildRounds(g.segs, fps, off).forEach((r) => {
+    const think = r.think / fps + off, reveal = r.reveal / fps + off;
+    for (let t = reveal - 1; t >= think - 0.05; t -= 1) fx.push({ at: t, src: "tick", vol: 0.5 });
+    fx.push({ at: reveal, src: "ding", vol: 0.35 });
+    fx.push({ at: reveal, src: "boom", vol: 0.3 });
+  });
+});
+// Balkenrace: zacht getik terwijl de jaren lopen, klap op het einde.
+groups.filter((g) => g.scene === "race").forEach((g) => {
+  const a = g.segs[0].start + 0.5, b = g.segs[g.segs.length - 1].end - 0.9;
+  for (let t = a; t < b; t += 0.5) fx.push({ at: t, src: "tick", vol: 0.12 });
+  fx.push({ at: b, src: "boom", vol: 0.4 });
 });
 
 // Achtergrondvlag: de vlag van het land waar het nu over gaat, groot en wazig.

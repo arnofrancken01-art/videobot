@@ -31,6 +31,27 @@ INDICATORS = {
     "SP.POP.TOTL": ("Population", "people"),
     "NE.CON.PRVT.PC.KD": ("Household spending per person", "constant 2015 US dollars"),
     "IT.NET.USER.ZS": ("Internet users", "% of population"),
+    # Herkenbare onderwerpen (sinds 2026-11): dingen waar kijkers zelf iets bij voelen.
+    "FP.CPI.TOTL": ("Consumer price index (2010 = 100): how much prices rose", "index"),
+    "NY.GDP.MKTP.KD.ZG": ("Economic growth", "% per year"),
+    "NY.GDP.MKTP.PP.CD": ("Total GDP, adjusted for prices (PPP)", "international dollars"),
+    "NY.GNP.PCAP.CD": ("Income per person (GNI)", "US dollars"),
+    "SL.UEM.1524.ZS": ("Youth unemployment (age 15-24)", "% of young labour force"),
+    "SP.DYN.TFRT.IN": ("Births per woman", "children"),
+    "SP.POP.65UP.TO.ZS": ("People aged 65 and over", "% of population"),
+    "SP.POP.GROW": ("Population growth", "% per year"),
+    "SP.URB.TOTL.IN.ZS": ("People living in cities", "% of population"),
+    "EN.POP.DNST": ("Population density", "people per square km"),
+    "ST.INT.ARVL": ("International tourist arrivals", "people per year"),
+    "ST.INT.RCPT.CD": ("Money earned from tourists", "US dollars"),
+    "IS.AIR.PSGR": ("Air passengers carried", "people per year"),
+    "CM.MKT.LCAP.CD": ("Stock market value of listed companies", "US dollars"),
+    "FR.INR.LEND": ("Lending interest rate", "% per year"),
+    "TX.VAL.MRCH.CD.WD": ("Goods exports", "US dollars"),
+    "IT.CEL.SETS.P2": ("Mobile phone subscriptions", "per 100 people"),
+    "VC.IHR.PSRC.P5": ("Homicides", "per 100,000 people"),
+    "EG.USE.ELEC.KH.PC": ("Electricity use per person", "kWh per year"),
+    "SL.TLF.CACT.FE.ZS": ("Women in the labour force", "% of women 15+"),
 }
 
 
@@ -39,23 +60,36 @@ def countries():
     return {c["id"]: c["name"] for c in r if c["region"]["value"] != "Aggregates"}
 
 
+def fetch(ind, cs):
+    rows = []
+    page, pages = 1, 1
+    while page <= pages:
+        meta, data = requests.get(f"{WB}/country/all/indicator/{ind}",
+                                  params={"format": "json", "per_page": 20000, "date": "1990:2026", "page": page}, timeout=120).json()
+        pages = meta["pages"]
+        for d in data or []:
+            iso = d["countryiso3code"]
+            if d["value"] is None or iso not in cs:
+                continue
+            rows.append([cs[iso], iso, d["date"], d["value"]])
+        page += 1
+    return rows
+
+
 def main():
     (OUT / "worldbank").mkdir(parents=True, exist_ok=True)
     cs = countries()
     catalog = {"worldbank": {}, "other": {}}
     for ind, (name, unit) in INDICATORS.items():
-        rows = []
-        page, pages = 1, 1
-        while page <= pages:
-            meta, data = requests.get(f"{WB}/country/all/indicator/{ind}",
-                                      params={"format": "json", "per_page": 20000, "date": "1990:2026", "page": page}, timeout=120).json()
-            pages = meta["pages"]
-            for d in data or []:
-                iso = d["countryiso3code"]
-                if d["value"] is None or iso not in cs:
-                    continue
-                rows.append([cs[iso], iso, d["date"], d["value"]])
-            page += 1
+        try:
+            rows = fetch(ind, cs)
+        except Exception as e:  # noqa: BLE001  (indicator bestaat niet meer of API hapert: sla over, hou de rest)
+            print("OVERGESLAGEN", ind, e)
+            old = OUT / f"worldbank/{ind}.csv"
+            rows = list(csv.reader(open(old)))[1:] if old.exists() else []
+        if not rows:
+            print("LEEG", ind)
+            continue
         rows.sort(key=lambda r: (r[1], r[2]))
         with open(OUT / f"worldbank/{ind}.csv", "w", newline="") as f:
             w = csv.writer(f)
