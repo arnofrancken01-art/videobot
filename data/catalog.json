@@ -161,6 +161,177 @@
    "latest_year": 2025,
    "source": "World Bank, indicator IT.NET.USER.ZS",
    "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS"
+  },
+  "FP.CPI.TOTL": {
+   "name": "Consumer price index (2010 = 100): how much prices rose",
+   "unit": "index",
+   "file": "data/worldbank/FP.CPI.TOTL.csv",
+   "rows": 6252,
+   "latest_year": 2025,
+   "source": "World Bank, indicator FP.CPI.TOTL",
+   "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL"
+  },
+  "NY.GDP.MKTP.KD.ZG": {
+   "name": "Economic growth",
+   "unit": "% per year",
+   "file": "data/worldbank/NY.GDP.MKTP.KD.ZG.csv",
+   "rows": 7296,
+   "latest_year": 2025,
+   "source": "World Bank, indicator NY.GDP.MKTP.KD.ZG",
+   "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG"
+  },
+  "NY.GDP.MKTP.PP.CD": {
+   "name": "Total GDP, adjusted for prices (PPP)",
+   "unit": "international dollars",
+   "file": "data/worldbank/NY.GDP.MKTP.PP.CD.csv",
+   "rows": 7020,
+   "latest_year": 2025,
+   "source": "World Bank, indicator NY.GDP.MKTP.PP.CD",
+   "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD"
+  },
+  "NY.GNP.PCAP.CD": {
+   "name": "Income per person (GNI)",
+   "unit": "US dollars",
+   "file": "data/worldbank/NY.GNP.PCAP.CD.csv",
+   "rows": 6973,
+   "latest_year": 2025,
+   "source": "World Bank, indicator NY.GNP.PCAP.CD",
+   "url": "https://data.worldbank.org/indicator/NY.GNP.PCAP.CD"
+  },
+  "SL.UEM.1524.ZS": {
+   "name": "Youth unemployment (age 15-24)",
+   "unit": "% of young labour force",
+   "file": "data/worldbank/SL.UEM.1524.ZS.csv",
+   "rows": 6531,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SL.UEM.1524.ZS",
+   "url": "https://data.worldbank.org/indicator/SL.UEM.1524.ZS"
+  },
+  "SP.DYN.TFRT.IN": {
+   "name": "Births per woman",
+   "unit": "children",
+   "file": "data/worldbank/SP.DYN.TFRT.IN.csv",
+   "rows": 7595,
+   "latest_year": 2024,
+   "source": "World Bank, indicator SP.DYN.TFRT.IN",
+   "url": "https://data.worldbank.org/indicator/SP.DYN.TFRT.IN"
+  },
+  "SP.POP.65UP.TO.ZS": {
+   "name": "People aged 65 and over",
+   "unit": "% of population",
+   "file": "data/worldbank/SP.POP.65UP.TO.ZS.csv",
+   "rows": 7812,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SP.POP.65UP.TO.ZS",
+   "url": "https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS"
+  },
+  "SP.POP.GROW": {
+   "name": "Population growth",
+   "unit": "% per year",
+   "file": "data/worldbank/SP.POP.GROW.csv",
+   "rows": 7809,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SP.POP.GROW",
+   "url": "https://data.worldbank.org/indicator/SP.POP.GROW"
+  },
+  "SP.URB.TOTL.IN.ZS": {
+   "name": "People living in cities",
+   "unit": "% of population",
+   "file": "data/worldbank/SP.URB.TOTL.IN.ZS.csv",
+   "rows": 7812,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SP.URB.TOTL.IN.ZS",
+   "url": "https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS"
+  },
+  "EN.POP.DNST": {
+   "name": "Population density",
+   "unit": "people per square km",
+   "file": "data/worldbank/EN.POP.DNST.csv",
+   "rows": 7343,
+   "latest_year": 2024,
+   "source": "World Bank, indicator EN.POP.DNST",
+   "url": "https://data.worldbank.org/indicator/EN.POP.DNST"
+  },
+  "ST.INT.ARVL": {
+   "name": "International tourist arrivals",
+   "unit": "people per year",
+   "file": "data/worldbank/ST.INT.ARVL.csv",
+   "rows": 4683,
+   "latest_year": 2020,
+   "source": "World Bank, indicator ST.INT.ARVL",
+   "url": "https://data.worldbank.org/indicator/ST.INT.ARVL"
+  },
+  "ST.INT.RCPT.CD": {
+   "name": "Money earned from tourists",
+   "unit": "US dollars",
+   "file": "data/worldbank/ST.INT.RCPT.CD.csv",
+   "rows": 4156,
+   "latest_year": 2020,
+   "source": "World Bank, indicator ST.INT.RCPT.CD",
+   "url": "https://data.worldbank.org/indicator/ST.INT.RCPT.CD"
+  },
+  "IS.AIR.PSGR": {
+   "name": "Air passengers carried",
+   "unit": "people per year",
+   "file": "data/worldbank/IS.AIR.PSGR.csv",
+   "rows": 5233,
+   "latest_year": 2023,
+   "source": "World Bank, indicator IS.AIR.PSGR",
+   "url": "https://data.worldbank.org/indicator/IS.AIR.PSGR"
+  },
+  "CM.MKT.LCAP.CD": {
+   "name": "Stock market value of listed companies",
+   "unit": "US dollars",
+   "file": "data/worldbank/CM.MKT.LCAP.CD.csv",
+   "rows": 2416,
+   "latest_year": 2025,
+   "source": "World Bank, indicator CM.MKT.LCAP.CD",
+   "url": "https://data.worldbank.org/indicator/CM.MKT.LCAP.CD"
+  },
+  "FR.INR.LEND": {
+   "name": "Lending interest rate",
+   "unit": "% per year",
+   "file": "data/worldbank/FR.INR.LEND.csv",
+   "rows": 4059,
+   "latest_year": 2025,
+   "source": "World Bank, indicator FR.INR.LEND",
+   "url": "https://data.worldbank.org/indicator/FR.INR.LEND"
+  },
+  "IT.CEL.SETS.P2": {
+   "name": "Mobile phone subscriptions",
+   "unit": "per 100 people",
+   "file": "data/worldbank/IT.CEL.SETS.P2.csv",
+   "rows": 7029,
+   "latest_year": 2024,
+   "source": "World Bank, indicator IT.CEL.SETS.P2",
+   "url": "https://data.worldbank.org/indicator/IT.CEL.SETS.P2"
+  },
+  "VC.IHR.PSRC.P5": {
+   "name": "Homicides",
+   "unit": "per 100,000 people",
+   "file": "data/worldbank/VC.IHR.PSRC.P5.csv",
+   "rows": 4065,
+   "latest_year": 2023,
+   "source": "World Bank, indicator VC.IHR.PSRC.P5",
+   "url": "https://data.worldbank.org/indicator/VC.IHR.PSRC.P5"
+  },
+  "EG.USE.ELEC.KH.PC": {
+   "name": "Electricity use per person",
+   "unit": "kWh per year",
+   "file": "data/worldbank/EG.USE.ELEC.KH.PC.csv",
+   "rows": 5245,
+   "latest_year": 2025,
+   "source": "World Bank, indicator EG.USE.ELEC.KH.PC",
+   "url": "https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC"
+  },
+  "SL.TLF.CACT.FE.ZS": {
+   "name": "Women in the labour force",
+   "unit": "% of women 15+",
+   "file": "data/worldbank/SL.TLF.CACT.FE.ZS.csv",
+   "rows": 6718,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SL.TLF.CACT.FE.ZS",
+   "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS"
   }
  },
  "other": {
