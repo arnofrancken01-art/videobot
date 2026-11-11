@@ -1,19 +1,43 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-10T16:16:48Z",
+ "fetched_at": "2026-11-11T14:42:32Z",
  "videos": [
+  {
+   "video_id": "R0w_Pkv9cek",
+   "title": "One country spends 15% of its economy on school. Top 5 education 2022 #shorts",
+   "views": 0,
+   "question_posted": false,
+   "question": "How much does your country spend on school?",
+   "comments": []
+  },
+  {
+   "video_id": "jjxdL2HxUE8",
+   "title": "$1 = 89,500 of this money. Top 5 currencies with the most per dollar #shorts",
+   "views": 27,
+   "question_posted": false,
+   "question": "Iran is missing from the 2024 data. Where would it rank?",
+   "comments": [
+    {
+     "id": "UgyCxjr_Bz3ZPCJUBUB4AaABAg",
+     "author": "@alperez9",
+     "text": "Well thank you for that I'll never go to any of those places thank God",
+     "answered": false,
+     "replies": []
+    }
+   ]
+  },
   {
    "video_id": "09dHai904-U",
    "title": "This government takes 35% of the economy in tax. Top 5 highest taxes #shorts",
    "views": 0,
-   "question_posted": false,
+   "question_posted": true,
    "question": "This counts central government taxes only. Where does your country land?",
    "comments": []
   },
   {
    "video_id": "VoPfnM12ugk",
    "title": "This country saves 48% of its economy. Top 5 biggest savers 2024 #shorts",
-   "views": 4,
+   "views": 5,
    "question_posted": true,
    "question": "America saves just seventeen percent. How much do you save?",
    "comments": []
@@ -29,7 +53,7 @@
   {
    "video_id": "gbxv_eV3y1w",
    "title": "1 in 3 people can't find a job here. Top 5 highest unemployment 2025 #shorts",
-   "views": 19,
+   "views": 20,
    "question_posted": true,
    "question": "How easy is it to find a job where you live?",
    "comments": [
@@ -50,7 +74,7 @@
   {
    "video_id": "87rc7aPFs1A",
    "title": "Prices rose 42% in ONE year in this country. Top 5 highest inflation in 2025 #shorts",
-   "views": 206,
+   "views": 208,
    "question_posted": true,
    "question": "How fast are prices rising where you live?",
    "comments": [
