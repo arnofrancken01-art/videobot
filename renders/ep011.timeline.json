@@ -1,0 +1,793 @@
+{
+ "id": "ep011",
+ "title": "One country spends 15% of its economy on school. Top 5 education 2022",
+ "topic": "Education spending 2022",
+ "description": "Which country spends the biggest share of its economy on education? Number one will surprise you. Real World Bank data (government education spending, % of GDP, 2022), counted down from five to one.",
+ "tags": [
+  "education spending by country",
+  "government spending on education",
+  "education budget",
+  "kiribati",
+  "tuvalu",
+  "vanuatu",
+  "namibia",
+  "solomon islands",
+  "germany education"
+ ],
+ "source": "World Bank, government expenditure on education (% of GDP, 2022, 164 countries with 2022 data), data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS; dollars per person via NY.GDP.PCAP.CD",
+ "voice": "af_heart",
+ "hashtags": [
+  "education",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "One country spends almost fifteen percent of its whole economy on education. Can you guess which?",
+   "props": {
+    "kicker": "Spent on education, share of the economy",
+    "big": 14.8,
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "sub": "one country, 2022",
+    "icon": "globe"
+   },
+   "start": 0.05,
+   "end": 5.825,
+   "words": [
+    {
+     "word": "One",
+     "start": 0.3,
+     "end": 0.525
+    },
+    {
+     "word": "country",
+     "start": 0.525,
+     "end": 0.925
+    },
+    {
+     "word": "spends",
+     "start": 0.925,
+     "end": 1.275
+    },
+    {
+     "word": "almost",
+     "start": 1.275,
+     "end": 1.688
+    },
+    {
+     "word": "fifteen",
+     "start": 1.688,
+     "end": 2.1
+    },
+    {
+     "word": "percent",
+     "start": 2.1,
+     "end": 2.462
+    },
+    {
+     "word": "of",
+     "start": 2.462,
+     "end": 2.537
+    },
+    {
+     "word": "its",
+     "start": 2.537,
+     "end": 2.675
+    },
+    {
+     "word": "whole",
+     "start": 2.675,
+     "end": 2.925
+    },
+    {
+     "word": "economy",
+     "start": 2.925,
+     "end": 3.5
+    },
+    {
+     "word": "on",
+     "start": 3.5,
+     "end": 3.612
+    },
+    {
+     "word": "education.",
+     "start": 3.612,
+     "end": 4.5
+    },
+    {
+     "word": "Can",
+     "start": 4.625,
+     "end": 4.763
+    },
+    {
+     "word": "you",
+     "start": 4.763,
+     "end": 4.85
+    },
+    {
+     "word": "guess",
+     "start": 4.85,
+     "end": 5.1
+    },
+    {
+     "word": "which?",
+     "start": 5.1,
+     "end": 5.575
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five is the Solomon Islands. Eight and a half percent.",
+   "props": {
+    "title": "Education spending, % of GDP, 2022",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "map": true,
+    "rank": 5,
+    "label": "Solomon Islands",
+    "value": 8.5,
+    "flag": "sb"
+   },
+   "start": 5.885,
+   "end": 10.385,
+   "words": [
+    {
+     "word": "Top",
+     "start": 6.11,
+     "end": 6.36
+    },
+    {
+     "word": "five.",
+     "start": 6.36,
+     "end": 6.81
+    },
+    {
+     "word": "Number",
+     "start": 6.885,
+     "end": 7.11
+    },
+    {
+     "word": "five",
+     "start": 7.11,
+     "end": 7.422
+    },
+    {
+     "word": "is",
+     "start": 7.422,
+     "end": 7.522
+    },
+    {
+     "word": "the",
+     "start": 7.522,
+     "end": 7.622
+    },
+    {
+     "word": "Solomon",
+     "start": 7.622,
+     "end": 8.06
+    },
+    {
+     "word": "Islands.",
+     "start": 8.06,
+     "end": 8.71
+    },
+    {
+     "word": "Eight",
+     "start": 8.848,
+     "end": 9.072
+    },
+    {
+     "word": "and",
+     "start": 9.072,
+     "end": 9.172
+    },
+    {
+     "word": "a",
+     "start": 9.172,
+     "end": 9.235
+    },
+    {
+     "word": "half",
+     "start": 9.235,
+     "end": 9.485
+    },
+    {
+     "word": "percent.",
+     "start": 9.485,
+     "end": 10.16
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is Namibia. Over nine percent.",
+   "props": {
+    "rank": 4,
+    "label": "Namibia",
+    "value": 9.4,
+    "flag": "na"
+   },
+   "start": 10.445,
+   "end": 13.42,
+   "words": [
+    {
+     "word": "Number",
+     "start": 10.695,
+     "end": 10.957
+    },
+    {
+     "word": "four",
+     "start": 10.957,
+     "end": 11.27
+    },
+    {
+     "word": "is",
+     "start": 11.27,
+     "end": 11.383
+    },
+    {
+     "word": "Namibia.",
+     "start": 11.383,
+     "end": 11.92
+    },
+    {
+     "word": "Over",
+     "start": 12.045,
+     "end": 12.27
+    },
+    {
+     "word": "nine",
+     "start": 12.27,
+     "end": 12.545
+    },
+    {
+     "word": "percent.",
+     "start": 12.545,
+     "end": 13.195
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Vanuatu. Almost eleven percent.",
+   "props": {
+    "rank": 3,
+    "label": "Vanuatu",
+    "value": 10.7,
+    "flag": "vu"
+   },
+   "start": 13.48,
+   "end": 16.855,
+   "words": [
+    {
+     "word": "Number",
+     "start": 13.73,
+     "end": 13.992
+    },
+    {
+     "word": "three",
+     "start": 13.992,
+     "end": 14.305
+    },
+    {
+     "word": "is",
+     "start": 14.305,
+     "end": 14.418
+    },
+    {
+     "word": "Vanuatu.",
+     "start": 14.418,
+     "end": 15.055
+    },
+    {
+     "word": "Almost",
+     "start": 15.205,
+     "end": 15.58
+    },
+    {
+     "word": "eleven",
+     "start": 15.58,
+     "end": 15.98
+    },
+    {
+     "word": "percent.",
+     "start": 15.98,
+     "end": 16.63
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number two has fewer than ten thousand people. Tuvalu. Almost fourteen percent.",
+   "props": {
+    "rank": 2,
+    "label": "Tuvalu",
+    "value": 13.8,
+    "flag": "tv"
+   },
+   "start": 16.915,
+   "end": 22.24,
+   "words": [
+    {
+     "word": "Number",
+     "start": 17.165,
+     "end": 17.427
+    },
+    {
+     "word": "two",
+     "start": 17.427,
+     "end": 17.69
+    },
+    {
+     "word": "has",
+     "start": 17.69,
+     "end": 17.89
+    },
+    {
+     "word": "fewer",
+     "start": 17.89,
+     "end": 18.177
+    },
+    {
+     "word": "than",
+     "start": 18.177,
+     "end": 18.315
+    },
+    {
+     "word": "ten",
+     "start": 18.315,
+     "end": 18.565
+    },
+    {
+     "word": "thousand",
+     "start": 18.565,
+     "end": 18.94
+    },
+    {
+     "word": "people.",
+     "start": 18.94,
+     "end": 19.59
+    },
+    {
+     "word": "Tuvalu.",
+     "start": 19.727,
+     "end": 20.365
+    },
+    {
+     "word": "Almost",
+     "start": 20.49,
+     "end": 20.89
+    },
+    {
+     "word": "fourteen",
+     "start": 20.89,
+     "end": 21.34
+    },
+    {
+     "word": "percent.",
+     "start": 21.34,
+     "end": 22.015
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Kiribati. Almost fifteen percent. A tiny economy has to run schools on thirty-three islands.",
+   "props": {
+    "rank": 1,
+    "label": "Kiribati",
+    "value": 14.8,
+    "flag": "ki"
+   },
+   "start": 22.3,
+   "end": 29.675,
+   "words": [
+    {
+     "word": "And",
+     "start": 22.525,
+     "end": 22.662
+    },
+    {
+     "word": "number",
+     "start": 22.662,
+     "end": 22.925
+    },
+    {
+     "word": "one",
+     "start": 22.925,
+     "end": 23.262
+    },
+    {
+     "word": "is",
+     "start": 23.262,
+     "end": 23.425
+    },
+    {
+     "word": "Kiribati.",
+     "start": 23.425,
+     "end": 24.2
+    },
+    {
+     "word": "Almost",
+     "start": 24.325,
+     "end": 24.737
+    },
+    {
+     "word": "fifteen",
+     "start": 24.737,
+     "end": 25.175
+    },
+    {
+     "word": "percent.",
+     "start": 25.175,
+     "end": 25.925
+    },
+    {
+     "word": "A",
+     "start": 26.037,
+     "end": 26.15
+    },
+    {
+     "word": "tiny",
+     "start": 26.15,
+     "end": 26.5
+    },
+    {
+     "word": "economy",
+     "start": 26.5,
+     "end": 27.075
+    },
+    {
+     "word": "has",
+     "start": 27.075,
+     "end": 27.275
+    },
+    {
+     "word": "to",
+     "start": 27.275,
+     "end": 27.4
+    },
+    {
+     "word": "run",
+     "start": 27.4,
+     "end": 27.625
+    },
+    {
+     "word": "schools",
+     "start": 27.625,
+     "end": 28.05
+    },
+    {
+     "word": "on",
+     "start": 28.05,
+     "end": 28.262
+    },
+    {
+     "word": "thirty-three",
+     "start": 28.262,
+     "end": 28.75
+    },
+    {
+     "word": "islands.",
+     "start": 28.75,
+     "end": 29.45
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "And it keeps climbing. In 2023 Kiribati hit sixteen percent.",
+   "props": {
+    "title": "Kiribati education spending, % of GDP",
+    "subtitle": "2012 to 2023",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "series": [
+     [
+      2012,
+      12.5
+     ],
+     [
+      2013,
+      12.09
+     ],
+     [
+      2014,
+      11.51
+     ],
+     [
+      2015,
+      10.77
+     ],
+     [
+      2016,
+      11.65
+     ],
+     [
+      2017,
+      11.48
+     ],
+     [
+      2018,
+      12.92
+     ],
+     [
+      2019,
+      14.52
+     ],
+     [
+      2020,
+      16.23
+     ],
+     [
+      2021,
+      13.99
+     ],
+     [
+      2022,
+      14.79
+     ],
+     [
+      2023,
+      16.39
+     ]
+    ],
+    "badge": "16.4% in 2023"
+   },
+   "start": 29.735,
+   "end": 34.585,
+   "words": [
+    {
+     "word": "And",
+     "start": 29.96,
+     "end": 30.072
+    },
+    {
+     "word": "it",
+     "start": 30.072,
+     "end": 30.16
+    },
+    {
+     "word": "keeps",
+     "start": 30.16,
+     "end": 30.435
+    },
+    {
+     "word": "climbing.",
+     "start": 30.435,
+     "end": 31.16
+    },
+    {
+     "word": "In",
+     "start": 31.297,
+     "end": 31.435
+    },
+    {
+     "word": "2023",
+     "start": 31.435,
+     "end": 32.447
+    },
+    {
+     "word": "Kiribati",
+     "start": 32.447,
+     "end": 32.985
+    },
+    {
+     "word": "hit",
+     "start": 32.985,
+     "end": 33.222
+    },
+    {
+     "word": "sixteen",
+     "start": 33.222,
+     "end": 33.685
+    },
+    {
+     "word": "percent.",
+     "start": 33.685,
+     "end": 34.36
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "But that is only about three hundred dollars per person. Germany spends almost nine times more.",
+   "props": {
+    "value": 307,
+    "format": {
+     "prefix": "$",
+     "decimals": 0
+    },
+    "caption": "Kiribati, education spending per person, 2022",
+    "at": "three",
+    "compare": {
+     "format": {
+      "prefix": "$",
+      "decimals": 0
+     },
+     "items": [
+      {
+       "label": "Kiribati",
+       "value": 307
+      },
+      {
+       "label": "Germany",
+       "value": 2646
+      }
+     ]
+    }
+   },
+   "start": 34.645,
+   "end": 40.345,
+   "words": [
+    {
+     "word": "But",
+     "start": 34.845,
+     "end": 34.97
+    },
+    {
+     "word": "that",
+     "start": 34.97,
+     "end": 35.22
+    },
+    {
+     "word": "is",
+     "start": 35.22,
+     "end": 35.345
+    },
+    {
+     "word": "only",
+     "start": 35.345,
+     "end": 35.645
+    },
+    {
+     "word": "about",
+     "start": 35.645,
+     "end": 35.982
+    },
+    {
+     "word": "three",
+     "start": 35.982,
+     "end": 36.22
+    },
+    {
+     "word": "hundred",
+     "start": 36.22,
+     "end": 36.495
+    },
+    {
+     "word": "dollars",
+     "start": 36.495,
+     "end": 36.895
+    },
+    {
+     "word": "per",
+     "start": 36.895,
+     "end": 37.02
+    },
+    {
+     "word": "person.",
+     "start": 37.02,
+     "end": 37.77
+    },
+    {
+     "word": "Germany",
+     "start": 37.907,
+     "end": 38.32
+    },
+    {
+     "word": "spends",
+     "start": 38.32,
+     "end": 38.62
+    },
+    {
+     "word": "almost",
+     "start": 38.62,
+     "end": 39.007
+    },
+    {
+     "word": "nine",
+     "start": 39.007,
+     "end": 39.32
+    },
+    {
+     "word": "times",
+     "start": 39.32,
+     "end": 39.645
+    },
+    {
+     "word": "more.",
+     "start": 39.645,
+     "end": 40.12
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "How much does your country spend on school? Follow for more money, mapped.",
+   "props": {},
+   "start": 40.405,
+   "end": 44.455,
+   "words": [
+    {
+     "word": "How",
+     "start": 40.63,
+     "end": 40.755
+    },
+    {
+     "word": "much",
+     "start": 40.755,
+     "end": 40.967
+    },
+    {
+     "word": "does",
+     "start": 40.967,
+     "end": 41.092
+    },
+    {
+     "word": "your",
+     "start": 41.092,
+     "end": 41.205
+    },
+    {
+     "word": "country",
+     "start": 41.205,
+     "end": 41.58
+    },
+    {
+     "word": "spend",
+     "start": 41.58,
+     "end": 41.792
+    },
+    {
+     "word": "on",
+     "start": 41.792,
+     "end": 41.942
+    },
+    {
+     "word": "school?",
+     "start": 41.942,
+     "end": 42.505
+    },
+    {
+     "word": "Follow",
+     "start": 42.642,
+     "end": 42.98
+    },
+    {
+     "word": "for",
+     "start": 42.98,
+     "end": 43.105
+    },
+    {
+     "word": "more",
+     "start": 43.105,
+     "end": 43.305
+    },
+    {
+     "word": "money,",
+     "start": 43.305,
+     "end": 43.63
+    },
+    {
+     "word": "mapped.",
+     "start": 43.68,
+     "end": 44.23
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 1354,
+ "fps": 30,
+ "aligned": "tts"
+}
