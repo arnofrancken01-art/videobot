@@ -1,0 +1,805 @@
+{
+ "id": "ep012",
+ "title": "The average person here spends $49,000 a year. Top 5 biggest spenders",
+ "topic": "Biggest spenders 2024",
+ "description": "Where does the average person spend the most money in a year? Number one will surprise you. Real World Bank data (household spending per person, 2024, in constant 2015 US dollars), counted down from five to one.",
+ "tags": [
+  "household spending by country",
+  "cost of living",
+  "consumer spending",
+  "average spending per person",
+  "bermuda",
+  "united states",
+  "switzerland",
+  "norway",
+  "luxembourg",
+  "burundi"
+ ],
+ "source": "World Bank, household final consumption expenditure per capita (constant 2015 US$, 2024, 159 countries with 2024 data), data.worldbank.org/indicator/NE.CON.PRVT.PC.KD",
+ "voice": "af_heart",
+ "hashtags": [
+  "costofliving",
+  "money",
+  "economy",
+  "top5"
+ ],
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "The average person here spends forty-nine thousand dollars a year. Can you guess where?",
+   "props": {
+    "kicker": "Spent per person, in one year",
+    "big": 49.4,
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 1
+    },
+    "sub": "one place, 2024",
+    "icon": "coin"
+   },
+   "start": 0.05,
+   "end": 4.95,
+   "words": [
+    {
+     "word": "The",
+     "start": 0.25,
+     "end": 0.388
+    },
+    {
+     "word": "average",
+     "start": 0.388,
+     "end": 0.775
+    },
+    {
+     "word": "person",
+     "start": 0.775,
+     "end": 1.15
+    },
+    {
+     "word": "here",
+     "start": 1.15,
+     "end": 1.375
+    },
+    {
+     "word": "spends",
+     "start": 1.375,
+     "end": 1.738
+    },
+    {
+     "word": "forty-nine",
+     "start": 1.738,
+     "end": 2.287
+    },
+    {
+     "word": "thousand",
+     "start": 2.287,
+     "end": 2.675
+    },
+    {
+     "word": "dollars",
+     "start": 2.675,
+     "end": 3.012
+    },
+    {
+     "word": "a",
+     "start": 3.012,
+     "end": 3.075
+    },
+    {
+     "word": "year.",
+     "start": 3.075,
+     "end": 3.575
+    },
+    {
+     "word": "Can",
+     "start": 3.7,
+     "end": 3.837
+    },
+    {
+     "word": "you",
+     "start": 3.837,
+     "end": 3.925
+    },
+    {
+     "word": "guess",
+     "start": 3.925,
+     "end": 4.225
+    },
+    {
+     "word": "where?",
+     "start": 4.225,
+     "end": 4.7
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Top five. Number five is Luxembourg. Thirty-eight thousand dollars.",
+   "props": {
+    "title": "Household spending per person, 2024",
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 1
+    },
+    "rank": 5,
+    "label": "Luxembourg",
+    "value": 38.0,
+    "flag": "lu"
+   },
+   "start": 5.01,
+   "end": 9.335,
+   "words": [
+    {
+     "word": "Top",
+     "start": 5.235,
+     "end": 5.485
+    },
+    {
+     "word": "five.",
+     "start": 5.485,
+     "end": 5.885
+    },
+    {
+     "word": "Number",
+     "start": 5.96,
+     "end": 6.185
+    },
+    {
+     "word": "five",
+     "start": 6.185,
+     "end": 6.51
+    },
+    {
+     "word": "is",
+     "start": 6.51,
+     "end": 6.635
+    },
+    {
+     "word": "Luxembourg.",
+     "start": 6.635,
+     "end": 7.41
+    },
+    {
+     "word": "Thirty-eight",
+     "start": 7.547,
+     "end": 8.035
+    },
+    {
+     "word": "thousand",
+     "start": 8.035,
+     "end": 8.435
+    },
+    {
+     "word": "dollars.",
+     "start": 8.435,
+     "end": 9.11
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number four is Norway. Thirty-nine thousand.",
+   "props": {
+    "rank": 4,
+    "label": "Norway",
+    "value": 39.0,
+    "flag": "no"
+   },
+   "start": 9.395,
+   "end": 12.37,
+   "words": [
+    {
+     "word": "Number",
+     "start": 9.645,
+     "end": 9.907
+    },
+    {
+     "word": "four",
+     "start": 9.907,
+     "end": 10.17
+    },
+    {
+     "word": "is",
+     "start": 10.17,
+     "end": 10.32
+    },
+    {
+     "word": "Norway.",
+     "start": 10.32,
+     "end": 10.795
+    },
+    {
+     "word": "Thirty-nine",
+     "start": 10.932,
+     "end": 11.445
+    },
+    {
+     "word": "thousand.",
+     "start": 11.445,
+     "end": 12.12
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Switzerland. Almost forty-six thousand.",
+   "props": {
+    "rank": 3,
+    "label": "Switzerland",
+    "value": 45.8,
+    "flag": "ch"
+   },
+   "start": 12.43,
+   "end": 16.155,
+   "words": [
+    {
+     "word": "Number",
+     "start": 12.68,
+     "end": 12.942
+    },
+    {
+     "word": "three",
+     "start": 12.942,
+     "end": 13.28
+    },
+    {
+     "word": "is",
+     "start": 13.28,
+     "end": 13.405
+    },
+    {
+     "word": "Switzerland.",
+     "start": 13.405,
+     "end": 14.13
+    },
+    {
+     "word": "Almost",
+     "start": 14.255,
+     "end": 14.68
+    },
+    {
+     "word": "forty-six",
+     "start": 14.68,
+     "end": 15.23
+    },
+    {
+     "word": "thousand.",
+     "start": 15.23,
+     "end": 15.905
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number two beats the Swiss. The United States. Forty-six thousand dollars.",
+   "props": {
+    "rank": 2,
+    "label": "United States",
+    "value": 46.0,
+    "flag": "us"
+   },
+   "start": 16.215,
+   "end": 21.065,
+   "words": [
+    {
+     "word": "Number",
+     "start": 16.465,
+     "end": 16.727
+    },
+    {
+     "word": "two",
+     "start": 16.727,
+     "end": 16.99
+    },
+    {
+     "word": "beats",
+     "start": 16.99,
+     "end": 17.253
+    },
+    {
+     "word": "the",
+     "start": 17.253,
+     "end": 17.34
+    },
+    {
+     "word": "Swiss.",
+     "start": 17.34,
+     "end": 17.915
+    },
+    {
+     "word": "The",
+     "start": 18.015,
+     "end": 18.115
+    },
+    {
+     "word": "United",
+     "start": 18.115,
+     "end": 18.515
+    },
+    {
+     "word": "States.",
+     "start": 18.515,
+     "end": 19.065
+    },
+    {
+     "word": "Forty-six",
+     "start": 19.177,
+     "end": 19.765
+    },
+    {
+     "word": "thousand",
+     "start": 19.765,
+     "end": 20.165
+    },
+    {
+     "word": "dollars.",
+     "start": 20.165,
+     "end": 20.84
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "And number one is Bermuda. Over forty-nine thousand. Almost everything on the island is shipped in, so daily life costs a fortune.",
+   "props": {
+    "rank": 1,
+    "label": "Bermuda",
+    "value": 49.4,
+    "flag": "bm"
+   },
+   "start": 21.125,
+   "end": 29.225,
+   "words": [
+    {
+     "word": "And",
+     "start": 21.35,
+     "end": 21.488
+    },
+    {
+     "word": "number",
+     "start": 21.488,
+     "end": 21.75
+    },
+    {
+     "word": "one",
+     "start": 21.75,
+     "end": 22.025
+    },
+    {
+     "word": "is",
+     "start": 22.025,
+     "end": 22.175
+    },
+    {
+     "word": "Bermuda.",
+     "start": 22.175,
+     "end": 22.9
+    },
+    {
+     "word": "Over",
+     "start": 23.05,
+     "end": 23.312
+    },
+    {
+     "word": "forty-nine",
+     "start": 23.312,
+     "end": 23.875
+    },
+    {
+     "word": "thousand.",
+     "start": 23.875,
+     "end": 24.65
+    },
+    {
+     "word": "Almost",
+     "start": 24.788,
+     "end": 25.225
+    },
+    {
+     "word": "everything",
+     "start": 25.225,
+     "end": 25.637
+    },
+    {
+     "word": "on",
+     "start": 25.637,
+     "end": 25.738
+    },
+    {
+     "word": "the",
+     "start": 25.738,
+     "end": 25.85
+    },
+    {
+     "word": "island",
+     "start": 25.85,
+     "end": 26.225
+    },
+    {
+     "word": "is",
+     "start": 26.225,
+     "end": 26.363
+    },
+    {
+     "word": "shipped",
+     "start": 26.363,
+     "end": 26.613
+    },
+    {
+     "word": "in,",
+     "start": 26.613,
+     "end": 26.975
+    },
+    {
+     "word": "so",
+     "start": 27.075,
+     "end": 27.262
+    },
+    {
+     "word": "daily",
+     "start": 27.262,
+     "end": 27.625
+    },
+    {
+     "word": "life",
+     "start": 27.625,
+     "end": 27.925
+    },
+    {
+     "word": "costs",
+     "start": 27.925,
+     "end": 28.262
+    },
+    {
+     "word": "a",
+     "start": 28.262,
+     "end": 28.325
+    },
+    {
+     "word": "fortune.",
+     "start": 28.325,
+     "end": 29.0
+    }
+   ]
+  },
+  {
+   "scene": "line",
+   "text": "In America, spending per person grew forty-six percent since 2000. Even after inflation.",
+   "props": {
+    "title": "US household spending per person",
+    "subtitle": "2000 to 2024, in 2015 dollars",
+    "format": {
+     "prefix": "$",
+     "suffix": "k",
+     "decimals": 1
+    },
+    "series": [
+     [
+      2000,
+      31.6
+     ],
+     [
+      2002,
+      32.6
+     ],
+     [
+      2004,
+      34.3
+     ],
+     [
+      2006,
+      35.8
+     ],
+     [
+      2008,
+      36.1
+     ],
+     [
+      2010,
+      35.7
+     ],
+     [
+      2012,
+      36.2
+     ],
+     [
+      2014,
+      37.3
+     ],
+     [
+      2016,
+      38.8
+     ],
+     [
+      2018,
+      40.4
+     ],
+     [
+      2020,
+      39.9
+     ],
+     [
+      2022,
+      44.4
+     ],
+     [
+      2024,
+      46.0
+     ]
+    ],
+    "badge": "+46% since 2000"
+   },
+   "start": 29.285,
+   "end": 35.36,
+   "words": [
+    {
+     "word": "In",
+     "start": 29.535,
+     "end": 29.622
+    },
+    {
+     "word": "America,",
+     "start": 29.622,
+     "end": 30.21
+    },
+    {
+     "word": "spending",
+     "start": 30.31,
+     "end": 30.635
+    },
+    {
+     "word": "per",
+     "start": 30.635,
+     "end": 30.785
+    },
+    {
+     "word": "person",
+     "start": 30.785,
+     "end": 31.21
+    },
+    {
+     "word": "grew",
+     "start": 31.21,
+     "end": 31.448
+    },
+    {
+     "word": "forty-six",
+     "start": 31.448,
+     "end": 32.01
+    },
+    {
+     "word": "percent",
+     "start": 32.01,
+     "end": 32.46
+    },
+    {
+     "word": "since",
+     "start": 32.46,
+     "end": 32.685
+    },
+    {
+     "word": "2000.",
+     "start": 32.685,
+     "end": 33.61
+    },
+    {
+     "word": "Even",
+     "start": 33.748,
+     "end": 34.085
+    },
+    {
+     "word": "after",
+     "start": 34.085,
+     "end": 34.347
+    },
+    {
+     "word": "inflation.",
+     "start": 34.347,
+     "end": 35.135
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "In Burundi, people spend just one hundred ninety-five dollars a year. Bermuda spends two hundred fifty-four times more.",
+   "props": {
+    "value": 254,
+    "format": {
+     "suffix": "x",
+     "decimals": 0
+    },
+    "caption": "Bermuda vs Burundi, spending per person, 2024",
+    "at": "two",
+    "compare": {
+     "format": {
+      "prefix": "$",
+      "decimals": 0
+     },
+     "items": [
+      {
+       "label": "Burundi",
+       "value": 195
+      },
+      {
+       "label": "Bermuda",
+       "value": 49424
+      }
+     ]
+    }
+   },
+   "start": 35.42,
+   "end": 42.57,
+   "words": [
+    {
+     "word": "In",
+     "start": 35.67,
+     "end": 35.77
+    },
+    {
+     "word": "Burundi,",
+     "start": 35.77,
+     "end": 36.42
+    },
+    {
+     "word": "people",
+     "start": 36.52,
+     "end": 36.87
+    },
+    {
+     "word": "spend",
+     "start": 36.87,
+     "end": 37.17
+    },
+    {
+     "word": "just",
+     "start": 37.17,
+     "end": 37.42
+    },
+    {
+     "word": "one",
+     "start": 37.42,
+     "end": 37.595
+    },
+    {
+     "word": "hundred",
+     "start": 37.595,
+     "end": 37.945
+    },
+    {
+     "word": "ninety-five",
+     "start": 37.945,
+     "end": 38.545
+    },
+    {
+     "word": "dollars",
+     "start": 38.545,
+     "end": 38.883
+    },
+    {
+     "word": "a",
+     "start": 38.883,
+     "end": 38.945
+    },
+    {
+     "word": "year.",
+     "start": 38.945,
+     "end": 39.545
+    },
+    {
+     "word": "Bermuda",
+     "start": 39.683,
+     "end": 40.195
+    },
+    {
+     "word": "spends",
+     "start": 40.195,
+     "end": 40.558
+    },
+    {
+     "word": "two",
+     "start": 40.558,
+     "end": 40.77
+    },
+    {
+     "word": "hundred",
+     "start": 40.77,
+     "end": 41.045
+    },
+    {
+     "word": "fifty-four",
+     "start": 41.045,
+     "end": 41.52
+    },
+    {
+     "word": "times",
+     "start": 41.52,
+     "end": 41.845
+    },
+    {
+     "word": "more.",
+     "start": 41.845,
+     "end": 42.345
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "How much do you spend in a year? Follow for more money, mapped.",
+   "props": {},
+   "start": 42.63,
+   "end": 46.155,
+   "words": [
+    {
+     "word": "How",
+     "start": 42.855,
+     "end": 43.005
+    },
+    {
+     "word": "much",
+     "start": 43.005,
+     "end": 43.218
+    },
+    {
+     "word": "do",
+     "start": 43.218,
+     "end": 43.318
+    },
+    {
+     "word": "you",
+     "start": 43.318,
+     "end": 43.405
+    },
+    {
+     "word": "spend",
+     "start": 43.405,
+     "end": 43.668
+    },
+    {
+     "word": "in",
+     "start": 43.668,
+     "end": 43.742
+    },
+    {
+     "word": "a",
+     "start": 43.742,
+     "end": 43.805
+    },
+    {
+     "word": "year?",
+     "start": 43.805,
+     "end": 44.205
+    },
+    {
+     "word": "Follow",
+     "start": 44.343,
+     "end": 44.655
+    },
+    {
+     "word": "for",
+     "start": 44.655,
+     "end": 44.78
+    },
+    {
+     "word": "more",
+     "start": 44.78,
+     "end": 45.005
+    },
+    {
+     "word": "money,",
+     "start": 45.005,
+     "end": 45.33
+    },
+    {
+     "word": "mapped.",
+     "start": 45.38,
+     "end": 45.93
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 1405,
+ "fps": 30,
+ "aligned": "tts"
+}
