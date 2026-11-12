@@ -1,0 +1,20 @@
+{
+ "id": "ep014",
+ "title": "What cost 100 in 2010 costs THIS much in Turkey today",
+ "topic": "Prices since 2010",
+ "description": "Same shopping, three countries: Switzerland, the USA and Turkey. What does 100 in 2010 cost now in your country? Real World Bank data.",
+ "tags": ["inflation", "cost of living", "prices since 2010", "turkey inflation", "us inflation", "switzerland", "consumer prices", "turkish lira"],
+ "source": "World Bank, consumer price index (2010 = 100, latest 2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["inflation", "money", "economy", "dataviz"],
+ "format": "thennow",
+ "segments": [
+  {"scene": "thennow", "text": "This cost one hundred in 2010. Guess the price now in Switzerland.", "props": {"label": "Switzerland", "flag": "ch", "caption": "Same shopping, local money", "then": {"year": 2010, "value": 100}, "now": {"year": 2024, "value": 105.51}, "format": {"decimals": 0}, "good": false}},
+  {"scene": "thennow", "text": "One hundred six. Almost nothing changed.", "props": {"reveal": true}},
+  {"scene": "thennow", "text": "Same shopping in America. One hundred in 2010.", "props": {"label": "United States", "flag": "us", "caption": "Same shopping, local money", "then": {"year": 2010, "value": 100}, "now": {"year": 2024, "value": 143.9}, "format": {"decimals": 0}, "good": false}},
+  {"scene": "thennow", "text": "Now one forty-four. Up forty-four percent.", "props": {"reveal": true}},
+  {"scene": "thennow", "text": "Now Turkey. Also one hundred in 2010.", "props": {"label": "Turkey", "flag": "tr", "caption": "Same shopping, local money", "then": {"year": 2010, "value": 100}, "now": {"year": 2024, "value": 1322.9}, "format": {"decimals": 0}, "good": false}},
+  {"scene": "thennow", "text": "One thousand three hundred twenty-three. Thirteen times more.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "What does it cost in your country? Follow for more.", "props": {}}
+ ]
+}
