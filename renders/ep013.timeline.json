@@ -1,0 +1,388 @@
+{
+ "id": "ep013",
+ "title": "Where is a Big Mac more expensive? UK, Japan or Turkey vs the US",
+ "topic": "Big Mac quiz",
+ "description": "Three rounds: guess where the same Big Mac costs more. Real prices from The Economist's Big Mac Index, July 2026. How many did you get?",
+ "tags": [
+  "big mac index",
+  "big mac price",
+  "cost of living",
+  "uk vs usa prices",
+  "japan vs china",
+  "turkey prices",
+  "weak yen",
+  "money quiz"
+ ],
+ "source": "The Economist, Big Mac Index (July 2026, prices in US dollars), github.com/TheEconomist/big-mac-data",
+ "voice": "af_heart",
+ "hashtags": [
+  "bigmac",
+  "money",
+  "economy",
+  "quiz"
+ ],
+ "format": "quiz",
+ "segments": [
+  {
+   "scene": "quiz",
+   "text": "Same Big Mac. Where does it cost more? Britain or America?",
+   "props": {
+    "question": "Where is a Big Mac pricier?",
+    "format": {
+     "prefix": "$",
+     "decimals": 2
+    },
+    "options": [
+     {
+      "label": "Britain",
+      "flag": "gb",
+      "value": 7.4
+     },
+     {
+      "label": "America",
+      "flag": "us",
+      "value": 6.22
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 0.05,
+   "end": 3.8,
+   "words": [
+    {
+     "word": "Same",
+     "start": 0.325,
+     "end": 0.575
+    },
+    {
+     "word": "Big",
+     "start": 0.575,
+     "end": 0.8
+    },
+    {
+     "word": "Mac.",
+     "start": 0.8,
+     "end": 1.25
+    },
+    {
+     "word": "Where",
+     "start": 1.312,
+     "end": 1.438
+    },
+    {
+     "word": "does",
+     "start": 1.438,
+     "end": 1.562
+    },
+    {
+     "word": "it",
+     "start": 1.562,
+     "end": 1.65
+    },
+    {
+     "word": "cost",
+     "start": 1.65,
+     "end": 1.975
+    },
+    {
+     "word": "more?",
+     "start": 1.975,
+     "end": 2.275
+    },
+    {
+     "word": "Britain",
+     "start": 2.375,
+     "end": 2.725
+    },
+    {
+     "word": "or",
+     "start": 2.725,
+     "end": 2.85
+    },
+    {
+     "word": "America?",
+     "start": 2.85,
+     "end": 3.55
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Britain. Seven forty against six twenty-two.",
+   "props": {
+    "reveal": true
+   },
+   "start": 5.46,
+   "end": 8.41,
+   "words": [
+    {
+     "word": "Britain.",
+     "start": 5.685,
+     "end": 6.11
+    },
+    {
+     "word": "Seven",
+     "start": 6.197,
+     "end": 6.51
+    },
+    {
+     "word": "forty",
+     "start": 6.51,
+     "end": 6.835
+    },
+    {
+     "word": "against",
+     "start": 6.835,
+     "end": 7.16
+    },
+    {
+     "word": "six",
+     "start": 7.16,
+     "end": 7.41
+    },
+    {
+     "word": "twenty-two.",
+     "start": 7.41,
+     "end": 8.16
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Japan or China?",
+   "props": {
+    "question": "Where is a Big Mac pricier?",
+    "options": [
+     {
+      "label": "Japan",
+      "flag": "jp",
+      "value": 3.08
+     },
+     {
+      "label": "China",
+      "flag": "cn",
+      "value": 3.91
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 8.47,
+   "end": 10.77,
+   "words": [
+    {
+     "word": "Round",
+     "start": 8.72,
+     "end": 8.97
+    },
+    {
+     "word": "two.",
+     "start": 8.97,
+     "end": 9.27
+    },
+    {
+     "word": "Japan",
+     "start": 9.37,
+     "end": 9.77
+    },
+    {
+     "word": "or",
+     "start": 9.77,
+     "end": 9.933
+    },
+    {
+     "word": "China?",
+     "start": 9.933,
+     "end": 10.52
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "China. The weak yen makes Japan cheap.",
+   "props": {
+    "reveal": true
+   },
+   "start": 12.43,
+   "end": 14.955,
+   "words": [
+    {
+     "word": "China.",
+     "start": 12.68,
+     "end": 13.08
+    },
+    {
+     "word": "The",
+     "start": 13.155,
+     "end": 13.255
+    },
+    {
+     "word": "weak",
+     "start": 13.255,
+     "end": 13.48
+    },
+    {
+     "word": "yen",
+     "start": 13.48,
+     "end": 13.617
+    },
+    {
+     "word": "makes",
+     "start": 13.617,
+     "end": 13.855
+    },
+    {
+     "word": "Japan",
+     "start": 13.855,
+     "end": 14.217
+    },
+    {
+     "word": "cheap.",
+     "start": 14.217,
+     "end": 14.705
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Final round. Turkey or America?",
+   "props": {
+    "question": "Where is a Big Mac pricier?",
+    "options": [
+     {
+      "label": "Turkey",
+      "flag": "tr",
+      "value": 6.91
+     },
+     {
+      "label": "America",
+      "flag": "us",
+      "value": 6.22
+     }
+    ],
+    "pause": 1.8
+   },
+   "start": 15.015,
+   "end": 17.615,
+   "words": [
+    {
+     "word": "Final",
+     "start": 15.265,
+     "end": 15.59
+    },
+    {
+     "word": "round.",
+     "start": 15.59,
+     "end": 16.04
+    },
+    {
+     "word": "Turkey",
+     "start": 16.14,
+     "end": 16.565
+    },
+    {
+     "word": "or",
+     "start": 16.565,
+     "end": 16.678
+    },
+    {
+     "word": "America?",
+     "start": 16.678,
+     "end": 17.365
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Turkey. Sixty-nine cents more than America.",
+   "props": {
+    "reveal": true
+   },
+   "start": 19.475,
+   "end": 22.325,
+   "words": [
+    {
+     "word": "Turkey.",
+     "start": 19.7,
+     "end": 20.125
+    },
+    {
+     "word": "Sixty-nine",
+     "start": 20.2,
+     "end": 20.825
+    },
+    {
+     "word": "cents",
+     "start": 20.825,
+     "end": 21.1
+    },
+    {
+     "word": "more",
+     "start": 21.1,
+     "end": 21.288
+    },
+    {
+     "word": "than",
+     "start": 21.288,
+     "end": 21.388
+    },
+    {
+     "word": "America.",
+     "start": 21.388,
+     "end": 22.075
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "How many did you get? Follow for more.",
+   "props": {},
+   "start": 22.385,
+   "end": 24.81,
+   "words": [
+    {
+     "word": "How",
+     "start": 22.61,
+     "end": 22.773
+    },
+    {
+     "word": "many",
+     "start": 22.773,
+     "end": 22.973
+    },
+    {
+     "word": "did",
+     "start": 22.973,
+     "end": 23.098
+    },
+    {
+     "word": "you",
+     "start": 23.098,
+     "end": 23.185
+    },
+    {
+     "word": "get?",
+     "start": 23.185,
+     "end": 23.535
+    },
+    {
+     "word": "Follow",
+     "start": 23.635,
+     "end": 23.96
+    },
+    {
+     "word": "for",
+     "start": 23.96,
+     "end": 24.085
+    },
+    {
+     "word": "more.",
+     "start": 24.085,
+     "end": 24.56
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 765,
+ "fps": 30,
+ "aligned": "tts"
+}
