@@ -1,0 +1,20 @@
+{
+ "id": "ep013",
+ "title": "Where is a Big Mac more expensive? UK, Japan or Turkey vs the US",
+ "topic": "Big Mac quiz",
+ "description": "Three rounds: guess where the same Big Mac costs more. Real prices from The Economist's Big Mac Index, July 2026. How many did you get?",
+ "tags": ["big mac index", "big mac price", "cost of living", "uk vs usa prices", "japan vs china", "turkey prices", "weak yen", "money quiz"],
+ "source": "The Economist, Big Mac Index (July 2026, prices in US dollars), github.com/TheEconomist/big-mac-data",
+ "voice": "af_heart",
+ "hashtags": ["bigmac", "money", "economy", "quiz"],
+ "format": "quiz",
+ "segments": [
+  {"scene": "quiz", "text": "Same Big Mac. Where does it cost more? Britain or America?", "props": {"question": "Where is a Big Mac pricier?", "format": {"prefix": "$", "decimals": 2}, "options": [{"label": "Britain", "flag": "gb", "value": 7.40}, {"label": "America", "flag": "us", "value": 6.22}], "pause": 1.6}},
+  {"scene": "quiz", "text": "Britain. Seven forty against six twenty-two.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Round two. Japan or China?", "props": {"question": "Where is a Big Mac pricier?", "options": [{"label": "Japan", "flag": "jp", "value": 3.08}, {"label": "China", "flag": "cn", "value": 3.91}], "pause": 1.6}},
+  {"scene": "quiz", "text": "China. The weak yen makes Japan cheap.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Final round. Turkey or America?", "props": {"question": "Where is a Big Mac pricier?", "options": [{"label": "Turkey", "flag": "tr", "value": 6.91}, {"label": "America", "flag": "us", "value": 6.22}], "pause": 1.8}},
+  {"scene": "quiz", "text": "Turkey. Sixty-nine cents more than America.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "How many did you get? Follow for more.", "props": {}}
+ ]
+}
