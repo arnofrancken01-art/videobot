@@ -1,12 +1,20 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-12T14:42:10Z",
+ "fetched_at": "2026-11-12T16:13:56Z",
  "videos": [
+  {
+   "video_id": "imAG89d-mu8",
+   "title": "What cost 100 in 2010 costs THIS much in Turkey today #shorts",
+   "views": 0,
+   "question_posted": false,
+   "question": "What does it cost in your country?",
+   "comments": []
+  },
   {
    "video_id": "72oAHrUaQ-Q",
    "title": "Where is a Big Mac more expensive? UK, Japan or Turkey vs the US #shorts",
-   "views": 1,
-   "question_posted": false,
+   "views": 2,
+   "question_posted": true,
    "question": "How many did you get?",
    "comments": []
   },
@@ -29,7 +37,7 @@
   {
    "video_id": "jjxdL2HxUE8",
    "title": "$1 = 89,500 of this money. Top 5 currencies with the most per dollar #shorts",
-   "views": 74,
+   "views": 75,
    "question_posted": true,
    "question": "Iran is missing from the 2024 data. Where would it rank?",
    "comments": [
@@ -53,14 +61,6 @@
    "views": 12,
    "question_posted": true,
    "question": "This counts central government taxes only. Where does your country land?",
-   "comments": []
-  },
-  {
-   "video_id": "VoPfnM12ugk",
-   "title": "This country saves 48% of its economy. Top 5 biggest savers 2024 #shorts",
-   "views": 5,
-   "question_posted": true,
-   "question": "America saves just seventeen percent. How much do you save?",
    "comments": []
   }
  ]
