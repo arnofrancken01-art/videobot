@@ -1,19 +1,27 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-11T16:14:42Z",
+ "fetched_at": "2026-11-12T14:42:10Z",
  "videos": [
+  {
+   "video_id": "72oAHrUaQ-Q",
+   "title": "Where is a Big Mac more expensive? UK, Japan or Turkey vs the US #shorts",
+   "views": 1,
+   "question_posted": false,
+   "question": "How many did you get?",
+   "comments": []
+  },
   {
    "video_id": "koBRVJRPw2E",
    "title": "The average person here spends $49,000 a year. Top 5 biggest spenders #shorts",
-   "views": 0,
-   "question_posted": false,
+   "views": 69,
+   "question_posted": true,
    "question": "How much do you spend in a year?",
    "comments": []
   },
   {
    "video_id": "R0w_Pkv9cek",
    "title": "One country spends 15% of its economy on school. Top 5 education 2022 #shorts",
-   "views": 1,
+   "views": 33,
    "question_posted": true,
    "question": "How much does your country spend on school?",
    "comments": []
@@ -21,7 +29,7 @@
   {
    "video_id": "jjxdL2HxUE8",
    "title": "$1 = 89,500 of this money. Top 5 currencies with the most per dollar #shorts",
-   "views": 28,
+   "views": 74,
    "question_posted": true,
    "question": "Iran is missing from the 2024 data. Where would it rank?",
    "comments": [
@@ -42,7 +50,7 @@
   {
    "video_id": "09dHai904-U",
    "title": "This government takes 35% of the economy in tax. Top 5 highest taxes #shorts",
-   "views": 0,
+   "views": 12,
    "question_posted": true,
    "question": "This counts central government taxes only. Where does your country land?",
    "comments": []
@@ -54,56 +62,6 @@
    "question_posted": true,
    "question": "America saves just seventeen percent. How much do you save?",
    "comments": []
-  },
-  {
-   "video_id": "d7WjOEisHcs",
-   "title": "$17 a year for ALL health care. Top 5 lowest health spending #shorts",
-   "views": 12,
-   "question_posted": true,
-   "question": "What does a doctor visit cost where you live?",
-   "comments": []
-  },
-  {
-   "video_id": "gbxv_eV3y1w",
-   "title": "1 in 3 people can't find a job here. Top 5 highest unemployment 2025 #shorts",
-   "views": 20,
-   "question_posted": true,
-   "question": "How easy is it to find a job where you live?",
-   "comments": [
-    {
-     "id": "UgySbPtYVB3xb-F33bR4AaABAg",
-     "author": "@RankedFails-t7x",
-     "text": "🎉",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "Thanks for celebrating with us 🎉 Where are you watching from?"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "video_id": "87rc7aPFs1A",
-   "title": "Prices rose 42% in ONE year in this country. Top 5 highest inflation in 2025 #shorts",
-   "views": 208,
-   "question_posted": true,
-   "question": "How fast are prices rising where you live?",
-   "comments": [
-    {
-     "id": "Ugw9VAA-o342bmMy4i94AaABAg",
-     "author": "@RankedFails-t7x",
-     "text": "🎉",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "thx"
-      }
-     ]
-    }
-   ]
   }
  ]
 }
