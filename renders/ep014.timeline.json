@@ -1,0 +1,432 @@
+{
+ "id": "ep014",
+ "title": "What cost 100 in 2010 costs THIS much in Turkey today",
+ "topic": "Prices since 2010",
+ "description": "Same shopping, three countries: Switzerland, the USA and Turkey. What does 100 in 2010 cost now in your country? Real World Bank data.",
+ "tags": [
+  "inflation",
+  "cost of living",
+  "prices since 2010",
+  "turkey inflation",
+  "us inflation",
+  "switzerland",
+  "consumer prices",
+  "turkish lira"
+ ],
+ "source": "World Bank, consumer price index (2010 = 100, latest 2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "inflation",
+  "money",
+  "economy",
+  "dataviz"
+ ],
+ "format": "thennow",
+ "segments": [
+  {
+   "scene": "thennow",
+   "text": "This cost one hundred in 2010. Guess the price now in Switzerland.",
+   "props": {
+    "label": "Switzerland",
+    "flag": "ch",
+    "caption": "Same shopping, local money",
+    "then": {
+     "year": 2010,
+     "value": 100
+    },
+    "now": {
+     "year": 2024,
+     "value": 105.51
+    },
+    "format": {
+     "decimals": 0
+    },
+    "good": false
+   },
+   "start": 0.05,
+   "end": 4.55,
+   "words": [
+    {
+     "word": "This",
+     "start": 0.275,
+     "end": 0.45
+    },
+    {
+     "word": "cost",
+     "start": 0.45,
+     "end": 0.775
+    },
+    {
+     "word": "one",
+     "start": 0.775,
+     "end": 0.95
+    },
+    {
+     "word": "hundred",
+     "start": 0.95,
+     "end": 1.325
+    },
+    {
+     "word": "in",
+     "start": 1.325,
+     "end": 1.425
+    },
+    {
+     "word": "2010.",
+     "start": 1.425,
+     "end": 2.225
+    },
+    {
+     "word": "Guess",
+     "start": 2.362,
+     "end": 2.625
+    },
+    {
+     "word": "the",
+     "start": 2.625,
+     "end": 2.725
+    },
+    {
+     "word": "price",
+     "start": 2.725,
+     "end": 3.075
+    },
+    {
+     "word": "now",
+     "start": 3.075,
+     "end": 3.35
+    },
+    {
+     "word": "in",
+     "start": 3.35,
+     "end": 3.475
+    },
+    {
+     "word": "Switzerland.",
+     "start": 3.475,
+     "end": 4.325
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "One hundred six. Almost nothing changed.",
+   "props": {
+    "reveal": true
+   },
+   "start": 4.61,
+   "end": 7.41,
+   "words": [
+    {
+     "word": "One",
+     "start": 4.86,
+     "end": 4.997
+    },
+    {
+     "word": "hundred",
+     "start": 4.997,
+     "end": 5.335
+    },
+    {
+     "word": "six.",
+     "start": 5.335,
+     "end": 5.735
+    },
+    {
+     "word": "Almost",
+     "start": 5.835,
+     "end": 6.21
+    },
+    {
+     "word": "nothing",
+     "start": 6.21,
+     "end": 6.51
+    },
+    {
+     "word": "changed.",
+     "start": 6.51,
+     "end": 7.16
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "Same shopping in America. One hundred in 2010.",
+   "props": {
+    "label": "United States",
+    "flag": "us",
+    "caption": "Same shopping, local money",
+    "then": {
+     "year": 2010,
+     "value": 100
+    },
+    "now": {
+     "year": 2024,
+     "value": 143.9
+    },
+    "format": {
+     "decimals": 0
+    },
+    "good": false
+   },
+   "start": 7.47,
+   "end": 10.995,
+   "words": [
+    {
+     "word": "Same",
+     "start": 7.745,
+     "end": 8.032
+    },
+    {
+     "word": "shopping",
+     "start": 8.032,
+     "end": 8.382
+    },
+    {
+     "word": "in",
+     "start": 8.382,
+     "end": 8.457
+    },
+    {
+     "word": "America.",
+     "start": 8.457,
+     "end": 9.07
+    },
+    {
+     "word": "One",
+     "start": 9.207,
+     "end": 9.445
+    },
+    {
+     "word": "hundred",
+     "start": 9.445,
+     "end": 9.82
+    },
+    {
+     "word": "in",
+     "start": 9.82,
+     "end": 9.92
+    },
+    {
+     "word": "2010.",
+     "start": 9.92,
+     "end": 10.745
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "Now one forty-four. Up forty-four percent.",
+   "props": {
+    "reveal": true
+   },
+   "start": 11.055,
+   "end": 13.955,
+   "words": [
+    {
+     "word": "Now",
+     "start": 11.33,
+     "end": 11.505
+    },
+    {
+     "word": "one",
+     "start": 11.505,
+     "end": 11.73
+    },
+    {
+     "word": "forty-four.",
+     "start": 11.73,
+     "end": 12.355
+    },
+    {
+     "word": "Up",
+     "start": 12.455,
+     "end": 12.655
+    },
+    {
+     "word": "forty-four",
+     "start": 12.655,
+     "end": 13.08
+    },
+    {
+     "word": "percent.",
+     "start": 13.08,
+     "end": 13.73
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "Now Turkey. Also one hundred in 2010.",
+   "props": {
+    "label": "Turkey",
+    "flag": "tr",
+    "caption": "Same shopping, local money",
+    "then": {
+     "year": 2010,
+     "value": 100
+    },
+    "now": {
+     "year": 2024,
+     "value": 1322.9
+    },
+    "format": {
+     "decimals": 0
+    },
+    "good": false
+   },
+   "start": 14.015,
+   "end": 17.165,
+   "words": [
+    {
+     "word": "Now",
+     "start": 14.265,
+     "end": 14.465
+    },
+    {
+     "word": "Turkey.",
+     "start": 14.465,
+     "end": 14.99
+    },
+    {
+     "word": "Also",
+     "start": 15.115,
+     "end": 15.465
+    },
+    {
+     "word": "one",
+     "start": 15.465,
+     "end": 15.615
+    },
+    {
+     "word": "hundred",
+     "start": 15.615,
+     "end": 15.99
+    },
+    {
+     "word": "in",
+     "start": 15.99,
+     "end": 16.09
+    },
+    {
+     "word": "2010.",
+     "start": 16.09,
+     "end": 16.915
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "One thousand three hundred twenty-three. Thirteen times more.",
+   "props": {
+    "reveal": true
+   },
+   "start": 17.225,
+   "end": 20.825,
+   "words": [
+    {
+     "word": "One",
+     "start": 17.475,
+     "end": 17.7
+    },
+    {
+     "word": "thousand",
+     "start": 17.7,
+     "end": 18.062
+    },
+    {
+     "word": "three",
+     "start": 18.062,
+     "end": 18.288
+    },
+    {
+     "word": "hundred",
+     "start": 18.288,
+     "end": 18.525
+    },
+    {
+     "word": "twenty-three.",
+     "start": 18.525,
+     "end": 19.2
+    },
+    {
+     "word": "Thirteen",
+     "start": 19.338,
+     "end": 19.775
+    },
+    {
+     "word": "times",
+     "start": 19.775,
+     "end": 20.1
+    },
+    {
+     "word": "more.",
+     "start": 20.1,
+     "end": 20.575
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "What does it cost in your country? Follow for more.",
+   "props": {},
+   "start": 20.885,
+   "end": 23.76,
+   "words": [
+    {
+     "word": "What",
+     "start": 21.11,
+     "end": 21.223
+    },
+    {
+     "word": "does",
+     "start": 21.223,
+     "end": 21.348
+    },
+    {
+     "word": "it",
+     "start": 21.348,
+     "end": 21.435
+    },
+    {
+     "word": "cost",
+     "start": 21.435,
+     "end": 21.723
+    },
+    {
+     "word": "in",
+     "start": 21.723,
+     "end": 21.798
+    },
+    {
+     "word": "your",
+     "start": 21.798,
+     "end": 21.91
+    },
+    {
+     "word": "country?",
+     "start": 21.91,
+     "end": 22.435
+    },
+    {
+     "word": "Follow",
+     "start": 22.573,
+     "end": 22.91
+    },
+    {
+     "word": "for",
+     "start": 22.91,
+     "end": 23.035
+    },
+    {
+     "word": "more.",
+     "start": 23.035,
+     "end": 23.51
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 733,
+ "fps": 30,
+ "aligned": "tts"
+}
