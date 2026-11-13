@@ -1,0 +1,19 @@
+{
+ "id": "ep015",
+ "title": "If the world economy were $100: America gets $26. India gets $3",
+ "topic": "The world as $100",
+ "description": "If the whole world economy were 100 dollars, how many would your country get? Real World Bank data for 2024.",
+ "tags": ["world economy", "world gdp", "gdp by country", "biggest economies", "usa economy", "china economy", "india economy", "germany economy", "share of world gdp"],
+ "source": "World Bank, GDP in current US dollars (2024, share of the sum of 200 economies), data.worldbank.org/indicator/NY.GDP.MKTP.CD; population via SP.POP.TOTL",
+ "voice": "af_heart",
+ "hashtags": ["worldeconomy", "money", "economy", "dataviz"],
+ "format": "dots",
+ "segments": [
+  {"scene": "dots", "text": "The whole world economy is one hundred dollars. America holds twenty-six.", "props": {"title": "The world economy as $100", "parts": [{"label": "USA", "count": 26, "flag": "us"}, {"label": "China", "count": 17, "flag": "cn"}, {"label": "Germany", "count": 4, "flag": "de"}, {"label": "India", "count": 3, "flag": "in"}, {"label": "Everyone else", "count": 50}], "part": "USA", "at": "twenty"}},
+  {"scene": "dots", "text": "China holds seventeen.", "props": {"part": "China", "at": "seventeen"}},
+  {"scene": "dots", "text": "Germany gets four.", "props": {"part": "Germany", "at": "four"}},
+  {"scene": "dots", "text": "India has almost one in five people on Earth. It gets three.", "props": {"part": "India", "at": "three"}},
+  {"scene": "dots", "text": "Every other country shares the last fifty.", "props": {"part": "Everyone else", "at": "fifty"}},
+  {"scene": "outro", "text": "How many dollars does your country get? Follow for more.", "props": {}}
+ ]
+}
