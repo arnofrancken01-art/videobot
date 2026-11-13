@@ -1,0 +1,20 @@
+{
+ "id": "ep016",
+ "title": "Do Americans live longer than people in China? True or false",
+ "topic": "Who lives longer?",
+ "description": "Three statements about how long people live in the USA, Spain, China and Saudi Arabia. Real World Bank life expectancy data (2024). How many did you get right?",
+ "tags": ["life expectancy", "life expectancy by country", "usa vs china", "usa vs spain", "saudi arabia", "american life expectancy", "true or false quiz", "who lives longest"],
+ "source": "World Bank, life expectancy at birth (2024) and GDP per capita (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["lifeexpectancy", "money", "economy", "quiz"],
+ "format": "truefalse",
+ "segments": [
+  {"scene": "truefalse", "text": "True or false? Spaniards live five years longer than Americans.", "props": {"statement": "People in Spain live 5 years longer than Americans", "answer": true, "fact": "Spain 83.9 · USA 78.9 years", "flag": "es", "pause": 1.6}},
+  {"scene": "truefalse", "text": "True. And America is more than twice as rich.", "props": {"reveal": true}},
+  {"scene": "truefalse", "text": "Next. Americans live longer than the Chinese.", "props": {"statement": "Americans live longer than people in China", "answer": true, "fact": "USA 78.9 · China 78.0 years", "flag": "cn", "pause": 1.6}},
+  {"scene": "truefalse", "text": "True. But by less than one year.", "props": {"reveal": true}},
+  {"scene": "truefalse", "text": "Last one. Americans live longer than people in Saudi Arabia.", "props": {"statement": "Americans live longer than people in Saudi Arabia", "answer": false, "fact": "Saudi Arabia 79.0 · USA 78.9 years", "flag": "sa", "pause": 1.8}},
+  {"scene": "truefalse", "text": "False. Saudi Arabia wins by about a month.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "How many did you get? Follow for more.", "props": {}}
+ ]
+}
