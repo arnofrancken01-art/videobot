@@ -1,19 +1,27 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-13T15:28:35Z",
+ "fetched_at": "2026-11-13T16:15:38Z",
  "videos": [
+  {
+   "video_id": "0r8Fg8CwXF0",
+   "title": "Do Americans live longer than people in China? True or false #shorts",
+   "views": 1,
+   "question_posted": false,
+   "question": "How many did you get?",
+   "comments": []
+  },
   {
    "video_id": "uXsKBzmZ_NI",
    "title": "If the world economy were $100: America gets $26. India gets $3 #shorts",
-   "views": 0,
-   "question_posted": false,
+   "views": 1,
+   "question_posted": true,
    "question": "How many dollars does your country get?",
    "comments": []
   },
   {
    "video_id": "imAG89d-mu8",
    "title": "What cost 100 in 2010 costs THIS much in Turkey today #shorts",
-   "views": 6,
+   "views": 7,
    "question_posted": true,
    "question": "What does it cost in your country?",
    "comments": []
@@ -62,14 +70,6 @@
      ]
     }
    ]
-  },
-  {
-   "video_id": "09dHai904-U",
-   "title": "This government takes 35% of the economy in tax. Top 5 highest taxes #shorts",
-   "views": 12,
-   "question_posted": true,
-   "question": "This counts central government taxes only. Where does your country land?",
-   "comments": []
   }
  ]
 }
