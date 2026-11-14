@@ -1,0 +1,19 @@
+{
+ "id": "ep017",
+ "title": "America vs Japan: who lives better? 4 rounds, real data",
+ "topic": "USA vs Japan",
+ "description": "America against Japan in four rounds: income, life expectancy, Big Mac price and safety. Real World Bank and Economist data. Would you move?",
+ "tags": ["usa vs japan", "america vs japan", "life in japan", "japan vs america comparison", "life expectancy japan", "big mac index", "cost of living japan", "safest countries", "income per person"],
+ "source": "World Bank: GDP per capita (2025), life expectancy (2024), homicides per 100,000 (2023); The Economist, Big Mac Index (July 2026)",
+ "voice": "af_heart",
+ "hashtags": ["usavsjapan", "money", "economy", "battle"],
+ "format": "battle",
+ "segments": [
+  {"scene": "battle", "text": "America versus Japan. Four rounds. Who lives better?", "props": {"a": {"label": "USA", "flag": "us"}, "b": {"label": "Japan", "flag": "jp"}}},
+  {"scene": "battle", "text": "Income. America is two and a half times richer.", "props": {"stat": {"label": "Income per person", "a": 90.0, "b": 36.0, "format": {"prefix": "$", "suffix": "k"}}, "at": "America"}},
+  {"scene": "battle", "text": "Life. The Japanese live five years longer.", "props": {"stat": {"label": "Life expectancy", "a": 78.9, "b": 84.0, "format": {"suffix": " yrs", "decimals": 1}}, "at": "Japanese"}},
+  {"scene": "battle", "text": "A Big Mac. Half the price in Japan.", "props": {"stat": {"label": "Big Mac price", "a": 6.22, "b": 3.08, "pick": "lower", "format": {"prefix": "$", "decimals": 2}}, "at": "Half"}},
+  {"scene": "battle", "text": "Safety. Murder is twenty-five times rarer in Japan.", "props": {"stat": {"label": "Murders per 100k people", "a": 5.76, "b": 0.23, "pick": "lower", "format": {"decimals": 2}}, "at": "twenty"}},
+  {"scene": "outro", "text": "Japan wins three to one. Would you move? Follow for more.", "props": {}}
+ ]
+}
