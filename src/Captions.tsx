@@ -1,5 +1,6 @@
 import { useCurrentFrame } from "remotion";
 import { theme } from "./theme";
+import { outline } from "./Headline";
 import type { Seg } from "./Video";
 
 type W = { word: string; start: number; end: number };
@@ -33,10 +34,10 @@ export const Captions: React.FC<{ segments: Seg[]; fps: number }> = ({ segments,
         const active = t >= w.start && t < (c[i + 1]?.start ?? w.end + 0.3);
         return (
           <span key={i} style={{
-            fontSize: 92, fontWeight: 900, margin: "0 14px", display: "inline-block", letterSpacing: -1,
-            color: active ? theme.accent : theme.text,
-            WebkitTextStroke: "3px rgba(0,0,0,0.35)",
-            textShadow: "0 6px 24px rgba(0,0,0,0.7)",
+            fontSize: 100, fontWeight: 900, margin: "0 14px", display: "inline-block", letterSpacing: -2, lineHeight: 1.05,
+            color: active ? theme.pop : "#FFFFFF",
+            transform: active ? "scale(1.08)" : undefined,
+            textShadow: `${outline(8)}, 0 10px 30px rgba(0,0,0,0.8)`,
           }}>{w.word.toUpperCase().replace(/[.,!:;]$/, "")}</span>
         );
       })}

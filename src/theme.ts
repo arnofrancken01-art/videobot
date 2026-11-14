@@ -5,12 +5,13 @@ import "@fontsource/inter/900.css";
 
 export const theme = {
   bg: "#0B0F17",
-  bgSoft: "rgba(255,255,255,0.05)",
-  border: "rgba(255,255,255,0.10)",
+  bgSoft: "rgba(5,11,30,0.66)",
+  border: "rgba(255,255,255,0.20)",
   text: "#F4F6FA",
-  muted: "#8A94A6",
+  muted: "#A9B6CE",
   accent: "#2BD47D", // geld-groen
   warm: "#FFB020",
+  pop: "#FFE14A", // fel geel voor wat moet opvallen (kop, actief woord)
   bar: "#323C4E",
   font: "Inter, sans-serif",
 };

@@ -1,7 +1,8 @@
 # Brein: zo schrijft Claude een nieuwe video
 
 Kanaal: **Money, Mapped**. Korte video's (15 tot 25 seconden) over geld en de wereld, gebouwd op echte data.
-Taal van de video's: Engels. Doelgroep: nieuwsgierige 18-35-jarigen in de VS en Europa.
+Taal van de video's: Engels. Doelgroep: iedereen die trots is op zijn land of wil weten hoe het zich meet met een ander: de VS, maar net zo goed
+India, de Filipijnen, Nigeria, Brazilië, Pakistan, Indonesië en Mexico. Die landen hebben een enorm publiek dat reageert en deelt.
 
 ## Werkwijze per run
 
@@ -40,6 +41,36 @@ Taal van de video's: Engels. Doelgroep: nieuwsgierige 18-35-jarigen in de VS en 
   en rivaliteit ("India vs Pakistan: 4 shocking differences"). Dus: vlaggen groot in beeld, raden, rivalen, simpele
   maatstaven die iedereen snapt (bevolking, loon, prijs, munt), en landen met een groot en trots publiek (India, VS,
   Pakistan, Brazilië, Filipijnen, Nigeria, Indonesië).
+
+## Het eerste beeld (verplicht veld `headline`)
+
+Twee op drie kijkers veegden weg in de eerste seconde. Daarom opent elke video nu met een schermvullend beeld: de vlaggen
+van de eerste scene over het hele scherm en de `headline` in reuzenletters. Na een halve seconde schuift die kop naar boven
+en blijft hij de hele video staan. Onderaan draait een wereldbol die naar elk land vliegt dat een `flag` heeft.
+
+- `headline`: de vraag of belofte van de video, **maximaal 28 tekens**, met het sterkste woord tussen sterretjes (wordt geel):
+  `"Who lives *better*?"`, `"$1 = *89,500* of this?"`, `"Guess the *country*"`, `"India or *Pakistan*?"`.
+  Het moet een vraag zijn die de kijker zelf wil beantwoorden. Geen onderwerp ("Inflation 2025"), wel een uitdaging.
+- `cover` (optioneel): `{"flags": ["in", "pk"], "vs": true}` kiest zelf de vlaggen van het eerste beeld. Zonder `cover` neemt de
+  video de eerste twee vlaggen uit de eerste scene. Bij een raadsel waar het land geheim moet blijven: `{"flags": []}`
+  (dan komt er een blauw beeld met alleen de vraag).
+- De eerste gesproken zin zegt hetzelfde als de headline, in andere woorden, en begint meteen (geen "Did you know").
+
+## De drie reeksen (hier zetten we op in)
+
+Uit onze cijfers en uit wat bij kleine kanalen viraal gaat. **Vier op vijf video's** horen bij een van deze reeksen; de vijfde
+mag een experiment met een ander format zijn. Kijk in `state/stats.json` welke reeks het best scoort en maak daar meer van.
+
+1. **"This country..."** (format `countdown` top 3, `clues` of `thennow`): één extreem getal, het land is het raadsel.
+   "$1 buys 89,500 of this money." "Prices rose 42% here in one year." Dit waren onze twee beste video's.
+2. **Land tegen land** (format `battle`, `quiz` of `race`): twee rivalen met een groot, trots publiek en een simpele maatstaf.
+   India vs Pakistan, India vs China, USA vs China, Philippines vs Indonesia, Nigeria vs South Africa, Brazil vs Argentina,
+   Mexico vs USA, UK vs France, Japan vs South Korea, Turkey vs Greece. De titel begint met de twee landen.
+3. **Raad het** (format `quiz`, `choice`, `truefalse`, `clues`): de kijker speelt mee en zet zijn score in de reacties.
+   Altijd met een bekend land en een antwoord dat verrast.
+
+Maatstaven die iedereen snapt winnen altijd: bevolking, loon, prijs van iets, wat je munt waard is, hoe lang je leeft.
+De titel is maximaal 60 tekens en begint met de landen of het getal.
 
 ## De vier harde regels
 
@@ -91,7 +122,7 @@ Zeg nooit "Follow for more": dat is het sein om weg te vegen. De vraag dient ook
 | `bubbles` | Bellen waarvan de oppervlakte het getal is; ze ploppen een voor een op. | 3 of 4 × `bubbles` → `outro` |
 
 Er zijn dus **14 formats**. Gebruik ze allemaal: kijk in `episodes/` welke formats de laatste 10 afleveringen hadden en kies er een
-dat daar niet of het minst in voorkomt (en nooit een van de laatste twee). Kies daarna pas het onderwerp dat bij dat format past.
+dat past bij de reeks die je kiest (zie "De drie reeksen"), en nooit hetzelfde als de vorige aflevering.
 Bedenk gerust een nieuwe invalshoek binnen een format. Creativiteit mag, zolang elk getal uit `data/` komt.
 
 Regels voor de tekst:
@@ -100,7 +131,7 @@ Regels voor de tekst:
 - **Zeg de landnaam letterlijk zoals in `label`**: het beeld slaat in op dat woord. Gewone Engelse namen ("Turkey", niet "Turkiye").
 - **Eerlijk:** bij een quiz moet het antwoord ondubbelzinnig uit de data volgen. Is het verschil kleiner dan 1%, zeg dat erbij ("by just twenty-seven dollars").
   Geef waar het kan in vijf woorden de reden ("Big tech books its profits there.").
-- **Outro:** maximaal 12 woorden: een korte vraag die reacties uitlokt + "Follow for more."
+- **Outro:** één korte vraag die reacties uitlokt (zie hierboven). Ze komt groot in beeld met "Comment your answer". Nooit "Follow for more".
 - **Wereldkaart** (`"map": true` in het eerste rank-segment): alleen bij een countdown met landen op verschillende continenten.
 
 ## Uploadtekst (voor zoveel mogelijk bereik)
@@ -258,7 +289,7 @@ Opeenvolgende segmenten met dezelfde scene `versus`, `bars` of `line` worden é�
 {"scene":"line","text":"And the price nearly tripled since 2000.","props":{"title":"Big Mac price in the US","subtitle":"2000 to 2026","format":{"prefix":"$","decimals":2},"series":[[2000,2.24],[2026,6.22]],"badge":"2.8x since 2000"}}
 ```
 
-**outro**: `{"scene":"outro","text":"How many did you get? Follow for more.","props":{}}`
+**outro**: `{"scene":"outro","text":"How many did you get?","props":{}}`
 
 `format` velden: `prefix`, `suffix`, `decimals`. Grote bedragen liever omrekenen naar duizenden of miljarden met een duidelijke suffix (bv. `{"prefix":"$","suffix":"k"}`).
 

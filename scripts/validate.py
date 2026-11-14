@@ -37,10 +37,22 @@ if segs and scenes[-1] != "outro":
 if segs and len(segs[-1].get("text", "").split()) > 12:
     errors.append("outro: maximaal 12 woorden (één korte vraag die terugloopt naar de eerste zin, zonder 'Follow for more')")
 
-# Afwisseling: niet hetzelfde format als een van de vorige twee afleveringen.
+if segs and "follow for more" in segs[-1].get("text", "").lower():
+    errors.append("outro: geen 'Follow for more'; eindig op de vraag aan de kijker")
+head = ep.get("headline", "").replace("*", "")
+if not head:
+    errors.append("veld 'headline' ontbreekt: de vraag van de video in max. 28 tekens, het eerste wat de scroller ziet")
+elif len(head) > 28:
+    errors.append(f"headline is {len(head)} tekens; maximaal 28 (reuzenletters op het eerste beeld)")
+elif "*" not in ep.get("headline", ""):
+    warnings.append("headline: zet het belangrijkste woord tussen *sterretjes* (wordt geel)")
+if len(ep.get("title", "")) > 60:
+    warnings.append("title is langer dan 60 tekens; in de Shorts-feed wordt hij dan afgekapt")
+
+# Afwisseling: niet hetzelfde format als de vorige aflevering.
 m = re.fullmatch(r"ep(\d+)", path.stem)
 if m and fmt in FORMATS:
-    for k in (1, 2):
+    for k in (1,):
         prev_path = path.parent / f"ep{int(m.group(1)) - k:03d}.json"
         if prev_path.exists() and json.loads(prev_path.read_text()).get("format", "countdown") == fmt:
             errors.append(f"afwisseling: {prev_path.name} was ook format '{fmt}'; kies een ander format")

@@ -3,7 +3,8 @@ import timeline from "./timeline.json";
 import { STAGE, theme } from "./theme";
 import { Background } from "./Background";
 import { Captions } from "./Captions";
-import { Header } from "./Header";
+import { HOLD, DOCK, Headline } from "./Headline";
+import { Globe } from "./Globe";
 import { Versus } from "./scenes/Versus";
 import { Bars } from "./scenes/Bars";
 import { BigNumber } from "./scenes/BigNumber";
@@ -110,21 +111,35 @@ const FlagGlow: React.FC<{ code: string; dur: number }> = ({ code, dur }) => {
   const f = useCurrentFrame();
   const o = interpolate(f, [0, 8, dur - 8, dur], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <AbsoluteFill style={{ opacity: o * 0.16 }}>
-      <Img src={staticFile(`flags/${code}.svg`)} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "blur(30px) saturate(1.3)", transform: `scale(${1.15 + 0.08 * (f / dur)})` }} />
+    <AbsoluteFill style={{ opacity: o * 0.42, maskImage: "linear-gradient(180deg, black 0%, black 50%, transparent 72%)" }}>
+      <Img src={staticFile(`flags/${code}.svg`)} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "blur(14px) saturate(1.35)", transform: `scale(${1.15 + 0.08 * (f / dur)})` }} />
     </AbsoluteFill>
   );
 };
+// Openingsbeeld: de eerste twee vlaggen uit de eerste scene, of wat de aflevering zelf opgeeft in cover.flags.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const deepFlags = (v: any, out: string[] = []): string[] => {
+  if (v && typeof v === "object") for (const [k, x] of Object.entries(v)) {
+    if (k === "flag" && typeof x === "string") { if (!out.includes(x)) out.push(x); } else deepFlags(x, out);
+  }
+  return out;
+};
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const cover: { flags?: string[]; vs?: boolean } = (timeline as any).cover ?? {};
+const coverFlags: string[] = (cover.flags ?? deepFlags(groups[0].segs.map((s) => s.props))).slice(0, 2);
+const coverVs = cover.vs ?? (coverFlags.length === 2 && ["battle", "quiz", "versus"].includes(groups[0].scene));
 const topic: string = (timeline as { topic?: string }).topic
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ?? (timeline.segments.find((s) => s.scene === "rank")?.props as any)?.title ?? "";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const headline: string = (timeline as any).headline ?? topic;
 const OVERLAP = 6; // frames waarin twee scenes in elkaar overvloeien
 
 // Elke scene komt binnen met een veer, zoomt traag in en vloeit weg in de volgende.
 const Stage: React.FC<{ dur: number; first: boolean; children: React.ReactNode }> = ({ dur, first, children }) => {
   const f = useCurrentFrame();
   const { fps: vfps } = useVideoConfig();
-  const enter = first ? 1 : spring({ frame: f, fps: vfps, config: { damping: 16, stiffness: 160 } });
+  const enter = first ? interpolate(f, [HOLD, HOLD + DOCK], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : spring({ frame: f, fps: vfps, config: { damping: 16, stiffness: 160 } });
   const exit = interpolate(f, [dur - OVERLAP, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const scale = interpolate(enter, [0, 1], [0.9, 1]) * (1 + 0.04 * (f / dur)) * interpolate(exit, [0, 1], [1.08, 1]);
   return (
@@ -147,7 +162,8 @@ export const Video: React.FC = () => (
         <FlagGlow code={g.code} dur={g.to - g.from} />
       </Sequence>
     ))}
-    <Header topic={topic} />
+    <Globe keys={flags.map((g) => ({ from: Math.max(g.from, HOLD), code: g.code }))} />
+    <AbsoluteFill style={{ background: "linear-gradient(180deg, transparent 62%, rgba(5,11,28,0.55) 100%)" }} />
     {groups.map((g, i) => {
       const from = i === 0 ? 0 : Math.round(g.segs[0].start * fps);
       const next = groups[i + 1];
@@ -162,11 +178,15 @@ export const Video: React.FC = () => (
         </Sequence>
       );
     })}
+    <Headline text={headline} flags={coverFlags} vs={coverVs} />
     <Captions segments={timeline.segments} fps={fps} />
-    <div style={{ position: "absolute", bottom: 70, width: "100%", textAlign: "center", color: theme.muted, fontSize: 26, fontWeight: 500 }}>
-      Source: {timeline.source.split(",")[0]}
+    <div style={{ position: "absolute", bottom: 44, width: "100%", textAlign: "center", color: "rgba(255,255,255,0.6)", fontSize: 24, fontWeight: 700, textShadow: "0 2px 8px #000" }}>
+      Money, Mapped · Source: {timeline.source.split(",")[0]}
     </div>
     <Audio src={staticFile("voice.wav")} />
+    <Audio src={staticFile("sfx/bed.mp3")} volume={(fr) => 0.16 * Math.min(1, (timeline.durationInFrames - fr) / 12)} loop />
+    <Sequence from={0} durationInFrames={fps * 2}><Audio src={staticFile("sfx/boom.wav")} volume={0.45} /></Sequence>
+    <Sequence from={HOLD} durationInFrames={fps * 2}><Audio src={staticFile("sfx/whoosh.wav")} volume={0.4} /></Sequence>
     {fx.map((e, i) => (
       <Sequence key={`fx${i}`} from={Math.max(0, Math.round(e.at * fps))} durationInFrames={fps * 2}>
         <Audio src={staticFile(`sfx/${e.src}.wav`)} volume={e.vol} />
