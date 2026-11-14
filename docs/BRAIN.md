@@ -5,18 +5,41 @@ Taal van de video's: Engels. Doelgroep: nieuwsgierige 18-35-jarigen in de VS en 
 
 ## Werkwijze per run
 
-1. `git pull`. Lees `data/catalog.json`, `state/queue.json`, `state/stats.json` (als die bestaat) en de titels in `episodes/`.
-2. Kies **één** onderwerp dat nog niet gedaan is en een **format dat anders is dan de vorige twee afleveringen** (zie hieronder). Gebruik `state/stats.json`: maak meer van wat goed scoort (views, kijkduur), minder van wat flopt.
-3. Haal de cijfers **alleen** uit de bestanden in `data/` (lees ze met Python). Verzin nooit een getal. Kies het meest recente jaar met data voor alle landen in de vergelijking en noem dat jaar.
-4. Schrijf `episodes/epNNN.json` (volgend nummer, drie cijfers).
-5. Controleer: `python3 scripts/validate.py episodes/epNNN.json`. Los elke FOUT op.
-6. Commit en push naar `main`. GitHub Actions maakt dan de video en stuurt hem naar Telegram ter goedkeuring.
+1. `git pull`. Lees `state/stats.json` (onze eigen cijfers), `state/trends.json` (wat NU viraal gaat in onze niche),
+   `data/catalog.json`, `state/queue.json` en de titels in `episodes/`.
+2. **Leer eerst** (schrijf voor jezelf 3 regels op):
+   - Welke 2 eigen video's scoorden het best (views, `avg_view_pct`) en wat hadden ze gemeen? Welke 2 flopten?
+   - Welke 5 titels in `trends.json` (vooral `outliers_small_channels`: kleine kanalen met veel views, daar trekt het
+     ONDERWERP) passen bij onze data? Welk patroon zit erin (raadspel, rivaliteit tussen twee landen, vlaggen,
+     "this country...", extreem getal)? Neem het patroon over, nooit de video zelf.
+3. **Schrijf drie kandidaten** (elk: titel + eerste gesproken zin + eerste beeld + format), over drie verschillende
+   onderwerpen. Geef elk een score van 1 tot 10 op deze vier vragen en kies de hoogste som:
+   - Stopt een scroller binnen 1 seconde? (herkenbaar land/vlag, vraag aan de kijker, schokkend getal in beeld)
+   - Wil de kijker het antwoord weten voor hij verder kan? (open lus, raden)
+   - Voelt de kijker zich aangesproken? (zijn land, zijn loon, zijn prijzen, trots of verontwaardiging)
+   - Lokt het een reactie uit? (mensen verdedigen hun land, zijn het oneens, geven hun eigen cijfer)
+   Is de beste som lager dan 28, bedenk dan drie nieuwe. Een middelmatige video schaadt het kanaal: YouTube toont de
+   volgende dan aan minder mensen.
+4. Haal de cijfers **alleen** uit de bestanden in `data/` (lees ze met Python). Verzin nooit een getal. Kies het meest
+   recente jaar met data voor alle landen in de vergelijking en noem dat jaar.
+5. Schrijf `episodes/epNNN.json` (volgend nummer, drie cijfers) met een format dat anders is dan de vorige twee.
+6. Controleer: `python3 scripts/validate.py episodes/epNNN.json`. Los elke FOUT op.
+7. Commit en push naar `main`. GitHub Actions maakt dan de video en stuurt hem naar Telegram ter goedkeuring.
+8. Eindig met: het gekozen onderwerp, de drie scores, en welk trend-patroon je gebruikte.
 
-## Waarom dit zo moet (cijfers van 2026-11-11)
+## Wat de cijfers zeggen (stand 2026-11-14)
 
-Van de eerste video's bleef maar **34% kijken**; twee op drie veegden meteen weg. Een Short groeit pas boven ca. 70%.
-Arno's opdracht: onderwerpen waarbij de kijker denkt "amai, dit gaat over mij", bekende landen, kortere video's,
-een sterkere hook en **nooit twee keer na elkaar dezelfde soort video**.
+- 12 openbare video's, 469 views, 2 abonnees. 80% van de views komt uit de Shorts-feed, bijna allemaal uit de **VS**.
+- De eerste video kreeg 207 views, daarna zakte het; sinds 12 november krijgt een nieuwe video nog 1 tot 12 views.
+  YouTube test onze video's dus bijna niet meer, omdat twee op drie kijkers meteen wegvegen (34% bleef kijken).
+- Beste eigen video's: inflatie "Prices rose 42% in ONE year in this country" (207) en zwakke munten
+  "$1 = 89,500 of this money" (86). Allebei: **één extreem getal + "this country" als raadsel**. Slechtst: spaarquote,
+  belasting als % van de economie (abstract, niemand voelt het).
+- In de niche gaan nu viraal bij kleine kanalen: "This Country Has a Very Weak Currency" (730k views, 1,9k abonnees),
+  "Countries Compared By Population" (11 seconden!), "Ranking language with flags", raadspellen ("Guess the country"),
+  en rivaliteit ("India vs Pakistan: 4 shocking differences"). Dus: vlaggen groot in beeld, raden, rivalen, simpele
+  maatstaven die iedereen snapt (bevolking, loon, prijs, munt), en landen met een groot en trots publiek (India, VS,
+  Pakistan, Brazilië, Filipijnen, Nigeria, Indonesië).
 
 ## De vier harde regels
 
