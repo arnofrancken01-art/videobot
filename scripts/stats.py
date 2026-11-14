@@ -46,6 +46,13 @@ def main():
             analytics[row[0]] = dict(zip(cols[1:], row[1:]))
     except Exception as e:  # noqa: BLE001
         print("analytics mislukt:", e)
+    extra = {}
+    for key, dims, kw in [("traffic", "insightTrafficSourceType", {}), ("daily", "day", {"sort": "day"}), ("countries", "country", {"sort": "-views", "maxResults": 8})]:
+        try:
+            rep = get(token, AN, ids="channel==MINE", startDate="2026-11-01", endDate=date.today().isoformat(), metrics="views", dimensions=dims, **kw)
+            extra[key] = {r[0]: r[1] for r in rep.get("rows", [])}
+        except Exception as e:  # noqa: BLE001
+            print(key, "mislukt:", e)
     videos = []
     for i in range(0, len(ids), 50):
         for v in get(token, f"{API}/videos", part="snippet,status,statistics,contentDetails", id=",".join(ids[i:i + 50]))["items"]:
@@ -62,9 +69,10 @@ def main():
             })
     out = {"fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
            "channel": {"subscribers": int(ch["statistics"].get("subscriberCount", 0)), "views": int(ch["statistics"].get("viewCount", 0)), "videos": int(ch["statistics"].get("videoCount", 0))},
+           **extra,
            "videos": sorted(videos, key=lambda x: x["published"])}
     (ROOT / "state/stats.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
-    print(json.dumps(out["channel"]))
+    print(json.dumps(out["channel"]), json.dumps(extra))
     for v in out["videos"]:
         print(v["episode"], v["format"], v["privacy"], v["views"], v["engaged_views"], v["avg_view_pct"], "|", v["title"][:60])
 
