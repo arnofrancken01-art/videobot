@@ -2,6 +2,7 @@
  "id": "ep018",
  "title": "In 1990, China's economy was smaller than Spain's. Watch what happened",
  "topic": "China's rise",
+ "headline": "China vs *the world*",
  "description": "China went from smaller than Spain to the world's number two economy. Real World Bank data, 1990 to 2025. Will it ever pass America?",
  "tags": [
   "china economy",
@@ -770,10 +771,10 @@
   },
   {
    "scene": "outro",
-   "text": "Will China ever pass America? Follow for more.",
+   "text": "Will China ever pass America?",
    "props": {},
    "start": 18.375,
-   "end": 21.425,
+   "end": 20.575,
    "words": [
     {
      "word": "Will",
@@ -783,42 +784,27 @@
     {
      "word": "China",
      "start": 18.762,
-     "end": 19.075
+     "end": 19.137
     },
     {
      "word": "ever",
-     "start": 19.075,
-     "end": 19.3
+     "start": 19.137,
+     "end": 19.375
     },
     {
      "word": "pass",
-     "start": 19.3,
-     "end": 19.562
+     "start": 19.375,
+     "end": 19.637
     },
     {
      "word": "America?",
-     "start": 19.562,
-     "end": 20.125
-    },
-    {
-     "word": "Follow",
-     "start": 20.262,
-     "end": 20.575
-    },
-    {
-     "word": "for",
-     "start": 20.575,
-     "end": 20.7
-    },
-    {
-     "word": "more.",
-     "start": 20.7,
-     "end": 21.175
+     "start": 19.637,
+     "end": 20.325
     }
    ]
   }
  ],
- "durationInFrames": 663,
+ "durationInFrames": 638,
  "fps": 30,
  "aligned": "tts"
 }
