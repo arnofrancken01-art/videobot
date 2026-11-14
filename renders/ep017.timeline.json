@@ -1,0 +1,394 @@
+{
+ "id": "ep017",
+ "title": "America vs Japan: who lives better? 4 rounds, real data",
+ "topic": "USA vs Japan",
+ "description": "America against Japan in four rounds: income, life expectancy, Big Mac price and safety. Real World Bank and Economist data. Would you move?",
+ "tags": [
+  "usa vs japan",
+  "america vs japan",
+  "life in japan",
+  "japan vs america comparison",
+  "life expectancy japan",
+  "big mac index",
+  "cost of living japan",
+  "safest countries",
+  "income per person"
+ ],
+ "source": "World Bank: GDP per capita (2025), life expectancy (2024), homicides per 100,000 (2023); The Economist, Big Mac Index (July 2026)",
+ "voice": "af_heart",
+ "hashtags": [
+  "usavsjapan",
+  "money",
+  "economy",
+  "battle"
+ ],
+ "format": "battle",
+ "segments": [
+  {
+   "scene": "battle",
+   "text": "America versus Japan. Four rounds. Who lives better?",
+   "props": {
+    "a": {
+     "label": "USA",
+     "flag": "us"
+    },
+    "b": {
+     "label": "Japan",
+     "flag": "jp"
+    }
+   },
+   "start": 0.05,
+   "end": 3.6,
+   "words": [
+    {
+     "word": "America",
+     "start": 0.3,
+     "end": 0.725
+    },
+    {
+     "word": "versus",
+     "start": 0.725,
+     "end": 1.1
+    },
+    {
+     "word": "Japan.",
+     "start": 1.1,
+     "end": 1.625
+    },
+    {
+     "word": "Four",
+     "start": 1.762,
+     "end": 2.0
+    },
+    {
+     "word": "rounds.",
+     "start": 2.0,
+     "end": 2.4
+    },
+    {
+     "word": "Who",
+     "start": 2.45,
+     "end": 2.575
+    },
+    {
+     "word": "lives",
+     "start": 2.575,
+     "end": 2.825
+    },
+    {
+     "word": "better?",
+     "start": 2.825,
+     "end": 3.35
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Income. America is two and a half times richer.",
+   "props": {
+    "stat": {
+     "label": "Income per person",
+     "a": 90.0,
+     "b": 36.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "k"
+     }
+    },
+    "at": "America"
+   },
+   "start": 3.66,
+   "end": 6.86,
+   "words": [
+    {
+     "word": "Income.",
+     "start": 3.91,
+     "end": 4.41
+    },
+    {
+     "word": "America",
+     "start": 4.485,
+     "end": 5.035
+    },
+    {
+     "word": "is",
+     "start": 5.035,
+     "end": 5.185
+    },
+    {
+     "word": "two",
+     "start": 5.185,
+     "end": 5.348
+    },
+    {
+     "word": "and",
+     "start": 5.348,
+     "end": 5.447
+    },
+    {
+     "word": "a",
+     "start": 5.447,
+     "end": 5.51
+    },
+    {
+     "word": "half",
+     "start": 5.51,
+     "end": 5.735
+    },
+    {
+     "word": "times",
+     "start": 5.735,
+     "end": 6.035
+    },
+    {
+     "word": "richer.",
+     "start": 6.035,
+     "end": 6.635
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Life. The Japanese live five years longer.",
+   "props": {
+    "stat": {
+     "label": "Life expectancy",
+     "a": 78.9,
+     "b": 84.0,
+     "format": {
+      "suffix": " yrs",
+      "decimals": 1
+     }
+    },
+    "at": "Japanese"
+   },
+   "start": 6.92,
+   "end": 9.82,
+   "words": [
+    {
+     "word": "Life.",
+     "start": 7.195,
+     "end": 7.595
+    },
+    {
+     "word": "The",
+     "start": 7.67,
+     "end": 7.77
+    },
+    {
+     "word": "Japanese",
+     "start": 7.77,
+     "end": 8.345
+    },
+    {
+     "word": "live",
+     "start": 8.345,
+     "end": 8.57
+    },
+    {
+     "word": "five",
+     "start": 8.57,
+     "end": 8.807
+    },
+    {
+     "word": "years",
+     "start": 8.807,
+     "end": 8.995
+    },
+    {
+     "word": "longer.",
+     "start": 8.995,
+     "end": 9.57
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "A Big Mac. Half the price in Japan.",
+   "props": {
+    "stat": {
+     "label": "Big Mac price",
+     "a": 6.22,
+     "b": 3.08,
+     "pick": "lower",
+     "format": {
+      "prefix": "$",
+      "decimals": 2
+     }
+    },
+    "at": "Half"
+   },
+   "start": 9.88,
+   "end": 12.43,
+   "words": [
+    {
+     "word": "A",
+     "start": 10.105,
+     "end": 10.18
+    },
+    {
+     "word": "Big",
+     "start": 10.18,
+     "end": 10.405
+    },
+    {
+     "word": "Mac.",
+     "start": 10.405,
+     "end": 10.805
+    },
+    {
+     "word": "Half",
+     "start": 10.88,
+     "end": 11.117
+    },
+    {
+     "word": "the",
+     "start": 11.117,
+     "end": 11.205
+    },
+    {
+     "word": "price",
+     "start": 11.205,
+     "end": 11.492
+    },
+    {
+     "word": "in",
+     "start": 11.492,
+     "end": 11.567
+    },
+    {
+     "word": "Japan.",
+     "start": 11.567,
+     "end": 12.18
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Safety. Murder is twenty-five times rarer in Japan.",
+   "props": {
+    "stat": {
+     "label": "Murders per 100k people",
+     "a": 5.76,
+     "b": 0.23,
+     "pick": "lower",
+     "format": {
+      "decimals": 2
+     }
+    },
+    "at": "twenty"
+   },
+   "start": 12.49,
+   "end": 16.04,
+   "words": [
+    {
+     "word": "Safety.",
+     "start": 12.74,
+     "end": 13.29
+    },
+    {
+     "word": "Murder",
+     "start": 13.365,
+     "end": 13.715
+    },
+    {
+     "word": "is",
+     "start": 13.715,
+     "end": 13.865
+    },
+    {
+     "word": "twenty-five",
+     "start": 13.865,
+     "end": 14.39
+    },
+    {
+     "word": "times",
+     "start": 14.39,
+     "end": 14.715
+    },
+    {
+     "word": "rarer",
+     "start": 14.715,
+     "end": 15.052
+    },
+    {
+     "word": "in",
+     "start": 15.052,
+     "end": 15.14
+    },
+    {
+     "word": "Japan.",
+     "start": 15.14,
+     "end": 15.79
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Japan wins three to one. Would you move? Follow for more.",
+   "props": {},
+   "start": 16.1,
+   "end": 19.675,
+   "words": [
+    {
+     "word": "Japan",
+     "start": 16.325,
+     "end": 16.675
+    },
+    {
+     "word": "wins",
+     "start": 16.675,
+     "end": 16.925
+    },
+    {
+     "word": "three",
+     "start": 16.925,
+     "end": 17.15
+    },
+    {
+     "word": "to",
+     "start": 17.15,
+     "end": 17.25
+    },
+    {
+     "word": "one.",
+     "start": 17.25,
+     "end": 17.65
+    },
+    {
+     "word": "Would",
+     "start": 17.75,
+     "end": 17.9
+    },
+    {
+     "word": "you",
+     "start": 17.9,
+     "end": 18.0
+    },
+    {
+     "word": "move?",
+     "start": 18.0,
+     "end": 18.425
+    },
+    {
+     "word": "Follow",
+     "start": 18.525,
+     "end": 18.825
+    },
+    {
+     "word": "for",
+     "start": 18.825,
+     "end": 18.95
+    },
+    {
+     "word": "more.",
+     "start": 18.95,
+     "end": 19.425
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 611,
+ "fps": 30,
+ "aligned": "tts"
+}
