@@ -35,7 +35,7 @@ if segs and scenes[0] in ("outro", "rank", "bignumber", "line", "bars", "race"):
 if segs and scenes[-1] != "outro":
     errors.append("laatste segment moet scene 'outro' zijn")
 if segs and len(segs[-1].get("text", "").split()) > 12:
-    errors.append("outro: maximaal 12 woorden (een korte vraag + 'Follow for more.')")
+    errors.append("outro: maximaal 12 woorden (één korte vraag die terugloopt naar de eerste zin, zonder 'Follow for more')")
 
 # Afwisseling: niet hetzelfde format als een van de vorige twee afleveringen.
 m = re.fullmatch(r"ep(\d+)", path.stem)

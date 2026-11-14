@@ -32,3 +32,7 @@ jobs:
           git config user.email "videobot@users.noreply.github.com"
           git add state/stats.json state/trends.json 2>/dev/null || git add state/stats.json
           git diff --cached --quiet || (git commit -qm "Cijfers bijgewerkt" && git pull -q --rebase && git push -q)
+      - name: Weekrapport (zondag, ochtendrun)
+        if: github.event_name == 'schedule' && github.event.schedule == '17 4,10 * * *'
+        run: |
+          if [ "$(date -u +%u%H)" = "704" ] || [ "$(date -u +%u%H)" = "705" ]; then python scripts/report.py; fi

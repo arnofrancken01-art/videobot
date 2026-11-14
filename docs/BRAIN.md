@@ -54,6 +54,13 @@ Taal van de video's: Engels. Doelgroep: nieuwsgierige 18-35-jarigen in de VS en 
 4. **Afwisseling.** Het `format` mag niet hetzelfde zijn als dat van de vorige twee afleveringen (validate.py weigert het).
    Wissel ook de invalshoek: niet drie keer na elkaar "wie is rijker".
 
+## Het einde loopt terug naar het begin (verplicht)
+
+Shorts spelen vanzelf opnieuw af. De `outro` is daarom **één korte vraag (max. 8 woorden) die ook als aanloop naar
+de eerste zin werkt**, zodat kijkers een tweede keer kijken zonder het te merken. Voorbeeld: eerste zin
+"This country's money is almost worthless.", outro "Would your salary survive there?", en dan start de video opnieuw.
+Zeg nooit "Follow for more": dat is het sein om weg te vegen. De vraag dient ook als reactie onder de video.
+
 ## De hook (eerste 2 seconden beslissen alles)
 
 - Spreek de kijker aan of zet hem voor een keuze: "Japan or Spain. Who is richer?", "Twenty dollars. How many Big Macs?",
