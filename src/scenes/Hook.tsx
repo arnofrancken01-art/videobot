@@ -19,7 +19,7 @@ export const Hook: React.FC<SceneProps> = ({ segs, fps }) => {
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 34, textAlign: "center" }}>
       {(p.flag || p.icon) && (
         <div style={{ display: "flex", gap: 24, alignItems: "center" }}>
-          {p.flag && <Flag code={p.flag} h={120} />}
+          {p.flag && <Flag code={p.flag} h={210} />}
           {p.icon && !p.flag && <Icon name={p.icon} size={200} />}
         </div>
       )}

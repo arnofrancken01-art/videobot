@@ -41,7 +41,7 @@ export const Race: React.FC<SceneProps> = ({ segs, fps, offset }) => {
   const yr = yearAt(f);
   const vals = items.map((it) => valAt(it, yr));
   const max = Math.max(...vals);
-  const rowH = Math.min(128, 780 / show);
+  const rowH = Math.min(150, 870 / show);
   const intro = spring({ frame: f, fps, config: { damping: 16, stiffness: 150 } });
   const done = f >= kf[kf.length - 1][0];
   const pulse = done ? spring({ frame: f - kf[kf.length - 1][0], fps, config: { damping: 9, stiffness: 200 } }) : 0;
@@ -49,11 +49,11 @@ export const Race: React.FC<SceneProps> = ({ segs, fps, offset }) => {
     <div style={{ width: 980, display: "flex", flexDirection: "column", alignItems: "center" }}>
       <div style={{ color: theme.text, fontSize: 60, fontWeight: 900, letterSpacing: -1.5, textAlign: "center", lineHeight: 1.05, textTransform: "uppercase", opacity: intro }}>{base.title}</div>
       <div style={{ position: "relative", width: 980, height: rowH * show + 10, marginTop: 36, overflow: "hidden" }}>
-        <div style={{ position: "absolute", right: 6, bottom: -18, color: "rgba(255,255,255,0.13)", fontSize: 270, fontWeight: 900, letterSpacing: -12, lineHeight: 1, transform: `scale(${1 + 0.06 * pulse})`, transformOrigin: "right bottom" }}>{Math.floor(yr)}</div>
+        <div style={{ position: "absolute", right: 6, bottom: -18, color: "rgba(255,255,255,0.24)", fontSize: 270, fontWeight: 900, letterSpacing: -12, lineHeight: 1, transform: `scale(${1 + 0.06 * pulse})`, transformOrigin: "right bottom" }}>{Math.floor(yr)}</div>
         {items.map((it, i) => {
           const isFocus = base.focus === it.label;
           const color = isFocus ? theme.accent : PALETTE[i % PALETTE.length];
-          const w = 90 + (vals[i] / max) * 560 * intro;
+          const w = 90 + (vals[i] / max) * 600 * intro;
           const top = smooth[i] * rowH;
           return (
             <div key={it.label} style={{ position: "absolute", left: 0, top, height: rowH, display: "flex", alignItems: "center", opacity: interpolate(smooth[i], [show - 0.6, show], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }), zIndex: isFocus ? 2 : 1 }}>

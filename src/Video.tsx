@@ -96,14 +96,22 @@ groups.filter((g) => g.scene === "race").forEach((g) => {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const flagOf = (s: Seg): string | undefined => { const p: any = s.props; return p.flag ?? p.item?.flag; };
 const flags: { from: number; to: number; code: string }[] = [];
+// Duel: de bol en de achtergrond gaan telkens naar het land dat de ronde wint.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const duel: any = timeline.segments.find((s) => s.scene === "battle" && (s.props as any).a)?.props;
 timeline.segments.forEach((s, i) => {
-  const code = flagOf(s);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const st: any = (s.props as any).stat;
+  const code = s.scene === "battle" && st && duel
+    ? ((st.pick === "lower" ? st.a < st.b : st.a > st.b) ? duel.a.flag : duel.b.flag)
+    : flagOf(s);
   if (!code) return;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const p: any = s.props;
-  const reveal = p.rank ? Math.min(wordAt(s, String(p.label).split(/[\s-]/)[0]) ?? s.start, s.start + 1.2) : s.start;
+  const reveal = p.stat ? Math.min(wordAt(s, p.at) ?? s.start, s.start + 1.2) : p.rank ? Math.min(wordAt(s, String(p.label).split(/[\s-]/)[0]) ?? s.start, s.start + 1.2) : s.start;
   const from = Math.round(reveal * fps);
-  const nxt = timeline.segments.slice(i + 1).find((x) => flagOf(x) || x.scene !== s.scene);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const nxt = timeline.segments.slice(i + 1).find((x) => flagOf(x) || (x.props as any).stat || x.scene !== s.scene);
   const to = nxt ? Math.round(nxt.start * fps) + 8 : timeline.durationInFrames;
   flags.push({ from, to, code });
 });
@@ -128,6 +136,34 @@ const deepFlags = (v: any, out: string[] = []): string[] => {
 const cover: { flags?: string[]; vs?: boolean } = (timeline as any).cover ?? {};
 const coverFlags: string[] = (cover.flags ?? deepFlags(groups[0].segs.map((s) => s.props))).slice(0, 2);
 const coverVs = cover.vs ?? (coverFlags.length === 2 && ["battle", "quiz", "versus"].includes(groups[0].scene));
+// Klappen: op elke onthulling veert het hele beeld even in, bij een grote klap flitst het en vliegt er confetti.
+const hits = [...new Map(fx.filter((e) => ["pop", "boom"].includes(e.src) && e.at > 0.6).map((e) => [Math.round(e.at * fps), { at: Math.round(e.at * fps), big: e.src === "boom" }])).values()]
+  .sort((a, b) => a.at - b.at);
+const bigAt = new Set(fx.filter((e) => e.src === "boom" && e.at > 0.6).map((e) => Math.round(e.at * fps)));
+hits.forEach((h) => { h.big = bigAt.has(h.at); });
+const Punch: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const f = useCurrentFrame();
+  const h = [...hits].reverse().find((x) => x.at <= f);
+  const d = h ? Math.exp(-(f - h.at) / 3.5) : 0;
+  const amp = h?.big ? 0.07 : 0.035;
+  const shake = h?.big ? d * 10 * Math.sin((f - h.at) * 2.4) : 0;
+  return <AbsoluteFill style={{ transform: `scale(${1 + amp * d}) translateX(${shake}px)` }}>{children}</AbsoluteFill>;
+};
+const CONFETTI = ["#FFE14A", "#2BD47D", "#FF5C8A", "#6EA8FE", "#FFFFFF"];
+const Burst: React.FC = () => {
+  const f = useCurrentFrame();
+  const t = f / 30;
+  return (
+    <AbsoluteFill>
+      <AbsoluteFill style={{ background: "#FFFFFF", opacity: Math.max(0, 0.32 - f * 0.06) }} />
+      {[...Array(46)].map((_, i) => {
+        const a = (i * 137.5 * Math.PI) / 180, v = 700 + ((i * 53) % 700);
+        const x = 540 + Math.cos(a) * v * t * 0.9, y = 760 + Math.sin(a) * v * t * 0.7 - 500 * t + 1500 * t * t;
+        return <div key={i} style={{ position: "absolute", left: x, top: y, width: 22, height: 34, borderRadius: 5, background: CONFETTI[i % 5], opacity: Math.max(0, 1 - t / 1.3), transform: `rotate(${i * 40 + f * (8 + (i % 7))}deg)` }} />;
+      })}
+    </AbsoluteFill>
+  );
+};
 const topic: string = (timeline as { topic?: string }).topic
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ?? (timeline.segments.find((s) => s.scene === "rank")?.props as any)?.title ?? "";
@@ -164,6 +200,7 @@ export const Video: React.FC = () => (
     ))}
     <Globe keys={flags.map((g) => ({ from: Math.max(g.from, HOLD), code: g.code }))} />
     <AbsoluteFill style={{ background: "linear-gradient(180deg, transparent 62%, rgba(5,11,28,0.55) 100%)" }} />
+    <Punch>
     {groups.map((g, i) => {
       const from = i === 0 ? 0 : Math.round(g.segs[0].start * fps);
       const next = groups[i + 1];
@@ -178,6 +215,10 @@ export const Video: React.FC = () => (
         </Sequence>
       );
     })}
+    </Punch>
+    {hits.filter((h) => h.big).map((h) => (
+      <Sequence key={`burst${h.at}`} from={h.at} durationInFrames={42}><Burst /></Sequence>
+    ))}
     <Headline text={headline} flags={coverFlags} vs={coverVs} />
     <Captions segments={timeline.segments} fps={fps} />
     <div style={{ position: "absolute", bottom: 44, width: "100%", textAlign: "center", color: "rgba(255,255,255,0.6)", fontSize: 24, fontWeight: 700, textShadow: "0 2px 8px #000" }}>
