@@ -1,0 +1,21 @@
+{
+ "id": "ep020",
+ "title": "India has more people than these 5 countries combined",
+ "topic": "India vs 5 countries",
+ "headline": "India vs *5 countries*",
+ "description": "India against America, Indonesia, Pakistan, Nigeria and Brazil combined. Who has more people? Real World Bank population data for 2025.",
+ "tags": ["india population", "countries compared by population", "population comparison", "india vs usa", "india vs pakistan", "most populated countries", "nigeria population", "brazil population", "indonesia population"],
+ "source": "World Bank, total population (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["population", "money", "economy", "dataviz"],
+ "format": "bubbles",
+ "cover": {"flags": ["in"]},
+ "segments": [
+  {"scene": "bubbles", "text": "India against five huge countries. This is India. One point four six billion people.", "props": {"title": "Population, 2025", "format": {"suffix": "M"}, "item": {"label": "India", "flag": "in", "value": 1464}, "at": "This"}},
+  {"scene": "bubbles", "text": "America. Three hundred forty-two million.", "props": {"item": {"label": "USA", "flag": "us", "value": 342}, "at": "America"}},
+  {"scene": "bubbles", "text": "Pakistan. Two hundred fifty-five million.", "props": {"item": {"label": "Pakistan", "flag": "pk", "value": 255}, "at": "Pakistan"}},
+  {"scene": "bubbles", "text": "Brazil. Two hundred thirteen million.", "props": {"item": {"label": "Brazil", "flag": "br", "value": 213}, "at": "Brazil"}},
+  {"scene": "bignumber", "text": "Now add Indonesia and Nigeria. All five together. India still has more people. By a hundred thirty-one million.", "props": {"value": 131, "format": {"prefix": "+", "suffix": "M"}, "caption": "more people in India than all five combined", "at": "hundred", "compare": {"format": {"suffix": "M"}, "items": [{"label": "USA, Indonesia, Pakistan, Nigeria, Brazil", "value": 1333}, {"label": "India", "value": 1464}]}}},
+  {"scene": "outro", "text": "Which country did you think was bigger?", "props": {}}
+ ]
+}
