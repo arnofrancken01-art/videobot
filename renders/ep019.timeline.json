@@ -1,0 +1,424 @@
+{
+ "id": "ep019",
+ "title": "India vs Pakistan: who is richer? 3 rounds, real data",
+ "topic": "India vs Pakistan",
+ "headline": "India or *Pakistan*?",
+ "description": "India or Pakistan: who is richer, who lives longer, and who lives in cities? Three rounds of real World Bank data. How many did you get right?",
+ "tags": [
+  "india vs pakistan",
+  "pakistan vs india",
+  "india vs pakistan comparison",
+  "india economy",
+  "pakistan economy",
+  "gdp per capita",
+  "life expectancy",
+  "country comparison",
+  "geography quiz"
+ ],
+ "source": "World Bank: GDP per person (2025), life expectancy at birth (2024), urban population share (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "indiavspakistan",
+  "money",
+  "economy",
+  "quiz"
+ ],
+ "format": "quiz",
+ "cover": {
+  "flags": [
+   "in",
+   "pk"
+  ],
+  "vs": true
+ },
+ "segments": [
+  {
+   "scene": "quiz",
+   "text": "India or Pakistan. Three rounds. Who is richer per person?",
+   "props": {
+    "question": "Who is richer per person?",
+    "format": {
+     "prefix": "$"
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 2702
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 1596
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 0.05,
+   "end": 4.15,
+   "words": [
+    {
+     "word": "India",
+     "start": 0.3,
+     "end": 0.675
+    },
+    {
+     "word": "or",
+     "start": 0.675,
+     "end": 0.8
+    },
+    {
+     "word": "Pakistan.",
+     "start": 0.8,
+     "end": 1.525
+    },
+    {
+     "word": "Three",
+     "start": 1.637,
+     "end": 1.875
+    },
+    {
+     "word": "rounds.",
+     "start": 1.875,
+     "end": 2.4
+    },
+    {
+     "word": "Who",
+     "start": 2.5,
+     "end": 2.675
+    },
+    {
+     "word": "is",
+     "start": 2.675,
+     "end": 2.825
+    },
+    {
+     "word": "richer",
+     "start": 2.825,
+     "end": 3.1
+    },
+    {
+     "word": "per",
+     "start": 3.1,
+     "end": 3.225
+    },
+    {
+     "word": "person?",
+     "start": 3.225,
+     "end": 3.9
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "India. Almost seventy percent richer.",
+   "props": {
+    "reveal": true
+   },
+   "start": 5.81,
+   "end": 8.435,
+   "words": [
+    {
+     "word": "India.",
+     "start": 6.06,
+     "end": 6.51
+    },
+    {
+     "word": "Almost",
+     "start": 6.61,
+     "end": 6.973
+    },
+    {
+     "word": "seventy",
+     "start": 6.973,
+     "end": 7.31
+    },
+    {
+     "word": "percent",
+     "start": 7.31,
+     "end": 7.622
+    },
+    {
+     "word": "richer.",
+     "start": 7.622,
+     "end": 8.185
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Who lives longer? India or Pakistan?",
+   "props": {
+    "question": "Who lives longer?",
+    "format": {
+     "suffix": " yrs",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 72.2
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 67.8
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 8.495,
+   "end": 12.02,
+   "words": [
+    {
+     "word": "Round",
+     "start": 8.745,
+     "end": 9.007
+    },
+    {
+     "word": "two.",
+     "start": 9.007,
+     "end": 9.37
+    },
+    {
+     "word": "Who",
+     "start": 9.495,
+     "end": 9.62
+    },
+    {
+     "word": "lives",
+     "start": 9.62,
+     "end": 9.845
+    },
+    {
+     "word": "longer?",
+     "start": 9.845,
+     "end": 10.32
+    },
+    {
+     "word": "India",
+     "start": 10.42,
+     "end": 10.795
+    },
+    {
+     "word": "or",
+     "start": 10.795,
+     "end": 10.92
+    },
+    {
+     "word": "Pakistan?",
+     "start": 10.92,
+     "end": 11.77
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "India again. Over four years longer.",
+   "props": {
+    "reveal": true
+   },
+   "start": 13.68,
+   "end": 16.33,
+   "words": [
+    {
+     "word": "India",
+     "start": 13.93,
+     "end": 14.255
+    },
+    {
+     "word": "again.",
+     "start": 14.255,
+     "end": 14.705
+    },
+    {
+     "word": "Over",
+     "start": 14.805,
+     "end": 15.067
+    },
+    {
+     "word": "four",
+     "start": 15.067,
+     "end": 15.268
+    },
+    {
+     "word": "years",
+     "start": 15.268,
+     "end": 15.505
+    },
+    {
+     "word": "longer.",
+     "start": 15.505,
+     "end": 16.08
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Final round. More people in cities? India or Pakistan?",
+   "props": {
+    "question": "More people in cities?",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 35.7
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 39.5
+     }
+    ],
+    "pause": 1.8
+   },
+   "start": 16.39,
+   "end": 20.39,
+   "words": [
+    {
+     "word": "Final",
+     "start": 16.64,
+     "end": 16.965
+    },
+    {
+     "word": "round.",
+     "start": 16.965,
+     "end": 17.44
+    },
+    {
+     "word": "More",
+     "start": 17.54,
+     "end": 17.74
+    },
+    {
+     "word": "people",
+     "start": 17.74,
+     "end": 18.003
+    },
+    {
+     "word": "in",
+     "start": 18.003,
+     "end": 18.115
+    },
+    {
+     "word": "cities?",
+     "start": 18.115,
+     "end": 18.64
+    },
+    {
+     "word": "India",
+     "start": 18.74,
+     "end": 19.19
+    },
+    {
+     "word": "or",
+     "start": 19.19,
+     "end": 19.315
+    },
+    {
+     "word": "Pakistan?",
+     "start": 19.315,
+     "end": 20.14
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Pakistan. Almost forty percent live in cities.",
+   "props": {
+    "reveal": true
+   },
+   "start": 22.25,
+   "end": 25.475,
+   "words": [
+    {
+     "word": "Pakistan.",
+     "start": 22.45,
+     "end": 23.175
+    },
+    {
+     "word": "Almost",
+     "start": 23.275,
+     "end": 23.675
+    },
+    {
+     "word": "forty",
+     "start": 23.675,
+     "end": 23.95
+    },
+    {
+     "word": "percent",
+     "start": 23.95,
+     "end": 24.325
+    },
+    {
+     "word": "live",
+     "start": 24.325,
+     "end": 24.512
+    },
+    {
+     "word": "in",
+     "start": 24.512,
+     "end": 24.65
+    },
+    {
+     "word": "cities.",
+     "start": 24.65,
+     "end": 25.25
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "So who really wins, India or Pakistan?",
+   "props": {},
+   "start": 25.535,
+   "end": 28.36,
+   "words": [
+    {
+     "word": "So",
+     "start": 25.785,
+     "end": 25.872
+    },
+    {
+     "word": "who",
+     "start": 25.872,
+     "end": 25.985
+    },
+    {
+     "word": "really",
+     "start": 25.985,
+     "end": 26.235
+    },
+    {
+     "word": "wins,",
+     "start": 26.235,
+     "end": 26.71
+    },
+    {
+     "word": "India",
+     "start": 26.81,
+     "end": 27.16
+    },
+    {
+     "word": "or",
+     "start": 27.16,
+     "end": 27.285
+    },
+    {
+     "word": "Pakistan?",
+     "start": 27.285,
+     "end": 28.11
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 871,
+ "fps": 30,
+ "aligned": "tts"
+}
