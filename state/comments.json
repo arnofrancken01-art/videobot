@@ -1,19 +1,19 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-14T16:12:33Z",
+ "fetched_at": "2026-11-15T14:42:42Z",
  "videos": [
   {
    "video_id": "vWAsC7_9M90",
    "title": "In 1990, China's economy was smaller than Spain's. Watch what happened #shorts",
-   "views": 5,
-   "question_posted": false,
+   "views": 31,
+   "question_posted": true,
    "question": "Will China ever pass America?",
    "comments": []
   },
   {
    "video_id": "EjQWWGDRlrI",
    "title": "America vs Japan: who lives better? 4 rounds, real data #shorts",
-   "views": 6,
+   "views": 69,
    "question_posted": true,
    "question": "Japan wins three to one. Would you move?",
    "comments": []
@@ -21,7 +21,7 @@
   {
    "video_id": "0r8Fg8CwXF0",
    "title": "Do Americans live longer than people in China? True or false #shorts",
-   "views": 1,
+   "views": 2,
    "question_posted": true,
    "question": "How many did you get?",
    "comments": []
@@ -40,14 +40,6 @@
    "views": 12,
    "question_posted": true,
    "question": "What does it cost in your country?",
-   "comments": []
-  },
-  {
-   "video_id": "72oAHrUaQ-Q",
-   "title": "Where is a Big Mac more expensive? UK, Japan or Turkey vs the US #shorts",
-   "views": 10,
-   "question_posted": true,
-   "question": "How many did you get?",
    "comments": []
   }
  ]
