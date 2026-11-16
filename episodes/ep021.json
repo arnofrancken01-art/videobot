@@ -1,0 +1,21 @@
+{
+ "id": "ep021",
+ "title": "This money lost 99% in 10 years. Top 3 G20 currency crashes",
+ "topic": "Money that lost value",
+ "headline": "This money lost *99%*",
+ "description": "Which G20 country's money lost the most against the US dollar since 2015? Guess before number one. Real World Bank exchange-rate data, 2015 vs 2025.",
+ "tags": ["weakest currency", "argentine peso", "turkish lira", "brazilian real", "currency crash", "exchange rate", "argentina inflation", "peso vs dollar", "G20 currencies"],
+ "source": "World Bank, official exchange rate (local currency per US$, period average), 2015 and 2025, G20 countries, data.worldbank.org/indicator/PA.NUS.FCRF",
+ "voice": "af_heart",
+ "hashtags": ["currency", "money", "economy", "top3"],
+ "format": "countdown",
+ "cover": {"flags": []},
+ "segments": [
+  {"scene": "hook", "text": "This money lost ninety-nine percent in ten years. Which country?", "props": {"kicker": "Value lost against the US dollar", "big": 99.3, "format": {"suffix": "%", "decimals": 1}, "sub": "2015 to 2025", "icon": "coin"}},
+  {"scene": "rank", "text": "Number three is Brazil. Over forty percent gone.", "props": {"title": "G20 money lost vs $1, 2015-2025", "format": {"suffix": "%", "decimals": 1}, "rank": 3, "label": "Brazil", "value": 40.5, "flag": "br"}},
+  {"scene": "rank", "text": "Number two is Turkey. Ninety-three percent.", "props": {"rank": 2, "label": "Turkey", "value": 93.1, "flag": "tr"}},
+  {"scene": "rank", "text": "Number one is Argentina. Over ninety-nine percent.", "props": {"rank": 1, "label": "Argentina", "value": 99.3, "flag": "ar"}},
+  {"scene": "bignumber", "text": "In 2015, one dollar got you nine pesos. Now it gets you twelve hundred forty-one.", "props": {"value": 1241, "format": {"decimals": 0}, "caption": "Argentine pesos for $1 in 2025", "at": "twelve", "compare": {"format": {"decimals": 0}, "items": [{"label": "2015", "value": 9}, {"label": "2025", "value": 1241}]}}},
+  {"scene": "outro", "text": "How much has your money lost?", "props": {}}
+ ]
+}
