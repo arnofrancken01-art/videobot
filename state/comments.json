@@ -1,11 +1,35 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-15T16:12:23Z",
+ "fetched_at": "2026-11-16T14:42:34Z",
  "videos": [
+  {
+   "video_id": "YePdcnMitPs",
+   "title": "This money lost 99% in 10 years. Top 3 G20 currency crashes #shorts",
+   "views": 0,
+   "question_posted": false,
+   "question": "How much has your money lost?",
+   "comments": []
+  },
+  {
+   "video_id": "VFAb_5k328U",
+   "title": "India has more people than these 5 countries combined #shorts",
+   "views": 459,
+   "question_posted": false,
+   "question": "Which country did you think was bigger?",
+   "comments": []
+  },
+  {
+   "video_id": "XPVDvUT8i6A",
+   "title": "India vs Pakistan: who is richer? 3 rounds, real data #shorts",
+   "views": 395,
+   "question_posted": false,
+   "question": "So who really wins, India or Pakistan?",
+   "comments": []
+  },
   {
    "video_id": "vWAsC7_9M90",
    "title": "In 1990, China's economy was smaller than Spain's. Watch what happened #shorts",
-   "views": 32,
+   "views": 41,
    "question_posted": true,
    "question": "Will China ever pass America?",
    "comments": []
@@ -13,7 +37,7 @@
   {
    "video_id": "EjQWWGDRlrI",
    "title": "America vs Japan: who lives better? 4 rounds, real data #shorts",
-   "views": 73,
+   "views": 78,
    "question_posted": true,
    "question": "Japan wins three to one. Would you move?",
    "comments": []
@@ -24,14 +48,6 @@
    "views": 2,
    "question_posted": true,
    "question": "How many did you get?",
-   "comments": []
-  },
-  {
-   "video_id": "uXsKBzmZ_NI",
-   "title": "If the world economy were $100: America gets $26. India gets $3 #shorts",
-   "views": 3,
-   "question_posted": true,
-   "question": "How many dollars does your country get?",
    "comments": []
   }
  ]
