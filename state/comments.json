@@ -1,35 +1,51 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-16T14:42:34Z",
+ "fetched_at": "2026-11-16T16:15:59Z",
  "videos": [
+  {
+   "video_id": "S6rCA2SGbIU",
+   "title": "India vs China: who wins? 4 rounds, real data #shorts",
+   "views": 3,
+   "question_posted": false,
+   "question": "Two all. Who wins round five?",
+   "comments": []
+  },
   {
    "video_id": "YePdcnMitPs",
    "title": "This money lost 99% in 10 years. Top 3 G20 currency crashes #shorts",
-   "views": 0,
-   "question_posted": false,
+   "views": 1,
+   "question_posted": true,
    "question": "How much has your money lost?",
    "comments": []
   },
   {
    "video_id": "VFAb_5k328U",
    "title": "India has more people than these 5 countries combined #shorts",
-   "views": 459,
-   "question_posted": false,
+   "views": 476,
+   "question_posted": true,
    "question": "Which country did you think was bigger?",
    "comments": []
   },
   {
    "video_id": "XPVDvUT8i6A",
    "title": "India vs Pakistan: who is richer? 3 rounds, real data #shorts",
-   "views": 395,
-   "question_posted": false,
+   "views": 408,
+   "question_posted": true,
    "question": "So who really wins, India or Pakistan?",
-   "comments": []
+   "comments": [
+    {
+     "id": "UgxNRwxwOT_AwvDeVj94AaABAg",
+     "author": "@kindest_coco",
+     "text": "India 🇮🇳 🇮🇳 🇮🇳 🇮🇳 🇮🇳 🇮🇳 🇮🇳",
+     "answered": false,
+     "replies": []
+    }
+   ]
   },
   {
    "video_id": "vWAsC7_9M90",
    "title": "In 1990, China's economy was smaller than Spain's. Watch what happened #shorts",
-   "views": 41,
+   "views": 42,
    "question_posted": true,
    "question": "Will China ever pass America?",
    "comments": []
@@ -40,14 +56,6 @@
    "views": 78,
    "question_posted": true,
    "question": "Japan wins three to one. Would you move?",
-   "comments": []
-  },
-  {
-   "video_id": "0r8Fg8CwXF0",
-   "title": "Do Americans live longer than people in China? True or false #shorts",
-   "views": 2,
-   "question_posted": true,
-   "question": "How many did you get?",
    "comments": []
   }
  ]
