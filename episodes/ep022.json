@@ -1,0 +1,21 @@
+{
+ "id": "ep022",
+ "title": "India vs China: who wins? 4 rounds, real data",
+ "topic": "India vs China",
+ "headline": "India or *China*?",
+ "description": "India against China in four rounds: people, growth, income and life expectancy. Real World Bank data. Who wins round five?",
+ "tags": ["india vs china", "china vs india", "india vs china comparison", "india population", "china economy", "india economy 2025", "gdp per capita india", "life expectancy china", "country comparison"],
+ "source": "World Bank: population, GDP growth and GDP per capita (2025), life expectancy at birth (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["indiavschina", "money", "economy", "battle"],
+ "format": "battle",
+ "cover": {"flags": ["in", "cn"], "vs": true},
+ "segments": [
+  {"scene": "battle", "text": "India versus China. Four rounds. Who wins?", "props": {"a": {"label": "India", "flag": "in"}, "b": {"label": "China", "flag": "cn"}}},
+  {"scene": "battle", "text": "People. India now has more than China.", "props": {"stat": {"label": "Population", "a": 1.46, "b": 1.41, "format": {"suffix": "B", "decimals": 2}}, "at": "India"}},
+  {"scene": "battle", "text": "Growth. India's economy grows much faster.", "props": {"stat": {"label": "Economic growth 2025", "a": 7.6, "b": 5.0, "format": {"suffix": "%", "decimals": 1}}, "at": "India's"}},
+  {"scene": "battle", "text": "Income. China is five times richer per person.", "props": {"stat": {"label": "Income per person", "a": 2.7, "b": 13.9, "format": {"prefix": "$", "suffix": "k", "decimals": 1}}, "at": "China"}},
+  {"scene": "battle", "text": "Life. The Chinese live almost six years longer.", "props": {"stat": {"label": "Life expectancy", "a": 72.2, "b": 78.0, "format": {"suffix": " yrs", "decimals": 1}}, "at": "Chinese"}},
+  {"scene": "outro", "text": "Two all. Who wins round five?", "props": {}}
+ ]
+}
