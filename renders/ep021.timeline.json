@@ -1,0 +1,400 @@
+{
+ "id": "ep021",
+ "title": "This money lost 99% in 10 years. Top 3 G20 currency crashes",
+ "topic": "Money that lost value",
+ "headline": "This money lost *99%*",
+ "description": "Which G20 country's money lost the most against the US dollar since 2015? Guess before number one. Real World Bank exchange-rate data, 2015 vs 2025.",
+ "tags": [
+  "weakest currency",
+  "argentine peso",
+  "turkish lira",
+  "brazilian real",
+  "currency crash",
+  "exchange rate",
+  "argentina inflation",
+  "peso vs dollar",
+  "G20 currencies"
+ ],
+ "source": "World Bank, official exchange rate (local currency per US$, period average), 2015 and 2025, G20 countries, data.worldbank.org/indicator/PA.NUS.FCRF",
+ "voice": "af_heart",
+ "hashtags": [
+  "currency",
+  "money",
+  "economy",
+  "top3"
+ ],
+ "format": "countdown",
+ "cover": {
+  "flags": []
+ },
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "This money lost ninety-nine percent in ten years. Which country?",
+   "props": {
+    "kicker": "Value lost against the US dollar",
+    "big": 99.3,
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "sub": "2015 to 2025",
+    "icon": "coin"
+   },
+   "start": 0.05,
+   "end": 3.95,
+   "words": [
+    {
+     "word": "This",
+     "start": 0.275,
+     "end": 0.45
+    },
+    {
+     "word": "money",
+     "start": 0.45,
+     "end": 0.675
+    },
+    {
+     "word": "lost",
+     "start": 0.675,
+     "end": 0.975
+    },
+    {
+     "word": "ninety-nine",
+     "start": 0.975,
+     "end": 1.475
+    },
+    {
+     "word": "percent",
+     "start": 1.475,
+     "end": 1.85
+    },
+    {
+     "word": "in",
+     "start": 1.85,
+     "end": 1.95
+    },
+    {
+     "word": "ten",
+     "start": 1.95,
+     "end": 2.175
+    },
+    {
+     "word": "years.",
+     "start": 2.175,
+     "end": 2.725
+    },
+    {
+     "word": "Which",
+     "start": 2.825,
+     "end": 3.025
+    },
+    {
+     "word": "country?",
+     "start": 3.025,
+     "end": 3.7
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number three is Brazil. Over forty percent gone.",
+   "props": {
+    "title": "G20 money lost vs $1, 2015-2025",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "rank": 3,
+    "label": "Brazil",
+    "value": 40.5,
+    "flag": "br"
+   },
+   "start": 4.01,
+   "end": 7.41,
+   "words": [
+    {
+     "word": "Number",
+     "start": 4.26,
+     "end": 4.522
+    },
+    {
+     "word": "three",
+     "start": 4.522,
+     "end": 4.835
+    },
+    {
+     "word": "is",
+     "start": 4.835,
+     "end": 4.985
+    },
+    {
+     "word": "Brazil.",
+     "start": 4.985,
+     "end": 5.61
+    },
+    {
+     "word": "Over",
+     "start": 5.735,
+     "end": 5.997
+    },
+    {
+     "word": "forty",
+     "start": 5.997,
+     "end": 6.285
+    },
+    {
+     "word": "percent",
+     "start": 6.285,
+     "end": 6.635
+    },
+    {
+     "word": "gone.",
+     "start": 6.635,
+     "end": 7.16
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number two is Turkey. Ninety-three percent.",
+   "props": {
+    "rank": 2,
+    "label": "Turkey",
+    "value": 93.1,
+    "flag": "tr"
+   },
+   "start": 7.47,
+   "end": 10.52,
+   "words": [
+    {
+     "word": "Number",
+     "start": 7.72,
+     "end": 7.982
+    },
+    {
+     "word": "two",
+     "start": 7.982,
+     "end": 8.245
+    },
+    {
+     "word": "is",
+     "start": 8.245,
+     "end": 8.395
+    },
+    {
+     "word": "Turkey.",
+     "start": 8.395,
+     "end": 8.945
+    },
+    {
+     "word": "Ninety-three",
+     "start": 9.082,
+     "end": 9.645
+    },
+    {
+     "word": "percent.",
+     "start": 9.645,
+     "end": 10.295
+    }
+   ]
+  },
+  {
+   "scene": "rank",
+   "text": "Number one is Argentina. Over ninety-nine percent.",
+   "props": {
+    "rank": 1,
+    "label": "Argentina",
+    "value": 99.3,
+    "flag": "ar"
+   },
+   "start": 10.58,
+   "end": 14.105,
+   "words": [
+    {
+     "word": "Number",
+     "start": 10.83,
+     "end": 11.08
+    },
+    {
+     "word": "one",
+     "start": 11.08,
+     "end": 11.38
+    },
+    {
+     "word": "is",
+     "start": 11.38,
+     "end": 11.505
+    },
+    {
+     "word": "Argentina.",
+     "start": 11.505,
+     "end": 12.305
+    },
+    {
+     "word": "Over",
+     "start": 12.455,
+     "end": 12.705
+    },
+    {
+     "word": "ninety-nine",
+     "start": 12.705,
+     "end": 13.23
+    },
+    {
+     "word": "percent.",
+     "start": 13.23,
+     "end": 13.88
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "In 2015, one dollar got you nine pesos. Now it gets you twelve hundred forty-one.",
+   "props": {
+    "value": 1241,
+    "format": {
+     "decimals": 0
+    },
+    "caption": "Argentine pesos for $1 in 2025",
+    "at": "twelve",
+    "compare": {
+     "format": {
+      "decimals": 0
+     },
+     "items": [
+      {
+       "label": "2015",
+       "value": 9
+      },
+      {
+       "label": "2025",
+       "value": 1241
+      }
+     ]
+    }
+   },
+   "start": 14.165,
+   "end": 19.69,
+   "words": [
+    {
+     "word": "In",
+     "start": 14.39,
+     "end": 14.49
+    },
+    {
+     "word": "2015,",
+     "start": 14.49,
+     "end": 15.365
+    },
+    {
+     "word": "one",
+     "start": 15.465,
+     "end": 15.69
+    },
+    {
+     "word": "dollar",
+     "start": 15.69,
+     "end": 15.99
+    },
+    {
+     "word": "got",
+     "start": 15.99,
+     "end": 16.165
+    },
+    {
+     "word": "you",
+     "start": 16.165,
+     "end": 16.315
+    },
+    {
+     "word": "nine",
+     "start": 16.315,
+     "end": 16.565
+    },
+    {
+     "word": "pesos.",
+     "start": 16.565,
+     "end": 17.39
+    },
+    {
+     "word": "Now",
+     "start": 17.502,
+     "end": 17.727
+    },
+    {
+     "word": "it",
+     "start": 17.727,
+     "end": 17.802
+    },
+    {
+     "word": "gets",
+     "start": 17.802,
+     "end": 18.015
+    },
+    {
+     "word": "you",
+     "start": 18.015,
+     "end": 18.165
+    },
+    {
+     "word": "twelve",
+     "start": 18.165,
+     "end": 18.477
+    },
+    {
+     "word": "hundred",
+     "start": 18.477,
+     "end": 18.715
+    },
+    {
+     "word": "forty-one.",
+     "start": 18.715,
+     "end": 19.465
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "How much has your money lost?",
+   "props": {},
+   "start": 19.75,
+   "end": 21.65,
+   "words": [
+    {
+     "word": "How",
+     "start": 19.975,
+     "end": 20.15
+    },
+    {
+     "word": "much",
+     "start": 20.15,
+     "end": 20.375
+    },
+    {
+     "word": "has",
+     "start": 20.375,
+     "end": 20.538
+    },
+    {
+     "word": "your",
+     "start": 20.538,
+     "end": 20.637
+    },
+    {
+     "word": "money",
+     "start": 20.637,
+     "end": 20.85
+    },
+    {
+     "word": "lost?",
+     "start": 20.85,
+     "end": 21.4
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 670,
+ "fps": 30,
+ "aligned": "tts"
+}
