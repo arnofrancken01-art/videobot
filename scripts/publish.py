@@ -107,6 +107,51 @@ def youtube_token():
     return r["access_token"]
 
 
+def add_subtitles(token, vid, name, ep):
+    """Echte ondertitels (Engels) bij de video: YouTube kan ze automatisch vertalen (Hindi, Spaans...) en doorzoekt de tekst."""
+    tl = json.loads(subprocess.run(["git", "show", f"origin/renders:renders/{name}.timeline.json"], check=True, capture_output=True, cwd=ROOT).stdout)
+    stamp = lambda t: f"{int(t // 3600):02d}:{int(t % 3600 // 60):02d}:{int(t % 60):02d},{int(t * 1000 % 1000):03d}"
+    srt = "\n".join(f"{i + 1}\n{stamp(s['start'])} --> {stamp(s['end'])}\n{s['text']}\n" for i, s in enumerate(tl["segments"]))
+    meta = json.dumps({"snippet": {"videoId": vid, "language": "en", "name": "", "isDraft": False}})
+    body = (f"--cut\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n{meta}\r\n"
+            f"--cut\r\nContent-Type: application/octet-stream\r\n\r\n{srt}\r\n--cut--").encode()
+    r = requests.post("https://www.googleapis.com/upload/youtube/v3/captions?uploadType=multipart&part=snippet",
+                      headers={"Authorization": f"Bearer {token}", "Content-Type": "multipart/related; boundary=cut"}, data=body, timeout=60)
+    if r.status_code != 200:
+        raise RuntimeError(r.text[:200])
+
+
+def series_of(ep):
+    """Afspeellijst waar de video in hoort: wie er één bekijkt, krijgt de volgende van dezelfde reeks."""
+    title = ep["title"].lower()
+    if ep.get("long"):
+        return "Country battles: the long versions", "Full country comparisons with real World Bank data."
+    if "india" in title:
+        return "India vs the World 🇮🇳", "India against every big country, with real data. Who wins?"
+    if ep.get("format") in ("quiz", "choice", "truefalse", "clues"):
+        return "Guess the country 🌍", "Can you beat the quiz? Real data, surprising answers."
+    if " vs " in title or ep.get("format") in ("battle", "race"):
+        return "Country vs Country ⚔️", "Two countries, real numbers, one winner."
+    return "This country... 💰", "One shocking number. Which country is it?"
+
+
+def add_to_playlist(token, vid, name, ep):
+    h = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+    title, desc = series_of(ep)
+    mine = requests.get("https://www.googleapis.com/youtube/v3/playlists", params={"part": "snippet", "mine": "true", "maxResults": 50}, headers=h, timeout=30).json()
+    pid = next((p["id"] for p in mine.get("items", []) if p["snippet"]["title"] == title), None)
+    if not pid:
+        r = requests.post("https://www.googleapis.com/youtube/v3/playlists?part=snippet,status", headers=h, timeout=30,
+                          data=json.dumps({"snippet": {"title": title, "description": desc}, "status": {"privacyStatus": "public"}}))
+        if r.status_code != 200:
+            raise RuntimeError(r.text[:200])
+        pid = r.json()["id"]
+    r = requests.post("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet", headers=h, timeout=30,
+                      data=json.dumps({"snippet": {"playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": vid}}}))
+    if r.status_code != 200:
+        raise RuntimeError(r.text[:200])
+
+
 def youtube(name, ep, privacy="private"):  # privé: Arno kijkt na en zet zelf openbaar
     path = Path(f"/tmp/{name}.mp4")
     if not path.exists():
@@ -143,6 +188,11 @@ def youtube(name, ep, privacy="private"):  # privé: Arno kijkt na en zet zelf o
     if up.status_code not in (200, 201):
         raise RuntimeError(f"YouTube upload: {up.text[:300]}")
     vid = up.json()["id"]
+    for extra in (add_subtitles, add_to_playlist):  # extraatjes: een fout hier mag de upload nooit breken
+        try:
+            extra(token, vid, name, ep)
+        except Exception as e:  # noqa: BLE001
+            print(f"{extra.__name__} mislukt: {e}")
     return {"id": vid, "url": f"https://youtube.com/{'watch?v=' if ep.get('long') else 'shorts/'}{vid}", "privacy": up.json()["status"]["privacyStatus"]}
 
 
