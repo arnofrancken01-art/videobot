@@ -161,6 +161,12 @@ Regels voor de tekst:
 - **Outro:** één korte vraag die reacties uitlokt (zie hierboven). Ze komt groot in beeld met "Comment your answer". Nooit "Follow for more".
 - **Wereldkaart** (`"map": true` in het eerste rank-segment): alleen bij een countdown met landen op verschillende continenten.
 
+## Muziek
+
+Er zijn vier muziekjes (`public/sfx/bed1.mp3` tot `bed4.mp3`); het nummer van de aflevering kiest er vanzelf een, zodat ze afwisselen.
+Wil je er zelf een kiezen, zet dan `"music": 1` (rustig, 110 bpm), `2` (vrolijk, 124 bpm), `3` (traag en zwaar, 92 bpm, past bij
+raadsels en geldcrashes) of `4` (snel en gespannen, 128 bpm, past bij duels) in de aflevering.
+
 ## Uploadtekst (voor zoveel mogelijk bereik)
 
 Vul in elke episode ook in:

@@ -181,6 +181,9 @@ const topic: string = (timeline as { topic?: string }).topic
   ?? (timeline.segments.find((s) => s.scene === "rank")?.props as any)?.title ?? "";
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const headline: string = (timeline as any).headline ?? topic;
+// Muziek: vier stijlen; het nummer van de aflevering kiest welke, zodat ze afwisselen. `music: 1..4` in de aflevering kiest zelf.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const BED: number = (timeline as any).music ?? ((parseInt(String((timeline as any).id ?? "").replace(/\D/g, ""), 10) || 0) % 4) + 1;
 const OVERLAP = 6; // frames waarin twee scenes in elkaar overvloeien
 
 // Elke scene komt binnen met een veer, zoomt traag in en vloeit weg in de volgende.
@@ -248,12 +251,12 @@ export const Video: React.FC = () => (
       Money, Mapped · Source: {timeline.source.split(",")[0]}
     </div>
     <Audio src={staticFile("voice.wav")} />
-    <Audio src={staticFile("sfx/bed.mp3")} volume={(fr) => 0.16 * Math.min(1, (timeline.durationInFrames - fr) / 12)} loop />
+    <Audio src={staticFile(`sfx/bed${BED}.mp3`)} volume={(fr) => 0.27 * Math.min(1, (timeline.durationInFrames - fr) / 12)} loop />
     <Sequence from={0} durationInFrames={fps * 2}><Audio src={staticFile("sfx/boom.wav")} volume={0.45} /></Sequence>
     <Sequence from={HOLD} durationInFrames={fps * 2}><Audio src={staticFile("sfx/whoosh.wav")} volume={0.4} /></Sequence>
     {fx.map((e, i) => (
       <Sequence key={`fx${i}`} from={Math.max(0, Math.round(e.at * fps))} durationInFrames={fps * 2}>
-        <Audio src={staticFile(`sfx/${e.src}.wav`)} volume={e.vol} />
+        <Audio src={staticFile(`sfx/${e.src}.wav`)} volume={Math.min(1, e.vol * 1.5)} />
       </Sequence>
     ))}
   </AbsoluteFill>

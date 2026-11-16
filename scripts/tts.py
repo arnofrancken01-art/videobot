@@ -105,6 +105,33 @@ def engine_onnx(voice):
     return say, False
 
 
+def loud(x, target=0.2, ceiling=0.72):
+    """Maak de stem zo luid als andere Shorts (ca. -16 LUFS; ze stond op -22, half zo luid).
+    Eerst versterken tot een vaste gemiddelde sterkte, daarna een begrenzer die pieken zacht terugneemt in plaats van ze af te kappen."""
+    from numpy.lib.stride_tricks import sliding_window_view
+    active = x[np.abs(x) > 0.01]
+    if not len(active):
+        return x
+    # Klankkleur van een radiostem: gerommel onder 75 Hz weg, wat warmte rond 180 Hz, helderheid boven 4 kHz.
+    X = np.fft.rfft(x)
+    fr = np.fft.rfftfreq(len(x), 1 / SR)
+    db = -24 / (1 + (fr / 75) ** 4) + 2.0 * np.exp(-((np.log2(np.maximum(fr, 1) / 180)) ** 2) / 0.5) + 4.0 / (1 + (4200 / np.maximum(fr, 1)) ** 3) - 2.5 * np.exp(-((np.log2(np.maximum(fr, 1) / 500)) ** 2) / 0.4)
+    x = np.fft.irfft(X * 10 ** (db / 20), len(x))
+    # Zachte compressie: stille lettergrepen komen omhoog, zodat elk woord verstaanbaar is op een telefoon.
+    w = int(SR * 0.02)
+    level = np.sqrt(np.convolve(x ** 2, np.ones(w) / w, mode="same")) + 1e-6
+    ref = np.sqrt(np.mean(x[np.abs(x) > 0.01] ** 2))
+    x = x * np.clip((level / ref) ** -0.35, 0.5, 2.2)
+    active = x[np.abs(x) > 0.01]
+    y = x * (target / np.sqrt(np.mean(active ** 2)))
+    win = int(SR * 0.006)
+    pad = np.pad(np.abs(y), (win, win), mode="edge")
+    env = sliding_window_view(pad, 2 * win + 1).max(axis=1)          # hoogste piek in de buurt (kijkt ook vooruit)
+    gain = np.minimum(1.0, ceiling / np.maximum(env, 1e-9))
+    gain = np.convolve(np.pad(gain, (win, win), mode="edge"), np.ones(2 * win + 1) / (2 * win + 1), mode="valid")  # vloeiend
+    return np.clip(y * gain, -ceiling, ceiling).astype(np.float32)
+
+
 def main():
     ep = json.loads(Path(sys.argv[1]).read_text())
     voice = ep.get("voice", "af_heart")
@@ -136,7 +163,7 @@ def main():
     audio.append(np.zeros(int(SR * 0.6), dtype=np.float32))
     t += 0.6
     (ROOT / "public").mkdir(exist_ok=True)
-    sf.write(ROOT / "public/voice.wav", np.concatenate(audio), SR)
+    sf.write(ROOT / "public/voice.wav", loud(np.concatenate(audio)), SR)
     timeline = {k2: v for k2, v in ep.items() if k2 != "segments"}
     timeline.update({"segments": segs, "durationInFrames": int(t * FPS) + 1, "fps": FPS, "aligned": aligned})
     (ROOT / "src/timeline.json").write_text(json.dumps(timeline, indent=1))
