@@ -1,0 +1,735 @@
+{
+ "id": "lv001",
+ "long": true,
+ "title": "India vs the World: 8 countries, 32 rounds, real data",
+ "headline": "India vs *the world*",
+ "topic": "India vs the world",
+ "cover": {
+  "flags": [
+   "in"
+  ]
+ },
+ "description": "India against Pakistan, China, USA, UK, Japan, Russia, Bangladesh, Germany: population, economy, income, army and more. Every number is real World Bank data.",
+ "tags": [
+  "india vs pakistan",
+  "india vs china",
+  "india vs usa",
+  "india vs uk",
+  "india vs japan",
+  "india vs russia",
+  "india vs bangladesh",
+  "india vs germany",
+  "country comparison",
+  "india vs the world"
+ ],
+ "hashtags": [
+  "india",
+  "countrycomparison",
+  "geography"
+ ],
+ "source": "World Bank, World Development Indicators (latest year per round)",
+ "voice": "af_heart",
+ "format": "battle",
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "India against eight of the biggest countries on earth. Real numbers. Keep score.",
+   "props": {
+    "kicker": "India vs the world",
+    "big": 32,
+    "format": {
+     "suffix": " rounds"
+    },
+    "sub": "Real World Bank data",
+    "flag": "in"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Battle one. India versus Pakistan.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Pakistan",
+     "flag": "pk"
+    },
+    "chapter": "India vs *Pakistan*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population. India has six times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 1464.0,
+     "b": 255.0,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. India's economy is ten times bigger.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 3.96,
+     "b": 0.41,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Soldiers. India has three times more soldiers.",
+   "props": {
+    "stat": {
+     "label": "Soldiers (2020)",
+     "a": 3.07,
+     "b": 0.94,
+     "format": {
+      "suffix": "M",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Income. India is one and a half times richer per person.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 2702.0,
+     "b": 1596.0,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "India takes it. Four to zero.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Battle two. India versus China.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "China",
+     "flag": "cn"
+    },
+    "chapter": "India vs *China*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population. India wins. But only just.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 1464.0,
+     "b": 1407.0,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. China's economy is five times bigger.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 3.96,
+     "b": 19.5,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "China"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Economic growth. India is growing faster.",
+   "props": {
+    "stat": {
+     "label": "Economic growth (2025)",
+     "a": 7.6,
+     "b": 5.0,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Life expectancy. People in China live six years longer.",
+   "props": {
+    "stat": {
+     "label": "Life expectancy (2024)",
+     "a": 72.2,
+     "b": 78.0,
+     "format": {
+      "suffix": " yrs",
+      "decimals": 1
+     }
+    },
+    "at": "China"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "A draw. Two all.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Battle three. India versus America.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "USA",
+     "flag": "us"
+    },
+    "chapter": "India vs *USA*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Income. America is thirty-three times richer per person.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 2702.0,
+     "b": 90027.0,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "America"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population. India has four times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 1464.0,
+     "b": 342.0,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Military budget. America spends ten times more on its army.",
+   "props": {
+    "stat": {
+     "label": "Military budget (2025)",
+     "a": 92.0,
+     "b": 954.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "America"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Economic growth. India is growing faster.",
+   "props": {
+    "stat": {
+     "label": "Economic growth (2025)",
+     "a": 7.6,
+     "b": 2.2,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "A draw. Two all.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Battle four. India versus Britain.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "UK",
+     "flag": "gb"
+    },
+    "chapter": "India vs *UK*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. Britain wins. But only just.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 3.96,
+     "b": 4.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "Britain"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Land area. India is twelve times bigger.",
+   "props": {
+    "stat": {
+     "label": "Land area (2024)",
+     "a": 2.97,
+     "b": 0.24,
+     "format": {
+      "suffix": "M km²",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Reserves and gold. India holds three times more.",
+   "props": {
+    "stat": {
+     "label": "Reserves and gold (2025)",
+     "a": 700.0,
+     "b": 214.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Life expectancy. People in Britain live nine years longer.",
+   "props": {
+    "stat": {
+     "label": "Life expectancy (2024)",
+     "a": 72.2,
+     "b": 81.4,
+     "format": {
+      "suffix": " yrs",
+      "decimals": 1
+     }
+    },
+    "at": "Britain"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "A draw. Two all.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Battle five. India versus Japan.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Japan",
+     "flag": "jp"
+    },
+    "chapter": "India vs *Japan*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. Japan wins. But only just.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 3.96,
+     "b": 4.44,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "Japan"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population. India has twelve times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 1464.0,
+     "b": 123.0,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "People online. More people are online in Japan.",
+   "props": {
+    "stat": {
+     "label": "People online (2024)",
+     "a": 65.0,
+     "b": 86.0,
+     "format": {
+      "suffix": "%"
+     }
+    },
+    "at": "Japan"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Soldiers. India has twelve times more soldiers.",
+   "props": {
+    "stat": {
+     "label": "Soldiers (2020)",
+     "a": 3.07,
+     "b": 0.26,
+     "format": {
+      "suffix": "M",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "A draw. Two all.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Battle six. India versus Russia.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Russia",
+     "flag": "ru"
+    },
+    "chapter": "India vs *Russia*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Land area. Russia is six times bigger.",
+   "props": {
+    "stat": {
+     "label": "Land area (2024)",
+     "a": 2.97,
+     "b": 16.38,
+     "format": {
+      "suffix": "M km²",
+      "decimals": 2
+     }
+    },
+    "at": "Russia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. India leads by fifty percent.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 3.96,
+     "b": 2.56,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Military budget. Russia spends two times more on its army.",
+   "props": {
+    "stat": {
+     "label": "Military budget (2025)",
+     "a": 92.0,
+     "b": 190.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "Russia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Exports. India exports two times more.",
+   "props": {
+    "stat": {
+     "label": "Exports (2025)",
+     "a": 881.0,
+     "b": 466.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "A draw. Two all.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Battle seven. India versus Bangladesh.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Bangladesh",
+     "flag": "bd"
+    },
+    "chapter": "India vs *Bangladesh*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population. India has eight times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 1464.0,
+     "b": 176.0,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Income. India wins. But only just.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 2702.0,
+     "b": 2597.0,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Tourists. India gets sixty times more tourists.",
+   "props": {
+    "stat": {
+     "label": "Tourists per year (2019)",
+     "a": 17.9,
+     "b": 0.3,
+     "format": {
+      "suffix": "M",
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Economic growth. India is growing faster.",
+   "props": {
+    "stat": {
+     "label": "Economic growth (2025)",
+     "a": 7.6,
+     "b": 3.5,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "India takes it. Four to zero.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Battle eight. India versus Germany.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Germany",
+     "flag": "de"
+    },
+    "chapter": "India vs *Germany*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. Germany leads by twenty-five percent.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 3.96,
+     "b": 5.05,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "Germany"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Soldiers. India has seventeen times more soldiers.",
+   "props": {
+    "stat": {
+     "label": "Soldiers (2020)",
+     "a": 3.07,
+     "b": 0.18,
+     "format": {
+      "suffix": "M",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Reserves and gold. India wins. But only just.",
+   "props": {
+    "stat": {
+     "label": "Reserves and gold (2025)",
+     "a": 700.0,
+     "b": 572.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Life expectancy. People in Germany live nine years longer.",
+   "props": {
+    "stat": {
+     "label": "Life expectancy (2024)",
+     "a": 72.2,
+     "b": 80.8,
+     "format": {
+      "suffix": " yrs",
+      "decimals": 1
+     }
+    },
+    "at": "Germany"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "A draw. Two all.",
+   "props": {}
+  },
+  {
+   "scene": "bignumber",
+   "text": "Final score. India won twenty of thirty-two rounds.",
+   "props": {
+    "value": 20,
+    "format": {
+     "suffix": " of 32"
+    },
+    "caption": "rounds won by India",
+    "at": "won",
+    "chapter": "The *final* score"
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "Which country should India face next?",
+   "props": {}
+  }
+ ]
+}

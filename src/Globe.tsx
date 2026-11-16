@@ -13,7 +13,7 @@ import { theme } from "./theme";
  */
 export type GlobeKey = { from: number; code: string };
 
-const R = 780, CX = 540, CY = 2060, TILT = 40, FLY = 22, SPIN = 0.35;
+const FLY = 22, SPIN = 0.35;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const geo = feature(world as any, (world as any).objects.countries) as unknown as GeoJSON.FeatureCollection;
 const numeric = (code: string) => countries.alpha2ToNumeric(code.toUpperCase()) ?? "";
@@ -29,7 +29,7 @@ const center = (code: string): [number, number] | null => {
 };
 const wrap = (d: number) => ((((d + 180) % 360) + 360) % 360) - 180;
 
-export const Globe: React.FC<{ keys: GlobeKey[] }> = ({ keys }) => {
+export const Globe: React.FC<{ keys: GlobeKey[]; cx?: number; cy?: number; r?: number; tilt?: number; w?: number; h?: number }> = ({ keys, cx: CX = 540, cy: CY = 2060, r: R = 780, tilt: TILT = 40, w = 1080, h = 1920 }) => {
   const f = useCurrentFrame();
   const stops = useMemo(
     () => keys.map((k) => ({ from: k.from, code: k.code, c: center(k.code) })).filter((k) => k.c) as { from: number; code: string; c: [number, number] }[],
@@ -55,7 +55,7 @@ export const Globe: React.FC<{ keys: GlobeKey[] }> = ({ keys }) => {
   const pulse = (f % 30) / 30;
   return (
     <AbsoluteFill>
-      <svg width={1080} height={1920} style={{ position: "absolute" }}>
+      <svg width={w} height={h} style={{ position: "absolute" }}>
         <defs>
           <radialGradient id="ocean" cx="50%" cy="18%" r="75%">
             <stop offset="0" stopColor="#1B4F9C" />

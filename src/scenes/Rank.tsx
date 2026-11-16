@@ -44,6 +44,8 @@ export const Rank: React.FC<SceneProps> = ({ segs, fps, offset }) => {
     ...(i > 0 ? [{ at: s.start, code: null }] : []),
     { at: s.reveal, code: (s.item as Item).flag ?? null },
   ]);
+  const big = total <= 3; // top 3: grotere rijen, het scherm moet vol
+  const rowH = big ? 104 : 62, rowF = big ? 58 : 40;
   const useMap = !!first.map; // kaart alleen als de episode erom vraagt (af en toe)
   const done = ranked.filter((s) => s.reveal <= f && s !== cur).map((s) => (s.item as Item).flag ?? "");
 
@@ -76,7 +78,7 @@ export const Rank: React.FC<SceneProps> = ({ segs, fps, offset }) => {
 
       </>) : (<>
       {/* Huidig land, groot (zonder kaart) */}
-      <div style={{ height: 480, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 40 }}>
+      <div style={{ height: big ? 520 : 480, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 40 }}>
         <div style={{
           color, fontSize: 250, fontWeight: 900, letterSpacing: -12, lineHeight: 1,
           transform: `translateX(${interpolate(numIn, [0, 1], [-160, 0])}px) scale(${interpolate(numIn, [0, 1], [1.5, 1])}) rotate(${interpolate(numIn, [0, 1], [-8, 0])}deg)`, opacity: Math.min(1, numIn * 2),
@@ -97,7 +99,7 @@ export const Rank: React.FC<SceneProps> = ({ segs, fps, offset }) => {
       </>)}
 
       {/* Ladder 1..5 */}
-      <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: 10 }}>
+      <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: big ? 16 : 10 }}>
         {Array.from({ length: total }, (_, k) => k + 1).map((r) => {
           const st = ranked.find((s) => (s.item as Item).rank === r);
           const open = st && f >= st.reveal;
@@ -107,21 +109,21 @@ export const Rank: React.FC<SceneProps> = ({ segs, fps, offset }) => {
           const c = r === 1 ? theme.warm : theme.accent;
           return (
             <div key={r} style={{
-              height: 62, borderRadius: 14, display: "flex", alignItems: "center", gap: 18, padding: "0 22px", position: "relative", overflow: "hidden",
+              height: rowH, borderRadius: big ? 22 : 14, display: "flex", alignItems: "center", gap: 18, padding: "0 22px", position: "relative", overflow: "hidden",
               background: theme.bgSoft, border: `2px solid ${active && open ? c : theme.border}`,
             }}>
               {open && x && (
                 <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: `${(Math.abs(x.value) / max) * 100 * g}%`, background: c, opacity: active ? 0.28 : 0.14 }} />
               )}
-              <div style={{ width: 70, color: open ? c : theme.muted, fontSize: 40, fontWeight: 900, zIndex: 1 }}>#{r}</div>
+              <div style={{ width: big ? 100 : 70, color: open ? c : theme.muted, fontSize: rowF, fontWeight: 900, zIndex: 1 }}>#{r}</div>
               {open && x ? (
                 <>
-                  <Flag code={x.flag} h={44} />
-                  <div style={{ flex: 1, color: theme.text, fontSize: 40, fontWeight: 800, zIndex: 1 }}>{x.label}</div>
-                  <div style={{ color: theme.text, fontSize: 40, fontWeight: 900, zIndex: 1 }}>{fmt(x.value, format)}</div>
+                  <Flag code={x.flag} h={big ? 68 : 44} />
+                  <div style={{ flex: 1, color: theme.text, fontSize: rowF, fontWeight: 800, zIndex: 1 }}>{x.label}</div>
+                  <div style={{ color: theme.text, fontSize: rowF, fontWeight: 900, zIndex: 1 }}>{fmt(x.value, format)}</div>
                 </>
               ) : (
-                <div style={{ flex: 1, color: theme.muted, fontSize: 40, fontWeight: 800, opacity: 0.6, zIndex: 1 }}>?</div>
+                <div style={{ flex: 1, color: theme.muted, fontSize: rowF, fontWeight: 800, opacity: 0.6, zIndex: 1 }}>?</div>
               )}
             </div>
           );

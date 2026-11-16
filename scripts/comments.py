@@ -32,7 +32,7 @@ def get(token, path, **params):
 
 def question_for(title):
     """De slotvraag uit de aflevering met dezelfde titel."""
-    for p in sorted((ROOT / "episodes").glob("ep*.json")):
+    for p in sorted((ROOT / "episodes").glob("ep*.json")) + sorted((ROOT / "long").glob("lv*.json")):
         ep = json.loads(p.read_text())
         if title.startswith(ep["title"][:40]):
             out = [s for s in ep["segments"] if s["scene"] == "outro"]

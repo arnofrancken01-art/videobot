@@ -15,6 +15,43 @@ norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 path = Path(sys.argv[1])
 ep = json.loads(path.read_text())
 
+if ep.get("long"):  # lange video: eigen, lichte controle (regels in docs/LONG.md)
+    segs = ep.get("segments", [])
+    words = sum(len(s.get("text", "").split()) for s in segs)
+    for key in ("id", "title", "headline", "description", "source", "segments", "hashtags"):
+        if key not in ep:
+            errors.append(f"veld '{key}' ontbreekt")
+    if not 330 <= words <= 1400:
+        errors.append(f"{words} woorden; een lange video heeft er 330 tot 1400 (ca. 2 tot 9 minuten)")
+    if segs and segs[-1].get("scene") != "outro":
+        errors.append("laatste segment moet scene 'outro' zijn")
+    if len([s for s in segs if s.get("props", {}).get("chapter")]) < 4:
+        errors.append("minstens 4 hoofdstukken (prop 'chapter') nodig")
+    for i, s in enumerate(segs):
+        if s.get("scene") not in SCENES:
+            errors.append(f"segment {i + 1}: onbekende scene '{s.get('scene')}'")
+        if len(s.get("text", "").split()) > 22:
+            warnings.append(f"segment {i + 1}: lange zin, splitsen houdt het tempo hoog")
+        def flags_in(v):
+            if isinstance(v, dict):
+                for k, x in v.items():
+                    if k == "flag" and x not in FLAGS:
+                        errors.append(f"segment {i + 1}: onbekende vlag '{x}'")
+                    flags_in(x)
+            elif isinstance(v, list):
+                for x in v:
+                    flags_in(x)
+        flags_in(s.get("props", {}))
+        st = s.get("props", {}).get("stat")
+        if s.get("scene") == "battle" and st and not all(isinstance(st.get(k), (int, float)) for k in ("a", "b")):
+            errors.append(f"segment {i + 1}: stat heeft getallen a en b nodig")
+    for w in warnings:
+        print("LET OP:", w)
+    if errors:
+        sys.exit("FOUT:\n- " + "\n- ".join(errors))
+    print(f"OK (lange video): {len(segs)} segmenten, {words} woorden, ca. {words / 2.7 / 60:.1f} min")
+    sys.exit(0)
+
 for key in ("id", "title", "source", "segments", "hashtags", "format"):
     if key not in ep:
         errors.append(f"veld '{key}' ontbreekt")

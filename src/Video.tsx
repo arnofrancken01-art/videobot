@@ -29,10 +29,15 @@ const SCENES: Record<string, React.FC<SceneProps>> = {
 };
 
 // Opeenvolgende segmenten met dezelfde scene worden 1 doorlopende scene.
+// Lange video (16:9): zelfde scenes, maar links in beeld met de wereldbol rechts.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const LONG = !!(timeline as any).long;
 const groups: { scene: string; segs: Seg[] }[] = [];
 for (const s of timeline.segments) {
   const last = groups[groups.length - 1];
-  if (last && last.scene === s.scene && ["bars", "versus", "line", "rank", "quiz", "race", "grid", "truefalse", "choice", "clues", "thennow", "dots", "podium", "battle", "ticker", "receipt", "bubbles"].includes(s.scene)) last.segs.push(s);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const fresh = (s.scene === "battle" && (s.props as any).a) || (s.scene === "rank" && (s.props as any).title) || (s.props as any).chapter; // nieuw duel, nieuwe lijst of nieuw hoofdstuk = nieuwe scene
+  if (last && !fresh && last.scene === s.scene && ["bars", "versus", "line", "rank", "quiz", "race", "grid", "truefalse", "choice", "clues", "thennow", "dots", "podium", "battle", "ticker", "receipt", "bubbles"].includes(s.scene)) last.segs.push(s);
   else groups.push({ scene: s.scene, segs: [s] });
 }
 
@@ -98,8 +103,9 @@ const flagOf = (s: Seg): string | undefined => { const p: any = s.props; return 
 const flags: { from: number; to: number; code: string }[] = [];
 // Duel: de bol en de achtergrond gaan telkens naar het land dat de ronde wint.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const duel: any = timeline.segments.find((s) => s.scene === "battle" && (s.props as any).a)?.props;
+const duelAt = (i: number): any => timeline.segments.slice(0, i + 1).reverse().find((s) => s.scene === "battle" && (s.props as any).a)?.props;
 timeline.segments.forEach((s, i) => {
+  const duel = duelAt(i);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const st: any = (s.props as any).stat;
   // Raadspel: bij de onthulling naar het land dat de ronde wint.
@@ -186,7 +192,7 @@ const Stage: React.FC<{ dur: number; first: boolean; children: React.ReactNode }
   const scale = interpolate(enter, [0, 1], [0.9, 1]) * (1 + 0.04 * (f / dur)) * interpolate(exit, [0, 1], [1.08, 1]);
   return (
     <div style={{
-      position: "absolute", left: 0, right: 0, top: STAGE.top, height: STAGE.height,
+      position: "absolute", left: 0, right: 0, top: LONG ? 0 : STAGE.top, height: STAGE.height,
       display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
       opacity: Math.min(enter * 1.5, exit), transform: `scale(${scale})`,
       filter: `blur(${(1 - exit) * 12}px)`,
@@ -194,6 +200,15 @@ const Stage: React.FC<{ dur: number; first: boolean; children: React.ReactNode }
       {children}
     </div>
   );
+};
+
+// Kop: in een lange video toont hij na de opening telkens het hoofdstuk waar we zitten.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const chapters = timeline.segments.filter((s) => (s.props as any).chapter).map((s) => ({ at: Math.round(s.start * fps), text: String((s.props as any).chapter) }));
+const Head: React.FC = () => {
+  const f = useCurrentFrame();
+  const ch = [...chapters].reverse().find((c) => c.at <= f && c.at > HOLD);
+  return <Headline text={ch ? ch.text : headline} flags={coverFlags} vs={coverVs} wide={LONG} />;
 };
 
 export const Video: React.FC = () => (
@@ -204,9 +219,10 @@ export const Video: React.FC = () => (
         <FlagGlow code={g.code} dur={g.to - g.from} />
       </Sequence>
     ))}
-    <Globe keys={flags.map((g) => ({ from: Math.max(g.from, HOLD), code: g.code }))} />
-    <AbsoluteFill style={{ background: "linear-gradient(180deg, transparent 62%, rgba(5,11,28,0.55) 100%)" }} />
+    <Globe keys={flags.map((g) => ({ from: Math.max(g.from, HOLD), code: g.code }))} {...(LONG ? { cx: 1475, cy: 500, r: 335, tilt: 8, w: 1920, h: 1080 } : {})} />
+    {!LONG && <AbsoluteFill style={{ background: "linear-gradient(180deg, transparent 62%, rgba(5,11,28,0.55) 100%)" }} />}
     <Punch>
+    <div style={LONG ? { position: "absolute", left: 24, top: 150, width: 1080, height: 1000, transform: "scale(0.9)", transformOrigin: "top left" } : { position: "absolute", inset: 0 }}>
     {groups.map((g, i) => {
       const from = i === 0 ? 0 : Math.round(g.segs[0].start * fps);
       const next = groups[i + 1];
@@ -221,13 +237,14 @@ export const Video: React.FC = () => (
         </Sequence>
       );
     })}
+    </div>
     </Punch>
     {hits.filter((h) => h.big).map((h) => (
       <Sequence key={`burst${h.at}`} from={h.at} durationInFrames={42}><Burst /></Sequence>
     ))}
-    <Headline text={headline} flags={coverFlags} vs={coverVs} />
-    <Captions segments={timeline.segments} fps={fps} />
-    <div style={{ position: "absolute", bottom: 44, width: "100%", textAlign: "center", color: "rgba(255,255,255,0.6)", fontSize: 24, fontWeight: 700, textShadow: "0 2px 8px #000" }}>
+    <Head />
+    <Captions segments={timeline.segments} fps={fps} wide={LONG} />
+    <div style={{ position: "absolute", bottom: LONG ? 14 : 44, width: "100%", textAlign: "center", color: "rgba(255,255,255,0.6)", fontSize: 24, fontWeight: 700, textShadow: "0 2px 8px #000" }}>
       Money, Mapped · Source: {timeline.source.split(",")[0]}
     </div>
     <Audio src={staticFile("voice.wav")} />

@@ -39,8 +39,26 @@ def caption(ep):
             f"{' '.join(hashtags(ep))}")
 
 
+def ep_path(name):
+    """Korte video's staan in episodes/, lange in long/."""
+    p = ROOT / f"episodes/{name}.json"
+    return p if p.exists() else ROOT / f"long/{name}.json"
+
+
+def chapters(name):
+    """Hoofdstukken met tijdstip voor de beschrijving van een lange video (YouTube maakt er klikbare hoofdstukken van)."""
+    try:
+        tl = json.loads(subprocess.run(["git", "show", f"origin/renders:renders/{name}.timeline.json"], check=True, capture_output=True, cwd=ROOT).stdout)
+    except Exception:  # noqa: BLE001
+        return ""
+    rows = [(0, "Intro")] + [(int(s["start"]), re.sub(r"\*", "", s["props"]["chapter"])) for s in tl["segments"] if s.get("props", {}).get("chapter") and s["start"] >= 10]
+    return "\n".join(f"{t // 60}:{t % 60:02d} {label}" for t, label in rows) if len(rows) >= 3 else ""
+
+
 def yt_title(ep):
     t = ep.get("yt_title") or ep["title"]
+    if ep.get("long"):
+        return t[:100]
     return (t if len(t) <= 90 else t[:87].rsplit(" ", 1)[0] + "...") + " #shorts"
 
 
@@ -95,13 +113,18 @@ def youtube(name, ep, privacy="private"):  # privé: Arno kijkt na en zet zelf o
         subprocess.run(["git", "fetch", "-q", "origin", "renders:refs/remotes/origin/renders"], check=True, cwd=ROOT)
         path.write_bytes(subprocess.run(["git", "show", f"origin/renders:renders/{name}.mp4"], check=True, capture_output=True, cwd=ROOT).stdout)
     token = youtube_token()
+    desc = caption(ep)
+    if ep.get("long"):
+        ch = chapters(name)
+        desc = (f"{ep.get('description') or ep['title']}\n\n" + (ch + "\n\n" if ch else "") +
+                f"Source: {ep['source']}\nSubscribe for a new country battle every day.\n\n{' '.join(h for h in hashtags(ep) if h != '#shorts')}")
     meta = {
-        "snippet": {"title": yt_title(ep), "description": caption(ep), "categoryId": "27", "tags": yt_tags(ep),
+        "snippet": {"title": yt_title(ep), "description": desc, "categoryId": "27", "tags": yt_tags(ep),
                     "defaultLanguage": "en", "defaultAudioLanguage": "en"},
         "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False},
     }
     # Vertaalde titel en beschrijving (bv. Hindi): kijkers met die taal zien de video in hun eigen taal in de feed.
-    loc = {lang: {"title": (v["title"][:90] + " #shorts"), "description": f"{v.get('description', '')}\n\n{' '.join(hashtags(ep))}"[:4900]}
+    loc = {lang: {"title": (v["title"][:90] + ("" if ep.get("long") else " #shorts")), "description": f"{v.get('description', '')}\n\n{' '.join(hashtags(ep))}"[:4900]}
            for lang, v in (ep.get("localizations") or {}).items() if isinstance(v, dict) and v.get("title")}
 
     def start(body, parts):
@@ -120,7 +143,7 @@ def youtube(name, ep, privacy="private"):  # privé: Arno kijkt na en zet zelf o
     if up.status_code not in (200, 201):
         raise RuntimeError(f"YouTube upload: {up.text[:300]}")
     vid = up.json()["id"]
-    return {"id": vid, "url": f"https://youtube.com/shorts/{vid}", "privacy": up.json()["status"]["privacyStatus"]}
+    return {"id": vid, "url": f"https://youtube.com/{'watch?v=' if ep.get('long') else 'shorts/'}{vid}", "privacy": up.json()["status"]["privacyStatus"]}
 
 
 PLATFORMS = {
@@ -134,7 +157,7 @@ def main():
     for name, item in queue.items():
         if name.startswith("_") or item.get("status") != "approved":
             continue
-        ep = json.loads((ROOT / f"episodes/{name}.json").read_text())
+        ep = json.loads(ep_path(name).read_text())
         posts = item.setdefault("posts", {})
         for platform, (fn, needs) in PLATFORMS.items():
             if platform in posts or not all(os.environ.get(n, "").strip() for n in needs):
@@ -158,7 +181,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 2 and sys.argv[1] == "test-youtube":
         # Testupload: altijd privé, raakt de wachtrij niet aan.
         n = sys.argv[2]
-        res = youtube(n, json.loads((ROOT / f"episodes/{n}.json").read_text()), privacy="private")
+        res = youtube(n, json.loads(ep_path(n).read_text()), privacy="private")
         print(res)
         telegram.send(f"YouTube-test gelukt (privé): {res['url']}\nStudio: https://studio.youtube.com/video/{res['id']}/edit")
     else:

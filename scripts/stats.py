@@ -57,7 +57,8 @@ def main():
     for i in range(0, len(ids), 50):
         for v in get(token, f"{API}/videos", part="snippet,status,statistics,contentDetails", id=",".join(ids[i:i + 50]))["items"]:
             ep_name = by_vid.get(v["id"])
-            ep = json.loads((ROOT / f"episodes/{ep_name}.json").read_text()) if ep_name else {}
+            ep_file = next((q for q in (ROOT / f"episodes/{ep_name}.json", ROOT / f"long/{ep_name}.json") if q.exists()), None) if ep_name else None
+            ep = json.loads(ep_file.read_text()) if ep_file else {}
             a = analytics.get(v["id"], {})
             videos.append({
                 "episode": ep_name, "video_id": v["id"], "title": v["snippet"]["title"], "format": ep.get("format", "countdown" if ep_name else None),

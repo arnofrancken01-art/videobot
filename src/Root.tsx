@@ -8,7 +8,9 @@ export const Root: React.FC = () => (
     component={Video}
     durationInFrames={timeline.durationInFrames}
     fps={timeline.fps}
-    width={1080}
-    height={1920}
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    width={(timeline as any).long ? 1920 : 1080}
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    height={(timeline as any).long ? 1080 : 1920}
   />
 );

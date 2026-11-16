@@ -19,7 +19,7 @@ const chunk = (words: W[]) => {
   return out;
 };
 
-export const Captions: React.FC<{ segments: Seg[]; fps: number }> = ({ segments, fps }) => {
+export const Captions: React.FC<{ segments: Seg[]; fps: number; wide?: boolean }> = ({ segments, fps, wide }) => {
   const f = useCurrentFrame();
   const t = f / fps;
   const chunks = segments.flatMap((s) => chunk(s.words));
@@ -28,13 +28,13 @@ export const Captions: React.FC<{ segments: Seg[]; fps: number }> = ({ segments,
   const c = chunks[ci];
   return (
     <div style={{
-      position: "absolute", top: 1330, width: "100%", padding: "0 70px", textAlign: "center",
+      position: "absolute", top: wide ? 880 : 1330, left: wide ? 1040 : 0, width: wide ? 870 : "100%", padding: wide ? 0 : "0 70px", textAlign: "center", boxSizing: "border-box",
     }}>
       {c.map((w, i) => {
         const active = t >= w.start && t < (c[i + 1]?.start ?? w.end + 0.3);
         return (
           <span key={i} style={{
-            fontSize: 100, fontWeight: 900, margin: "0 14px", display: "inline-block", letterSpacing: -2, lineHeight: 1.05,
+            fontSize: wide ? 72 : 100, fontWeight: 900, margin: wide ? "0 10px" : "0 14px", display: "inline-block", letterSpacing: -2, lineHeight: 1.05,
             color: active ? theme.pop : "#FFFFFF",
             transform: active ? "scale(1.08)" : undefined,
             textShadow: `${outline(8)}, 0 10px 30px rgba(0,0,0,0.8)`,
