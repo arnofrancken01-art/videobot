@@ -102,16 +102,22 @@ const duel: any = timeline.segments.find((s) => s.scene === "battle" && (s.props
 timeline.segments.forEach((s, i) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const st: any = (s.props as any).stat;
+  // Raadspel: bij de onthulling naar het land dat de ronde wint.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const q: any = (s.props as any).reveal ? timeline.segments.slice(0, i).reverse().find((x) => (x.props as any).options)?.props : null;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const qv: number[] = q?.options?.every((o: any) => typeof o.value === "number" && o.flag) ? q.options.map((o: any) => o.value) : [];
   const code = s.scene === "battle" && st && duel
     ? ((st.pick === "lower" ? st.a < st.b : st.a > st.b) ? duel.a.flag : duel.b.flag)
+    : qv.length ? q.options[qv.indexOf(q.pick === "lower" ? Math.min(...qv) : Math.max(...qv))].flag
     : flagOf(s);
   if (!code) return;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const p: any = s.props;
-  const reveal = p.stat ? Math.min(wordAt(s, p.at) ?? s.start, s.start + 1.2) : p.rank ? Math.min(wordAt(s, String(p.label).split(/[\s-]/)[0]) ?? s.start, s.start + 1.2) : s.start;
+  const reveal = p.reveal ? (wordAt(s, p.at) ?? s.start) : p.stat ? Math.min(wordAt(s, p.at) ?? s.start, s.start + 1.2) : p.rank ? Math.min(wordAt(s, String(p.label).split(/[\s-]/)[0]) ?? s.start, s.start + 1.2) : s.start;
   const from = Math.round(reveal * fps);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const nxt = timeline.segments.slice(i + 1).find((x) => flagOf(x) || (x.props as any).stat || x.scene !== s.scene);
+  const nxt = timeline.segments.slice(i + 1).find((x) => flagOf(x) || (x.props as any).stat || (x.props as any).options || x.scene !== s.scene);
   const to = nxt ? Math.round(nxt.start * fps) + 8 : timeline.durationInFrames;
   flags.push({ from, to, code });
 });

@@ -300,13 +300,13 @@ export const Bubbles: React.FC<SceneProps> = ({ segs, fps, offset }) => {
   const format: Fmt = base.format ?? {};
   const items = segs.filter((s) => P(s).item).map((s) => ({ ...P(s).item, at: revealAt(s, fps, offset) }));
   const max = Math.max(...items.map((x) => x.value));
-  const R = items.length <= 2 ? 300 : items.length === 3 ? 262 : 235;
+  const R = items.length <= 2 ? 330 : items.length === 3 ? 300 : 285;
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 20, width: 1000 }}>
       <Title size={62}>{base.title}</Title>
       <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "center", gap: 18, width: 1000, minHeight: 760, alignContent: "center" }}>
         {items.map((it, i) => {
-          const r = Math.max(74, R * Math.sqrt(it.value / max));
+          const r = Math.max(92, R * Math.sqrt(it.value / max));
           const p = spring({ frame: f - it.at, fps, config: { damping: 9, stiffness: 170, mass: 0.8 } });
           const on = f >= it.at;
           const small = r < 120;
