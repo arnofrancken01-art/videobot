@@ -66,11 +66,11 @@ export const WorldMap: React.FC<{ keys: MapKey[]; done: string[]; current: strin
     <div style={{ width: W, height: H, borderRadius: 28, overflow: "hidden", background: "rgba(11,15,23,0.75)", border: `2px solid ${theme.border}`, position: "relative" }}>
       <svg width={W} height={H}>
         <g transform={`translate(${W / 2} ${H / 2}) scale(${cam.k}) translate(${-cam.x} ${-cam.y})`}>
-          {shapes.map((s) => {
+          {shapes.map((s, si) => {
             const isCur = s.id === curId;
             const isDone = doneIds.has(s.id);
             return (
-              <path key={s.id} d={s.d}
+              <path key={si} d={s.d}
                 fill={isCur ? color : isDone ? "rgba(43,212,125,0.35)" : "#2A3550"}
                 stroke={isCur ? "#FFFFFF" : "#0B0F17"} strokeWidth={(isCur ? 2.2 : 0.8) / cam.k} />
             );

@@ -15,7 +15,9 @@ export type GlobeKey = { from: number; code: string };
 
 const FLY = 22, SPIN = 0.35;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const geo = feature(world as any, (world as any).objects.countries) as unknown as GeoJSON.FeatureCollection;
+const all = feature(world as any, (world as any).objects.countries) as unknown as GeoJSON.FeatureCollection;
+// Antarctica weg: staat toch altijd half buiten beeld.
+const geo = { ...all, features: all.features.filter((g) => String(g.id).padStart(3, "0") !== "010") };
 const numeric = (code: string) => countries.alpha2ToNumeric(code.toUpperCase()) ?? "";
 const byId = new Map(geo.features.map((g) => [String(g.id).padStart(3, "0"), g]));
 
@@ -70,13 +72,13 @@ export const Globe: React.FC<{ keys: GlobeKey[]; cx?: number; cy?: number; r?: n
         </defs>
         <circle cx={CX} cy={CY} r={R * 1.14} fill="url(#halo)" />
         <circle cx={CX} cy={CY} r={R} fill="url(#ocean)" />
-        {geo.features.map((g) => {
+        {geo.features.map((g, gi) => {
           const id = String(g.id).padStart(3, "0");
           const isCur = id === curId;
           const d = path(g);
           if (!d) return null;
           return (
-            <path key={id} d={d}
+            <path key={gi} d={d}
               fill={isCur ? theme.warm : seen.has(id) ? "#2BD47D" : "#4F86D9"}
               fillOpacity={isCur ? 0.35 + 0.65 * arrive : seen.has(id) ? 0.75 : 0.9}
               stroke={isCur ? "#FFFFFF" : "#0A1E44"} strokeWidth={isCur ? 3 : 1.2} />
