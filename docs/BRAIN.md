@@ -63,6 +63,11 @@ India, de Filipijnen, Nigeria, Brazilië, Pakistan, Indonesië en Mexico. Die la
 - **Titel**: begint met de landen en bevat hun vlag-emoji: "India 🇮🇳 vs Pakistan 🇵🇰: who is richer?". Max. 60 tekens.
 - **Hashtags**: eerst de landen (`india`, `pakistan`), dan `indiavspakistan`-achtige combinatie, dan `geography` of `countrycomparison`.
 - **Slot**: laat kiezen en vraag om de vlag: "India or Pakistan? Comment your flag."
+- **Vertaling** (veld `localizations`): staat er een land in de hoofdrol waar men een andere taal spreekt, voeg dan titel en
+  beschrijving in die taal toe. YouTube toont ze aan kijkers met die taalinstelling. India: `hi`, Pakistan: `ur`, Bangladesh: `bn`,
+  Indonesia: `id`, Brazil: `pt`, Mexico en Argentina: `es`, Turkey: `tr`, Philippines: `fil`, Egypt: `ar`. Voorbeeld:
+  `"localizations": {"hi": {"title": "भारत 🇮🇳 vs पाकिस्तान 🇵🇰: कौन ज़्यादा अमीर है?", "description": "भारत या पाकिस्तान? असली आंकड़े, तीन राउंड। अपना झंडा कमेंट करें।"}}`.
+  Vertaal natuurlijk en kort (max. 60 tekens), dezelfde belofte als de Engelse titel, zelfde cijfers. De video zelf blijft Engels.
 
 ## Het eerste beeld (verplicht veld `headline`)
 

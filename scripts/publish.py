@@ -35,7 +35,7 @@ def caption(ep):
     hook = ep.get("description") or ep["title"]
     return (f"{hook}\n\n"
             f"Source: {ep['source']}\n"
-            f"Follow for more money, mapped.\n\n"
+            f"Subscribe for a new country battle every day.\n\n"
             f"{' '.join(hashtags(ep))}")
 
 
@@ -100,10 +100,20 @@ def youtube(name, ep, privacy="private"):  # privé: Arno kijkt na en zet zelf o
                     "defaultLanguage": "en", "defaultAudioLanguage": "en"},
         "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False},
     }
-    init = requests.post(
-        "https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
-        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json", "X-Upload-Content-Type": "video/mp4"},
-        data=json.dumps(meta), timeout=60)
+    # Vertaalde titel en beschrijving (bv. Hindi): kijkers met die taal zien de video in hun eigen taal in de feed.
+    loc = {lang: {"title": (v["title"][:90] + " #shorts"), "description": f"{v.get('description', '')}\n\n{' '.join(hashtags(ep))}"[:4900]}
+           for lang, v in (ep.get("localizations") or {}).items() if isinstance(v, dict) and v.get("title")}
+
+    def start(body, parts):
+        return requests.post(
+            f"https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part={parts}",
+            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json", "X-Upload-Content-Type": "video/mp4"},
+            data=json.dumps(body), timeout=60)
+
+    init = start({**meta, "localizations": loc}, "snippet,status,localizations") if loc else start(meta, "snippet,status")
+    if init.status_code != 200 and loc:  # vertaling geweigerd: liever zonder vertaling dan geen video
+        print(f"vertalingen geweigerd, opnieuw zonder: {init.text[:200]}")
+        init = start(meta, "snippet,status")
     if init.status_code != 200:
         raise RuntimeError(f"YouTube upload starten: {init.text[:300]}")
     up = requests.put(init.headers["Location"], data=path.read_bytes(), headers={"Content-Type": "video/mp4"}, timeout=600)
