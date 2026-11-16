@@ -332,6 +332,114 @@
    "latest_year": 2025,
    "source": "World Bank, indicator SL.TLF.CACT.FE.ZS",
    "url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS"
+  },
+  "MS.MIL.XPND.CD": {
+   "name": "Military spending",
+   "unit": "US dollars",
+   "file": "data/worldbank/MS.MIL.XPND.CD.csv",
+   "rows": 5341,
+   "latest_year": 2025,
+   "source": "World Bank, indicator MS.MIL.XPND.CD",
+   "url": "https://data.worldbank.org/indicator/MS.MIL.XPND.CD"
+  },
+  "MS.MIL.TOTL.P1": {
+   "name": "Armed forces personnel",
+   "unit": "people",
+   "file": "data/worldbank/MS.MIL.TOTL.P1.csv",
+   "rows": 5075,
+   "latest_year": 2020,
+   "source": "World Bank, indicator MS.MIL.TOTL.P1",
+   "url": "https://data.worldbank.org/indicator/MS.MIL.TOTL.P1"
+  },
+  "FI.RES.TOTL.CD": {
+   "name": "Total reserves including gold",
+   "unit": "US dollars",
+   "file": "data/worldbank/FI.RES.TOTL.CD.csv",
+   "rows": 6039,
+   "latest_year": 2025,
+   "source": "World Bank, indicator FI.RES.TOTL.CD",
+   "url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD"
+  },
+  "AG.LND.TOTL.K2": {
+   "name": "Land area",
+   "unit": "square km",
+   "file": "data/worldbank/AG.LND.TOTL.K2.csv",
+   "rows": 7343,
+   "latest_year": 2024,
+   "source": "World Bank, indicator AG.LND.TOTL.K2",
+   "url": "https://data.worldbank.org/indicator/AG.LND.TOTL.K2"
+  },
+  "SE.ADT.LITR.ZS": {
+   "name": "Adult literacy",
+   "unit": "% of people 15+",
+   "file": "data/worldbank/SE.ADT.LITR.ZS.csv",
+   "rows": 1013,
+   "latest_year": 2024,
+   "source": "World Bank, indicator SE.ADT.LITR.ZS",
+   "url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS"
+  },
+  "EG.ELC.ACCS.ZS": {
+   "name": "Access to electricity",
+   "unit": "% of population",
+   "file": "data/worldbank/EG.ELC.ACCS.ZS.csv",
+   "rows": 6747,
+   "latest_year": 2024,
+   "source": "World Bank, indicator EG.ELC.ACCS.ZS",
+   "url": "https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS"
+  },
+  "NE.EXP.GNFS.CD": {
+   "name": "Exports of goods and services",
+   "unit": "US dollars",
+   "file": "data/worldbank/NE.EXP.GNFS.CD.csv",
+   "rows": 6130,
+   "latest_year": 2025,
+   "source": "World Bank, indicator NE.EXP.GNFS.CD",
+   "url": "https://data.worldbank.org/indicator/NE.EXP.GNFS.CD"
+  },
+  "BX.KLT.DINV.CD.WD": {
+   "name": "Foreign direct investment received",
+   "unit": "US dollars",
+   "file": "data/worldbank/BX.KLT.DINV.CD.WD.csv",
+   "rows": 6914,
+   "latest_year": 2025,
+   "source": "World Bank, indicator BX.KLT.DINV.CD.WD",
+   "url": "https://data.worldbank.org/indicator/BX.KLT.DINV.CD.WD"
+  },
+  "SP.URB.TOTL": {
+   "name": "People living in cities",
+   "unit": "people",
+   "file": "data/worldbank/SP.URB.TOTL.csv",
+   "rows": 7812,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SP.URB.TOTL",
+   "url": "https://data.worldbank.org/indicator/SP.URB.TOTL"
+  },
+  "SL.TLF.TOTL.IN": {
+   "name": "Labour force",
+   "unit": "people",
+   "file": "data/worldbank/SL.TLF.TOTL.IN.csv",
+   "rows": 6718,
+   "latest_year": 2025,
+   "source": "World Bank, indicator SL.TLF.TOTL.IN",
+   "url": "https://data.worldbank.org/indicator/SL.TLF.TOTL.IN"
+  },
+  "AG.PRD.CREL.MT": {
+   "name": "Cereal production",
+   "unit": "metric tons",
+   "file": "data/worldbank/AG.PRD.CREL.MT.csv",
+   "rows": 6150,
+   "latest_year": 2024,
+   "source": "World Bank, indicator AG.PRD.CREL.MT",
+   "url": "https://data.worldbank.org/indicator/AG.PRD.CREL.MT"
+  },
+  "IS.RRS.TOTL.KM": {
+   "name": "Rail lines",
+   "unit": "km",
+   "file": "data/worldbank/IS.RRS.TOTL.KM.csv",
+   "rows": 2139,
+   "latest_year": 2021,
+   "source": "World Bank, indicator IS.RRS.TOTL.KM",
+   "url": "https://data.worldbank.org/indicator/IS.RRS.TOTL.KM"
   }
  },
  "other": {
