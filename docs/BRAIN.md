@@ -28,19 +28,41 @@ India, de Filipijnen, Nigeria, Brazilië, Pakistan, Indonesië en Mexico. Die la
 7. Commit en push naar `main`. GitHub Actions maakt dan de video en stuurt hem naar Telegram ter goedkeuring.
 8. Eindig met: het gekozen onderwerp, de drie scores, en welk trend-patroon je gebruikte.
 
-## Wat de cijfers zeggen (stand 2026-11-14)
+## Wat de cijfers zeggen (stand 2026-11-16)
 
-- 12 openbare video's, 469 views, 2 abonnees. 80% van de views komt uit de Shorts-feed, bijna allemaal uit de **VS**.
-- De eerste video kreeg 207 views, daarna zakte het; sinds 12 november krijgt een nieuwe video nog 1 tot 12 views.
-  YouTube test onze video's dus bijna niet meer, omdat twee op drie kijkers meteen wegvegen (34% bleef kijken).
-- Beste eigen video's: inflatie "Prices rose 42% in ONE year in this country" (207) en zwakke munten
-  "$1 = 89,500 of this money" (86). Allebei: **één extreem getal + "this country" als raadsel**. Slechtst: spaarquote,
-  belasting als % van de economie (abstract, niemand voelt het).
-- In de niche gaan nu viraal bij kleine kanalen: "This Country Has a Very Weak Currency" (730k views, 1,9k abonnees),
-  "Countries Compared By Population" (11 seconden!), "Ranking language with flags", raadspellen ("Guess the country"),
-  en rivaliteit ("India vs Pakistan: 4 shocking differences"). Dus: vlaggen groot in beeld, raden, rivalen, simpele
-  maatstaven die iedereen snapt (bevolking, loon, prijs, munt), en landen met een groot en trots publiek (India, VS,
-  Pakistan, Brazilië, Filipijnen, Nigeria, Indonesië).
+- Tot 13 november kreeg een nieuwe video 1 tot 12 views. Sinds de nieuwe look (14 november) is dat omgeslagen:
+  - "America vs Japan: who lives better?" 78 en "China's economy was smaller than Spain's" 42: **de nieuwe look alleen is goed voor ca. 5 tot 10 keer meer**.
+  - "India vs Pakistan: who is richer? 3 rounds" **410** en "India has more people than these 5 countries combined" **476** binnen
+    één dag, met de eerste echte likes (8 en 4) en een kijker die vlaggen in de reacties zet. **India erbij is nog eens 5 tot 10 keer meer.**
+- Wat de twee winnaars gemeen hebben, en wat elke video dus moet hebben:
+  1. **India staat in de titel, op het eerste beeld en in de eerste gesproken zin.**
+  2. Een **tegenstander** die Indiërs iets doet (Pakistan, China, of "vijf landen samen").
+  3. Een **maatstaf die een kind snapt**: wie is rijker, wie heeft meer mensen, wie leeft langer.
+  4. De titel is een **strijdvraag of een stoere bewering**, geen onderwerp.
+  5. Het slot vraagt om een **kant te kiezen**, en kijkers antwoorden met hun vlag.
+- Oudere lessen blijven gelden: één extreem getal + "this country" werkte (207 en 101 views), abstracte percentages van de
+  economie flopten. Zoekverkeer (63 views) komt op titels met landnamen.
+- In de niche gaan bij kleine kanalen viraal: "You Are Rich In This Country", "This Country Has a Very Weak Currency",
+  "India vs Pakistan" vergelijkingen, "Which country has more ...?", vlaggen rangschikken, raad-het-land.
+
+## India eerst (geldt tot de cijfers iets anders zeggen)
+
+- **Eén van de twee video's per dag heeft India in de hoofdrol.** De ochtendrun (6:21) maakt de India-video, de middagrun (12:21) test
+  een ander trots land met een groot publiek (Pakistan, Bangladesh, Philippines, Indonesia, Nigeria, Brazil, Mexico, Turkey, Egypt)
+  of de reeks "This country...". Kijk in `episodes/` wat de vorige run deed en doe het andere.
+- Tegenstanders voor India, wissel ze af: Pakistan, China, Bangladesh, USA, UK (de oude kolonisator), Japan, Russia, Germany,
+  "all of Europe", "these 5 countries combined". Nooit twee dagen na elkaar dezelfde tegenstander met dezelfde maatstaf.
+- Maatstaven, van sterk naar zwak: bevolking, leger (`MS.MIL.TOTL.P1`, `MS.MIL.XPND.CD`), grootte van de economie, inkomen per persoon,
+  reserves met goud (`FI.RES.TOTL.CD`), oppervlakte, export, internetgebruikers, levensverwachting, groei. Kijk in `data/catalog.json`
+  wat er is; ontbreekt een bestand nog, neem dan een andere maatstaf.
+- **Eerlijk blijven.** India mag verliezen op een maatstaf; een duel dat 2-2 of 3-1 eindigt lokt juist reacties uit. Verzin of
+  verdraai nooit een cijfer om een land te laten winnen, en geen politiek, religie of oorlog: alleen cijfers.
+- **Vervolg op een winnaar.** Heeft een video in `stats.json` minstens drie keer zoveel views als de mediaan van de laatste tien, maak
+  dan binnen twee dagen een deel 2 met dezelfde landen en nieuwe maatstaven. Titel eindigt op "(Part 2)", en het slot van elk duel
+  mag een volgend deel beloven ("Round five tomorrow.").
+- **Titel**: begint met de landen en bevat hun vlag-emoji: "India 🇮🇳 vs Pakistan 🇵🇰: who is richer?". Max. 60 tekens.
+- **Hashtags**: eerst de landen (`india`, `pakistan`), dan `indiavspakistan`-achtige combinatie, dan `geography` of `countrycomparison`.
+- **Slot**: laat kiezen en vraag om de vlag: "India or Pakistan? Comment your flag."
 
 ## Het eerste beeld (verplicht veld `headline`)
 

@@ -52,6 +52,19 @@ INDICATORS = {
     "VC.IHR.PSRC.P5": ("Homicides", "per 100,000 people"),
     "EG.USE.ELEC.KH.PC": ("Electricity use per person", "kWh per year"),
     "SL.TLF.CACT.FE.ZS": ("Women in the labour force", "% of women 15+"),
+    # Voer voor land-tegen-land (sinds 2026-11-16): waar rivalen over twisten.
+    "MS.MIL.XPND.CD": ("Military spending", "US dollars"),
+    "MS.MIL.TOTL.P1": ("Armed forces personnel", "people"),
+    "FI.RES.TOTL.CD": ("Total reserves including gold", "US dollars"),
+    "AG.LND.TOTL.K2": ("Land area", "square km"),
+    "SE.ADT.LITR.ZS": ("Adult literacy", "% of people 15+"),
+    "EG.ELC.ACCS.ZS": ("Access to electricity", "% of population"),
+    "NE.EXP.GNFS.CD": ("Exports of goods and services", "US dollars"),
+    "BX.KLT.DINV.CD.WD": ("Foreign direct investment received", "US dollars"),
+    "SP.URB.TOTL": ("People living in cities", "people"),
+    "SL.TLF.TOTL.IN": ("Labour force", "people"),
+    "AG.PRD.CREL.MT": ("Cereal production", "metric tons"),
+    "IS.RRS.TOTL.KM": ("Rail lines", "km"),
 }
 
 
