@@ -1,0 +1,357 @@
+{
+ "id": "ep022",
+ "title": "India vs China: who wins? 4 rounds, real data",
+ "topic": "India vs China",
+ "headline": "India or *China*?",
+ "description": "India against China in four rounds: people, growth, income and life expectancy. Real World Bank data. Who wins round five?",
+ "tags": [
+  "india vs china",
+  "china vs india",
+  "india vs china comparison",
+  "india population",
+  "china economy",
+  "india economy 2025",
+  "gdp per capita india",
+  "life expectancy china",
+  "country comparison"
+ ],
+ "source": "World Bank: population, GDP growth and GDP per capita (2025), life expectancy at birth (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "indiavschina",
+  "money",
+  "economy",
+  "battle"
+ ],
+ "format": "battle",
+ "cover": {
+  "flags": [
+   "in",
+   "cn"
+  ],
+  "vs": true
+ },
+ "segments": [
+  {
+   "scene": "battle",
+   "text": "India versus China. Four rounds. Who wins?",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "China",
+     "flag": "cn"
+    }
+   },
+   "start": 0.05,
+   "end": 3.175,
+   "words": [
+    {
+     "word": "India",
+     "start": 0.3,
+     "end": 0.575
+    },
+    {
+     "word": "versus",
+     "start": 0.575,
+     "end": 0.925
+    },
+    {
+     "word": "China.",
+     "start": 0.925,
+     "end": 1.4
+    },
+    {
+     "word": "Four",
+     "start": 1.538,
+     "end": 1.775
+    },
+    {
+     "word": "rounds.",
+     "start": 1.775,
+     "end": 2.15
+    },
+    {
+     "word": "Who",
+     "start": 2.2,
+     "end": 2.35
+    },
+    {
+     "word": "wins?",
+     "start": 2.35,
+     "end": 2.925
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "People. India now has more than China.",
+   "props": {
+    "stat": {
+     "label": "Population",
+     "a": 1.46,
+     "b": 1.41,
+     "format": {
+      "suffix": "B",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   },
+   "start": 3.235,
+   "end": 5.81,
+   "words": [
+    {
+     "word": "People.",
+     "start": 3.435,
+     "end": 3.86
+    },
+    {
+     "word": "India",
+     "start": 3.935,
+     "end": 4.235
+    },
+    {
+     "word": "now",
+     "start": 4.235,
+     "end": 4.46
+    },
+    {
+     "word": "has",
+     "start": 4.46,
+     "end": 4.66
+    },
+    {
+     "word": "more",
+     "start": 4.66,
+     "end": 4.848
+    },
+    {
+     "word": "than",
+     "start": 4.848,
+     "end": 4.985
+    },
+    {
+     "word": "China.",
+     "start": 4.985,
+     "end": 5.56
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Growth. India's economy grows much faster.",
+   "props": {
+    "stat": {
+     "label": "Economic growth 2025",
+     "a": 7.6,
+     "b": 5.0,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "India's"
+   },
+   "start": 5.87,
+   "end": 8.795,
+   "words": [
+    {
+     "word": "Growth.",
+     "start": 6.095,
+     "end": 6.52
+    },
+    {
+     "word": "India's",
+     "start": 6.595,
+     "end": 6.945
+    },
+    {
+     "word": "economy",
+     "start": 6.945,
+     "end": 7.445
+    },
+    {
+     "word": "grows",
+     "start": 7.445,
+     "end": 7.67
+    },
+    {
+     "word": "much",
+     "start": 7.67,
+     "end": 7.87
+    },
+    {
+     "word": "faster.",
+     "start": 7.87,
+     "end": 8.545
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Income. China is five times richer per person.",
+   "props": {
+    "stat": {
+     "label": "Income per person",
+     "a": 2.7,
+     "b": 13.9,
+     "format": {
+      "prefix": "$",
+      "suffix": "k",
+      "decimals": 1
+     }
+    },
+    "at": "China"
+   },
+   "start": 8.855,
+   "end": 12.08,
+   "words": [
+    {
+     "word": "Income.",
+     "start": 9.08,
+     "end": 9.58
+    },
+    {
+     "word": "China",
+     "start": 9.668,
+     "end": 9.98
+    },
+    {
+     "word": "is",
+     "start": 9.98,
+     "end": 10.13
+    },
+    {
+     "word": "five",
+     "start": 10.13,
+     "end": 10.405
+    },
+    {
+     "word": "times",
+     "start": 10.405,
+     "end": 10.755
+    },
+    {
+     "word": "richer",
+     "start": 10.755,
+     "end": 11.055
+    },
+    {
+     "word": "per",
+     "start": 11.055,
+     "end": 11.18
+    },
+    {
+     "word": "person.",
+     "start": 11.18,
+     "end": 11.855
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Life. The Chinese live almost six years longer.",
+   "props": {
+    "stat": {
+     "label": "Life expectancy",
+     "a": 72.2,
+     "b": 78.0,
+     "format": {
+      "suffix": " yrs",
+      "decimals": 1
+     }
+    },
+    "at": "Chinese"
+   },
+   "start": 12.14,
+   "end": 15.215,
+   "words": [
+    {
+     "word": "Life.",
+     "start": 12.415,
+     "end": 12.815
+    },
+    {
+     "word": "The",
+     "start": 12.89,
+     "end": 12.99
+    },
+    {
+     "word": "Chinese",
+     "start": 12.99,
+     "end": 13.415
+    },
+    {
+     "word": "live",
+     "start": 13.415,
+     "end": 13.64
+    },
+    {
+     "word": "almost",
+     "start": 13.64,
+     "end": 13.965
+    },
+    {
+     "word": "six",
+     "start": 13.965,
+     "end": 14.178
+    },
+    {
+     "word": "years",
+     "start": 14.178,
+     "end": 14.39
+    },
+    {
+     "word": "longer.",
+     "start": 14.39,
+     "end": 14.965
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Two all. Who wins round five?",
+   "props": {},
+   "start": 15.275,
+   "end": 17.4,
+   "words": [
+    {
+     "word": "Two",
+     "start": 15.5,
+     "end": 15.675
+    },
+    {
+     "word": "all.",
+     "start": 15.675,
+     "end": 15.925
+    },
+    {
+     "word": "Who",
+     "start": 15.975,
+     "end": 16.1
+    },
+    {
+     "word": "wins",
+     "start": 16.1,
+     "end": 16.325
+    },
+    {
+     "word": "round",
+     "start": 16.325,
+     "end": 16.6
+    },
+    {
+     "word": "five?",
+     "start": 16.6,
+     "end": 17.15
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 542,
+ "fps": 30,
+ "aligned": "tts"
+}
