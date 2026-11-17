@@ -1,0 +1,465 @@
+{
+ "id": "ep023",
+ "title": "India \ud83c\uddee\ud83c\uddf3 vs Pakistan \ud83c\uddf5\ud83c\uddf0: who wins? (Part 2)",
+ "topic": "India vs Pakistan",
+ "headline": "Part 2: India or *Pakistan*?",
+ "description": "India or Pakistan, part 2: phones, growth and money sent home from abroad. Three new rounds of real World Bank data. Which side are you on?",
+ "tags": [
+  "india vs pakistan",
+  "pakistan vs india",
+  "india vs pakistan comparison",
+  "india vs pakistan part 2",
+  "india economy",
+  "pakistan economy",
+  "remittances",
+  "economic growth",
+  "country comparison",
+  "geography quiz"
+ ],
+ "source": "World Bank: mobile subscriptions per 100 people (2024), GDP growth (2025), remittances received and population (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "pakistan",
+  "indiavspakistan",
+  "countrycomparison"
+ ],
+ "format": "quiz",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "in",
+   "pk"
+  ],
+  "vs": true
+ },
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 vs \u092a\u093e\u0915\u093f\u0938\u094d\u0924\u093e\u0928 \ud83c\uddf5\ud83c\uddf0: \u0915\u094c\u0928 \u091c\u0940\u0924\u0947\u0917\u093e? (\u092d\u093e\u0917 2)",
+   "description": "\u092d\u093e\u0930\u0924 \u092f\u093e \u092a\u093e\u0915\u093f\u0938\u094d\u0924\u093e\u0928, \u092d\u093e\u0917 2: \u092b\u093c\u094b\u0928, \u0935\u093f\u0915\u093e\u0938 \u0914\u0930 \u0935\u093f\u0926\u0947\u0936 \u0938\u0947 \u092d\u0947\u091c\u093e \u0917\u092f\u093e \u092a\u0948\u0938\u093e\u0964 \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947, \u0924\u0940\u0928 \u0928\u090f \u0930\u093e\u0909\u0902\u0921\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  },
+  "ur": {
+   "title": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \ud83c\uddf5\ud83c\uddf0 vs \u0628\u06be\u0627\u0631\u062a \ud83c\uddee\ud83c\uddf3: \u06a9\u0648\u0646 \u062c\u06cc\u062a\u06d2 \u06af\u0627\u061f (\u062d\u0635\u06c1 2)",
+   "description": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u06cc\u0627 \u0628\u06be\u0627\u0631\u062a\u060c \u062d\u0635\u06c1 2: \u0641\u0648\u0646\u060c \u062a\u0631\u0642\u06cc \u0627\u0648\u0631 \u0628\u06cc\u0631\u0648\u0646 \u0645\u0644\u06a9 \u0633\u06d2 \u0628\u06be\u06cc\u062c\u06cc \u06af\u0626\u06cc \u0631\u0642\u0645\u06d4 \u0627\u0635\u0644 \u0627\u0639\u062f\u0627\u062f \u0648 \u0634\u0645\u0627\u0631\u060c \u062a\u06cc\u0646 \u0646\u0626\u06d2 \u0631\u0627\u0624\u0646\u0688\u06d4 \u0627\u067e\u0646\u0627 \u062c\u06be\u0646\u0688\u0627 \u06a9\u0645\u0646\u0679 \u06a9\u0631\u06cc\u06ba\u06d4"
+  }
+ },
+ "segments": [
+  {
+   "scene": "quiz",
+   "text": "India or Pakistan. Part two. Who has more mobile phones per hundred people?",
+   "props": {
+    "question": "Mobile phones per 100 people?",
+    "format": {
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 79.4
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 76.9
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 0.05,
+   "end": 5.2,
+   "words": [
+    {
+     "word": "India",
+     "start": 0.3,
+     "end": 0.725
+    },
+    {
+     "word": "or",
+     "start": 0.725,
+     "end": 0.85
+    },
+    {
+     "word": "Pakistan.",
+     "start": 0.85,
+     "end": 1.65
+    },
+    {
+     "word": "Part",
+     "start": 1.75,
+     "end": 2.062
+    },
+    {
+     "word": "two.",
+     "start": 2.062,
+     "end": 2.525
+    },
+    {
+     "word": "Who",
+     "start": 2.65,
+     "end": 2.775
+    },
+    {
+     "word": "has",
+     "start": 2.775,
+     "end": 2.975
+    },
+    {
+     "word": "more",
+     "start": 2.975,
+     "end": 3.2
+    },
+    {
+     "word": "mobile",
+     "start": 3.2,
+     "end": 3.525
+    },
+    {
+     "word": "phones",
+     "start": 3.525,
+     "end": 3.875
+    },
+    {
+     "word": "per",
+     "start": 3.875,
+     "end": 4.05
+    },
+    {
+     "word": "hundred",
+     "start": 4.05,
+     "end": 4.35
+    },
+    {
+     "word": "people?",
+     "start": 4.35,
+     "end": 4.975
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "India. By just two and a half phones.",
+   "props": {
+    "reveal": true
+   },
+   "start": 6.86,
+   "end": 9.285,
+   "words": [
+    {
+     "word": "India.",
+     "start": 7.11,
+     "end": 7.535
+    },
+    {
+     "word": "By",
+     "start": 7.61,
+     "end": 7.785
+    },
+    {
+     "word": "just",
+     "start": 7.785,
+     "end": 7.96
+    },
+    {
+     "word": "two",
+     "start": 7.96,
+     "end": 8.072
+    },
+    {
+     "word": "and",
+     "start": 8.072,
+     "end": 8.172
+    },
+    {
+     "word": "a",
+     "start": 8.172,
+     "end": 8.223
+    },
+    {
+     "word": "half",
+     "start": 8.223,
+     "end": 8.435
+    },
+    {
+     "word": "phones.",
+     "start": 8.435,
+     "end": 9.035
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Whose economy grows faster? India or Pakistan?",
+   "props": {
+    "question": "Whose economy grows faster?",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 7.6
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 3.7
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 9.345,
+   "end": 13.645,
+   "words": [
+    {
+     "word": "Round",
+     "start": 9.595,
+     "end": 9.857
+    },
+    {
+     "word": "two.",
+     "start": 9.857,
+     "end": 10.22
+    },
+    {
+     "word": "Whose",
+     "start": 10.32,
+     "end": 10.495
+    },
+    {
+     "word": "economy",
+     "start": 10.495,
+     "end": 10.995
+    },
+    {
+     "word": "grows",
+     "start": 10.995,
+     "end": 11.245
+    },
+    {
+     "word": "faster?",
+     "start": 11.245,
+     "end": 11.845
+    },
+    {
+     "word": "India",
+     "start": 11.97,
+     "end": 12.42
+    },
+    {
+     "word": "or",
+     "start": 12.42,
+     "end": 12.545
+    },
+    {
+     "word": "Pakistan?",
+     "start": 12.545,
+     "end": 13.395
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "India. More than twice as fast.",
+   "props": {
+    "reveal": true
+   },
+   "start": 15.305,
+   "end": 17.58,
+   "words": [
+    {
+     "word": "India.",
+     "start": 15.555,
+     "end": 15.955
+    },
+    {
+     "word": "More",
+     "start": 16.03,
+     "end": 16.192
+    },
+    {
+     "word": "than",
+     "start": 16.192,
+     "end": 16.305
+    },
+    {
+     "word": "twice",
+     "start": 16.305,
+     "end": 16.617
+    },
+    {
+     "word": "as",
+     "start": 16.617,
+     "end": 16.755
+    },
+    {
+     "word": "fast.",
+     "start": 16.755,
+     "end": 17.33
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Final round. Money from family abroad, per person. India or Pakistan?",
+   "props": {
+    "question": "Money sent home, per person?",
+    "format": {
+     "prefix": "$"
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 103
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 159
+     }
+    ],
+    "pause": 1.8
+   },
+   "start": 17.64,
+   "end": 22.665,
+   "words": [
+    {
+     "word": "Final",
+     "start": 17.89,
+     "end": 18.215
+    },
+    {
+     "word": "round.",
+     "start": 18.215,
+     "end": 18.765
+    },
+    {
+     "word": "Money",
+     "start": 18.878,
+     "end": 19.115
+    },
+    {
+     "word": "from",
+     "start": 19.115,
+     "end": 19.29
+    },
+    {
+     "word": "family",
+     "start": 19.29,
+     "end": 19.665
+    },
+    {
+     "word": "abroad,",
+     "start": 19.665,
+     "end": 20.015
+    },
+    {
+     "word": "per",
+     "start": 20.065,
+     "end": 20.19
+    },
+    {
+     "word": "person.",
+     "start": 20.19,
+     "end": 20.84
+    },
+    {
+     "word": "India",
+     "start": 20.965,
+     "end": 21.44
+    },
+    {
+     "word": "or",
+     "start": 21.44,
+     "end": 21.565
+    },
+    {
+     "word": "Pakistan?",
+     "start": 21.565,
+     "end": 22.415
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Pakistan. Over fifty percent more.",
+   "props": {
+    "reveal": true
+   },
+   "start": 24.525,
+   "end": 27.175,
+   "words": [
+    {
+     "word": "Pakistan.",
+     "start": 24.75,
+     "end": 25.475
+    },
+    {
+     "word": "Over",
+     "start": 25.575,
+     "end": 25.838
+    },
+    {
+     "word": "fifty",
+     "start": 25.838,
+     "end": 26.15
+    },
+    {
+     "word": "percent",
+     "start": 26.15,
+     "end": 26.463
+    },
+    {
+     "word": "more.",
+     "start": 26.463,
+     "end": 26.925
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "India or Pakistan? Comment your flag.",
+   "props": {},
+   "start": 27.235,
+   "end": 30.06,
+   "words": [
+    {
+     "word": "India",
+     "start": 27.485,
+     "end": 27.885
+    },
+    {
+     "word": "or",
+     "start": 27.885,
+     "end": 28.01
+    },
+    {
+     "word": "Pakistan?",
+     "start": 28.01,
+     "end": 28.685
+    },
+    {
+     "word": "Comment",
+     "start": 28.81,
+     "end": 29.123
+    },
+    {
+     "word": "your",
+     "start": 29.123,
+     "end": 29.235
+    },
+    {
+     "word": "flag.",
+     "start": 29.235,
+     "end": 29.81
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 922,
+ "fps": 30,
+ "aligned": "tts"
+}
