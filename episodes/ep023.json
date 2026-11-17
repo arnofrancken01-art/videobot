@@ -1,0 +1,27 @@
+{
+ "id": "ep023",
+ "title": "India 🇮🇳 vs Pakistan 🇵🇰: who wins? (Part 2)",
+ "topic": "India vs Pakistan",
+ "headline": "Part 2: India or *Pakistan*?",
+ "description": "India or Pakistan, part 2: phones, growth and money sent home from abroad. Three new rounds of real World Bank data. Which side are you on?",
+ "tags": ["india vs pakistan", "pakistan vs india", "india vs pakistan comparison", "india vs pakistan part 2", "india economy", "pakistan economy", "remittances", "economic growth", "country comparison", "geography quiz"],
+ "source": "World Bank: mobile subscriptions per 100 people (2024), GDP growth (2025), remittances received and population (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "pakistan", "indiavspakistan", "countrycomparison"],
+ "format": "quiz",
+ "music": 4,
+ "cover": {"flags": ["in", "pk"], "vs": true},
+ "localizations": {
+  "hi": {"title": "भारत 🇮🇳 vs पाकिस्तान 🇵🇰: कौन जीतेगा? (भाग 2)", "description": "भारत या पाकिस्तान, भाग 2: फ़ोन, विकास और विदेश से भेजा गया पैसा। असली आंकड़े, तीन नए राउंड। अपना झंडा कमेंट करें।"},
+  "ur": {"title": "پاکستان 🇵🇰 vs بھارت 🇮🇳: کون جیتے گا؟ (حصہ 2)", "description": "پاکستان یا بھارت، حصہ 2: فون، ترقی اور بیرون ملک سے بھیجی گئی رقم۔ اصل اعداد و شمار، تین نئے راؤنڈ۔ اپنا جھنڈا کمنٹ کریں۔"}
+ },
+ "segments": [
+  {"scene": "quiz", "text": "India or Pakistan. Part two. Who has more mobile phones per hundred people?", "props": {"question": "Mobile phones per 100 people?", "format": {"decimals": 1}, "options": [{"label": "India", "flag": "in", "value": 79.4}, {"label": "Pakistan", "flag": "pk", "value": 76.9}], "pause": 1.6}},
+  {"scene": "quiz", "text": "India. By just two and a half phones.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Round two. Whose economy grows faster? India or Pakistan?", "props": {"question": "Whose economy grows faster?", "format": {"suffix": "%", "decimals": 1}, "options": [{"label": "India", "flag": "in", "value": 7.6}, {"label": "Pakistan", "flag": "pk", "value": 3.7}], "pause": 1.6}},
+  {"scene": "quiz", "text": "India. More than twice as fast.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Final round. Money from family abroad, per person. India or Pakistan?", "props": {"question": "Money sent home, per person?", "format": {"prefix": "$"}, "options": [{"label": "India", "flag": "in", "value": 103}, {"label": "Pakistan", "flag": "pk", "value": 159}], "pause": 1.8}},
+  {"scene": "quiz", "text": "Pakistan. Over fifty percent more.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "India or Pakistan? Comment your flag.", "props": {}}
+ ]
+}
