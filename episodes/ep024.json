@@ -1,0 +1,25 @@
+{
+ "id": "ep024",
+ "title": "Pakistan 🇵🇰 has more people than these 4 countries combined",
+ "topic": "Pakistan vs Europe",
+ "headline": "Pakistan vs *4 countries*",
+ "description": "Pakistan against the UK, France, Italy and Spain combined. Who has more people? Real World Bank population data for 2025. Comment your flag.",
+ "tags": ["pakistan population", "pakistan vs uk", "pakistan vs europe", "population comparison", "countries compared by population", "uk population", "france population", "italy population", "spain population", "country comparison"],
+ "source": "World Bank, total population (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["pakistan", "population", "pakistanvseurope", "countrycomparison"],
+ "format": "bubbles",
+ "music": 2,
+ "cover": {"flags": ["pk"]},
+ "localizations": {
+  "ur": {"title": "پاکستان 🇵🇰 کی آبادی ان 4 ملکوں سے زیادہ ہے", "description": "پاکستان بمقابلہ برطانیہ، فرانس، اٹلی اور اسپین ایک ساتھ۔ 2025 کے اصل اعداد و شمار۔ اپنا جھنڈا کمنٹ کریں۔"}
+ },
+ "segments": [
+  {"scene": "bubbles", "text": "Pakistan against four European giants. This is Pakistan. Two hundred fifty-five million people.", "props": {"title": "Population, 2025", "format": {"suffix": "M"}, "item": {"label": "Pakistan", "flag": "pk", "value": 255}, "at": "This"}},
+  {"scene": "bubbles", "text": "The UK. Sixty-nine million.", "props": {"item": {"label": "UK", "flag": "gb", "value": 69}, "at": "UK"}},
+  {"scene": "bubbles", "text": "France. Also sixty-nine million.", "props": {"item": {"label": "France", "flag": "fr", "value": 69}, "at": "France"}},
+  {"scene": "bubbles", "text": "Italy. Fifty-nine million.", "props": {"item": {"label": "Italy", "flag": "it", "value": 59}, "at": "Italy"}},
+  {"scene": "bignumber", "text": "Now add Spain. All four together. Pakistan still has more people. By almost nine million.", "props": {"value": 8.7, "format": {"prefix": "+", "suffix": "M", "decimals": 1}, "caption": "more people in Pakistan than all four combined", "at": "nine", "compare": {"format": {"suffix": "M"}, "items": [{"label": "UK, France, Italy, Spain", "value": 246}, {"label": "Pakistan", "value": 255}]}}},
+  {"scene": "outro", "text": "Who should Pakistan face next?", "props": {}}
+ ]
+}
