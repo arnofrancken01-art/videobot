@@ -1,19 +1,43 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-16T16:15:59Z",
+ "fetched_at": "2026-11-17T14:42:18Z",
  "videos": [
+  {
+   "video_id": "_9pt7uRoOlE",
+   "title": "India 🇮🇳 vs Pakistan 🇵🇰: who wins? (Part 2) #shorts",
+   "views": 0,
+   "question_posted": false,
+   "question": "India or Pakistan?",
+   "comments": []
+  },
+  {
+   "video_id": "-9bvU-hYP7M",
+   "title": "India vs the World: 8 countries, 32 rounds, real data",
+   "views": 0,
+   "question_posted": false,
+   "question": "Which country should India face next?",
+   "comments": []
+  },
   {
    "video_id": "S6rCA2SGbIU",
    "title": "India vs China: who wins? 4 rounds, real data #shorts",
-   "views": 3,
-   "question_posted": false,
+   "views": 945,
+   "question_posted": true,
    "question": "Two all. Who wins round five?",
-   "comments": []
+   "comments": [
+    {
+     "id": "UgxMvEYQgZDYGERmDRx4AaABAg",
+     "author": "@s.c8410",
+     "text": "Compare with Bangladesh instead",
+     "answered": false,
+     "replies": []
+    }
+   ]
   },
   {
    "video_id": "YePdcnMitPs",
    "title": "This money lost 99% in 10 years. Top 3 G20 currency crashes #shorts",
-   "views": 1,
+   "views": 13,
    "question_posted": true,
    "question": "How much has your money lost?",
    "comments": []
@@ -21,15 +45,23 @@
   {
    "video_id": "VFAb_5k328U",
    "title": "India has more people than these 5 countries combined #shorts",
-   "views": 476,
+   "views": 945,
    "question_posted": true,
    "question": "Which country did you think was bigger?",
-   "comments": []
+   "comments": [
+    {
+     "id": "Ugx9APrk2PU6L9Dta4B4AaABAg",
+     "author": "@waseemchanna9612",
+     "text": "bro thanks ❤❤ for p",
+     "answered": false,
+     "replies": []
+    }
+   ]
   },
   {
    "video_id": "XPVDvUT8i6A",
    "title": "India vs Pakistan: who is richer? 3 rounds, real data #shorts",
-   "views": 408,
+   "views": 920,
    "question_posted": true,
    "question": "So who really wins, India or Pakistan?",
    "comments": [
@@ -37,25 +69,22 @@
      "id": "UgxNRwxwOT_AwvDeVj94AaABAg",
      "author": "@kindest_coco",
      "text": "India 🇮🇳 🇮🇳 🇮🇳 🇮🇳 🇮🇳 🇮🇳 🇮🇳",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "India took 2 of 3 rounds: richer per person and longer lives 🇮🇳 But Pakistan won the cities round. Where are you watching from?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "vWAsC7_9M90",
    "title": "In 1990, China's economy was smaller than Spain's. Watch what happened #shorts",
-   "views": 42,
+   "views": 48,
    "question_posted": true,
    "question": "Will China ever pass America?",
-   "comments": []
-  },
-  {
-   "video_id": "EjQWWGDRlrI",
-   "title": "America vs Japan: who lives better? 4 rounds, real data #shorts",
-   "views": 78,
-   "question_posted": true,
-   "question": "Japan wins three to one. Would you move?",
    "comments": []
   }
  ]
