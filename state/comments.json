@@ -1,27 +1,57 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-17T14:42:18Z",
+ "fetched_at": "2026-11-17T16:14:13Z",
  "videos": [
+  {
+   "video_id": "-ce56-CZ8_A",
+   "title": "Pakistan 🇵🇰 has more people than these 4 countries combined #shorts",
+   "views": 25,
+   "question_posted": false,
+   "question": "Who should Pakistan face next?",
+   "comments": []
+  },
   {
    "video_id": "_9pt7uRoOlE",
    "title": "India 🇮🇳 vs Pakistan 🇵🇰: who wins? (Part 2) #shorts",
-   "views": 0,
-   "question_posted": false,
+   "views": 686,
+   "question_posted": true,
    "question": "India or Pakistan?",
-   "comments": []
+   "comments": [
+    {
+     "id": "Ugx9OhfXGuFfsW-4kh54AaABAg",
+     "author": "@RohidasNingombam",
+     "text": "India is better",
+     "answered": false,
+     "replies": []
+    },
+    {
+     "id": "UgxXqFBnKqZQioTJkbh4AaABAg",
+     "author": "@hifzaaazhar-b3h",
+     "text": "Pakistan never dies",
+     "answered": false,
+     "replies": []
+    },
+    {
+     "id": "UgzCMnAKUM9IaAuF-Ux4AaABAg",
+     "author": "@mehwishchattha5168",
+     "text": "🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰👍👍👍👍👍👍👍👍👍👍👍👍 Pakistan Pakistan is better in India. India is the worst land in the world, bro they copycat our language. I hate what is India who is",
+     "answered": false,
+     "replies": []
+    }
+   ]
   },
   {
    "video_id": "-9bvU-hYP7M",
    "title": "India vs the World: 8 countries, 32 rounds, real data",
    "views": 0,
-   "question_posted": false,
+   "question_posted": true,
    "question": "Which country should India face next?",
    "comments": []
   },
   {
    "video_id": "S6rCA2SGbIU",
    "title": "India vs China: who wins? 4 rounds, real data #shorts",
-   "views": 945,
+   "views": 952,
    "question_posted": true,
    "question": "Two all. Who wins round five?",
    "comments": [
@@ -29,15 +59,20 @@
      "id": "UgxMvEYQgZDYGERmDRx4AaABAg",
      "author": "@s.c8410",
      "text": "Compare with Bangladesh instead",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Great pick! That one would be close: India is only slightly richer per person, but people in Bangladesh live over 2 years longer. Who do you think wins?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "YePdcnMitPs",
    "title": "This money lost 99% in 10 years. Top 3 G20 currency crashes #shorts",
-   "views": 13,
+   "views": 14,
    "question_posted": true,
    "question": "How much has your money lost?",
    "comments": []
@@ -45,7 +80,7 @@
   {
    "video_id": "VFAb_5k328U",
    "title": "India has more people than these 5 countries combined #shorts",
-   "views": 945,
+   "views": 961,
    "question_posted": true,
    "question": "Which country did you think was bigger?",
    "comments": [
@@ -53,15 +88,20 @@
      "id": "Ugx9APrk2PU6L9Dta4B4AaABAg",
      "author": "@waseemchanna9612",
      "text": "bro thanks ❤❤ for p",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Thanks for watching, glad you liked it ❤️ Which country should we compare next?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "XPVDvUT8i6A",
    "title": "India vs Pakistan: who is richer? 3 rounds, real data #shorts",
-   "views": 920,
+   "views": 919,
    "question_posted": true,
    "question": "So who really wins, India or Pakistan?",
    "comments": [
@@ -78,14 +118,6 @@
      ]
     }
    ]
-  },
-  {
-   "video_id": "vWAsC7_9M90",
-   "title": "In 1990, China's economy was smaller than Spain's. Watch what happened #shorts",
-   "views": 48,
-   "question_posted": true,
-   "question": "Will China ever pass America?",
-   "comments": []
   }
  ]
 }
