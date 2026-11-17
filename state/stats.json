@@ -1,18 +1,18 @@
 {
- "fetched_at": "2026-11-16T16:18:49Z",
+ "fetched_at": "2026-11-17T13:29:38Z",
  "channel": {
   "subscribers": 2,
-  "views": 1257,
+  "views": 2602,
   "videos": 18
  },
  "traffic": {
   "NO_LINK_OTHER": 0,
   "SUBSCRIBER": 4,
   "YT_CHANNEL": 9,
-  "YT_SEARCH": 63,
-  "YT_OTHER_PAGE": 6,
+  "YT_SEARCH": 85,
+  "YT_OTHER_PAGE": 7,
   "EXT_URL": 2,
-  "SHORTS": 391
+  "SHORTS": 469
  },
  "daily": {
   "2026-11-01": 0,
@@ -27,10 +27,11 @@
   "2026-11-10": 67,
   "2026-11-11": 63,
   "2026-11-12": 123,
-  "2026-11-13": 16
+  "2026-11-13": 16,
+  "2026-11-14": 101
  },
  "countries": {
-  "US": 121
+  "US": 185
  },
  "videos": [
   {
@@ -43,8 +44,8 @@
    "views": 208,
    "likes": 2,
    "comments": 3,
-   "engaged_views": 74,
-   "avg_view_pct": 43.66,
+   "engaged_views": 75,
+   "avg_view_pct": 43.67,
    "avg_view_sec": 17,
    "shares": 1,
    "subs_gained": 0
@@ -232,14 +233,14 @@
    "format": "battle",
    "privacy": "public",
    "published": "2026-11-14T14:08:02Z",
-   "views": 78,
+   "views": 81,
    "likes": 0,
    "comments": 1,
-   "engaged_views": null,
-   "avg_view_pct": null,
-   "avg_view_sec": null,
-   "shares": null,
-   "subs_gained": null
+   "engaged_views": 23,
+   "avg_view_pct": 77.17,
+   "avg_view_sec": 16,
+   "shares": 0,
+   "subs_gained": 0
   },
   {
    "episode": "ep018",
@@ -248,14 +249,14 @@
    "format": "race",
    "privacy": "public",
    "published": "2026-11-14T15:30:28Z",
-   "views": 42,
+   "views": 48,
    "likes": 0,
    "comments": 1,
-   "engaged_views": null,
-   "avg_view_pct": null,
-   "avg_view_sec": null,
-   "shares": null,
-   "subs_gained": null
+   "engaged_views": 9,
+   "avg_view_pct": 92.83,
+   "avg_view_sec": 21,
+   "shares": 0,
+   "subs_gained": 0
   },
   {
    "episode": "ep019",
@@ -264,8 +265,8 @@
    "format": "quiz",
    "privacy": "public",
    "published": "2026-11-15T16:16:45Z",
-   "views": 410,
-   "likes": 8,
+   "views": 920,
+   "likes": 10,
    "comments": 3,
    "engaged_views": null,
    "avg_view_pct": null,
@@ -280,9 +281,9 @@
    "format": "bubbles",
    "privacy": "public",
    "published": "2026-11-15T17:30:04Z",
-   "views": 476,
-   "likes": 4,
-   "comments": 1,
+   "views": 945,
+   "likes": 7,
+   "comments": 2,
    "engaged_views": null,
    "avg_view_pct": null,
    "avg_view_sec": null,
@@ -296,7 +297,7 @@
    "format": "countdown",
    "privacy": "public",
    "published": "2026-11-16T14:04:23Z",
-   "views": 1,
+   "views": 13,
    "likes": 0,
    "comments": 1,
    "engaged_views": null,
@@ -312,9 +313,57 @@
    "format": "battle",
    "privacy": "public",
    "published": "2026-11-16T15:34:01Z",
-   "views": 9,
+   "views": 945,
+   "likes": 1,
+   "comments": 2,
+   "engaged_views": null,
+   "avg_view_pct": null,
+   "avg_view_sec": null,
+   "shares": null,
+   "subs_gained": null
+  },
+  {
+   "episode": "lv001",
+   "video_id": "-9bvU-hYP7M",
+   "title": "India vs the World: 8 countries, 32 rounds, real data",
+   "format": "battle",
+   "privacy": "private",
+   "published": "2026-11-16T19:35:23Z",
+   "views": 0,
    "likes": 0,
-   "comments": 1,
+   "comments": 0,
+   "engaged_views": null,
+   "avg_view_pct": null,
+   "avg_view_sec": null,
+   "shares": null,
+   "subs_gained": null
+  },
+  {
+   "episode": "ep023",
+   "video_id": "_9pt7uRoOlE",
+   "title": "India 🇮🇳 vs Pakistan 🇵🇰: who wins? (Part 2) #shorts",
+   "format": "quiz",
+   "privacy": "private",
+   "published": "2026-11-17T06:21:32Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "engaged_views": null,
+   "avg_view_pct": null,
+   "avg_view_sec": null,
+   "shares": null,
+   "subs_gained": null
+  },
+  {
+   "episode": "ep024",
+   "video_id": "-ce56-CZ8_A",
+   "title": "Pakistan 🇵🇰 has more people than these 4 countries combined #shorts",
+   "format": "bubbles",
+   "privacy": "private",
+   "published": "2026-11-17T12:22:36Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
    "engaged_views": null,
    "avg_view_pct": null,
    "avg_view_sec": null,
