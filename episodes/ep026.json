@@ -1,0 +1,353 @@
+{
+ "id": "ep026",
+ "title": "Bangladesh 🇧🇩 vs Pakistan 🇵🇰 vs India 🇮🇳: who got richer?",
+ "topic": "Who got richer?",
+ "headline": "Who got *richer*?",
+ "description": "In 1990 Bangladesh was poorer than Pakistan and India. Watch 35 years of real World Bank data race. Bangladesh, India or Pakistan? Comment your flag.",
+ "tags": [
+  "bangladesh vs pakistan",
+  "bangladesh vs india",
+  "india vs pakistan",
+  "bangladesh economy",
+  "pakistan economy",
+  "gdp per capita race",
+  "south asia economy",
+  "richest country in south asia",
+  "bar chart race"
+ ],
+ "source": "World Bank, GDP per person in current US dollars (1990-2025), data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+ "voice": "af_heart",
+ "hashtags": [
+  "bangladesh",
+  "pakistan",
+  "bangladeshvspakistan",
+  "countrycomparison"
+ ],
+ "format": "race",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "bd",
+   "pk",
+   "in"
+  ]
+ },
+ "localizations": {
+  "bn": {
+   "title": "বাংলাদেশ 🇧🇩 vs পাকিস্তান 🇵🇰 vs ভারত 🇮🇳: কে বেশি ধনী হলো?",
+   "description": "১৯৯০ সালে বাংলাদেশ পাকিস্তান ও ভারতের চেয়ে গরিব ছিল। ৩৫ বছরের আসল ডেটা। আপনার পতাকা কমেন্ট করুন।"
+  },
+  "ur": {
+   "title": "بنگلہ دیش 🇧🇩 vs پاکستان 🇵🇰 vs بھارت 🇮🇳: کون زیادہ امیر ہوا؟",
+   "description": "1990 میں بنگلہ دیش پاکستان اور بھارت سے غریب تھا۔ 35 سال کا اصل ڈیٹا۔ اپنا جھنڈا کمنٹ کریں۔"
+  },
+  "hi": {
+   "title": "बांग्लादेश 🇧🇩 vs पाकिस्तान 🇵🇰 vs भारत 🇮🇳: कौन अमीर हुआ?",
+   "description": "1990 में बांग्लादेश पाकिस्तान और भारत से गरीब था। 35 साल का असली डेटा। अपना झंडा कमेंट करें।"
+  }
+ },
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "In 1990, Bangladesh was poorer than Pakistan and India.",
+   "props": {
+    "kicker": "Bangladesh, income per person, 1990",
+    "big": 283,
+    "format": {
+     "prefix": "$"
+    },
+    "sub": "Pakistan $344 · India $371",
+    "flag": "bd"
+   }
+  },
+  {
+   "scene": "race",
+   "text": "Watch. For twenty-five years, Bangladesh stays near the bottom.",
+   "props": {
+    "title": "Income per person",
+    "format": {
+     "prefix": "$"
+    },
+    "years": [
+     1990,
+     1991,
+     1992,
+     1993,
+     1994,
+     1995,
+     1996,
+     1997,
+     1998,
+     1999,
+     2000,
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "focus": "Bangladesh",
+    "show": 5,
+    "to": 2015,
+    "items": [
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "values": [
+       283,
+       272,
+       273,
+       281,
+       281,
+       309,
+       372,
+       379,
+       386,
+       388,
+       397,
+       395,
+       394,
+       427,
+       456,
+       480,
+       490,
+       538,
+       613,
+       679,
+       757,
+       837,
+       860,
+       958,
+       1094,
+       1224,
+       1649,
+       1811,
+       1965,
+       2130,
+       2249,
+       2483,
+       2716,
+       2551,
+       2593,
+       2597
+      ]
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "values": [
+       344,
+       380,
+       396,
+       408,
+       400,
+       451,
+       457,
+       438,
+       424,
+       418,
+       642,
+       610,
+       600,
+       672,
+       772,
+       828,
+       901,
+       998,
+       1067,
+       964,
+       987,
+       1132,
+       1204,
+       1225,
+       1267,
+       1380,
+       1425,
+       1519,
+       1569,
+       1390,
+       1278,
+       1455,
+       1538,
+       1360,
+       1479,
+       1596
+      ]
+     },
+     {
+      "label": "India",
+      "flag": "in",
+      "values": [
+       371,
+       306,
+       319,
+       303,
+       348,
+       375,
+       401,
+       416,
+       414,
+       442,
+       443,
+       450,
+       469,
+       544,
+       624,
+       710,
+       802,
+       1022,
+       993,
+       1095,
+       1348,
+       1445,
+       1429,
+       1433,
+       1554,
+       1584,
+       1708,
+       1950,
+       1966,
+       2041,
+       1907,
+       2240,
+       2280,
+       2434,
+       2592,
+       2702
+      ]
+     },
+     {
+      "label": "Sri Lanka",
+      "flag": "lk",
+      "values": [
+       491,
+       546,
+       580,
+       607,
+       678,
+       742,
+       776,
+       827,
+       848,
+       829,
+       860,
+       804,
+       835,
+       946,
+       1029,
+       1207,
+       1389,
+       1579,
+       1974,
+       2027,
+       2808,
+       3225,
+       3328,
+       3739,
+       3972,
+       4058,
+       4149,
+       4399,
+       4359,
+       4082,
+       3848,
+       3997,
+       3343,
+       3815,
+       4545,
+       5002
+      ]
+     },
+     {
+      "label": "Nepal",
+      "flag": "np",
+      "values": [
+       186,
+       196,
+       165,
+       173,
+       187,
+       198,
+       199,
+       212,
+       205,
+       209,
+       224,
+       241,
+       239,
+       246,
+       280,
+       309,
+       340,
+       385,
+       465,
+       473,
+       585,
+       786,
+       788,
+       803,
+       821,
+       876,
+       877,
+       1034,
+       1179,
+       1203,
+       1154,
+       1253,
+       1386,
+       1382,
+       1460,
+       1536
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "race",
+   "text": "Then it passes Pakistan.",
+   "props": {
+    "to": 2016
+   }
+  },
+  {
+   "scene": "race",
+   "text": "In 2019, it even passes India.",
+   "props": {
+    "to": 2019
+   }
+  },
+  {
+   "scene": "race",
+   "text": "But in 2025, India takes it back. By a hundred five dollars.",
+   "props": {
+    "to": 2025
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "Bangladesh, India or Pakistan? Comment your flag.",
+   "props": {}
+  }
+ ]
+}
