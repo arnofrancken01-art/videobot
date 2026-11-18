@@ -1,19 +1,35 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-18T14:42:19Z",
+ "fetched_at": "2026-11-18T16:14:28Z",
  "videos": [
+  {
+   "video_id": "qN7fRm4ALU0",
+   "title": "Bangladesh 🇧🇩 vs Pakistan 🇵🇰 vs India 🇮🇳: who got richer? #shorts",
+   "views": 31,
+   "question_posted": false,
+   "question": "Bangladesh, India or Pakistan?",
+   "comments": [
+    {
+     "id": "UgwHysXlAmv7FB0ae7x4AaABAg",
+     "author": "@SaifulIslamChowdhury-t8d",
+     "text": "Team bangladesh jodi tumi bangladeshi ati porte parba",
+     "answered": false,
+     "replies": []
+    }
+   ]
+  },
   {
    "video_id": "5xG8NxJ7ZDg",
    "title": "India 🇮🇳 vs China 🇨🇳: who wins? (Part 2) #shorts",
-   "views": 8,
-   "question_posted": false,
+   "views": 19,
+   "question_posted": true,
    "question": "Two all again. India or China?",
    "comments": []
   },
   {
    "video_id": "-ce56-CZ8_A",
    "title": "Pakistan 🇵🇰 has more people than these 4 countries combined #shorts",
-   "views": 950,
+   "views": 959,
    "question_posted": true,
    "question": "Who should Pakistan face next?",
    "comments": [
@@ -21,45 +37,77 @@
      "id": "UgzzcYe3kZyYlDF0Wcp4AaABAg",
      "author": "@Hockey-g4i",
      "text": "India or china 😅",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "That would be a big step up! India has about 1.46 billion people and China 1.41 billion, both over 5 times Pakistan. Which one first?"
+      }
+     ]
     },
     {
      "id": "UgyTYOBj21rpQqY5v0h4AaABAg",
      "author": "@JaymadiLlc",
      "text": "Inadia",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "India would be a huge rematch: about 1.46 billion people vs Pakistan's 255 million 🇮🇳 Where are you watching from?"
+      }
+     ]
     },
     {
      "id": "Ugwx-kgqJgmG3QwdbBx4AaABAg",
      "author": "@LinChing-t7q",
      "text": "Russia",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Pakistan would win that one on people: about 255 million vs 144 million in Russia. Which round should we test them on?"
+      }
+     ]
     },
     {
      "id": "UgztF4SszdCG4gUkpjR4AaABAg",
      "author": "@SadafAli-mo4be",
      "text": "Africa countrys",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Good idea! Nigeria comes close: about 238 million people vs Pakistan's 255 million 🇳🇬 Which African country would you pick?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "_9pt7uRoOlE",
    "title": "India 🇮🇳 vs Pakistan 🇵🇰: who wins? (Part 2) #shorts",
-   "views": 1110,
+   "views": 1131,
    "question_posted": true,
    "question": "India or Pakistan?",
    "comments": [
     {
+     "id": "Ugx9XFAQ5_sna02uy8V4AaABAg",
+     "author": "@farasatwaseem2564",
+     "text": "Pakistan Zindabad frends🇹🇷🇦🇪🇸🇦💪🖕🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰",
+     "answered": false,
+     "replies": []
+    },
+    {
      "id": "UgxI9WesS5XUMF_3Z314AaABAg",
      "author": "@charusheelagalinde5634",
      "text": "🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Love the support! India took this one 2 to 1 🇮🇳 Where in India are you watching from?"
+      }
+     ]
     },
     {
      "id": "Ugx9OhfXGuFfsW-4kh54AaABAg",
@@ -126,7 +174,7 @@
   {
    "video_id": "YePdcnMitPs",
    "title": "This money lost 99% in 10 years. Top 3 G20 currency crashes #shorts",
-   "views": 46,
+   "views": 40,
    "question_posted": true,
    "question": "How much has your money lost?",
    "comments": []
@@ -134,7 +182,7 @@
   {
    "video_id": "VFAb_5k328U",
    "title": "India has more people than these 5 countries combined #shorts",
-   "views": 1024,
+   "views": 1022,
    "question_posted": true,
    "question": "Which country did you think was bigger?",
    "comments": [
