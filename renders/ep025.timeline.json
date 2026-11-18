@@ -1,0 +1,384 @@
+{
+ "id": "ep025",
+ "title": "India \ud83c\uddee\ud83c\uddf3 vs China \ud83c\udde8\ud83c\uddf3: who wins? (Part 2)",
+ "topic": "India vs China",
+ "headline": "Part 2: India or *China*?",
+ "description": "India against China, part 2: army, military budget, land and age. Four new rounds of real World Bank data. India or China? Comment your flag.",
+ "tags": [
+  "india vs china",
+  "china vs india",
+  "india vs china part 2",
+  "india vs china army",
+  "india vs china military",
+  "india army",
+  "china military budget",
+  "india vs china comparison",
+  "country comparison"
+ ],
+ "source": "World Bank: armed forces personnel (2020), military spending (2025), land area (2024), population aged 65 and over (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "china",
+  "indiavschina",
+  "countrycomparison"
+ ],
+ "format": "battle",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "in",
+   "cn"
+  ],
+  "vs": true
+ },
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 vs \u091a\u0940\u0928 \ud83c\udde8\ud83c\uddf3: \u0915\u094c\u0928 \u091c\u0940\u0924\u0947\u0917\u093e? (\u092d\u093e\u0917 2)",
+   "description": "\u092d\u093e\u0930\u0924 \u092f\u093e \u091a\u0940\u0928, \u092d\u093e\u0917 2: \u0938\u0947\u0928\u093e, \u0930\u0915\u094d\u0937\u093e \u092c\u091c\u091f, \u091c\u093c\u092e\u0940\u0928 \u0914\u0930 \u0909\u092e\u094d\u0930\u0964 \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947, \u091a\u093e\u0930 \u0928\u090f \u0930\u093e\u0909\u0902\u0921\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  }
+ },
+ "segments": [
+  {
+   "scene": "battle",
+   "text": "India versus China. Part two. Round five starts now.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "China",
+     "flag": "cn"
+    }
+   },
+   "start": 0.05,
+   "end": 4.025,
+   "words": [
+    {
+     "word": "India",
+     "start": 0.3,
+     "end": 0.6
+    },
+    {
+     "word": "versus",
+     "start": 0.6,
+     "end": 0.975
+    },
+    {
+     "word": "China.",
+     "start": 0.975,
+     "end": 1.45
+    },
+    {
+     "word": "Part",
+     "start": 1.575,
+     "end": 1.85
+    },
+    {
+     "word": "two.",
+     "start": 1.85,
+     "end": 2.225
+    },
+    {
+     "word": "Round",
+     "start": 2.35,
+     "end": 2.625
+    },
+    {
+     "word": "five",
+     "start": 2.625,
+     "end": 2.95
+    },
+    {
+     "word": "starts",
+     "start": 2.95,
+     "end": 3.287
+    },
+    {
+     "word": "now.",
+     "start": 3.287,
+     "end": 3.775
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Soldiers. India has the bigger army.",
+   "props": {
+    "stat": {
+     "label": "Armed forces",
+     "a": 3.07,
+     "b": 2.54,
+     "format": {
+      "suffix": "M",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   },
+   "start": 4.085,
+   "end": 6.685,
+   "words": [
+    {
+     "word": "Soldiers.",
+     "start": 4.335,
+     "end": 4.885
+    },
+    {
+     "word": "India",
+     "start": 4.96,
+     "end": 5.31
+    },
+    {
+     "word": "has",
+     "start": 5.31,
+     "end": 5.498
+    },
+    {
+     "word": "the",
+     "start": 5.498,
+     "end": 5.585
+    },
+    {
+     "word": "bigger",
+     "start": 5.585,
+     "end": 5.86
+    },
+    {
+     "word": "army.",
+     "start": 5.86,
+     "end": 6.435
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Military budget. China spends over three times more.",
+   "props": {
+    "stat": {
+     "label": "Military spending",
+     "a": 92,
+     "b": 336,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "China"
+   },
+   "start": 6.745,
+   "end": 10.245,
+   "words": [
+    {
+     "word": "Military",
+     "start": 6.995,
+     "end": 7.495
+    },
+    {
+     "word": "budget.",
+     "start": 7.495,
+     "end": 7.995
+    },
+    {
+     "word": "China",
+     "start": 8.107,
+     "end": 8.445
+    },
+    {
+     "word": "spends",
+     "start": 8.445,
+     "end": 8.707
+    },
+    {
+     "word": "over",
+     "start": 8.707,
+     "end": 8.957
+    },
+    {
+     "word": "three",
+     "start": 8.957,
+     "end": 9.195
+    },
+    {
+     "word": "times",
+     "start": 9.195,
+     "end": 9.52
+    },
+    {
+     "word": "more.",
+     "start": 9.52,
+     "end": 9.995
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Land. China is three times bigger.",
+   "props": {
+    "stat": {
+     "label": "Land area",
+     "a": 2.97,
+     "b": 9.39,
+     "format": {
+      "suffix": "M km\u00b2",
+      "decimals": 2
+     }
+    },
+    "at": "China"
+   },
+   "start": 10.305,
+   "end": 12.855,
+   "words": [
+    {
+     "word": "Land.",
+     "start": 10.58,
+     "end": 10.98
+    },
+    {
+     "word": "China",
+     "start": 11.055,
+     "end": 11.355
+    },
+    {
+     "word": "is",
+     "start": 11.355,
+     "end": 11.505
+    },
+    {
+     "word": "three",
+     "start": 11.505,
+     "end": 11.73
+    },
+    {
+     "word": "times",
+     "start": 11.73,
+     "end": 12.055
+    },
+    {
+     "word": "bigger.",
+     "start": 12.055,
+     "end": 12.605
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Age. China has twice as many over sixty-five. India stays young.",
+   "props": {
+    "stat": {
+     "label": "People aged 65+",
+     "a": 7.4,
+     "b": 14.9,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     },
+     "pick": "lower"
+    },
+    "at": "India"
+   },
+   "start": 12.915,
+   "end": 17.465,
+   "words": [
+    {
+     "word": "Age.",
+     "start": 13.165,
+     "end": 13.515
+    },
+    {
+     "word": "China",
+     "start": 13.602,
+     "end": 13.94
+    },
+    {
+     "word": "has",
+     "start": 13.94,
+     "end": 14.14
+    },
+    {
+     "word": "twice",
+     "start": 14.14,
+     "end": 14.465
+    },
+    {
+     "word": "as",
+     "start": 14.465,
+     "end": 14.59
+    },
+    {
+     "word": "many",
+     "start": 14.59,
+     "end": 14.802
+    },
+    {
+     "word": "over",
+     "start": 14.802,
+     "end": 15.04
+    },
+    {
+     "word": "sixty-five.",
+     "start": 15.04,
+     "end": 15.865
+    },
+    {
+     "word": "India",
+     "start": 15.99,
+     "end": 16.34
+    },
+    {
+     "word": "stays",
+     "start": 16.34,
+     "end": 16.715
+    },
+    {
+     "word": "young.",
+     "start": 16.715,
+     "end": 17.24
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Two all again. India or China?",
+   "props": {},
+   "start": 17.525,
+   "end": 20.0,
+   "words": [
+    {
+     "word": "Two",
+     "start": 17.75,
+     "end": 17.925
+    },
+    {
+     "word": "all",
+     "start": 17.925,
+     "end": 18.087
+    },
+    {
+     "word": "again.",
+     "start": 18.087,
+     "end": 18.525
+    },
+    {
+     "word": "India",
+     "start": 18.65,
+     "end": 19.0
+    },
+    {
+     "word": "or",
+     "start": 19.0,
+     "end": 19.162
+    },
+    {
+     "word": "China?",
+     "start": 19.162,
+     "end": 19.725
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 620,
+ "fps": 30,
+ "aligned": "tts"
+}
