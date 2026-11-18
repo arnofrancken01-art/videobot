@@ -1,0 +1,134 @@
+{
+ "fps": 30,
+ "durationInFrames": 1804,
+ "header": "TOP 5 GTA 6 MOMENTS",
+ "sub": "TODAY",
+ "handle": "@LeonidaDaily",
+ "intro": {
+  "start": 0,
+  "dur": 2.67,
+  "from": 6.26,
+  "src": "clips/c1.mp4",
+  "bg": "clips/c1_bg.mp4",
+  "vertical": false
+ },
+ "items": [
+  {
+   "rank": 5,
+   "src": "clips/c5.mp4",
+   "bg": "clips/c5_bg.mp4",
+   "vertical": false,
+   "dur": 11,
+   "streamer": "jynxzi",
+   "login": "jynxzi",
+   "title": "JYNXZI Wins Gamer Of The Year! 🔥🔥🔥 W Jynxzi 🫶",
+   "words": [],
+   "url": "https://www.twitch.tv/jynxzi/clip/GorgeousSparklingGoatBloodTrail-l-5IIruft8YsCVoM",
+   "views": 8873,
+   "peak": 1.5,
+   "start": 2.67
+  },
+  {
+   "rank": 4,
+   "src": "clips/c4.mp4",
+   "bg": "clips/c4_bg.mp4",
+   "vertical": false,
+   "dur": 11,
+   "streamer": "caseoh_",
+   "login": "caseoh_",
+   "title": "scare 1",
+   "words": [],
+   "url": "https://www.twitch.tv/caseoh_/clip/EphemeralSavoryWatermelonAMPEnergy-bCRHRV4G2kmb0oW8",
+   "views": 10687,
+   "peak": 1.0,
+   "start": 13.67
+  },
+  {
+   "rank": 3,
+   "src": "clips/c3.mp4",
+   "bg": "clips/c3_bg.mp4",
+   "vertical": false,
+   "dur": 11,
+   "streamer": "xqc",
+   "login": "xqc",
+   "title": "Splat",
+   "words": [],
+   "url": "https://www.twitch.tv/xqc/clip/EagerMagnificentOpossumRaccAttack-Z_1cH-jBbf9w3u7C",
+   "views": 11150,
+   "peak": 0.6,
+   "start": 24.67
+  },
+  {
+   "rank": 2,
+   "src": "clips/c2.mp4",
+   "bg": "clips/c2_bg.mp4",
+   "vertical": false,
+   "dur": 11,
+   "streamer": "caseoh_",
+   "login": "caseoh_",
+   "title": "spiders",
+   "words": [],
+   "url": "https://www.twitch.tv/caseoh_/clip/JazzyTiredButterflyPlanking-Q2QkdxmTDyCSb1ax",
+   "views": 15597,
+   "peak": 10.3,
+   "start": 35.67
+  },
+  {
+   "rank": 1,
+   "src": "clips/c1.mp4",
+   "bg": "clips/c1_bg.mp4",
+   "vertical": false,
+   "dur": 11,
+   "streamer": "jynxzi",
+   "login": "jynxzi",
+   "title": "clutch",
+   "words": [],
+   "url": "https://www.twitch.tv/jynxzi/clip/AntsyObliqueRadicchioVoHiYo-uSskG_k0giMYoe-q",
+   "views": 23383,
+   "peak": 7.6,
+   "start": 46.67
+  }
+ ],
+ "voice": [
+  {
+   "src": "voice/hook.wav",
+   "start": 0.05,
+   "dur": 2.47
+  },
+  {
+   "src": "voice/r5.wav",
+   "start": 2.72,
+   "dur": 1.07
+  },
+  {
+   "src": "voice/r4.wav",
+   "start": 13.72,
+   "dur": 1.07
+  },
+  {
+   "src": "voice/r3.wav",
+   "start": 24.72,
+   "dur": 1.05
+  },
+  {
+   "src": "voice/r2.wav",
+   "start": 35.72,
+   "dur": 0.98
+  },
+  {
+   "src": "voice/r1.wav",
+   "start": 46.72,
+   "dur": 1.13
+  },
+  {
+   "src": "voice/outro.wav",
+   "start": 57.77,
+   "dur": 2.05
+  }
+ ],
+ "outro": {
+  "start": 57.67,
+  "dur": 2.45
+ },
+ "test": true
+}
