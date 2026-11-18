@@ -49,6 +49,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
       - run: pip install requests numpy soundfile kokoro-onnx==0.6.1 faster-whisper==1.1.1 yt-dlp
       - name: Clips zoeken
         id: find
