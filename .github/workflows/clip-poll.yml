@@ -1,0 +1,34 @@
+name: Clipbot knoppen (late klikken)
+
+on:
+  schedule:
+    - cron: "35 */3 * * *"
+  workflow_dispatch:
+
+concurrency: clipbot-poll
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    env:
+      CLIPBOT_TELEGRAM_TOKEN: ${{ secrets.CLIPBOT_TELEGRAM_TOKEN }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      CLIPBOT_YOUTUBE_REFRESH_TOKEN: ${{ secrets.CLIPBOT_YOUTUBE_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        if: env.CLIPBOT_TELEGRAM_TOKEN != ''
+      - uses: actions/setup-python@v5
+        if: env.CLIPBOT_TELEGRAM_TOKEN != ''
+        with:
+          python-version: "3.12"
+      - name: Klikken verwerken en uploaden
+        if: env.CLIPBOT_TELEGRAM_TOKEN != ''
+        run: |
+          pip install -q requests
+          git config user.name "clipbot"; git config user.email "clipbot@users.noreply.github.com"
+          python clipbot/scripts/approve.py once
+          git add clipbot/state && (git diff --cached --quiet || (git commit -qm "Clipbot: status" && git pull -q --rebase && git push -q))

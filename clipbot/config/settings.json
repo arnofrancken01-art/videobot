@@ -1,0 +1,21 @@
+{
+  "_uitleg": "Instellingen van de clipbot. Pas gerust aan; de bot leest dit bij elke run.",
+  "channel_name": "Leonida Daily",
+  "channel_handle": "@LeonidaDaily",
+  "game_names": ["Grand Theft Auto VI"],
+  "game_short": "GTA 6",
+  "launch_date": "2026-11-19",
+  "lookback_hours": 30,
+  "clips_per_video": 5,
+  "max_per_streamer": 2,
+  "min_views": 30,
+  "languages": ["en"],
+  "clip_min_seconds": 5,
+  "clip_max_seconds": 11,
+  "zoom": 1.22,
+  "voice": "am_michael",
+  "whisper_model": "small",
+  "blocked_words": ["spoiler", "spoilers", "ending", "leak", "leaked", "cutscene", "credits", "final mission", "story mission", "pirated", "mod menu", "cheat"],
+  "censor_words": ["fuck", "fucking", "fucked", "shit", "bitch", "nigga", "nigger", "cunt", "dick", "pussy", "faggot", "retard"],
+  "approval_wait_minutes": 240
+}

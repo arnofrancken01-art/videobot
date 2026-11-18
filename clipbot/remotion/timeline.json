@@ -1,0 +1,439 @@
+{
+ "fps": 30,
+ "durationInFrames": 1864,
+ "header": "TOP 5 GTA 6 MOMENTS",
+ "sub": "TODAY",
+ "handle": "@LeonidaDaily",
+ "intro": {
+  "start": 0,
+  "dur": 4.66,
+  "from": 0.0,
+  "src": "clips/c1.mp4",
+  "bg": "clips/c1_bg.mp4",
+  "vertical": false
+ },
+ "items": [
+  {
+   "rank": 5,
+   "src": "clips/c5.mp4",
+   "bg": "clips/c5_bg.mp4",
+   "vertical": false,
+   "dur": 11,
+   "streamer": "Summit1g",
+   "login": "streamer4",
+   "title": "heist escape",
+   "words": [
+    {
+     "word": "NO",
+     "start": 1.6,
+     "end": 1.8800000000000001
+    },
+    {
+     "word": "NO",
+     "start": 1.9000000000000001,
+     "end": 2.18
+    },
+    {
+     "word": "NO",
+     "start": 2.2,
+     "end": 2.4800000000000004
+    },
+    {
+     "word": "the",
+     "start": 2.5,
+     "end": 2.7800000000000002
+    },
+    {
+     "word": "cops",
+     "start": 2.8,
+     "end": 3.08
+    },
+    {
+     "word": "are",
+     "start": 3.1,
+     "end": 3.38
+    },
+    {
+     "word": "right",
+     "start": 3.4,
+     "end": 3.6799999999999997
+    },
+    {
+     "word": "behind",
+     "start": 3.7,
+     "end": 3.9800000000000004
+    },
+    {
+     "word": "me",
+     "start": 4.0,
+     "end": 4.28
+    },
+    {
+     "word": "go",
+     "start": 4.3,
+     "end": 4.58
+    },
+    {
+     "word": "go",
+     "start": 4.6,
+     "end": 4.88
+    },
+    {
+     "word": "go",
+     "start": 4.9,
+     "end": 5.180000000000001
+    }
+   ],
+   "url": "x",
+   "views": 600,
+   "peak": 7.2,
+   "start": 4.66
+  },
+  {
+   "rank": 4,
+   "src": "clips/c4.mp4",
+   "bg": "clips/c4_bg.mp4",
+   "vertical": false,
+   "dur": 11,
+   "streamer": "Jynxzi",
+   "login": "streamer3",
+   "title": "ALLIGATOR",
+   "words": [
+    {
+     "word": "NO",
+     "start": 1.6,
+     "end": 1.8800000000000001
+    },
+    {
+     "word": "NO",
+     "start": 1.9000000000000001,
+     "end": 2.18
+    },
+    {
+     "word": "NO",
+     "start": 2.2,
+     "end": 2.4800000000000004
+    },
+    {
+     "word": "the",
+     "start": 2.5,
+     "end": 2.7800000000000002
+    },
+    {
+     "word": "cops",
+     "start": 2.8,
+     "end": 3.08
+    },
+    {
+     "word": "are",
+     "start": 3.1,
+     "end": 3.38
+    },
+    {
+     "word": "right",
+     "start": 3.4,
+     "end": 3.6799999999999997
+    },
+    {
+     "word": "behind",
+     "start": 3.7,
+     "end": 3.9800000000000004
+    },
+    {
+     "word": "me",
+     "start": 4.0,
+     "end": 4.28
+    },
+    {
+     "word": "go",
+     "start": 4.3,
+     "end": 4.58
+    },
+    {
+     "word": "go",
+     "start": 4.6,
+     "end": 4.88
+    },
+    {
+     "word": "go",
+     "start": 4.9,
+     "end": 5.180000000000001
+    }
+   ],
+   "url": "x",
+   "views": 700,
+   "peak": 2.2,
+   "start": 15.66
+  },
+  {
+   "rank": 3,
+   "src": "clips/c3.mp4",
+   "bg": "clips/c3_bg.mp4",
+   "vertical": false,
+   "dur": 11,
+   "streamer": "Caseoh",
+   "login": "streamer2",
+   "title": "bridge jump to boat??",
+   "words": [
+    {
+     "word": "NO",
+     "start": 1.6,
+     "end": 1.8800000000000001
+    },
+    {
+     "word": "NO",
+     "start": 1.9000000000000001,
+     "end": 2.18
+    },
+    {
+     "word": "NO",
+     "start": 2.2,
+     "end": 2.4800000000000004
+    },
+    {
+     "word": "the",
+     "start": 2.5,
+     "end": 2.7800000000000002
+    },
+    {
+     "word": "cops",
+     "start": 2.8,
+     "end": 3.08
+    },
+    {
+     "word": "are",
+     "start": 3.1,
+     "end": 3.38
+    },
+    {
+     "word": "right",
+     "start": 3.4,
+     "end": 3.6799999999999997
+    },
+    {
+     "word": "behind",
+     "start": 3.7,
+     "end": 3.9800000000000004
+    },
+    {
+     "word": "me",
+     "start": 4.0,
+     "end": 4.28
+    },
+    {
+     "word": "go",
+     "start": 4.3,
+     "end": 4.58
+    },
+    {
+     "word": "go",
+     "start": 4.6,
+     "end": 4.88
+    },
+    {
+     "word": "go",
+     "start": 4.9,
+     "end": 5.180000000000001
+    }
+   ],
+   "url": "x",
+   "views": 800,
+   "peak": 6.6,
+   "start": 26.66
+  },
+  {
+   "rank": 2,
+   "src": "clips/c2.mp4",
+   "bg": "clips/c2_bg.mp4",
+   "vertical": false,
+   "dur": 11,
+   "streamer": "Kai",
+   "login": "streamer1",
+   "title": "flying car KEKW",
+   "words": [
+    {
+     "word": "NO",
+     "start": 1.6,
+     "end": 1.8800000000000001
+    },
+    {
+     "word": "NO",
+     "start": 1.9000000000000001,
+     "end": 2.18
+    },
+    {
+     "word": "NO",
+     "start": 2.2,
+     "end": 2.4800000000000004
+    },
+    {
+     "word": "the",
+     "start": 2.5,
+     "end": 2.7800000000000002
+    },
+    {
+     "word": "cops",
+     "start": 2.8,
+     "end": 3.08
+    },
+    {
+     "word": "are",
+     "start": 3.1,
+     "end": 3.38
+    },
+    {
+     "word": "right",
+     "start": 3.4,
+     "end": 3.6799999999999997
+    },
+    {
+     "word": "behind",
+     "start": 3.7,
+     "end": 3.9800000000000004
+    },
+    {
+     "word": "me",
+     "start": 4.0,
+     "end": 4.28
+    },
+    {
+     "word": "go",
+     "start": 4.3,
+     "end": 4.58
+    },
+    {
+     "word": "go",
+     "start": 4.6,
+     "end": 4.88
+    },
+    {
+     "word": "go",
+     "start": 4.9,
+     "end": 5.180000000000001
+    }
+   ],
+   "url": "x",
+   "views": 900,
+   "peak": 0.7,
+   "start": 37.66
+  },
+  {
+   "rank": 1,
+   "src": "clips/c1.mp4",
+   "bg": "clips/c1_bg.mp4",
+   "vertical": false,
+   "dur": 11,
+   "streamer": "xQc",
+   "login": "streamer0",
+   "title": "COPS CHASE GONE WRONG",
+   "words": [
+    {
+     "word": "NO",
+     "start": 1.6,
+     "end": 1.8800000000000001
+    },
+    {
+     "word": "NO",
+     "start": 1.9000000000000001,
+     "end": 2.18
+    },
+    {
+     "word": "NO",
+     "start": 2.2,
+     "end": 2.4800000000000004
+    },
+    {
+     "word": "the",
+     "start": 2.5,
+     "end": 2.7800000000000002
+    },
+    {
+     "word": "cops",
+     "start": 2.8,
+     "end": 3.08
+    },
+    {
+     "word": "are",
+     "start": 3.1,
+     "end": 3.38
+    },
+    {
+     "word": "right",
+     "start": 3.4,
+     "end": 3.6799999999999997
+    },
+    {
+     "word": "behind",
+     "start": 3.7,
+     "end": 3.9800000000000004
+    },
+    {
+     "word": "me",
+     "start": 4.0,
+     "end": 4.28
+    },
+    {
+     "word": "go",
+     "start": 4.3,
+     "end": 4.58
+    },
+    {
+     "word": "go",
+     "start": 4.6,
+     "end": 4.88
+    },
+    {
+     "word": "go",
+     "start": 4.9,
+     "end": 5.180000000000001
+    }
+   ],
+   "url": "x",
+   "views": 1000,
+   "peak": 0.5,
+   "start": 48.66
+  }
+ ],
+ "voice": [
+  {
+   "src": "voice/hook.wav",
+   "start": 0.05,
+   "dur": 4.46
+  },
+  {
+   "src": "voice/r5.wav",
+   "start": 4.71,
+   "dur": 1.07
+  },
+  {
+   "src": "voice/r4.wav",
+   "start": 15.71,
+   "dur": 1.07
+  },
+  {
+   "src": "voice/r3.wav",
+   "start": 26.71,
+   "dur": 1.05
+  },
+  {
+   "src": "voice/r2.wav",
+   "start": 37.71,
+   "dur": 0.98
+  },
+  {
+   "src": "voice/r1.wav",
+   "start": 48.71,
+   "dur": 1.13
+  },
+  {
+   "src": "voice/outro.wav",
+   "start": 59.76,
+   "dur": 2.05
+  }
+ ],
+ "outro": {
+  "start": 59.66,
+  "dur": 2.45
+ },
+ "test": true
+}

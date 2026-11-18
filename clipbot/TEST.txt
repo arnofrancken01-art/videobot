@@ -1,0 +1,3 @@
+Testrun van de clipbot. Pas dit bestand aan en push: de bot maakt dan een TEST-video (nooit gepost).
+game=
+channels=kaicenat,xqc,jynxzi,caseoh_,summit1g
