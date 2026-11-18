@@ -87,6 +87,7 @@ def clips_ytdlp(channels, rng="24hr"):
 
 
 def main():
+    WORK.mkdir(exist_ok=True)
     ap = argparse.ArgumentParser()
     ap.add_argument("--test", action="store_true")
     ap.add_argument("--game")
@@ -103,7 +104,9 @@ def main():
     else:
         chans = [c for c in a.channels.split(",") if c] or list(allow)
         if not chans:
-            raise SystemExit("Geen Twitch-sleutel en geen kanalen: zet TWITCH_CLIENT_ID/SECRET of vul config/streamers.json.")
+            print("Geen Twitch-sleutel en geen kanalen: zet TWITCH_CLIENT_ID/SECRET of vul config/streamers.json.")
+            save(WORK / "others.json", [])
+            raise SystemExit(3)
         clips = clips_ytdlp(chans, "7d" if a.test else "24hr")
         source = "yt-dlp"
     used = load(STATE / "used.json", {})

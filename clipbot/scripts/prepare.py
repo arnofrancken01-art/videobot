@@ -71,7 +71,10 @@ def words_of(path):
     try:
         from faster_whisper import WhisperModel
         _whisper = _whisper or WhisperModel(cfg["whisper_model"], device="cpu", compute_type="int8")
-        segs, _ = _whisper.transcribe(str(path), word_timestamps=True, vad_filter=True, beam_size=3)
+        wav = WORK / "speech.wav"  # zelf decoderen: de av-versie op GitHub past niet bij faster-whisper
+        run("ffmpeg", "-y", "-v", "error", "-i", str(path), "-ac", "1", "-ar", "16000", str(wav))
+        audio, _ = sf.read(wav, dtype="float32")
+        segs, _ = _whisper.transcribe(audio, word_timestamps=True, vad_filter=True, beam_size=3)
         out = [{"word": w.word.strip(), "start": round(w.start, 2), "end": round(w.end, 2)} for s in segs for w in s.words if w.word.strip()]
     except Exception as e:  # noqa: BLE001  zonder ondertitels is beter dan geen video
         import traceback
