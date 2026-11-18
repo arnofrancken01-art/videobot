@@ -92,7 +92,7 @@ jobs:
           test -f models/kokoro-v1.0.onnx || npm run models
       - name: Clips downloaden, knippen, ondertitelen en stem maken
         if: steps.find.outputs.none != 'true'
-        run: python clipbot/scripts/prepare.py
+        run: python -u clipbot/scripts/prepare.py 2>&1 | tee clipbot/work/prepare.log; test ${PIPESTATUS[0]} = 0
       - name: Video renderen
         if: steps.find.outputs.none != 'true'
         run: npx remotion render clipbot/remotion/index.ts Clips out/clips.mp4 --public-dir=clipbot/public --concurrency=2 --crf=23
@@ -101,12 +101,12 @@ jobs:
         run: |
           key="${{ steps.mode.outputs.key }}"
           git config user.name "clipbot"; git config user.email "clipbot@users.noreply.github.com"
-          cp out/clips.mp4 /tmp/$key.mp4; cp clipbot/work/meta.json /tmp/$key.json
+          cp out/clips.mp4 /tmp/$key.mp4; cp clipbot/work/meta.json /tmp/$key.json; cp clipbot/work/prepare.log /tmp/$key.log; cp clipbot/remotion/timeline.json /tmp/$key.timeline.json
           git stash -u -q || true
           git fetch origin clip-renders:refs/remotes/origin/clip-renders || true
           git checkout -q -f -B clip-renders origin/clip-renders || (git checkout -q -f --orphan clip-renders && git rm -rfq --cached . >/dev/null)
           git clean -fdq -e out -e clipbot/work -e node_modules -e models
-          mkdir -p clips && cp /tmp/$key.mp4 /tmp/$key.json clips/
+          mkdir -p clips && cp /tmp/$key.mp4 /tmp/$key.json /tmp/$key.log /tmp/$key.timeline.json clips/
           git add clips && git commit -qm "Clipvideo $key" && git push -q origin clip-renders
           git checkout -q -f ${{ github.ref_name }}
       - name: Naar Telegram

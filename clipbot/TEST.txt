@@ -2,3 +2,4 @@ Testrun van de clipbot. Pas dit bestand aan en push: de bot maakt dan een TEST-v
 game=
 channels=kaicenat,xqc,jynxzi,caseoh_,summit1g
 # run 2
+# run 3

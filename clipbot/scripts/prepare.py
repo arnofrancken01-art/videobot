@@ -74,7 +74,9 @@ def words_of(path):
         segs, _ = _whisper.transcribe(str(path), word_timestamps=True, vad_filter=True, beam_size=3)
         out = [{"word": w.word.strip(), "start": round(w.start, 2), "end": round(w.end, 2)} for s in segs for w in s.words if w.word.strip()]
     except Exception as e:  # noqa: BLE001  zonder ondertitels is beter dan geen video
-        print("Whisper mislukt:", e)
+        import traceback
+        traceback.print_exc()
+        print("Whisper mislukt:", repr(e), flush=True)
         return []
     bad = re.compile(r"(" + "|".join(map(re.escape, cfg["censor_words"])) + r")", re.I)
     for w in out:  # scheldwoorden in beeld maskeren (beter voor advertenties)
