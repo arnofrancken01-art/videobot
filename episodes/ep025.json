@@ -1,0 +1,25 @@
+{
+ "id": "ep025",
+ "title": "India 🇮🇳 vs China 🇨🇳: who wins? (Part 2)",
+ "topic": "India vs China",
+ "headline": "Part 2: India or *China*?",
+ "description": "India against China, part 2: army, military budget, land and age. Four new rounds of real World Bank data. India or China? Comment your flag.",
+ "tags": ["india vs china", "china vs india", "india vs china part 2", "india vs china army", "india vs china military", "india army", "china military budget", "india vs china comparison", "country comparison"],
+ "source": "World Bank: armed forces personnel (2020), military spending (2025), land area (2024), population aged 65 and over (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "china", "indiavschina", "countrycomparison"],
+ "format": "battle",
+ "music": 4,
+ "cover": {"flags": ["in", "cn"], "vs": true},
+ "localizations": {
+  "hi": {"title": "भारत 🇮🇳 vs चीन 🇨🇳: कौन जीतेगा? (भाग 2)", "description": "भारत या चीन, भाग 2: सेना, रक्षा बजट, ज़मीन और उम्र। असली आंकड़े, चार नए राउंड। अपना झंडा कमेंट करें।"}
+ },
+ "segments": [
+  {"scene": "battle", "text": "India versus China. Part two. Round five starts now.", "props": {"a": {"label": "India", "flag": "in"}, "b": {"label": "China", "flag": "cn"}}},
+  {"scene": "battle", "text": "Soldiers. India has the bigger army.", "props": {"stat": {"label": "Armed forces", "a": 3.07, "b": 2.54, "format": {"suffix": "M", "decimals": 2}}, "at": "India"}},
+  {"scene": "battle", "text": "Military budget. China spends over three times more.", "props": {"stat": {"label": "Military spending", "a": 92, "b": 336, "format": {"prefix": "$", "suffix": "B"}}, "at": "China"}},
+  {"scene": "battle", "text": "Land. China is three times bigger.", "props": {"stat": {"label": "Land area", "a": 2.97, "b": 9.39, "format": {"suffix": "M km²", "decimals": 2}}, "at": "China"}},
+  {"scene": "battle", "text": "Age. China has twice as many over sixty-five. India stays young.", "props": {"stat": {"label": "People aged 65+", "a": 7.4, "b": 14.9, "format": {"suffix": "%", "decimals": 1}, "pick": "lower"}, "at": "India"}},
+  {"scene": "outro", "text": "Two all again. India or China?", "props": {}}
+ ]
+}
