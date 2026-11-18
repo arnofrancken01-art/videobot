@@ -1,35 +1,89 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-17T16:14:13Z",
+ "fetched_at": "2026-11-18T14:42:19Z",
  "videos": [
+  {
+   "video_id": "5xG8NxJ7ZDg",
+   "title": "India 🇮🇳 vs China 🇨🇳: who wins? (Part 2) #shorts",
+   "views": 8,
+   "question_posted": false,
+   "question": "Two all again. India or China?",
+   "comments": []
+  },
   {
    "video_id": "-ce56-CZ8_A",
    "title": "Pakistan 🇵🇰 has more people than these 4 countries combined #shorts",
-   "views": 25,
-   "question_posted": false,
+   "views": 950,
+   "question_posted": true,
    "question": "Who should Pakistan face next?",
-   "comments": []
+   "comments": [
+    {
+     "id": "UgzzcYe3kZyYlDF0Wcp4AaABAg",
+     "author": "@Hockey-g4i",
+     "text": "India or china 😅",
+     "answered": false,
+     "replies": []
+    },
+    {
+     "id": "UgyTYOBj21rpQqY5v0h4AaABAg",
+     "author": "@JaymadiLlc",
+     "text": "Inadia",
+     "answered": false,
+     "replies": []
+    },
+    {
+     "id": "Ugwx-kgqJgmG3QwdbBx4AaABAg",
+     "author": "@LinChing-t7q",
+     "text": "Russia",
+     "answered": false,
+     "replies": []
+    },
+    {
+     "id": "UgztF4SszdCG4gUkpjR4AaABAg",
+     "author": "@SadafAli-mo4be",
+     "text": "Africa countrys",
+     "answered": false,
+     "replies": []
+    }
+   ]
   },
   {
    "video_id": "_9pt7uRoOlE",
    "title": "India 🇮🇳 vs Pakistan 🇵🇰: who wins? (Part 2) #shorts",
-   "views": 686,
+   "views": 1110,
    "question_posted": true,
    "question": "India or Pakistan?",
    "comments": [
     {
+     "id": "UgxI9WesS5XUMF_3Z314AaABAg",
+     "author": "@charusheelagalinde5634",
+     "text": "🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳",
+     "answered": false,
+     "replies": []
+    },
+    {
      "id": "Ugx9OhfXGuFfsW-4kh54AaABAg",
      "author": "@RohidasNingombam",
      "text": "India is better",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "India took this one 2 to 1: more phones and growth over twice as fast 🇮🇳 Which round surprised you most?"
+      }
+     ]
     },
     {
      "id": "UgxXqFBnKqZQioTJkbh4AaABAg",
      "author": "@hifzaaazhar-b3h",
      "text": "Pakistan never dies",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Pakistan won the last round: about $159 per person sent home from abroad vs $103 for India 🇵🇰 Where are you watching from?"
+      }
+     ]
     },
     {
      "id": "UgzCMnAKUM9IaAuF-Ux4AaABAg",
@@ -43,7 +97,7 @@
   {
    "video_id": "-9bvU-hYP7M",
    "title": "India vs the World: 8 countries, 32 rounds, real data",
-   "views": 0,
+   "views": 3,
    "question_posted": true,
    "question": "Which country should India face next?",
    "comments": []
@@ -51,7 +105,7 @@
   {
    "video_id": "S6rCA2SGbIU",
    "title": "India vs China: who wins? 4 rounds, real data #shorts",
-   "views": 952,
+   "views": 959,
    "question_posted": true,
    "question": "Two all. Who wins round five?",
    "comments": [
@@ -72,7 +126,7 @@
   {
    "video_id": "YePdcnMitPs",
    "title": "This money lost 99% in 10 years. Top 3 G20 currency crashes #shorts",
-   "views": 14,
+   "views": 46,
    "question_posted": true,
    "question": "How much has your money lost?",
    "comments": []
@@ -80,7 +134,7 @@
   {
    "video_id": "VFAb_5k328U",
    "title": "India has more people than these 5 countries combined #shorts",
-   "views": 961,
+   "views": 1024,
    "question_posted": true,
    "question": "Which country did you think was bigger?",
    "comments": [
@@ -101,7 +155,7 @@
   {
    "video_id": "XPVDvUT8i6A",
    "title": "India vs Pakistan: who is richer? 3 rounds, real data #shorts",
-   "views": 919,
+   "views": 990,
    "question_posted": true,
    "question": "So who really wins, India or Pakistan?",
    "comments": [
