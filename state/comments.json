@@ -1,27 +1,40 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-18T16:14:28Z",
+ "fetched_at": "2026-11-19T14:42:19Z",
  "videos": [
+  {
+   "video_id": "cH0S7sD09O0",
+   "title": "India 🇮🇳 vs UK 🇬🇧: who wins? 3 rounds, real data #shorts",
+   "views": 1,
+   "question_posted": false,
+   "question": "India or the UK?",
+   "comments": []
+  },
   {
    "video_id": "qN7fRm4ALU0",
    "title": "Bangladesh 🇧🇩 vs Pakistan 🇵🇰 vs India 🇮🇳: who got richer? #shorts",
-   "views": 31,
-   "question_posted": false,
+   "views": 264,
+   "question_posted": true,
    "question": "Bangladesh, India or Pakistan?",
    "comments": [
     {
      "id": "UgwHysXlAmv7FB0ae7x4AaABAg",
      "author": "@SaifulIslamChowdhury-t8d",
      "text": "Team bangladesh jodi tumi bangladeshi ati porte parba",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Team Bangladesh! From poorest of the three in 1990 to passing India in 2019 🇧🇩 Where in Bangladesh are you watching from?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "5xG8NxJ7ZDg",
    "title": "India 🇮🇳 vs China 🇨🇳: who wins? (Part 2) #shorts",
-   "views": 19,
+   "views": 400,
    "question_posted": true,
    "question": "Two all again. India or China?",
    "comments": []
@@ -29,7 +42,7 @@
   {
    "video_id": "-ce56-CZ8_A",
    "title": "Pakistan 🇵🇰 has more people than these 4 countries combined #shorts",
-   "views": 959,
+   "views": 1008,
    "question_posted": true,
    "question": "Who should Pakistan face next?",
    "comments": [
@@ -86,7 +99,7 @@
   {
    "video_id": "_9pt7uRoOlE",
    "title": "India 🇮🇳 vs Pakistan 🇵🇰: who wins? (Part 2) #shorts",
-   "views": 1131,
+   "views": 1211,
    "question_posted": true,
    "question": "India or Pakistan?",
    "comments": [
@@ -153,7 +166,7 @@
   {
    "video_id": "S6rCA2SGbIU",
    "title": "India vs China: who wins? 4 rounds, real data #shorts",
-   "views": 959,
+   "views": 960,
    "question_posted": true,
    "question": "Two all. Who wins round five?",
    "comments": [
@@ -166,56 +179,6 @@
       {
        "author": "@Money_mapped1",
        "text": "Great pick! That one would be close: India is only slightly richer per person, but people in Bangladesh live over 2 years longer. Who do you think wins?"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "video_id": "YePdcnMitPs",
-   "title": "This money lost 99% in 10 years. Top 3 G20 currency crashes #shorts",
-   "views": 40,
-   "question_posted": true,
-   "question": "How much has your money lost?",
-   "comments": []
-  },
-  {
-   "video_id": "VFAb_5k328U",
-   "title": "India has more people than these 5 countries combined #shorts",
-   "views": 1022,
-   "question_posted": true,
-   "question": "Which country did you think was bigger?",
-   "comments": [
-    {
-     "id": "Ugx9APrk2PU6L9Dta4B4AaABAg",
-     "author": "@waseemchanna9612",
-     "text": "bro thanks ❤❤ for p",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "Thanks for watching, glad you liked it ❤️ Which country should we compare next?"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "video_id": "XPVDvUT8i6A",
-   "title": "India vs Pakistan: who is richer? 3 rounds, real data #shorts",
-   "views": 990,
-   "question_posted": true,
-   "question": "So who really wins, India or Pakistan?",
-   "comments": [
-    {
-     "id": "UgxNRwxwOT_AwvDeVj94AaABAg",
-     "author": "@kindest_coco",
-     "text": "India 🇮🇳 🇮🇳 🇮🇳 🇮🇳 🇮🇳 🇮🇳 🇮🇳",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "India took 2 of 3 rounds: richer per person and longer lives 🇮🇳 But Pakistan won the cities round. Where are you watching from?"
       }
      ]
     }
