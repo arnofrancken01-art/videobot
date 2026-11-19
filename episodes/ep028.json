@@ -1,0 +1,25 @@
+{
+ "id": "ep028",
+ "title": "Brazil 🇧🇷 vs Argentina 🇦🇷: who wins? 4 rounds, real data",
+ "topic": "Brazil vs Argentina",
+ "headline": "Brazil or *Argentina*?",
+ "description": "Brazil against Argentina in four rounds: economy, income per person, military budget and life expectancy. Real World Bank data. Brazil or Argentina? Comment your flag.",
+ "tags": ["brazil vs argentina", "argentina vs brazil", "brazil vs argentina comparison", "brazil economy", "argentina economy", "richest country south america", "brazil vs argentina military", "country comparison"],
+ "source": "World Bank: GDP (2025), GDP per person (2025), military spending (2025), life expectancy (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["brazil", "argentina", "brazilvsargentina", "countrycomparison"],
+ "format": "battle",
+ "music": 4,
+ "cover": {"flags": ["br", "ar"], "vs": true},
+ "localizations": {
+  "pt": {"title": "Brasil 🇧🇷 vs Argentina 🇦🇷: quem vence? 4 rodadas", "description": "Brasil ou Argentina? Dados reais do Banco Mundial, quatro rodadas. Comente sua bandeira."},
+  "es": {"title": "Brasil 🇧🇷 vs Argentina 🇦🇷: ¿quién gana? 4 rondas", "description": "¿Brasil o Argentina? Datos reales del Banco Mundial, cuatro rondas. Comenta tu bandera."}
+ },
+ "segments": [
+  {"scene": "battle", "text": "Brazil versus Argentina. Four rounds. Size of the economy? Brazil wins.", "props": {"a": {"label": "Brazil", "flag": "br"}, "b": {"label": "Argentina", "flag": "ar"}, "stat": {"label": "Economy", "a": 2.28, "b": 0.68, "format": {"prefix": "$", "suffix": "T", "decimals": 2}}, "at": "Brazil"}},
+  {"scene": "battle", "text": "Income per person. Argentina wins. By four thousand dollars.", "props": {"stat": {"label": "GDP per person", "a": 10713, "b": 14898, "format": {"prefix": "$"}}, "at": "Argentina"}},
+  {"scene": "battle", "text": "Military budget. Brazil spends six times more.", "props": {"stat": {"label": "Military spending", "a": 24.0, "b": 3.9, "format": {"prefix": "$", "suffix": "B", "decimals": 1}}, "at": "Brazil"}},
+  {"scene": "battle", "text": "Life expectancy. Argentina lives longer. By one and a half years.", "props": {"stat": {"label": "Life expectancy", "a": 76.0, "b": 77.5, "format": {"suffix": " yrs", "decimals": 1}}, "at": "Argentina"}},
+  {"scene": "outro", "text": "Two all. Brazil or Argentina?", "props": {}}
+ ]
+}
