@@ -1,0 +1,26 @@
+{
+ "id": "ep027",
+ "title": "India 🇮🇳 vs UK 🇬🇧: who wins? 3 rounds, real data",
+ "topic": "India vs UK",
+ "headline": "India or the *UK*?",
+ "description": "India or the United Kingdom: gold and reserves, army budget and the size of the economy. Three rounds of real World Bank data. Which side are you on?",
+ "tags": ["india vs uk", "uk vs india", "india vs united kingdom", "india vs britain", "india economy", "uk economy", "india gdp 2025", "country comparison", "geography quiz", "india vs uk economy"],
+ "source": "World Bank: total reserves incl. gold, military expenditure and GDP in current US dollars (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "uk", "indiavsuk", "countrycomparison"],
+ "format": "quiz",
+ "music": 4,
+ "cover": {"flags": ["in", "gb"], "vs": true},
+ "localizations": {
+  "hi": {"title": "भारत 🇮🇳 vs ब्रिटेन 🇬🇧: कौन जीतेगा? 3 राउंड", "description": "भारत या ब्रिटेन: विदेशी भंडार, सेना का बजट और अर्थव्यवस्था। असली आंकड़े, तीन राउंड। अपना झंडा कमेंट करें।"}
+ },
+ "segments": [
+  {"scene": "quiz", "text": "India or the UK. Three rounds. Who has more money in reserve?", "props": {"question": "Reserves, with gold?", "format": {"prefix": "$", "suffix": "B"}, "options": [{"label": "India", "flag": "in", "value": 700}, {"label": "UK", "flag": "gb", "value": 214}], "pause": 1.6}},
+  {"scene": "quiz", "text": "India. More than three times as much.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Round two. Who spends more on its army? India or the UK?", "props": {"question": "Who spends more on the army?", "format": {"prefix": "$", "suffix": "B", "decimals": 1}, "options": [{"label": "India", "flag": "in", "value": 92.1}, {"label": "UK", "flag": "gb", "value": 89.0}], "pause": 1.6}},
+  {"scene": "quiz", "text": "India. By about three billion dollars.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Final round. Whose economy is bigger? India or the UK?", "props": {"question": "Whose economy is bigger?", "format": {"prefix": "$", "suffix": "T", "decimals": 2}, "options": [{"label": "India", "flag": "in", "value": 3.96}, {"label": "UK", "flag": "gb", "value": 4.0}], "pause": 1.8}},
+  {"scene": "quiz", "text": "The UK. By just forty-six billion dollars. For now.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "India or the UK? Comment your flag.", "props": {}}
+ ]
+}
