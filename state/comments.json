@@ -1,19 +1,19 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-19T14:42:19Z",
+ "fetched_at": "2026-11-19T16:14:32Z",
  "videos": [
   {
    "video_id": "cH0S7sD09O0",
    "title": "India 🇮🇳 vs UK 🇬🇧: who wins? 3 rounds, real data #shorts",
-   "views": 1,
-   "question_posted": false,
+   "views": 130,
+   "question_posted": true,
    "question": "India or the UK?",
    "comments": []
   },
   {
    "video_id": "qN7fRm4ALU0",
    "title": "Bangladesh 🇧🇩 vs Pakistan 🇵🇰 vs India 🇮🇳: who got richer? #shorts",
-   "views": 264,
+   "views": 311,
    "question_posted": true,
    "question": "Bangladesh, India or Pakistan?",
    "comments": [
@@ -34,7 +34,7 @@
   {
    "video_id": "5xG8NxJ7ZDg",
    "title": "India 🇮🇳 vs China 🇨🇳: who wins? (Part 2) #shorts",
-   "views": 400,
+   "views": 461,
    "question_posted": true,
    "question": "Two all again. India or China?",
    "comments": []
@@ -99,7 +99,7 @@
   {
    "video_id": "_9pt7uRoOlE",
    "title": "India 🇮🇳 vs Pakistan 🇵🇰: who wins? (Part 2) #shorts",
-   "views": 1211,
+   "views": 1217,
    "question_posted": true,
    "question": "India or Pakistan?",
    "comments": [
@@ -162,27 +162,6 @@
    "question_posted": true,
    "question": "Which country should India face next?",
    "comments": []
-  },
-  {
-   "video_id": "S6rCA2SGbIU",
-   "title": "India vs China: who wins? 4 rounds, real data #shorts",
-   "views": 960,
-   "question_posted": true,
-   "question": "Two all. Who wins round five?",
-   "comments": [
-    {
-     "id": "UgxMvEYQgZDYGERmDRx4AaABAg",
-     "author": "@s.c8410",
-     "text": "Compare with Bangladesh instead",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "Great pick! That one would be close: India is only slightly richer per person, but people in Bangladesh live over 2 years longer. Who do you think wins?"
-      }
-     ]
-    }
-   ]
   }
  ]
 }
