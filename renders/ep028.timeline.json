@@ -1,0 +1,362 @@
+{
+ "id": "ep028",
+ "title": "Brazil \ud83c\udde7\ud83c\uddf7 vs Argentina \ud83c\udde6\ud83c\uddf7: who wins? 4 rounds, real data",
+ "topic": "Brazil vs Argentina",
+ "headline": "Brazil or *Argentina*?",
+ "description": "Brazil against Argentina in four rounds: economy, income per person, military budget and life expectancy. Real World Bank data. Brazil or Argentina? Comment your flag.",
+ "tags": [
+  "brazil vs argentina",
+  "argentina vs brazil",
+  "brazil vs argentina comparison",
+  "brazil economy",
+  "argentina economy",
+  "richest country south america",
+  "brazil vs argentina military",
+  "country comparison"
+ ],
+ "source": "World Bank: GDP (2025), GDP per person (2025), military spending (2025), life expectancy (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "brazil",
+  "argentina",
+  "brazilvsargentina",
+  "countrycomparison"
+ ],
+ "format": "battle",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "br",
+   "ar"
+  ],
+  "vs": true
+ },
+ "localizations": {
+  "pt": {
+   "title": "Brasil \ud83c\udde7\ud83c\uddf7 vs Argentina \ud83c\udde6\ud83c\uddf7: quem vence? 4 rodadas",
+   "description": "Brasil ou Argentina? Dados reais do Banco Mundial, quatro rodadas. Comente sua bandeira."
+  },
+  "es": {
+   "title": "Brasil \ud83c\udde7\ud83c\uddf7 vs Argentina \ud83c\udde6\ud83c\uddf7: \u00bfqui\u00e9n gana? 4 rondas",
+   "description": "\u00bfBrasil o Argentina? Datos reales del Banco Mundial, cuatro rondas. Comenta tu bandera."
+  }
+ },
+ "segments": [
+  {
+   "scene": "battle",
+   "text": "Brazil versus Argentina. Four rounds. Size of the economy? Brazil wins.",
+   "props": {
+    "a": {
+     "label": "Brazil",
+     "flag": "br"
+    },
+    "b": {
+     "label": "Argentina",
+     "flag": "ar"
+    },
+    "stat": {
+     "label": "Economy",
+     "a": 2.28,
+     "b": 0.68,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "Brazil"
+   },
+   "start": 0.05,
+   "end": 5.45,
+   "words": [
+    {
+     "word": "Brazil",
+     "start": 0.275,
+     "end": 0.675
+    },
+    {
+     "word": "versus",
+     "start": 0.675,
+     "end": 1.075
+    },
+    {
+     "word": "Argentina.",
+     "start": 1.075,
+     "end": 1.85
+    },
+    {
+     "word": "Four",
+     "start": 1.988,
+     "end": 2.275
+    },
+    {
+     "word": "rounds.",
+     "start": 2.275,
+     "end": 2.775
+    },
+    {
+     "word": "Size",
+     "start": 2.862,
+     "end": 3.188
+    },
+    {
+     "word": "of",
+     "start": 3.188,
+     "end": 3.262
+    },
+    {
+     "word": "the",
+     "start": 3.262,
+     "end": 3.375
+    },
+    {
+     "word": "economy?",
+     "start": 3.375,
+     "end": 4.075
+    },
+    {
+     "word": "Brazil",
+     "start": 4.175,
+     "end": 4.575
+    },
+    {
+     "word": "wins.",
+     "start": 4.575,
+     "end": 5.2
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Income per person. Argentina wins. By four thousand dollars.",
+   "props": {
+    "stat": {
+     "label": "GDP per person",
+     "a": 10713,
+     "b": 14898,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Argentina"
+   },
+   "start": 5.51,
+   "end": 9.86,
+   "words": [
+    {
+     "word": "Income",
+     "start": 5.76,
+     "end": 6.135
+    },
+    {
+     "word": "per",
+     "start": 6.135,
+     "end": 6.31
+    },
+    {
+     "word": "person.",
+     "start": 6.31,
+     "end": 6.86
+    },
+    {
+     "word": "Argentina",
+     "start": 6.96,
+     "end": 7.585
+    },
+    {
+     "word": "wins.",
+     "start": 7.585,
+     "end": 8.06
+    },
+    {
+     "word": "By",
+     "start": 8.16,
+     "end": 8.36
+    },
+    {
+     "word": "four",
+     "start": 8.36,
+     "end": 8.61
+    },
+    {
+     "word": "thousand",
+     "start": 8.61,
+     "end": 8.985
+    },
+    {
+     "word": "dollars.",
+     "start": 8.985,
+     "end": 9.635
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Military budget. Brazil spends six times more.",
+   "props": {
+    "stat": {
+     "label": "Military spending",
+     "a": 24.0,
+     "b": 3.9,
+     "format": {
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1
+     }
+    },
+    "at": "Brazil"
+   },
+   "start": 9.92,
+   "end": 13.145,
+   "words": [
+    {
+     "word": "Military",
+     "start": 10.17,
+     "end": 10.645
+    },
+    {
+     "word": "budget.",
+     "start": 10.645,
+     "end": 11.12
+    },
+    {
+     "word": "Brazil",
+     "start": 11.195,
+     "end": 11.595
+    },
+    {
+     "word": "spends",
+     "start": 11.595,
+     "end": 11.87
+    },
+    {
+     "word": "six",
+     "start": 11.87,
+     "end": 12.095
+    },
+    {
+     "word": "times",
+     "start": 12.095,
+     "end": 12.42
+    },
+    {
+     "word": "more.",
+     "start": 12.42,
+     "end": 12.895
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Life expectancy. Argentina lives longer. By one and a half years.",
+   "props": {
+    "stat": {
+     "label": "Life expectancy",
+     "a": 76.0,
+     "b": 77.5,
+     "format": {
+      "suffix": " yrs",
+      "decimals": 1
+     }
+    },
+    "at": "Argentina"
+   },
+   "start": 13.205,
+   "end": 17.73,
+   "words": [
+    {
+     "word": "Life",
+     "start": 13.48,
+     "end": 13.742
+    },
+    {
+     "word": "expectancy.",
+     "start": 13.742,
+     "end": 14.605
+    },
+    {
+     "word": "Argentina",
+     "start": 14.73,
+     "end": 15.355
+    },
+    {
+     "word": "lives",
+     "start": 15.355,
+     "end": 15.63
+    },
+    {
+     "word": "longer.",
+     "start": 15.63,
+     "end": 16.155
+    },
+    {
+     "word": "By",
+     "start": 16.23,
+     "end": 16.405
+    },
+    {
+     "word": "one",
+     "start": 16.405,
+     "end": 16.542
+    },
+    {
+     "word": "and",
+     "start": 16.542,
+     "end": 16.642
+    },
+    {
+     "word": "a",
+     "start": 16.642,
+     "end": 16.705
+    },
+    {
+     "word": "half",
+     "start": 16.705,
+     "end": 16.942
+    },
+    {
+     "word": "years.",
+     "start": 16.942,
+     "end": 17.505
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Two all. Brazil or Argentina?",
+   "props": {},
+   "start": 17.79,
+   "end": 20.14,
+   "words": [
+    {
+     "word": "Two",
+     "start": 18.015,
+     "end": 18.19
+    },
+    {
+     "word": "all.",
+     "start": 18.19,
+     "end": 18.465
+    },
+    {
+     "word": "Brazil",
+     "start": 18.54,
+     "end": 18.965
+    },
+    {
+     "word": "or",
+     "start": 18.965,
+     "end": 19.078
+    },
+    {
+     "word": "Argentina?",
+     "start": 19.078,
+     "end": 19.89
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 625,
+ "fps": 30,
+ "aligned": "tts"
+}
