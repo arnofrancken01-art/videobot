@@ -1,0 +1,490 @@
+{
+ "id": "ep027",
+ "title": "India \ud83c\uddee\ud83c\uddf3 vs UK \ud83c\uddec\ud83c\udde7: who wins? 3 rounds, real data",
+ "topic": "India vs UK",
+ "headline": "India or the *UK*?",
+ "description": "India or the United Kingdom: gold and reserves, army budget and the size of the economy. Three rounds of real World Bank data. Which side are you on?",
+ "tags": [
+  "india vs uk",
+  "uk vs india",
+  "india vs united kingdom",
+  "india vs britain",
+  "india economy",
+  "uk economy",
+  "india gdp 2025",
+  "country comparison",
+  "geography quiz",
+  "india vs uk economy"
+ ],
+ "source": "World Bank: total reserves incl. gold, military expenditure and GDP in current US dollars (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "uk",
+  "indiavsuk",
+  "countrycomparison"
+ ],
+ "format": "quiz",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "in",
+   "gb"
+  ],
+  "vs": true
+ },
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 vs \u092c\u094d\u0930\u093f\u091f\u0947\u0928 \ud83c\uddec\ud83c\udde7: \u0915\u094c\u0928 \u091c\u0940\u0924\u0947\u0917\u093e? 3 \u0930\u093e\u0909\u0902\u0921",
+   "description": "\u092d\u093e\u0930\u0924 \u092f\u093e \u092c\u094d\u0930\u093f\u091f\u0947\u0928: \u0935\u093f\u0926\u0947\u0936\u0940 \u092d\u0902\u0921\u093e\u0930, \u0938\u0947\u0928\u093e \u0915\u093e \u092c\u091c\u091f \u0914\u0930 \u0905\u0930\u094d\u0925\u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e\u0964 \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947, \u0924\u0940\u0928 \u0930\u093e\u0909\u0902\u0921\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  }
+ },
+ "segments": [
+  {
+   "scene": "quiz",
+   "text": "India or the UK. Three rounds. Who has more money in reserve?",
+   "props": {
+    "question": "Reserves, with gold?",
+    "format": {
+     "prefix": "$",
+     "suffix": "B"
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 700
+     },
+     {
+      "label": "UK",
+      "flag": "gb",
+      "value": 214
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 0.05,
+   "end": 4.175,
+   "words": [
+    {
+     "word": "India",
+     "start": 0.3,
+     "end": 0.725
+    },
+    {
+     "word": "or",
+     "start": 0.725,
+     "end": 0.838
+    },
+    {
+     "word": "the",
+     "start": 0.838,
+     "end": 0.925
+    },
+    {
+     "word": "UK.",
+     "start": 0.925,
+     "end": 1.5
+    },
+    {
+     "word": "Three",
+     "start": 1.613,
+     "end": 1.875
+    },
+    {
+     "word": "rounds.",
+     "start": 1.875,
+     "end": 2.4
+    },
+    {
+     "word": "Who",
+     "start": 2.475,
+     "end": 2.6
+    },
+    {
+     "word": "has",
+     "start": 2.6,
+     "end": 2.8
+    },
+    {
+     "word": "more",
+     "start": 2.8,
+     "end": 2.975
+    },
+    {
+     "word": "money",
+     "start": 2.975,
+     "end": 3.188
+    },
+    {
+     "word": "in",
+     "start": 3.188,
+     "end": 3.262
+    },
+    {
+     "word": "reserve?",
+     "start": 3.262,
+     "end": 3.925
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "India. More than three times as much.",
+   "props": {
+    "reveal": true
+   },
+   "start": 5.835,
+   "end": 8.36,
+   "words": [
+    {
+     "word": "India.",
+     "start": 6.085,
+     "end": 6.51
+    },
+    {
+     "word": "More",
+     "start": 6.585,
+     "end": 6.747
+    },
+    {
+     "word": "than",
+     "start": 6.747,
+     "end": 6.885
+    },
+    {
+     "word": "three",
+     "start": 6.885,
+     "end": 7.11
+    },
+    {
+     "word": "times",
+     "start": 7.11,
+     "end": 7.447
+    },
+    {
+     "word": "as",
+     "start": 7.447,
+     "end": 7.585
+    },
+    {
+     "word": "much.",
+     "start": 7.585,
+     "end": 8.11
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Who spends more on its army? India or the UK?",
+   "props": {
+    "question": "Who spends more on the army?",
+    "format": {
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 92.1
+     },
+     {
+      "label": "UK",
+      "flag": "gb",
+      "value": 89.0
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 8.42,
+   "end": 12.345,
+   "words": [
+    {
+     "word": "Round",
+     "start": 8.67,
+     "end": 8.932
+    },
+    {
+     "word": "two.",
+     "start": 8.932,
+     "end": 9.27
+    },
+    {
+     "word": "Who",
+     "start": 9.37,
+     "end": 9.495
+    },
+    {
+     "word": "spends",
+     "start": 9.495,
+     "end": 9.77
+    },
+    {
+     "word": "more",
+     "start": 9.77,
+     "end": 9.932
+    },
+    {
+     "word": "on",
+     "start": 9.932,
+     "end": 10.033
+    },
+    {
+     "word": "its",
+     "start": 10.033,
+     "end": 10.145
+    },
+    {
+     "word": "army?",
+     "start": 10.145,
+     "end": 10.67
+    },
+    {
+     "word": "India",
+     "start": 10.795,
+     "end": 11.232
+    },
+    {
+     "word": "or",
+     "start": 11.232,
+     "end": 11.357
+    },
+    {
+     "word": "the",
+     "start": 11.357,
+     "end": 11.445
+    },
+    {
+     "word": "UK?",
+     "start": 11.445,
+     "end": 12.095
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "India. By about three billion dollars.",
+   "props": {
+    "reveal": true
+   },
+   "start": 14.005,
+   "end": 16.68,
+   "words": [
+    {
+     "word": "India.",
+     "start": 14.255,
+     "end": 14.68
+    },
+    {
+     "word": "By",
+     "start": 14.755,
+     "end": 14.892
+    },
+    {
+     "word": "about",
+     "start": 14.892,
+     "end": 15.167
+    },
+    {
+     "word": "three",
+     "start": 15.167,
+     "end": 15.43
+    },
+    {
+     "word": "billion",
+     "start": 15.43,
+     "end": 15.78
+    },
+    {
+     "word": "dollars.",
+     "start": 15.78,
+     "end": 16.455
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Final round. Whose economy is bigger? India or the UK?",
+   "props": {
+    "question": "Whose economy is bigger?",
+    "format": {
+     "prefix": "$",
+     "suffix": "T",
+     "decimals": 2
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 3.96
+     },
+     {
+      "label": "UK",
+      "flag": "gb",
+      "value": 4.0
+     }
+    ],
+    "pause": 1.8
+   },
+   "start": 16.74,
+   "end": 20.815,
+   "words": [
+    {
+     "word": "Final",
+     "start": 16.99,
+     "end": 17.315
+    },
+    {
+     "word": "round.",
+     "start": 17.315,
+     "end": 17.815
+    },
+    {
+     "word": "Whose",
+     "start": 17.89,
+     "end": 18.065
+    },
+    {
+     "word": "economy",
+     "start": 18.065,
+     "end": 18.59
+    },
+    {
+     "word": "is",
+     "start": 18.59,
+     "end": 18.74
+    },
+    {
+     "word": "bigger?",
+     "start": 18.74,
+     "end": 19.14
+    },
+    {
+     "word": "India",
+     "start": 19.24,
+     "end": 19.715
+    },
+    {
+     "word": "or",
+     "start": 19.715,
+     "end": 19.827
+    },
+    {
+     "word": "the",
+     "start": 19.827,
+     "end": 19.915
+    },
+    {
+     "word": "UK?",
+     "start": 19.915,
+     "end": 20.565
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "The UK. By just forty-six billion dollars. For now.",
+   "props": {
+    "reveal": true
+   },
+   "start": 22.675,
+   "end": 26.225,
+   "words": [
+    {
+     "word": "The",
+     "start": 22.9,
+     "end": 22.975
+    },
+    {
+     "word": "UK.",
+     "start": 22.975,
+     "end": 23.475
+    },
+    {
+     "word": "By",
+     "start": 23.55,
+     "end": 23.7
+    },
+    {
+     "word": "just",
+     "start": 23.7,
+     "end": 23.875
+    },
+    {
+     "word": "forty-six",
+     "start": 23.875,
+     "end": 24.4
+    },
+    {
+     "word": "billion",
+     "start": 24.4,
+     "end": 24.725
+    },
+    {
+     "word": "dollars.",
+     "start": 24.725,
+     "end": 25.25
+    },
+    {
+     "word": "For",
+     "start": 25.325,
+     "end": 25.462
+    },
+    {
+     "word": "now.",
+     "start": 25.462,
+     "end": 25.975
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "India or the UK? Comment your flag.",
+   "props": {},
+   "start": 26.285,
+   "end": 29.035,
+   "words": [
+    {
+     "word": "India",
+     "start": 26.535,
+     "end": 26.96
+    },
+    {
+     "word": "or",
+     "start": 26.96,
+     "end": 27.072
+    },
+    {
+     "word": "the",
+     "start": 27.072,
+     "end": 27.16
+    },
+    {
+     "word": "UK?",
+     "start": 27.16,
+     "end": 27.66
+    },
+    {
+     "word": "Comment",
+     "start": 27.785,
+     "end": 28.097
+    },
+    {
+     "word": "your",
+     "start": 28.097,
+     "end": 28.21
+    },
+    {
+     "word": "flag.",
+     "start": 28.21,
+     "end": 28.785
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 891,
+ "fps": 30,
+ "aligned": "tts"
+}
