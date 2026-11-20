@@ -1,0 +1,26 @@
+{
+ "id": "ep029",
+ "title": "India 🇮🇳 vs USA 🇺🇸: true or false? 3 rounds, real data",
+ "topic": "India vs USA",
+ "headline": "India or *America*?",
+ "description": "India or America: size of the economy, growth and the army. Three true-or-false rounds with real World Bank data. How many did you get right?",
+ "tags": ["india vs usa", "usa vs india", "india vs america", "india economy", "india gdp 2025", "india army", "india vs usa army", "country comparison", "true or false quiz", "geography quiz"],
+ "source": "World Bank: GDP and GDP growth in current US dollars (2025), armed forces personnel (2020), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "usa", "indiavsusa", "countrycomparison"],
+ "format": "truefalse",
+ "music": 4,
+ "cover": {"flags": ["in", "us"], "vs": true},
+ "localizations": {
+  "hi": {"title": "भारत 🇮🇳 vs अमेरिका 🇺🇸: सच या झूठ? 3 राउंड", "description": "भारत या अमेरिका: अर्थव्यवस्था, विकास और सेना। असली आंकड़े, तीन राउंड। अपना झंडा कमेंट करें।"}
+ },
+ "segments": [
+  {"scene": "truefalse", "text": "India or America. True or false? India's economy is half of America's.", "props": {"statement": "India's economy is half the size of America's", "answer": false, "fact": "India $3.96T · USA $30.77T (2025)", "flag": "in", "pause": 1.6}},
+  {"scene": "truefalse", "text": "False. America's is almost eight times bigger.", "props": {"reveal": true}},
+  {"scene": "truefalse", "text": "Round two. India's economy grows three times faster.", "props": {"statement": "India's economy grows 3x faster than America's", "answer": true, "fact": "India +7.6% · USA +2.2% (2025)", "flag": "in", "pause": 1.6}},
+  {"scene": "truefalse", "text": "True. Seven point six percent. America did two point two.", "props": {"reveal": true}},
+  {"scene": "truefalse", "text": "Final round. India has more soldiers than America.", "props": {"statement": "India has more soldiers than America", "answer": true, "fact": "India 3.07M · USA 1.40M troops (2020)", "flag": "in", "pause": 1.8}},
+  {"scene": "truefalse", "text": "True. More than twice as many.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "India or America? Comment your flag.", "props": {}}
+ ]
+}
