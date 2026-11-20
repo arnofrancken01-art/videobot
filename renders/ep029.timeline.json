@@ -1,0 +1,419 @@
+{
+ "id": "ep029",
+ "title": "India \ud83c\uddee\ud83c\uddf3 vs USA \ud83c\uddfa\ud83c\uddf8: true or false? 3 rounds, real data",
+ "topic": "India vs USA",
+ "headline": "India or *America*?",
+ "description": "India or America: size of the economy, growth and the army. Three true-or-false rounds with real World Bank data. How many did you get right?",
+ "tags": [
+  "india vs usa",
+  "usa vs india",
+  "india vs america",
+  "india economy",
+  "india gdp 2025",
+  "india army",
+  "india vs usa army",
+  "country comparison",
+  "true or false quiz",
+  "geography quiz"
+ ],
+ "source": "World Bank: GDP and GDP growth in current US dollars (2025), armed forces personnel (2020), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "usa",
+  "indiavsusa",
+  "countrycomparison"
+ ],
+ "format": "truefalse",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "in",
+   "us"
+  ],
+  "vs": true
+ },
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 vs \u0905\u092e\u0947\u0930\u093f\u0915\u093e \ud83c\uddfa\ud83c\uddf8: \u0938\u091a \u092f\u093e \u091d\u0942\u0920? 3 \u0930\u093e\u0909\u0902\u0921",
+   "description": "\u092d\u093e\u0930\u0924 \u092f\u093e \u0905\u092e\u0947\u0930\u093f\u0915\u093e: \u0905\u0930\u094d\u0925\u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e, \u0935\u093f\u0915\u093e\u0938 \u0914\u0930 \u0938\u0947\u0928\u093e\u0964 \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947, \u0924\u0940\u0928 \u0930\u093e\u0909\u0902\u0921\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  }
+ },
+ "segments": [
+  {
+   "scene": "truefalse",
+   "text": "India or America. True or false? India's economy is half of America's.",
+   "props": {
+    "statement": "India's economy is half the size of America's",
+    "answer": false,
+    "fact": "India $3.96T \u00b7 USA $30.77T (2025)",
+    "flag": "in",
+    "pause": 1.6
+   },
+   "start": 0.05,
+   "end": 5.175,
+   "words": [
+    {
+     "word": "India",
+     "start": 0.3,
+     "end": 0.763
+    },
+    {
+     "word": "or",
+     "start": 0.763,
+     "end": 0.9
+    },
+    {
+     "word": "America.",
+     "start": 0.9,
+     "end": 1.5
+    },
+    {
+     "word": "True",
+     "start": 1.613,
+     "end": 1.9
+    },
+    {
+     "word": "or",
+     "start": 1.9,
+     "end": 2.062
+    },
+    {
+     "word": "false?",
+     "start": 2.062,
+     "end": 2.65
+    },
+    {
+     "word": "India's",
+     "start": 2.775,
+     "end": 3.125
+    },
+    {
+     "word": "economy",
+     "start": 3.125,
+     "end": 3.7
+    },
+    {
+     "word": "is",
+     "start": 3.7,
+     "end": 3.85
+    },
+    {
+     "word": "half",
+     "start": 3.85,
+     "end": 4.087
+    },
+    {
+     "word": "of",
+     "start": 4.087,
+     "end": 4.162
+    },
+    {
+     "word": "America's.",
+     "start": 4.162,
+     "end": 4.95
+    }
+   ]
+  },
+  {
+   "scene": "truefalse",
+   "text": "False. America's is almost eight times bigger.",
+   "props": {
+    "reveal": true
+   },
+   "start": 6.835,
+   "end": 9.91,
+   "words": [
+    {
+     "word": "False.",
+     "start": 7.085,
+     "end": 7.51
+    },
+    {
+     "word": "America's",
+     "start": 7.585,
+     "end": 8.135
+    },
+    {
+     "word": "is",
+     "start": 8.135,
+     "end": 8.26
+    },
+    {
+     "word": "almost",
+     "start": 8.26,
+     "end": 8.61
+    },
+    {
+     "word": "eight",
+     "start": 8.61,
+     "end": 8.785
+    },
+    {
+     "word": "times",
+     "start": 8.785,
+     "end": 9.11
+    },
+    {
+     "word": "bigger.",
+     "start": 9.11,
+     "end": 9.66
+    }
+   ]
+  },
+  {
+   "scene": "truefalse",
+   "text": "Round two. India's economy grows three times faster.",
+   "props": {
+    "statement": "India's economy grows 3x faster than America's",
+    "answer": true,
+    "fact": "India +7.6% \u00b7 USA +2.2% (2025)",
+    "flag": "in",
+    "pause": 1.6
+   },
+   "start": 9.97,
+   "end": 13.595,
+   "words": [
+    {
+     "word": "Round",
+     "start": 10.195,
+     "end": 10.458
+    },
+    {
+     "word": "two.",
+     "start": 10.458,
+     "end": 10.845
+    },
+    {
+     "word": "India's",
+     "start": 10.97,
+     "end": 11.295
+    },
+    {
+     "word": "economy",
+     "start": 11.295,
+     "end": 11.795
+    },
+    {
+     "word": "grows",
+     "start": 11.795,
+     "end": 12.133
+    },
+    {
+     "word": "three",
+     "start": 12.133,
+     "end": 12.37
+    },
+    {
+     "word": "times",
+     "start": 12.37,
+     "end": 12.695
+    },
+    {
+     "word": "faster.",
+     "start": 12.695,
+     "end": 13.345
+    }
+   ]
+  },
+  {
+   "scene": "truefalse",
+   "text": "True. Seven point six percent. America did two point two.",
+   "props": {
+    "reveal": true
+   },
+   "start": 15.255,
+   "end": 19.33,
+   "words": [
+    {
+     "word": "True.",
+     "start": 15.48,
+     "end": 15.805
+    },
+    {
+     "word": "Seven",
+     "start": 15.88,
+     "end": 16.13
+    },
+    {
+     "word": "point",
+     "start": 16.13,
+     "end": 16.38
+    },
+    {
+     "word": "six",
+     "start": 16.38,
+     "end": 16.63
+    },
+    {
+     "word": "percent.",
+     "start": 16.63,
+     "end": 17.305
+    },
+    {
+     "word": "America",
+     "start": 17.418,
+     "end": 17.905
+    },
+    {
+     "word": "did",
+     "start": 17.905,
+     "end": 18.117
+    },
+    {
+     "word": "two",
+     "start": 18.117,
+     "end": 18.33
+    },
+    {
+     "word": "point",
+     "start": 18.33,
+     "end": 18.605
+    },
+    {
+     "word": "two.",
+     "start": 18.605,
+     "end": 19.08
+    }
+   ]
+  },
+  {
+   "scene": "truefalse",
+   "text": "Final round. India has more soldiers than America.",
+   "props": {
+    "statement": "India has more soldiers than America",
+    "answer": true,
+    "fact": "India 3.07M \u00b7 USA 1.40M troops (2020)",
+    "flag": "in",
+    "pause": 1.8
+   },
+   "start": 19.39,
+   "end": 22.94,
+   "words": [
+    {
+     "word": "Final",
+     "start": 19.64,
+     "end": 19.965
+    },
+    {
+     "word": "round.",
+     "start": 19.965,
+     "end": 20.515
+    },
+    {
+     "word": "India",
+     "start": 20.64,
+     "end": 21.015
+    },
+    {
+     "word": "has",
+     "start": 21.015,
+     "end": 21.215
+    },
+    {
+     "word": "more",
+     "start": 21.215,
+     "end": 21.44
+    },
+    {
+     "word": "soldiers",
+     "start": 21.44,
+     "end": 21.902
+    },
+    {
+     "word": "than",
+     "start": 21.902,
+     "end": 22.003
+    },
+    {
+     "word": "America.",
+     "start": 22.003,
+     "end": 22.69
+    }
+   ]
+  },
+  {
+   "scene": "truefalse",
+   "text": "True. More than twice as many.",
+   "props": {
+    "reveal": true
+   },
+   "start": 24.8,
+   "end": 26.975,
+   "words": [
+    {
+     "word": "True.",
+     "start": 25.05,
+     "end": 25.4
+    },
+    {
+     "word": "More",
+     "start": 25.475,
+     "end": 25.637
+    },
+    {
+     "word": "than",
+     "start": 25.637,
+     "end": 25.75
+    },
+    {
+     "word": "twice",
+     "start": 25.75,
+     "end": 26.088
+    },
+    {
+     "word": "as",
+     "start": 26.088,
+     "end": 26.225
+    },
+    {
+     "word": "many.",
+     "start": 26.225,
+     "end": 26.725
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "India or America? Comment your flag.",
+   "props": {},
+   "start": 27.035,
+   "end": 29.785,
+   "words": [
+    {
+     "word": "India",
+     "start": 27.285,
+     "end": 27.71
+    },
+    {
+     "word": "or",
+     "start": 27.71,
+     "end": 27.823
+    },
+    {
+     "word": "America?",
+     "start": 27.823,
+     "end": 28.385
+    },
+    {
+     "word": "Comment",
+     "start": 28.535,
+     "end": 28.848
+    },
+    {
+     "word": "your",
+     "start": 28.848,
+     "end": 28.96
+    },
+    {
+     "word": "flag.",
+     "start": 28.96,
+     "end": 29.535
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 914,
+ "fps": 30,
+ "aligned": "tts"
+}
