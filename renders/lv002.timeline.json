@@ -1,0 +1,3828 @@
+{
+ "id": "lv002",
+ "long": true,
+ "title": "India \ud83c\uddee\ud83c\uddf3 vs Pakistan \ud83c\uddf5\ud83c\uddf0: 20 rounds, real data. Who wins?",
+ "headline": "India or *Pakistan*?",
+ "topic": "India vs Pakistan",
+ "cover": {
+  "flags": [
+   "in",
+   "pk"
+  ],
+  "vs": true
+ },
+ "description": "India against Pakistan in 20 rounds: people, money, army, the rupee and daily life, plus a quiz where you play along. Every number is real World Bank data. India or Pakistan? Comment your flag.",
+ "tags": [
+  "india vs pakistan",
+  "india vs pakistan comparison",
+  "pakistan vs india",
+  "india vs pakistan economy",
+  "india vs pakistan army",
+  "indian rupee vs pakistani rupee",
+  "india population",
+  "pakistan population",
+  "country comparison",
+  "india vs pakistan 2025"
+ ],
+ "hashtags": [
+  "india",
+  "pakistan",
+  "indiavspakistan",
+  "countrycomparison"
+ ],
+ "source": "World Bank, World Development Indicators (latest year with data for both countries per round, 2020-2025), data.worldbank.org",
+ "voice": "af_heart",
+ "format": "battle",
+ "music": 4,
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 vs \u092a\u093e\u0915\u093f\u0938\u094d\u0924\u093e\u0928 \ud83c\uddf5\ud83c\uddf0: 20 \u0930\u093e\u0909\u0902\u0921, \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947\u0964 \u0915\u094c\u0928 \u091c\u0940\u0924\u0947\u0917\u093e?",
+   "description": "\u092d\u093e\u0930\u0924 \u092c\u0928\u093e\u092e \u092a\u093e\u0915\u093f\u0938\u094d\u0924\u093e\u0928, 20 \u0930\u093e\u0909\u0902\u0921: \u0906\u092c\u093e\u0926\u0940, \u092a\u0948\u0938\u093e, \u0938\u0947\u0928\u093e, \u0930\u0941\u092a\u092f\u093e \u0914\u0930 \u0930\u094b\u091c\u093c\u092e\u0930\u094d\u0930\u093e \u0915\u0940 \u091c\u093c\u093f\u0902\u0926\u0917\u0940\u0964 \u0905\u0938\u0932\u0940 \u0935\u0930\u094d\u0932\u094d\u0921 \u092c\u0948\u0902\u0915 \u0906\u0902\u0915\u0921\u093c\u0947\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  },
+  "ur": {
+   "title": "\u0628\u06be\u0627\u0631\u062a \ud83c\uddee\ud83c\uddf3 vs \u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \ud83c\uddf5\ud83c\uddf0: 20 \u0631\u0627\u0624\u0646\u0688\u060c \u0627\u0635\u0644 \u0688\u06cc\u0679\u0627\u06d4 \u06a9\u0648\u0646 \u062c\u06cc\u062a\u06d2 \u06af\u0627\u061f",
+   "description": "\u0628\u06be\u0627\u0631\u062a \u0628\u0645\u0642\u0627\u0628\u0644\u06c1 \u067e\u0627\u06a9\u0633\u062a\u0627\u0646\u060c 20 \u0631\u0627\u0624\u0646\u0688: \u0622\u0628\u0627\u062f\u06cc\u060c \u067e\u06cc\u0633\u06c1\u060c \u0641\u0648\u062c\u060c \u0631\u0648\u067e\u06cc\u06c1 \u0627\u0648\u0631 \u0631\u0648\u0632\u0645\u0631\u06c1 \u0632\u0646\u062f\u06af\u06cc\u06d4 \u0648\u0631\u0644\u0688 \u0628\u06cc\u0646\u06a9 \u06a9\u0627 \u0627\u0635\u0644 \u0688\u06cc\u0679\u0627\u06d4 \u0627\u067e\u0646\u0627 \u062c\u06be\u0646\u0688\u0627 \u06a9\u0645\u0646\u0679 \u06a9\u0631\u06cc\u06ba\u06d4"
+  }
+ },
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "India against Pakistan. Twenty rounds. Real numbers. Keep score.",
+   "props": {
+    "kicker": "India vs Pakistan",
+    "big": 20,
+    "format": {
+     "suffix": " rounds"
+    },
+    "sub": "Real World Bank data",
+    "flag": "in"
+   },
+   "start": 0.05,
+   "end": 4.525,
+   "words": [
+    {
+     "word": "India",
+     "start": 0.3,
+     "end": 0.625
+    },
+    {
+     "word": "against",
+     "start": 0.625,
+     "end": 0.95
+    },
+    {
+     "word": "Pakistan.",
+     "start": 0.95,
+     "end": 1.75
+    },
+    {
+     "word": "Twenty",
+     "start": 1.85,
+     "end": 2.15
+    },
+    {
+     "word": "rounds.",
+     "start": 2.15,
+     "end": 2.625
+    },
+    {
+     "word": "Real",
+     "start": 2.7,
+     "end": 2.95
+    },
+    {
+     "word": "numbers.",
+     "start": 2.95,
+     "end": 3.4
+    },
+    {
+     "word": "Keep",
+     "start": 3.45,
+     "end": 3.7
+    },
+    {
+     "word": "score.",
+     "start": 3.7,
+     "end": 4.275
+    }
+   ]
+  },
+  {
+   "scene": "hook",
+   "text": "Pakistan wins rounds you would never guess. And one chapter ends four to zero.",
+   "props": {
+    "kicker": "Pakistan's population, 2025",
+    "big": 255.0,
+    "format": {
+     "suffix": "M"
+    },
+    "sub": "India: 1,464M",
+    "flag": "pk"
+   },
+   "start": 4.585,
+   "end": 9.51,
+   "words": [
+    {
+     "word": "Pakistan",
+     "start": 4.785,
+     "end": 5.372
+    },
+    {
+     "word": "wins",
+     "start": 5.372,
+     "end": 5.685
+    },
+    {
+     "word": "rounds",
+     "start": 5.685,
+     "end": 6.085
+    },
+    {
+     "word": "you",
+     "start": 6.085,
+     "end": 6.172
+    },
+    {
+     "word": "would",
+     "start": 6.172,
+     "end": 6.31
+    },
+    {
+     "word": "never",
+     "start": 6.31,
+     "end": 6.56
+    },
+    {
+     "word": "guess.",
+     "start": 6.56,
+     "end": 7.135
+    },
+    {
+     "word": "And",
+     "start": 7.235,
+     "end": 7.385
+    },
+    {
+     "word": "one",
+     "start": 7.385,
+     "end": 7.61
+    },
+    {
+     "word": "chapter",
+     "start": 7.61,
+     "end": 8.035
+    },
+    {
+     "word": "ends",
+     "start": 8.035,
+     "end": 8.335
+    },
+    {
+     "word": "four",
+     "start": 8.335,
+     "end": 8.56
+    },
+    {
+     "word": "to",
+     "start": 8.56,
+     "end": 8.685
+    },
+    {
+     "word": "zero.",
+     "start": 8.685,
+     "end": 9.26
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "First up. People. Who has the bigger crowd?",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Pakistan",
+     "flag": "pk"
+    },
+    "chapter": "India vs Pakistan: *People*"
+   },
+   "start": 9.57,
+   "end": 12.445,
+   "words": [
+    {
+     "word": "First",
+     "start": 9.82,
+     "end": 10.082
+    },
+    {
+     "word": "up.",
+     "start": 10.082,
+     "end": 10.295
+    },
+    {
+     "word": "People.",
+     "start": 10.345,
+     "end": 10.82
+    },
+    {
+     "word": "Who",
+     "start": 10.895,
+     "end": 11.045
+    },
+    {
+     "word": "has",
+     "start": 11.045,
+     "end": 11.232
+    },
+    {
+     "word": "the",
+     "start": 11.232,
+     "end": 11.32
+    },
+    {
+     "word": "bigger",
+     "start": 11.32,
+     "end": 11.62
+    },
+    {
+     "word": "crowd?",
+     "start": 11.62,
+     "end": 12.195
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Population. India has almost six times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 1464.0,
+     "b": 255.0,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "India"
+   },
+   "start": 12.505,
+   "end": 16.03,
+   "words": [
+    {
+     "word": "Population.",
+     "start": 12.705,
+     "end": 13.58
+    },
+    {
+     "word": "India",
+     "start": 13.68,
+     "end": 14.005
+    },
+    {
+     "word": "has",
+     "start": 14.005,
+     "end": 14.18
+    },
+    {
+     "word": "almost",
+     "start": 14.18,
+     "end": 14.492
+    },
+    {
+     "word": "six",
+     "start": 14.492,
+     "end": 14.73
+    },
+    {
+     "word": "times",
+     "start": 14.73,
+     "end": 15.03
+    },
+    {
+     "word": "more",
+     "start": 15.03,
+     "end": 15.205
+    },
+    {
+     "word": "people.",
+     "start": 15.205,
+     "end": 15.805
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Population growth. Pakistan grows almost twice as fast.",
+   "props": {
+    "stat": {
+     "label": "Population growth (2025)",
+     "a": 0.89,
+     "b": 1.56,
+     "format": {
+      "suffix": "%",
+      "decimals": 2
+     }
+    },
+    "at": "Pakistan"
+   },
+   "start": 16.09,
+   "end": 19.99,
+   "words": [
+    {
+     "word": "Population",
+     "start": 16.29,
+     "end": 16.89
+    },
+    {
+     "word": "growth.",
+     "start": 16.89,
+     "end": 17.39
+    },
+    {
+     "word": "Pakistan",
+     "start": 17.49,
+     "end": 18.04
+    },
+    {
+     "word": "grows",
+     "start": 18.04,
+     "end": 18.365
+    },
+    {
+     "word": "almost",
+     "start": 18.365,
+     "end": 18.69
+    },
+    {
+     "word": "twice",
+     "start": 18.69,
+     "end": 19.015
+    },
+    {
+     "word": "as",
+     "start": 19.015,
+     "end": 19.165
+    },
+    {
+     "word": "fast.",
+     "start": 19.165,
+     "end": 19.74
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Life in cities. Pakistan wins again. Almost forty percent live in a city.",
+   "props": {
+    "stat": {
+     "label": "People in cities (2025)",
+     "a": 35.7,
+     "b": 39.5,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "Pakistan"
+   },
+   "start": 20.05,
+   "end": 25.0,
+   "words": [
+    {
+     "word": "Life",
+     "start": 20.325,
+     "end": 20.6
+    },
+    {
+     "word": "in",
+     "start": 20.6,
+     "end": 20.75
+    },
+    {
+     "word": "cities.",
+     "start": 20.75,
+     "end": 21.35
+    },
+    {
+     "word": "Pakistan",
+     "start": 21.45,
+     "end": 22.05
+    },
+    {
+     "word": "wins",
+     "start": 22.05,
+     "end": 22.262
+    },
+    {
+     "word": "again.",
+     "start": 22.262,
+     "end": 22.725
+    },
+    {
+     "word": "Almost",
+     "start": 22.825,
+     "end": 23.238
+    },
+    {
+     "word": "forty",
+     "start": 23.238,
+     "end": 23.55
+    },
+    {
+     "word": "percent",
+     "start": 23.55,
+     "end": 23.925
+    },
+    {
+     "word": "live",
+     "start": 23.925,
+     "end": 24.113
+    },
+    {
+     "word": "in",
+     "start": 24.113,
+     "end": 24.188
+    },
+    {
+     "word": "a",
+     "start": 24.188,
+     "end": 24.25
+    },
+    {
+     "word": "city.",
+     "start": 24.25,
+     "end": 24.775
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Life expectancy. People in India live four years longer.",
+   "props": {
+    "stat": {
+     "label": "Life expectancy (2024)",
+     "a": 72.2,
+     "b": 67.8,
+     "format": {
+      "suffix": " yrs",
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   },
+   "start": 25.06,
+   "end": 28.81,
+   "words": [
+    {
+     "word": "Life",
+     "start": 25.31,
+     "end": 25.573
+    },
+    {
+     "word": "expectancy.",
+     "start": 25.573,
+     "end": 26.41
+    },
+    {
+     "word": "People",
+     "start": 26.535,
+     "end": 26.848
+    },
+    {
+     "word": "in",
+     "start": 26.848,
+     "end": 26.96
+    },
+    {
+     "word": "India",
+     "start": 26.96,
+     "end": 27.31
+    },
+    {
+     "word": "live",
+     "start": 27.31,
+     "end": 27.548
+    },
+    {
+     "word": "four",
+     "start": 27.548,
+     "end": 27.748
+    },
+    {
+     "word": "years",
+     "start": 27.748,
+     "end": 27.985
+    },
+    {
+     "word": "longer.",
+     "start": 27.985,
+     "end": 28.56
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "The people chapter ends in a draw. Two all.",
+   "props": {},
+   "start": 28.87,
+   "end": 31.82,
+   "words": [
+    {
+     "word": "The",
+     "start": 29.07,
+     "end": 29.145
+    },
+    {
+     "word": "people",
+     "start": 29.145,
+     "end": 29.495
+    },
+    {
+     "word": "chapter",
+     "start": 29.495,
+     "end": 29.933
+    },
+    {
+     "word": "ends",
+     "start": 29.933,
+     "end": 30.207
+    },
+    {
+     "word": "in",
+     "start": 30.207,
+     "end": 30.283
+    },
+    {
+     "word": "a",
+     "start": 30.283,
+     "end": 30.345
+    },
+    {
+     "word": "draw.",
+     "start": 30.345,
+     "end": 30.77
+    },
+    {
+     "word": "Two",
+     "start": 30.908,
+     "end": 31.12
+    },
+    {
+     "word": "all.",
+     "start": 31.12,
+     "end": 31.57
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "No points for this one. Just watch the biggest countries on earth since 1990.",
+   "props": {
+    "title": "Most people on earth",
+    "format": {
+     "suffix": "M"
+    },
+    "years": [
+     1990,
+     1991,
+     1992,
+     1993,
+     1994,
+     1995,
+     1996,
+     1997,
+     1998,
+     1999,
+     2000,
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "focus": "Pakistan",
+    "show": 6,
+    "to": 1993,
+    "items": [
+     {
+      "label": "China",
+      "flag": "cn",
+      "values": [
+       1135,
+       1151,
+       1165,
+       1178,
+       1192,
+       1205,
+       1218,
+       1230,
+       1242,
+       1253,
+       1263,
+       1272,
+       1280,
+       1288,
+       1296,
+       1304,
+       1311,
+       1318,
+       1325,
+       1331,
+       1338,
+       1345,
+       1354,
+       1363,
+       1372,
+       1380,
+       1388,
+       1396,
+       1403,
+       1408,
+       1411,
+       1412,
+       1412,
+       1411,
+       1409,
+       1407
+      ]
+     },
+     {
+      "label": "India",
+      "flag": "in",
+      "values": [
+       865,
+       884,
+       903,
+       922,
+       941,
+       960,
+       980,
+       999,
+       1019,
+       1038,
+       1058,
+       1078,
+       1098,
+       1117,
+       1136,
+       1155,
+       1173,
+       1191,
+       1208,
+       1226,
+       1243,
+       1261,
+       1279,
+       1296,
+       1312,
+       1328,
+       1344,
+       1360,
+       1375,
+       1389,
+       1403,
+       1414,
+       1425,
+       1438,
+       1451,
+       1464
+      ]
+     },
+     {
+      "label": "USA",
+      "flag": "us",
+      "values": [
+       250,
+       253,
+       257,
+       260,
+       263,
+       266,
+       269,
+       273,
+       276,
+       279,
+       282,
+       285,
+       288,
+       290,
+       293,
+       296,
+       298,
+       301,
+       304,
+       307,
+       309,
+       312,
+       314,
+       317,
+       319,
+       322,
+       324,
+       327,
+       329,
+       330,
+       332,
+       332,
+       334,
+       337,
+       340,
+       342
+      ]
+     },
+     {
+      "label": "Indonesia",
+      "flag": "id",
+      "values": [
+       184,
+       187,
+       190,
+       193,
+       197,
+       200,
+       203,
+       207,
+       210,
+       213,
+       216,
+       219,
+       222,
+       225,
+       228,
+       231,
+       234,
+       237,
+       240,
+       243,
+       246,
+       249,
+       253,
+       256,
+       259,
+       262,
+       265,
+       267,
+       270,
+       272,
+       275,
+       277,
+       279,
+       281,
+       283,
+       286
+      ]
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "values": [
+       116,
+       120,
+       124,
+       127,
+       131,
+       135,
+       139,
+       143,
+       147,
+       151,
+       155,
+       159,
+       163,
+       167,
+       171,
+       175,
+       180,
+       184,
+       189,
+       194,
+       199,
+       204,
+       208,
+       211,
+       214,
+       217,
+       220,
+       223,
+       227,
+       231,
+       235,
+       239,
+       244,
+       248,
+       251,
+       255
+      ]
+     },
+     {
+      "label": "Brazil",
+      "flag": "br",
+      "values": [
+       149,
+       152,
+       154,
+       157,
+       159,
+       162,
+       164,
+       167,
+       169,
+       172,
+       174,
+       176,
+       179,
+       181,
+       183,
+       185,
+       187,
+       189,
+       190,
+       192,
+       194,
+       195,
+       197,
+       198,
+       200,
+       202,
+       203,
+       205,
+       206,
+       207,
+       209,
+       210,
+       210,
+       211,
+       212,
+       213
+      ]
+     },
+     {
+      "label": "Nigeria",
+      "flag": "ng",
+      "values": [
+       97,
+       100,
+       102,
+       105,
+       108,
+       111,
+       114,
+       117,
+       120,
+       123,
+       126,
+       130,
+       133,
+       137,
+       141,
+       145,
+       149,
+       153,
+       158,
+       162,
+       167,
+       171,
+       176,
+       181,
+       186,
+       191,
+       195,
+       200,
+       205,
+       209,
+       214,
+       219,
+       223,
+       228,
+       233,
+       238
+      ]
+     },
+     {
+      "label": "Russia",
+      "flag": "ru",
+      "values": [
+       148,
+       148,
+       149,
+       148,
+       148,
+       148,
+       148,
+       148,
+       148,
+       147,
+       147,
+       146,
+       145,
+       145,
+       144,
+       144,
+       143,
+       143,
+       143,
+       143,
+       143,
+       143,
+       143,
+       144,
+       144,
+       145,
+       145,
+       145,
+       145,
+       145,
+       145,
+       145,
+       144,
+       144,
+       144,
+       144
+      ]
+     },
+     {
+      "label": "Japan",
+      "flag": "jp",
+      "values": [
+       123,
+       124,
+       124,
+       125,
+       125,
+       125,
+       126,
+       126,
+       126,
+       127,
+       127,
+       127,
+       127,
+       128,
+       128,
+       128,
+       128,
+       128,
+       128,
+       128,
+       128,
+       128,
+       128,
+       127,
+       127,
+       127,
+       127,
+       127,
+       127,
+       127,
+       126,
+       126,
+       125,
+       125,
+       124,
+       123
+      ]
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "values": [
+       112,
+       114,
+       116,
+       118,
+       120,
+       123,
+       125,
+       127,
+       130,
+       132,
+       135,
+       137,
+       139,
+       141,
+       143,
+       145,
+       146,
+       148,
+       149,
+       151,
+       152,
+       154,
+       155,
+       157,
+       158,
+       159,
+       161,
+       162,
+       164,
+       165,
+       166,
+       168,
+       169,
+       171,
+       174,
+       176
+      ]
+     }
+    ],
+    "chapter": "The *population* race"
+   },
+   "start": 31.88,
+   "end": 36.805,
+   "words": [
+    {
+     "word": "No",
+     "start": 32.13,
+     "end": 32.343
+    },
+    {
+     "word": "points",
+     "start": 32.343,
+     "end": 32.68
+    },
+    {
+     "word": "for",
+     "start": 32.68,
+     "end": 32.793
+    },
+    {
+     "word": "this",
+     "start": 32.793,
+     "end": 32.98
+    },
+    {
+     "word": "one.",
+     "start": 32.98,
+     "end": 33.43
+    },
+    {
+     "word": "Just",
+     "start": 33.543,
+     "end": 33.83
+    },
+    {
+     "word": "watch",
+     "start": 33.83,
+     "end": 34.13
+    },
+    {
+     "word": "the",
+     "start": 34.13,
+     "end": 34.23
+    },
+    {
+     "word": "biggest",
+     "start": 34.23,
+     "end": 34.555
+    },
+    {
+     "word": "countries",
+     "start": 34.555,
+     "end": 34.943
+    },
+    {
+     "word": "on",
+     "start": 34.943,
+     "end": 35.08
+    },
+    {
+     "word": "earth",
+     "start": 35.08,
+     "end": 35.38
+    },
+    {
+     "word": "since",
+     "start": 35.38,
+     "end": 35.605
+    },
+    {
+     "word": "1990.",
+     "start": 35.605,
+     "end": 36.58
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "In 1990, Pakistan is not even in the top six.",
+   "props": {
+    "to": 1996
+   },
+   "start": 36.865,
+   "end": 40.615,
+   "words": [
+    {
+     "word": "In",
+     "start": 37.115,
+     "end": 37.203
+    },
+    {
+     "word": "1990,",
+     "start": 37.203,
+     "end": 38.09
+    },
+    {
+     "word": "Pakistan",
+     "start": 38.215,
+     "end": 38.84
+    },
+    {
+     "word": "is",
+     "start": 38.84,
+     "end": 38.99
+    },
+    {
+     "word": "not",
+     "start": 38.99,
+     "end": 39.178
+    },
+    {
+     "word": "even",
+     "start": 39.178,
+     "end": 39.403
+    },
+    {
+     "word": "in",
+     "start": 39.403,
+     "end": 39.477
+    },
+    {
+     "word": "the",
+     "start": 39.477,
+     "end": 39.565
+    },
+    {
+     "word": "top",
+     "start": 39.565,
+     "end": 39.84
+    },
+    {
+     "word": "six.",
+     "start": 39.84,
+     "end": 40.39
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "Then it climbs. In 1999, Pakistan passes Russia.",
+   "props": {
+    "to": 2003
+   },
+   "start": 40.675,
+   "end": 44.8,
+   "words": [
+    {
+     "word": "Then",
+     "start": 40.9,
+     "end": 41.013
+    },
+    {
+     "word": "it",
+     "start": 41.013,
+     "end": 41.1
+    },
+    {
+     "word": "climbs.",
+     "start": 41.1,
+     "end": 41.8
+    },
+    {
+     "word": "In",
+     "start": 41.925,
+     "end": 42.038
+    },
+    {
+     "word": "1999,",
+     "start": 42.038,
+     "end": 42.95
+    },
+    {
+     "word": "Pakistan",
+     "start": 43.0,
+     "end": 43.55
+    },
+    {
+     "word": "passes",
+     "start": 43.55,
+     "end": 43.95
+    },
+    {
+     "word": "Russia.",
+     "start": 43.95,
+     "end": 44.55
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "In 2009, it passes Brazil.",
+   "props": {
+    "to": 2014
+   },
+   "start": 44.86,
+   "end": 47.635,
+   "words": [
+    {
+     "word": "In",
+     "start": 45.11,
+     "end": 45.235
+    },
+    {
+     "word": "2009,",
+     "start": 45.235,
+     "end": 46.135
+    },
+    {
+     "word": "it",
+     "start": 46.235,
+     "end": 46.335
+    },
+    {
+     "word": "passes",
+     "start": 46.335,
+     "end": 46.735
+    },
+    {
+     "word": "Brazil.",
+     "start": 46.735,
+     "end": 47.41
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "And in 2021, India passes China. Now it has more people than any country on earth.",
+   "props": {
+    "to": 2025
+   },
+   "start": 47.695,
+   "end": 53.545,
+   "words": [
+    {
+     "word": "And",
+     "start": 47.92,
+     "end": 48.058
+    },
+    {
+     "word": "in",
+     "start": 48.058,
+     "end": 48.145
+    },
+    {
+     "word": "2021,",
+     "start": 48.145,
+     "end": 49.17
+    },
+    {
+     "word": "India",
+     "start": 49.27,
+     "end": 49.62
+    },
+    {
+     "word": "passes",
+     "start": 49.62,
+     "end": 50.058
+    },
+    {
+     "word": "China.",
+     "start": 50.058,
+     "end": 50.695
+    },
+    {
+     "word": "Now",
+     "start": 50.883,
+     "end": 51.12
+    },
+    {
+     "word": "it",
+     "start": 51.12,
+     "end": 51.208
+    },
+    {
+     "word": "has",
+     "start": 51.208,
+     "end": 51.395
+    },
+    {
+     "word": "more",
+     "start": 51.395,
+     "end": 51.62
+    },
+    {
+     "word": "people",
+     "start": 51.62,
+     "end": 51.958
+    },
+    {
+     "word": "than",
+     "start": 51.958,
+     "end": 52.095
+    },
+    {
+     "word": "any",
+     "start": 52.095,
+     "end": 52.32
+    },
+    {
+     "word": "country",
+     "start": 52.32,
+     "end": 52.633
+    },
+    {
+     "word": "on",
+     "start": 52.633,
+     "end": 52.77
+    },
+    {
+     "word": "earth.",
+     "start": 52.77,
+     "end": 53.295
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "Pakistan has more than doubled since 1990. India grew by almost seventy percent.",
+   "props": {},
+   "start": 53.605,
+   "end": 59.28,
+   "words": [
+    {
+     "word": "Pakistan",
+     "start": 53.805,
+     "end": 54.405
+    },
+    {
+     "word": "has",
+     "start": 54.405,
+     "end": 54.605
+    },
+    {
+     "word": "more",
+     "start": 54.605,
+     "end": 54.793
+    },
+    {
+     "word": "than",
+     "start": 54.793,
+     "end": 54.93
+    },
+    {
+     "word": "doubled",
+     "start": 54.93,
+     "end": 55.305
+    },
+    {
+     "word": "since",
+     "start": 55.305,
+     "end": 55.53
+    },
+    {
+     "word": "1990.",
+     "start": 55.53,
+     "end": 56.58
+    },
+    {
+     "word": "India",
+     "start": 56.73,
+     "end": 57.118
+    },
+    {
+     "word": "grew",
+     "start": 57.118,
+     "end": 57.405
+    },
+    {
+     "word": "by",
+     "start": 57.405,
+     "end": 57.58
+    },
+    {
+     "word": "almost",
+     "start": 57.58,
+     "end": 58.018
+    },
+    {
+     "word": "seventy",
+     "start": 58.018,
+     "end": 58.38
+    },
+    {
+     "word": "percent.",
+     "start": 58.38,
+     "end": 59.055
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Next up. Money. The score is two all.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Pakistan",
+     "flag": "pk"
+    },
+    "chapter": "India vs Pakistan: *Money*"
+   },
+   "start": 59.34,
+   "end": 61.94,
+   "words": [
+    {
+     "word": "Next",
+     "start": 59.59,
+     "end": 59.878
+    },
+    {
+     "word": "up.",
+     "start": 59.878,
+     "end": 60.015
+    },
+    {
+     "word": "Money.",
+     "start": 60.065,
+     "end": 60.465
+    },
+    {
+     "word": "The",
+     "start": 60.565,
+     "end": 60.665
+    },
+    {
+     "word": "score",
+     "start": 60.665,
+     "end": 60.928
+    },
+    {
+     "word": "is",
+     "start": 60.928,
+     "end": 61.04
+    },
+    {
+     "word": "two",
+     "start": 61.04,
+     "end": 61.24
+    },
+    {
+     "word": "all.",
+     "start": 61.24,
+     "end": 61.69
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. India's economy is almost ten times bigger.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 3.96,
+     "b": 0.41,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   },
+   "start": 62.0,
+   "end": 66.5,
+   "words": [
+    {
+     "word": "Size",
+     "start": 62.25,
+     "end": 62.538
+    },
+    {
+     "word": "of",
+     "start": 62.538,
+     "end": 62.612
+    },
+    {
+     "word": "the",
+     "start": 62.612,
+     "end": 62.725
+    },
+    {
+     "word": "economy.",
+     "start": 62.725,
+     "end": 63.525
+    },
+    {
+     "word": "India's",
+     "start": 63.65,
+     "end": 64.0
+    },
+    {
+     "word": "economy",
+     "start": 64.0,
+     "end": 64.6
+    },
+    {
+     "word": "is",
+     "start": 64.6,
+     "end": 64.75
+    },
+    {
+     "word": "almost",
+     "start": 64.75,
+     "end": 65.125
+    },
+    {
+     "word": "ten",
+     "start": 65.125,
+     "end": 65.375
+    },
+    {
+     "word": "times",
+     "start": 65.375,
+     "end": 65.7
+    },
+    {
+     "word": "bigger.",
+     "start": 65.7,
+     "end": 66.25
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Income per person. India leads by almost seventy percent.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 2702.0,
+     "b": 1596.0,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "India"
+   },
+   "start": 66.56,
+   "end": 70.535,
+   "words": [
+    {
+     "word": "Income",
+     "start": 66.785,
+     "end": 67.185
+    },
+    {
+     "word": "per",
+     "start": 67.185,
+     "end": 67.335
+    },
+    {
+     "word": "person.",
+     "start": 67.335,
+     "end": 67.985
+    },
+    {
+     "word": "India",
+     "start": 68.11,
+     "end": 68.435
+    },
+    {
+     "word": "leads",
+     "start": 68.435,
+     "end": 68.735
+    },
+    {
+     "word": "by",
+     "start": 68.735,
+     "end": 68.91
+    },
+    {
+     "word": "almost",
+     "start": 68.91,
+     "end": 69.297
+    },
+    {
+     "word": "seventy",
+     "start": 69.297,
+     "end": 69.66
+    },
+    {
+     "word": "percent.",
+     "start": 69.66,
+     "end": 70.31
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "But it was not always like this. In 2005, Pakistan was richer per person. India passed it for good in 2009.",
+   "props": {},
+   "start": 70.595,
+   "end": 78.57,
+   "words": [
+    {
+     "word": "But",
+     "start": 70.795,
+     "end": 70.907
+    },
+    {
+     "word": "it",
+     "start": 70.907,
+     "end": 70.983
+    },
+    {
+     "word": "was",
+     "start": 70.983,
+     "end": 71.12
+    },
+    {
+     "word": "not",
+     "start": 71.12,
+     "end": 71.345
+    },
+    {
+     "word": "always",
+     "start": 71.345,
+     "end": 71.683
+    },
+    {
+     "word": "like",
+     "start": 71.683,
+     "end": 71.895
+    },
+    {
+     "word": "this.",
+     "start": 71.895,
+     "end": 72.42
+    },
+    {
+     "word": "In",
+     "start": 72.52,
+     "end": 72.67
+    },
+    {
+     "word": "2005,",
+     "start": 72.67,
+     "end": 73.67
+    },
+    {
+     "word": "Pakistan",
+     "start": 73.77,
+     "end": 74.42
+    },
+    {
+     "word": "was",
+     "start": 74.42,
+     "end": 74.608
+    },
+    {
+     "word": "richer",
+     "start": 74.608,
+     "end": 74.945
+    },
+    {
+     "word": "per",
+     "start": 74.945,
+     "end": 75.07
+    },
+    {
+     "word": "person.",
+     "start": 75.07,
+     "end": 75.845
+    },
+    {
+     "word": "India",
+     "start": 75.97,
+     "end": 76.345
+    },
+    {
+     "word": "passed",
+     "start": 76.345,
+     "end": 76.632
+    },
+    {
+     "word": "it",
+     "start": 76.632,
+     "end": 76.72
+    },
+    {
+     "word": "for",
+     "start": 76.72,
+     "end": 76.87
+    },
+    {
+     "word": "good",
+     "start": 76.87,
+     "end": 77.145
+    },
+    {
+     "word": "in",
+     "start": 77.145,
+     "end": 77.295
+    },
+    {
+     "word": "2009.",
+     "start": 77.295,
+     "end": 78.345
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Now a twist. How much the average person spends in a year. Pakistan wins.",
+   "props": {
+    "stat": {
+     "label": "Spending per person, 2015 $ (2025)",
+     "a": 1503.0,
+     "b": 1564.0,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Pakistan"
+   },
+   "start": 78.63,
+   "end": 83.355,
+   "words": [
+    {
+     "word": "Now",
+     "start": 78.88,
+     "end": 79.042
+    },
+    {
+     "word": "a",
+     "start": 79.042,
+     "end": 79.13
+    },
+    {
+     "word": "twist.",
+     "start": 79.13,
+     "end": 79.58
+    },
+    {
+     "word": "How",
+     "start": 79.655,
+     "end": 79.792
+    },
+    {
+     "word": "much",
+     "start": 79.792,
+     "end": 79.992
+    },
+    {
+     "word": "the",
+     "start": 79.992,
+     "end": 80.105
+    },
+    {
+     "word": "average",
+     "start": 80.105,
+     "end": 80.48
+    },
+    {
+     "word": "person",
+     "start": 80.48,
+     "end": 80.88
+    },
+    {
+     "word": "spends",
+     "start": 80.88,
+     "end": 81.142
+    },
+    {
+     "word": "in",
+     "start": 81.142,
+     "end": 81.218
+    },
+    {
+     "word": "a",
+     "start": 81.218,
+     "end": 81.28
+    },
+    {
+     "word": "year.",
+     "start": 81.28,
+     "end": 81.78
+    },
+    {
+     "word": "Pakistan",
+     "start": 81.905,
+     "end": 82.505
+    },
+    {
+     "word": "wins.",
+     "start": 82.505,
+     "end": 83.105
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "The reason? India saves thirty-five percent of its income. Pakistan saves fifteen.",
+   "props": {},
+   "start": 83.415,
+   "end": 88.715,
+   "words": [
+    {
+     "word": "The",
+     "start": 83.64,
+     "end": 83.715
+    },
+    {
+     "word": "reason?",
+     "start": 83.715,
+     "end": 84.265
+    },
+    {
+     "word": "India",
+     "start": 84.365,
+     "end": 84.69
+    },
+    {
+     "word": "saves",
+     "start": 84.69,
+     "end": 85.015
+    },
+    {
+     "word": "thirty-five",
+     "start": 85.015,
+     "end": 85.49
+    },
+    {
+     "word": "percent",
+     "start": 85.49,
+     "end": 85.852
+    },
+    {
+     "word": "of",
+     "start": 85.852,
+     "end": 85.927
+    },
+    {
+     "word": "its",
+     "start": 85.927,
+     "end": 86.04
+    },
+    {
+     "word": "income.",
+     "start": 86.04,
+     "end": 86.715
+    },
+    {
+     "word": "Pakistan",
+     "start": 86.84,
+     "end": 87.465
+    },
+    {
+     "word": "saves",
+     "start": 87.465,
+     "end": 87.79
+    },
+    {
+     "word": "fifteen.",
+     "start": 87.79,
+     "end": 88.49
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Reserves and gold. India holds more than twenty-six times as much.",
+   "props": {
+    "stat": {
+     "label": "Reserves and gold (2025)",
+     "a": 700.0,
+     "b": 26.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "India"
+   },
+   "start": 88.775,
+   "end": 93.15,
+   "words": [
+    {
+     "word": "Reserves",
+     "start": 89.0,
+     "end": 89.562
+    },
+    {
+     "word": "and",
+     "start": 89.562,
+     "end": 89.7
+    },
+    {
+     "word": "gold.",
+     "start": 89.7,
+     "end": 90.3
+    },
+    {
+     "word": "India",
+     "start": 90.425,
+     "end": 90.8
+    },
+    {
+     "word": "holds",
+     "start": 90.8,
+     "end": 91.1
+    },
+    {
+     "word": "more",
+     "start": 91.1,
+     "end": 91.262
+    },
+    {
+     "word": "than",
+     "start": 91.262,
+     "end": 91.375
+    },
+    {
+     "word": "twenty-six",
+     "start": 91.375,
+     "end": 91.925
+    },
+    {
+     "word": "times",
+     "start": 91.925,
+     "end": 92.262
+    },
+    {
+     "word": "as",
+     "start": 92.262,
+     "end": 92.4
+    },
+    {
+     "word": "much.",
+     "start": 92.4,
+     "end": 92.9
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Exports. India sells almost twenty-two times more to the world.",
+   "props": {
+    "stat": {
+     "label": "Exports (2025)",
+     "a": 881.0,
+     "b": 41.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "India"
+   },
+   "start": 93.21,
+   "end": 97.11,
+   "words": [
+    {
+     "word": "Exports.",
+     "start": 93.435,
+     "end": 94.06
+    },
+    {
+     "word": "India",
+     "start": 94.135,
+     "end": 94.435
+    },
+    {
+     "word": "sells",
+     "start": 94.435,
+     "end": 94.785
+    },
+    {
+     "word": "almost",
+     "start": 94.785,
+     "end": 95.135
+    },
+    {
+     "word": "twenty-two",
+     "start": 95.135,
+     "end": 95.56
+    },
+    {
+     "word": "times",
+     "start": 95.56,
+     "end": 95.935
+    },
+    {
+     "word": "more",
+     "start": 95.935,
+     "end": 96.135
+    },
+    {
+     "word": "to",
+     "start": 96.135,
+     "end": 96.222
+    },
+    {
+     "word": "the",
+     "start": 96.222,
+     "end": 96.31
+    },
+    {
+     "word": "world.",
+     "start": 96.31,
+     "end": 96.885
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "India takes the money chapter. Four to one. Overall, six to three.",
+   "props": {},
+   "start": 97.17,
+   "end": 101.495,
+   "words": [
+    {
+     "word": "India",
+     "start": 97.395,
+     "end": 97.695
+    },
+    {
+     "word": "takes",
+     "start": 97.695,
+     "end": 97.982
+    },
+    {
+     "word": "the",
+     "start": 97.982,
+     "end": 98.057
+    },
+    {
+     "word": "money",
+     "start": 98.057,
+     "end": 98.27
+    },
+    {
+     "word": "chapter.",
+     "start": 98.27,
+     "end": 98.82
+    },
+    {
+     "word": "Four",
+     "start": 98.92,
+     "end": 99.095
+    },
+    {
+     "word": "to",
+     "start": 99.095,
+     "end": 99.195
+    },
+    {
+     "word": "one.",
+     "start": 99.195,
+     "end": 99.645
+    },
+    {
+     "word": "Overall,",
+     "start": 99.77,
+     "end": 100.27
+    },
+    {
+     "word": "six",
+     "start": 100.345,
+     "end": 100.595
+    },
+    {
+     "word": "to",
+     "start": 100.595,
+     "end": 100.72
+    },
+    {
+     "word": "three.",
+     "start": 100.72,
+     "end": 101.245
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Your turn. Three rounds. Guess before the timer ends. These count too. Who has more people online?",
+   "props": {
+    "question": "More people online? (2024)",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 64.9
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 57.3
+     }
+    ],
+    "pause": 2.0,
+    "chapter": "Quiz: *your* turn"
+   },
+   "start": 101.555,
+   "end": 107.53,
+   "words": [
+    {
+     "word": "Your",
+     "start": 101.78,
+     "end": 101.905
+    },
+    {
+     "word": "turn.",
+     "start": 101.905,
+     "end": 102.255
+    },
+    {
+     "word": "Three",
+     "start": 102.342,
+     "end": 102.58
+    },
+    {
+     "word": "rounds.",
+     "start": 102.58,
+     "end": 103.055
+    },
+    {
+     "word": "Guess",
+     "start": 103.142,
+     "end": 103.405
+    },
+    {
+     "word": "before",
+     "start": 103.405,
+     "end": 103.667
+    },
+    {
+     "word": "the",
+     "start": 103.667,
+     "end": 103.755
+    },
+    {
+     "word": "timer",
+     "start": 103.755,
+     "end": 104.105
+    },
+    {
+     "word": "ends.",
+     "start": 104.105,
+     "end": 104.655
+    },
+    {
+     "word": "These",
+     "start": 104.755,
+     "end": 105.005
+    },
+    {
+     "word": "count",
+     "start": 105.005,
+     "end": 105.267
+    },
+    {
+     "word": "too.",
+     "start": 105.267,
+     "end": 105.63
+    },
+    {
+     "word": "Who",
+     "start": 105.73,
+     "end": 105.88
+    },
+    {
+     "word": "has",
+     "start": 105.88,
+     "end": 106.08
+    },
+    {
+     "word": "more",
+     "start": 106.08,
+     "end": 106.28
+    },
+    {
+     "word": "people",
+     "start": 106.28,
+     "end": 106.592
+    },
+    {
+     "word": "online?",
+     "start": 106.592,
+     "end": 107.28
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "India. Sixty-five percent against fifty-seven.",
+   "props": {
+    "reveal": true
+   },
+   "start": 109.59,
+   "end": 112.865,
+   "words": [
+    {
+     "word": "India.",
+     "start": 109.84,
+     "end": 110.29
+    },
+    {
+     "word": "Sixty-five",
+     "start": 110.402,
+     "end": 110.99
+    },
+    {
+     "word": "percent",
+     "start": 110.99,
+     "end": 111.415
+    },
+    {
+     "word": "against",
+     "start": 111.415,
+     "end": 111.765
+    },
+    {
+     "word": "fifty-seven.",
+     "start": 111.765,
+     "end": 112.64
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Who uses more electricity per person?",
+   "props": {
+    "question": "Electricity per person (2024)",
+    "format": {
+     "suffix": " kWh"
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 1223.0
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 493.0
+     }
+    ],
+    "pause": 2.0
+   },
+   "start": 112.925,
+   "end": 116.2,
+   "words": [
+    {
+     "word": "Round",
+     "start": 113.175,
+     "end": 113.437
+    },
+    {
+     "word": "two.",
+     "start": 113.437,
+     "end": 113.825
+    },
+    {
+     "word": "Who",
+     "start": 113.95,
+     "end": 114.1
+    },
+    {
+     "word": "uses",
+     "start": 114.1,
+     "end": 114.425
+    },
+    {
+     "word": "more",
+     "start": 114.425,
+     "end": 114.612
+    },
+    {
+     "word": "electricity",
+     "start": 114.612,
+     "end": 115.175
+    },
+    {
+     "word": "per",
+     "start": 115.175,
+     "end": 115.3
+    },
+    {
+     "word": "person?",
+     "start": 115.3,
+     "end": 115.975
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "India. Two and a half times more.",
+   "props": {
+    "reveal": true
+   },
+   "start": 118.26,
+   "end": 120.535,
+   "words": [
+    {
+     "word": "India.",
+     "start": 118.51,
+     "end": 118.91
+    },
+    {
+     "word": "Two",
+     "start": 118.985,
+     "end": 119.147
+    },
+    {
+     "word": "and",
+     "start": 119.147,
+     "end": 119.247
+    },
+    {
+     "word": "a",
+     "start": 119.247,
+     "end": 119.297
+    },
+    {
+     "word": "half",
+     "start": 119.297,
+     "end": 119.485
+    },
+    {
+     "word": "times",
+     "start": 119.485,
+     "end": 119.81
+    },
+    {
+     "word": "more.",
+     "start": 119.81,
+     "end": 120.285
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Last one. Where do fewer young people struggle to find a job?",
+   "props": {
+    "question": "Youth unemployment (2025)",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 16.0
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 9.6
+     }
+    ],
+    "pick": "lower",
+    "pause": 2.2
+   },
+   "start": 120.595,
+   "end": 124.495,
+   "words": [
+    {
+     "word": "Last",
+     "start": 120.845,
+     "end": 121.107
+    },
+    {
+     "word": "one.",
+     "start": 121.107,
+     "end": 121.495
+    },
+    {
+     "word": "Where",
+     "start": 121.595,
+     "end": 121.795
+    },
+    {
+     "word": "do",
+     "start": 121.795,
+     "end": 121.982
+    },
+    {
+     "word": "fewer",
+     "start": 121.982,
+     "end": 122.32
+    },
+    {
+     "word": "young",
+     "start": 122.32,
+     "end": 122.545
+    },
+    {
+     "word": "people",
+     "start": 122.545,
+     "end": 122.895
+    },
+    {
+     "word": "struggle",
+     "start": 122.895,
+     "end": 123.295
+    },
+    {
+     "word": "to",
+     "start": 123.295,
+     "end": 123.395
+    },
+    {
+     "word": "find",
+     "start": 123.395,
+     "end": 123.632
+    },
+    {
+     "word": "a",
+     "start": 123.632,
+     "end": 123.695
+    },
+    {
+     "word": "job?",
+     "start": 123.695,
+     "end": 124.245
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Pakistan. About ten percent. In India, it is sixteen.",
+   "props": {
+    "reveal": true
+   },
+   "start": 126.755,
+   "end": 130.68,
+   "words": [
+    {
+     "word": "Pakistan.",
+     "start": 126.955,
+     "end": 127.555
+    },
+    {
+     "word": "About",
+     "start": 127.63,
+     "end": 127.905
+    },
+    {
+     "word": "ten",
+     "start": 127.905,
+     "end": 128.13
+    },
+    {
+     "word": "percent.",
+     "start": 128.13,
+     "end": 128.805
+    },
+    {
+     "word": "In",
+     "start": 128.905,
+     "end": 129.055
+    },
+    {
+     "word": "India,",
+     "start": 129.055,
+     "end": 129.405
+    },
+    {
+     "word": "it",
+     "start": 129.455,
+     "end": 129.542
+    },
+    {
+     "word": "is",
+     "start": 129.542,
+     "end": 129.655
+    },
+    {
+     "word": "sixteen.",
+     "start": 129.655,
+     "end": 130.43
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "How many did you get? The score is now eight to four.",
+   "props": {},
+   "start": 130.74,
+   "end": 133.79,
+   "words": [
+    {
+     "word": "How",
+     "start": 130.965,
+     "end": 131.14
+    },
+    {
+     "word": "many",
+     "start": 131.14,
+     "end": 131.352
+    },
+    {
+     "word": "did",
+     "start": 131.352,
+     "end": 131.477
+    },
+    {
+     "word": "you",
+     "start": 131.477,
+     "end": 131.565
+    },
+    {
+     "word": "get?",
+     "start": 131.565,
+     "end": 131.965
+    },
+    {
+     "word": "The",
+     "start": 132.065,
+     "end": 132.165
+    },
+    {
+     "word": "score",
+     "start": 132.165,
+     "end": 132.452
+    },
+    {
+     "word": "is",
+     "start": 132.452,
+     "end": 132.565
+    },
+    {
+     "word": "now",
+     "start": 132.565,
+     "end": 132.74
+    },
+    {
+     "word": "eight",
+     "start": 132.74,
+     "end": 132.915
+    },
+    {
+     "word": "to",
+     "start": 132.915,
+     "end": 133.04
+    },
+    {
+     "word": "four.",
+     "start": 133.04,
+     "end": 133.54
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Now the army. Only numbers. No politics.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Pakistan",
+     "flag": "pk"
+    },
+    "chapter": "India vs Pakistan: *Army*"
+   },
+   "start": 133.85,
+   "end": 136.875,
+   "words": [
+    {
+     "word": "Now",
+     "start": 134.125,
+     "end": 134.312
+    },
+    {
+     "word": "the",
+     "start": 134.312,
+     "end": 134.45
+    },
+    {
+     "word": "army.",
+     "start": 134.45,
+     "end": 134.85
+    },
+    {
+     "word": "Only",
+     "start": 134.95,
+     "end": 135.25
+    },
+    {
+     "word": "numbers.",
+     "start": 135.25,
+     "end": 135.675
+    },
+    {
+     "word": "No",
+     "start": 135.725,
+     "end": 135.9
+    },
+    {
+     "word": "politics.",
+     "start": 135.9,
+     "end": 136.65
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Soldiers. India has more than three times as many.",
+   "props": {
+    "stat": {
+     "label": "Soldiers (2020)",
+     "a": 3.07,
+     "b": 0.94,
+     "format": {
+      "suffix": "M",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   },
+   "start": 136.935,
+   "end": 140.185,
+   "words": [
+    {
+     "word": "Soldiers.",
+     "start": 137.185,
+     "end": 137.81
+    },
+    {
+     "word": "India",
+     "start": 137.885,
+     "end": 138.235
+    },
+    {
+     "word": "has",
+     "start": 138.235,
+     "end": 138.435
+    },
+    {
+     "word": "more",
+     "start": 138.435,
+     "end": 138.597
+    },
+    {
+     "word": "than",
+     "start": 138.597,
+     "end": 138.748
+    },
+    {
+     "word": "three",
+     "start": 138.748,
+     "end": 138.985
+    },
+    {
+     "word": "times",
+     "start": 138.985,
+     "end": 139.322
+    },
+    {
+     "word": "as",
+     "start": 139.322,
+     "end": 139.46
+    },
+    {
+     "word": "many.",
+     "start": 139.46,
+     "end": 139.96
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Military budget. India spends almost eight times more.",
+   "props": {
+    "stat": {
+     "label": "Military budget (2025)",
+     "a": 92.1,
+     "b": 11.9,
+     "format": {
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   },
+   "start": 140.245,
+   "end": 143.895,
+   "words": [
+    {
+     "word": "Military",
+     "start": 140.495,
+     "end": 140.995
+    },
+    {
+     "word": "budget.",
+     "start": 140.995,
+     "end": 141.52
+    },
+    {
+     "word": "India",
+     "start": 141.62,
+     "end": 141.97
+    },
+    {
+     "word": "spends",
+     "start": 141.97,
+     "end": 142.27
+    },
+    {
+     "word": "almost",
+     "start": 142.27,
+     "end": 142.632
+    },
+    {
+     "word": "eight",
+     "start": 142.632,
+     "end": 142.845
+    },
+    {
+     "word": "times",
+     "start": 142.845,
+     "end": 143.17
+    },
+    {
+     "word": "more.",
+     "start": 143.17,
+     "end": 143.645
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "But as a share of the economy, Pakistan spends more. Almost three percent.",
+   "props": {
+    "stat": {
+     "label": "Army share of economy (2025)",
+     "a": 2.3,
+     "b": 2.9,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "Pakistan"
+   },
+   "start": 143.955,
+   "end": 148.63,
+   "words": [
+    {
+     "word": "But",
+     "start": 144.155,
+     "end": 144.28
+    },
+    {
+     "word": "as",
+     "start": 144.28,
+     "end": 144.393
+    },
+    {
+     "word": "a",
+     "start": 144.393,
+     "end": 144.493
+    },
+    {
+     "word": "share",
+     "start": 144.493,
+     "end": 144.768
+    },
+    {
+     "word": "of",
+     "start": 144.768,
+     "end": 144.843
+    },
+    {
+     "word": "the",
+     "start": 144.843,
+     "end": 144.955
+    },
+    {
+     "word": "economy,",
+     "start": 144.955,
+     "end": 145.555
+    },
+    {
+     "word": "Pakistan",
+     "start": 145.63,
+     "end": 146.205
+    },
+    {
+     "word": "spends",
+     "start": 146.205,
+     "end": 146.53
+    },
+    {
+     "word": "more.",
+     "start": 146.53,
+     "end": 146.98
+    },
+    {
+     "word": "Almost",
+     "start": 147.13,
+     "end": 147.505
+    },
+    {
+     "word": "three",
+     "start": 147.505,
+     "end": 147.73
+    },
+    {
+     "word": "percent.",
+     "start": 147.73,
+     "end": 148.405
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Two to one for India. Overall, ten to five.",
+   "props": {},
+   "start": 148.69,
+   "end": 151.915,
+   "words": [
+    {
+     "word": "Two",
+     "start": 148.915,
+     "end": 149.09
+    },
+    {
+     "word": "to",
+     "start": 149.09,
+     "end": 149.215
+    },
+    {
+     "word": "one",
+     "start": 149.215,
+     "end": 149.465
+    },
+    {
+     "word": "for",
+     "start": 149.465,
+     "end": 149.59
+    },
+    {
+     "word": "India.",
+     "start": 149.59,
+     "end": 150.09
+    },
+    {
+     "word": "Overall,",
+     "start": 150.215,
+     "end": 150.69
+    },
+    {
+     "word": "ten",
+     "start": 150.74,
+     "end": 150.99
+    },
+    {
+     "word": "to",
+     "start": 150.99,
+     "end": 151.115
+    },
+    {
+     "word": "five.",
+     "start": 151.115,
+     "end": 151.665
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "Both countries call their money the rupee. In 1990, one dollar bought twenty-two Pakistani rupees. Guess what it buys now.",
+   "props": {
+    "label": "$1 in Pakistani rupees",
+    "flag": "pk",
+    "then": {
+     "year": 1990,
+     "value": 21.7
+    },
+    "now": {
+     "year": 2025,
+     "value": 281.1
+    },
+    "format": {
+     "decimals": 1
+    },
+    "good": false,
+    "chapter": "Battle of the *rupees*"
+   },
+   "start": 151.975,
+   "end": 159.725,
+   "words": [
+    {
+     "word": "Both",
+     "start": 152.2,
+     "end": 152.425
+    },
+    {
+     "word": "countries",
+     "start": 152.425,
+     "end": 152.825
+    },
+    {
+     "word": "call",
+     "start": 152.825,
+     "end": 153.037
+    },
+    {
+     "word": "their",
+     "start": 153.037,
+     "end": 153.2
+    },
+    {
+     "word": "money",
+     "start": 153.2,
+     "end": 153.45
+    },
+    {
+     "word": "the",
+     "start": 153.45,
+     "end": 153.55
+    },
+    {
+     "word": "rupee.",
+     "start": 153.55,
+     "end": 154.25
+    },
+    {
+     "word": "In",
+     "start": 154.387,
+     "end": 154.487
+    },
+    {
+     "word": "1990,",
+     "start": 154.487,
+     "end": 155.325
+    },
+    {
+     "word": "one",
+     "start": 155.425,
+     "end": 155.65
+    },
+    {
+     "word": "dollar",
+     "start": 155.65,
+     "end": 155.95
+    },
+    {
+     "word": "bought",
+     "start": 155.95,
+     "end": 156.213
+    },
+    {
+     "word": "twenty-two",
+     "start": 156.213,
+     "end": 156.725
+    },
+    {
+     "word": "Pakistani",
+     "start": 156.725,
+     "end": 157.35
+    },
+    {
+     "word": "rupees.",
+     "start": 157.35,
+     "end": 158.1
+    },
+    {
+     "word": "Guess",
+     "start": 158.213,
+     "end": 158.463
+    },
+    {
+     "word": "what",
+     "start": 158.463,
+     "end": 158.588
+    },
+    {
+     "word": "it",
+     "start": 158.588,
+     "end": 158.675
+    },
+    {
+     "word": "buys",
+     "start": 158.675,
+     "end": 158.975
+    },
+    {
+     "word": "now.",
+     "start": 158.975,
+     "end": 159.5
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "Two hundred eighty-one. Almost thirteen times more.",
+   "props": {
+    "reveal": true
+   },
+   "start": 159.785,
+   "end": 162.985,
+   "words": [
+    {
+     "word": "Two",
+     "start": 160.01,
+     "end": 160.185
+    },
+    {
+     "word": "hundred",
+     "start": 160.185,
+     "end": 160.435
+    },
+    {
+     "word": "eighty-one.",
+     "start": 160.435,
+     "end": 161.085
+    },
+    {
+     "word": "Almost",
+     "start": 161.185,
+     "end": 161.56
+    },
+    {
+     "word": "thirteen",
+     "start": 161.56,
+     "end": 161.935
+    },
+    {
+     "word": "times",
+     "start": 161.935,
+     "end": 162.26
+    },
+    {
+     "word": "more.",
+     "start": 162.26,
+     "end": 162.735
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "In 1990, one dollar bought seventeen and a half Indian rupees.",
+   "props": {
+    "label": "$1 in Indian rupees",
+    "flag": "in",
+    "then": {
+     "year": 1990,
+     "value": 17.5
+    },
+    "now": {
+     "year": 2025,
+     "value": 87.2
+    },
+    "format": {
+     "decimals": 1
+    },
+    "good": false
+   },
+   "start": 163.045,
+   "end": 167.47,
+   "words": [
+    {
+     "word": "In",
+     "start": 163.295,
+     "end": 163.382
+    },
+    {
+     "word": "1990,",
+     "start": 163.382,
+     "end": 164.295
+    },
+    {
+     "word": "one",
+     "start": 164.42,
+     "end": 164.645
+    },
+    {
+     "word": "dollar",
+     "start": 164.645,
+     "end": 164.945
+    },
+    {
+     "word": "bought",
+     "start": 164.945,
+     "end": 165.207
+    },
+    {
+     "word": "seventeen",
+     "start": 165.207,
+     "end": 165.782
+    },
+    {
+     "word": "and",
+     "start": 165.782,
+     "end": 165.882
+    },
+    {
+     "word": "a",
+     "start": 165.882,
+     "end": 165.945
+    },
+    {
+     "word": "half",
+     "start": 165.945,
+     "end": 166.195
+    },
+    {
+     "word": "Indian",
+     "start": 166.195,
+     "end": 166.52
+    },
+    {
+     "word": "rupees.",
+     "start": 166.52,
+     "end": 167.245
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "Today, eighty-seven. Five times more. The Indian rupee held on better. Point to India. Eleven to five.",
+   "props": {
+    "reveal": true
+   },
+   "start": 167.53,
+   "end": 174.255,
+   "words": [
+    {
+     "word": "Today,",
+     "start": 167.755,
+     "end": 168.08
+    },
+    {
+     "word": "eighty-seven.",
+     "start": 168.117,
+     "end": 168.855
+    },
+    {
+     "word": "Five",
+     "start": 168.967,
+     "end": 169.255
+    },
+    {
+     "word": "times",
+     "start": 169.255,
+     "end": 169.605
+    },
+    {
+     "word": "more.",
+     "start": 169.605,
+     "end": 170.005
+    },
+    {
+     "word": "The",
+     "start": 170.105,
+     "end": 170.255
+    },
+    {
+     "word": "Indian",
+     "start": 170.255,
+     "end": 170.605
+    },
+    {
+     "word": "rupee",
+     "start": 170.605,
+     "end": 170.98
+    },
+    {
+     "word": "held",
+     "start": 170.98,
+     "end": 171.217
+    },
+    {
+     "word": "on",
+     "start": 171.217,
+     "end": 171.33
+    },
+    {
+     "word": "better.",
+     "start": 171.33,
+     "end": 171.78
+    },
+    {
+     "word": "Point",
+     "start": 171.88,
+     "end": 172.155
+    },
+    {
+     "word": "to",
+     "start": 172.155,
+     "end": 172.28
+    },
+    {
+     "word": "India.",
+     "start": 172.28,
+     "end": 172.78
+    },
+    {
+     "word": "Eleven",
+     "start": 172.917,
+     "end": 173.305
+    },
+    {
+     "word": "to",
+     "start": 173.305,
+     "end": 173.43
+    },
+    {
+     "word": "five.",
+     "start": 173.43,
+     "end": 174.005
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Last chapter. Daily life. Four rounds left.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Pakistan",
+     "flag": "pk"
+    },
+    "chapter": "India vs Pakistan: *Daily life*"
+   },
+   "start": 174.315,
+   "end": 177.49,
+   "words": [
+    {
+     "word": "Last",
+     "start": 174.59,
+     "end": 174.84
+    },
+    {
+     "word": "chapter.",
+     "start": 174.84,
+     "end": 175.265
+    },
+    {
+     "word": "Daily",
+     "start": 175.34,
+     "end": 175.64
+    },
+    {
+     "word": "life.",
+     "start": 175.64,
+     "end": 176.04
+    },
+    {
+     "word": "Four",
+     "start": 176.152,
+     "end": 176.39
+    },
+    {
+     "word": "rounds",
+     "start": 176.39,
+     "end": 176.69
+    },
+    {
+     "word": "left.",
+     "start": 176.69,
+     "end": 177.24
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Prices. They rise slower in India.",
+   "props": {
+    "stat": {
+     "label": "Inflation (2025)",
+     "a": 2.4,
+     "b": 3.5,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     },
+     "pick": "lower"
+    },
+    "at": "India"
+   },
+   "start": 177.55,
+   "end": 179.9,
+   "words": [
+    {
+     "word": "Prices.",
+     "start": 177.75,
+     "end": 178.275
+    },
+    {
+     "word": "They",
+     "start": 178.325,
+     "end": 178.475
+    },
+    {
+     "word": "rise",
+     "start": 178.475,
+     "end": 178.725
+    },
+    {
+     "word": "slower",
+     "start": 178.725,
+     "end": 179.037
+    },
+    {
+     "word": "in",
+     "start": 179.037,
+     "end": 179.112
+    },
+    {
+     "word": "India.",
+     "start": 179.112,
+     "end": 179.65
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Jobs. Fewer people are out of work in India.",
+   "props": {
+    "stat": {
+     "label": "Unemployment (2025)",
+     "a": 4.2,
+     "b": 5.4,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     },
+     "pick": "lower"
+    },
+    "at": "India"
+   },
+   "start": 179.96,
+   "end": 182.835,
+   "words": [
+    {
+     "word": "Jobs.",
+     "start": 180.235,
+     "end": 180.735
+    },
+    {
+     "word": "Fewer",
+     "start": 180.822,
+     "end": 181.085
+    },
+    {
+     "word": "people",
+     "start": 181.085,
+     "end": 181.397
+    },
+    {
+     "word": "are",
+     "start": 181.397,
+     "end": 181.485
+    },
+    {
+     "word": "out",
+     "start": 181.485,
+     "end": 181.622
+    },
+    {
+     "word": "of",
+     "start": 181.622,
+     "end": 181.71
+    },
+    {
+     "word": "work",
+     "start": 181.71,
+     "end": 181.947
+    },
+    {
+     "word": "in",
+     "start": 181.947,
+     "end": 182.022
+    },
+    {
+     "word": "India.",
+     "start": 182.022,
+     "end": 182.585
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Mobile phones per hundred people. India wins. But only just.",
+   "props": {
+    "stat": {
+     "label": "Mobile phones per 100 (2024)",
+     "a": 79.4,
+     "b": 76.9,
+     "format": {
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   },
+   "start": 182.895,
+   "end": 187.145,
+   "words": [
+    {
+     "word": "Mobile",
+     "start": 183.12,
+     "end": 183.52
+    },
+    {
+     "word": "phones",
+     "start": 183.52,
+     "end": 183.895
+    },
+    {
+     "word": "per",
+     "start": 183.895,
+     "end": 184.02
+    },
+    {
+     "word": "hundred",
+     "start": 184.02,
+     "end": 184.295
+    },
+    {
+     "word": "people.",
+     "start": 184.295,
+     "end": 184.87
+    },
+    {
+     "word": "India",
+     "start": 184.995,
+     "end": 185.32
+    },
+    {
+     "word": "wins.",
+     "start": 185.32,
+     "end": 185.82
+    },
+    {
+     "word": "But",
+     "start": 185.895,
+     "end": 186.045
+    },
+    {
+     "word": "only",
+     "start": 186.045,
+     "end": 186.345
+    },
+    {
+     "word": "just.",
+     "start": 186.345,
+     "end": 186.895
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Women at work. Almost one in three in India. One in four in Pakistan.",
+   "props": {
+    "stat": {
+     "label": "Women in the workforce (2025)",
+     "a": 32.4,
+     "b": 24.0,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   },
+   "start": 187.205,
+   "end": 192.055,
+   "words": [
+    {
+     "word": "Women",
+     "start": 187.455,
+     "end": 187.73
+    },
+    {
+     "word": "at",
+     "start": 187.73,
+     "end": 187.855
+    },
+    {
+     "word": "work.",
+     "start": 187.855,
+     "end": 188.255
+    },
+    {
+     "word": "Almost",
+     "start": 188.355,
+     "end": 188.755
+    },
+    {
+     "word": "one",
+     "start": 188.755,
+     "end": 188.892
+    },
+    {
+     "word": "in",
+     "start": 188.892,
+     "end": 189.042
+    },
+    {
+     "word": "three",
+     "start": 189.042,
+     "end": 189.355
+    },
+    {
+     "word": "in",
+     "start": 189.355,
+     "end": 189.455
+    },
+    {
+     "word": "India.",
+     "start": 189.455,
+     "end": 190.005
+    },
+    {
+     "word": "One",
+     "start": 190.142,
+     "end": 190.405
+    },
+    {
+     "word": "in",
+     "start": 190.405,
+     "end": 190.567
+    },
+    {
+     "word": "four",
+     "start": 190.567,
+     "end": 190.88
+    },
+    {
+     "word": "in",
+     "start": 190.88,
+     "end": 190.98
+    },
+    {
+     "word": "Pakistan.",
+     "start": 190.98,
+     "end": 191.805
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "There it is. Four to zero for India.",
+   "props": {},
+   "start": 192.115,
+   "end": 194.665,
+   "words": [
+    {
+     "word": "There",
+     "start": 192.34,
+     "end": 192.515
+    },
+    {
+     "word": "it",
+     "start": 192.515,
+     "end": 192.652
+    },
+    {
+     "word": "is.",
+     "start": 192.652,
+     "end": 192.965
+    },
+    {
+     "word": "Four",
+     "start": 193.052,
+     "end": 193.265
+    },
+    {
+     "word": "to",
+     "start": 193.265,
+     "end": 193.39
+    },
+    {
+     "word": "zero",
+     "start": 193.39,
+     "end": 193.715
+    },
+    {
+     "word": "for",
+     "start": 193.715,
+     "end": 193.84
+    },
+    {
+     "word": "India.",
+     "start": 193.84,
+     "end": 194.415
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "Final score. India fifteen. Pakistan five.",
+   "props": {
+    "value": 15,
+    "format": {
+     "suffix": " \u2013 5"
+    },
+    "caption": "India vs Pakistan, 20 rounds",
+    "at": "fifteen",
+    "chapter": "The *final* score"
+   },
+   "start": 194.725,
+   "end": 198.2,
+   "words": [
+    {
+     "word": "Final",
+     "start": 194.975,
+     "end": 195.325
+    },
+    {
+     "word": "score.",
+     "start": 195.325,
+     "end": 195.7
+    },
+    {
+     "word": "India",
+     "start": 195.775,
+     "end": 196.075
+    },
+    {
+     "word": "fifteen.",
+     "start": 196.075,
+     "end": 196.675
+    },
+    {
+     "word": "Pakistan",
+     "start": 196.8,
+     "end": 197.387
+    },
+    {
+     "word": "five.",
+     "start": 197.387,
+     "end": 197.95
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "Pakistan took five rounds. It is younger. It grows faster. And its people spend more.",
+   "props": {
+    "value": 1.56,
+    "format": {
+     "suffix": "%",
+     "decimals": 2
+    },
+    "caption": "Pakistan's population growth per year",
+    "at": "faster"
+   },
+   "start": 198.26,
+   "end": 203.66,
+   "words": [
+    {
+     "word": "Pakistan",
+     "start": 198.485,
+     "end": 199.01
+    },
+    {
+     "word": "took",
+     "start": 199.01,
+     "end": 199.21
+    },
+    {
+     "word": "five",
+     "start": 199.21,
+     "end": 199.535
+    },
+    {
+     "word": "rounds.",
+     "start": 199.535,
+     "end": 200.035
+    },
+    {
+     "word": "It",
+     "start": 200.11,
+     "end": 200.235
+    },
+    {
+     "word": "is",
+     "start": 200.235,
+     "end": 200.36
+    },
+    {
+     "word": "younger.",
+     "start": 200.36,
+     "end": 200.81
+    },
+    {
+     "word": "It",
+     "start": 200.885,
+     "end": 201.01
+    },
+    {
+     "word": "grows",
+     "start": 201.01,
+     "end": 201.31
+    },
+    {
+     "word": "faster.",
+     "start": 201.31,
+     "end": 201.96
+    },
+    {
+     "word": "And",
+     "start": 202.06,
+     "end": 202.197
+    },
+    {
+     "word": "its",
+     "start": 202.197,
+     "end": 202.31
+    },
+    {
+     "word": "people",
+     "start": 202.31,
+     "end": 202.61
+    },
+    {
+     "word": "spend",
+     "start": 202.61,
+     "end": 202.91
+    },
+    {
+     "word": "more.",
+     "start": 202.91,
+     "end": 203.41
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "India or Pakistan? Comment your flag.",
+   "props": {},
+   "start": 203.72,
+   "end": 206.545,
+   "words": [
+    {
+     "word": "India",
+     "start": 203.97,
+     "end": 204.37
+    },
+    {
+     "word": "or",
+     "start": 204.37,
+     "end": 204.495
+    },
+    {
+     "word": "Pakistan?",
+     "start": 204.495,
+     "end": 205.17
+    },
+    {
+     "word": "Comment",
+     "start": 205.295,
+     "end": 205.607
+    },
+    {
+     "word": "your",
+     "start": 205.607,
+     "end": 205.72
+    },
+    {
+     "word": "flag.",
+     "start": 205.72,
+     "end": 206.295
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 6217,
+ "fps": 30,
+ "aligned": "tts"
+}
