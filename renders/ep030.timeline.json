@@ -1,0 +1,463 @@
+{
+ "id": "ep030",
+ "title": "Pakistan \ud83c\uddf5\ud83c\uddf0 vs Bangladesh \ud83c\udde7\ud83c\udde9: who wins? 3 rounds, real data",
+ "topic": "Pakistan vs Bangladesh",
+ "headline": "Pakistan or *Bangladesh*?",
+ "description": "Pakistan or Bangladesh: people, money sent home from abroad and the size of the economy. Three rounds of real World Bank data. Which side are you on? Comment your flag.",
+ "tags": [
+  "pakistan vs bangladesh",
+  "bangladesh vs pakistan",
+  "pakistan economy",
+  "bangladesh economy",
+  "pakistan population",
+  "bangladesh gdp 2025",
+  "pakistan gdp 2025",
+  "country comparison",
+  "geography quiz",
+  "south asia"
+ ],
+ "source": "World Bank: population, personal remittances received and GDP in current US dollars (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "pakistan",
+  "bangladesh",
+  "pakistanvsbangladesh",
+  "countrycomparison"
+ ],
+ "format": "quiz",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "pk",
+   "bd"
+  ],
+  "vs": true
+ },
+ "localizations": {
+  "ur": {
+   "title": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \ud83c\uddf5\ud83c\uddf0 vs \u0628\u0646\u06af\u0644\u06c1 \u062f\u06cc\u0634 \ud83c\udde7\ud83c\udde9: \u06a9\u0648\u0646 \u062c\u06cc\u062a\u06d2 \u06af\u0627\u061f 3 \u0631\u0627\u0624\u0646\u0688",
+   "description": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u06cc\u0627 \u0628\u0646\u06af\u0644\u06c1 \u062f\u06cc\u0634: \u0622\u0628\u0627\u062f\u06cc\u060c \u0628\u06cc\u0631\u0648\u0646 \u0645\u0644\u06a9 \u0633\u06d2 \u0628\u06be\u06cc\u062c\u06cc \u06af\u0626\u06cc \u0631\u0642\u0645 \u0627\u0648\u0631 \u0645\u0639\u06cc\u0634\u062a\u06d4 \u0627\u0635\u0644 \u0627\u0639\u062f\u0627\u062f \u0648 \u0634\u0645\u0627\u0631\u060c \u062a\u06cc\u0646 \u0631\u0627\u0624\u0646\u0688\u06d4 \u0627\u067e\u0646\u0627 \u062c\u06be\u0646\u0688\u0627 \u06a9\u0645\u0646\u0679 \u06a9\u0631\u06cc\u06ba\u06d4"
+  },
+  "bn": {
+   "title": "\u09aa\u09be\u0995\u09bf\u09b8\u09cd\u09a4\u09be\u09a8 \ud83c\uddf5\ud83c\uddf0 vs \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \ud83c\udde7\ud83c\udde9: \u0995\u09c7 \u099c\u09bf\u09a4\u09ac\u09c7? \u09e9 \u09b0\u09be\u0989\u09a8\u09cd\u09a1",
+   "description": "\u09aa\u09be\u0995\u09bf\u09b8\u09cd\u09a4\u09be\u09a8 \u09a8\u09be \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6: \u099c\u09a8\u09b8\u0982\u0996\u09cd\u09af\u09be, \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0 \u0986\u09af\u09bc \u0986\u09b0 \u0985\u09b0\u09cd\u09a5\u09a8\u09c0\u09a4\u09bf\u0964 \u0986\u09b8\u09b2 \u09a1\u09c7\u099f\u09be, \u09a4\u09bf\u09a8 \u09b0\u09be\u0989\u09a8\u09cd\u09a1\u0964 \u0986\u09aa\u09a8\u09be\u09b0 \u09aa\u09a4\u09be\u0995\u09be \u0995\u09ae\u09c7\u09a8\u09cd\u099f \u0995\u09b0\u09c1\u09a8\u0964"
+  }
+ },
+ "segments": [
+  {
+   "scene": "quiz",
+   "text": "Pakistan or Bangladesh. Three rounds. Who has more people?",
+   "props": {
+    "question": "Who has more people?",
+    "format": {
+     "suffix": "M",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 255.2
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "value": 175.7
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 0.05,
+   "end": 3.975,
+   "words": [
+    {
+     "word": "Pakistan",
+     "start": 0.275,
+     "end": 0.85
+    },
+    {
+     "word": "or",
+     "start": 0.85,
+     "end": 0.975
+    },
+    {
+     "word": "Bangladesh.",
+     "start": 0.975,
+     "end": 1.725
+    },
+    {
+     "word": "Three",
+     "start": 1.838,
+     "end": 2.075
+    },
+    {
+     "word": "rounds.",
+     "start": 2.075,
+     "end": 2.55
+    },
+    {
+     "word": "Who",
+     "start": 2.625,
+     "end": 2.75
+    },
+    {
+     "word": "has",
+     "start": 2.75,
+     "end": 2.95
+    },
+    {
+     "word": "more",
+     "start": 2.95,
+     "end": 3.125
+    },
+    {
+     "word": "people?",
+     "start": 3.125,
+     "end": 3.75
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Pakistan. Almost eighty million more.",
+   "props": {
+    "reveal": true
+   },
+   "start": 5.635,
+   "end": 8.335,
+   "words": [
+    {
+     "word": "Pakistan.",
+     "start": 5.86,
+     "end": 6.535
+    },
+    {
+     "word": "Almost",
+     "start": 6.635,
+     "end": 7.01
+    },
+    {
+     "word": "eighty",
+     "start": 7.01,
+     "end": 7.26
+    },
+    {
+     "word": "million",
+     "start": 7.26,
+     "end": 7.61
+    },
+    {
+     "word": "more.",
+     "start": 7.61,
+     "end": 8.085
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Whose workers abroad send more money home? Pakistan or Bangladesh?",
+   "props": {
+    "question": "Money sent home from abroad?",
+    "format": {
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 40.5
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "value": 33.9
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 8.395,
+   "end": 13.37,
+   "words": [
+    {
+     "word": "Round",
+     "start": 8.645,
+     "end": 8.907
+    },
+    {
+     "word": "two.",
+     "start": 8.907,
+     "end": 9.27
+    },
+    {
+     "word": "Whose",
+     "start": 9.37,
+     "end": 9.545
+    },
+    {
+     "word": "workers",
+     "start": 9.545,
+     "end": 9.883
+    },
+    {
+     "word": "abroad",
+     "start": 9.883,
+     "end": 10.245
+    },
+    {
+     "word": "send",
+     "start": 10.245,
+     "end": 10.445
+    },
+    {
+     "word": "more",
+     "start": 10.445,
+     "end": 10.607
+    },
+    {
+     "word": "money",
+     "start": 10.607,
+     "end": 10.82
+    },
+    {
+     "word": "home?",
+     "start": 10.82,
+     "end": 11.27
+    },
+    {
+     "word": "Pakistan",
+     "start": 11.395,
+     "end": 12.12
+    },
+    {
+     "word": "or",
+     "start": 12.12,
+     "end": 12.245
+    },
+    {
+     "word": "Bangladesh?",
+     "start": 12.245,
+     "end": 13.12
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Pakistan. By almost seven billion dollars.",
+   "props": {
+    "reveal": true
+   },
+   "start": 15.03,
+   "end": 18.105,
+   "words": [
+    {
+     "word": "Pakistan.",
+     "start": 15.23,
+     "end": 15.93
+    },
+    {
+     "word": "By",
+     "start": 16.005,
+     "end": 16.18
+    },
+    {
+     "word": "almost",
+     "start": 16.18,
+     "end": 16.492
+    },
+    {
+     "word": "seven",
+     "start": 16.492,
+     "end": 16.855
+    },
+    {
+     "word": "billion",
+     "start": 16.855,
+     "end": 17.205
+    },
+    {
+     "word": "dollars.",
+     "start": 17.205,
+     "end": 17.88
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Final round. Whose economy is bigger? Pakistan or Bangladesh?",
+   "props": {
+    "question": "Whose economy is bigger?",
+    "format": {
+     "prefix": "$",
+     "suffix": "B"
+    },
+    "options": [
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 407
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "value": 456
+     }
+    ],
+    "pause": 1.8
+   },
+   "start": 18.165,
+   "end": 22.565,
+   "words": [
+    {
+     "word": "Final",
+     "start": 18.415,
+     "end": 18.74
+    },
+    {
+     "word": "round.",
+     "start": 18.74,
+     "end": 19.19
+    },
+    {
+     "word": "Whose",
+     "start": 19.265,
+     "end": 19.44
+    },
+    {
+     "word": "economy",
+     "start": 19.44,
+     "end": 19.965
+    },
+    {
+     "word": "is",
+     "start": 19.965,
+     "end": 20.115
+    },
+    {
+     "word": "bigger?",
+     "start": 20.115,
+     "end": 20.54
+    },
+    {
+     "word": "Pakistan",
+     "start": 20.64,
+     "end": 21.315
+    },
+    {
+     "word": "or",
+     "start": 21.315,
+     "end": 21.44
+    },
+    {
+     "word": "Bangladesh?",
+     "start": 21.44,
+     "end": 22.315
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Bangladesh. By forty-nine billion dollars. With eighty million fewer people.",
+   "props": {
+    "reveal": true
+   },
+   "start": 24.425,
+   "end": 29.2,
+   "words": [
+    {
+     "word": "Bangladesh.",
+     "start": 24.65,
+     "end": 25.325
+    },
+    {
+     "word": "By",
+     "start": 25.4,
+     "end": 25.588
+    },
+    {
+     "word": "forty-nine",
+     "start": 25.588,
+     "end": 26.075
+    },
+    {
+     "word": "billion",
+     "start": 26.075,
+     "end": 26.425
+    },
+    {
+     "word": "dollars.",
+     "start": 26.425,
+     "end": 27.1
+    },
+    {
+     "word": "With",
+     "start": 27.175,
+     "end": 27.387
+    },
+    {
+     "word": "eighty",
+     "start": 27.387,
+     "end": 27.738
+    },
+    {
+     "word": "million",
+     "start": 27.738,
+     "end": 28.125
+    },
+    {
+     "word": "fewer",
+     "start": 28.125,
+     "end": 28.375
+    },
+    {
+     "word": "people.",
+     "start": 28.375,
+     "end": 28.975
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Pakistan or Bangladesh? Comment your flag.",
+   "props": {},
+   "start": 29.26,
+   "end": 32.31,
+   "words": [
+    {
+     "word": "Pakistan",
+     "start": 29.485,
+     "end": 30.085
+    },
+    {
+     "word": "or",
+     "start": 30.085,
+     "end": 30.21
+    },
+    {
+     "word": "Bangladesh?",
+     "start": 30.21,
+     "end": 30.935
+    },
+    {
+     "word": "Comment",
+     "start": 31.06,
+     "end": 31.373
+    },
+    {
+     "word": "your",
+     "start": 31.373,
+     "end": 31.485
+    },
+    {
+     "word": "flag.",
+     "start": 31.485,
+     "end": 32.06
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 990,
+ "fps": 30,
+ "aligned": "tts"
+}
