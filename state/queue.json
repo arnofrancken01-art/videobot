@@ -1,5 +1,5 @@
 {
- "_offset": 607496380,
+ "_offset": 607496382,
  "ep006": {
   "status": "approved",
   "posts": {
@@ -283,6 +283,17 @@
     "url": "https://youtube.com/shorts/JwnA4CrDD2g",
     "privacy": "private",
     "at": "2026-11-20T12:54:36Z"
+   }
+  }
+ },
+ "lv002": {
+  "status": "approved",
+  "posts": {
+   "youtube": {
+    "id": "otxQv7rN_wM",
+    "url": "https://youtube.com/watch?v=otxQv7rN_wM",
+    "privacy": "private",
+    "at": "2026-11-20T12:54:48Z"
    }
   }
  }
