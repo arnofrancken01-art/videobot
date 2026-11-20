@@ -1,0 +1,1113 @@
+{
+ "id": "lv002",
+ "long": true,
+ "title": "India 🇮🇳 vs Pakistan 🇵🇰: 20 rounds, real data. Who wins?",
+ "headline": "India or *Pakistan*?",
+ "topic": "India vs Pakistan",
+ "cover": {
+  "flags": [
+   "in",
+   "pk"
+  ],
+  "vs": true
+ },
+ "description": "India against Pakistan in 20 rounds: people, money, army, the rupee and daily life, plus a quiz where you play along. Every number is real World Bank data. India or Pakistan? Comment your flag.",
+ "tags": [
+  "india vs pakistan",
+  "india vs pakistan comparison",
+  "pakistan vs india",
+  "india vs pakistan economy",
+  "india vs pakistan army",
+  "indian rupee vs pakistani rupee",
+  "india population",
+  "pakistan population",
+  "country comparison",
+  "india vs pakistan 2025"
+ ],
+ "hashtags": [
+  "india",
+  "pakistan",
+  "indiavspakistan",
+  "countrycomparison"
+ ],
+ "source": "World Bank, World Development Indicators (latest year with data for both countries per round, 2020-2025), data.worldbank.org",
+ "voice": "af_heart",
+ "format": "battle",
+ "music": 4,
+ "localizations": {
+  "hi": {
+   "title": "भारत 🇮🇳 vs पाकिस्तान 🇵🇰: 20 राउंड, असली आंकड़े। कौन जीतेगा?",
+   "description": "भारत बनाम पाकिस्तान, 20 राउंड: आबादी, पैसा, सेना, रुपया और रोज़मर्रा की ज़िंदगी। असली वर्ल्ड बैंक आंकड़े। अपना झंडा कमेंट करें।"
+  },
+  "ur": {
+   "title": "بھارت 🇮🇳 vs پاکستان 🇵🇰: 20 راؤنڈ، اصل ڈیٹا۔ کون جیتے گا؟",
+   "description": "بھارت بمقابلہ پاکستان، 20 راؤنڈ: آبادی، پیسہ، فوج، روپیہ اور روزمرہ زندگی۔ ورلڈ بینک کا اصل ڈیٹا۔ اپنا جھنڈا کمنٹ کریں۔"
+  }
+ },
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "India against Pakistan. Twenty rounds. Real numbers. Keep score.",
+   "props": {
+    "kicker": "India vs Pakistan",
+    "big": 20,
+    "format": {
+     "suffix": " rounds"
+    },
+    "sub": "Real World Bank data",
+    "flag": "in"
+   }
+  },
+  {
+   "scene": "hook",
+   "text": "Pakistan wins rounds you would never guess. And one chapter ends four to zero.",
+   "props": {
+    "kicker": "Pakistan's population, 2025",
+    "big": 255.0,
+    "format": {
+     "suffix": "M"
+    },
+    "sub": "India: 1,464M",
+    "flag": "pk"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "First up. People. Who has the bigger crowd?",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Pakistan",
+     "flag": "pk"
+    },
+    "chapter": "India vs Pakistan: *People*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population. India has almost six times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 1464.0,
+     "b": 255.0,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population growth. Pakistan grows almost twice as fast.",
+   "props": {
+    "stat": {
+     "label": "Population growth (2025)",
+     "a": 0.89,
+     "b": 1.56,
+     "format": {
+      "suffix": "%",
+      "decimals": 2
+     }
+    },
+    "at": "Pakistan"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Life in cities. Pakistan wins again. Almost forty percent live in a city.",
+   "props": {
+    "stat": {
+     "label": "People in cities (2025)",
+     "a": 35.7,
+     "b": 39.5,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "Pakistan"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Life expectancy. People in India live four years longer.",
+   "props": {
+    "stat": {
+     "label": "Life expectancy (2024)",
+     "a": 72.2,
+     "b": 67.8,
+     "format": {
+      "suffix": " yrs",
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "The people chapter ends in a draw. Two all.",
+   "props": {}
+  },
+  {
+   "scene": "race",
+   "text": "No points for this one. Just watch the biggest countries on earth since 1990.",
+   "props": {
+    "title": "Most people on earth",
+    "format": {
+     "suffix": "M"
+    },
+    "years": [
+     1990,
+     1991,
+     1992,
+     1993,
+     1994,
+     1995,
+     1996,
+     1997,
+     1998,
+     1999,
+     2000,
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "focus": "Pakistan",
+    "show": 6,
+    "to": 1993,
+    "items": [
+     {
+      "label": "China",
+      "flag": "cn",
+      "values": [
+       1135,
+       1151,
+       1165,
+       1178,
+       1192,
+       1205,
+       1218,
+       1230,
+       1242,
+       1253,
+       1263,
+       1272,
+       1280,
+       1288,
+       1296,
+       1304,
+       1311,
+       1318,
+       1325,
+       1331,
+       1338,
+       1345,
+       1354,
+       1363,
+       1372,
+       1380,
+       1388,
+       1396,
+       1403,
+       1408,
+       1411,
+       1412,
+       1412,
+       1411,
+       1409,
+       1407
+      ]
+     },
+     {
+      "label": "India",
+      "flag": "in",
+      "values": [
+       865,
+       884,
+       903,
+       922,
+       941,
+       960,
+       980,
+       999,
+       1019,
+       1038,
+       1058,
+       1078,
+       1098,
+       1117,
+       1136,
+       1155,
+       1173,
+       1191,
+       1208,
+       1226,
+       1243,
+       1261,
+       1279,
+       1296,
+       1312,
+       1328,
+       1344,
+       1360,
+       1375,
+       1389,
+       1403,
+       1414,
+       1425,
+       1438,
+       1451,
+       1464
+      ]
+     },
+     {
+      "label": "USA",
+      "flag": "us",
+      "values": [
+       250,
+       253,
+       257,
+       260,
+       263,
+       266,
+       269,
+       273,
+       276,
+       279,
+       282,
+       285,
+       288,
+       290,
+       293,
+       296,
+       298,
+       301,
+       304,
+       307,
+       309,
+       312,
+       314,
+       317,
+       319,
+       322,
+       324,
+       327,
+       329,
+       330,
+       332,
+       332,
+       334,
+       337,
+       340,
+       342
+      ]
+     },
+     {
+      "label": "Indonesia",
+      "flag": "id",
+      "values": [
+       184,
+       187,
+       190,
+       193,
+       197,
+       200,
+       203,
+       207,
+       210,
+       213,
+       216,
+       219,
+       222,
+       225,
+       228,
+       231,
+       234,
+       237,
+       240,
+       243,
+       246,
+       249,
+       253,
+       256,
+       259,
+       262,
+       265,
+       267,
+       270,
+       272,
+       275,
+       277,
+       279,
+       281,
+       283,
+       286
+      ]
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "values": [
+       116,
+       120,
+       124,
+       127,
+       131,
+       135,
+       139,
+       143,
+       147,
+       151,
+       155,
+       159,
+       163,
+       167,
+       171,
+       175,
+       180,
+       184,
+       189,
+       194,
+       199,
+       204,
+       208,
+       211,
+       214,
+       217,
+       220,
+       223,
+       227,
+       231,
+       235,
+       239,
+       244,
+       248,
+       251,
+       255
+      ]
+     },
+     {
+      "label": "Brazil",
+      "flag": "br",
+      "values": [
+       149,
+       152,
+       154,
+       157,
+       159,
+       162,
+       164,
+       167,
+       169,
+       172,
+       174,
+       176,
+       179,
+       181,
+       183,
+       185,
+       187,
+       189,
+       190,
+       192,
+       194,
+       195,
+       197,
+       198,
+       200,
+       202,
+       203,
+       205,
+       206,
+       207,
+       209,
+       210,
+       210,
+       211,
+       212,
+       213
+      ]
+     },
+     {
+      "label": "Nigeria",
+      "flag": "ng",
+      "values": [
+       97,
+       100,
+       102,
+       105,
+       108,
+       111,
+       114,
+       117,
+       120,
+       123,
+       126,
+       130,
+       133,
+       137,
+       141,
+       145,
+       149,
+       153,
+       158,
+       162,
+       167,
+       171,
+       176,
+       181,
+       186,
+       191,
+       195,
+       200,
+       205,
+       209,
+       214,
+       219,
+       223,
+       228,
+       233,
+       238
+      ]
+     },
+     {
+      "label": "Russia",
+      "flag": "ru",
+      "values": [
+       148,
+       148,
+       149,
+       148,
+       148,
+       148,
+       148,
+       148,
+       148,
+       147,
+       147,
+       146,
+       145,
+       145,
+       144,
+       144,
+       143,
+       143,
+       143,
+       143,
+       143,
+       143,
+       143,
+       144,
+       144,
+       145,
+       145,
+       145,
+       145,
+       145,
+       145,
+       145,
+       144,
+       144,
+       144,
+       144
+      ]
+     },
+     {
+      "label": "Japan",
+      "flag": "jp",
+      "values": [
+       123,
+       124,
+       124,
+       125,
+       125,
+       125,
+       126,
+       126,
+       126,
+       127,
+       127,
+       127,
+       127,
+       128,
+       128,
+       128,
+       128,
+       128,
+       128,
+       128,
+       128,
+       128,
+       128,
+       127,
+       127,
+       127,
+       127,
+       127,
+       127,
+       127,
+       126,
+       126,
+       125,
+       125,
+       124,
+       123
+      ]
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "values": [
+       112,
+       114,
+       116,
+       118,
+       120,
+       123,
+       125,
+       127,
+       130,
+       132,
+       135,
+       137,
+       139,
+       141,
+       143,
+       145,
+       146,
+       148,
+       149,
+       151,
+       152,
+       154,
+       155,
+       157,
+       158,
+       159,
+       161,
+       162,
+       164,
+       165,
+       166,
+       168,
+       169,
+       171,
+       174,
+       176
+      ]
+     }
+    ],
+    "chapter": "The *population* race"
+   }
+  },
+  {
+   "scene": "race",
+   "text": "In 1990, Pakistan is not even in the top six.",
+   "props": {
+    "to": 1996
+   }
+  },
+  {
+   "scene": "race",
+   "text": "Then it climbs. In 1999, Pakistan passes Russia.",
+   "props": {
+    "to": 2003
+   }
+  },
+  {
+   "scene": "race",
+   "text": "In 2009, it passes Brazil.",
+   "props": {
+    "to": 2014
+   }
+  },
+  {
+   "scene": "race",
+   "text": "And in 2021, India passes China. Now it has more people than any country on earth.",
+   "props": {
+    "to": 2025
+   }
+  },
+  {
+   "scene": "race",
+   "text": "Pakistan has more than doubled since 1990. India grew by almost seventy percent.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Next up. Money. The score is two all.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Pakistan",
+     "flag": "pk"
+    },
+    "chapter": "India vs Pakistan: *Money*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. India's economy is almost ten times bigger.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 3.96,
+     "b": 0.41,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Income per person. India leads by almost seventy percent.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 2702.0,
+     "b": 1596.0,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "But it was not always like this. In 2005, Pakistan was richer per person. India passed it for good in 2009.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Now a twist. How much the average person spends in a year. Pakistan wins.",
+   "props": {
+    "stat": {
+     "label": "Spending per person, 2015 $ (2025)",
+     "a": 1503.0,
+     "b": 1564.0,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Pakistan"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "The reason? India saves thirty-five percent of its income. Pakistan saves fifteen.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Reserves and gold. India holds more than twenty-six times as much.",
+   "props": {
+    "stat": {
+     "label": "Reserves and gold (2025)",
+     "a": 700.0,
+     "b": 26.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Exports. India sells almost twenty-two times more to the world.",
+   "props": {
+    "stat": {
+     "label": "Exports (2025)",
+     "a": 881.0,
+     "b": 41.0,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "India takes the money chapter. Four to one. Overall, six to three.",
+   "props": {}
+  },
+  {
+   "scene": "quiz",
+   "text": "Your turn. Three rounds. Guess before the timer ends. These count too. Who has more people online?",
+   "props": {
+    "question": "More people online? (2024)",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 64.9
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 57.3
+     }
+    ],
+    "pause": 2.0,
+    "chapter": "Quiz: *your* turn"
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "India. Sixty-five percent against fifty-seven.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Who uses more electricity per person?",
+   "props": {
+    "question": "Electricity per person (2024)",
+    "format": {
+     "suffix": " kWh"
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 1223.0
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 493.0
+     }
+    ],
+    "pause": 2.0
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "India. Two and a half times more.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Last one. Where do fewer young people struggle to find a job?",
+   "props": {
+    "question": "Youth unemployment (2025)",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 16.0
+     },
+     {
+      "label": "Pakistan",
+      "flag": "pk",
+      "value": 9.6
+     }
+    ],
+    "pick": "lower",
+    "pause": 2.2
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Pakistan. About ten percent. In India, it is sixteen.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "How many did you get? The score is now eight to four.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Now the army. Only numbers. No politics.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Pakistan",
+     "flag": "pk"
+    },
+    "chapter": "India vs Pakistan: *Army*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Soldiers. India has more than three times as many.",
+   "props": {
+    "stat": {
+     "label": "Soldiers (2020)",
+     "a": 3.07,
+     "b": 0.94,
+     "format": {
+      "suffix": "M",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Military budget. India spends almost eight times more.",
+   "props": {
+    "stat": {
+     "label": "Military budget (2025)",
+     "a": 92.1,
+     "b": 11.9,
+     "format": {
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "But as a share of the economy, Pakistan spends more. Almost three percent.",
+   "props": {
+    "stat": {
+     "label": "Army share of economy (2025)",
+     "a": 2.3,
+     "b": 2.9,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "Pakistan"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Two to one for India. Overall, ten to five.",
+   "props": {}
+  },
+  {
+   "scene": "thennow",
+   "text": "Both countries call their money the rupee. In 1990, one dollar bought twenty-two Pakistani rupees. Guess what it buys now.",
+   "props": {
+    "label": "$1 in Pakistani rupees",
+    "flag": "pk",
+    "then": {
+     "year": 1990,
+     "value": 21.7
+    },
+    "now": {
+     "year": 2025,
+     "value": 281.1
+    },
+    "format": {
+     "decimals": 1
+    },
+    "good": false,
+    "chapter": "Battle of the *rupees*"
+   }
+  },
+  {
+   "scene": "thennow",
+   "text": "Two hundred eighty-one. Almost thirteen times more.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "thennow",
+   "text": "In 1990, one dollar bought seventeen and a half Indian rupees.",
+   "props": {
+    "label": "$1 in Indian rupees",
+    "flag": "in",
+    "then": {
+     "year": 1990,
+     "value": 17.5
+    },
+    "now": {
+     "year": 2025,
+     "value": 87.2
+    },
+    "format": {
+     "decimals": 1
+    },
+    "good": false
+   }
+  },
+  {
+   "scene": "thennow",
+   "text": "Today, eighty-seven. Five times more. The Indian rupee held on better. Point to India. Eleven to five.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Last chapter. Daily life. Four rounds left.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Pakistan",
+     "flag": "pk"
+    },
+    "chapter": "India vs Pakistan: *Daily life*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Prices. They rise slower in India.",
+   "props": {
+    "stat": {
+     "label": "Inflation (2025)",
+     "a": 2.4,
+     "b": 3.5,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     },
+     "pick": "lower"
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Jobs. Fewer people are out of work in India.",
+   "props": {
+    "stat": {
+     "label": "Unemployment (2025)",
+     "a": 4.2,
+     "b": 5.4,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     },
+     "pick": "lower"
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Mobile phones per hundred people. India wins. But only just.",
+   "props": {
+    "stat": {
+     "label": "Mobile phones per 100 (2024)",
+     "a": 79.4,
+     "b": 76.9,
+     "format": {
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Women at work. Almost one in three in India. One in four in Pakistan.",
+   "props": {
+    "stat": {
+     "label": "Women in the workforce (2025)",
+     "a": 32.4,
+     "b": 24.0,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "India"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "There it is. Four to zero for India.",
+   "props": {}
+  },
+  {
+   "scene": "bignumber",
+   "text": "Final score. India fifteen. Pakistan five.",
+   "props": {
+    "value": 15,
+    "format": {
+     "suffix": " – 5"
+    },
+    "caption": "India vs Pakistan, 20 rounds",
+    "at": "fifteen",
+    "chapter": "The *final* score"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "Pakistan took five rounds. It is younger. It grows faster. And its people spend more.",
+   "props": {
+    "value": 1.56,
+    "format": {
+     "suffix": "%",
+     "decimals": 2
+    },
+    "caption": "Pakistan's population growth per year",
+    "at": "faster"
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "India or Pakistan? Comment your flag.",
+   "props": {}
+  }
+ ]
+}
