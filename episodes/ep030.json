@@ -1,0 +1,27 @@
+{
+ "id": "ep030",
+ "title": "Pakistan 🇵🇰 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data",
+ "topic": "Pakistan vs Bangladesh",
+ "headline": "Pakistan or *Bangladesh*?",
+ "description": "Pakistan or Bangladesh: people, money sent home from abroad and the size of the economy. Three rounds of real World Bank data. Which side are you on? Comment your flag.",
+ "tags": ["pakistan vs bangladesh", "bangladesh vs pakistan", "pakistan economy", "bangladesh economy", "pakistan population", "bangladesh gdp 2025", "pakistan gdp 2025", "country comparison", "geography quiz", "south asia"],
+ "source": "World Bank: population, personal remittances received and GDP in current US dollars (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["pakistan", "bangladesh", "pakistanvsbangladesh", "countrycomparison"],
+ "format": "quiz",
+ "music": 4,
+ "cover": {"flags": ["pk", "bd"], "vs": true},
+ "localizations": {
+  "ur": {"title": "پاکستان 🇵🇰 vs بنگلہ دیش 🇧🇩: کون جیتے گا؟ 3 راؤنڈ", "description": "پاکستان یا بنگلہ دیش: آبادی، بیرون ملک سے بھیجی گئی رقم اور معیشت۔ اصل اعداد و شمار، تین راؤنڈ۔ اپنا جھنڈا کمنٹ کریں۔"},
+  "bn": {"title": "পাকিস্তান 🇵🇰 vs বাংলাদেশ 🇧🇩: কে জিতবে? ৩ রাউন্ড", "description": "পাকিস্তান না বাংলাদেশ: জনসংখ্যা, প্রবাসী আয় আর অর্থনীতি। আসল ডেটা, তিন রাউন্ড। আপনার পতাকা কমেন্ট করুন।"}
+ },
+ "segments": [
+  {"scene": "quiz", "text": "Pakistan or Bangladesh. Three rounds. Who has more people?", "props": {"question": "Who has more people?", "format": {"suffix": "M", "decimals": 1}, "options": [{"label": "Pakistan", "flag": "pk", "value": 255.2}, {"label": "Bangladesh", "flag": "bd", "value": 175.7}], "pause": 1.6}},
+  {"scene": "quiz", "text": "Pakistan. Almost eighty million more.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Round two. Whose workers abroad send more money home? Pakistan or Bangladesh?", "props": {"question": "Money sent home from abroad?", "format": {"prefix": "$", "suffix": "B", "decimals": 1}, "options": [{"label": "Pakistan", "flag": "pk", "value": 40.5}, {"label": "Bangladesh", "flag": "bd", "value": 33.9}], "pause": 1.6}},
+  {"scene": "quiz", "text": "Pakistan. By almost seven billion dollars.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Final round. Whose economy is bigger? Pakistan or Bangladesh?", "props": {"question": "Whose economy is bigger?", "format": {"prefix": "$", "suffix": "B"}, "options": [{"label": "Pakistan", "flag": "pk", "value": 407}, {"label": "Bangladesh", "flag": "bd", "value": 456}], "pause": 1.8}},
+  {"scene": "quiz", "text": "Bangladesh. By forty-nine billion dollars. With eighty million fewer people.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "Pakistan or Bangladesh? Comment your flag.", "props": {}}
+ ]
+}
