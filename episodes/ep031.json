@@ -1,0 +1,23 @@
+{
+ "id": "ep031",
+ "title": "India 🇮🇳 is bigger than these 7 European countries combined",
+ "topic": "India vs Europe",
+ "headline": "India vs *7 countries*",
+ "description": "India against France, Spain, Germany, Italy, the UK, Poland and Sweden combined. Which is bigger? Real World Bank land area data for 2024. Comment your flag.",
+ "tags": ["india size comparison", "india vs europe", "how big is india", "india land area", "country size comparison", "india vs uk", "india vs france", "india vs germany", "europe vs india", "country comparison"],
+ "source": "World Bank, land area in square kilometers (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "europe", "indiavseurope", "countrycomparison"],
+ "format": "bubbles",
+ "music": 2,
+ "cover": {"flags": ["in"]},
+ "localizations": {"hi": {"title": "भारत 🇮🇳 इन 7 यूरोपीय देशों से मिलकर भी बड़ा है", "description": "भारत बनाम फ्रांस, स्पेन, जर्मनी, इटली, ब्रिटेन, पोलैंड और स्वीडन। असली आंकड़े। अपना झंडा कमेंट करें।"}},
+ "segments": [
+  {"scene": "bubbles", "text": "India against seven European countries. This is India. Almost three million square kilometers.", "props": {"title": "Land area, 2024", "format": {"suffix": "k km²"}, "item": {"label": "India", "flag": "in", "value": 2973}, "at": "This"}},
+  {"scene": "bubbles", "text": "France. Five hundred thirty-nine thousand.", "props": {"item": {"label": "France", "flag": "fr", "value": 539}, "at": "France"}},
+  {"scene": "bubbles", "text": "Spain. Five hundred thousand.", "props": {"item": {"label": "Spain", "flag": "es", "value": 500}, "at": "Spain"}},
+  {"scene": "bubbles", "text": "Germany. Three hundred forty-nine thousand.", "props": {"item": {"label": "Germany", "flag": "de", "value": 349}, "at": "Germany"}},
+  {"scene": "bignumber", "text": "Now add Italy and the UK. Add Poland and Sweden. India is still bigger. By three hundred thirty-four thousand.", "props": {"value": 334, "format": {"prefix": "+", "suffix": "k km²"}, "caption": "more land in India than all seven combined", "at": "three", "compare": {"format": {"suffix": "k km²"}, "items": [{"label": "France, Spain, Germany, Italy, UK, Poland, Sweden", "value": 2639}, {"label": "India", "value": 2973}]}}},
+  {"scene": "outro", "text": "Bigger than you thought? Comment your flag.", "props": {}}
+ ]
+}
