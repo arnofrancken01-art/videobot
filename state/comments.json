@@ -1,20 +1,20 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-21T14:42:42Z",
+ "fetched_at": "2026-11-21T16:12:05Z",
  "videos": [
   {
    "video_id": "aUsEuxsRuCk",
    "title": "Pakistan 🇵🇰 vs the world: true or false? 3 rounds #shorts",
-   "views": 72,
-   "question_posted": false,
+   "views": 315,
+   "question_posted": true,
    "question": "How many did you get?",
    "comments": []
   },
   {
    "video_id": "5U8cHEF28bw",
    "title": "India 🇮🇳 is bigger than these 7 European countries combined #shorts",
-   "views": 430,
-   "question_posted": false,
+   "views": 759,
+   "question_posted": true,
    "question": "Bigger than you thought?",
    "comments": []
   },
@@ -22,14 +22,14 @@
    "video_id": "otxQv7rN_wM",
    "title": "India 🇮🇳 vs Pakistan 🇵🇰: 20 rounds, real data. Who wins?",
    "views": 0,
-   "question_posted": false,
+   "question_posted": true,
    "question": "India or Pakistan?",
    "comments": []
   },
   {
    "video_id": "JwnA4CrDD2g",
    "title": "Pakistan 🇵🇰 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data #shorts",
-   "views": 62,
+   "views": 63,
    "question_posted": true,
    "question": "Pakistan or Bangladesh?",
    "comments": []
@@ -78,7 +78,7 @@
   {
    "video_id": "cH0S7sD09O0",
    "title": "India 🇮🇳 vs UK 🇬🇧: who wins? 3 rounds, real data #shorts",
-   "views": 1102,
+   "views": 1111,
    "question_posted": true,
    "question": "India or the UK?",
    "comments": [
@@ -86,8 +86,13 @@
      "id": "UgwAwZjIJSjdvt1siD14AaABAg",
      "author": "@milaperez2025",
      "text": "🇮🇳 and 🇵🇭",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "India and the Philippines, love it! The Philippine economy is almost 6x bigger than in 2000 🇵🇭 Should we do Philippines vs India next?"
+      }
+     ]
     },
     {
      "id": "UgxSlrZ0ncP66CH2BdF4AaABAg",
@@ -122,27 +127,6 @@
       {
        "author": "@Money_mapped1",
        "text": "Flag noted! India even outspends the UK on its army, $92.1B vs $89B. Who should India face next?"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "video_id": "qN7fRm4ALU0",
-   "title": "Bangladesh 🇧🇩 vs Pakistan 🇵🇰 vs India 🇮🇳: who got richer? #shorts",
-   "views": 643,
-   "question_posted": true,
-   "question": "Bangladesh, India or Pakistan?",
-   "comments": [
-    {
-     "id": "UgwHysXlAmv7FB0ae7x4AaABAg",
-     "author": "@SaifulIslamChowdhury-t8d",
-     "text": "Team bangladesh jodi tumi bangladeshi ati porte parba",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "Team Bangladesh! From poorest of the three in 1990 to passing India in 2019 🇧🇩 Where in Bangladesh are you watching from?"
       }
      ]
     }
