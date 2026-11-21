@@ -1,0 +1,26 @@
+{
+ "id": "ep032",
+ "title": "Pakistan 🇵🇰 vs the world: true or false? 3 rounds",
+ "topic": "Pakistan vs the world",
+ "headline": "Pakistan vs *the world*",
+ "description": "Pakistan against Turkey, America and Russia. Three true-or-false rounds with real World Bank data. How many did you get right? Comment your flag.",
+ "tags": ["pakistan vs the world", "pakistan vs russia", "pakistan vs turkey", "pakistan vs usa", "pakistan population", "pakistan army", "pakistan size comparison", "country comparison", "true or false quiz", "geography quiz"],
+ "source": "World Bank: land area (2024), armed forces personnel (2020), population (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["pakistan", "turkey", "pakistanvsrussia", "countrycomparison"],
+ "format": "truefalse",
+ "music": 4,
+ "cover": {"flags": ["pk"]},
+ "localizations": {
+  "ur": {"title": "پاکستان 🇵🇰 بمقابلہ دنیا: سچ یا جھوٹ؟ 3 راؤنڈ", "description": "پاکستان بمقابلہ ترکی، امریکہ اور روس۔ اصلی اعداد و شمار۔ اپنا جھنڈا کمنٹ کریں۔"}
+ },
+ "segments": [
+  {"scene": "truefalse", "text": "Pakistan against the world. True or false? Pakistan is bigger than Turkey.", "props": {"statement": "Pakistan has more land than Turkey", "answer": true, "fact": "Pakistan 770,880 km² · Turkey 769,630 km² (2024)", "flag": "pk", "pause": 1.6}},
+  {"scene": "truefalse", "text": "True. By just one thousand two hundred fifty square kilometers.", "props": {"reveal": true}},
+  {"scene": "truefalse", "text": "Round two. Pakistan has more soldiers than America.", "props": {"statement": "Pakistan has more soldiers than America", "answer": false, "fact": "Pakistan 943k · USA 1.40M troops (2020)", "flag": "pk", "pause": 1.6}},
+  {"scene": "truefalse", "text": "False. America has one point four million. Pakistan has nine hundred forty-three thousand.", "props": {"reveal": true}},
+  {"scene": "truefalse", "text": "Final round. Pakistan has more people than Russia.", "props": {"statement": "Pakistan has more people than Russia", "answer": true, "fact": "Pakistan 255M · Russia 144M (2025)", "flag": "pk", "pause": 1.8}},
+  {"scene": "truefalse", "text": "True. Over a hundred million more.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "How many did you get? Comment your flag.", "props": {}}
+ ]
+}
