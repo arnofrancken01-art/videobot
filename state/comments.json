@@ -1,19 +1,43 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-20T16:15:20Z",
+ "fetched_at": "2026-11-21T14:42:42Z",
  "videos": [
+  {
+   "video_id": "aUsEuxsRuCk",
+   "title": "Pakistan 🇵🇰 vs the world: true or false? 3 rounds #shorts",
+   "views": 72,
+   "question_posted": false,
+   "question": "How many did you get?",
+   "comments": []
+  },
+  {
+   "video_id": "5U8cHEF28bw",
+   "title": "India 🇮🇳 is bigger than these 7 European countries combined #shorts",
+   "views": 430,
+   "question_posted": false,
+   "question": "Bigger than you thought?",
+   "comments": []
+  },
+  {
+   "video_id": "otxQv7rN_wM",
+   "title": "India 🇮🇳 vs Pakistan 🇵🇰: 20 rounds, real data. Who wins?",
+   "views": 0,
+   "question_posted": false,
+   "question": "India or Pakistan?",
+   "comments": []
+  },
   {
    "video_id": "JwnA4CrDD2g",
    "title": "Pakistan 🇵🇰 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data #shorts",
-   "views": 0,
-   "question_posted": false,
+   "views": 62,
+   "question_posted": true,
    "question": "Pakistan or Bangladesh?",
    "comments": []
   },
   {
    "video_id": "RuZTsOrVfyA",
    "title": "Brazil 🇧🇷 vs Argentina 🇦🇷: who wins? 4 rounds, real data #shorts",
-   "views": 0,
+   "views": 328,
    "question_posted": true,
    "question": "Two all. Brazil or Argentina?",
    "comments": []
@@ -21,7 +45,7 @@
   {
    "video_id": "KW6MGdcSg_4",
    "title": "India 🇮🇳 vs USA 🇺🇸: true or false? 3 rounds, real data #shorts",
-   "views": 1061,
+   "views": 1102,
    "question_posted": true,
    "question": "India or America?",
    "comments": [
@@ -54,10 +78,17 @@
   {
    "video_id": "cH0S7sD09O0",
    "title": "India 🇮🇳 vs UK 🇬🇧: who wins? 3 rounds, real data #shorts",
-   "views": 1021,
+   "views": 1102,
    "question_posted": true,
    "question": "India or the UK?",
    "comments": [
+    {
+     "id": "UgwAwZjIJSjdvt1siD14AaABAg",
+     "author": "@milaperez2025",
+     "text": "🇮🇳 and 🇵🇭",
+     "answered": false,
+     "replies": []
+    },
     {
      "id": "UgxSlrZ0ncP66CH2BdF4AaABAg",
      "author": "@SoumyaSathyan-o5z",
@@ -99,7 +130,7 @@
   {
    "video_id": "qN7fRm4ALU0",
    "title": "Bangladesh 🇧🇩 vs Pakistan 🇵🇰 vs India 🇮🇳: who got richer? #shorts",
-   "views": 585,
+   "views": 643,
    "question_posted": true,
    "question": "Bangladesh, India or Pakistan?",
    "comments": [
@@ -116,14 +147,6 @@
      ]
     }
    ]
-  },
-  {
-   "video_id": "5xG8NxJ7ZDg",
-   "title": "India 🇮🇳 vs China 🇨🇳: who wins? (Part 2) #shorts",
-   "views": 674,
-   "question_posted": true,
-   "question": "Two all again. India or China?",
-   "comments": []
   }
  ]
 }
