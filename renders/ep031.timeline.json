@@ -1,0 +1,419 @@
+{
+ "id": "ep031",
+ "title": "India \ud83c\uddee\ud83c\uddf3 is bigger than these 7 European countries combined",
+ "topic": "India vs Europe",
+ "headline": "India vs *7 countries*",
+ "description": "India against France, Spain, Germany, Italy, the UK, Poland and Sweden combined. Which is bigger? Real World Bank land area data for 2024. Comment your flag.",
+ "tags": [
+  "india size comparison",
+  "india vs europe",
+  "how big is india",
+  "india land area",
+  "country size comparison",
+  "india vs uk",
+  "india vs france",
+  "india vs germany",
+  "europe vs india",
+  "country comparison"
+ ],
+ "source": "World Bank, land area in square kilometers (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "europe",
+  "indiavseurope",
+  "countrycomparison"
+ ],
+ "format": "bubbles",
+ "music": 2,
+ "cover": {
+  "flags": [
+   "in"
+  ]
+ },
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 \u0907\u0928 7 \u092f\u0942\u0930\u094b\u092a\u0940\u092f \u0926\u0947\u0936\u094b\u0902 \u0938\u0947 \u092e\u093f\u0932\u0915\u0930 \u092d\u0940 \u092c\u0921\u093c\u093e \u0939\u0948",
+   "description": "\u092d\u093e\u0930\u0924 \u092c\u0928\u093e\u092e \u092b\u094d\u0930\u093e\u0902\u0938, \u0938\u094d\u092a\u0947\u0928, \u091c\u0930\u094d\u092e\u0928\u0940, \u0907\u091f\u0932\u0940, \u092c\u094d\u0930\u093f\u091f\u0947\u0928, \u092a\u094b\u0932\u0948\u0902\u0921 \u0914\u0930 \u0938\u094d\u0935\u0940\u0921\u0928\u0964 \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  }
+ },
+ "segments": [
+  {
+   "scene": "bubbles",
+   "text": "India against seven European countries. This is India. Almost three million square kilometers.",
+   "props": {
+    "title": "Land area, 2024",
+    "format": {
+     "suffix": "k km\u00b2"
+    },
+    "item": {
+     "label": "India",
+     "flag": "in",
+     "value": 2973
+    },
+    "at": "This"
+   },
+   "start": 0.05,
+   "end": 6.175,
+   "words": [
+    {
+     "word": "India",
+     "start": 0.3,
+     "end": 0.675
+    },
+    {
+     "word": "against",
+     "start": 0.675,
+     "end": 1.062
+    },
+    {
+     "word": "seven",
+     "start": 1.062,
+     "end": 1.4
+    },
+    {
+     "word": "European",
+     "start": 1.4,
+     "end": 1.85
+    },
+    {
+     "word": "countries.",
+     "start": 1.85,
+     "end": 2.575
+    },
+    {
+     "word": "This",
+     "start": 2.675,
+     "end": 2.875
+    },
+    {
+     "word": "is",
+     "start": 2.875,
+     "end": 3.037
+    },
+    {
+     "word": "India.",
+     "start": 3.037,
+     "end": 3.65
+    },
+    {
+     "word": "Almost",
+     "start": 3.775,
+     "end": 4.188
+    },
+    {
+     "word": "three",
+     "start": 4.188,
+     "end": 4.425
+    },
+    {
+     "word": "million",
+     "start": 4.425,
+     "end": 4.775
+    },
+    {
+     "word": "square",
+     "start": 4.775,
+     "end": 5.1
+    },
+    {
+     "word": "kilometers.",
+     "start": 5.1,
+     "end": 5.95
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "France. Five hundred thirty-nine thousand.",
+   "props": {
+    "item": {
+     "label": "France",
+     "flag": "fr",
+     "value": 539
+    },
+    "at": "France"
+   },
+   "start": 6.235,
+   "end": 8.86,
+   "words": [
+    {
+     "word": "France.",
+     "start": 6.485,
+     "end": 6.91
+    },
+    {
+     "word": "Five",
+     "start": 6.985,
+     "end": 7.222
+    },
+    {
+     "word": "hundred",
+     "start": 7.222,
+     "end": 7.46
+    },
+    {
+     "word": "thirty-nine",
+     "start": 7.46,
+     "end": 7.935
+    },
+    {
+     "word": "thousand.",
+     "start": 7.935,
+     "end": 8.61
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Spain. Five hundred thousand.",
+   "props": {
+    "item": {
+     "label": "Spain",
+     "flag": "es",
+     "value": 500
+    },
+    "at": "Spain"
+   },
+   "start": 8.92,
+   "end": 11.02,
+   "words": [
+    {
+     "word": "Spain.",
+     "start": 9.145,
+     "end": 9.545
+    },
+    {
+     "word": "Five",
+     "start": 9.62,
+     "end": 9.857
+    },
+    {
+     "word": "hundred",
+     "start": 9.857,
+     "end": 10.095
+    },
+    {
+     "word": "thousand.",
+     "start": 10.095,
+     "end": 10.77
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Germany. Three hundred forty-nine thousand.",
+   "props": {
+    "item": {
+     "label": "Germany",
+     "flag": "de",
+     "value": 349
+    },
+    "at": "Germany"
+   },
+   "start": 11.08,
+   "end": 13.88,
+   "words": [
+    {
+     "word": "Germany.",
+     "start": 11.33,
+     "end": 11.88
+    },
+    {
+     "word": "Three",
+     "start": 11.992,
+     "end": 12.193
+    },
+    {
+     "word": "hundred",
+     "start": 12.193,
+     "end": 12.43
+    },
+    {
+     "word": "forty-nine",
+     "start": 12.43,
+     "end": 12.905
+    },
+    {
+     "word": "thousand.",
+     "start": 12.905,
+     "end": 13.63
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "Now add Italy and the UK. Add Poland and Sweden. India is still bigger. By three hundred thirty-four thousand.",
+   "props": {
+    "value": 334,
+    "format": {
+     "prefix": "+",
+     "suffix": "k km\u00b2"
+    },
+    "caption": "more land in India than all seven combined",
+    "at": "three",
+    "compare": {
+     "format": {
+      "suffix": "k km\u00b2"
+     },
+     "items": [
+      {
+       "label": "France, Spain, Germany, Italy, UK, Poland, Sweden",
+       "value": 2639
+      },
+      {
+       "label": "India",
+       "value": 2973
+      }
+     ]
+    }
+   },
+   "start": 13.94,
+   "end": 21.29,
+   "words": [
+    {
+     "word": "Now",
+     "start": 14.215,
+     "end": 14.44
+    },
+    {
+     "word": "add",
+     "start": 14.44,
+     "end": 14.665
+    },
+    {
+     "word": "Italy",
+     "start": 14.665,
+     "end": 15.04
+    },
+    {
+     "word": "and",
+     "start": 15.04,
+     "end": 15.152
+    },
+    {
+     "word": "the",
+     "start": 15.152,
+     "end": 15.24
+    },
+    {
+     "word": "UK.",
+     "start": 15.24,
+     "end": 15.965
+    },
+    {
+     "word": "Add",
+     "start": 16.127,
+     "end": 16.377
+    },
+    {
+     "word": "Poland",
+     "start": 16.377,
+     "end": 16.865
+    },
+    {
+     "word": "and",
+     "start": 16.865,
+     "end": 16.99
+    },
+    {
+     "word": "Sweden.",
+     "start": 16.99,
+     "end": 17.54
+    },
+    {
+     "word": "India",
+     "start": 17.64,
+     "end": 18.065
+    },
+    {
+     "word": "is",
+     "start": 18.065,
+     "end": 18.19
+    },
+    {
+     "word": "still",
+     "start": 18.19,
+     "end": 18.465
+    },
+    {
+     "word": "bigger.",
+     "start": 18.465,
+     "end": 18.965
+    },
+    {
+     "word": "By",
+     "start": 19.065,
+     "end": 19.252
+    },
+    {
+     "word": "three",
+     "start": 19.252,
+     "end": 19.49
+    },
+    {
+     "word": "hundred",
+     "start": 19.49,
+     "end": 19.79
+    },
+    {
+     "word": "thirty-four",
+     "start": 19.79,
+     "end": 20.302
+    },
+    {
+     "word": "thousand.",
+     "start": 20.302,
+     "end": 21.065
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Bigger than you thought? Comment your flag.",
+   "props": {},
+   "start": 21.35,
+   "end": 23.875,
+   "words": [
+    {
+     "word": "Bigger",
+     "start": 21.6,
+     "end": 21.887
+    },
+    {
+     "word": "than",
+     "start": 21.887,
+     "end": 21.987
+    },
+    {
+     "word": "you",
+     "start": 21.987,
+     "end": 22.112
+    },
+    {
+     "word": "thought?",
+     "start": 22.112,
+     "end": 22.525
+    },
+    {
+     "word": "Comment",
+     "start": 22.625,
+     "end": 22.937
+    },
+    {
+     "word": "your",
+     "start": 22.937,
+     "end": 23.05
+    },
+    {
+     "word": "flag.",
+     "start": 23.05,
+     "end": 23.625
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 737,
+ "fps": 30,
+ "aligned": "tts"
+}
