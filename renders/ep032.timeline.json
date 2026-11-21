@@ -1,0 +1,457 @@
+{
+ "id": "ep032",
+ "title": "Pakistan \ud83c\uddf5\ud83c\uddf0 vs the world: true or false? 3 rounds",
+ "topic": "Pakistan vs the world",
+ "headline": "Pakistan vs *the world*",
+ "description": "Pakistan against Turkey, America and Russia. Three true-or-false rounds with real World Bank data. How many did you get right? Comment your flag.",
+ "tags": [
+  "pakistan vs the world",
+  "pakistan vs russia",
+  "pakistan vs turkey",
+  "pakistan vs usa",
+  "pakistan population",
+  "pakistan army",
+  "pakistan size comparison",
+  "country comparison",
+  "true or false quiz",
+  "geography quiz"
+ ],
+ "source": "World Bank: land area (2024), armed forces personnel (2020), population (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "pakistan",
+  "turkey",
+  "pakistanvsrussia",
+  "countrycomparison"
+ ],
+ "format": "truefalse",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "pk"
+  ]
+ },
+ "localizations": {
+  "ur": {
+   "title": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \ud83c\uddf5\ud83c\uddf0 \u0628\u0645\u0642\u0627\u0628\u0644\u06c1 \u062f\u0646\u06cc\u0627: \u0633\u0686 \u06cc\u0627 \u062c\u06be\u0648\u0679\u061f 3 \u0631\u0627\u0624\u0646\u0688",
+   "description": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u0628\u0645\u0642\u0627\u0628\u0644\u06c1 \u062a\u0631\u06a9\u06cc\u060c \u0627\u0645\u0631\u06cc\u06a9\u06c1 \u0627\u0648\u0631 \u0631\u0648\u0633\u06d4 \u0627\u0635\u0644\u06cc \u0627\u0639\u062f\u0627\u062f \u0648 \u0634\u0645\u0627\u0631\u06d4 \u0627\u067e\u0646\u0627 \u062c\u06be\u0646\u0688\u0627 \u06a9\u0645\u0646\u0679 \u06a9\u0631\u06cc\u06ba\u06d4"
+  }
+ },
+ "segments": [
+  {
+   "scene": "truefalse",
+   "text": "Pakistan against the world. True or false? Pakistan is bigger than Turkey.",
+   "props": {
+    "statement": "Pakistan has more land than Turkey",
+    "answer": true,
+    "fact": "Pakistan 770,880 km\u00b2 \u00b7 Turkey 769,630 km\u00b2 (2024)",
+    "flag": "pk",
+    "pause": 1.6
+   },
+   "start": 0.05,
+   "end": 5.05,
+   "words": [
+    {
+     "word": "Pakistan",
+     "start": 0.25,
+     "end": 0.8
+    },
+    {
+     "word": "against",
+     "start": 0.8,
+     "end": 1.113
+    },
+    {
+     "word": "the",
+     "start": 1.113,
+     "end": 1.2
+    },
+    {
+     "word": "world.",
+     "start": 1.2,
+     "end": 1.625
+    },
+    {
+     "word": "True",
+     "start": 1.738,
+     "end": 2.025
+    },
+    {
+     "word": "or",
+     "start": 2.025,
+     "end": 2.188
+    },
+    {
+     "word": "false?",
+     "start": 2.188,
+     "end": 2.775
+    },
+    {
+     "word": "Pakistan",
+     "start": 2.9,
+     "end": 3.525
+    },
+    {
+     "word": "is",
+     "start": 3.525,
+     "end": 3.688
+    },
+    {
+     "word": "bigger",
+     "start": 3.688,
+     "end": 3.987
+    },
+    {
+     "word": "than",
+     "start": 3.987,
+     "end": 4.15
+    },
+    {
+     "word": "Turkey.",
+     "start": 4.15,
+     "end": 4.8
+    }
+   ]
+  },
+  {
+   "scene": "truefalse",
+   "text": "True. By just one thousand two hundred fifty square kilometers.",
+   "props": {
+    "reveal": true
+   },
+   "start": 6.71,
+   "end": 10.485,
+   "words": [
+    {
+     "word": "True.",
+     "start": 6.935,
+     "end": 7.335
+    },
+    {
+     "word": "By",
+     "start": 7.435,
+     "end": 7.61
+    },
+    {
+     "word": "just",
+     "start": 7.61,
+     "end": 7.835
+    },
+    {
+     "word": "one",
+     "start": 7.835,
+     "end": 8.035
+    },
+    {
+     "word": "thousand",
+     "start": 8.035,
+     "end": 8.36
+    },
+    {
+     "word": "two",
+     "start": 8.36,
+     "end": 8.523
+    },
+    {
+     "word": "hundred",
+     "start": 8.523,
+     "end": 8.785
+    },
+    {
+     "word": "fifty",
+     "start": 8.785,
+     "end": 9.085
+    },
+    {
+     "word": "square",
+     "start": 9.085,
+     "end": 9.41
+    },
+    {
+     "word": "kilometers.",
+     "start": 9.41,
+     "end": 10.26
+    }
+   ]
+  },
+  {
+   "scene": "truefalse",
+   "text": "Round two. Pakistan has more soldiers than America.",
+   "props": {
+    "statement": "Pakistan has more soldiers than America",
+    "answer": false,
+    "fact": "Pakistan 943k \u00b7 USA 1.40M troops (2020)",
+    "flag": "pk",
+    "pause": 1.6
+   },
+   "start": 10.545,
+   "end": 14.07,
+   "words": [
+    {
+     "word": "Round",
+     "start": 10.77,
+     "end": 11.033
+    },
+    {
+     "word": "two.",
+     "start": 11.033,
+     "end": 11.42
+    },
+    {
+     "word": "Pakistan",
+     "start": 11.545,
+     "end": 12.145
+    },
+    {
+     "word": "has",
+     "start": 12.145,
+     "end": 12.345
+    },
+    {
+     "word": "more",
+     "start": 12.345,
+     "end": 12.57
+    },
+    {
+     "word": "soldiers",
+     "start": 12.57,
+     "end": 13.032
+    },
+    {
+     "word": "than",
+     "start": 13.032,
+     "end": 13.133
+    },
+    {
+     "word": "America.",
+     "start": 13.133,
+     "end": 13.82
+    }
+   ]
+  },
+  {
+   "scene": "truefalse",
+   "text": "False. America has one point four million. Pakistan has nine hundred forty-three thousand.",
+   "props": {
+    "reveal": true
+   },
+   "start": 15.73,
+   "end": 21.48,
+   "words": [
+    {
+     "word": "False.",
+     "start": 15.98,
+     "end": 16.43
+    },
+    {
+     "word": "America",
+     "start": 16.505,
+     "end": 16.98
+    },
+    {
+     "word": "has",
+     "start": 16.98,
+     "end": 17.18
+    },
+    {
+     "word": "one",
+     "start": 17.18,
+     "end": 17.405
+    },
+    {
+     "word": "point",
+     "start": 17.405,
+     "end": 17.655
+    },
+    {
+     "word": "four",
+     "start": 17.655,
+     "end": 17.855
+    },
+    {
+     "word": "million.",
+     "start": 17.855,
+     "end": 18.505
+    },
+    {
+     "word": "Pakistan",
+     "start": 18.643,
+     "end": 19.255
+    },
+    {
+     "word": "has",
+     "start": 19.255,
+     "end": 19.468
+    },
+    {
+     "word": "nine",
+     "start": 19.468,
+     "end": 19.755
+    },
+    {
+     "word": "hundred",
+     "start": 19.755,
+     "end": 20.08
+    },
+    {
+     "word": "forty-three",
+     "start": 20.08,
+     "end": 20.53
+    },
+    {
+     "word": "thousand.",
+     "start": 20.53,
+     "end": 21.255
+    }
+   ]
+  },
+  {
+   "scene": "truefalse",
+   "text": "Final round. Pakistan has more people than Russia.",
+   "props": {
+    "statement": "Pakistan has more people than Russia",
+    "answer": true,
+    "fact": "Pakistan 255M \u00b7 Russia 144M (2025)",
+    "flag": "pk",
+    "pause": 1.8
+   },
+   "start": 21.54,
+   "end": 25.015,
+   "words": [
+    {
+     "word": "Final",
+     "start": 21.79,
+     "end": 22.115
+    },
+    {
+     "word": "round.",
+     "start": 22.115,
+     "end": 22.64
+    },
+    {
+     "word": "Pakistan",
+     "start": 22.74,
+     "end": 23.315
+    },
+    {
+     "word": "has",
+     "start": 23.315,
+     "end": 23.515
+    },
+    {
+     "word": "more",
+     "start": 23.515,
+     "end": 23.715
+    },
+    {
+     "word": "people",
+     "start": 23.715,
+     "end": 24.052
+    },
+    {
+     "word": "than",
+     "start": 24.052,
+     "end": 24.19
+    },
+    {
+     "word": "Russia.",
+     "start": 24.19,
+     "end": 24.765
+    }
+   ]
+  },
+  {
+   "scene": "truefalse",
+   "text": "True. Over a hundred million more.",
+   "props": {
+    "reveal": true
+   },
+   "start": 26.875,
+   "end": 29.25,
+   "words": [
+    {
+     "word": "True.",
+     "start": 27.1,
+     "end": 27.475
+    },
+    {
+     "word": "Over",
+     "start": 27.575,
+     "end": 27.788
+    },
+    {
+     "word": "a",
+     "start": 27.788,
+     "end": 27.85
+    },
+    {
+     "word": "hundred",
+     "start": 27.85,
+     "end": 28.2
+    },
+    {
+     "word": "million",
+     "start": 28.2,
+     "end": 28.525
+    },
+    {
+     "word": "more.",
+     "start": 28.525,
+     "end": 29.0
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "How many did you get? Comment your flag.",
+   "props": {},
+   "start": 29.31,
+   "end": 31.86,
+   "words": [
+    {
+     "word": "How",
+     "start": 29.535,
+     "end": 29.71
+    },
+    {
+     "word": "many",
+     "start": 29.71,
+     "end": 29.922
+    },
+    {
+     "word": "did",
+     "start": 29.922,
+     "end": 30.047
+    },
+    {
+     "word": "you",
+     "start": 30.047,
+     "end": 30.135
+    },
+    {
+     "word": "get?",
+     "start": 30.135,
+     "end": 30.51
+    },
+    {
+     "word": "Comment",
+     "start": 30.61,
+     "end": 30.922
+    },
+    {
+     "word": "your",
+     "start": 30.922,
+     "end": 31.035
+    },
+    {
+     "word": "flag.",
+     "start": 31.035,
+     "end": 31.61
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 976,
+ "fps": 30,
+ "aligned": "tts"
+}
