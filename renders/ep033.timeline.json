@@ -1,0 +1,358 @@
+{
+ "id": "ep033",
+ "title": "India \ud83c\uddee\ud83c\uddf3 vs Russia \ud83c\uddf7\ud83c\uddfa: who wins? 4 rounds, real data",
+ "topic": "India vs Russia",
+ "headline": "India or *Russia*?",
+ "description": "India against Russia: economy, army, military budget and land. Four rounds of real World Bank data. India or Russia? Comment your flag.",
+ "tags": [
+  "india vs russia",
+  "russia vs india",
+  "india vs russia comparison",
+  "india vs russia army",
+  "india vs russia economy",
+  "russia military budget",
+  "india army",
+  "country comparison"
+ ],
+ "source": "World Bank: GDP (2025), armed forces personnel (2020), military spending (2025), land area (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "russia",
+  "indiavsrussia",
+  "countrycomparison"
+ ],
+ "format": "battle",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "in",
+   "ru"
+  ],
+  "vs": true
+ },
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 vs \u0930\u0942\u0938 \ud83c\uddf7\ud83c\uddfa: \u0915\u094c\u0928 \u091c\u0940\u0924\u0947\u0917\u093e? 4 \u0930\u093e\u0909\u0902\u0921",
+   "description": "\u092d\u093e\u0930\u0924 \u092f\u093e \u0930\u0942\u0938: \u0905\u0930\u094d\u0925\u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e, \u0938\u0947\u0928\u093e, \u0930\u0915\u094d\u0937\u093e \u092c\u091c\u091f \u0914\u0930 \u091c\u093c\u092e\u0940\u0928\u0964 \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947, \u091a\u093e\u0930 \u0930\u093e\u0909\u0902\u0921\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  }
+ },
+ "segments": [
+  {
+   "scene": "battle",
+   "text": "India versus Russia. Four rounds. Real data.",
+   "props": {
+    "a": {
+     "label": "India",
+     "flag": "in"
+    },
+    "b": {
+     "label": "Russia",
+     "flag": "ru"
+    }
+   },
+   "start": 0.05,
+   "end": 3.45,
+   "words": [
+    {
+     "word": "India",
+     "start": 0.3,
+     "end": 0.6
+    },
+    {
+     "word": "versus",
+     "start": 0.6,
+     "end": 0.975
+    },
+    {
+     "word": "Russia.",
+     "start": 0.975,
+     "end": 1.425
+    },
+    {
+     "word": "Four",
+     "start": 1.538,
+     "end": 1.775
+    },
+    {
+     "word": "rounds.",
+     "start": 1.775,
+     "end": 2.25
+    },
+    {
+     "word": "Real",
+     "start": 2.337,
+     "end": 2.625
+    },
+    {
+     "word": "data.",
+     "start": 2.625,
+     "end": 3.2
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Economy. India is one and a half times bigger.",
+   "props": {
+    "stat": {
+     "label": "Economy",
+     "a": 3.96,
+     "b": 2.56,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   },
+   "start": 3.51,
+   "end": 6.81,
+   "words": [
+    {
+     "word": "Economy.",
+     "start": 3.735,
+     "end": 4.435
+    },
+    {
+     "word": "India",
+     "start": 4.56,
+     "end": 4.985
+    },
+    {
+     "word": "is",
+     "start": 4.985,
+     "end": 5.135
+    },
+    {
+     "word": "one",
+     "start": 5.135,
+     "end": 5.272
+    },
+    {
+     "word": "and",
+     "start": 5.272,
+     "end": 5.372
+    },
+    {
+     "word": "a",
+     "start": 5.372,
+     "end": 5.435
+    },
+    {
+     "word": "half",
+     "start": 5.435,
+     "end": 5.685
+    },
+    {
+     "word": "times",
+     "start": 5.685,
+     "end": 6.01
+    },
+    {
+     "word": "bigger.",
+     "start": 6.01,
+     "end": 6.56
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Soldiers. India has twice as many.",
+   "props": {
+    "stat": {
+     "label": "Armed forces",
+     "a": 3.07,
+     "b": 1.45,
+     "format": {
+      "suffix": "M",
+      "decimals": 2
+     }
+    },
+    "at": "India"
+   },
+   "start": 6.87,
+   "end": 9.42,
+   "words": [
+    {
+     "word": "Soldiers.",
+     "start": 7.12,
+     "end": 7.67
+    },
+    {
+     "word": "India",
+     "start": 7.745,
+     "end": 8.045
+    },
+    {
+     "word": "has",
+     "start": 8.045,
+     "end": 8.245
+    },
+    {
+     "word": "twice",
+     "start": 8.245,
+     "end": 8.557
+    },
+    {
+     "word": "as",
+     "start": 8.557,
+     "end": 8.695
+    },
+    {
+     "word": "many.",
+     "start": 8.695,
+     "end": 9.195
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Military budget. Russia spends twice as much.",
+   "props": {
+    "stat": {
+     "label": "Military spending",
+     "a": 92,
+     "b": 190,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "Russia"
+   },
+   "start": 9.48,
+   "end": 12.755,
+   "words": [
+    {
+     "word": "Military",
+     "start": 9.755,
+     "end": 10.23
+    },
+    {
+     "word": "budget.",
+     "start": 10.23,
+     "end": 10.705
+    },
+    {
+     "word": "Russia",
+     "start": 10.817,
+     "end": 11.18
+    },
+    {
+     "word": "spends",
+     "start": 11.18,
+     "end": 11.48
+    },
+    {
+     "word": "twice",
+     "start": 11.48,
+     "end": 11.83
+    },
+    {
+     "word": "as",
+     "start": 11.83,
+     "end": 11.98
+    },
+    {
+     "word": "much.",
+     "start": 11.98,
+     "end": 12.505
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Land. Russia is over five times bigger.",
+   "props": {
+    "stat": {
+     "label": "Land area",
+     "a": 2.97,
+     "b": 16.38,
+     "format": {
+      "suffix": "M km\u00b2",
+      "decimals": 2
+     }
+    },
+    "at": "Russia"
+   },
+   "start": 12.815,
+   "end": 15.715,
+   "words": [
+    {
+     "word": "Land.",
+     "start": 13.09,
+     "end": 13.515
+    },
+    {
+     "word": "Russia",
+     "start": 13.627,
+     "end": 13.99
+    },
+    {
+     "word": "is",
+     "start": 13.99,
+     "end": 14.102
+    },
+    {
+     "word": "over",
+     "start": 14.102,
+     "end": 14.315
+    },
+    {
+     "word": "five",
+     "start": 14.315,
+     "end": 14.59
+    },
+    {
+     "word": "times",
+     "start": 14.59,
+     "end": 14.915
+    },
+    {
+     "word": "bigger.",
+     "start": 14.915,
+     "end": 15.465
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Two all. India or Russia?",
+   "props": {},
+   "start": 15.775,
+   "end": 17.875,
+   "words": [
+    {
+     "word": "Two",
+     "start": 16.0,
+     "end": 16.175
+    },
+    {
+     "word": "all.",
+     "start": 16.175,
+     "end": 16.45
+    },
+    {
+     "word": "India",
+     "start": 16.525,
+     "end": 16.875
+    },
+    {
+     "word": "or",
+     "start": 16.875,
+     "end": 17.0
+    },
+    {
+     "word": "Russia?",
+     "start": 17.0,
+     "end": 17.6
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 557,
+ "fps": 30,
+ "aligned": "tts"
+}
