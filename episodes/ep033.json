@@ -1,0 +1,25 @@
+{
+ "id": "ep033",
+ "title": "India 🇮🇳 vs Russia 🇷🇺: who wins? 4 rounds, real data",
+ "topic": "India vs Russia",
+ "headline": "India or *Russia*?",
+ "description": "India against Russia: economy, army, military budget and land. Four rounds of real World Bank data. India or Russia? Comment your flag.",
+ "tags": ["india vs russia", "russia vs india", "india vs russia comparison", "india vs russia army", "india vs russia economy", "russia military budget", "india army", "country comparison"],
+ "source": "World Bank: GDP (2025), armed forces personnel (2020), military spending (2025), land area (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "russia", "indiavsrussia", "countrycomparison"],
+ "format": "battle",
+ "music": 4,
+ "cover": {"flags": ["in", "ru"], "vs": true},
+ "localizations": {
+  "hi": {"title": "भारत 🇮🇳 vs रूस 🇷🇺: कौन जीतेगा? 4 राउंड", "description": "भारत या रूस: अर्थव्यवस्था, सेना, रक्षा बजट और ज़मीन। असली आंकड़े, चार राउंड। अपना झंडा कमेंट करें।"}
+ },
+ "segments": [
+  {"scene": "battle", "text": "India versus Russia. Four rounds. Real data.", "props": {"a": {"label": "India", "flag": "in"}, "b": {"label": "Russia", "flag": "ru"}}},
+  {"scene": "battle", "text": "Economy. India is one and a half times bigger.", "props": {"stat": {"label": "Economy", "a": 3.96, "b": 2.56, "format": {"prefix": "$", "suffix": "T", "decimals": 2}}, "at": "India"}},
+  {"scene": "battle", "text": "Soldiers. India has twice as many.", "props": {"stat": {"label": "Armed forces", "a": 3.07, "b": 1.45, "format": {"suffix": "M", "decimals": 2}}, "at": "India"}},
+  {"scene": "battle", "text": "Military budget. Russia spends twice as much.", "props": {"stat": {"label": "Military spending", "a": 92, "b": 190, "format": {"prefix": "$", "suffix": "B"}}, "at": "Russia"}},
+  {"scene": "battle", "text": "Land. Russia is over five times bigger.", "props": {"stat": {"label": "Land area", "a": 2.97, "b": 16.38, "format": {"suffix": "M km²", "decimals": 2}}, "at": "Russia"}},
+  {"scene": "outro", "text": "Two all. India or Russia?", "props": {}}
+ ]
+}
