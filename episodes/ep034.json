@@ -1,0 +1,24 @@
+{
+ "id": "ep034",
+ "title": "Indonesia 🇮🇩 has more people than these 3 rich countries",
+ "topic": "Indonesia vs 3 giants",
+ "headline": "Indonesia vs *3 giants*",
+ "description": "Indonesia against Japan, Germany and the UK combined. Who has more people? Real World Bank population data for 2025. Comment your flag.",
+ "tags": ["indonesia population", "indonesia vs japan", "indonesia vs germany", "indonesia vs uk", "population comparison", "countries compared by population", "japan population", "germany population", "country comparison"],
+ "source": "World Bank, total population (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["indonesia", "population", "indonesiavsjapan", "countrycomparison"],
+ "format": "bubbles",
+ "music": 2,
+ "cover": {"flags": ["id"]},
+ "localizations": {
+  "id": {"title": "Penduduk Indonesia 🇮🇩 lebih banyak dari 3 negara kaya ini", "description": "Indonesia melawan Jepang, Jerman dan Inggris sekaligus. Data asli Bank Dunia 2025. Tulis benderamu di komentar."}
+ },
+ "segments": [
+  {"scene": "bubbles", "text": "Indonesia against three rich giants. This is Indonesia. Two hundred eighty-six million people.", "props": {"title": "Population, 2025", "format": {"suffix": "M"}, "item": {"label": "Indonesia", "flag": "id", "value": 286}, "at": "This"}},
+  {"scene": "bubbles", "text": "Japan. A hundred twenty-three million.", "props": {"item": {"label": "Japan", "flag": "jp", "value": 123}, "at": "Japan"}},
+  {"scene": "bubbles", "text": "Germany. Eighty-three million.", "props": {"item": {"label": "Germany", "flag": "de", "value": 83}, "at": "Germany"}},
+  {"scene": "bignumber", "text": "Now add the UK. All three together. Indonesia still has more people. By over nine million.", "props": {"value": 9.4, "format": {"prefix": "+", "suffix": "M", "decimals": 1}, "caption": "more people in Indonesia than all three combined", "at": "nine", "compare": {"format": {"suffix": "M"}, "items": [{"label": "Japan, Germany, UK", "value": 276}, {"label": "Indonesia", "value": 286}]}}},
+  {"scene": "outro", "text": "Who should Indonesia face next?", "props": {}}
+ ]
+}
