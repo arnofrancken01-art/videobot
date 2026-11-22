@@ -1,19 +1,35 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-21T16:12:05Z",
+ "fetched_at": "2026-11-22T14:42:10Z",
  "videos": [
+  {
+   "video_id": "xdtUtgmDcHQ",
+   "title": "India 🇮🇳 vs Russia 🇷🇺: who wins? 4 rounds, real data #shorts",
+   "views": 302,
+   "question_posted": false,
+   "question": "Two all. India or Russia?",
+   "comments": []
+  },
   {
    "video_id": "aUsEuxsRuCk",
    "title": "Pakistan 🇵🇰 vs the world: true or false? 3 rounds #shorts",
-   "views": 315,
+   "views": 911,
    "question_posted": true,
    "question": "How many did you get?",
-   "comments": []
+   "comments": [
+    {
+     "id": "UgzL4KcG2ctJF2_Sskh4AaABAg",
+     "author": "@KhalidKhan-s1x",
+     "text": "3",
+     "answered": false,
+     "replies": []
+    }
+   ]
   },
   {
    "video_id": "5U8cHEF28bw",
    "title": "India 🇮🇳 is bigger than these 7 European countries combined #shorts",
-   "views": 759,
+   "views": 1058,
    "question_posted": true,
    "question": "Bigger than you thought?",
    "comments": []
@@ -29,7 +45,7 @@
   {
    "video_id": "JwnA4CrDD2g",
    "title": "Pakistan 🇵🇰 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data #shorts",
-   "views": 63,
+   "views": 171,
    "question_posted": true,
    "question": "Pakistan or Bangladesh?",
    "comments": []
@@ -37,7 +53,7 @@
   {
    "video_id": "RuZTsOrVfyA",
    "title": "Brazil 🇧🇷 vs Argentina 🇦🇷: who wins? 4 rounds, real data #shorts",
-   "views": 328,
+   "views": 421,
    "question_posted": true,
    "question": "Two all. Brazil or Argentina?",
    "comments": []
@@ -45,7 +61,7 @@
   {
    "video_id": "KW6MGdcSg_4",
    "title": "India 🇮🇳 vs USA 🇺🇸: true or false? 3 rounds, real data #shorts",
-   "views": 1102,
+   "views": 1085,
    "question_posted": true,
    "question": "India or America?",
    "comments": [
@@ -70,63 +86,6 @@
       {
        "author": "@Money_mapped1",
        "text": "India it is! More than twice as many soldiers as the USA too. Which state are you watching from?"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "video_id": "cH0S7sD09O0",
-   "title": "India 🇮🇳 vs UK 🇬🇧: who wins? 3 rounds, real data #shorts",
-   "views": 1111,
-   "question_posted": true,
-   "question": "India or the UK?",
-   "comments": [
-    {
-     "id": "UgwAwZjIJSjdvt1siD14AaABAg",
-     "author": "@milaperez2025",
-     "text": "🇮🇳 and 🇵🇭",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "India and the Philippines, love it! The Philippine economy is almost 6x bigger than in 2000 🇵🇭 Should we do Philippines vs India next?"
-      }
-     ]
-    },
-    {
-     "id": "UgxSlrZ0ncP66CH2BdF4AaABAg",
-     "author": "@SoumyaSathyan-o5z",
-     "text": "India🇮🇳🇮🇳💪🇮🇳🇮🇳🇮🇳👿👿👿👌👌🎉🎉🎉😎😎🤯🤯😎👽👽😈😈💥💥😼😼🙏🌟",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "That's a lot of energy for India 🇮🇳 And the gap is tiny: the UK's economy is only $46 billion bigger. Will India pass it soon?"
-      }
-     ]
-    },
-    {
-     "id": "UgwRJ5SyhT-Os-KvoLd4AaABAg",
-     "author": "@AagnavJothinathan",
-     "text": "India 🇮🇳🇮🇳",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "India won two of three rounds, with more than three times the UK's reserves. Which round surprised you most?"
-      }
-     ]
-    },
-    {
-     "id": "UgyFgWrqJaRBlkQbbNd4AaABAg",
-     "author": "@JohanBiju-u9l",
-     "text": "🇮🇳",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "Flag noted! India even outspends the UK on its army, $92.1B vs $89B. Who should India face next?"
       }
      ]
     }
