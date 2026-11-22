@@ -1,0 +1,348 @@
+{
+ "id": "ep034",
+ "title": "Indonesia \ud83c\uddee\ud83c\udde9 has more people than these 3 rich countries",
+ "topic": "Indonesia vs 3 giants",
+ "headline": "Indonesia vs *3 giants*",
+ "description": "Indonesia against Japan, Germany and the UK combined. Who has more people? Real World Bank population data for 2025. Comment your flag.",
+ "tags": [
+  "indonesia population",
+  "indonesia vs japan",
+  "indonesia vs germany",
+  "indonesia vs uk",
+  "population comparison",
+  "countries compared by population",
+  "japan population",
+  "germany population",
+  "country comparison"
+ ],
+ "source": "World Bank, total population (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "indonesia",
+  "population",
+  "indonesiavsjapan",
+  "countrycomparison"
+ ],
+ "format": "bubbles",
+ "music": 2,
+ "cover": {
+  "flags": [
+   "id"
+  ]
+ },
+ "localizations": {
+  "id": {
+   "title": "Penduduk Indonesia \ud83c\uddee\ud83c\udde9 lebih banyak dari 3 negara kaya ini",
+   "description": "Indonesia melawan Jepang, Jerman dan Inggris sekaligus. Data asli Bank Dunia 2025. Tulis benderamu di komentar."
+  }
+ },
+ "segments": [
+  {
+   "scene": "bubbles",
+   "text": "Indonesia against three rich giants. This is Indonesia. Two hundred eighty-six million people.",
+   "props": {
+    "title": "Population, 2025",
+    "format": {
+     "suffix": "M"
+    },
+    "item": {
+     "label": "Indonesia",
+     "flag": "id",
+     "value": 286
+    },
+    "at": "This"
+   },
+   "start": 0.05,
+   "end": 5.95,
+   "words": [
+    {
+     "word": "Indonesia",
+     "start": 0.275,
+     "end": 0.85
+    },
+    {
+     "word": "against",
+     "start": 0.85,
+     "end": 1.213
+    },
+    {
+     "word": "three",
+     "start": 1.213,
+     "end": 1.5
+    },
+    {
+     "word": "rich",
+     "start": 1.5,
+     "end": 1.725
+    },
+    {
+     "word": "giants.",
+     "start": 1.725,
+     "end": 2.4
+    },
+    {
+     "word": "This",
+     "start": 2.512,
+     "end": 2.725
+    },
+    {
+     "word": "is",
+     "start": 2.725,
+     "end": 2.875
+    },
+    {
+     "word": "Indonesia.",
+     "start": 2.875,
+     "end": 3.675
+    },
+    {
+     "word": "Two",
+     "start": 3.8,
+     "end": 4.0
+    },
+    {
+     "word": "hundred",
+     "start": 4.0,
+     "end": 4.275
+    },
+    {
+     "word": "eighty-six",
+     "start": 4.275,
+     "end": 4.8
+    },
+    {
+     "word": "million",
+     "start": 4.8,
+     "end": 5.125
+    },
+    {
+     "word": "people.",
+     "start": 5.125,
+     "end": 5.725
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Japan. A hundred twenty-three million.",
+   "props": {
+    "item": {
+     "label": "Japan",
+     "flag": "jp",
+     "value": 123
+    },
+    "at": "Japan"
+   },
+   "start": 6.01,
+   "end": 8.66,
+   "words": [
+    {
+     "word": "Japan.",
+     "start": 6.26,
+     "end": 6.81
+    },
+    {
+     "word": "A",
+     "start": 6.91,
+     "end": 6.985
+    },
+    {
+     "word": "hundred",
+     "start": 6.985,
+     "end": 7.31
+    },
+    {
+     "word": "twenty-three",
+     "start": 7.31,
+     "end": 7.785
+    },
+    {
+     "word": "million.",
+     "start": 7.785,
+     "end": 8.435
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Germany. Eighty-three million.",
+   "props": {
+    "item": {
+     "label": "Germany",
+     "flag": "de",
+     "value": 83
+    },
+    "at": "Germany"
+   },
+   "start": 8.72,
+   "end": 10.87,
+   "words": [
+    {
+     "word": "Germany.",
+     "start": 8.97,
+     "end": 9.495
+    },
+    {
+     "word": "Eighty-three",
+     "start": 9.595,
+     "end": 9.995
+    },
+    {
+     "word": "million.",
+     "start": 9.995,
+     "end": 10.62
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "Now add the UK. All three together. Indonesia still has more people. By over nine million.",
+   "props": {
+    "value": 9.4,
+    "format": {
+     "prefix": "+",
+     "suffix": "M",
+     "decimals": 1
+    },
+    "caption": "more people in Indonesia than all three combined",
+    "at": "nine",
+    "compare": {
+     "format": {
+      "suffix": "M"
+     },
+     "items": [
+      {
+       "label": "Japan, Germany, UK",
+       "value": 276
+      },
+      {
+       "label": "Indonesia",
+       "value": 286
+      }
+     ]
+    }
+   },
+   "start": 10.93,
+   "end": 16.88,
+   "words": [
+    {
+     "word": "Now",
+     "start": 11.205,
+     "end": 11.43
+    },
+    {
+     "word": "add",
+     "start": 11.43,
+     "end": 11.617
+    },
+    {
+     "word": "the",
+     "start": 11.617,
+     "end": 11.705
+    },
+    {
+     "word": "UK.",
+     "start": 11.705,
+     "end": 12.205
+    },
+    {
+     "word": "All",
+     "start": 12.305,
+     "end": 12.518
+    },
+    {
+     "word": "three",
+     "start": 12.518,
+     "end": 12.755
+    },
+    {
+     "word": "together.",
+     "start": 12.755,
+     "end": 13.355
+    },
+    {
+     "word": "Indonesia",
+     "start": 13.48,
+     "end": 14.03
+    },
+    {
+     "word": "still",
+     "start": 14.03,
+     "end": 14.305
+    },
+    {
+     "word": "has",
+     "start": 14.305,
+     "end": 14.505
+    },
+    {
+     "word": "more",
+     "start": 14.505,
+     "end": 14.705
+    },
+    {
+     "word": "people.",
+     "start": 14.705,
+     "end": 15.23
+    },
+    {
+     "word": "By",
+     "start": 15.305,
+     "end": 15.48
+    },
+    {
+     "word": "over",
+     "start": 15.48,
+     "end": 15.73
+    },
+    {
+     "word": "nine",
+     "start": 15.73,
+     "end": 16.005
+    },
+    {
+     "word": "million.",
+     "start": 16.005,
+     "end": 16.655
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Who should Indonesia face next?",
+   "props": {},
+   "start": 16.94,
+   "end": 19.09,
+   "words": [
+    {
+     "word": "Who",
+     "start": 17.165,
+     "end": 17.29
+    },
+    {
+     "word": "should",
+     "start": 17.29,
+     "end": 17.465
+    },
+    {
+     "word": "Indonesia",
+     "start": 17.465,
+     "end": 17.965
+    },
+    {
+     "word": "face",
+     "start": 17.965,
+     "end": 18.265
+    },
+    {
+     "word": "next?",
+     "start": 18.265,
+     "end": 18.84
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 593,
+ "fps": 30,
+ "aligned": "tts"
+}
