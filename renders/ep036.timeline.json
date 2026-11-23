@@ -1,0 +1,380 @@
+{
+ "id": "ep036",
+ "title": "Pakistan \ud83c\uddf5\ud83c\uddf0 vs Turkey \ud83c\uddf9\ud83c\uddf7: who wins? 4 rounds, real data",
+ "topic": "Pakistan vs Turkey",
+ "headline": "Pakistan or *Turkey*?",
+ "description": "Pakistan against Turkey: people, economy, life expectancy and land. Four rounds of real World Bank data. Pakistan or Turkey? Comment your flag.",
+ "tags": [
+  "pakistan vs turkey",
+  "turkey vs pakistan",
+  "pakistan vs turkey comparison",
+  "pakistan vs turkey economy",
+  "pakistan population",
+  "turkey economy",
+  "pakistan turkey",
+  "country comparison"
+ ],
+ "source": "World Bank: population (2025), GDP (2025), life expectancy (2024), land area (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "pakistan",
+  "turkey",
+  "pakistanvsturkey",
+  "countrycomparison"
+ ],
+ "format": "battle",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "pk",
+   "tr"
+  ],
+  "vs": true
+ },
+ "localizations": {
+  "ur": {
+   "title": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \ud83c\uddf5\ud83c\uddf0 \u0628\u0645\u0642\u0627\u0628\u0644\u06c1 \u062a\u0631\u06a9\u06cc \ud83c\uddf9\ud83c\uddf7: \u06a9\u0648\u0646 \u062c\u06cc\u062a\u06d2 \u06af\u0627\u061f 4 \u0631\u0627\u0624\u0646\u0688",
+   "description": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u06cc\u0627 \u062a\u0631\u06a9\u06cc: \u0622\u0628\u0627\u062f\u06cc\u060c \u0645\u0639\u06cc\u0634\u062a\u060c \u0627\u0648\u0633\u0637 \u0639\u0645\u0631 \u0627\u0648\u0631 \u0631\u0642\u0628\u06c1\u06d4 \u0627\u0635\u0644 \u0627\u0639\u062f\u0627\u062f \u0648 \u0634\u0645\u0627\u0631\u060c \u0686\u0627\u0631 \u0631\u0627\u0624\u0646\u0688\u06d4 \u0627\u067e\u0646\u0627 \u062c\u06be\u0646\u0688\u0627 \u06a9\u0645\u0646\u0679 \u06a9\u0631\u06cc\u06ba\u06d4"
+  },
+  "tr": {
+   "title": "Pakistan \ud83c\uddf5\ud83c\uddf0 vs T\u00fcrkiye \ud83c\uddf9\ud83c\uddf7: kim kazan\u0131r? 4 tur",
+   "description": "Pakistan m\u0131 T\u00fcrkiye mi? N\u00fcfus, ekonomi, ya\u015fam s\u00fcresi ve y\u00fcz\u00f6l\u00e7\u00fcm\u00fc. Ger\u00e7ek veriler, d\u00f6rt tur. Bayra\u011f\u0131n\u0131 yorumlara yaz."
+  }
+ },
+ "segments": [
+  {
+   "scene": "battle",
+   "text": "Pakistan versus Turkey. Four rounds. Who wins?",
+   "props": {
+    "a": {
+     "label": "Pakistan",
+     "flag": "pk"
+    },
+    "b": {
+     "label": "Turkey",
+     "flag": "tr"
+    }
+   },
+   "start": 0.05,
+   "end": 3.425,
+   "words": [
+    {
+     "word": "Pakistan",
+     "start": 0.275,
+     "end": 0.8
+    },
+    {
+     "word": "versus",
+     "start": 0.8,
+     "end": 1.15
+    },
+    {
+     "word": "Turkey.",
+     "start": 1.15,
+     "end": 1.625
+    },
+    {
+     "word": "Four",
+     "start": 1.762,
+     "end": 2.0
+    },
+    {
+     "word": "rounds.",
+     "start": 2.0,
+     "end": 2.375
+    },
+    {
+     "word": "Who",
+     "start": 2.425,
+     "end": 2.575
+    },
+    {
+     "word": "wins?",
+     "start": 2.575,
+     "end": 3.175
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "People. Pakistan has almost three times as many.",
+   "props": {
+    "stat": {
+     "label": "Population",
+     "a": 255.2,
+     "b": 85.9,
+     "format": {
+      "suffix": "M",
+      "decimals": 1
+     }
+    },
+    "at": "Pakistan"
+   },
+   "start": 3.485,
+   "end": 6.66,
+   "words": [
+    {
+     "word": "People.",
+     "start": 3.685,
+     "end": 4.085
+    },
+    {
+     "word": "Pakistan",
+     "start": 4.16,
+     "end": 4.71
+    },
+    {
+     "word": "has",
+     "start": 4.71,
+     "end": 4.885
+    },
+    {
+     "word": "almost",
+     "start": 4.885,
+     "end": 5.21
+    },
+    {
+     "word": "three",
+     "start": 5.21,
+     "end": 5.435
+    },
+    {
+     "word": "times",
+     "start": 5.435,
+     "end": 5.772
+    },
+    {
+     "word": "as",
+     "start": 5.772,
+     "end": 5.91
+    },
+    {
+     "word": "many.",
+     "start": 5.91,
+     "end": 6.435
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Economy. Turkey is almost four times bigger.",
+   "props": {
+    "stat": {
+     "label": "Economy",
+     "a": 407,
+     "b": 1597,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "Turkey"
+   },
+   "start": 6.72,
+   "end": 9.77,
+   "words": [
+    {
+     "word": "Economy.",
+     "start": 6.945,
+     "end": 7.595
+    },
+    {
+     "word": "Turkey",
+     "start": 7.695,
+     "end": 8.008
+    },
+    {
+     "word": "is",
+     "start": 8.008,
+     "end": 8.107
+    },
+    {
+     "word": "almost",
+     "start": 8.107,
+     "end": 8.445
+    },
+    {
+     "word": "four",
+     "start": 8.445,
+     "end": 8.645
+    },
+    {
+     "word": "times",
+     "start": 8.645,
+     "end": 8.97
+    },
+    {
+     "word": "bigger.",
+     "start": 8.97,
+     "end": 9.52
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Life expectancy. Turkey wins by almost ten years.",
+   "props": {
+    "stat": {
+     "label": "Life expectancy",
+     "a": 67.8,
+     "b": 77.4,
+     "format": {
+      "suffix": " yrs",
+      "decimals": 1
+     }
+    },
+    "at": "Turkey"
+   },
+   "start": 9.83,
+   "end": 13.455,
+   "words": [
+    {
+     "word": "Life",
+     "start": 10.08,
+     "end": 10.342
+    },
+    {
+     "word": "expectancy.",
+     "start": 10.342,
+     "end": 11.18
+    },
+    {
+     "word": "Turkey",
+     "start": 11.305,
+     "end": 11.605
+    },
+    {
+     "word": "wins",
+     "start": 11.605,
+     "end": 11.905
+    },
+    {
+     "word": "by",
+     "start": 11.905,
+     "end": 12.055
+    },
+    {
+     "word": "almost",
+     "start": 12.055,
+     "end": 12.38
+    },
+    {
+     "word": "ten",
+     "start": 12.38,
+     "end": 12.63
+    },
+    {
+     "word": "years.",
+     "start": 12.63,
+     "end": 13.205
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Land. Pakistan wins by just twelve hundred fifty square kilometers.",
+   "props": {
+    "stat": {
+     "label": "Land area",
+     "a": 770880,
+     "b": 769630,
+     "format": {
+      "suffix": " km\u00b2"
+     }
+    },
+    "at": "Pakistan"
+   },
+   "start": 13.515,
+   "end": 17.94,
+   "words": [
+    {
+     "word": "Land.",
+     "start": 13.79,
+     "end": 14.29
+    },
+    {
+     "word": "Pakistan",
+     "start": 14.39,
+     "end": 15.003
+    },
+    {
+     "word": "wins",
+     "start": 15.003,
+     "end": 15.34
+    },
+    {
+     "word": "by",
+     "start": 15.34,
+     "end": 15.49
+    },
+    {
+     "word": "just",
+     "start": 15.49,
+     "end": 15.69
+    },
+    {
+     "word": "twelve",
+     "start": 15.69,
+     "end": 15.978
+    },
+    {
+     "word": "hundred",
+     "start": 15.978,
+     "end": 16.24
+    },
+    {
+     "word": "fifty",
+     "start": 16.24,
+     "end": 16.54
+    },
+    {
+     "word": "square",
+     "start": 16.54,
+     "end": 16.865
+    },
+    {
+     "word": "kilometers.",
+     "start": 16.865,
+     "end": 17.715
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Two all. Pakistan or Turkey?",
+   "props": {},
+   "start": 18.0,
+   "end": 20.275,
+   "words": [
+    {
+     "word": "Two",
+     "start": 18.225,
+     "end": 18.4
+    },
+    {
+     "word": "all.",
+     "start": 18.4,
+     "end": 18.65
+    },
+    {
+     "word": "Pakistan",
+     "start": 18.725,
+     "end": 19.25
+    },
+    {
+     "word": "or",
+     "start": 19.25,
+     "end": 19.375
+    },
+    {
+     "word": "Turkey?",
+     "start": 19.375,
+     "end": 20.025
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 629,
+ "fps": 30,
+ "aligned": "tts"
+}
