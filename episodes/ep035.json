@@ -1,0 +1,26 @@
+{
+ "id": "ep035",
+ "title": "India 🇮🇳 vs Japan 🇯🇵: who wins? 3 rounds, real data",
+ "topic": "India vs Japan",
+ "headline": "India or *Japan*?",
+ "description": "India against Japan: size of the economy, army budget and air travel. Three rounds of real World Bank data. India or Japan? Comment your flag.",
+ "tags": ["india vs japan", "japan vs india", "india vs japan economy", "india vs japan comparison", "india gdp 2025", "japan economy", "india army budget", "country comparison", "geography quiz"],
+ "source": "World Bank: GDP and military spending in current US dollars (2025), air passengers carried (2023), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "japan", "indiavsjapan", "countrycomparison"],
+ "format": "quiz",
+ "music": 4,
+ "cover": {"flags": ["in", "jp"], "vs": true},
+ "localizations": {
+  "hi": {"title": "भारत 🇮🇳 vs जापान 🇯🇵: कौन जीतेगा? 3 राउंड", "description": "भारत या जापान: अर्थव्यवस्था, सेना का बजट और हवाई यात्री। असली आंकड़े, तीन राउंड। अपना झंडा कमेंट करें।"}
+ },
+ "segments": [
+  {"scene": "quiz", "text": "India or Japan. Three rounds. Whose economy is bigger?", "props": {"question": "Whose economy is bigger?", "format": {"prefix": "$", "suffix": "T", "decimals": 2}, "options": [{"label": "India", "flag": "in", "value": 3.96}, {"label": "Japan", "flag": "jp", "value": 4.44}], "pause": 1.6}},
+  {"scene": "quiz", "text": "Japan. But by less than half a trillion.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Round two. Who spends more on its army? India or Japan?", "props": {"question": "Who spends more on the army?", "format": {"prefix": "$", "suffix": "B", "decimals": 1}, "options": [{"label": "India", "flag": "in", "value": 92.1}, {"label": "Japan", "flag": "jp", "value": 62.2}], "pause": 1.6}},
+  {"scene": "quiz", "text": "India. About thirty billion dollars more.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Final round. Whose airlines fly more people? India or Japan?", "props": {"question": "Whose airlines fly more people?", "format": {"suffix": "M"}, "options": [{"label": "India", "flag": "in", "value": 180}, {"label": "Japan", "flag": "jp", "value": 120}], "pause": 1.8}},
+  {"scene": "quiz", "text": "India. One and a half times more.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "Two to one. India or Japan?", "props": {}}
+ ]
+}
