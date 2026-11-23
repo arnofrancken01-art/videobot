@@ -1,7 +1,15 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-23T14:42:17Z",
+ "fetched_at": "2026-11-23T16:14:41Z",
  "videos": [
+  {
+   "video_id": "b_iMwtkBjM8",
+   "title": "Pakistan 🇵🇰 vs Turkey 🇹🇷: who wins? 4 rounds, real data #shorts",
+   "views": 11,
+   "question_posted": false,
+   "question": "Two all. Pakistan or Turkey?",
+   "comments": []
+  },
   {
    "video_id": "H0zkmW823Jc",
    "title": "Indonesia 🇮🇩 has more people than these 3 rich countries #shorts",
@@ -21,7 +29,7 @@
   {
    "video_id": "aUsEuxsRuCk",
    "title": "Pakistan 🇵🇰 vs the world: true or false? 3 rounds #shorts",
-   "views": 1018,
+   "views": 1019,
    "question_posted": true,
    "question": "How many did you get?",
    "comments": [
@@ -29,8 +37,13 @@
      "id": "UgzZKQDrSzV8gZwQ0kd4AaABAg",
      "author": "@ZhandreyGiganto",
      "text": "3",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Full marks! 🎯 Did the soldiers round fool you for a second? America has 1.4M troops vs Pakistan's 943k. Where are you watching from?"
+      }
+     ]
     },
     {
      "id": "UgzL4KcG2ctJF2_Sskh4AaABAg",
@@ -49,7 +62,7 @@
   {
    "video_id": "5U8cHEF28bw",
    "title": "India 🇮🇳 is bigger than these 7 European countries combined #shorts",
-   "views": 1087,
+   "views": 1097,
    "question_posted": true,
    "question": "Bigger than you thought?",
    "comments": []
@@ -60,14 +73,6 @@
    "views": 0,
    "question_posted": true,
    "question": "India or Pakistan?",
-   "comments": []
-  },
-  {
-   "video_id": "JwnA4CrDD2g",
-   "title": "Pakistan 🇵🇰 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data #shorts",
-   "views": 188,
-   "question_posted": true,
-   "question": "Pakistan or Bangladesh?",
    "comments": []
   }
  ]
