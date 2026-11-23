@@ -142,6 +142,30 @@ Kies er één en wissel af (nooit drie keer dezelfde op een dag). Zo leert `stat
 Een rode schuine sticker onder de headline, max. 12 tekens, in hoofdletters: `"PART 2"`, `"3 ROUNDS"`, `"REAL DATA"`, `"GUESS IT"`.
 Gebruik hem bij een deel 2 altijd, anders alleen als het de belofte sterker maakt.
 
+## Nagebootst van de allerbeste Shorts (ontleding 2026-11-23)
+
+We haalden de 400 best bekeken Shorts van het laatste jaar op, in onze niche en erbuiten, en bekeken er 35 beeld per beeld
+(samen ruim 1,4 miljard views, vaak van kanalen met maar 2.000 tot 60.000 abonnees). Wat ze bijna allemaal doen:
+
+1. **Eén beeld, één feit, heel kort.** "Bangladesh has more people than Russia" (7 s, 3,1 mln views, kanaal van 24k), "Countries
+   richer and poorer than India" (7 s, 3,5 mln), "Most World Cups" (11 s, 13 mln bij 7k abonnees), "Cost per tank shot" (10 s,
+   3,7 mln bij 2k). Het antwoord staat er bijna meteen; mensen kijken twee keer om alles te lezen, dus meer dan 100% kijktijd.
+   **Maak daarom elke dag minstens één korte lus** (`worldsplit` of een `truesize` van 8 tot 15 s), het liefst in slot 07:30.
+2. **Kaarten gevuld met vlaggen, op ware grootte.** "How big is Brazil" (Europese landen op Brazilië), "Moon vs countries",
+   "Russia compared to Bangladesh": format `truesize`. Kies een groot land met een trots publiek (India, Brazil, Indonesia, Pakistan,
+   Nigeria, USA, Australia) en leg er bekende kleinere landen op, van groot naar klein. Controleer met `AG.LND.TOTL.K2` dat wat je
+   zegt klopt ("India is bigger than these five combined" alleen als de som van de vijf echt kleiner is).
+3. **Escalatie.** Elk volgend item is groter of verrassender: "≈350 ants tall → the Sun → the universe", "$1 → $1 quadrillion",
+   "GOOD GDP → GREAT GDP → GODLY GDP". Het laatste item is de klap ("And Italy STILL fits.").
+4. **Een vaste kop bovenaan die zegt wat je ziet** ("SABSE SASTA COUNTRY", "COUNTRIES RICHER & POORER THAN INDIA"). Dat is onze
+   `headline`: maak hem beschrijvend en kort, niet vaag.
+5. **Prijs onthullen.** "How much does one tank shot cost?", "1 kg gold price in different countries", "Kurkure price in other
+   countries", "Rs 43,000 jeans": een ding dat iedereen kent + een prijs per land. Past in "Your money there".
+6. **Lokale munt en taal.** De grootste India-hits tonen bedragen in ₹ (lakh, crore) en hebben Hindi-tekst. Bij een India-video
+   over geld: zeg het bedrag ook in rupees (koers `PA.NUS.FCRF`, schrijf "four lakh rupees", label met prefix "₹" en suffix
+   " lakh" of " crore"), en vul altijd `localizations.hi` in.
+7. **Rivaliteit + reactie.** India vs Pakistan/China blijft de sterkste motor (24 tot 54 mln views). Eindig met een kant kiezen.
+
 ## De vier harde regels
 
 1. **De kijker staat centraal.** Kies iets wat een 18-35-jarige in de VS of Europa zelf voelt: lonen, prijzen, huur,
@@ -194,6 +218,8 @@ Zeg nooit "Follow for more": dat is het sein om weg te vegen. De vraag dient ook
 | `ticker` | Live tellers die echt meelopen: "since you started watching, America earned...". | 2 of 3 × `ticker` → `outro` |
 | `receipt` | Kassabon op wit papier: regels worden geprint, eventueel een totaal. | 3 tot 5 × `receipt` → `outro` |
 | `bubbles` | Bellen waarvan de oppervlakte het getal is; ze ploppen een voor een op. | 3 of 4 × `bubbles` → `outro` |
+| `truesize` | Landen op ware grootte, gevuld met hun vlag, vallen een voor een op een groot land. | 1 × `truesize` met `base`, 2 tot 7 × met `item` → `outro` (8 tot 20 s) |
+| `worldsplit` | De hele wereld kleurt in twee kleuren rond één land. Eén beeld, één feit, een lus van 5 tot 12 s. | 1 × `worldsplit` → `outro` |
 
 Er zijn dus **14 formats**. Gebruik ze allemaal: kijk in `episodes/` welke formats de laatste 10 afleveringen hadden en kies er een
 dat past bij de reeks die je kiest (zie "De drie reeksen"), en nooit hetzelfde als de vorige aflevering.
@@ -328,6 +354,21 @@ het jaar waarop de race staat als die zin gedaan is, zodat stem en beeld gelijk 
 **receipt**: eerste segment `title` en `format`; elk segment een `line` {label, value, flag} of op het einde een `total` {label, value} (alleen als optellen zin heeft).
 ```json
 {"scene":"receipt","text":"Same burger, four countries. In India it costs two forty-five.","props":{"title":"One Big Mac, please","format":{"prefix":"$","decimals":2},"line":{"label":"India","value":2.45,"flag":"in"},"at":"India"}}
+```
+
+**truesize**: eerste segment `title` en `base` {flag, label} (het grote land); daarna elk segment één `item` {flag, label}
+met `at` = het woord waarop het land valt. Leg landen van groot naar klein, 3 tot 6 stuks. De kaart toont ware grootte
+(vlakketrouwe projectie), dus beweer alleen wat ook in `AG.LND.TOTL.K2` klopt.
+```json
+{"scene":"truesize","text":"India is huge. Watch this.","props":{"title":"True size: India","base":{"flag":"in","label":"India"}}},
+{"scene":"truesize","text":"France.","props":{"item":{"flag":"fr","label":"France"},"at":"france"}}
+```
+
+**worldsplit**: één segment met `title`, `ref` {flag, label}, `legend` {above, below} en de lijsten `above` en `below` uit
+`python3 scripts/make_split.py <land> <indicator> [jaar]` (plak de JSON-uitvoer). `at` = het woord waarop de kleuren verschijnen.
+Zeg het getal hardop ("Only five countries have a bigger economy than India."). Dan meteen de `outro`.
+```json
+{"scene":"worldsplit","text":"Only five countries have a bigger economy than India.","props":{"title":"Bigger economy than India?","ref":{"flag":"in","label":"India"},"legend":{"above":"Bigger than India","below":"Smaller than India"},"above":["cn","de","gb","jp","us"],"below":["..."],"at":"five"}}
 ```
 
 **bubbles**: eerste segment `title` en `format`; elk segment een `item` {label, flag, value}. Begin met de grootste. Werkt het best als de grootste minstens 3 keer de kleinste is.

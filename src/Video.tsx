@@ -17,6 +17,7 @@ import { Race } from "./scenes/Race";
 import { Grid } from "./scenes/Grid";
 import { Choice, Clues, TrueFalse } from "./scenes/Games";
 import { Battle, Bubbles, Dots, Podium, Receipt, ThenNow, Ticker } from "./scenes/Charts";
+import { TrueSize, WorldSplit } from "./scenes/Maps";
 import type { SceneProps } from "./scenes/common";
 
 const SR = (w: string) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -26,6 +27,7 @@ export type Seg = (typeof timeline.segments)[number];
 const SCENES: Record<string, React.FC<SceneProps>> = {
   hook: Hook, versus: Versus, bars: Bars, bignumber: BigNumber, line: LineScene, outro: Outro, rank: Rank, quiz: Quiz, race: Race, grid: Grid,
   truefalse: TrueFalse, choice: Choice, clues: Clues, thennow: ThenNow, dots: Dots, podium: Podium, battle: Battle, ticker: Ticker, receipt: Receipt, bubbles: Bubbles,
+  truesize: TrueSize, worldsplit: WorldSplit,
 };
 
 // Opeenvolgende segmenten met dezelfde scene worden 1 doorlopende scene.
@@ -37,7 +39,7 @@ for (const s of timeline.segments) {
   const last = groups[groups.length - 1];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const fresh = (s.scene === "battle" && (s.props as any).a) || (s.scene === "rank" && (s.props as any).title) || (s.props as any).chapter; // nieuw duel, nieuwe lijst of nieuw hoofdstuk = nieuwe scene
-  if (last && !fresh && last.scene === s.scene && ["bars", "versus", "line", "rank", "quiz", "race", "grid", "truefalse", "choice", "clues", "thennow", "dots", "podium", "battle", "ticker", "receipt", "bubbles"].includes(s.scene)) last.segs.push(s);
+  if (last && !fresh && last.scene === s.scene && ["bars", "versus", "line", "rank", "quiz", "race", "grid", "truefalse", "choice", "clues", "thennow", "dots", "podium", "battle", "ticker", "receipt", "bubbles", "truesize"].includes(s.scene)) last.segs.push(s);
   else groups.push({ scene: s.scene, segs: [s] });
 }
 
@@ -84,7 +86,7 @@ timeline.segments.forEach((s, i) => {
 timeline.segments.forEach((s) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const p: any = s.props;
-  if (!["clues", "dots", "podium", "battle", "ticker", "receipt", "bubbles"].includes(s.scene)) return;
+  if (!["clues", "dots", "podium", "battle", "ticker", "receipt", "bubbles", "truesize"].includes(s.scene)) return;
   if (!(p.clue || p.part || p.place || p.stat || p.item || p.line || p.total)) return;
   const t = Math.min(wordAt(s, p.at) ?? s.start, s.start + 1.2);
   if (p.place === 1 || p.total) { fx.push({ at: t, src: "boom", vol: 0.5 }); fx.push({ at: t + 0.05, src: "ding", vol: 0.3 }); }

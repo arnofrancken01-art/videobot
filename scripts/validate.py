@@ -5,7 +5,7 @@ Stopt met een duidelijke fout als iets niet klopt.
 import json, re, sys
 from pathlib import Path
 
-NEW = ["truefalse", "choice", "clues", "thennow", "dots", "podium", "battle", "ticker", "receipt", "bubbles"]
+NEW = ["truefalse", "choice", "clues", "thennow", "dots", "podium", "battle", "ticker", "receipt", "bubbles", "truesize", "worldsplit"]
 SCENES = {"hook", "rank", "versus", "bars", "bignumber", "line", "outro", "quiz", "race", "grid", *NEW}
 FORMATS = {"countdown", "quiz", "race", "story", *NEW}
 FLAGS = {f.stem for f in (Path(__file__).resolve().parent.parent / "public/flags").glob("*.svg")}
@@ -59,12 +59,15 @@ segs = ep.get("segments", [])
 fmt = ep.get("format")
 if fmt not in FORMATS:
     errors.append(f"format moet een van {sorted(FORMATS)} zijn")
-if not 3 <= len(segs) <= 10:
+SHORTFMT = fmt == "worldsplit"  # één beeld + vraag, 5 tot 12 seconden: een lus die mensen twee keer bekijken
+if not (2 if SHORTFMT else 3) <= len(segs) <= 10:
     errors.append(f"{len(segs)} segmenten; mik op 4 tot 9")
 words = sum(len(s.get("text", "").split()) for s in segs)
 pauses = sum(float(s.get("props", {}).get("pause", 0)) for s in segs)
 secs = words / 2.8 + pauses  # ruwe schatting van de duur
-if words < 25 or secs > 30:
+if SHORTFMT and not 8 <= words <= 35:
+    errors.append(f"{words} woorden; worldsplit is kort: 8 tot 35 woorden (5 tot 12 seconden)")
+elif not SHORTFMT and (words < (14 if fmt == "truesize" else 25) or secs > 30):
     errors.append(f"{words} woorden + {pauses:.1f} s denktijd = ca. {secs:.0f} s; mik op 10 tot 25 seconden (max. 30)")
 scenes = [s.get("scene") for s in segs]
 if segs and scenes[0] in ("outro", "rank", "bignumber", "line", "bars", "race"):
@@ -134,7 +137,7 @@ if fmt in NEW:
     n = lambda key: sum(1 for q in mine if key in q)
     need = {"truefalse": ("statement", 1, 3), "choice": ("question", 1, 2), "clues": ("clue", 2, 4), "thennow": ("then", 1, 3),
             "dots": ("part", 2, 6), "podium": ("place", 3, 3), "battle": ("stat", 3, 4), "ticker": ("item", 1, 3),
-            "receipt": ("line", 2, 5), "bubbles": ("item", 2, 4)}[fmt]
+            "receipt": ("line", 2, 5), "bubbles": ("item", 2, 4), "truesize": ("item", 2, 7), "worldsplit": ("ref", 1, 1)}[fmt]
     if not need[1] <= n(need[0]) <= need[2]:
         errors.append(f"{fmt}: {need[1]} tot {need[2]} segmenten met '{need[0]}' (nu {n(need[0])})")
 if fmt == "podium" and [q.get("place") for q in (s.get("props", {}) for s in segs) if "place" in q] != [3, 2, 1]:
@@ -246,6 +249,19 @@ for i, s in enumerate(segs):
             errors.append(f"{where}: eerste bubbles-segment heeft title en format nodig")
         if "item" in p and not (p["item"].get("label") and p["item"].get("flag") and num(p["item"].get("value")) and p["item"]["value"] > 0):
             errors.append(f"{where}: item heeft label, flag en een positieve value nodig")
+    if sc == "truesize":
+        if prev != "truesize" and not (p.get("title") and p.get("base", {}).get("flag") and p.get("base", {}).get("label")):
+            errors.append(f"{where}: eerste truesize-segment heeft title en base (flag, label) nodig")
+        if "item" in p and not (p["item"].get("label") and p["item"].get("flag")):
+            errors.append(f"{where}: item heeft label en flag nodig")
+        for q in (p.get("base"), p.get("item")):
+            if q and q.get("flag"):
+                check_flag(q, q.get("label", "?"))
+    if sc == "worldsplit":
+        if not (p.get("title") and p.get("ref", {}).get("flag") and p.get("legend", {}).get("above") and p.get("legend", {}).get("below")):
+            errors.append(f"{where}: worldsplit heeft title, ref (flag, label) en legend (above, below) nodig")
+        if not (isinstance(p.get("above"), list) and isinstance(p.get("below"), list) and len(p["above"]) + len(p["below"]) >= 50):
+            errors.append(f"{where}: above en below komen uit scripts/make_split.py (samen minstens 50 landen)")
     if sc == "quiz":
         if p.get("options"):
             o = p["options"]
