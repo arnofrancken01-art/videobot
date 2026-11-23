@@ -83,6 +83,20 @@ elif len(head) > 28:
     errors.append(f"headline is {len(head)} tekens; maximaal 28 (reuzenletters op het eerste beeld)")
 elif "*" not in ep.get("headline", ""):
     warnings.append("headline: zet het belangrijkste woord tussen *sterretjes* (wordt geel)")
+# Drie per dag: elk krijgt een uur om openbaar te zetten en een soort opening (vanaf ep037 verplicht).
+SLOTS, HOOKS = ("07:30", "14:30", "17:30"), ("claim", "question", "number", "you", "challenge")
+new_ep = (m0 := re.fullmatch(r"ep(\d+)", path.stem)) and int(m0.group(1)) >= 37
+if "slot" in ep or new_ep:
+    if ep.get("slot") not in SLOTS:
+        errors.append(f"veld 'slot' moet een van {SLOTS} zijn (uur waarop Arno hem openbaar zet, Belgische tijd)")
+if "hook_type" in ep or new_ep:
+    if ep.get("hook_type") not in HOOKS:
+        errors.append(f"veld 'hook_type' moet een van {HOOKS} zijn")
+badge = (ep.get("cover") or {}).get("badge")
+if badge is not None and (not isinstance(badge, str) or len(badge) > 12):
+    errors.append("cover.badge: korte tekst, max. 12 tekens (bv. 'PART 2')")
+if fmt == "countdown" and new_ep:
+    warnings.append("countdown haalde 8 keer een mediaan van 24 views; kies liever quiz of bubbles (zie state/insights.md)")
 if len(ep.get("title", "")) > 60:
     warnings.append("title is langer dan 60 tekens; in de Shorts-feed wordt hij dan afgekapt")
 

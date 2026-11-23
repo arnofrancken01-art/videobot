@@ -23,14 +23,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
-      - name: Welke aflevering?
+          fetch-depth: 20
+      - name: Welke afleveringen?
         id: ep
         run: |
-          ep="${{ inputs.episode }}"
-          if [ -z "$ep" ]; then ep=$(git diff --name-only HEAD~1 HEAD -- 'episodes/*.json' 'long/*.json' | tail -1); fi
-          echo "file=$ep" >> "$GITHUB_OUTPUT"
-          echo "name=$(basename "$ep" .json)" >> "$GITHUB_OUTPUT"
+          # Alle afleveringen uit deze push (de ochtendrun pusht er drie tegelijk), of die van een handmatige start.
+          if [ -n "${{ inputs.episode }}" ]; then files="${{ inputs.episode }}"
+          else
+            before="${{ github.event.before }}"
+            git cat-file -e "$before" 2>/dev/null || before=HEAD~1
+            files=$(git diff --name-only --diff-filter=AM "$before" HEAD -- 'episodes/*.json' 'long/*.json' | sort | tr '\n' ' ')
+          fi
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+          echo "Te maken: $files"
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -64,44 +69,17 @@ jobs:
           key: hf-kokoro-82m
       - name: Kokoro-model downloaden
         run: test -f models/kokoro-v1.0.onnx || npm run models
-      - name: Stem maken
-        env:
-          REQUIRE_EXACT_TIMING: "1"
-        run: python scripts/tts.py "${{ steps.ep.outputs.file }}"
-      - name: Woordtiming uitlijnen met Whisper
-        run: python scripts/align.py
-      - name: Video renderen
+      - name: Video's maken en naar Telegram sturen
         run: |
-          if [[ "${{ steps.ep.outputs.file }}" == long/* ]]; then
-            # lange video (16:9): sterker samengedrukt zodat het bestand onder de 100 MB van GitHub blijft
-            npx remotion render src/index.ts Short out/video.mp4 --concurrency=4 --crf=28
-          else
-            npx remotion render src/index.ts Short out/video.mp4 --concurrency=2
-          fi
-      - name: Video bewaren op de renders-branch
-        run: |
-          name="${{ steps.ep.outputs.name }}"
           git config user.name "videobot"
           git config user.email "videobot@users.noreply.github.com"
-          cp out/video.mp4 /tmp/$name.mp4 && cp src/timeline.json /tmp/$name.timeline.json
-          git fetch origin renders:refs/remotes/origin/renders || true
-          git checkout -f -B renders origin/renders || git checkout -f --orphan renders
-          git rm -rfq --cached . >/dev/null 2>&1 || true
-          mkdir -p renders && cp /tmp/$name.mp4 /tmp/$name.timeline.json renders/
-          git add renders && git commit -qm "Render $name" && git push -q origin renders
-          git checkout -q -f main
-      - name: Ter goedkeuring naar Telegram
-        run: |
-          title=$(python -c "import json;print(json.load(open('${{ steps.ep.outputs.file }}'))['title'])")
-          send=out/video.mp4; kind="Nieuwe video"
-          if [[ "${{ steps.ep.outputs.file }}" == long/* ]]; then
-            kind="Nieuwe LANGE video (voorbeeld in lagere kwaliteit)"
-            # Telegram neemt van een bot maximaal 50 MB aan: stuur een kleinere kopie ter controle.
-            npx remotion ffmpeg -loglevel error -y -i out/video.mp4 -vf scale=-2:540 -c:v libx264 -crf 31 -preset veryfast -c:a aac -b:a 64k out/preview.mp4 && send=out/preview.mp4
-          fi
-          python scripts/telegram.py video "$send" "<b>$kind:</b> $title" "${{ steps.ep.outputs.name }}"
+          failed=""
+          for f in ${{ steps.ep.outputs.files }}; do
+            bash scripts/render_one.sh "$f" || { failed="$failed $(basename "$f" .json)"; git checkout -q -f "$GITHUB_SHA" || true; }
+          done
+          if [ -n "$failed" ]; then echo "FAILED=$failed" >> "$GITHUB_ENV"; exit 1; fi
       - name: Foutmelding naar Telegram
         if: failure()
         run: |
           pip install requests >/dev/null 2>&1 || true
-          python scripts/telegram.py send "Render van ${{ steps.ep.outputs.name }} mislukt. Bekijk: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          python scripts/telegram.py send "Render mislukt voor: ${{ env.FAILED || steps.ep.outputs.files }}. Bekijk: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

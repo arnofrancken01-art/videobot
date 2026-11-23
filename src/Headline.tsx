@@ -23,7 +23,7 @@ const Words: React.FC<{ text: string }> = ({ text }) => (
 export const outline = (w: number, c = "#000") =>
   [...Array(16)].map((_, i) => `${(Math.cos((i * Math.PI) / 8) * w).toFixed(1)}px ${(Math.sin((i * Math.PI) / 8) * w).toFixed(1)}px 0 ${c}`).join(", ");
 
-export const Headline: React.FC<{ text: string; flags: string[]; vs: boolean; wide?: boolean }> = ({ text, flags, vs, wide }) => {
+export const Headline: React.FC<{ text: string; flags: string[]; vs: boolean; wide?: boolean; badge?: string }> = ({ text, flags, vs, wide, badge }) => {
   const f = useCurrentFrame();
   const { durationInFrames, fps } = useVideoConfig();
   const dock = interpolate(f, [HOLD, HOLD + DOCK], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: (t) => 1 - Math.pow(1 - t, 3) });
@@ -80,6 +80,15 @@ export const Headline: React.FC<{ text: string; flags: string[]; vs: boolean; wi
           textTransform: "uppercase", textShadow: `${outline(9)}, 0 16px 50px rgba(0,0,0,0.8)`,
         }}>
           <Words text={text} />
+          {/* Sticker onder de kop: reeks of belofte ("PART 3", "3 ROUNDS"). Geeft een reden om te blijven en een reeks om te volgen. */}
+          {badge && (
+            <div style={{ display: "flex", justifyContent: "center", marginTop: 26 }}>
+              <div style={{
+                padding: "10px 34px", borderRadius: 22, background: "#FF2D55", color: "#FFFFFF", fontSize: size * 0.5, fontWeight: 900, letterSpacing: 1,
+                textShadow: "none", transform: `rotate(-3deg) scale(${0.9 + 0.1 * punch + (dock < 1 ? 0.04 * Math.sin(f / 3) : 0)})`, boxShadow: "0 12px 40px rgba(0,0,0,0.55)",
+              }}>{badge}</div>
+            </div>
+          )}
         </div>
       </div>
       {/* Voortgangsbalk: belooft dat het einde dichtbij is */}

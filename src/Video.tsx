@@ -211,7 +211,8 @@ const chapters = timeline.segments.filter((s) => (s.props as any).chapter).map((
 const Head: React.FC = () => {
   const f = useCurrentFrame();
   const ch = [...chapters].reverse().find((c) => c.at <= f && c.at > HOLD);
-  return <Headline text={ch ? ch.text : headline} flags={coverFlags} vs={coverVs} wide={LONG} />;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return <Headline text={ch ? ch.text : headline} flags={coverFlags} vs={coverVs} wide={LONG} badge={ch ? undefined : (cover as any).badge} />;
 };
 
 export const Video: React.FC = () => (

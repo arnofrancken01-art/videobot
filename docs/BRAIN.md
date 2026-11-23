@@ -6,7 +6,8 @@ India, de Filipijnen, Nigeria, Brazilië, Pakistan, Indonesië en Mexico. Die la
 
 ## Werkwijze per run
 
-1. `git pull`. Lees `state/stats.json` (onze eigen cijfers), `state/trends.json` (wat NU viraal gaat in onze niche),
+1. `git pull`. Lees **eerst `state/insights.md`** (wat bij ons werkt per format, land, hook en uur; automatisch bijgewerkt),
+   dan `state/stats.json` (onze eigen cijfers), `state/trends.json` (wat NU viraal gaat in onze niche),
    `data/catalog.json`, `state/queue.json` en de titels in `episodes/`.
 2. **Leer eerst** (schrijf voor jezelf 3 regels op):
    - Welke 2 eigen video's scoorden het best (views, `avg_view_pct`) en wat hadden ze gemeen? Welke 2 flopten?
@@ -28,6 +29,24 @@ India, de Filipijnen, Nigeria, Brazilië, Pakistan, Indonesië en Mexico. Die la
 7. Commit en push naar `main`. GitHub Actions maakt dan de video en stuurt hem naar Telegram ter goedkeuring.
 8. Eindig met: het gekozen onderwerp, de drie scores, en welk trend-patroon je gebruikte.
 
+## Drie video's per dag, één run om 4:41 (sinds 2026-11-23)
+
+De ochtendrun schrijft **drie** afleveringen achter elkaar (stappen 2 tot 6 drie keer) en pusht ze in **één** commit. GitHub
+Actions maakt ze dan alle drie en ze staan voor 6:30 in Telegram. Arno zet ze zelf openbaar op het uur in het veld `slot`
+(Belgische tijd, staat in het Telegram-bericht). Elke aflevering krijgt een verplicht `slot`:
+
+| slot | waarom dit uur | wat erin hoort |
+|---|---|---|
+| `"07:30"` | 12:00 in India, 11:30 Pakistan, 13:30 Indonesië: middagpauze in Zuid-Azië | het **experiment**: een ander land of format (Indonesia, Philippines, Bangladesh, Nigeria, Brazil, of de reeks "Your money there") |
+| `"14:30"` | 19:00 in India: het drukste avonduur op mobiel | de **sterkste India-video** van de dag (India + rivaal, quiz of bubbles) |
+| `"17:30"` | 22:00 India, 21:30 Pakistan, 11:30 New York | **Pakistan/Bangladesh in de hoofdrol**, of een deel 2 van een recente winnaar |
+
+- De drie afleveringen hebben drie verschillende onderwerpen, drie verschillende landen in de hoofdrol en minstens twee
+  verschillende formats en twee verschillende `hook_type`s. validate.py kijkt naar de vorige aflevering, dus schrijf ze in volgorde.
+- Elke aflevering haalt zelf de score van 28. Liever twee sterke video's dan drie met één zwakke: lukt de derde echt niet,
+  schrijf dan maar twee en zeg dat.
+- Verwijder nooit een video om hem opnieuw te posten: YouTube ziet dat als spam.
+
 ## Wat de cijfers zeggen (stand 2026-11-16)
 
 - Tot 13 november kreeg een nieuwe video 1 tot 12 views. Sinds de nieuwe look (14 november) is dat omgeslagen:
@@ -47,9 +66,8 @@ India, de Filipijnen, Nigeria, Brazilië, Pakistan, Indonesië en Mexico. Die la
 
 ## India eerst (geldt tot de cijfers iets anders zeggen)
 
-- **Eén van de twee video's per dag heeft India in de hoofdrol.** De ochtendrun (6:21) maakt de India-video, de middagrun (12:21) test
-  een ander trots land met een groot publiek (Pakistan, Bangladesh, Philippines, Indonesia, Nigeria, Brazil, Mexico, Turkey, Egypt)
-  of de reeks "This country...". Kijk in `episodes/` wat de vorige run deed en doe het andere.
+- **De video van 14:30 heeft India in de hoofdrol**, die van 17:30 Pakistan of Bangladesh (of een deel 2), die van 07:30 test een
+  ander trots land met een groot publiek (Philippines, Indonesia, Nigeria, Brazil, Mexico, Turkey, Egypt) of de reeks "Your money there".
 - Tegenstanders voor India, wissel ze af: Pakistan, China, Bangladesh, USA, UK (de oude kolonisator), Japan, Russia, Germany,
   "all of Europe", "these 5 countries combined". Nooit twee dagen na elkaar dezelfde tegenstander met dezelfde maatstaf.
 - Maatstaven, van sterk naar zwak: bevolking, leger (`MS.MIL.TOTL.P1`, `MS.MIL.XPND.CD`), grootte van de economie, inkomen per persoon,
@@ -88,8 +106,11 @@ en blijft hij de hele video staan. Onderaan draait een wereldbol die naar elk la
 Uit onze cijfers en uit wat bij kleine kanalen viraal gaat. **Vier op vijf video's** horen bij een van deze reeksen; de vijfde
 mag een experiment met een ander format zijn. Kijk in `state/stats.json` welke reeks het best scoort en maak daar meer van.
 
-1. **"This country..."** (format `countdown` top 3, `clues` of `thennow`): één extreem getal, het land is het raadsel.
-   "$1 buys 89,500 of this money." "Prices rose 42% here in one year." Dit waren onze twee beste video's.
+1. **"Your money there"** (format `quiz`, `bubbles` of `choice`; nieuw sinds 2026-11-23, vervangt de countdown "This country...",
+   die 8 keer een mediaan van 24 views haalde): wat jouw geld waard is in een ander land. Prijsniveau = `NY.GDP.PCAP.CD` gedeeld
+   door `NY.GDP.PCAP.PP.CD` (VS = 1). "$100 in America buys what $26 buys in India." "In Pakistan your $100 feels like $400."
+   Het grootste virale format buiten onze niche ("You are rich in this country"). Altijd met bekende landen en het jaar van de data.
+   Geen top 5 countdown meer, tenzij `state/insights.md` laat zien dat hij weer werkt.
 2. **Land tegen land** (format `battle`, `quiz` of `race`): twee rivalen met een groot, trots publiek en een simpele maatstaf.
    India vs Pakistan, India vs China, USA vs China, Philippines vs Indonesia, Nigeria vs South Africa, Brazil vs Argentina,
    Mexico vs USA, UK vs France, Japan vs South Korea, Turkey vs Greece. De titel begint met de twee landen.
@@ -98,6 +119,28 @@ mag een experiment met een ander format zijn. Kijk in `state/stats.json` welke r
 
 Maatstaven die iedereen snapt winnen altijd: bevolking, loon, prijs van iets, wat je munt waard is, hoe lang je leeft.
 De titel is maximaal 60 tekens en begint met de landen of het getal.
+
+## Wat de cijfers per format zeggen (stand 2026-11-23, zie `state/insights.md` voor de actuele stand)
+
+- **quiz** (47% blijft kijken, mediaan 1000 views) en **bubbles** (39%, 1053) zijn onze beste formats: neem bij twee van de drie
+  video's een van deze twee. **battle** (27%) verliest te veel kijkers in het midden: alleen met maximaal 3 rondes en een
+  verrassing in ronde 2. **countdown** (mediaan 24) niet meer.
+- Ons grootste probleem is niet het onderwerp maar dat **twee op drie kijkers in de eerste seconden wegvegen** (33% blijft, sterke
+  Shorts halen 70 tot 80%). Elke regel hieronder over de hook gaat voor op alle andere.
+
+## Soort opening (verplicht veld `hook_type`)
+
+Kies er één en wissel af (nooit drie keer dezelfde op een dag). Zo leert `state/insights.md` welke opening werkt.
+- `claim`: een bewering waar de helft van de kijkers het mee oneens is. "Pakistan beats India in this one."
+- `question`: een vraag die de kijker zelf wil beantwoorden. "India or the UK: who is richer now?"
+- `number`: één schokkend getal in beeld en in de eerste zin. "One dollar. Eighty-nine thousand of this money."
+- `you`: spreekt de portemonnee of het land van de kijker aan. "Your hundred dollars is worth four hundred here."
+- `challenge`: daagt uit. "Only one in ten gets all three right." (alleen als het niet verzonnen is: liever "Get all three right?")
+
+## Sticker op het eerste beeld (optioneel `cover.badge`)
+
+Een rode schuine sticker onder de headline, max. 12 tekens, in hoofdletters: `"PART 2"`, `"3 ROUNDS"`, `"REAL DATA"`, `"GUESS IT"`.
+Gebruik hem bij een deel 2 altijd, anders alleen als het de belofte sterker maakt.
 
 ## De vier harde regels
 
@@ -125,6 +168,10 @@ Zeg nooit "Follow for more": dat is het sein om weg te vegen. De vraag dient ook
   "In 1990, China was smaller than Italy."
 - Vanaf frame 1 staat er iets groots in beeld (twee vlaggen, een getal, een icoon). Nooit een inleiding.
 - Eerste zin maximaal 10 woorden. Schrijf drie hooks en kies de sterkste.
+- Het **antwoord of de clou zit in de eerste 3 seconden in beeld of belofte**: de kijker weet meteen waar hij op wacht
+  ("Who wins in 3 rounds?"), en elke 2 tot 3 seconden verandert er iets (nieuw getal, vlag, balk, geluid).
+- Sterk contrast werkt het best: een land dat iedereen arm denkt dat wint, een groot land dat verliest, een getal dat 10 keer
+  groter is dan je denkt. Alleen met echte cijfers.
 - De titel belooft hetzelfde als de hook en noemt een bekend land ("Japan or Spain: who is richer per person?").
   Geen verzonnen beweringen zoals "99% gets this wrong".
 
@@ -196,6 +243,8 @@ Vul in elke episode ook in:
  "voice": "af_heart",
  "hashtags": ["money", "economy", "dataviz"],
  "format": "quiz",
+ "slot": "14:30",
+ "hook_type": "question",
  "segments": [ { "scene": "...", "text": "Wat de stem zegt.", "props": { } } ]
 }
 ```
