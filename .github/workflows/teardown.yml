@@ -2,6 +2,10 @@ name: Topvideo's ontleden
 
 on:
   workflow_dispatch:
+    inputs:
+      ids:
+        description: "Video-id's (spatie ertussen) voor beelden en tekst"
+        default: ""
 
 jobs:
   teardown:
@@ -19,13 +23,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests yt-dlp && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install requests yt-dlp youtube-transcript-api && sudo apt-get install -y -qq ffmpeg >/dev/null
       - run: python scripts/teardown.py
+        if: inputs.ids == ''
+      - run: python scripts/teardown_ids.py
+        if: inputs.ids != ''
+        env:
+          IDS: ${{ inputs.ids }}
       - name: Bewaren op de branch research
         run: |
           git config user.name "videobot"
           git config user.email "videobot@users.noreply.github.com"
           cp -r research /tmp/research
-          git checkout -q --orphan research && git rm -rfq --cached . >/dev/null 2>&1 || true
-          rm -rf research && cp -r /tmp/research research
-          git add research && git commit -qm "Ontleding topvideo's" && git push -qf origin research
+          git fetch -q origin research:refs/remotes/origin/research || true
+          git checkout -q -f -B research origin/research || { git checkout -q --orphan research; git rm -rfq --cached . >/dev/null 2>&1 || true; }
+          mkdir -p research && cp -r /tmp/research/. research/
+          git add research && git commit -qm "Ontleding topvideo's" && git push -q origin research
