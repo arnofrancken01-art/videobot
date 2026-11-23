@@ -1,0 +1,26 @@
+{
+ "id": "ep036",
+ "title": "Pakistan 🇵🇰 vs Turkey 🇹🇷: who wins? 4 rounds, real data",
+ "topic": "Pakistan vs Turkey",
+ "headline": "Pakistan or *Turkey*?",
+ "description": "Pakistan against Turkey: people, economy, life expectancy and land. Four rounds of real World Bank data. Pakistan or Turkey? Comment your flag.",
+ "tags": ["pakistan vs turkey", "turkey vs pakistan", "pakistan vs turkey comparison", "pakistan vs turkey economy", "pakistan population", "turkey economy", "pakistan turkey", "country comparison"],
+ "source": "World Bank: population (2025), GDP (2025), life expectancy (2024), land area (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["pakistan", "turkey", "pakistanvsturkey", "countrycomparison"],
+ "format": "battle",
+ "music": 4,
+ "cover": {"flags": ["pk", "tr"], "vs": true},
+ "localizations": {
+  "ur": {"title": "پاکستان 🇵🇰 بمقابلہ ترکی 🇹🇷: کون جیتے گا؟ 4 راؤنڈ", "description": "پاکستان یا ترکی: آبادی، معیشت، اوسط عمر اور رقبہ۔ اصل اعداد و شمار، چار راؤنڈ۔ اپنا جھنڈا کمنٹ کریں۔"},
+  "tr": {"title": "Pakistan 🇵🇰 vs Türkiye 🇹🇷: kim kazanır? 4 tur", "description": "Pakistan mı Türkiye mi? Nüfus, ekonomi, yaşam süresi ve yüzölçümü. Gerçek veriler, dört tur. Bayrağını yorumlara yaz."}
+ },
+ "segments": [
+  {"scene": "battle", "text": "Pakistan versus Turkey. Four rounds. Who wins?", "props": {"a": {"label": "Pakistan", "flag": "pk"}, "b": {"label": "Turkey", "flag": "tr"}}},
+  {"scene": "battle", "text": "People. Pakistan has almost three times as many.", "props": {"stat": {"label": "Population", "a": 255.2, "b": 85.9, "format": {"suffix": "M", "decimals": 1}}, "at": "Pakistan"}},
+  {"scene": "battle", "text": "Economy. Turkey is almost four times bigger.", "props": {"stat": {"label": "Economy", "a": 407, "b": 1597, "format": {"prefix": "$", "suffix": "B"}}, "at": "Turkey"}},
+  {"scene": "battle", "text": "Life expectancy. Turkey wins by almost ten years.", "props": {"stat": {"label": "Life expectancy", "a": 67.8, "b": 77.4, "format": {"suffix": " yrs", "decimals": 1}}, "at": "Turkey"}},
+  {"scene": "battle", "text": "Land. Pakistan wins by just twelve hundred fifty square kilometers.", "props": {"stat": {"label": "Land area", "a": 770880, "b": 769630, "format": {"suffix": " km²"}}, "at": "Pakistan"}},
+  {"scene": "outro", "text": "Two all. Pakistan or Turkey?", "props": {}}
+ ]
+}
