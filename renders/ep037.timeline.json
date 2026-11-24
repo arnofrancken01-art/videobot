@@ -1,0 +1,321 @@
+{
+ "id": "ep037",
+ "title": "Brazil \ud83c\udde7\ud83c\uddf7 is bigger than these 7 European countries combined",
+ "topic": "True size: Brazil",
+ "headline": "How big is *Brazil*?",
+ "description": "France, Spain, Sweden, Germany, Poland, Italy and the UK, all inside Brazil at true size. Real World Bank land area data for 2024. Comment your flag.",
+ "tags": [
+  "how big is brazil",
+  "brazil true size",
+  "brazil vs europe",
+  "brazil land area",
+  "true size map",
+  "country size comparison",
+  "brazil vs france",
+  "europe inside brazil",
+  "geography"
+ ],
+ "source": "World Bank, land area in square kilometers (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "brazil",
+  "europe",
+  "truesize",
+  "geography"
+ ],
+ "format": "truesize",
+ "slot": "07:30",
+ "hook_type": "claim",
+ "music": 2,
+ "cover": {
+  "flags": [
+   "br"
+  ],
+  "badge": "TRUE SIZE"
+ },
+ "localizations": {
+  "pt": {
+   "title": "O Brasil \ud83c\udde7\ud83c\uddf7 \u00e9 maior que estes 7 pa\u00edses europeus juntos",
+   "description": "Fran\u00e7a, Espanha, Su\u00e9cia, Alemanha, Pol\u00f4nia, It\u00e1lia e Reino Unido dentro do Brasil, em tamanho real. Dados do Banco Mundial 2024. Comente sua bandeira."
+  }
+ },
+ "segments": [
+  {
+   "scene": "truesize",
+   "text": "Seven European countries fit inside Brazil. Watch.",
+   "props": {
+    "title": "True size: Brazil",
+    "base": {
+     "flag": "br",
+     "label": "Brazil"
+    }
+   },
+   "start": 0.05,
+   "end": 3.65,
+   "words": [
+    {
+     "word": "Seven",
+     "start": 0.3,
+     "end": 0.6
+    },
+    {
+     "word": "European",
+     "start": 0.6,
+     "end": 1.05
+    },
+    {
+     "word": "countries",
+     "start": 1.05,
+     "end": 1.562
+    },
+    {
+     "word": "fit",
+     "start": 1.562,
+     "end": 1.713
+    },
+    {
+     "word": "inside",
+     "start": 1.713,
+     "end": 2.075
+    },
+    {
+     "word": "Brazil.",
+     "start": 2.075,
+     "end": 2.725
+    },
+    {
+     "word": "Watch.",
+     "start": 2.862,
+     "end": 3.4
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "France.",
+   "props": {
+    "item": {
+     "flag": "fr",
+     "label": "France"
+    },
+    "at": "france"
+   },
+   "start": 3.71,
+   "end": 4.96,
+   "words": [
+    {
+     "word": "France.",
+     "start": 4.035,
+     "end": 4.685
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "Spain.",
+   "props": {
+    "item": {
+     "flag": "es",
+     "label": "Spain"
+    },
+    "at": "spain"
+   },
+   "start": 5.02,
+   "end": 6.27,
+   "words": [
+    {
+     "word": "Spain.",
+     "start": 5.345,
+     "end": 5.995
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "Sweden.",
+   "props": {
+    "item": {
+     "flag": "se",
+     "label": "Sweden"
+    },
+    "at": "sweden"
+   },
+   "start": 6.33,
+   "end": 7.58,
+   "words": [
+    {
+     "word": "Sweden.",
+     "start": 6.655,
+     "end": 7.305
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "Germany.",
+   "props": {
+    "item": {
+     "flag": "de",
+     "label": "Germany"
+    },
+    "at": "germany"
+   },
+   "start": 7.64,
+   "end": 8.915,
+   "words": [
+    {
+     "word": "Germany.",
+     "start": 7.915,
+     "end": 8.64
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "Poland.",
+   "props": {
+    "item": {
+     "flag": "pl",
+     "label": "Poland"
+    },
+    "at": "poland"
+   },
+   "start": 8.975,
+   "end": 10.275,
+   "words": [
+    {
+     "word": "Poland.",
+     "start": 9.275,
+     "end": 10.0
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "Italy.",
+   "props": {
+    "item": {
+     "flag": "it",
+     "label": "Italy"
+    },
+    "at": "italy"
+   },
+   "start": 10.335,
+   "end": 11.56,
+   "words": [
+    {
+     "word": "Italy.",
+     "start": 10.66,
+     "end": 11.285
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "And the UK. Brazil is still over three times their size.",
+   "props": {
+    "item": {
+     "flag": "gb",
+     "label": "UK"
+    },
+    "at": "UK"
+   },
+   "start": 11.62,
+   "end": 15.37,
+   "words": [
+    {
+     "word": "And",
+     "start": 11.845,
+     "end": 11.958
+    },
+    {
+     "word": "the",
+     "start": 11.958,
+     "end": 12.058
+    },
+    {
+     "word": "UK.",
+     "start": 12.058,
+     "end": 12.72
+    },
+    {
+     "word": "Brazil",
+     "start": 12.845,
+     "end": 13.27
+    },
+    {
+     "word": "is",
+     "start": 13.27,
+     "end": 13.37
+    },
+    {
+     "word": "still",
+     "start": 13.37,
+     "end": 13.583
+    },
+    {
+     "word": "over",
+     "start": 13.583,
+     "end": 13.833
+    },
+    {
+     "word": "three",
+     "start": 13.833,
+     "end": 14.07
+    },
+    {
+     "word": "times",
+     "start": 14.07,
+     "end": 14.383
+    },
+    {
+     "word": "their",
+     "start": 14.383,
+     "end": 14.545
+    },
+    {
+     "word": "size.",
+     "start": 14.545,
+     "end": 15.12
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "How many more would fit?",
+   "props": {},
+   "start": 15.43,
+   "end": 17.08,
+   "words": [
+    {
+     "word": "How",
+     "start": 15.655,
+     "end": 15.793
+    },
+    {
+     "word": "many",
+     "start": 15.793,
+     "end": 16.005
+    },
+    {
+     "word": "more",
+     "start": 16.005,
+     "end": 16.193
+    },
+    {
+     "word": "would",
+     "start": 16.193,
+     "end": 16.343
+    },
+    {
+     "word": "fit?",
+     "start": 16.343,
+     "end": 16.83
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 533,
+ "fps": 30,
+ "aligned": "tts"
+}
