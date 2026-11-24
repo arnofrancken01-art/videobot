@@ -1,19 +1,58 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-23T16:14:41Z",
+ "fetched_at": "2026-11-24T14:42:28Z",
  "videos": [
+  {
+   "video_id": "ULt9F3VVjWc",
+   "title": "India 🇮🇳 has more soldiers than USA, Russia and UK combined #shorts",
+   "views": 44,
+   "question_posted": false,
+   "question": "India or all three?",
+   "comments": []
+  },
+  {
+   "video_id": "0vGmNtN_3zE",
+   "title": "Brazil 🇧🇷 is bigger than these 7 European countries combined #shorts",
+   "views": 311,
+   "question_posted": false,
+   "question": "How many more would fit?",
+   "comments": []
+  },
   {
    "video_id": "b_iMwtkBjM8",
    "title": "Pakistan 🇵🇰 vs Turkey 🇹🇷: who wins? 4 rounds, real data #shorts",
-   "views": 11,
-   "question_posted": false,
+   "views": 971,
+   "question_posted": true,
    "question": "Two all. Pakistan or Turkey?",
+   "comments": [
+    {
+     "id": "Ugy7Incno6s4317_6Cx4AaABAg",
+     "author": "@baddie-y7j",
+     "text": "We are brothers",
+     "answered": false,
+     "replies": []
+    },
+    {
+     "id": "Ugx-0uEbP8CJIwux3Ih4AaABAg",
+     "author": "@Moonlit-l2k",
+     "text": "pakistan def",
+     "answered": false,
+     "replies": []
+    }
+   ]
+  },
+  {
+   "video_id": "VezqfUzsfa0",
+   "title": "India 🇮🇳 vs Japan 🇯🇵: who wins? 3 rounds, real data #shorts",
+   "views": 1052,
+   "question_posted": false,
+   "question": "Two to one. India or Japan?",
    "comments": []
   },
   {
    "video_id": "H0zkmW823Jc",
    "title": "Indonesia 🇮🇩 has more people than these 3 rich countries #shorts",
-   "views": 1016,
+   "views": 1038,
    "question_posted": true,
    "question": "Who should Indonesia face next?",
    "comments": []
@@ -21,58 +60,9 @@
   {
    "video_id": "xdtUtgmDcHQ",
    "title": "India 🇮🇳 vs Russia 🇷🇺: who wins? 4 rounds, real data #shorts",
-   "views": 948,
+   "views": 1034,
    "question_posted": true,
    "question": "Two all. India or Russia?",
-   "comments": []
-  },
-  {
-   "video_id": "aUsEuxsRuCk",
-   "title": "Pakistan 🇵🇰 vs the world: true or false? 3 rounds #shorts",
-   "views": 1019,
-   "question_posted": true,
-   "question": "How many did you get?",
-   "comments": [
-    {
-     "id": "UgzZKQDrSzV8gZwQ0kd4AaABAg",
-     "author": "@ZhandreyGiganto",
-     "text": "3",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "Full marks! 🎯 Did the soldiers round fool you for a second? America has 1.4M troops vs Pakistan's 943k. Where are you watching from?"
-      }
-     ]
-    },
-    {
-     "id": "UgzL4KcG2ctJF2_Sskh4AaABAg",
-     "author": "@KhalidKhan-s1x",
-     "text": "3",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "A perfect 3 out of 3! 🔥 The land round was the tightest: Pakistan beats Turkey by only about 1,250 km². Where are you watching from?"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "video_id": "5U8cHEF28bw",
-   "title": "India 🇮🇳 is bigger than these 7 European countries combined #shorts",
-   "views": 1097,
-   "question_posted": true,
-   "question": "Bigger than you thought?",
-   "comments": []
-  },
-  {
-   "video_id": "otxQv7rN_wM",
-   "title": "India 🇮🇳 vs Pakistan 🇵🇰: 20 rounds, real data. Who wins?",
-   "views": 0,
-   "question_posted": true,
-   "question": "India or Pakistan?",
    "comments": []
   }
  ]
