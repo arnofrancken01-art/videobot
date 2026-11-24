@@ -1,0 +1,358 @@
+{
+ "id": "ep039",
+ "title": "Pakistan \ud83c\uddf5\ud83c\uddf0: what is your $100 really worth there?",
+ "topic": "Your money there",
+ "headline": "$100 in *Pakistan*?",
+ "description": "What does one hundred dollars really buy in Pakistan, and in Switzerland? Guess before the timer ends. Real World Bank price data for 2025.",
+ "tags": [
+  "pakistan cost of living",
+  "100 dollars in pakistan",
+  "pakistan prices",
+  "pakistan vs switzerland",
+  "where is money worth more",
+  "purchasing power",
+  "cost of living comparison",
+  "pakistan rupee",
+  "country comparison"
+ ],
+ "source": "World Bank, GDP per person in US dollars and in PPP (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "pakistan",
+  "money",
+  "costofliving",
+  "quiz"
+ ],
+ "format": "choice",
+ "slot": "17:30",
+ "hook_type": "you",
+ "music": 3,
+ "cover": {
+  "flags": [
+   "pk"
+  ],
+  "badge": "GUESS IT"
+ },
+ "localizations": {
+  "ur": {
+   "title": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \ud83c\uddf5\ud83c\uddf0: \u0622\u067e \u06a9\u06d2 100 \u0688\u0627\u0644\u0631 \u06a9\u06cc \u0627\u0635\u0644 \u0642\u06cc\u0645\u062a \u06a9\u06cc\u0627 \u06c1\u06d2\u061f",
+   "description": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u0627\u0648\u0631 \u0633\u0648\u0626\u0679\u0632\u0631\u0644\u06cc\u0646\u0688 \u0645\u06cc\u06ba 100 \u0688\u0627\u0644\u0631 \u0633\u06d2 \u0627\u0635\u0644 \u0645\u06cc\u06ba \u06a9\u062a\u0646\u0627 \u0645\u0644\u062a\u0627 \u06c1\u06d2\u061f \u0627\u0635\u0644\u06cc \u0627\u0639\u062f\u0627\u062f \u0648 \u0634\u0645\u0627\u0631\u060c 2025\u06d4"
+  }
+ },
+ "segments": [
+  {
+   "scene": "choice",
+   "text": "You bring one hundred dollars to Pakistan. What does it feel like? One fifty, two fifty or four twelve?",
+   "props": {
+    "question": "$100 in Pakistan feels like?",
+    "options": [
+     "$150",
+     "$250",
+     "$412"
+    ],
+    "answer": 2,
+    "flag": "pk",
+    "fact": "Same shopping costs $412 in the USA",
+    "pause": 1.8
+   },
+   "start": 0.05,
+   "end": 6.225,
+   "words": [
+    {
+     "word": "You",
+     "start": 0.275,
+     "end": 0.375
+    },
+    {
+     "word": "bring",
+     "start": 0.375,
+     "end": 0.575
+    },
+    {
+     "word": "one",
+     "start": 0.575,
+     "end": 0.725
+    },
+    {
+     "word": "hundred",
+     "start": 0.725,
+     "end": 1.025
+    },
+    {
+     "word": "dollars",
+     "start": 1.025,
+     "end": 1.425
+    },
+    {
+     "word": "to",
+     "start": 1.425,
+     "end": 1.525
+    },
+    {
+     "word": "Pakistan.",
+     "start": 1.525,
+     "end": 2.4
+    },
+    {
+     "word": "What",
+     "start": 2.5,
+     "end": 2.637
+    },
+    {
+     "word": "does",
+     "start": 2.637,
+     "end": 2.762
+    },
+    {
+     "word": "it",
+     "start": 2.762,
+     "end": 2.85
+    },
+    {
+     "word": "feel",
+     "start": 2.85,
+     "end": 3.075
+    },
+    {
+     "word": "like?",
+     "start": 3.075,
+     "end": 3.55
+    },
+    {
+     "word": "One",
+     "start": 3.65,
+     "end": 3.875
+    },
+    {
+     "word": "fifty,",
+     "start": 3.875,
+     "end": 4.275
+    },
+    {
+     "word": "two",
+     "start": 4.35,
+     "end": 4.562
+    },
+    {
+     "word": "fifty",
+     "start": 4.562,
+     "end": 4.95
+    },
+    {
+     "word": "or",
+     "start": 4.95,
+     "end": 5.112
+    },
+    {
+     "word": "four",
+     "start": 5.112,
+     "end": 5.35
+    },
+    {
+     "word": "twelve?",
+     "start": 5.35,
+     "end": 5.975
+    }
+   ]
+  },
+  {
+   "scene": "choice",
+   "text": "Four hundred twelve dollars. Your money goes four times further.",
+   "props": {
+    "reveal": true
+   },
+   "start": 8.085,
+   "end": 11.71,
+   "words": [
+    {
+     "word": "Four",
+     "start": 8.335,
+     "end": 8.498
+    },
+    {
+     "word": "hundred",
+     "start": 8.498,
+     "end": 8.735
+    },
+    {
+     "word": "twelve",
+     "start": 8.735,
+     "end": 9.035
+    },
+    {
+     "word": "dollars.",
+     "start": 9.035,
+     "end": 9.635
+    },
+    {
+     "word": "Your",
+     "start": 9.735,
+     "end": 9.885
+    },
+    {
+     "word": "money",
+     "start": 9.885,
+     "end": 10.135
+    },
+    {
+     "word": "goes",
+     "start": 10.135,
+     "end": 10.36
+    },
+    {
+     "word": "four",
+     "start": 10.36,
+     "end": 10.585
+    },
+    {
+     "word": "times",
+     "start": 10.585,
+     "end": 10.91
+    },
+    {
+     "word": "further.",
+     "start": 10.91,
+     "end": 11.46
+    }
+   ]
+  },
+  {
+   "scene": "choice",
+   "text": "Now Switzerland. Fifty, eighty-nine or one fifty?",
+   "props": {
+    "question": "$100 in Switzerland feels like?",
+    "options": [
+     "$50",
+     "$89",
+     "$150"
+    ],
+    "answer": 1,
+    "flag": "ch",
+    "fact": "Prices 12% above the USA",
+    "pause": 1.8
+   },
+   "start": 11.77,
+   "end": 15.27,
+   "words": [
+    {
+     "word": "Now",
+     "start": 12.02,
+     "end": 12.195
+    },
+    {
+     "word": "Switzerland.",
+     "start": 12.195,
+     "end": 12.945
+    },
+    {
+     "word": "Fifty,",
+     "start": 13.058,
+     "end": 13.47
+    },
+    {
+     "word": "eighty-nine",
+     "start": 13.545,
+     "end": 14.07
+    },
+    {
+     "word": "or",
+     "start": 14.07,
+     "end": 14.195
+    },
+    {
+     "word": "one",
+     "start": 14.195,
+     "end": 14.42
+    },
+    {
+     "word": "fifty?",
+     "start": 14.42,
+     "end": 15.02
+    }
+   ]
+  },
+  {
+   "scene": "choice",
+   "text": "Eighty-nine dollars. Your money shrinks there.",
+   "props": {
+    "reveal": true
+   },
+   "start": 17.13,
+   "end": 19.93,
+   "words": [
+    {
+     "word": "Eighty-nine",
+     "start": 17.38,
+     "end": 17.88
+    },
+    {
+     "word": "dollars.",
+     "start": 17.88,
+     "end": 18.43
+    },
+    {
+     "word": "Your",
+     "start": 18.53,
+     "end": 18.668
+    },
+    {
+     "word": "money",
+     "start": 18.668,
+     "end": 18.893
+    },
+    {
+     "word": "shrinks",
+     "start": 18.893,
+     "end": 19.218
+    },
+    {
+     "word": "there.",
+     "start": 19.218,
+     "end": 19.68
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Where should your hundred dollars go?",
+   "props": {},
+   "start": 19.99,
+   "end": 21.99,
+   "words": [
+    {
+     "word": "Where",
+     "start": 20.215,
+     "end": 20.34
+    },
+    {
+     "word": "should",
+     "start": 20.34,
+     "end": 20.478
+    },
+    {
+     "word": "your",
+     "start": 20.478,
+     "end": 20.59
+    },
+    {
+     "word": "hundred",
+     "start": 20.59,
+     "end": 20.915
+    },
+    {
+     "word": "dollars",
+     "start": 20.915,
+     "end": 21.315
+    },
+    {
+     "word": "go?",
+     "start": 21.315,
+     "end": 21.74
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 680,
+ "fps": 30,
+ "aligned": "tts"
+}
