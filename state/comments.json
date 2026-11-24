@@ -1,27 +1,35 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-24T14:42:28Z",
+ "fetched_at": "2026-11-24T17:42:25Z",
  "videos": [
+  {
+   "video_id": "rA9S46BMot4",
+   "title": "Pakistan 🇵🇰: what is your $100 really worth there? #shorts",
+   "views": 26,
+   "question_posted": false,
+   "question": "Where should your hundred dollars go?",
+   "comments": []
+  },
   {
    "video_id": "ULt9F3VVjWc",
    "title": "India 🇮🇳 has more soldiers than USA, Russia and UK combined #shorts",
-   "views": 44,
-   "question_posted": false,
+   "views": 160,
+   "question_posted": true,
    "question": "India or all three?",
    "comments": []
   },
   {
    "video_id": "0vGmNtN_3zE",
    "title": "Brazil 🇧🇷 is bigger than these 7 European countries combined #shorts",
-   "views": 311,
-   "question_posted": false,
+   "views": 555,
+   "question_posted": true,
    "question": "How many more would fit?",
    "comments": []
   },
   {
    "video_id": "b_iMwtkBjM8",
    "title": "Pakistan 🇵🇰 vs Turkey 🇹🇷: who wins? 4 rounds, real data #shorts",
-   "views": 971,
+   "views": 973,
    "question_posted": true,
    "question": "Two all. Pakistan or Turkey?",
    "comments": [
@@ -29,30 +37,40 @@
      "id": "Ugy7Incno6s4317_6Cx4AaABAg",
      "author": "@baddie-y7j",
      "text": "We are brothers",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Love that! Pakistan and Turkey really do share a famous friendship 🤝 Where are you watching from?"
+      }
+     ]
     },
     {
      "id": "Ugx-0uEbP8CJIwux3Ih4AaABAg",
      "author": "@Moonlit-l2k",
      "text": "pakistan def",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Team Pakistan, noted! Which of the 4 rounds surprised you the most?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "VezqfUzsfa0",
    "title": "India 🇮🇳 vs Japan 🇯🇵: who wins? 3 rounds, real data #shorts",
-   "views": 1052,
-   "question_posted": false,
+   "views": 1126,
+   "question_posted": true,
    "question": "Two to one. India or Japan?",
    "comments": []
   },
   {
    "video_id": "H0zkmW823Jc",
    "title": "Indonesia 🇮🇩 has more people than these 3 rich countries #shorts",
-   "views": 1038,
+   "views": 1042,
    "question_posted": true,
    "question": "Who should Indonesia face next?",
    "comments": []
@@ -60,7 +78,7 @@
   {
    "video_id": "xdtUtgmDcHQ",
    "title": "India 🇮🇳 vs Russia 🇷🇺: who wins? 4 rounds, real data #shorts",
-   "views": 1034,
+   "views": 1056,
    "question_posted": true,
    "question": "Two all. India or Russia?",
    "comments": []
