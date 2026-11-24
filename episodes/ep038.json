@@ -1,0 +1,24 @@
+{
+ "id": "ep038",
+ "title": "India 🇮🇳 has more soldiers than USA, Russia and UK combined",
+ "topic": "India vs 3 powers",
+ "headline": "India vs *3 superpowers*",
+ "description": "India's armed forces against America, Russia and the UK put together. Who has more? Real World Bank data for 2020. Comment your flag.",
+ "tags": ["india army", "india army size", "india vs usa", "india vs russia", "india vs uk", "largest armies in the world", "armed forces comparison", "india military", "country comparison"],
+ "source": "World Bank, armed forces personnel (2020), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "army", "indiavsusa", "countrycomparison"],
+ "format": "bubbles",
+ "slot": "14:30",
+ "hook_type": "number",
+ "music": 4,
+ "cover": {"flags": ["in"], "badge": "REAL DATA"},
+ "localizations": {"hi": {"title": "भारत 🇮🇳 के सैनिक अमेरिका, रूस और ब्रिटेन से भी ज़्यादा", "description": "भारत की सेना बनाम अमेरिका, रूस और ब्रिटेन मिलाकर। असली आंकड़े, 2020। अपना झंडा कमेंट करें।"}},
+ "segments": [
+  {"scene": "bubbles", "text": "Three million soldiers. This is India. More than three world powers combined.", "props": {"title": "Armed forces, 2020", "format": {"suffix": "M", "decimals": 2}, "item": {"label": "India", "flag": "in", "value": 3.07}, "at": "This"}},
+  {"scene": "bubbles", "text": "Russia. One point four five million.", "props": {"item": {"label": "Russia", "flag": "ru", "value": 1.45}, "at": "Russia"}},
+  {"scene": "bubbles", "text": "America. One point four million.", "props": {"item": {"label": "USA", "flag": "us", "value": 1.4}, "at": "America"}},
+  {"scene": "bignumber", "text": "Now add the UK. All three together. India still has more. By sixty-six thousand.", "props": {"value": 66, "format": {"prefix": "+", "suffix": "k"}, "caption": "more soldiers in India than all three combined", "at": "sixty", "compare": {"format": {"suffix": "M", "decimals": 2}, "items": [{"label": "USA, Russia, UK", "value": 3.0}, {"label": "India", "value": 3.07}]}}},
+  {"scene": "outro", "text": "India or all three? Comment your flag.", "props": {}}
+ ]
+}

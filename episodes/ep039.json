@@ -1,0 +1,24 @@
+{
+ "id": "ep039",
+ "title": "Pakistan 🇵🇰: what is your $100 really worth there?",
+ "topic": "Your money there",
+ "headline": "$100 in *Pakistan*?",
+ "description": "What does one hundred dollars really buy in Pakistan, and in Switzerland? Guess before the timer ends. Real World Bank price data for 2025.",
+ "tags": ["pakistan cost of living", "100 dollars in pakistan", "pakistan prices", "pakistan vs switzerland", "where is money worth more", "purchasing power", "cost of living comparison", "pakistan rupee", "country comparison"],
+ "source": "World Bank, GDP per person in US dollars and in PPP (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["pakistan", "money", "costofliving", "quiz"],
+ "format": "choice",
+ "slot": "17:30",
+ "hook_type": "you",
+ "music": 3,
+ "cover": {"flags": ["pk"], "badge": "GUESS IT"},
+ "localizations": {"ur": {"title": "پاکستان 🇵🇰: آپ کے 100 ڈالر کی اصل قیمت کیا ہے؟", "description": "پاکستان اور سوئٹزرلینڈ میں 100 ڈالر سے اصل میں کتنا ملتا ہے؟ اصلی اعداد و شمار، 2025۔"}},
+ "segments": [
+  {"scene": "choice", "text": "You bring one hundred dollars to Pakistan. What does it feel like? One fifty, two fifty or four twelve?", "props": {"question": "$100 in Pakistan feels like?", "options": ["$150", "$250", "$412"], "answer": 2, "flag": "pk", "fact": "Same shopping costs $412 in the USA", "pause": 1.8}},
+  {"scene": "choice", "text": "Four hundred twelve dollars. Your money goes four times further.", "props": {"reveal": true}},
+  {"scene": "choice", "text": "Now Switzerland. Fifty, eighty-nine or one fifty?", "props": {"question": "$100 in Switzerland feels like?", "options": ["$50", "$89", "$150"], "answer": 1, "flag": "ch", "fact": "Prices 12% above the USA", "pause": 1.8}},
+  {"scene": "choice", "text": "Eighty-nine dollars. Your money shrinks there.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "Where should your hundred dollars go?", "props": {}}
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "id": "ep037",
+ "title": "Brazil 🇧🇷 is bigger than these 7 European countries combined",
+ "topic": "True size: Brazil",
+ "headline": "How big is *Brazil*?",
+ "description": "France, Spain, Sweden, Germany, Poland, Italy and the UK, all inside Brazil at true size. Real World Bank land area data for 2024. Comment your flag.",
+ "tags": ["how big is brazil", "brazil true size", "brazil vs europe", "brazil land area", "true size map", "country size comparison", "brazil vs france", "europe inside brazil", "geography"],
+ "source": "World Bank, land area in square kilometers (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["brazil", "europe", "truesize", "geography"],
+ "format": "truesize",
+ "slot": "07:30",
+ "hook_type": "claim",
+ "music": 2,
+ "cover": {"flags": ["br"], "badge": "TRUE SIZE"},
+ "localizations": {"pt": {"title": "O Brasil 🇧🇷 é maior que estes 7 países europeus juntos", "description": "França, Espanha, Suécia, Alemanha, Polônia, Itália e Reino Unido dentro do Brasil, em tamanho real. Dados do Banco Mundial 2024. Comente sua bandeira."}},
+ "segments": [
+  {"scene": "truesize", "text": "Seven European countries fit inside Brazil. Watch.", "props": {"title": "True size: Brazil", "base": {"flag": "br", "label": "Brazil"}}},
+  {"scene": "truesize", "text": "France.", "props": {"item": {"flag": "fr", "label": "France"}, "at": "france"}},
+  {"scene": "truesize", "text": "Spain.", "props": {"item": {"flag": "es", "label": "Spain"}, "at": "spain"}},
+  {"scene": "truesize", "text": "Sweden.", "props": {"item": {"flag": "se", "label": "Sweden"}, "at": "sweden"}},
+  {"scene": "truesize", "text": "Germany.", "props": {"item": {"flag": "de", "label": "Germany"}, "at": "germany"}},
+  {"scene": "truesize", "text": "Poland.", "props": {"item": {"flag": "pl", "label": "Poland"}, "at": "poland"}},
+  {"scene": "truesize", "text": "Italy.", "props": {"item": {"flag": "it", "label": "Italy"}, "at": "italy"}},
+  {"scene": "truesize", "text": "And the UK. Brazil is still over three times their size.", "props": {"item": {"flag": "gb", "label": "UK"}, "at": "UK"}},
+  {"scene": "outro", "text": "How many more would fit?", "props": {}}
+ ]
+}
