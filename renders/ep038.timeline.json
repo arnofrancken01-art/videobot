@@ -1,0 +1,362 @@
+{
+ "id": "ep038",
+ "title": "India \ud83c\uddee\ud83c\uddf3 has more soldiers than USA, Russia and UK combined",
+ "topic": "India vs 3 powers",
+ "headline": "India vs *3 superpowers*",
+ "description": "India's armed forces against America, Russia and the UK put together. Who has more? Real World Bank data for 2020. Comment your flag.",
+ "tags": [
+  "india army",
+  "india army size",
+  "india vs usa",
+  "india vs russia",
+  "india vs uk",
+  "largest armies in the world",
+  "armed forces comparison",
+  "india military",
+  "country comparison"
+ ],
+ "source": "World Bank, armed forces personnel (2020), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "army",
+  "indiavsusa",
+  "countrycomparison"
+ ],
+ "format": "bubbles",
+ "slot": "14:30",
+ "hook_type": "number",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "in"
+  ],
+  "badge": "REAL DATA"
+ },
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 \u0915\u0947 \u0938\u0948\u0928\u093f\u0915 \u0905\u092e\u0947\u0930\u093f\u0915\u093e, \u0930\u0942\u0938 \u0914\u0930 \u092c\u094d\u0930\u093f\u091f\u0947\u0928 \u0938\u0947 \u092d\u0940 \u091c\u093c\u094d\u092f\u093e\u0926\u093e",
+   "description": "\u092d\u093e\u0930\u0924 \u0915\u0940 \u0938\u0947\u0928\u093e \u092c\u0928\u093e\u092e \u0905\u092e\u0947\u0930\u093f\u0915\u093e, \u0930\u0942\u0938 \u0914\u0930 \u092c\u094d\u0930\u093f\u091f\u0947\u0928 \u092e\u093f\u0932\u093e\u0915\u0930\u0964 \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947, 2020\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  }
+ },
+ "segments": [
+  {
+   "scene": "bubbles",
+   "text": "Three million soldiers. This is India. More than three world powers combined.",
+   "props": {
+    "title": "Armed forces, 2020",
+    "format": {
+     "suffix": "M",
+     "decimals": 2
+    },
+    "item": {
+     "label": "India",
+     "flag": "in",
+     "value": 3.07
+    },
+    "at": "This"
+   },
+   "start": 0.05,
+   "end": 4.8,
+   "words": [
+    {
+     "word": "Three",
+     "start": 0.3,
+     "end": 0.5
+    },
+    {
+     "word": "million",
+     "start": 0.5,
+     "end": 0.875
+    },
+    {
+     "word": "soldiers.",
+     "start": 0.875,
+     "end": 1.525
+    },
+    {
+     "word": "This",
+     "start": 1.6,
+     "end": 1.8
+    },
+    {
+     "word": "is",
+     "start": 1.8,
+     "end": 1.95
+    },
+    {
+     "word": "India.",
+     "start": 1.95,
+     "end": 2.475
+    },
+    {
+     "word": "More",
+     "start": 2.587,
+     "end": 2.787
+    },
+    {
+     "word": "than",
+     "start": 2.787,
+     "end": 2.962
+    },
+    {
+     "word": "three",
+     "start": 2.962,
+     "end": 3.2
+    },
+    {
+     "word": "world",
+     "start": 3.2,
+     "end": 3.475
+    },
+    {
+     "word": "powers",
+     "start": 3.475,
+     "end": 3.85
+    },
+    {
+     "word": "combined.",
+     "start": 3.85,
+     "end": 4.55
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Russia. One point four five million.",
+   "props": {
+    "item": {
+     "label": "Russia",
+     "flag": "ru",
+     "value": 1.45
+    },
+    "at": "Russia"
+   },
+   "start": 4.86,
+   "end": 7.435,
+   "words": [
+    {
+     "word": "Russia.",
+     "start": 5.11,
+     "end": 5.51
+    },
+    {
+     "word": "One",
+     "start": 5.585,
+     "end": 5.81
+    },
+    {
+     "word": "point",
+     "start": 5.81,
+     "end": 6.06
+    },
+    {
+     "word": "four",
+     "start": 6.06,
+     "end": 6.285
+    },
+    {
+     "word": "five",
+     "start": 6.285,
+     "end": 6.56
+    },
+    {
+     "word": "million.",
+     "start": 6.56,
+     "end": 7.185
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "America. One point four million.",
+   "props": {
+    "item": {
+     "label": "USA",
+     "flag": "us",
+     "value": 1.4
+    },
+    "at": "America"
+   },
+   "start": 7.495,
+   "end": 9.845,
+   "words": [
+    {
+     "word": "America.",
+     "start": 7.72,
+     "end": 8.245
+    },
+    {
+     "word": "One",
+     "start": 8.32,
+     "end": 8.545
+    },
+    {
+     "word": "point",
+     "start": 8.545,
+     "end": 8.795
+    },
+    {
+     "word": "four",
+     "start": 8.795,
+     "end": 8.982
+    },
+    {
+     "word": "million.",
+     "start": 8.982,
+     "end": 9.595
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "Now add the UK. All three together. India still has more. By sixty-six thousand.",
+   "props": {
+    "value": 66,
+    "format": {
+     "prefix": "+",
+     "suffix": "k"
+    },
+    "caption": "more soldiers in India than all three combined",
+    "at": "sixty",
+    "compare": {
+     "format": {
+      "suffix": "M",
+      "decimals": 2
+     },
+     "items": [
+      {
+       "label": "USA, Russia, UK",
+       "value": 3.0
+      },
+      {
+       "label": "India",
+       "value": 3.07
+      }
+     ]
+    }
+   },
+   "start": 9.905,
+   "end": 15.23,
+   "words": [
+    {
+     "word": "Now",
+     "start": 10.18,
+     "end": 10.38
+    },
+    {
+     "word": "add",
+     "start": 10.38,
+     "end": 10.567
+    },
+    {
+     "word": "the",
+     "start": 10.567,
+     "end": 10.655
+    },
+    {
+     "word": "UK.",
+     "start": 10.655,
+     "end": 11.155
+    },
+    {
+     "word": "All",
+     "start": 11.255,
+     "end": 11.455
+    },
+    {
+     "word": "three",
+     "start": 11.455,
+     "end": 11.68
+    },
+    {
+     "word": "together.",
+     "start": 11.68,
+     "end": 12.18
+    },
+    {
+     "word": "India",
+     "start": 12.28,
+     "end": 12.605
+    },
+    {
+     "word": "still",
+     "start": 12.605,
+     "end": 12.83
+    },
+    {
+     "word": "has",
+     "start": 12.83,
+     "end": 13.03
+    },
+    {
+     "word": "more.",
+     "start": 13.03,
+     "end": 13.43
+    },
+    {
+     "word": "By",
+     "start": 13.53,
+     "end": 13.717
+    },
+    {
+     "word": "sixty-six",
+     "start": 13.717,
+     "end": 14.33
+    },
+    {
+     "word": "thousand.",
+     "start": 14.33,
+     "end": 15.005
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "India or all three? Comment your flag.",
+   "props": {},
+   "start": 15.29,
+   "end": 18.065,
+   "words": [
+    {
+     "word": "India",
+     "start": 15.54,
+     "end": 15.94
+    },
+    {
+     "word": "or",
+     "start": 15.94,
+     "end": 16.065
+    },
+    {
+     "word": "all",
+     "start": 16.065,
+     "end": 16.277
+    },
+    {
+     "word": "three?",
+     "start": 16.277,
+     "end": 16.69
+    },
+    {
+     "word": "Comment",
+     "start": 16.815,
+     "end": 17.127
+    },
+    {
+     "word": "your",
+     "start": 17.127,
+     "end": 17.24
+    },
+    {
+     "word": "flag.",
+     "start": 17.24,
+     "end": 17.815
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 562,
+ "fps": 30,
+ "aligned": "tts"
+}
