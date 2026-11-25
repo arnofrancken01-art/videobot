@@ -1,35 +1,53 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-25T14:42:43Z",
+ "fetched_at": "2026-11-25T17:42:31Z",
  "videos": [
+  {
+   "video_id": "oZPjVo70ip8",
+   "title": "Pakistan 🇵🇰 is bigger than 5 European countries combined #shorts",
+   "views": 1,
+   "question_posted": false,
+   "question": "Which country would you add?",
+   "comments": []
+  },
   {
    "video_id": "0hTy91mL6UQ",
    "title": "India 🇮🇳 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data #shorts",
-   "views": 0,
-   "question_posted": false,
+   "views": 2,
+   "question_posted": true,
    "question": "India or Bangladesh?",
    "comments": []
   },
   {
    "video_id": "1Wz1wjuK3uI",
    "title": "Indonesia 🇮🇩: only 3 countries have more people #shorts",
-   "views": 1027,
-   "question_posted": false,
+   "views": 1176,
+   "question_posted": true,
    "question": "Can you name all three?",
    "comments": [
     {
      "id": "Ugw0cGg_Uz926KB47PF4AaABAg",
      "author": "@loskres3977",
      "text": "as a Indonesian i sock see this",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Greetings to Indonesia! 286 million people, up from about 184 million in 1990. Which city are you watching from? 🇮🇩"
+      }
+     ]
     },
     {
      "id": "UgxAtEBZnnV8bpxmDSd4AaABAg",
      "author": "@Enzo-frndz24",
      "text": "United state of america \nChina\nIndia",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "All three correct! India leads with about 1.46 billion, then China with 1.41 billion and the USA with 342 million. Where are you watching from?"
+      }
+     ]
     }
    ]
   },
@@ -44,7 +62,7 @@
   {
    "video_id": "ULt9F3VVjWc",
    "title": "India 🇮🇳 has more soldiers than USA, Russia and UK combined #shorts",
-   "views": 309,
+   "views": 317,
    "question_posted": true,
    "question": "India or all three?",
    "comments": []
@@ -52,7 +70,7 @@
   {
    "video_id": "0vGmNtN_3zE",
    "title": "Brazil 🇧🇷 is bigger than these 7 European countries combined #shorts",
-   "views": 890,
+   "views": 887,
    "question_posted": true,
    "question": "How many more would fit?",
    "comments": []
@@ -60,7 +78,7 @@
   {
    "video_id": "b_iMwtkBjM8",
    "title": "Pakistan 🇵🇰 vs Turkey 🇹🇷: who wins? 4 rounds, real data #shorts",
-   "views": 1090,
+   "views": 1100,
    "question_posted": true,
    "question": "Two all. Pakistan or Turkey?",
    "comments": [
@@ -93,17 +111,9 @@
   {
    "video_id": "VezqfUzsfa0",
    "title": "India 🇮🇳 vs Japan 🇯🇵: who wins? 3 rounds, real data #shorts",
-   "views": 1201,
+   "views": 1213,
    "question_posted": true,
    "question": "Two to one. India or Japan?",
-   "comments": []
-  },
-  {
-   "video_id": "H0zkmW823Jc",
-   "title": "Indonesia 🇮🇩 has more people than these 3 rich countries #shorts",
-   "views": 1044,
-   "question_posted": true,
-   "question": "Who should Indonesia face next?",
    "comments": []
   }
  ]
