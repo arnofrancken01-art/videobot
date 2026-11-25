@@ -1,19 +1,50 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-24T17:42:25Z",
+ "fetched_at": "2026-11-25T14:42:43Z",
  "videos": [
+  {
+   "video_id": "0hTy91mL6UQ",
+   "title": "India 🇮🇳 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data #shorts",
+   "views": 0,
+   "question_posted": false,
+   "question": "India or Bangladesh?",
+   "comments": []
+  },
+  {
+   "video_id": "1Wz1wjuK3uI",
+   "title": "Indonesia 🇮🇩: only 3 countries have more people #shorts",
+   "views": 1027,
+   "question_posted": false,
+   "question": "Can you name all three?",
+   "comments": [
+    {
+     "id": "Ugw0cGg_Uz926KB47PF4AaABAg",
+     "author": "@loskres3977",
+     "text": "as a Indonesian i sock see this",
+     "answered": false,
+     "replies": []
+    },
+    {
+     "id": "UgxAtEBZnnV8bpxmDSd4AaABAg",
+     "author": "@Enzo-frndz24",
+     "text": "United state of america \nChina\nIndia",
+     "answered": false,
+     "replies": []
+    }
+   ]
+  },
   {
    "video_id": "rA9S46BMot4",
    "title": "Pakistan 🇵🇰: what is your $100 really worth there? #shorts",
-   "views": 26,
-   "question_posted": false,
+   "views": 734,
+   "question_posted": true,
    "question": "Where should your hundred dollars go?",
    "comments": []
   },
   {
    "video_id": "ULt9F3VVjWc",
    "title": "India 🇮🇳 has more soldiers than USA, Russia and UK combined #shorts",
-   "views": 160,
+   "views": 309,
    "question_posted": true,
    "question": "India or all three?",
    "comments": []
@@ -21,7 +52,7 @@
   {
    "video_id": "0vGmNtN_3zE",
    "title": "Brazil 🇧🇷 is bigger than these 7 European countries combined #shorts",
-   "views": 555,
+   "views": 890,
    "question_posted": true,
    "question": "How many more would fit?",
    "comments": []
@@ -29,7 +60,7 @@
   {
    "video_id": "b_iMwtkBjM8",
    "title": "Pakistan 🇵🇰 vs Turkey 🇹🇷: who wins? 4 rounds, real data #shorts",
-   "views": 973,
+   "views": 1090,
    "question_posted": true,
    "question": "Two all. Pakistan or Turkey?",
    "comments": [
@@ -62,7 +93,7 @@
   {
    "video_id": "VezqfUzsfa0",
    "title": "India 🇮🇳 vs Japan 🇯🇵: who wins? 3 rounds, real data #shorts",
-   "views": 1126,
+   "views": 1201,
    "question_posted": true,
    "question": "Two to one. India or Japan?",
    "comments": []
@@ -70,17 +101,9 @@
   {
    "video_id": "H0zkmW823Jc",
    "title": "Indonesia 🇮🇩 has more people than these 3 rich countries #shorts",
-   "views": 1042,
+   "views": 1044,
    "question_posted": true,
    "question": "Who should Indonesia face next?",
-   "comments": []
-  },
-  {
-   "video_id": "xdtUtgmDcHQ",
-   "title": "India 🇮🇳 vs Russia 🇷🇺: who wins? 4 rounds, real data #shorts",
-   "views": 1056,
-   "question_posted": true,
-   "question": "Two all. India or Russia?",
    "comments": []
   }
  ]
