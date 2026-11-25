@@ -1,0 +1,51 @@
+name: Lab (bronnen en stem testen)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python lab/fetch_assets.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: assets
+          path: out/lab
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu && pip install chatterbox-tts
+      - run: python lab/voice_test.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voice
+          path: out/lab
+  save:
+    needs: [assets, voice]
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: lab-out
+      - run: |
+          git config user.name "videobot"; git config user.email "videobot@users.noreply.github.com"
+          git checkout -q --orphan lab && git rm -rfq --cached . >/dev/null 2>&1 || true
+          git add lab-out && git commit -qm "Lab-resultaten" && git push -qf origin lab
