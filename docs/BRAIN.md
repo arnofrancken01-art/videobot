@@ -37,9 +37,9 @@ Actions maakt ze dan alle drie en ze staan voor 6:30 in Telegram. Arno zet ze ze
 
 | slot | waarom dit uur | wat erin hoort |
 |---|---|---|
-| `"07:30"` | 12:00 in India, 11:30 Pakistan, 13:30 Indonesië: middagpauze in Zuid-Azië | het **experiment**: een ander land of format (Indonesia, Philippines, Bangladesh, Nigeria, Brazil, of de reeks "Your money there") |
-| `"14:30"` | 19:00 in India: het drukste avonduur op mobiel | de **sterkste India-video** van de dag (India + rivaal, quiz of bubbles) |
-| `"17:30"` | 22:00 India, 21:30 Pakistan, 11:30 New York | **Pakistan/Bangladesh in de hoofdrol**, of een deel 2 van een recente winnaar |
+| `"07:30"` | 12:00 in India, 11:30 Pakistan, 13:30 Indonesië: middagpauze in Zuid-Azië | een **`facts`-video** met echte foto's: weetjes die fake klinken maar waar zijn (wereld, geld, records) |
+| `"14:30"` | 19:00 in India: het drukste avonduur op mobiel | de **sterkste India-video** van de dag: India-weetjes (`facts`) of India + rivaal (`quiz`, `bubbles`, `truesize`) |
+| `"17:30"` | 22:00 India, 21:30 Pakistan, 11:30 New York | **Pakistan/Bangladesh in de hoofdrol** of een korte lus (`worldsplit`), of een deel 2 van een recente winnaar |
 
 - De drie afleveringen hebben drie verschillende onderwerpen, drie verschillende landen in de hoofdrol en minstens twee
   verschillende formats en twee verschillende `hook_type`s. validate.py kijkt naar de vorige aflevering, dus schrijf ze in volgorde.
@@ -169,7 +169,7 @@ We haalden de 400 best bekeken Shorts van het laatste jaar op, in onze niche en 
 1. **Eén beeld, één feit, heel kort.** "Bangladesh has more people than Russia" (7 s, 3,1 mln views, kanaal van 24k), "Countries
    richer and poorer than India" (7 s, 3,5 mln), "Most World Cups" (11 s, 13 mln bij 7k abonnees), "Cost per tank shot" (10 s,
    3,7 mln bij 2k). Het antwoord staat er bijna meteen; mensen kijken twee keer om alles te lezen, dus meer dan 100% kijktijd.
-   **Maak daarom elke dag minstens één korte lus** (`worldsplit` of een `truesize` van 8 tot 15 s), het liefst in slot 07:30.
+   **Maak daarom elke dag minstens één korte lus** (`worldsplit` of een `truesize` van 8 tot 15 s), het liefst in slot 17:30.
 2. **Kaarten gevuld met vlaggen, op ware grootte.** "How big is Brazil" (Europese landen op Brazilië), "Moon vs countries",
    "Russia compared to Bangladesh": format `truesize`. Kies een groot land met een trots publiek (India, Brazil, Indonesia, Pakistan,
    Nigeria, USA, Australia) en leg er bekende kleinere landen op, van groot naar klein. Controleer met `AG.LND.TOTL.K2` dat wat je
