@@ -37,24 +37,30 @@ def commons_info(fname):
         return None
     em = ii.get("extmetadata", {})
     lic = em.get("LicenseShortName", {}).get("value", "")
-    if em.get("NonFree", {}).get("value") or not FREE.match(lic.strip()) or "svg" in ii.get("mime", ""):
+    if em.get("NonFree", {}).get("value") or not FREE.match(lic.strip()) or "svg" in ii.get("mime", "") or ii.get("width", 0) < 600:
+        print("   ", fname, "|", lic or "geen licentie", "|", ii.get("mime"), ii.get("width"))
         return None
     artist = re.sub(r"<[^>]+>", "", em.get("Artist", {}).get("value", "unknown")).strip()[:80]
     return {"url": ii.get("thumburl") or ii["url"], "license": lic, "artist": artist, "page": ii.get("descriptionurl", "")}
 
 
 def lead_image(title):
+    """Hoofdfoto van het artikel; lukt dat niet, dan de beste foto bij een zoekopdracht op Commons."""
     r = api("https://en.wikipedia.org/w/api.php", {
-        "action": "query", "format": "json", "titles": title, "prop": "pageimages|images", "piprop": "original", "imlimit": 30, "redirects": 1})
+        "action": "query", "format": "json", "titles": title, "prop": "pageimages", "piprop": "name|original", "pilicense": "any", "redirects": 1})
     pg = next(iter(r["query"]["pages"].values()))
     names = []
-    if pg.get("original", {}).get("source"):
-        names.append("File:" + requests.utils.unquote(pg["original"]["source"].split("/")[-1]).replace("_", " "))
-    names += [i["title"] for i in pg.get("images", []) if re.search(r"\.(jpe?g|png|webp)$", i["title"], re.I)]
-    for n in names[:12]:
+    if pg.get("pageimage"):
+        names.append("File:" + pg["pageimage"].replace("_", " "))
+    print("hoofdfoto", title, "->", names or "geen")
+    q = api("https://commons.wikimedia.org/w/api.php", {
+        "action": "query", "format": "json", "list": "search", "srsearch": f"{title} filetype:bitmap", "srnamespace": 6, "srlimit": 8})
+    names += [h["title"] for h in q.get("query", {}).get("search", []) if re.search(r"\.(jpe?g|png|webp)$", h["title"], re.I)]
+    for n in names:
         info = commons_info(n)
         if info:
             return n, info
+        print("  afgewezen (licentie of formaat):", n)
     return None, None
 
 

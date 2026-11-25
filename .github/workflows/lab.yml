@@ -23,10 +23,12 @@ jobs:
       - name: Geluidseffecten (CC0) testen
         run: |
           mkdir -p out/lab/sfx
-          for r in Calinou/kenney-interface-sounds Calinou/kenney-ui-audio Calinou/kenney-impact-sounds Calinou/kenney-digital-audio Calinou/kenney-casino-audio; do
-            git clone -q --depth 1 https://github.com/$r /tmp/$(basename $r) && cp -r /tmp/$(basename $r) out/lab/sfx/ && echo "OK $r" || echo "NO $r"
+          for r in Calinou/kenney-interface-sounds Calinou/kenney-ui-audio; do
+            n=$(basename $r); git clone -q --depth 1 https://github.com/$r /tmp/$n || continue
+            find /tmp/$n -type f \( -name '*.ogg' -o -name '*.wav' -o -name '*.mp3' -o -name '*.flac' \) | while read f; do cp "$f" "out/lab/sfx/${n}__$(basename "$f")"; done
+            ls /tmp/$n; cat /tmp/$n/*.txt 2>/dev/null | head -5
           done
-          find out/lab/sfx -name '*.ogg' | wc -l
+          ls out/lab/sfx | head -100
       - uses: actions/upload-artifact@v4
         with:
           name: assets
