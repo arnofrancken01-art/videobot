@@ -1,0 +1,23 @@
+name: Geluidseffecten installeren (Kenney, CC0)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sfx:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git clone -q --depth 1 https://github.com/Calinou/kenney-interface-sounds /tmp/k
+          f() { find /tmp/k -name "$1" | head -1; }
+          ls $(dirname "$(f 'drop_002.*')")
+          cp "$(f 'drop_002.*')" public/sfx/pop.wav
+          cp "$(f 'confirmation_002.*')" public/sfx/ding.wav
+          cp "$(f 'tick_002.*')" public/sfx/tick.wav
+          cp "$(f 'maximize_006.*')" public/sfx/rise.wav || true
+          printf 'pop.wav, ding.wav, tick.wav, rise.wav: Kenney Interface Sounds (www.kenney.nl), CC0 1.0\n' > public/sfx/CREDITS.txt
+          git config user.name "videobot"; git config user.email "videobot@users.noreply.github.com"
+          git add public/sfx && git commit -qm "Geluidseffecten van Kenney (CC0)" && git pull -q --rebase && git push -q
