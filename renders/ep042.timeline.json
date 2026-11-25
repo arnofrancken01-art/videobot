@@ -1,0 +1,271 @@
+{
+ "id": "ep042",
+ "title": "Pakistan \ud83c\uddf5\ud83c\uddf0 is bigger than 5 European countries combined",
+ "topic": "True size: Pakistan",
+ "headline": "How big is *Pakistan*?",
+ "description": "Germany, the UK, Austria, the Netherlands and Belgium, all inside Pakistan at true size. Real World Bank land area data for 2024. Comment your flag.",
+ "tags": [
+  "how big is pakistan",
+  "pakistan true size",
+  "pakistan vs europe",
+  "pakistan land area",
+  "true size map",
+  "country size comparison",
+  "pakistan vs germany",
+  "pakistan vs uk",
+  "geography"
+ ],
+ "source": "World Bank, land area in square kilometers (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "pakistan",
+  "europe",
+  "truesize",
+  "geography"
+ ],
+ "format": "truesize",
+ "slot": "17:30",
+ "hook_type": "question",
+ "music": 3,
+ "cover": {
+  "flags": [
+   "pk"
+  ],
+  "badge": "TRUE SIZE"
+ },
+ "localizations": {
+  "ur": {
+   "title": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \ud83c\uddf5\ud83c\uddf0 \u0627\u0646 5 \u06cc\u0648\u0631\u067e\u06cc \u0645\u0645\u0627\u0644\u06a9 \u0633\u06d2 \u0645\u0644 \u06a9\u0631 \u0628\u06be\u06cc \u0628\u0691\u0627 \u06c1\u06d2",
+   "description": "\u062c\u0631\u0645\u0646\u06cc\u060c \u0628\u0631\u0637\u0627\u0646\u06cc\u06c1\u060c \u0622\u0633\u0679\u0631\u06cc\u0627\u060c \u0646\u06cc\u062f\u0631\u0644\u06cc\u0646\u0688\u0632 \u0627\u0648\u0631 \u0628\u06cc\u0644\u062c\u06cc\u0645\u060c \u0633\u0628 \u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u06a9\u06d2 \u0627\u0646\u062f\u0631 \u0627\u0635\u0644 \u0633\u0627\u0626\u0632 \u0645\u06cc\u06ba\u06d4 \u0648\u0631\u0644\u0688 \u0628\u06cc\u0646\u06a9 2024\u06d4 \u0627\u067e\u0646\u0627 \u062c\u06be\u0646\u0688\u0627 \u06a9\u0645\u0646\u0679 \u06a9\u0631\u06cc\u06ba\u06d4"
+  }
+ },
+ "segments": [
+  {
+   "scene": "truesize",
+   "text": "How many European countries fit inside Pakistan? Watch.",
+   "props": {
+    "title": "True size: Pakistan",
+    "base": {
+     "flag": "pk",
+     "label": "Pakistan"
+    }
+   },
+   "start": 0.05,
+   "end": 3.75,
+   "words": [
+    {
+     "word": "How",
+     "start": 0.275,
+     "end": 0.425
+    },
+    {
+     "word": "many",
+     "start": 0.425,
+     "end": 0.65
+    },
+    {
+     "word": "European",
+     "start": 0.65,
+     "end": 1.1
+    },
+    {
+     "word": "countries",
+     "start": 1.1,
+     "end": 1.525
+    },
+    {
+     "word": "fit",
+     "start": 1.525,
+     "end": 1.663
+    },
+    {
+     "word": "inside",
+     "start": 1.663,
+     "end": 2.025
+    },
+    {
+     "word": "Pakistan?",
+     "start": 2.025,
+     "end": 2.825
+    },
+    {
+     "word": "Watch.",
+     "start": 2.962,
+     "end": 3.5
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "Germany.",
+   "props": {
+    "item": {
+     "flag": "de",
+     "label": "Germany"
+    },
+    "at": "germany"
+   },
+   "start": 3.81,
+   "end": 5.085,
+   "words": [
+    {
+     "word": "Germany.",
+     "start": 4.085,
+     "end": 4.81
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "The UK.",
+   "props": {
+    "item": {
+     "flag": "gb",
+     "label": "UK"
+    },
+    "at": "UK"
+   },
+   "start": 5.145,
+   "end": 6.47,
+   "words": [
+    {
+     "word": "The",
+     "start": 5.445,
+     "end": 5.52
+    },
+    {
+     "word": "UK.",
+     "start": 5.52,
+     "end": 6.195
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "Austria.",
+   "props": {
+    "item": {
+     "flag": "at",
+     "label": "Austria"
+    },
+    "at": "austria"
+   },
+   "start": 6.53,
+   "end": 7.88,
+   "words": [
+    {
+     "word": "Austria.",
+     "start": 6.855,
+     "end": 7.605
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "The Netherlands.",
+   "props": {
+    "item": {
+     "flag": "nl",
+     "label": "Netherlands"
+    },
+    "at": "netherlands"
+   },
+   "start": 7.94,
+   "end": 9.39,
+   "words": [
+    {
+     "word": "The",
+     "start": 8.215,
+     "end": 8.29
+    },
+    {
+     "word": "Netherlands.",
+     "start": 8.29,
+     "end": 9.14
+    }
+   ]
+  },
+  {
+   "scene": "truesize",
+   "text": "And Belgium. Pakistan is still bigger.",
+   "props": {
+    "item": {
+     "flag": "be",
+     "label": "Belgium"
+    },
+    "at": "belgium"
+   },
+   "start": 9.45,
+   "end": 12.2,
+   "words": [
+    {
+     "word": "And",
+     "start": 9.675,
+     "end": 9.825
+    },
+    {
+     "word": "Belgium.",
+     "start": 9.825,
+     "end": 10.375
+    },
+    {
+     "word": "Pakistan",
+     "start": 10.475,
+     "end": 11.05
+    },
+    {
+     "word": "is",
+     "start": 11.05,
+     "end": 11.15
+    },
+    {
+     "word": "still",
+     "start": 11.15,
+     "end": 11.4
+    },
+    {
+     "word": "bigger.",
+     "start": 11.4,
+     "end": 11.95
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Which country would you add?",
+   "props": {},
+   "start": 12.26,
+   "end": 14.035,
+   "words": [
+    {
+     "word": "Which",
+     "start": 12.485,
+     "end": 12.66
+    },
+    {
+     "word": "country",
+     "start": 12.66,
+     "end": 13.022
+    },
+    {
+     "word": "would",
+     "start": 13.022,
+     "end": 13.135
+    },
+    {
+     "word": "you",
+     "start": 13.135,
+     "end": 13.297
+    },
+    {
+     "word": "add?",
+     "start": 13.297,
+     "end": 13.785
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 441,
+ "fps": 30,
+ "aligned": "tts"
+}
