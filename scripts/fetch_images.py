@@ -94,6 +94,8 @@ def main():
         im = (s.get("props") or {}).get("image")
         if not im:
             continue
+        if im.get("flag"):
+            continue  # eigen vlag uit public/flags
         key = im.get("wiki") or im.get("file") or ""
         if key in seen:
             continue
@@ -119,7 +121,7 @@ def main():
         print("geen vrije foto voor", key)
     for s in tl["segments"]:
         im = (s.get("props") or {}).get("image")
-        if im and not seen.get(im.get("wiki") or im.get("file") or ""):
+        if im and not im.get("flag") and not seen.get(im.get("wiki") or im.get("file") or ""):
             s["props"]["image"] = None
     tl["credits"] = credits
     tl_path.write_text(json.dumps(tl, indent=1))

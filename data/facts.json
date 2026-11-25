@@ -159,7 +159,7 @@
    "Bugatti Veyron",
    "fastest police car"
   ],
-  "image": "Dubai Police Force"
+  "image": "Bugatti Veyron"
  },
  {
   "id": "ch-guinea",
@@ -213,7 +213,9 @@
   "check": [
    "only non-rectangular national flag"
   ],
-  "image": "Flag of Nepal"
+  "image": {
+   "flag": "np"
+  }
  },
  {
   "id": "tr-istanbul",
@@ -298,7 +300,9 @@
    "oldest continuously used national flag",
    "1625"
   ],
-  "image": "Flag of Denmark"
+  "image": {
+   "flag": "dk"
+  }
  },
  {
   "id": "kw-dinar",
@@ -308,7 +312,7 @@
   "check": [
    "highest-valued currency unit"
   ],
-  "image": "Kuwaiti dinar"
+  "image": "Kuwait Towers"
  },
  {
   "id": "bt-gnh",

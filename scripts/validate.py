@@ -259,8 +259,10 @@ for i, s in enumerate(segs):
             errors.append(f"{where}: item heeft label, flag en een positieve value nodig")
     if sc == "photo":
         im = p.get("image")
-        if not (isinstance(im, dict) and (im.get("wiki") or im.get("file"))):
-            errors.append(f"{where}: photo heeft image {{wiki: 'Artikeltitel'}} of {{file: 'File:...jpg'}} nodig")
+        if not (isinstance(im, dict) and (im.get("wiki") or im.get("file") or im.get("flag"))):
+            errors.append(f"{where}: photo heeft image {{wiki: 'Artikeltitel'}}, {{file: 'File:...jpg'}} of {{flag: 'np'}} nodig")
+        elif im.get("flag"):
+            check_flag(im, "image")
         if p.get("big") and len(p["big"].replace("*", "")) > 34:
             errors.append(f"{where}: big is max. 34 tekens (reuzenletters over de foto)")
         src = p.get("source")

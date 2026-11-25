@@ -9,8 +9,12 @@ import type { Seg } from "./Video";
  * Het bestand komt van scripts/fetch_images.py in public/img/<slug>.jpg.
  */
 export const slug = (s: string) => s.toLowerCase().replace(/^file:/, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const imageOf = (s: Seg): string | null => { const p: any = s.props; const im = p?.image; return im ? slug(im.wiki ?? im.file ?? "") : null; };
+export const imageOf = (s: Seg): string | null => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const p: any = s.props; const im = p?.image;
+  if (!im) return null;
+  return im.flag ? `flags/${im.flag}.svg` : `img/${slug(im.wiki ?? im.file ?? "")}.jpg`;
+};
 
 const KenBurns: React.FC<{ src: string; dur: number; dir: number }> = ({ src, dur, dir }) => {
   const f = useCurrentFrame();
@@ -40,7 +44,7 @@ export const PhotoLayer: React.FC<{ segments: Seg[]; fps: number; total: number 
         const end = nxt ? Math.round(nxt.s.start * fps) + 6 : after ? Math.round(after.start * fps) + 6 : total;
         return (
           <Sequence key={k} from={from} durationInFrames={Math.max(1, end - from)}>
-            <KenBurns src={`img/${x.img}.jpg`} dur={end - from} dir={k % 2 ? -1 : 1} />
+            <KenBurns src={x.img!} dur={end - from} dir={k % 2 ? -1 : 1} />
           </Sequence>
         );
       })}

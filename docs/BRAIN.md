@@ -148,12 +148,13 @@ Arno vindt de datavideo's te droog. Alle video's blijven steken op ongeveer 1.00
 omdat maar een derde blijft kijken, gaat de video daarna niet verder. **Daarom is minstens één video per dag een `facts`-video**:
 "Sounds fake but true"-weetjes over landen en geld (de reeks "Sounds Fake But True" haalde 15 tot 60 miljoen views per video).
 
-- **Weetjes komen uit `data/facts.json`** (gecontroleerd op Wikipedia, met `wiki` en `check`). Een nieuw weetje mag ook, maar dan
+- **Weetjes komen uit `data/facts.json`** (gecontroleerd op Wikipedia, met `wiki` en `check`; `image` is de artikeltitel voor de foto, of `{"flag": ".."}`). Een nieuw weetje mag ook, maar dan
   met `source: {"wiki": "Artikel", "check": ["woord", "getal"]}`: de render zoekt een zin in dat artikel met al die woorden en
   stopt als hij hem niet vindt. Verzin dus nooit een weetje.
 - **Elk weetje heeft een echte foto**: `image: {"wiki": "Artikeltitel"}` geeft de hoofdfoto van dat Wikipedia-artikel (vrije
   licentie, de naam van de fotograaf komt vanzelf in de beschrijving). Kies een artikel met een sprekende foto: een plek, een
-  gebouw, een biljet, een ding ("Vending machines in Japan", "Burj Khalifa", "Zimbabwean dollar"), geen abstract begrip.
+  gebouw, een biljet, een ding ("Burj Khalifa", "Bugatti Veyron", "Golden Temple"), geen abstract begrip of munt-artikel
+  (daar staat vaak een grafiek). Gaat het weetje over een vlag, gebruik dan `image: {"flag": "np"}` (onze eigen vlag).
 - **Opbouw**: het sterkste weetje eerst (dat is de hook), dan nog 2 tot 4, het laatste is het gekste. Per weetje 1 zin van max.
   12 woorden, plus de clou in `big` (max. 34 tekens, één *geel* woord). Geen inleiding, geen "Did you know".
 - Thema's die werken: "Things that are only normal in Japan", "Sounds fake but it's true: money edition", "Countries that broke
