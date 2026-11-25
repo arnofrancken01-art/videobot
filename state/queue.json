@@ -1,5 +1,5 @@
 {
- "_offset": 607496399,
+ "_offset": 607496402,
  "ep006": {
   "status": "approved",
   "posts": {
@@ -397,6 +397,36 @@
   }
  },
  "ep040": {
-  "status": "approved"
+  "status": "approved",
+  "posts": {
+   "youtube": {
+    "id": "1Wz1wjuK3uI",
+    "url": "https://youtube.com/shorts/1Wz1wjuK3uI",
+    "privacy": "private",
+    "at": "2026-11-25T06:16:21Z"
+   }
+  }
+ },
+ "ep041": {
+  "status": "approved",
+  "posts": {
+   "youtube": {
+    "id": "0hTy91mL6UQ",
+    "url": "https://youtube.com/shorts/0hTy91mL6UQ",
+    "privacy": "private",
+    "at": "2026-11-25T06:16:25Z"
+   }
+  }
+ },
+ "ep042": {
+  "status": "approved",
+  "posts": {
+   "youtube": {
+    "id": "oZPjVo70ip8",
+    "url": "https://youtube.com/shorts/oZPjVo70ip8",
+    "privacy": "private",
+    "at": "2026-11-25T06:16:30Z"
+   }
+  }
  }
 }
