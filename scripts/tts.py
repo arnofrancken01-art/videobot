@@ -163,8 +163,14 @@ def main():
     import os
     engine = os.environ.get("VOICE_ENGINE") or ep.get("voice_engine", "kokoro")
     if engine == "chatterbox":
+      try:
         say, aligned = engine_chatterbox()
         print("motor: chatterbox (expressief; timing via Whisper)")
+      except Exception:  # noqa: BLE001  liever een video met de oude stem dan geen video
+        import traceback
+        traceback.print_exc()
+        say, aligned = engine_onnx(voice)
+        print("motor: kokoro-onnx (terugval; chatterbox lukte niet)")
     else:
       try:
         say, aligned = engine_torch(voice)

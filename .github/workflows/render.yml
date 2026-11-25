@@ -9,6 +9,10 @@ on:
       episode:
         description: "Pad naar het episode-bestand"
         default: "episodes/ep001.json"
+      test:
+        description: "Alleen testen: niet bewaren en niet naar Telegram sturen"
+        type: boolean
+        default: false
 
 concurrency: render
 
@@ -20,6 +24,8 @@ jobs:
       contents: write
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      VOICE_ENGINE: chatterbox
+      REQUIRE_EXACT_TIMING: ""  # Chatterbox geeft geen woordtiming: align.py zet die met Whisper
     steps:
       - uses: actions/checkout@v4
         with:
@@ -42,7 +48,7 @@ jobs:
           cache: npm
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.11"  # Chatterbox werkt (nog) niet op 3.12
           cache: pip
       - name: Modellen cachen
         uses: actions/cache@v4
@@ -55,20 +61,21 @@ jobs:
         run: npm ci || (sleep 20 && npm ci)
       - name: Python-pakketten
         run: |
-          pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
-          pip install -r requirements.txt kokoro==0.9.4 "misaki[en]>=0.9.4" faster-whisper==1.1.1 requests
-          # Taalmodel voor de uitspraak: eerst GitHub, anders de kopie op Hugging Face (GitHub-downloads geven soms 504).
-          python -c "import en_core_web_sm" 2>/dev/null \
-            || pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl \
-            || (sleep 30 && pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl)
+          # Stem: Chatterbox (expressief, gekozen door Arno op 2026-11-25). Kokoro-onnx blijft als terugval.
+          pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install numpy setuptools wheel cython
+          pip install --no-build-isolation pkuseg==0.0.25 || pip install pkuseg
+          pip install -r requirements.txt chatterbox-tts faster-whisper==1.1.1 requests
       - name: Stemmodel cachen
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
-          key: hf-kokoro-82m
+          key: hf-chatterbox-v1
       - name: Kokoro-model downloaden
         run: test -f models/kokoro-v1.0.onnx || npm run models
       - name: Video's maken en naar Telegram sturen
+        env:
+          NO_SEND: ${{ inputs.test && '1' || '' }}
         run: |
           git config user.name "videobot"
           git config user.email "videobot@users.noreply.github.com"
