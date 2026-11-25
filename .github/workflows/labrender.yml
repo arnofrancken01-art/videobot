@@ -32,11 +32,13 @@ jobs:
         run: |
           if [ "${{ matrix.engine }}" = chatterbox ]; then
             pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+            pip install numpy setuptools wheel cython
+            pip install --no-build-isolation pkuseg==0.0.25 || pip install pkuseg
             pip install -r requirements.txt chatterbox-tts faster-whisper==1.1.1 requests
           else
             pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
             pip install -r requirements.txt kokoro==0.9.4 "misaki[en]>=0.9.4" faster-whisper==1.1.1 requests
-            python -c "import en_core_web_sm" 2>/dev/null || pip install https://huggingface.co/spacy/en_core_web_sm/resolve/main/en_core_web_sm-any-py3-none-any.whl
+            python -c "import en_core_web_sm" 2>/dev/null || pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
           fi
       - name: Video maken
         env:
