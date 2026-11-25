@@ -19,6 +19,7 @@ import { Choice, Clues, TrueFalse } from "./scenes/Games";
 import { Battle, Bubbles, Dots, Podium, Receipt, ThenNow, Ticker } from "./scenes/Charts";
 import { TrueSize, WorldSplit } from "./scenes/Maps";
 import { PhotoFact, PhotoLayer } from "./Photo";
+import TRACKS from "./music.json";
 import type { SceneProps } from "./scenes/common";
 
 const SR = (w: string) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -192,9 +193,16 @@ const topic: string = (timeline as { topic?: string }).topic
   ?? (timeline.segments.find((s) => s.scene === "rank")?.props as any)?.title ?? "";
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const headline: string = (timeline as any).headline ?? topic;
-// Muziek: vier stijlen; het nummer van de aflevering kiest welke, zodat ze afwisselen. `music: 1..4` in de aflevering kiest zelf.
+// Muziek: echte nummers van Kevin MacLeod (CC BY 4.0, naam staat in de beschrijving). Het nummer van de aflevering kiest welk,
+// zodat ze afwisselen; `music: "sneaky-snitch"` in de aflevering kiest zelf.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const BED: number = (timeline as any).music ?? ((parseInt(String((timeline as any).id ?? "").replace(/\D/g, ""), 10) || 0) % 4) + 1;
+const MUSIC: string = (() => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const m = (timeline as any).music;
+  if (typeof m === "string" && TRACKS.some((t) => t.file === m)) return m;
+  const n = parseInt(String((timeline as any).id ?? "").replace(/\D/g, ""), 10) || 0;
+  return TRACKS[n % TRACKS.length].file;
+})();
 const OVERLAP = 6; // frames waarin twee scenes in elkaar overvloeien
 
 // Elke scene komt binnen met een veer, zoomt traag in en vloeit weg in de volgende.
@@ -264,7 +272,7 @@ export const Video: React.FC = () => (
       Money, Mapped · Source: {timeline.source.split(",")[0]}
     </div>
     <Audio src={staticFile("voice.wav")} />
-    <Audio src={staticFile(`sfx/bed${BED}.mp3`)} volume={(fr) => 0.27 * Math.min(1, (timeline.durationInFrames - fr) / 12)} loop />
+    <Audio src={staticFile(`music/${MUSIC}.mp3`)} volume={(fr) => 0.2 * Math.min(1, fr / 6, (timeline.durationInFrames - fr) / 12)} loop />
     <Sequence from={0} durationInFrames={fps * 2}><Audio src={staticFile("sfx/boom.wav")} volume={0.45} /></Sequence>
     <Sequence from={HOLD} durationInFrames={fps * 2}><Audio src={staticFile("sfx/whoosh.wav")} volume={0.4} /></Sequence>
     {fx.map((e, i) => (

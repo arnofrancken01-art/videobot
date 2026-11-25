@@ -12,14 +12,26 @@ H = {"User-Agent": "MoneyMappedVideobot/1.0 (https://github.com/arnofrancken01-a
 FREE = re.compile(r"^(public domain|pd|cc0|cc[ -]by([ -]sa)?([ -]\d\.\d)?|cc[ -]by[ -]\d\.\d|attribution)", re.I)
 
 
+def api(url, params):
+    """Wikimedia-API met herkansing: bij 429 of een fout even wachten."""
+    import time
+    for i in range(4):
+        r = requests.get(url, headers=H, timeout=30, params={**params, "maxlag": 5})
+        if r.status_code == 200 and r.headers.get("content-type", "").startswith("application/json"):
+            return r.json()
+        print("wikimedia", r.status_code, r.text[:120].replace("\n", " "))
+        time.sleep(2 + 3 * i)
+    raise RuntimeError(f"wikimedia antwoordt niet: {url}")
+
+
 def slug(s):
     s = re.sub(r"^file:", "", s.lower())
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")[:80]
 
 
 def commons_info(fname):
-    r = requests.get("https://commons.wikimedia.org/w/api.php", headers=H, timeout=30, params={
-        "action": "query", "format": "json", "titles": fname, "prop": "imageinfo", "iiprop": "extmetadata|url|size|mime", "iiurlwidth": 1600}).json()
+    r = api("https://commons.wikimedia.org/w/api.php", {
+        "action": "query", "format": "json", "titles": fname, "prop": "imageinfo", "iiprop": "extmetadata|url|size|mime", "iiurlwidth": 1600})
     ii = next(iter(r["query"]["pages"].values())).get("imageinfo", [None])[0]
     if not ii:
         return None
@@ -32,8 +44,8 @@ def commons_info(fname):
 
 
 def lead_image(title):
-    r = requests.get("https://en.wikipedia.org/w/api.php", headers=H, timeout=30, params={
-        "action": "query", "format": "json", "titles": title, "prop": "pageimages|images", "piprop": "original", "imlimit": 30, "redirects": 1}).json()
+    r = api("https://en.wikipedia.org/w/api.php", {
+        "action": "query", "format": "json", "titles": title, "prop": "pageimages|images", "piprop": "original", "imlimit": 30, "redirects": 1})
     pg = next(iter(r["query"]["pages"].values()))
     names = []
     if pg.get("original", {}).get("source"):
@@ -46,9 +58,30 @@ def lead_image(title):
     return None, None
 
 
+def verify_facts(tl):
+    """Elk weetje met props.source = {wiki, check} moet in dat Wikipedia-artikel staan (alle check-woorden in één zin)."""
+    bad = []
+    for s in tl["segments"]:
+        src = (s.get("props") or {}).get("source")
+        if not src:
+            continue
+        r = api("https://en.wikipedia.org/w/api.php", {
+            "action": "query", "format": "json", "prop": "extracts", "explaintext": 1, "titles": src["wiki"], "redirects": 1})
+        text = next(iter(r["query"]["pages"].values())).get("extract", "")
+        sents = re.split(r"(?<=[.!?])\s+", text)
+        hit = next((x for x in sents if all(k.lower() in x.lower() for k in src.get("check", []))), None)
+        if hit:
+            print("weetje klopt:", src["wiki"], "|", hit[:160])
+        else:
+            bad.append(f"{src['wiki']} {src.get('check')}")
+    if bad:
+        sys.exit("weetje niet teruggevonden op Wikipedia (niet gepost): " + "; ".join(bad))
+
+
 def main():
     tl_path = ROOT / "src/timeline.json"
     tl = json.loads(tl_path.read_text())
+    verify_facts(tl)
     out = ROOT / "public/img"; out.mkdir(parents=True, exist_ok=True)
     credits, seen = [], {}
     for s in tl["segments"]:
@@ -66,6 +99,8 @@ def main():
                 name, info = lead_image(im["wiki"])
             if info:
                 img = requests.get(info["url"], headers=H, timeout=60)
+                if img.status_code == 429:
+                    import time; time.sleep(5); img = requests.get(info["url"], headers=H, timeout=60)
                 img.raise_for_status()
                 (out / f"{slug(key)}.jpg").write_bytes(img.content)
                 credits.append(f"{name.replace('File:', '')} by {info['artist']} ({info['license']}), via Wikimedia Commons")

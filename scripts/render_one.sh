@@ -6,6 +6,7 @@ file="$1"; name=$(basename "$file" .json)
 echo "::group::$name"
 REQUIRE_EXACT_TIMING=1 python scripts/tts.py "$file"
 python scripts/align.py
+python scripts/fetch_images.py  # foto's voor scene photo + controle van de weetjes op Wikipedia
 if [[ "$file" == long/* ]]; then
   # lange video (16:9): sterker samengedrukt zodat het bestand onder de 100 MB van GitHub blijft
   npx remotion render src/index.ts Short out/video.mp4 --concurrency=4 --crf=28

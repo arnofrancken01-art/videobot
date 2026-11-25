@@ -15,7 +15,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - run: python lab/fetch_assets.py
+      - name: Foto's testen
+        run: |
+          mkdir -p out/lab/photos && cp lab/test_episode.json src/timeline.json
+          python scripts/fetch_images.py || true
+          cp -r public/img out/lab/photos/ 2>/dev/null || true; cp src/timeline.json out/lab/photos/
+      - name: Geluidseffecten (CC0) testen
+        run: |
+          mkdir -p out/lab/sfx
+          for r in Calinou/kenney-interface-sounds Calinou/kenney-ui-audio Calinou/kenney-impact-sounds Calinou/kenney-digital-audio Calinou/kenney-casino-audio; do
+            git clone -q --depth 1 https://github.com/$r /tmp/$(basename $r) && cp -r /tmp/$(basename $r) out/lab/sfx/ && echo "OK $r" || echo "NO $r"
+          done
+          find out/lab/sfx -name '*.ogg' | wc -l
       - uses: actions/upload-artifact@v4
         with:
           name: assets

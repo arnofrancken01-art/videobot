@@ -142,6 +142,24 @@ Kies er één en wissel af (nooit drie keer dezelfde op een dag). Zo leert `stat
 Een rode schuine sticker onder de headline, max. 12 tekens, in hoofdletters: `"PART 2"`, `"3 ROUNDS"`, `"REAL DATA"`, `"GUESS IT"`.
 Gebruik hem bij een deel 2 altijd, anders alleen als het de belofte sterker maakt.
 
+## Leuke weetjes met echte foto's (sinds 2026-11-25, Arno: "niet zo saaie weetjes")
+
+Arno vindt de datavideo's te droog. Alle video's blijven steken op ongeveer 1.000 views: dat is de testgroep van YouTube, en
+omdat maar een derde blijft kijken, gaat de video daarna niet verder. **Daarom is minstens één video per dag een `facts`-video**:
+"Sounds fake but true"-weetjes over landen en geld (de reeks "Sounds Fake But True" haalde 15 tot 60 miljoen views per video).
+
+- **Weetjes komen uit `data/facts.json`** (gecontroleerd op Wikipedia, met `wiki` en `check`). Een nieuw weetje mag ook, maar dan
+  met `source: {"wiki": "Artikel", "check": ["woord", "getal"]}`: de render zoekt een zin in dat artikel met al die woorden en
+  stopt als hij hem niet vindt. Verzin dus nooit een weetje.
+- **Elk weetje heeft een echte foto**: `image: {"wiki": "Artikeltitel"}` geeft de hoofdfoto van dat Wikipedia-artikel (vrije
+  licentie, de naam van de fotograaf komt vanzelf in de beschrijving). Kies een artikel met een sprekende foto: een plek, een
+  gebouw, een biljet, een ding ("Vending machines in Japan", "Burj Khalifa", "Zimbabwean dollar"), geen abstract begrip.
+- **Opbouw**: het sterkste weetje eerst (dat is de hook), dan nog 2 tot 4, het laatste is het gekste. Per weetje 1 zin van max.
+  12 woorden, plus de clou in `big` (max. 34 tekens, één *geel* woord). Geen inleiding, geen "Did you know".
+- Thema's die werken: "Things that are only normal in Japan", "Sounds fake but it's true: money edition", "Countries that broke
+  the rules", "Pakistan 🇵🇰 facts that sound fake", "India 🇮🇳 records the world doesn't know". Altijd een land of geld erin.
+- Slot: een vraag die mensen laat reageren ("Which one did you know? Comment the number.").
+
 ## Nagebootst van de allerbeste Shorts (ontleding 2026-11-23)
 
 We haalden de 400 best bekeken Shorts van het laatste jaar op, in onze niche en erbuiten, en bekeken er 35 beeld per beeld
@@ -220,6 +238,7 @@ Zeg nooit "Follow for more": dat is het sein om weg te vegen. De vraag dient ook
 | `bubbles` | Bellen waarvan de oppervlakte het getal is; ze ploppen een voor een op. | 3 of 4 × `bubbles` → `outro` |
 | `truesize` | Landen op ware grootte, gevuld met hun vlag, vallen een voor een op een groot land. | 1 × `truesize` met `base`, 2 tot 7 × met `item` → `outro` (8 tot 20 s) |
 | `worldsplit` | De hele wereld kleurt in twee kleuren rond één land. Eén beeld, één feit, een lus van 5 tot 12 s. | 1 × `worldsplit` → `outro` |
+| `facts` | "Sounds fake but true": 3 tot 5 verrassende, echte weetjes, elk met een echte foto schermvullend en de clou in reuzenletters. | 3 tot 5 × `photo` → `outro` (15 tot 25 s) |
 
 Er zijn dus **14 formats**. Gebruik ze allemaal: kijk in `episodes/` welke formats de laatste 10 afleveringen hadden en kies er een
 dat past bij de reeks die je kiest (zie "De drie reeksen"), en nooit hetzelfde als de vorige aflevering.
@@ -354,6 +373,13 @@ het jaar waarop de race staat als die zin gedaan is, zodat stem en beeld gelijk 
 **receipt**: eerste segment `title` en `format`; elk segment een `line` {label, value, flag} of op het einde een `total` {label, value} (alleen als optellen zin heeft).
 ```json
 {"scene":"receipt","text":"Same burger, four countries. In India it costs two forty-five.","props":{"title":"One Big Mac, please","format":{"prefix":"$","decimals":2},"line":{"label":"India","value":2.45,"flag":"in"},"at":"India"}}
+```
+
+**photo** (format `facts`): elk segment is één weetje met een schermvullende foto.
+`image` {wiki} of {file}, `big` (de clou), optioneel `kicker` (land of thema, klein bovenaan), `flag`, `num` (rangnummer
+bij een aftelling), `at` (woord waarop `big` inslaat) en `source` {wiki, check}.
+```json
+{"scene":"photo","text":"Zimbabwe printed a one hundred trillion dollar note.","props":{"image":{"wiki":"Zimbabwean dollar"},"kicker":"Zimbabwe","flag":"zw","big":"*100 TRILLION* dollars","at":"hundred","source":{"wiki":"Zimbabwean dollar","check":["100 trillion"]}}}
 ```
 
 **truesize**: eerste segment `title` en `base` {flag, label} (het grote land); daarna elk segment één `item` {flag, label}

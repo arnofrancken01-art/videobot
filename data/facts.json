@@ -1,0 +1,323 @@
+[
+ {
+  "id": "va-small",
+  "country": "va",
+  "fact": "Vatican City is the smallest country on Earth: 0.49 square kilometres",
+  "wiki": "Vatican City",
+  "check": [
+   "smallest country",
+   "0.49"
+  ],
+  "image": "Vatican City"
+ },
+ {
+  "id": "ae-burj",
+  "country": "ae",
+  "fact": "Burj Khalifa is 829.8 metres tall, the tallest structure in the world",
+  "wiki": "Burj Khalifa",
+  "check": [
+   "tallest structure",
+   "829.8"
+  ],
+  "image": "Burj Khalifa"
+ },
+ {
+  "id": "in-railways",
+  "country": "in",
+  "fact": "Indian Railways has more than 1.2 million employees, the ninth-largest employer on Earth",
+  "wiki": "Indian Railways",
+  "check": [
+   "1.2 million",
+   "employer"
+  ],
+  "image": "Indian Railways"
+ },
+ {
+  "id": "in-kumbh",
+  "country": "in",
+  "fact": "More than 660 million people bathed at the 2025 Maha Kumbh Mela, the world's largest gathering",
+  "wiki": "2025 Prayag Maha Kumbh Mela",
+  "check": [
+   "660 million",
+   "largest gathering"
+  ],
+  "image": "2025 Prayag Maha Kumbh Mela"
+ },
+ {
+  "id": "ru-timezones",
+  "country": "ru",
+  "fact": "Russia has 11 time zones",
+  "wiki": "Time in Russia",
+  "check": [
+   "11 time zones"
+  ],
+  "image": "Trans-Siberian Railway"
+ },
+ {
+  "id": "fr-timezones",
+  "country": "fr",
+  "fact": "France uses 12 time zones, more than any other country",
+  "wiki": "Time in France",
+  "check": [
+   "12 different time zones",
+   "more than any other country"
+  ],
+  "image": "French Polynesia"
+ },
+ {
+  "id": "nr-capital",
+  "country": "nr",
+  "fact": "Nauru has no official capital; Yaren is only its de facto capital",
+  "wiki": "Nauru",
+  "check": [
+   "de facto capital",
+   "Yaren"
+  ],
+  "image": "Nauru"
+ },
+ {
+  "id": "is-army",
+  "country": "is",
+  "fact": "Iceland has no standing army, the only NATO member without one",
+  "wiki": "Iceland",
+  "check": [
+   "no standing army"
+  ],
+  "image": "Reykjavík"
+ },
+ {
+  "id": "id-islands",
+  "country": "id",
+  "fact": "Indonesia is made of more than 17,000 islands",
+  "wiki": "Indonesia",
+  "check": [
+   "17,000 islands"
+  ],
+  "image": "Raja Ampat Islands"
+ },
+ {
+  "id": "pk-k2",
+  "country": "pk",
+  "fact": "K2 in Pakistan is the second-highest mountain on Earth, 8,611 metres",
+  "wiki": "K2",
+  "check": [
+   "second-highest mountain",
+   "8,611"
+  ],
+  "image": "K2"
+ },
+ {
+  "id": "bd-coxs",
+  "country": "bd",
+  "fact": "Cox's Bazar in Bangladesh is the longest natural sea beach in Asia: 120 km",
+  "wiki": "Cox's Bazar Beach",
+  "check": [
+   "longest natural sea beach",
+   "120"
+  ],
+  "image": "Cox's Bazar Beach"
+ },
+ {
+  "id": "in-mawsynram",
+  "country": "in",
+  "fact": "Mawsynram in India is reportedly the wettest place on Earth: 11,872 mm of rain a year",
+  "wiki": "Mawsynram",
+  "check": [
+   "wettest place on Earth",
+   "11,872"
+  ],
+  "image": "Mawsynram"
+ },
+ {
+  "id": "in-chenab",
+  "country": "in",
+  "fact": "India's Chenab Bridge is the highest rail bridge in the world: 359 metres",
+  "wiki": "Chenab Rail Bridge",
+  "check": [
+   "highest rail bridge",
+   "359"
+  ],
+  "image": "Chenab Rail Bridge"
+ },
+ {
+  "id": "in-langar",
+  "country": "in",
+  "fact": "The Golden Temple serves over 100,000 free meals every day",
+  "wiki": "Golden Temple",
+  "check": [
+   "100,000",
+   "langar"
+  ],
+  "image": "Golden Temple"
+ },
+ {
+  "id": "ae-police",
+  "country": "ae",
+  "fact": "Dubai Police drive a Bugatti Veyron, the fastest police car in service",
+  "wiki": "Dubai Police Force",
+  "check": [
+   "Bugatti Veyron",
+   "fastest police car"
+  ],
+  "image": "Dubai Police Force"
+ },
+ {
+  "id": "ch-guinea",
+  "country": "ch",
+  "fact": "In Switzerland it is illegal to keep just one guinea pig",
+  "wiki": "Guinea pig",
+  "check": [
+   "Switzerland",
+   "single guinea pig",
+   "illegal"
+  ],
+  "image": "Guinea pig"
+ },
+ {
+  "id": "no-fund",
+  "country": "no",
+  "fact": "Norway's oil fund holds over 2.2 trillion US dollars, the largest in the world",
+  "wiki": "Government Pension Fund of Norway",
+  "check": [
+   "2.2 trillion",
+   "largest sovereign wealth fund"
+  ],
+  "image": "Oslo"
+ },
+ {
+  "id": "cn-gorges",
+  "country": "cn",
+  "fact": "China's Three Gorges Dam is the world's largest power station",
+  "wiki": "Three Gorges Dam",
+  "check": [
+   "largest power station",
+   "22,500"
+  ],
+  "image": "Three Gorges Dam"
+ },
+ {
+  "id": "us-penny",
+  "country": "us",
+  "fact": "Making a US penny once cost more than 2 cents",
+  "wiki": "Penny (United States coin)",
+  "check": [
+   "more than 2¢"
+  ],
+  "image": "Penny (United States coin)"
+ },
+ {
+  "id": "np-flag",
+  "country": "np",
+  "fact": "Nepal has the only non-rectangular national flag in the world",
+  "wiki": "Flag of Nepal",
+  "check": [
+   "only non-rectangular national flag"
+  ],
+  "image": "Flag of Nepal"
+ },
+ {
+  "id": "tr-istanbul",
+  "country": "tr",
+  "fact": "Istanbul is a city on two continents, Europe and Asia",
+  "wiki": "Istanbul",
+  "check": [
+   "two continents",
+   "Europe",
+   "Asia"
+  ],
+  "image": "Bosphorus Bridge"
+ },
+ {
+  "id": "mx-sinking",
+  "country": "mx",
+  "fact": "Mexico City sinks almost 50 centimetres every year",
+  "wiki": "Mexico City",
+  "check": [
+   "50 centimetres",
+   "sink"
+  ],
+  "image": "Mexico City Metropolitan Cathedral"
+ },
+ {
+  "id": "in-statue",
+  "country": "in",
+  "fact": "India's Statue of Unity is the tallest statue in the world: 182 metres",
+  "wiki": "Statue of Unity",
+  "check": [
+   "world's tallest statue",
+   "182"
+  ],
+  "image": "Statue of Unity"
+ },
+ {
+  "id": "br-amazon",
+  "country": "br",
+  "fact": "The Amazon is the largest river in the world by water discharge",
+  "wiki": "Amazon River",
+  "check": [
+   "largest river in the world by discharge"
+  ],
+  "image": "Amazon River"
+ },
+ {
+  "id": "sa-rivers",
+  "country": "sa",
+  "fact": "Saudi Arabia has no permanent rivers",
+  "wiki": "Geography of Saudi Arabia",
+  "check": [
+   "absence of permanent rivers"
+  ],
+  "image": "Rub' al Khali"
+ },
+ {
+  "id": "in-postoffice",
+  "country": "in",
+  "fact": "India has a floating post office on Dal Lake in Kashmir",
+  "wiki": "Dal Lake",
+  "check": [
+   "Floating Post Office"
+  ],
+  "image": "Dal Lake"
+ },
+ {
+  "id": "pk-salt",
+  "country": "pk",
+  "fact": "Pakistan's Khewra Salt Mine is the second largest salt mine in the world",
+  "wiki": "Khewra Salt Mine",
+  "check": [
+   "second largest salt mine"
+  ],
+  "image": "Khewra Salt Mine"
+ },
+ {
+  "id": "dk-flag",
+  "country": "dk",
+  "fact": "Denmark has the oldest national flag still in use, since 1625",
+  "wiki": "Flag of Denmark",
+  "check": [
+   "oldest continuously used national flag",
+   "1625"
+  ],
+  "image": "Flag of Denmark"
+ },
+ {
+  "id": "kw-dinar",
+  "country": "kw",
+  "fact": "The Kuwaiti dinar is the highest-valued currency unit in the world",
+  "wiki": "Kuwaiti dinar",
+  "check": [
+   "highest-valued currency unit"
+  ],
+  "image": "Kuwaiti dinar"
+ },
+ {
+  "id": "bt-gnh",
+  "country": "bt",
+  "fact": "Bhutan's government follows Gross National Happiness instead of only money",
+  "wiki": "Gross National Happiness",
+  "check": [
+   "government of Bhutan follows"
+  ],
+  "image": "Paro Taktsang"
+ }
+]

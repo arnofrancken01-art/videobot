@@ -6,8 +6,8 @@ import json, re, sys
 from pathlib import Path
 
 NEW = ["truefalse", "choice", "clues", "thennow", "dots", "podium", "battle", "ticker", "receipt", "bubbles", "truesize", "worldsplit"]
-SCENES = {"hook", "rank", "versus", "bars", "bignumber", "line", "outro", "quiz", "race", "grid", *NEW}
-FORMATS = {"countdown", "quiz", "race", "story", *NEW}
+SCENES = {"hook", "rank", "versus", "bars", "bignumber", "line", "outro", "quiz", "race", "grid", "photo", *NEW}
+FORMATS = {"countdown", "quiz", "race", "story", "facts", *NEW}
 FLAGS = {f.stem for f in (Path(__file__).resolve().parent.parent / "public/flags").glob("*.svg")}
 ICONS = {None, "burger", "globe", "house", "clock", "coin"}
 errors, warnings = [], []
@@ -142,6 +142,14 @@ if fmt in NEW:
         errors.append(f"{fmt}: {need[1]} tot {need[2]} segmenten met '{need[0]}' (nu {n(need[0])})")
 if fmt == "podium" and [q.get("place") for q in (s.get("props", {}) for s in segs) if "place" in q] != [3, 2, 1]:
     errors.append("podium: de volgorde is place 3, dan 2, dan 1")
+if fmt == "facts":
+    ph = [s.get("props", {}) for s in segs if s.get("scene") == "photo"]
+    if scenes[0] != "photo":
+        errors.append("facts begint meteen met een foto (scene 'photo') en het sterkste weetje")
+    if not 3 <= len(ph) <= 7:
+        errors.append(f"facts: 3 tot 7 segmenten 'photo' (nu {len(ph)})")
+    if sum(1 for q in ph if q.get("source")) < len([q for q in ph if q.get("big")]):
+        errors.append("facts: elk weetje (segment met 'big') heeft source {wiki, check} nodig; de render controleert dat op Wikipedia")
 if fmt == "race" and "race" not in scenes:
     errors.append("format 'race' heeft een scene 'race' nodig")
 if fmt == "story" and not ({"grid", "versus", "line", "bars"} & set(scenes)):
@@ -249,6 +257,17 @@ for i, s in enumerate(segs):
             errors.append(f"{where}: eerste bubbles-segment heeft title en format nodig")
         if "item" in p and not (p["item"].get("label") and p["item"].get("flag") and num(p["item"].get("value")) and p["item"]["value"] > 0):
             errors.append(f"{where}: item heeft label, flag en een positieve value nodig")
+    if sc == "photo":
+        im = p.get("image")
+        if not (isinstance(im, dict) and (im.get("wiki") or im.get("file"))):
+            errors.append(f"{where}: photo heeft image {{wiki: 'Artikeltitel'}} of {{file: 'File:...jpg'}} nodig")
+        if p.get("big") and len(p["big"].replace("*", "")) > 34:
+            errors.append(f"{where}: big is max. 34 tekens (reuzenletters over de foto)")
+        src = p.get("source")
+        if src is not None and not (src.get("wiki") and isinstance(src.get("check"), list) and src["check"]):
+            errors.append(f"{where}: source = {{wiki: 'Artikel', check: ['woord', 'getal']}} (woorden die samen in één zin van dat artikel staan)")
+        if p.get("flag"):
+            check_flag(p, p.get("kicker", "photo"))
     if sc == "truesize":
         if prev != "truesize" and not (p.get("title") and p.get("base", {}).get("flag") and p.get("base", {}).get("label")):
             errors.append(f"{where}: eerste truesize-segment heeft title en base (flag, label) nodig")

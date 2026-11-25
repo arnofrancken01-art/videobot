@@ -39,6 +39,25 @@ def caption(ep):
             f"{' '.join(hashtags(ep))}")
 
 
+def credits(name, ep):
+    """Naamsvermelding voor muziek (CC BY) en foto's, uit de timeline op de renders-branch."""
+    lines = []
+    try:
+        tl = json.loads(subprocess.run(["git", "show", f"origin/renders:renders/{name}.timeline.json"], check=True, capture_output=True, cwd=ROOT).stdout)
+    except Exception:  # noqa: BLE001
+        tl = {}
+    tracks = json.loads((ROOT / "src/music.json").read_text())
+    m = tl.get("music") or ep.get("music")
+    if not (isinstance(m, str) and any(t["file"] == m for t in tracks)):
+        n = int(re.sub(r"\D", "", str(ep.get("id", name))) or 0)
+        m = tracks[n % len(tracks)]["file"]
+    title = next(t["title"] for t in tracks if t["file"] == m)
+    lines.append(f'Music: "{title}" by Kevin MacLeod (incompetech.com), licensed under CC BY 4.0')
+    for c in tl.get("credits", []):
+        lines.append("Photo: " + c)
+    return "\n".join(lines)
+
+
 def ep_path(name):
     """Korte video's staan in episodes/, lange in long/."""
     p = ROOT / f"episodes/{name}.json"
@@ -159,10 +178,20 @@ def youtube(name, ep, privacy="private"):  # privé: Arno kijkt na en zet zelf o
         path.write_bytes(subprocess.run(["git", "show", f"origin/renders:renders/{name}.mp4"], check=True, capture_output=True, cwd=ROOT).stdout)
     token = youtube_token()
     desc = caption(ep)
+    try:
+        subprocess.run(["git", "fetch", "-q", "origin", "renders:refs/remotes/origin/renders"], cwd=ROOT)
+        cr = credits(name, ep)
+        desc = desc.replace("\n\n#", f"\n{cr}\n\n#", 1) if "\n\n#" in desc else f"{desc}\n\n{cr}"
+    except Exception as e:  # noqa: BLE001
+        print("naamsvermelding mislukt:", e)
     if ep.get("long"):
         ch = chapters(name)
         desc = (f"{ep.get('description') or ep['title']}\n\n" + (ch + "\n\n" if ch else "") +
                 f"Source: {ep['source']}\nSubscribe for a new country battle every day.\n\n{' '.join(h for h in hashtags(ep) if h != '#shorts')}")
+        try:
+            desc += "\n\n" + credits(name, ep)
+        except Exception as e:  # noqa: BLE001
+            print("naamsvermelding mislukt:", e)
     meta = {
         "snippet": {"title": yt_title(ep), "description": desc, "categoryId": "27", "tags": yt_tags(ep),
                     "defaultLanguage": "en", "defaultAudioLanguage": "en"},
