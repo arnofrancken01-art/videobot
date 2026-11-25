@@ -60,7 +60,6 @@ jobs:
           # Taalmodel voor de uitspraak: eerst GitHub, anders de kopie op Hugging Face (GitHub-downloads geven soms 504).
           python -c "import en_core_web_sm" 2>/dev/null \
             || pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl \
-            || pip install https://huggingface.co/spacy/en_core_web_sm/resolve/main/en_core_web_sm-any-py3-none-any.whl \
             || (sleep 30 && pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl)
       - name: Stemmodel cachen
         uses: actions/cache@v4
