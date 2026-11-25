@@ -65,7 +65,8 @@ def main():
                 "privacy": v["status"]["privacyStatus"], "published": v["snippet"]["publishedAt"],
                 "views": int(v["statistics"].get("viewCount", 0)), "likes": int(v["statistics"].get("likeCount", 0)),
                 "comments": int(v["statistics"].get("commentCount", 0)),
-                "engaged_views": a.get("engagedViews"), "an_views": a.get("views"),  # an_views: views volgens Analytics (zelfde periode als engaged) "avg_view_pct": a.get("averageViewPercentage"),
+                "engaged_views": a.get("engagedViews"), "an_views": a.get("views"),  # an_views: views volgens Analytics (zelfde periode als engaged)
+                "avg_view_pct": a.get("averageViewPercentage"),
                 "avg_view_sec": a.get("averageViewDuration"), "shares": a.get("shares"), "subs_gained": a.get("subscribersGained"),
             })
     out = {"fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
