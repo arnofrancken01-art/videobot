@@ -4,7 +4,7 @@
 set -euo pipefail
 file="$1"; name=$(basename "$file" .json)
 echo "::group::$name"
-REQUIRE_EXACT_TIMING=1 python scripts/tts.py "$file"
+REQUIRE_EXACT_TIMING=${REQUIRE_EXACT_TIMING-1} python scripts/tts.py "$file"
 python scripts/align.py
 python scripts/fetch_images.py  # foto's voor scene photo + controle van de weetjes op Wikipedia
 if [[ "$file" == long/* ]]; then
@@ -14,6 +14,7 @@ else
   npx remotion render src/index.ts Short out/video.mp4 --concurrency=2
 fi
 cp out/video.mp4 "/tmp/$name.mp4" && cp src/timeline.json "/tmp/$name.timeline.json"
+if [ -n "${NO_SEND:-}" ]; then cp "/tmp/$name.mp4" "out/$name.mp4"; echo "::endgroup::"; exit 0; fi  # lab: niet bewaren of versturen
 here=$(git rev-parse HEAD)
 git fetch -q origin renders:refs/remotes/origin/renders || true
 git checkout -q -f -B renders origin/renders || git checkout -q -f --orphan renders

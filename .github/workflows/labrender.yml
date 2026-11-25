@@ -1,0 +1,70 @@
+name: Lab-render (testvideo zonder te posten)
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Pad naar een test-aflevering"
+        default: "lab/ep_facts.json"
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        engine: [kokoro, chatterbox]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Node-pakketten
+        env:
+          ONNXRUNTIME_NODE_INSTALL_CUDA: skip
+        run: npm ci || (sleep 20 && npm ci)
+      - name: Python-pakketten
+        run: |
+          if [ "${{ matrix.engine }}" = chatterbox ]; then
+            pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+            pip install -r requirements.txt chatterbox-tts faster-whisper==1.1.1 requests
+          else
+            pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+            pip install -r requirements.txt kokoro==0.9.4 "misaki[en]>=0.9.4" faster-whisper==1.1.1 requests
+            python -c "import en_core_web_sm" 2>/dev/null || pip install https://huggingface.co/spacy/en_core_web_sm/resolve/main/en_core_web_sm-any-py3-none-any.whl
+          fi
+      - name: Video maken
+        env:
+          NO_SEND: "1"
+          VOICE_ENGINE: ${{ matrix.engine }}
+          REQUIRE_EXACT_TIMING: ""
+        run: |
+          mkdir -p out episodes
+          name=$(python -c "import json;print(json.load(open('${{ inputs.episode }}'))['id'])")
+          cp "${{ inputs.episode }}" "episodes/$name.json"
+          bash scripts/render_one.sh "episodes/$name.json"
+          mv "out/$name.mp4" "out/${name}-${{ matrix.engine }}.mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ matrix.engine }}
+          path: out/*.mp4
+  save:
+    needs: render
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: lab-video
+      - run: |
+          git config user.name "videobot"; git config user.email "videobot@users.noreply.github.com"
+          git checkout -q --orphan labvideo && git rm -rfq --cached . >/dev/null 2>&1 || true
+          git add lab-video && git commit -qm "Testvideo" && git push -qf origin labvideo

@@ -1,0 +1,23 @@
+{
+ "id": "ep991",
+ "title": "Sounds fake, but it's true 🌍 (5 country facts)",
+ "headline": "Sounds *fake*. It's true.",
+ "slot": "07:30",
+ "hook_type": "claim",
+ "format": "facts",
+ "topic": "Unbelievable country facts",
+ "description": "Five real facts about countries that sound made up. All checked on Wikipedia.",
+ "source": "Wikipedia",
+ "voice": "am_michael",
+ "hashtags": ["facts", "geography", "didyouknow"],
+ "tags": ["sounds fake but true", "country facts", "fun facts"],
+ "cover": {"flags": ["ch"], "badge": "ALL TRUE"},
+ "segments": [
+  {"scene": "photo", "text": "In Switzerland, owning just one guinea pig is illegal.", "props": {"image": {"wiki": "Guinea pig"}, "kicker": "Switzerland", "flag": "ch", "big": "One guinea pig = *ILLEGAL*", "at": "illegal", "source": {"wiki": "Guinea pig", "check": ["Switzerland", "single guinea pig", "illegal"]}}},
+  {"scene": "photo", "text": "Dubai Police patrol in a Bugatti Veyron.", "props": {"image": {"wiki": "Dubai Police Force"}, "kicker": "Dubai", "flag": "ae", "big": "Police drive a *BUGATTI*", "at": "bugatti", "source": {"wiki": "Dubai Police Force", "check": ["Bugatti Veyron", "fastest police car"]}}},
+  {"scene": "photo", "text": "This temple in India serves over one hundred thousand free meals. Every single day.", "props": {"image": {"wiki": "Golden Temple"}, "kicker": "India", "flag": "in", "big": "*100,000* free meals a day", "at": "hundred", "source": {"wiki": "Golden Temple", "check": ["100,000", "langar"]}}},
+  {"scene": "photo", "text": "Nepal has the only flag in the world that is not a rectangle.", "props": {"image": {"wiki": "Flag of Nepal"}, "kicker": "Nepal", "flag": "np", "big": "The only *non-rectangle* flag", "at": "rectangle", "source": {"wiki": "Flag of Nepal", "check": ["only non-rectangular national flag"]}}},
+  {"scene": "photo", "text": "And Nauru? It doesn't even have an official capital.", "props": {"image": {"wiki": "Nauru"}, "kicker": "Nauru", "flag": "nr", "big": "*NO* official capital", "at": "capital", "source": {"wiki": "Nauru", "check": ["de facto capital", "Yaren"]}}},
+  {"scene": "outro", "text": "Which one did you already know?", "props": {"question": "Which one did you already know?"}}
+ ]
+}

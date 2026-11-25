@@ -105,6 +105,31 @@ def engine_onnx(voice):
     return say, False
 
 
+def engine_chatterbox():
+    """Expressieve stem (Chatterbox, MIT-licentie). Geen woordtiming uit het model: align.py zet die daarna met Whisper."""
+    import torch, torchaudio
+    from chatterbox.tts import ChatterboxTTS
+    m = ChatterboxTTS.from_pretrained(device="cpu")
+    ex = float(__import__("os").environ.get("VOICE_EXAGGERATION", "0.65"))
+
+    def say(text):
+        wav = m.generate(text, exaggeration=ex, cfg_weight=0.4)
+        if m.sr != SR:
+            wav = torchaudio.functional.resample(wav, m.sr, SR)
+        a = wav.squeeze().numpy().astype(np.float32)
+        on = np.where(np.abs(a) > 0.02)[0]
+        if len(on):
+            a = a[max(0, on[0] - int(0.03 * SR)): on[-1] + int(0.08 * SR)]
+        words = text.split()
+        weights = [len(norm(w)) + 2 for w in words]
+        dur, acc, toks = len(a) / SR - 0.05, 0.02, []
+        for w, wg in zip(words, weights):
+            d = dur * wg / sum(weights)
+            toks.append((w, acc, acc + d)); acc += d
+        return a, toks
+    return say, False
+
+
 def loud(x, target=0.2, ceiling=0.72):
     """Maak de stem zo luid als andere Shorts (ca. -16 LUFS; ze stond op -22, half zo luid).
     Eerst versterken tot een vaste gemiddelde sterkte, daarna een begrenzer die pieken zacht terugneemt in plaats van ze af te kappen."""
@@ -135,11 +160,17 @@ def loud(x, target=0.2, ceiling=0.72):
 def main():
     ep = json.loads(Path(sys.argv[1]).read_text())
     voice = ep.get("voice", "af_heart")
-    try:
+    import os
+    engine = os.environ.get("VOICE_ENGINE") or ep.get("voice_engine", "kokoro")
+    if engine == "chatterbox":
+        say, aligned = engine_chatterbox()
+        print("motor: chatterbox (expressief; timing via Whisper)")
+    else:
+      try:
         say, aligned = engine_torch(voice)
         print("motor: kokoro (exacte woordtiming)")
-    except Exception as e:  # noqa: BLE001
-        import os, traceback
+      except Exception as e:  # noqa: BLE001
+        import traceback
         traceback.print_exc()
         if os.environ.get("REQUIRE_EXACT_TIMING"):
             raise SystemExit(f"Exacte woordtiming niet beschikbaar: {e}")
