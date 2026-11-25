@@ -1,0 +1,101 @@
+{
+ "id": "ep990",
+ "segments": [
+  {
+   "scene": "photo",
+   "text": "x",
+   "props": {
+    "image": {
+     "wiki": "Burj Khalifa"
+    },
+    "source": {
+     "wiki": "Burj Khalifa",
+     "check": [
+      "tallest structure",
+      "829.8"
+     ]
+    }
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "x",
+   "props": {
+    "image": {
+     "wiki": "Zimbabwean dollar"
+    }
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "x",
+   "props": {
+    "image": {
+     "wiki": "Golden Temple"
+    },
+    "source": {
+     "wiki": "Golden Temple",
+     "check": [
+      "100,000",
+      "langar"
+     ]
+    }
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "x",
+   "props": {
+    "image": {
+     "wiki": "Dubai Police Force"
+    }
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "x",
+   "props": {
+    "image": {
+     "wiki": "K2"
+    }
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "x",
+   "props": {
+    "image": {
+     "wiki": "Dal Lake"
+    }
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "x",
+   "props": {
+    "image": {
+     "wiki": "Guinea pig"
+    }
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "x",
+   "props": {
+    "image": {
+     "wiki": "Kuwaiti dinar"
+    }
+   }
+  }
+ ],
+ "credits": [
+  "Burj Khalifa (worlds tallest building) and the Dubai skyline (25781049892).jpg by imran shahabuddin (CC BY 2.0), via Wikimedia Commons",
+  "Zimbabwe fourth dollar - $500 Obverse (2009).jpg by User:Marianian (Public domain), via Wikimedia Commons",
+  "The Golden Temple of Amrithsar 7.jpg by Shagil Kannur (CC BY-SA 4.0), via Wikimedia Commons",
+  "2004-2006 Chevrolet Lumina (Dubai Police Force) 01.jpg by David Lisbona from Haifa, Israel (CC BY 2.0), via Wikimedia Commons",
+  "Chogori.jpg by Zacharie Grossen (CC BY-SA 4.0), via Wikimedia Commons",
+  "Dal Lake Hazratbal Srinagar.jpg by Suhail Skindar Sofi (CC BY-SA 4.0), via Wikimedia Commons",
+  "George the amazing guinea pig.jpg by unknown (CC BY-SA 3.0), via Wikimedia Commons",
+  "KWD against USD ar.PNG by KWD_against_USD.PNG: MOseQar\nderivative work: Bassem (talk) (CC BY-SA 3.0), via Wikimedia Commons"
+ ]
+}
