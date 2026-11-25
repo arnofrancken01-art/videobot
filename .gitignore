@@ -4,3 +4,4 @@ out/
 public/voice.wav
 __pycache__/
 .env
+public/img/

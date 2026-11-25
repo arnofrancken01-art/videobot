@@ -18,6 +18,7 @@ import { Grid } from "./scenes/Grid";
 import { Choice, Clues, TrueFalse } from "./scenes/Games";
 import { Battle, Bubbles, Dots, Podium, Receipt, ThenNow, Ticker } from "./scenes/Charts";
 import { TrueSize, WorldSplit } from "./scenes/Maps";
+import { PhotoFact, PhotoLayer } from "./Photo";
 import type { SceneProps } from "./scenes/common";
 
 const SR = (w: string) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -27,7 +28,7 @@ export type Seg = (typeof timeline.segments)[number];
 const SCENES: Record<string, React.FC<SceneProps>> = {
   hook: Hook, versus: Versus, bars: Bars, bignumber: BigNumber, line: LineScene, outro: Outro, rank: Rank, quiz: Quiz, race: Race, grid: Grid,
   truefalse: TrueFalse, choice: Choice, clues: Clues, thennow: ThenNow, dots: Dots, podium: Podium, battle: Battle, ticker: Ticker, receipt: Receipt, bubbles: Bubbles,
-  truesize: TrueSize, worldsplit: WorldSplit,
+  truesize: TrueSize, worldsplit: WorldSplit, photo: PhotoFact,
 };
 
 // Opeenvolgende segmenten met dezelfde scene worden 1 doorlopende scene.
@@ -39,7 +40,7 @@ for (const s of timeline.segments) {
   const last = groups[groups.length - 1];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const fresh = (s.scene === "battle" && (s.props as any).a) || (s.scene === "rank" && (s.props as any).title) || (s.props as any).chapter; // nieuw duel, nieuwe lijst of nieuw hoofdstuk = nieuwe scene
-  if (last && !fresh && last.scene === s.scene && ["bars", "versus", "line", "rank", "quiz", "race", "grid", "truefalse", "choice", "clues", "thennow", "dots", "podium", "battle", "ticker", "receipt", "bubbles", "truesize"].includes(s.scene)) last.segs.push(s);
+  if (last && !fresh && last.scene === s.scene && ["bars", "versus", "line", "rank", "quiz", "race", "grid", "truefalse", "choice", "clues", "thennow", "dots", "podium", "battle", "ticker", "receipt", "bubbles", "truesize", "photo"].includes(s.scene)) last.segs.push(s);
   else groups.push({ scene: s.scene, segs: [s] });
 }
 
@@ -72,6 +73,14 @@ timeline.segments.forEach((s, i) => {
   }
 });
 
+// Foto-weetjes: whoosh bij elke nieuwe foto, klap op het woord waar de tekst inslaat.
+timeline.segments.forEach((s, i) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const p: any = s.props;
+  if (s.scene !== "photo") return;
+  if (i > 0 && timeline.segments[i - 1].scene === "photo") fx.push({ at: s.start - 0.1, src: "whoosh", vol: 0.35 });
+  if (p.big) fx.push({ at: Math.min(wordAt(s, p.at) ?? s.start, s.start + 0.9), src: p.num === 1 ? "boom" : "pop", vol: 0.5 });
+});
 // Denktijd: tik per seconde zolang de timer loopt, ding + klap bij de onthulling.
 timeline.segments.forEach((s, i) => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -227,6 +236,7 @@ export const Video: React.FC = () => (
     ))}
     <Globe keys={flags.map((g) => ({ from: Math.max(g.from, HOLD), code: g.code }))} {...(LONG ? { cx: 1475, cy: 500, r: 335, tilt: 8, w: 1920, h: 1080 } : {})} />
     {!LONG && <AbsoluteFill style={{ background: "linear-gradient(180deg, transparent 62%, rgba(5,11,28,0.55) 100%)" }} />}
+    <PhotoLayer segments={timeline.segments} fps={fps} total={timeline.durationInFrames} />
     <Punch>
     <div style={LONG ? { position: "absolute", left: 24, top: 150, width: 1080, height: 1000, transform: "scale(0.9)", transformOrigin: "top left" } : { position: "absolute", inset: 0 }}>
     {groups.map((g, i) => {

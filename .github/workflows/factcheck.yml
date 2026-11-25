@@ -1,0 +1,28 @@
+name: Weetjes controleren
+
+on:
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "JSON-bestand met weetjes"
+        default: "lab/facts_candidates.json"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python lab/check_facts.py "${{ inputs.file }}"
+      - run: |
+          git config user.name "videobot"; git config user.email "videobot@users.noreply.github.com"
+          cp out/lab/facts_checked.json /tmp/fc.json
+          git fetch -q origin lab:refs/remotes/origin/lab || true
+          git checkout -q -f -B lab origin/lab || { git checkout -q --orphan lab; git rm -rfq --cached . >/dev/null 2>&1 || true; }
+          mkdir -p lab-out && cp /tmp/fc.json lab-out/facts_checked.json
+          git add lab-out/facts_checked.json && git commit -qm "Weetjes gecontroleerd" && git push -q origin lab
