@@ -85,7 +85,7 @@ jobs:
           done
           if [ -n "$failed" ]; then echo "FAILED=$failed" >> "$GITHUB_ENV"; exit 1; fi
       - name: Foutmelding naar Telegram
-        if: failure()
+        if: failure() && !inputs.test
         run: |
           pip install requests >/dev/null 2>&1 || true
           python scripts/telegram.py send "Render mislukt voor: ${{ env.FAILED || steps.ep.outputs.files }}. Bekijk: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
