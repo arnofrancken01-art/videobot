@@ -1,0 +1,147 @@
+{
+ "id": "ep041",
+ "title": "India 🇮🇳 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data",
+ "topic": "India vs Bangladesh",
+ "headline": "India or *Bangladesh*?",
+ "description": "India against Bangladesh: income per person, life expectancy and women at work. Three rounds of real World Bank data. India or Bangladesh? Comment your flag.",
+ "tags": [
+  "india vs bangladesh",
+  "bangladesh vs india",
+  "india bangladesh comparison",
+  "india gdp per capita",
+  "bangladesh gdp per capita",
+  "life expectancy india",
+  "india vs bangladesh economy",
+  "country comparison",
+  "quiz"
+ ],
+ "source": "World Bank: GDP per person in current US dollars (2025), life expectancy at birth (2024), female labour force participation (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "bangladesh",
+  "indiavsbangladesh",
+  "countrycomparison"
+ ],
+ "format": "quiz",
+ "slot": "14:30",
+ "hook_type": "claim",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "in",
+   "bd"
+  ],
+  "vs": true,
+  "badge": "3 ROUNDS"
+ },
+ "localizations": {
+  "hi": {
+   "title": "भारत 🇮🇳 vs बांग्लादेश 🇧🇩: कौन जीतेगा? 3 राउंड",
+   "description": "भारत या बांग्लादेश: प्रति व्यक्ति आय, औसत उम्र और काम करती महिलाएं। असली आंकड़े, तीन राउंड। अपना झंडा कमेंट करें।"
+  },
+  "bn": {
+   "title": "ভারত 🇮🇳 vs বাংলাদেশ 🇧🇩: কে জিতবে? ৩ রাউন্ড",
+   "description": "ভারত না বাংলাদেশ: মাথাপিছু আয়, গড় আয়ু আর কর্মজীবী নারী। আসল ডেটা, তিন রাউন্ড। আপনার পতাকা কমেন্ট করুন।"
+  }
+ },
+ "segments": [
+  {
+   "scene": "quiz",
+   "text": "Bangladesh beats India in two of these three. Round one. Who is richer per person?",
+   "props": {
+    "question": "Who is richer per person?",
+    "format": {
+     "prefix": "$"
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 2702
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "value": 2597
+     }
+    ],
+    "pause": 1.6
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "India. By just a hundred five dollars.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Who lives longer? India or Bangladesh?",
+   "props": {
+    "question": "Who lives longer?",
+    "format": {
+     "suffix": " yrs",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 72.2
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "value": 74.9
+     }
+    ],
+    "pause": 1.6
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Bangladesh. Almost three years longer.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Final round. Where do more women work? India or Bangladesh?",
+   "props": {
+    "question": "Where do more women work?",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 32.4
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "value": 38.6
+     }
+    ],
+    "pause": 1.8
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Bangladesh. Thirty-nine percent against thirty-two.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "India or Bangladesh? Comment your flag.",
+   "props": {}
+  }
+ ]
+}
