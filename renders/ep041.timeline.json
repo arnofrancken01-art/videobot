@@ -1,0 +1,458 @@
+{
+ "id": "ep041",
+ "title": "India \ud83c\uddee\ud83c\uddf3 vs Bangladesh \ud83c\udde7\ud83c\udde9: who wins? 3 rounds, real data",
+ "topic": "India vs Bangladesh",
+ "headline": "India or *Bangladesh*?",
+ "description": "India against Bangladesh: income per person, life expectancy and women at work. Three rounds of real World Bank data. India or Bangladesh? Comment your flag.",
+ "tags": [
+  "india vs bangladesh",
+  "bangladesh vs india",
+  "india bangladesh comparison",
+  "india gdp per capita",
+  "bangladesh gdp per capita",
+  "life expectancy india",
+  "india vs bangladesh economy",
+  "country comparison",
+  "quiz"
+ ],
+ "source": "World Bank: GDP per person in current US dollars (2025), life expectancy at birth (2024), female labour force participation (2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "bangladesh",
+  "indiavsbangladesh",
+  "countrycomparison"
+ ],
+ "format": "quiz",
+ "slot": "14:30",
+ "hook_type": "claim",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "in",
+   "bd"
+  ],
+  "vs": true,
+  "badge": "3 ROUNDS"
+ },
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 vs \u092c\u093e\u0902\u0917\u094d\u0932\u093e\u0926\u0947\u0936 \ud83c\udde7\ud83c\udde9: \u0915\u094c\u0928 \u091c\u0940\u0924\u0947\u0917\u093e? 3 \u0930\u093e\u0909\u0902\u0921",
+   "description": "\u092d\u093e\u0930\u0924 \u092f\u093e \u092c\u093e\u0902\u0917\u094d\u0932\u093e\u0926\u0947\u0936: \u092a\u094d\u0930\u0924\u093f \u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0906\u092f, \u0914\u0938\u0924 \u0909\u092e\u094d\u0930 \u0914\u0930 \u0915\u093e\u092e \u0915\u0930\u0924\u0940 \u092e\u0939\u093f\u0932\u093e\u090f\u0902\u0964 \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947, \u0924\u0940\u0928 \u0930\u093e\u0909\u0902\u0921\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  },
+  "bn": {
+   "title": "\u09ad\u09be\u09b0\u09a4 \ud83c\uddee\ud83c\uddf3 vs \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \ud83c\udde7\ud83c\udde9: \u0995\u09c7 \u099c\u09bf\u09a4\u09ac\u09c7? \u09e9 \u09b0\u09be\u0989\u09a8\u09cd\u09a1",
+   "description": "\u09ad\u09be\u09b0\u09a4 \u09a8\u09be \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6: \u09ae\u09be\u09a5\u09be\u09aa\u09bf\u099b\u09c1 \u0986\u09af\u09bc, \u0997\u09a1\u09bc \u0986\u09af\u09bc\u09c1 \u0986\u09b0 \u0995\u09b0\u09cd\u09ae\u099c\u09c0\u09ac\u09c0 \u09a8\u09be\u09b0\u09c0\u0964 \u0986\u09b8\u09b2 \u09a1\u09c7\u099f\u09be, \u09a4\u09bf\u09a8 \u09b0\u09be\u0989\u09a8\u09cd\u09a1\u0964 \u0986\u09aa\u09a8\u09be\u09b0 \u09aa\u09a4\u09be\u0995\u09be \u0995\u09ae\u09c7\u09a8\u09cd\u099f \u0995\u09b0\u09c1\u09a8\u0964"
+  }
+ },
+ "segments": [
+  {
+   "scene": "quiz",
+   "text": "Bangladesh beats India in two of these three. Round one. Who is richer per person?",
+   "props": {
+    "question": "Who is richer per person?",
+    "format": {
+     "prefix": "$"
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 2702
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "value": 2597
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 0.05,
+   "end": 5.2,
+   "words": [
+    {
+     "word": "Bangladesh",
+     "start": 0.275,
+     "end": 0.85
+    },
+    {
+     "word": "beats",
+     "start": 0.85,
+     "end": 1.088
+    },
+    {
+     "word": "India",
+     "start": 1.088,
+     "end": 1.425
+    },
+    {
+     "word": "in",
+     "start": 1.425,
+     "end": 1.55
+    },
+    {
+     "word": "two",
+     "start": 1.55,
+     "end": 1.738
+    },
+    {
+     "word": "of",
+     "start": 1.738,
+     "end": 1.812
+    },
+    {
+     "word": "these",
+     "start": 1.812,
+     "end": 2.025
+    },
+    {
+     "word": "three.",
+     "start": 2.025,
+     "end": 2.5
+    },
+    {
+     "word": "Round",
+     "start": 2.662,
+     "end": 2.975
+    },
+    {
+     "word": "one.",
+     "start": 2.975,
+     "end": 3.425
+    },
+    {
+     "word": "Who",
+     "start": 3.525,
+     "end": 3.725
+    },
+    {
+     "word": "is",
+     "start": 3.725,
+     "end": 3.875
+    },
+    {
+     "word": "richer",
+     "start": 3.875,
+     "end": 4.175
+    },
+    {
+     "word": "per",
+     "start": 4.175,
+     "end": 4.3
+    },
+    {
+     "word": "person?",
+     "start": 4.3,
+     "end": 4.975
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "India. By just a hundred five dollars.",
+   "props": {
+    "reveal": true
+   },
+   "start": 6.86,
+   "end": 9.535,
+   "words": [
+    {
+     "word": "India.",
+     "start": 7.11,
+     "end": 7.535
+    },
+    {
+     "word": "By",
+     "start": 7.61,
+     "end": 7.785
+    },
+    {
+     "word": "just",
+     "start": 7.785,
+     "end": 7.973
+    },
+    {
+     "word": "a",
+     "start": 7.973,
+     "end": 8.035
+    },
+    {
+     "word": "hundred",
+     "start": 8.035,
+     "end": 8.335
+    },
+    {
+     "word": "five",
+     "start": 8.335,
+     "end": 8.635
+    },
+    {
+     "word": "dollars.",
+     "start": 8.635,
+     "end": 9.31
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Who lives longer? India or Bangladesh?",
+   "props": {
+    "question": "Who lives longer?",
+    "format": {
+     "suffix": " yrs",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 72.2
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "value": 74.9
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 9.595,
+   "end": 13.17,
+   "words": [
+    {
+     "word": "Round",
+     "start": 9.845,
+     "end": 10.107
+    },
+    {
+     "word": "two.",
+     "start": 10.107,
+     "end": 10.47
+    },
+    {
+     "word": "Who",
+     "start": 10.57,
+     "end": 10.695
+    },
+    {
+     "word": "lives",
+     "start": 10.695,
+     "end": 10.92
+    },
+    {
+     "word": "longer?",
+     "start": 10.92,
+     "end": 11.395
+    },
+    {
+     "word": "India",
+     "start": 11.495,
+     "end": 11.92
+    },
+    {
+     "word": "or",
+     "start": 11.92,
+     "end": 12.045
+    },
+    {
+     "word": "Bangladesh?",
+     "start": 12.045,
+     "end": 12.92
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Bangladesh. Almost three years longer.",
+   "props": {
+    "reveal": true
+   },
+   "start": 14.83,
+   "end": 17.455,
+   "words": [
+    {
+     "word": "Bangladesh.",
+     "start": 15.055,
+     "end": 15.78
+    },
+    {
+     "word": "Almost",
+     "start": 15.88,
+     "end": 16.23
+    },
+    {
+     "word": "three",
+     "start": 16.23,
+     "end": 16.418
+    },
+    {
+     "word": "years",
+     "start": 16.418,
+     "end": 16.63
+    },
+    {
+     "word": "longer.",
+     "start": 16.63,
+     "end": 17.205
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Final round. Where do more women work? India or Bangladesh?",
+   "props": {
+    "question": "Where do more women work?",
+    "format": {
+     "suffix": "%",
+     "decimals": 1
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 32.4
+     },
+     {
+      "label": "Bangladesh",
+      "flag": "bd",
+      "value": 38.6
+     }
+    ],
+    "pause": 1.8
+   },
+   "start": 17.515,
+   "end": 21.54,
+   "words": [
+    {
+     "word": "Final",
+     "start": 17.765,
+     "end": 18.09
+    },
+    {
+     "word": "round.",
+     "start": 18.09,
+     "end": 18.54
+    },
+    {
+     "word": "Where",
+     "start": 18.64,
+     "end": 18.777
+    },
+    {
+     "word": "do",
+     "start": 18.777,
+     "end": 18.89
+    },
+    {
+     "word": "more",
+     "start": 18.89,
+     "end": 19.09
+    },
+    {
+     "word": "women",
+     "start": 19.09,
+     "end": 19.34
+    },
+    {
+     "word": "work?",
+     "start": 19.34,
+     "end": 19.715
+    },
+    {
+     "word": "India",
+     "start": 19.815,
+     "end": 20.29
+    },
+    {
+     "word": "or",
+     "start": 20.29,
+     "end": 20.415
+    },
+    {
+     "word": "Bangladesh?",
+     "start": 20.415,
+     "end": 21.29
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Bangladesh. Thirty-nine percent against thirty-two.",
+   "props": {
+    "reveal": true
+   },
+   "start": 23.4,
+   "end": 26.6,
+   "words": [
+    {
+     "word": "Bangladesh.",
+     "start": 23.625,
+     "end": 24.4
+    },
+    {
+     "word": "Thirty-nine",
+     "start": 24.5,
+     "end": 24.95
+    },
+    {
+     "word": "percent",
+     "start": 24.95,
+     "end": 25.325
+    },
+    {
+     "word": "against",
+     "start": 25.325,
+     "end": 25.65
+    },
+    {
+     "word": "thirty-two.",
+     "start": 25.65,
+     "end": 26.35
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "India or Bangladesh? Comment your flag.",
+   "props": {},
+   "start": 26.66,
+   "end": 29.585,
+   "words": [
+    {
+     "word": "India",
+     "start": 26.91,
+     "end": 27.335
+    },
+    {
+     "word": "or",
+     "start": 27.335,
+     "end": 27.46
+    },
+    {
+     "word": "Bangladesh?",
+     "start": 27.46,
+     "end": 28.21
+    },
+    {
+     "word": "Comment",
+     "start": 28.335,
+     "end": 28.648
+    },
+    {
+     "word": "your",
+     "start": 28.648,
+     "end": 28.76
+    },
+    {
+     "word": "flag.",
+     "start": 28.76,
+     "end": 29.335
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 908,
+ "fps": 30,
+ "aligned": "tts"
+}
