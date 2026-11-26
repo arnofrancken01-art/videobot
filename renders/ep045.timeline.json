@@ -1,0 +1,345 @@
+{
+ "id": "ep045",
+ "title": "Pakistan \ud83c\uddf5\ud83c\uddf0: only 5 countries have a bigger army",
+ "topic": "Bigger army than Pakistan?",
+ "headline": "Bigger army than *Pakistan*?",
+ "description": "Pakistan has 943,000 people in its armed forces. Only China, India, North Korea, Russia and the USA have more. Real World Bank data (2020). Comment your flag.",
+ "tags": [
+  "pakistan army",
+  "pakistan",
+  "pakistan vs world",
+  "biggest armies in the world",
+  "pakistan military",
+  "largest militaries",
+  "world map",
+  "geography",
+  "country comparison"
+ ],
+ "source": "World Bank, armed forces personnel (2020), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "pakistan",
+  "army",
+  "geography",
+  "countrycomparison"
+ ],
+ "format": "worldsplit",
+ "slot": "17:30",
+ "hook_type": "number",
+ "music": 3,
+ "cover": {
+  "flags": [
+   "pk"
+  ],
+  "badge": "REAL DATA"
+ },
+ "localizations": {
+  "ur": {
+   "title": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \ud83c\uddf5\ud83c\uddf0: \u0635\u0631\u0641 5 \u0645\u0645\u0627\u0644\u06a9 \u06a9\u06cc \u0641\u0648\u062c \u0627\u0633 \u0633\u06d2 \u0628\u0691\u06cc \u06c1\u06d2",
+   "description": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u06a9\u06cc \u0645\u0633\u0644\u062d \u0627\u0641\u0648\u0627\u062c \u0645\u06cc\u06ba 9 \u0644\u0627\u06a9\u06be 43 \u06c1\u0632\u0627\u0631 \u0627\u0641\u0631\u0627\u062f \u06c1\u06cc\u06ba\u06d4 \u0635\u0631\u0641 \u0686\u06cc\u0646\u060c \u0628\u06be\u0627\u0631\u062a\u060c \u0634\u0645\u0627\u0644\u06cc \u06a9\u0648\u0631\u06cc\u0627\u060c \u0631\u0648\u0633 \u0627\u0648\u0631 \u0627\u0645\u0631\u06cc\u06a9\u06c1 \u0622\u06af\u06d2 \u06c1\u06cc\u06ba\u06d4 \u0648\u0631\u0644\u0688 \u0628\u06cc\u0646\u06a9 \u0688\u06cc\u0679\u0627 2020\u06d4 \u0627\u067e\u0646\u0627 \u062c\u06be\u0646\u0688\u0627 \u06a9\u0645\u0646\u0679 \u06a9\u0631\u06cc\u06ba\u06d4"
+  }
+ },
+ "segments": [
+  {
+   "scene": "worldsplit",
+   "text": "Only five countries have a bigger army than Pakistan. Nine hundred forty-three thousand troops.",
+   "props": {
+    "title": "Bigger army than Pakistan?",
+    "ref": {
+     "flag": "pk",
+     "label": "Pakistan"
+    },
+    "legend": {
+     "above": "Bigger army",
+     "below": "Smaller army"
+    },
+    "above": [
+     "cn",
+     "in",
+     "kp",
+     "ru",
+     "us"
+    ],
+    "below": [
+     "ae",
+     "af",
+     "ag",
+     "al",
+     "am",
+     "ao",
+     "ar",
+     "at",
+     "au",
+     "az",
+     "ba",
+     "bb",
+     "bd",
+     "be",
+     "bf",
+     "bg",
+     "bh",
+     "bi",
+     "bj",
+     "bn",
+     "bo",
+     "br",
+     "bs",
+     "bw",
+     "by",
+     "bz",
+     "ca",
+     "cd",
+     "cf",
+     "cg",
+     "ch",
+     "ci",
+     "cl",
+     "cm",
+     "co",
+     "cr",
+     "cu",
+     "cv",
+     "cy",
+     "cz",
+     "de",
+     "dj",
+     "dk",
+     "do",
+     "dz",
+     "ec",
+     "ee",
+     "eg",
+     "er",
+     "es",
+     "et",
+     "fi",
+     "fj",
+     "fr",
+     "ga",
+     "gb",
+     "ge",
+     "gh",
+     "gm",
+     "gn",
+     "gq",
+     "gr",
+     "gt",
+     "gw",
+     "gy",
+     "hn",
+     "hr",
+     "ht",
+     "hu",
+     "id",
+     "ie",
+     "il",
+     "iq",
+     "ir",
+     "is",
+     "it",
+     "jm",
+     "jo",
+     "jp",
+     "ke",
+     "kg",
+     "kh",
+     "kr",
+     "kw",
+     "kz",
+     "la",
+     "lb",
+     "lk",
+     "lr",
+     "ls",
+     "lt",
+     "lu",
+     "lv",
+     "ly",
+     "ma",
+     "md",
+     "me",
+     "mg",
+     "mk",
+     "ml",
+     "mm",
+     "mn",
+     "mr",
+     "mt",
+     "mu",
+     "mw",
+     "mx",
+     "my",
+     "mz",
+     "na",
+     "ne",
+     "ng",
+     "ni",
+     "nl",
+     "no",
+     "np",
+     "nz",
+     "om",
+     "pa",
+     "pe",
+     "pg",
+     "ph",
+     "pl",
+     "ps",
+     "pt",
+     "py",
+     "qa",
+     "ro",
+     "rs",
+     "rw",
+     "sa",
+     "sc",
+     "sd",
+     "se",
+     "sg",
+     "si",
+     "sk",
+     "sl",
+     "sn",
+     "so",
+     "sr",
+     "ss",
+     "sv",
+     "sy",
+     "td",
+     "tg",
+     "th",
+     "tj",
+     "tl",
+     "tm",
+     "tn",
+     "tr",
+     "tt",
+     "tz",
+     "ua",
+     "ug",
+     "uy",
+     "uz",
+     "ve",
+     "vn",
+     "ye",
+     "za",
+     "zm",
+     "zw"
+    ],
+    "at": "five"
+   },
+   "start": 0.05,
+   "end": 4.166,
+   "words": [
+    {
+     "word": "Only",
+     "start": 0.0,
+     "end": 0.22
+    },
+    {
+     "word": "five",
+     "start": 0.22,
+     "end": 0.44
+    },
+    {
+     "word": "countries",
+     "start": 0.44,
+     "end": 0.76
+    },
+    {
+     "word": "have",
+     "start": 0.76,
+     "end": 0.98
+    },
+    {
+     "word": "a",
+     "start": 0.98,
+     "end": 1.04
+    },
+    {
+     "word": "bigger",
+     "start": 1.04,
+     "end": 1.18
+    },
+    {
+     "word": "army",
+     "start": 1.18,
+     "end": 1.46
+    },
+    {
+     "word": "than",
+     "start": 1.46,
+     "end": 1.66
+    },
+    {
+     "word": "Pakistan.",
+     "start": 1.66,
+     "end": 1.88
+    },
+    {
+     "word": "Nine",
+     "start": 1.88,
+     "end": 2.315
+    },
+    {
+     "word": "hundred",
+     "start": 2.315,
+     "end": 2.75
+    },
+    {
+     "word": "forty-three",
+     "start": 2.75,
+     "end": 3.185
+    },
+    {
+     "word": "thousand",
+     "start": 3.185,
+     "end": 3.62
+    },
+    {
+     "word": "troops.",
+     "start": 3.62,
+     "end": 3.82
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Can you name all five?",
+   "props": {},
+   "start": 4.226,
+   "end": 5.385,
+   "words": [
+    {
+     "word": "Can",
+     "start": 4.22,
+     "end": 4.34
+    },
+    {
+     "word": "you",
+     "start": 4.34,
+     "end": 4.46
+    },
+    {
+     "word": "name",
+     "start": 4.46,
+     "end": 4.62
+    },
+    {
+     "word": "all",
+     "start": 4.62,
+     "end": 4.8
+    },
+    {
+     "word": "five?",
+     "start": 4.8,
+     "end": 5.14
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 182,
+ "fps": 30,
+ "aligned": true,
+ "credits": []
+}
