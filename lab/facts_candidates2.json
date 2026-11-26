@@ -1,0 +1,263 @@
+[
+ {
+  "id": "in-stadium",
+  "country": "in",
+  "fact": "India has the biggest cricket stadium on Earth: 132,000 seats",
+  "wiki": "Narendra Modi Stadium",
+  "check": [
+   "largest",
+   "stadium"
+  ],
+  "image": "Narendra Modi Stadium"
+ },
+ {
+  "id": "in-milk",
+  "country": "in",
+  "fact": "India produces more milk than any other country",
+  "wiki": "Dairy in India",
+  "check": [
+   "largest",
+   "milk"
+  ],
+  "image": "Dairy in India"
+ },
+ {
+  "id": "in-shani",
+  "country": "in",
+  "fact": "In one Indian village, houses have no front doors",
+  "wiki": "Shani Shingnapur",
+  "check": [
+   "doors"
+  ],
+  "image": "Shani Shingnapur"
+ },
+ {
+  "id": "in-rootbridge",
+  "country": "in",
+  "fact": "In India, people grow bridges out of living tree roots",
+  "wiki": "Living root bridge",
+  "check": [
+   "Meghalaya"
+  ],
+  "image": "Living root bridge"
+ },
+ {
+  "id": "in-umling",
+  "country": "in",
+  "fact": "India has the highest motorable road in the world",
+  "wiki": "Umling La",
+  "check": [
+   "highest",
+   "motorable"
+  ],
+  "image": "Umling La"
+ },
+ {
+  "id": "in-dabbawala",
+  "country": "in",
+  "fact": "Mumbai's dabbawalas deliver home-cooked lunches by bike and train",
+  "wiki": "Dabbawala",
+  "check": [
+   "lunch"
+  ],
+  "image": "Dabbawala"
+ },
+ {
+  "id": "in-election",
+  "country": "in",
+  "fact": "India holds the largest election on Earth",
+  "wiki": "2024 Indian general election",
+  "check": [
+   "largest",
+   "election"
+  ],
+  "image": "Electronic voting in India"
+ },
+ {
+  "id": "pk-kkh",
+  "country": "pk",
+  "fact": "Pakistan's Karakoram Highway is one of the highest paved roads on Earth",
+  "wiki": "Karakoram Highway",
+  "check": [
+   "highest",
+   "paved"
+  ],
+  "image": "Karakoram Highway"
+ },
+ {
+  "id": "pk-edhi",
+  "country": "pk",
+  "fact": "Pakistan's Edhi Foundation ran the world's largest volunteer ambulance network",
+  "wiki": "Edhi Foundation",
+  "check": [
+   "largest",
+   "ambulance"
+  ],
+  "image": "Edhi Foundation"
+ },
+ {
+  "id": "pk-sialkot",
+  "country": "pk",
+  "fact": "Most of the world's hand-stitched footballs come from Sialkot, Pakistan",
+  "wiki": "Sialkot",
+  "check": [
+   "footballs"
+  ],
+  "image": "Sialkot"
+ },
+ {
+  "id": "pk-mohenjo",
+  "country": "pk",
+  "fact": "Pakistan's Mohenjo-daro was built around 2500 BCE",
+  "wiki": "Mohenjo-daro",
+  "check": [
+   "2500"
+  ],
+  "image": "Mohenjo-daro"
+ },
+ {
+  "id": "pk-badshahi",
+  "country": "pk",
+  "fact": "Lahore's Badshahi Mosque held the title of world's largest mosque",
+  "wiki": "Badshahi Mosque",
+  "check": [
+   "largest"
+  ],
+  "image": "Badshahi Mosque"
+ },
+ {
+  "id": "id-komodo",
+  "country": "id",
+  "fact": "Indonesia is home to the largest lizard on Earth: the Komodo dragon",
+  "wiki": "Komodo dragon",
+  "check": [
+   "largest",
+   "lizard"
+  ],
+  "image": "Komodo dragon"
+ },
+ {
+  "id": "id-borobudur",
+  "country": "id",
+  "fact": "Indonesia has the largest Buddhist temple in the world",
+  "wiki": "Borobudur",
+  "check": [
+   "largest Buddhist temple"
+  ],
+  "image": "Borobudur"
+ },
+ {
+  "id": "id-jakarta",
+  "country": "id",
+  "fact": "Jakarta is sinking so fast Indonesia is moving its capital",
+  "wiki": "Jakarta",
+  "check": [
+   "sinking"
+  ],
+  "image": "Jakarta"
+ },
+ {
+  "id": "id-rafflesia",
+  "country": "id",
+  "fact": "The biggest flower on Earth grows in Indonesia",
+  "wiki": "Rafflesia arnoldii",
+  "check": [
+   "largest",
+   "flower"
+  ],
+  "image": "Rafflesia arnoldii"
+ },
+ {
+  "id": "id-luwak",
+  "country": "id",
+  "fact": "One of the priciest coffees comes from beans eaten by civets",
+  "wiki": "Kopi luwak",
+  "check": [
+   "civet"
+  ],
+  "image": "Kopi luwak"
+ },
+ {
+  "id": "bd-sundarbans",
+  "country": "bd",
+  "fact": "Bangladesh shares the largest mangrove forest in the world",
+  "wiki": "Sundarbans",
+  "check": [
+   "largest",
+   "mangrove"
+  ],
+  "image": "Sundarbans"
+ },
+ {
+  "id": "bd-garment",
+  "country": "bd",
+  "fact": "Bangladesh is the world's second-largest clothes exporter",
+  "wiki": "Textile industry in Bangladesh",
+  "check": [
+   "second-largest"
+  ],
+  "image": "Textile industry in Bangladesh"
+ },
+ {
+  "id": "ph-chocolate",
+  "country": "ph",
+  "fact": "The Philippines has over 1,200 hills shaped like chocolate drops",
+  "wiki": "Chocolate Hills",
+  "check": [
+   "Bohol"
+  ],
+  "image": "Chocolate Hills"
+ },
+ {
+  "id": "ph-islands",
+  "country": "ph",
+  "fact": "The Philippines is made of 7,641 islands",
+  "wiki": "Philippines",
+  "check": [
+   "7,641"
+  ],
+  "image": "Philippines"
+ },
+ {
+  "id": "br-coffee",
+  "country": "br",
+  "fact": "Brazil grows about a third of the world's coffee",
+  "wiki": "Coffee production in Brazil",
+  "check": [
+   "largest",
+   "coffee"
+  ],
+  "image": "Coffee production in Brazil"
+ },
+ {
+  "id": "br-snakeisland",
+  "country": "br",
+  "fact": "Brazil has an island so full of snakes that visitors are banned",
+  "wiki": "Ilha da Queimada Grande",
+  "check": [
+   "golden lancehead"
+  ],
+  "image": "Ilha da Queimada Grande"
+ },
+ {
+  "id": "ng-people",
+  "country": "ng",
+  "fact": "Nigeria has more people than any other country in Africa",
+  "wiki": "Nigeria",
+  "check": [
+   "most populous",
+   "Africa"
+  ],
+  "image": "Lagos"
+ },
+ {
+  "id": "pk-khunjerab2",
+  "country": "pk",
+  "fact": "Pakistan and China meet at one of the highest border crossings on Earth",
+  "wiki": "Khunjerab Pass",
+  "check": [
+   "border"
+  ],
+  "image": "Khunjerab Pass"
+ }
+]
