@@ -1,35 +1,48 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-26T14:42:54Z",
+ "fetched_at": "2026-11-26T17:42:33Z",
  "videos": [
+  {
+   "video_id": "NtR0LYuoiD8",
+   "title": "Pakistan 🇵🇰: only 5 countries have a bigger army #shorts",
+   "views": 13,
+   "question_posted": false,
+   "question": "Can you name all five?",
+   "comments": []
+  },
   {
    "video_id": "kNmHNPKGjJ0",
    "title": "India 🇮🇳 vs Germany 🇩🇪: who wins? 3 rounds, real data #shorts",
-   "views": 89,
-   "question_posted": false,
+   "views": 170,
+   "question_posted": true,
    "question": "India or Germany?",
    "comments": []
   },
   {
    "video_id": "Uv6wqaPraaY",
    "title": "Money facts that sound fake but are true 🇦🇪🇰🇼🇳🇴🇺🇸 #shorts",
-   "views": 98,
-   "question_posted": false,
+   "views": 126,
+   "question_posted": true,
    "question": "Which one did you know?",
    "comments": [
     {
      "id": "UgzF0mVyPMA8wJJwXvd4AaABAg",
      "author": "@FardausAkand-v1z",
      "text": "😊😊",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Glad you enjoyed it! Which fact surprised you the most?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "oZPjVo70ip8",
    "title": "Pakistan 🇵🇰 is bigger than 5 European countries combined #shorts",
-   "views": 1007,
+   "views": 1020,
    "question_posted": true,
    "question": "Which country would you add?",
    "comments": [
@@ -37,22 +50,32 @@
      "id": "UgwLXebVtQAdcUu8Srl4AaABAg",
      "author": "@ressaamalia2532",
      "text": "Rusia",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Russia would flip it around: it's about 21 times bigger than Pakistan, so Pakistan fits inside Russia many times over 😄 Where are you watching from?"
+      }
+     ]
     },
     {
      "id": "Ugw-WXF8ralYvO7uyiV4AaABAg",
      "author": "@BaxtiyrKutlimuratov",
      "text": "Uzbekistan",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Good pick! Uzbekistan is about 439,000 km², a bit more than half of Pakistan, so it would fit inside too. Are you from Uzbekistan?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "0hTy91mL6UQ",
    "title": "India 🇮🇳 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data #shorts",
-   "views": 609,
+   "views": 644,
    "question_posted": true,
    "question": "India or Bangladesh?",
    "comments": [
@@ -60,29 +83,44 @@
      "id": "UgxtMGy5hQAbj9AndDN4AaABAg",
      "author": "@muthusamysilvarajoo1284",
      "text": "India annually produces 5 million cars,, Bangladesh 0, India India produces millions of 2 wheelers Bangladesh 0",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Industry would be a fun round! In our 3 rounds India won on income per person, Bangladesh on life expectancy and women at work. What round should we add?"
+      }
+     ]
     },
     {
      "id": "UgzasMxS09MdLA3uMt54AaABAg",
      "author": "@muthusamysilvarajoo1284",
      "text": "In India 800 million people receive free rice at 5 kg per person every month",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "With about 1.45 billion people, food programs in India happen at a huge scale. Want a video on India's population next?"
+      }
+     ]
     },
     {
      "id": "UgyxGeklFyN4Lt6QiOh4AaABAg",
      "author": "@muthusamysilvarajoo1284",
      "text": "U r sponsored by China ?",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Not at all, nobody sponsors us. All numbers come straight from the World Bank, so anyone can check them. Which country should we compare next?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "1Wz1wjuK3uI",
    "title": "Indonesia 🇮🇩: only 3 countries have more people #shorts",
-   "views": 1417,
+   "views": 1427,
    "question_posted": true,
    "question": "Can you name all three?",
    "comments": [
@@ -119,7 +157,7 @@
   {
    "video_id": "rA9S46BMot4",
    "title": "Pakistan 🇵🇰: what is your $100 really worth there? #shorts",
-   "views": 892,
+   "views": 981,
    "question_posted": true,
    "question": "Where should your hundred dollars go?",
    "comments": []
@@ -127,7 +165,7 @@
   {
    "video_id": "ULt9F3VVjWc",
    "title": "India 🇮🇳 has more soldiers than USA, Russia and UK combined #shorts",
-   "views": 707,
+   "views": 720,
    "question_posted": true,
    "question": "India or all three?",
    "comments": []
@@ -138,47 +176,6 @@
    "views": 887,
    "question_posted": true,
    "question": "How many more would fit?",
-   "comments": []
-  },
-  {
-   "video_id": "b_iMwtkBjM8",
-   "title": "Pakistan 🇵🇰 vs Turkey 🇹🇷: who wins? 4 rounds, real data #shorts",
-   "views": 1107,
-   "question_posted": true,
-   "question": "Two all. Pakistan or Turkey?",
-   "comments": [
-    {
-     "id": "Ugy7Incno6s4317_6Cx4AaABAg",
-     "author": "@baddie-y7j",
-     "text": "We are brothers",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "Love that! Pakistan and Turkey really do share a famous friendship 🤝 Where are you watching from?"
-      }
-     ]
-    },
-    {
-     "id": "Ugx-0uEbP8CJIwux3Ih4AaABAg",
-     "author": "@Moonlit-l2k",
-     "text": "pakistan def",
-     "answered": true,
-     "replies": [
-      {
-       "author": "@Money_mapped1",
-       "text": "Team Pakistan, noted! Which of the 4 rounds surprised you the most?"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "video_id": "VezqfUzsfa0",
-   "title": "India 🇮🇳 vs Japan 🇯🇵: who wins? 3 rounds, real data #shorts",
-   "views": 1241,
-   "question_posted": true,
-   "question": "Two to one. India or Japan?",
    "comments": []
   }
  ]
