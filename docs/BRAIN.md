@@ -37,7 +37,7 @@ Actions maakt ze dan alle drie en ze staan voor 6:30 in Telegram. Arno zet ze ze
 
 | slot | waarom dit uur | wat erin hoort |
 |---|---|---|
-| `"07:30"` | 12:00 in India, 11:30 Pakistan, 13:30 Indonesië: middagpauze in Zuid-Azië | een **`facts`-video** met echte foto's: weetjes die fake klinken maar waar zijn (wereld, geld, records) |
+| `"07:30"` | 12:00 in India, 11:30 Pakistan, 13:30 Indonesië: middagpauze in Zuid-Azië | een **`facts`-video** met echte foto's over **één land**, om de beurt Indonesia, Pakistan, India (Bangladesh of Brazil als er 3 ongebruikte weetjes zijn) (titel: "Indonesia 🇮🇩 facts that sound fake but are true") |
 | `"14:30"` | 19:00 in India: het drukste avonduur op mobiel | de **sterkste India-video** van de dag: India-weetjes (`facts`) of India + rivaal (`quiz`, `bubbles`, `truesize`) |
 | `"17:30"` | 22:00 India, 21:30 Pakistan, 11:30 New York | **Pakistan/Bangladesh in de hoofdrol** of een korte lus (`worldsplit`), of een deel 2 van een recente winnaar |
 
@@ -157,6 +157,11 @@ omdat maar een derde blijft kijken, gaat de video daarna niet verder. **Daarom i
   (daar staat vaak een grafiek). Gaat het weetje over een vlag, gebruik dan `image: {"flag": "np"}` (onze eigen vlag).
 - **Opbouw**: het sterkste weetje eerst (dat is de hook), dan nog 2 tot 4, het laatste is het gekste. Per weetje 1 zin van max.
   12 woorden, plus de clou in `big` (max. 34 tekens, één *geel* woord). Geen inleiding, geen "Did you know".
+- **Eén land per video, en het land met vlag vooraan in de titel** (verplicht vanaf ep046). De eerste weetjes-video ("Money facts
+  that sound fake" met 4 vlaggen, ep043) haalde 82 views in 5 uur, terwijl elke video met India, Pakistan of Indonesia in de
+  titel rond 1.000 haalt. Mensen klikken op hun eigen land. Kies alleen weetjes uit `data/facts.json` met dat `country`
+  (minstens 3). Max. 4 weetjes (12 tot 18 s): korter betekent dat meer mensen tot het einde kijken en hem opnieuw zien.
+- Gebruik een weetje niet twee keer binnen 14 dagen (kijk naar de vorige `facts`-afleveringen).
 - Thema's die werken: "Things that are only normal in Japan", "Sounds fake but it's true: money edition", "Countries that broke
   the rules", "Pakistan 🇵🇰 facts that sound fake", "India 🇮🇳 records the world doesn't know". Altijd een land of geld erin.
 - Slot: een vraag die mensen laat reageren ("Which one did you know? Comment the number.").

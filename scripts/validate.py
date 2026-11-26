@@ -148,6 +148,13 @@ if fmt == "facts":
         errors.append("facts begint meteen met een foto (scene 'photo') en het sterkste weetje")
     if not 3 <= len(ph) <= 7:
         errors.append(f"facts: 3 tot 7 segmenten 'photo' (nu {len(ph)})")
+    # Vanaf ep046: één land in titel (de gemengde "Money facts" met 4 vlaggen haalde 82 views, landvideo's ~1000) en kort.
+    if (m1 := re.fullmatch(r"ep(\d+)", path.stem)) and int(m1.group(1)) >= 46:
+        flags = len(re.findall(r"[\U0001F1E6-\U0001F1FF]{2}", ep.get("title", "")))
+        if flags != 1:
+            errors.append(f"facts: precies één land met vlag in de titel, bv. 'India 🇮🇳 facts that sound fake' (nu {flags} vlaggen)")
+        if len(ph) > 5:
+            errors.append(f"facts: max. 4 weetjes + eventueel 1 extra; korter = meer mensen kijken tot het einde (nu {len(ph)})")
     if sum(1 for q in ph if q.get("source")) < len([q for q in ph if q.get("big")]):
         errors.append("facts: elk weetje (segment met 'big') heeft source {wiki, check} nodig; de render controleert dat op Wikipedia")
 if fmt == "race" and "race" not in scenes:
