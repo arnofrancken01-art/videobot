@@ -78,6 +78,10 @@ Actions maakt ze dan alle drie en ze staan voor 6:30 in Telegram. Arno zet ze ze
 - **Vervolg op een winnaar.** Heeft een video in `stats.json` minstens drie keer zoveel views als de mediaan van de laatste tien, maak
   dan binnen twee dagen een deel 2 met dezelfde landen en nieuwe maatstaven. Titel eindigt op "(Part 2)", en het slot van elk duel
   mag een volgend deel beloven ("Round five tomorrow.").
+- **Herhaal de beste van de week** (sinds 2026-11-26: alles blijft rond 1.000 hangen, dus de 3×-regel slaat nooit aan). Is er een
+  video van de laatste 7 dagen met minstens 1,3 keer de mediaan en nog geen vervolg, maak dan in slot 17:30 een nieuwe met
+  **hetzelfde format, hetzelfde land en dezelfde soort titel**, maar een nieuwe maatstaf (bv. ep040 "Indonesia 🇮🇩: only 3 countries
+  have more people", worldsplit, 1.410 views → "Indonesia 🇮🇩: only X countries are bigger", worldsplit). Zo leert het kanaal wat werkt.
 - **Titel**: begint met de landen en bevat hun vlag-emoji: "India 🇮🇳 vs Pakistan 🇵🇰: who is richer?". Max. 60 tekens.
 - **Hashtags**: eerst de landen (`india`, `pakistan`), dan `indiavspakistan`-achtige combinatie, dan `geography` of `countrycomparison`.
 - **Slot**: laat kiezen en vraag om de vlag: "India or Pakistan? Comment your flag."

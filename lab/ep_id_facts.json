@@ -1,0 +1,122 @@
+{
+ "id": "ep990",
+ "title": "Indonesia 🇮🇩 facts that sound fake but are true",
+ "topic": "Indonesia: sounds fake, but true",
+ "headline": "*Indonesia* sounds fake",
+ "description": "Four Indonesia facts that sound made up but are real, each checked on Wikipedia. Which one did you know? Comment the number.",
+ "tags": [
+  "indonesia",
+  "indonesia facts",
+  "komodo dragon",
+  "borobudur",
+  "rafflesia",
+  "kopi luwak",
+  "sounds fake but true",
+  "fun facts"
+ ],
+ "source": "Wikipedia: Komodo dragon, Borobudur, Rafflesia arnoldii, Kopi luwak. Photos: Wikimedia Commons",
+ "voice": "af_heart",
+ "hashtags": [
+  "indonesia",
+  "facts",
+  "soundsfakebuttrue",
+  "didyouknow"
+ ],
+ "format": "facts",
+ "slot": "07:30",
+ "hook_type": "claim",
+ "music": 5,
+ "cover": {
+  "badge": "ALL TRUE"
+ },
+ "segments": [
+  {
+   "scene": "photo",
+   "text": "Indonesia has real dragons. Komodo dragons grow three metres long.",
+   "props": {
+    "image": {
+     "wiki": "Komodo dragon"
+    },
+    "kicker": "Indonesia",
+    "flag": "id",
+    "big": "Real *DRAGONS*",
+    "num": 1,
+    "at": "dragons",
+    "source": {
+     "wiki": "Komodo dragon",
+     "check": [
+      "largest",
+      "lizard"
+     ]
+    }
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "It has the largest Buddhist temple in the world.",
+   "props": {
+    "image": {
+     "wiki": "Borobudur"
+    },
+    "kicker": "Indonesia",
+    "flag": "id",
+    "big": "World's *BIGGEST* temple",
+    "num": 2,
+    "at": "largest",
+    "source": {
+     "wiki": "Borobudur",
+     "check": [
+      "largest Buddhist temple"
+     ]
+    }
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "The biggest flower on Earth grows there.",
+   "props": {
+    "image": {
+     "wiki": "Rafflesia arnoldii"
+    },
+    "kicker": "Indonesia",
+    "flag": "id",
+    "big": "Biggest *FLOWER* on Earth",
+    "num": 3,
+    "at": "biggest",
+    "source": {
+     "wiki": "Rafflesia arnoldii",
+     "check": [
+      "largest",
+      "flower"
+     ]
+    }
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "And one of its priciest coffees is made from beans a civet ate first.",
+   "props": {
+    "image": {
+     "wiki": "Kopi luwak"
+    },
+    "kicker": "Indonesia",
+    "flag": "id",
+    "big": "Coffee from *POOP*",
+    "num": 4,
+    "at": "civet",
+    "source": {
+     "wiki": "Kopi luwak",
+     "check": [
+      "civet",
+      "defecated"
+     ]
+    }
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "Which one did you know?",
+   "props": {}
+  }
+ ]
+}
