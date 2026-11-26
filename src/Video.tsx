@@ -269,7 +269,7 @@ export const Video: React.FC = () => (
     <Head />
     <Captions segments={timeline.segments} fps={fps} wide={LONG} />
     <div style={{ position: "absolute", bottom: LONG ? 14 : 44, width: "100%", textAlign: "center", color: "rgba(255,255,255,0.6)", fontSize: 24, fontWeight: 700, textShadow: "0 2px 8px #000" }}>
-      Money, Mapped · Source: {timeline.source.split(",")[0]}
+      Money, Mapped · Source: {timeline.source.startsWith("Wikipedia") ? "Wikipedia" : timeline.source.split(",")[0]}
     </div>
     <Audio src={staticFile("voice.wav")} />
     <Audio src={staticFile(`music/${MUSIC}.mp3`)} volume={(fr) => 0.2 * Math.min(1, fr / 6, (timeline.durationInFrames - fr) / 12)} loop />
