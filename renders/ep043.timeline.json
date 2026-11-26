@@ -1,0 +1,371 @@
+{
+ "id": "ep043",
+ "title": "Money facts that sound fake but are true \ud83c\udde6\ud83c\uddea\ud83c\uddf0\ud83c\uddfc\ud83c\uddf3\ud83c\uddf4\ud83c\uddfa\ud83c\uddf8",
+ "topic": "Sounds fake, but true",
+ "headline": "Sounds fake. It's *true*.",
+ "description": "Four money facts that sound made up but are real, each checked on Wikipedia. Which one did you know? Comment the number.",
+ "tags": [
+  "money facts",
+  "sounds fake but true",
+  "dubai police bugatti",
+  "kuwaiti dinar",
+  "strongest currency",
+  "norway oil fund",
+  "us penny cost",
+  "fun facts",
+  "facts you didn't know"
+ ],
+ "source": "Wikipedia: Dubai Police Force, Kuwaiti dinar, Government Pension Fund of Norway, Penny (United States coin). Photos: Wikimedia Commons",
+ "voice": "af_heart",
+ "hashtags": [
+  "facts",
+  "money",
+  "soundsfakebuttrue",
+  "didyouknow"
+ ],
+ "format": "facts",
+ "slot": "07:30",
+ "hook_type": "claim",
+ "music": 2,
+ "cover": {
+  "badge": "REAL FACTS"
+ },
+ "segments": [
+  {
+   "scene": "photo",
+   "text": "Police in Dubai drive a Bugatti Veyron.",
+   "props": {
+    "image": {
+     "wiki": "Bugatti Veyron"
+    },
+    "kicker": "Dubai",
+    "flag": "ae",
+    "big": "Police car: *BUGATTI*",
+    "num": 1,
+    "at": "bugatti",
+    "source": {
+     "wiki": "Dubai Police Force",
+     "check": [
+      "Bugatti Veyron",
+      "fastest police car"
+     ]
+    }
+   },
+   "start": 0.05,
+   "end": 2.035,
+   "words": [
+    {
+     "word": "Police",
+     "start": 0.0,
+     "end": 0.22
+    },
+    {
+     "word": "in",
+     "start": 0.22,
+     "end": 0.42
+    },
+    {
+     "word": "Dubai",
+     "start": 0.42,
+     "end": 0.52
+    },
+    {
+     "word": "drive",
+     "start": 0.52,
+     "end": 0.96
+    },
+    {
+     "word": "a",
+     "start": 0.96,
+     "end": 1.08
+    },
+    {
+     "word": "Bugatti",
+     "start": 1.08,
+     "end": 1.42
+    },
+    {
+     "word": "Veyron.",
+     "start": 1.42,
+     "end": 1.84
+    }
+   ]
+  },
+  {
+   "scene": "photo",
+   "text": "The Kuwaiti dinar is the most valuable currency unit on Earth.",
+   "props": {
+    "image": {
+     "wiki": "Kuwait Towers"
+    },
+    "kicker": "Kuwait",
+    "flag": "kw",
+    "big": "No. 1 currency: *KUWAIT*",
+    "num": 2,
+    "at": "kuwaiti",
+    "source": {
+     "wiki": "Kuwaiti dinar",
+     "check": [
+      "highest-valued currency unit"
+     ]
+    }
+   },
+   "start": 2.095,
+   "end": 4.789,
+   "words": [
+    {
+     "word": "The",
+     "start": 2.08,
+     "end": 2.14
+    },
+    {
+     "word": "Kuwaiti",
+     "start": 2.14,
+     "end": 2.5
+    },
+    {
+     "word": "dinar",
+     "start": 2.5,
+     "end": 2.78
+    },
+    {
+     "word": "is",
+     "start": 2.78,
+     "end": 2.96
+    },
+    {
+     "word": "the",
+     "start": 2.96,
+     "end": 3.08
+    },
+    {
+     "word": "most",
+     "start": 3.08,
+     "end": 3.2
+    },
+    {
+     "word": "valuable",
+     "start": 3.2,
+     "end": 3.52
+    },
+    {
+     "word": "currency",
+     "start": 3.52,
+     "end": 3.9
+    },
+    {
+     "word": "unit",
+     "start": 3.9,
+     "end": 4.2
+    },
+    {
+     "word": "on",
+     "start": 4.2,
+     "end": 4.4
+    },
+    {
+     "word": "Earth.",
+     "start": 4.4,
+     "end": 4.62
+    }
+   ]
+  },
+  {
+   "scene": "photo",
+   "text": "Norway's oil fund holds over two point two trillion dollars.",
+   "props": {
+    "image": {
+     "wiki": "Oslo"
+    },
+    "kicker": "Norway",
+    "flag": "no",
+    "big": "*$2.2 TRILLION* oil fund",
+    "num": 3,
+    "at": "two",
+    "source": {
+     "wiki": "Government Pension Fund of Norway",
+     "check": [
+      "2.2 trillion",
+      "largest sovereign wealth fund"
+     ]
+    }
+   },
+   "start": 4.849,
+   "end": 8.077,
+   "words": [
+    {
+     "word": "Norway's",
+     "start": 4.9,
+     "end": 5.3
+    },
+    {
+     "word": "oil",
+     "start": 5.3,
+     "end": 5.46
+    },
+    {
+     "word": "fund",
+     "start": 5.46,
+     "end": 5.72
+    },
+    {
+     "word": "holds",
+     "start": 5.72,
+     "end": 5.98
+    },
+    {
+     "word": "over",
+     "start": 5.98,
+     "end": 6.22
+    },
+    {
+     "word": "two",
+     "start": 6.22,
+     "end": 6.46
+    },
+    {
+     "word": "point",
+     "start": 6.46,
+     "end": 6.7
+    },
+    {
+     "word": "two",
+     "start": 6.7,
+     "end": 6.94
+    },
+    {
+     "word": "trillion",
+     "start": 6.94,
+     "end": 7.26
+    },
+    {
+     "word": "dollars.",
+     "start": 7.26,
+     "end": 8.04
+    }
+   ]
+  },
+  {
+   "scene": "photo",
+   "text": "And making one US penny once cost more than two cents.",
+   "props": {
+    "image": {
+     "wiki": "Penny (United States coin)"
+    },
+    "kicker": "USA",
+    "flag": "us",
+    "big": "1 cent cost *2+ cents*",
+    "num": 4,
+    "at": "more",
+    "source": {
+     "wiki": "Penny (United States coin)",
+     "check": [
+      "more than 2\u00a2"
+     ]
+    }
+   },
+   "start": 8.137,
+   "end": 11.097,
+   "words": [
+    {
+     "word": "And",
+     "start": 8.04,
+     "end": 8.2
+    },
+    {
+     "word": "making",
+     "start": 8.2,
+     "end": 8.38
+    },
+    {
+     "word": "one",
+     "start": 8.38,
+     "end": 8.7
+    },
+    {
+     "word": "US",
+     "start": 8.7,
+     "end": 8.94
+    },
+    {
+     "word": "penny",
+     "start": 8.94,
+     "end": 9.28
+    },
+    {
+     "word": "once",
+     "start": 9.28,
+     "end": 9.54
+    },
+    {
+     "word": "cost",
+     "start": 9.54,
+     "end": 9.82
+    },
+    {
+     "word": "more",
+     "start": 9.82,
+     "end": 10.08
+    },
+    {
+     "word": "than",
+     "start": 10.08,
+     "end": 10.26
+    },
+    {
+     "word": "two",
+     "start": 10.26,
+     "end": 10.46
+    },
+    {
+     "word": "cents.",
+     "start": 10.46,
+     "end": 10.74
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Which one did you know?",
+   "props": {},
+   "start": 11.157,
+   "end": 11.997,
+   "words": [
+    {
+     "word": "Which",
+     "start": 11.14,
+     "end": 11.24
+    },
+    {
+     "word": "one",
+     "start": 11.24,
+     "end": 11.4
+    },
+    {
+     "word": "did",
+     "start": 11.4,
+     "end": 11.54
+    },
+    {
+     "word": "you",
+     "start": 11.54,
+     "end": 11.64
+    },
+    {
+     "word": "know?",
+     "start": 11.64,
+     "end": 11.8
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 380,
+ "fps": 30,
+ "aligned": true,
+ "credits": [
+  "Bugatti Veyron 16.4 \u2013 Frontansicht (1), 5. April 2012, D\u00fcsseldorf.jpg by M 93 (CC BY-SA 3.0 de), via Wikimedia Commons",
+  "Kuwait towers.jpg by Mikael Lindmark (CC BY-SA 2.5 se), via Wikimedia Commons",
+  "Nationaltheatret evening.jpg by Orjanarvola (CC BY-SA 4.0), via Wikimedia Commons",
+  "US One Cent Obv.png by United States Mint (Public domain), via Wikimedia Commons"
+ ]
+}
