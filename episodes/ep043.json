@@ -1,0 +1,23 @@
+{
+ "id": "ep043",
+ "title": "Money facts that sound fake but are true 🇦🇪🇰🇼🇳🇴🇺🇸",
+ "topic": "Sounds fake, but true",
+ "headline": "Sounds fake. It's *true*.",
+ "description": "Four money facts that sound made up but are real, each checked on Wikipedia. Which one did you know? Comment the number.",
+ "tags": ["money facts", "sounds fake but true", "dubai police bugatti", "kuwaiti dinar", "strongest currency", "norway oil fund", "us penny cost", "fun facts", "facts you didn't know"],
+ "source": "Wikipedia: Dubai Police Force, Kuwaiti dinar, Government Pension Fund of Norway, Penny (United States coin). Photos: Wikimedia Commons",
+ "voice": "af_heart",
+ "hashtags": ["facts", "money", "soundsfakebuttrue", "didyouknow"],
+ "format": "facts",
+ "slot": "07:30",
+ "hook_type": "claim",
+ "music": 2,
+ "cover": {"badge": "REAL FACTS"},
+ "segments": [
+  {"scene": "photo", "text": "Police in Dubai drive a Bugatti Veyron.", "props": {"image": {"wiki": "Bugatti Veyron"}, "kicker": "Dubai", "flag": "ae", "big": "Police car: *BUGATTI*", "num": 1, "at": "bugatti", "source": {"wiki": "Dubai Police Force", "check": ["Bugatti Veyron", "fastest police car"]}}},
+  {"scene": "photo", "text": "The Kuwaiti dinar is the most valuable currency unit on Earth.", "props": {"image": {"wiki": "Kuwait Towers"}, "kicker": "Kuwait", "flag": "kw", "big": "No. 1 currency: *KUWAIT*", "num": 2, "at": "kuwaiti", "source": {"wiki": "Kuwaiti dinar", "check": ["highest-valued currency unit"]}}},
+  {"scene": "photo", "text": "Norway's oil fund holds over two point two trillion dollars.", "props": {"image": {"wiki": "Oslo"}, "kicker": "Norway", "flag": "no", "big": "*$2.2 TRILLION* oil fund", "num": 3, "at": "two", "source": {"wiki": "Government Pension Fund of Norway", "check": ["2.2 trillion", "largest sovereign wealth fund"]}}},
+  {"scene": "photo", "text": "And making one US penny once cost more than two cents.", "props": {"image": {"wiki": "Penny (United States coin)"}, "kicker": "USA", "flag": "us", "big": "1 cent cost *2+ cents*", "num": 4, "at": "more", "source": {"wiki": "Penny (United States coin)", "check": ["more than 2¢"]}}},
+  {"scene": "outro", "text": "Which one did you know?", "props": {}}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "id": "ep044",
+ "title": "India 🇮🇳 vs Germany 🇩🇪: who wins? 3 rounds, real data",
+ "topic": "India vs Germany",
+ "headline": "India or *Germany*?",
+ "description": "India against Germany: reserves, size of the economy and military spending. Three rounds of real World Bank data for 2025. India or Germany? Comment your flag.",
+ "tags": ["india vs germany", "germany vs india", "india germany comparison", "india economy vs germany", "india forex reserves", "india military spending", "india gdp 2025", "country comparison", "quiz"],
+ "source": "World Bank: total reserves including gold, GDP in current US dollars, military expenditure (all 2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "germany", "indiavsgermany", "countrycomparison"],
+ "format": "quiz",
+ "slot": "14:30",
+ "hook_type": "question",
+ "music": 4,
+ "cover": {"flags": ["in", "de"], "vs": true, "badge": "3 ROUNDS"},
+ "localizations": {
+  "hi": {
+   "title": "भारत 🇮🇳 vs जर्मनी 🇩🇪: कौन जीतेगा? 3 राउंड",
+   "description": "भारत या जर्मनी: विदेशी भंडार, अर्थव्यवस्था और सैन्य खर्च। असली आंकड़े, तीन राउंड। अपना झंडा कमेंट करें।"
+  }
+ },
+ "segments": [
+  {"scene": "quiz", "text": "India or Germany. Who wins three rounds? Round one. Who has bigger reserves?", "props": {"question": "Bigger reserves, gold included?", "format": {"prefix": "$", "suffix": "B"}, "options": [{"label": "India", "flag": "in", "value": 700}, {"label": "Germany", "flag": "de", "value": 572}], "pause": 1.6}},
+  {"scene": "quiz", "text": "India. By almost one hundred thirty billion dollars.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Round two. Whose economy is bigger? India or Germany?", "props": {"question": "Whose economy is bigger?", "format": {"prefix": "$", "suffix": "T", "decimals": 2}, "options": [{"label": "India", "flag": "in", "value": 3.96}, {"label": "Germany", "flag": "de", "value": 5.05}], "pause": 1.6}},
+  {"scene": "quiz", "text": "Germany. Still over one trillion dollars bigger.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Final round. Who spends more on its army? India or Germany?", "props": {"question": "Who spends more on its army?", "format": {"prefix": "$", "suffix": "B"}, "options": [{"label": "India", "flag": "in", "value": 92}, {"label": "Germany", "flag": "de", "value": 114}], "pause": 1.8}},
+  {"scene": "quiz", "text": "Germany. Over twenty-one billion dollars more.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "India or Germany? Comment your flag.", "props": {}}
+ ]
+}
