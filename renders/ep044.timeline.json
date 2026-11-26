@@ -1,0 +1,477 @@
+{
+ "id": "ep044",
+ "title": "India \ud83c\uddee\ud83c\uddf3 vs Germany \ud83c\udde9\ud83c\uddea: who wins? 3 rounds, real data",
+ "topic": "India vs Germany",
+ "headline": "India or *Germany*?",
+ "description": "India against Germany: reserves, size of the economy and military spending. Three rounds of real World Bank data for 2025. India or Germany? Comment your flag.",
+ "tags": [
+  "india vs germany",
+  "germany vs india",
+  "india germany comparison",
+  "india economy vs germany",
+  "india forex reserves",
+  "india military spending",
+  "india gdp 2025",
+  "country comparison",
+  "quiz"
+ ],
+ "source": "World Bank: total reserves including gold, GDP in current US dollars, military expenditure (all 2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "germany",
+  "indiavsgermany",
+  "countrycomparison"
+ ],
+ "format": "quiz",
+ "slot": "14:30",
+ "hook_type": "question",
+ "music": 4,
+ "cover": {
+  "flags": [
+   "in",
+   "de"
+  ],
+  "vs": true,
+  "badge": "3 ROUNDS"
+ },
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 vs \u091c\u0930\u094d\u092e\u0928\u0940 \ud83c\udde9\ud83c\uddea: \u0915\u094c\u0928 \u091c\u0940\u0924\u0947\u0917\u093e? 3 \u0930\u093e\u0909\u0902\u0921",
+   "description": "\u092d\u093e\u0930\u0924 \u092f\u093e \u091c\u0930\u094d\u092e\u0928\u0940: \u0935\u093f\u0926\u0947\u0936\u0940 \u092d\u0902\u0921\u093e\u0930, \u0905\u0930\u094d\u0925\u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e \u0914\u0930 \u0938\u0948\u0928\u094d\u092f \u0916\u0930\u094d\u091a\u0964 \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947, \u0924\u0940\u0928 \u0930\u093e\u0909\u0902\u0921\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  }
+ },
+ "segments": [
+  {
+   "scene": "quiz",
+   "text": "India or Germany. Who wins three rounds? Round one. Who has bigger reserves?",
+   "props": {
+    "question": "Bigger reserves, gold included?",
+    "format": {
+     "prefix": "$",
+     "suffix": "B"
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 700
+     },
+     {
+      "label": "Germany",
+      "flag": "de",
+      "value": 572
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 0.05,
+   "end": 4.294,
+   "words": [
+    {
+     "word": "India",
+     "start": 0.0,
+     "end": 0.26
+    },
+    {
+     "word": "or",
+     "start": 0.26,
+     "end": 0.44
+    },
+    {
+     "word": "Germany.",
+     "start": 0.44,
+     "end": 0.66
+    },
+    {
+     "word": "Who",
+     "start": 1.02,
+     "end": 1.22
+    },
+    {
+     "word": "wins",
+     "start": 1.22,
+     "end": 1.36
+    },
+    {
+     "word": "three",
+     "start": 1.36,
+     "end": 1.6
+    },
+    {
+     "word": "rounds?",
+     "start": 1.6,
+     "end": 1.82
+    },
+    {
+     "word": "Round",
+     "start": 2.42,
+     "end": 2.42
+    },
+    {
+     "word": "one.",
+     "start": 2.42,
+     "end": 2.68
+    },
+    {
+     "word": "Who",
+     "start": 3.02,
+     "end": 3.22
+    },
+    {
+     "word": "has",
+     "start": 3.22,
+     "end": 3.36
+    },
+    {
+     "word": "bigger",
+     "start": 3.36,
+     "end": 3.52
+    },
+    {
+     "word": "reserves?",
+     "start": 3.52,
+     "end": 3.92
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "India. By almost one hundred thirty billion dollars.",
+   "props": {
+    "reveal": true
+   },
+   "start": 5.954,
+   "end": 8.547,
+   "words": [
+    {
+     "word": "India.",
+     "start": 5.84,
+     "end": 6.12
+    },
+    {
+     "word": "By",
+     "start": 6.5,
+     "end": 6.7
+    },
+    {
+     "word": "almost",
+     "start": 6.7,
+     "end": 6.94
+    },
+    {
+     "word": "one",
+     "start": 6.94,
+     "end": 7.087
+    },
+    {
+     "word": "hundred",
+     "start": 7.087,
+     "end": 7.233
+    },
+    {
+     "word": "thirty",
+     "start": 7.233,
+     "end": 7.38
+    },
+    {
+     "word": "billion",
+     "start": 7.38,
+     "end": 7.86
+    },
+    {
+     "word": "dollars.",
+     "start": 7.86,
+     "end": 8.54
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Whose economy is bigger? India or Germany?",
+   "props": {
+    "question": "Whose economy is bigger?",
+    "format": {
+     "prefix": "$",
+     "suffix": "T",
+     "decimals": 2
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 3.96
+     },
+     {
+      "label": "Germany",
+      "flag": "de",
+      "value": 5.05
+     }
+    ],
+    "pause": 1.6
+   },
+   "start": 8.607,
+   "end": 11.808,
+   "words": [
+    {
+     "word": "Round",
+     "start": 8.54,
+     "end": 8.7
+    },
+    {
+     "word": "two.",
+     "start": 8.7,
+     "end": 9.0
+    },
+    {
+     "word": "Whose",
+     "start": 9.34,
+     "end": 9.42
+    },
+    {
+     "word": "economy",
+     "start": 9.42,
+     "end": 9.72
+    },
+    {
+     "word": "is",
+     "start": 9.72,
+     "end": 10.0
+    },
+    {
+     "word": "bigger?",
+     "start": 10.0,
+     "end": 10.18
+    },
+    {
+     "word": "India",
+     "start": 10.68,
+     "end": 10.84
+    },
+    {
+     "word": "or",
+     "start": 10.84,
+     "end": 11.24
+    },
+    {
+     "word": "Germany?",
+     "start": 11.24,
+     "end": 11.58
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Germany. Still over one trillion dollars bigger.",
+   "props": {
+    "reveal": true
+   },
+   "start": 13.468,
+   "end": 16.151,
+   "words": [
+    {
+     "word": "Germany.",
+     "start": 13.08,
+     "end": 13.68
+    },
+    {
+     "word": "Still",
+     "start": 14.06,
+     "end": 14.44
+    },
+    {
+     "word": "over",
+     "start": 14.44,
+     "end": 14.68
+    },
+    {
+     "word": "one",
+     "start": 14.68,
+     "end": 14.98
+    },
+    {
+     "word": "trillion",
+     "start": 14.98,
+     "end": 15.3
+    },
+    {
+     "word": "dollars",
+     "start": 15.3,
+     "end": 15.3
+    },
+    {
+     "word": "bigger.",
+     "start": 15.3,
+     "end": 15.78
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Final round. Who spends more on its army? India or Germany?",
+   "props": {
+    "question": "Who spends more on its army?",
+    "format": {
+     "prefix": "$",
+     "suffix": "B"
+    },
+    "options": [
+     {
+      "label": "India",
+      "flag": "in",
+      "value": 92
+     },
+     {
+      "label": "Germany",
+      "flag": "de",
+      "value": 114
+     }
+    ],
+    "pause": 1.8
+   },
+   "start": 16.211,
+   "end": 19.393,
+   "words": [
+    {
+     "word": "Final",
+     "start": 16.22,
+     "end": 16.32
+    },
+    {
+     "word": "round.",
+     "start": 16.32,
+     "end": 16.6
+    },
+    {
+     "word": "Who",
+     "start": 16.98,
+     "end": 17.14
+    },
+    {
+     "word": "spends",
+     "start": 17.14,
+     "end": 17.32
+    },
+    {
+     "word": "more",
+     "start": 17.32,
+     "end": 17.54
+    },
+    {
+     "word": "on",
+     "start": 17.54,
+     "end": 17.68
+    },
+    {
+     "word": "its",
+     "start": 17.68,
+     "end": 17.78
+    },
+    {
+     "word": "army?",
+     "start": 17.78,
+     "end": 17.96
+    },
+    {
+     "word": "India",
+     "start": 18.3,
+     "end": 18.48
+    },
+    {
+     "word": "or",
+     "start": 18.48,
+     "end": 18.8
+    },
+    {
+     "word": "Germany?",
+     "start": 18.8,
+     "end": 19.1
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Germany. Over twenty-one billion dollars more.",
+   "props": {
+    "reveal": true
+   },
+   "start": 21.253,
+   "end": 23.621,
+   "words": [
+    {
+     "word": "Germany.",
+     "start": 20.84,
+     "end": 21.44
+    },
+    {
+     "word": "Over",
+     "start": 21.8,
+     "end": 21.96
+    },
+    {
+     "word": "twenty-one",
+     "start": 21.96,
+     "end": 22.26
+    },
+    {
+     "word": "billion",
+     "start": 22.26,
+     "end": 22.76
+    },
+    {
+     "word": "dollars",
+     "start": 22.76,
+     "end": 22.76
+    },
+    {
+     "word": "more.",
+     "start": 22.76,
+     "end": 23.28
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "India or Germany? Comment your flag.",
+   "props": {},
+   "start": 23.681,
+   "end": 25.82,
+   "words": [
+    {
+     "word": "India",
+     "start": 23.68,
+     "end": 23.88
+    },
+    {
+     "word": "or",
+     "start": 23.88,
+     "end": 24.22
+    },
+    {
+     "word": "Germany?",
+     "start": 24.22,
+     "end": 24.5
+    },
+    {
+     "word": "Comment",
+     "start": 24.94,
+     "end": 25.1
+    },
+    {
+     "word": "your",
+     "start": 25.1,
+     "end": 25.32
+    },
+    {
+     "word": "flag.",
+     "start": 25.32,
+     "end": 25.54
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 795,
+ "fps": 30,
+ "aligned": true,
+ "credits": []
+}
