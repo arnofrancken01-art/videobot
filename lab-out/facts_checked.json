@@ -1,5 +1,486 @@
 [
  {
+  "id": "va-small",
+  "country": "va",
+  "fact": "Vatican City is the smallest country on Earth: 0.49 square kilometres",
+  "wiki": "Vatican City",
+  "check": [
+   "smallest country",
+   "0.49"
+  ],
+  "image": "Vatican City",
+  "found": true,
+  "sentences": [
+   "With an area of 0.49 square kilometres (0.19 mi2) and population of about 882, Vatican City is both the smallest country by area and the least populous."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "ae-burj",
+  "country": "ae",
+  "fact": "Burj Khalifa is 829.8 metres tall, the tallest structure in the world",
+  "wiki": "Burj Khalifa",
+  "check": [
+   "tallest structure",
+   "829.8"
+  ],
+  "image": "Burj Khalifa",
+  "found": true,
+  "sentences": [
+   "Designed by Skidmore, Owings & Merrill, it is the world's tallest structure, with a total height of 829.8 m (2,722 ft, or just over half a mile) and a roof height (excluding the antenna, but including a 242.6 m spire) of 828 m (2,717 ft).",
+   "== Records ==\nThe Burj Khalifa set several world records, including:\n\nTallest existing structure: 829.8 m (2,722 ft) (previously KVLY-TV mast – 628.8 m or 2,063 ft)\nTallest structure ever built: 829.8 m (2,722 ft) (previously Warsaw radio mast – 646.38 m or 2,121 ft)\nTallest freestanding structure: 829.8 m (2,722 ft) (previously CN Tower – 553.3 m or 1,815 ft)\nTallest skyscraper (to top of spire): 828 m (2,717 ft) (previously Taipei 101 – 509.2 m or 1,671 ft)\nTallest skyscraper to top of antenna: 829.8 m (2,722 ft) (previously the Willis (formerly Sears) Tower – 527 m or 1,729 ft)\nBuilding with most floors: 163 (previously World Trade Center – 110)\nWorld's highest elevator installation (situated inside a rod at the very top of the building)\nWorld's longest travel distance elevators: 504 m (1,654 ft)\nHighest vertical concrete pumping (for a building): 606 m (1,988 ft)\nWorld's tallest structure that includes residential space\nWorld's highest installation of an aluminium and glass façade: 512 m (1,680 ft)\nWorld's highest restaurant (At.mosphere): 122nd floor at 442 m (1,450 ft) (previously 360, at a height of 350 m (1,148 ft) in CN Tower)\nWorld's highest New Year display of fireworks."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "in-railways",
+  "country": "in",
+  "fact": "Indian Railways has more than 1.2 million employees, the ninth-largest employer on Earth",
+  "wiki": "Indian Railways",
+  "check": [
+   "1.2 million",
+   "employer"
+  ],
+  "image": "Indian Railways",
+  "found": true,
+  "sentences": [
+   "With more than 1.2 million employees, it is the ninth-largest employer of the world and the second largest employer of India."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "in-kumbh",
+  "country": "in",
+  "fact": "More than 660 million people bathed at the 2025 Maha Kumbh Mela, the world's largest gathering",
+  "wiki": "2025 Prayag Maha Kumbh Mela",
+  "check": [
+   "660 million",
+   "largest gathering"
+  ],
+  "image": "2025 Prayag Maha Kumbh Mela",
+  "found": true,
+  "sentences": [
+   "It was the world's largest gathering, and according to data released on 26 February, more than 660 million (66 crores) people had taken a dip in the river."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "ru-timezones",
+  "country": "ru",
+  "fact": "Russia has 11 time zones",
+  "wiki": "Time in Russia",
+  "check": [
+   "11 time zones"
+  ],
+  "image": "Trans-Siberian Railway",
+  "found": true,
+  "sentences": [
+   "There are 11 time zones in Russia, which currently observe times ranging from UTC+02:00 to UTC+12:00."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "fr-timezones",
+  "country": "fr",
+  "fact": "France uses 12 time zones, more than any other country",
+  "wiki": "Time in France",
+  "check": [
+   "12 different time zones",
+   "more than any other country"
+  ],
+  "image": "French Polynesia",
+  "found": true,
+  "sentences": [
+   "With its overseas territories, France uses 12 different time zones (13 including its claim in Antarctica), more than any other country in the world."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "nr-capital",
+  "country": "nr",
+  "fact": "Nauru has no official capital; Yaren is only its de facto capital",
+  "wiki": "Nauru",
+  "check": [
+   "de facto capital",
+   "Yaren"
+  ],
+  "image": "Nauru",
+  "found": true,
+  "sentences": [
+   "Yaren is its de facto capital."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "is-army",
+  "country": "is",
+  "fact": "Iceland has no standing army, the only NATO member without one",
+  "wiki": "Iceland",
+  "check": [
+   "no standing army"
+  ],
+  "image": "Reykjavík",
+  "found": true,
+  "sentences": [
+   "It has the smallest population of any NATO member and is the only one with no standing army, possessing only a lightly armed coast guard.",
+   "=== Military ===\n\nIceland has no standing army but has the Icelandic Coast Guard, which also maintains the Iceland Air Defence System and an Iceland Crisis Response Unit to support peacekeeping missions and perform paramilitary functions."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "id-islands",
+  "country": "id",
+  "fact": "Indonesia is made of more than 17,000 islands",
+  "wiki": "Indonesia",
+  "check": [
+   "17,000 islands"
+  ],
+  "image": "Raja Ampat Islands",
+  "found": true,
+  "sentences": [
+   "Comprising more than 17,000 islands—including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea—it is the world's largest archipelagic state and the 14th-largest country by area."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "pk-k2",
+  "country": "pk",
+  "fact": "K2 in Pakistan is the second-highest mountain on Earth, 8,611 metres",
+  "wiki": "K2",
+  "check": [
+   "second-highest mountain",
+   "8,611"
+  ],
+  "image": "K2",
+  "found": true,
+  "sentences": [
+   "K2, also known as Mount Godwin-Austen, at 8,611 metres (28,251 ft) above sea level, is the second-highest mountain on Earth, after Mount Everest at 8,849 metres (29,032 ft)."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "bd-coxs",
+  "country": "bd",
+  "fact": "Cox's Bazar in Bangladesh is the longest natural sea beach in Asia: 120 km",
+  "wiki": "Cox's Bazar Beach",
+  "check": [
+   "longest natural sea beach",
+   "120"
+  ],
+  "image": "Cox's Bazar Beach",
+  "found": true,
+  "sentences": [
+   "Cox's Bazar Beach (Bengali: কক্সবাজার সমুদ্র সৈকত), located at Cox's Bazar, Bangladesh, is the longest natural sea beach in Asia running 120 kilometres (75 mi) and 3rd longest beach after Praia do Cassino of Brazil and Padre Island on the US Gulf Coast."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "in-mawsynram",
+  "country": "in",
+  "fact": "Mawsynram in India is reportedly the wettest place on Earth: 11,872 mm of rain a year",
+  "wiki": "Mawsynram",
+  "check": [
+   "wettest place on Earth",
+   "11,872"
+  ],
+  "image": "Mawsynram",
+  "found": true,
+  "sentences": [
+   "It is reportedly the wettest place on Earth, with an average annual rainfall of 11,872 millimetres (467.4 in).",
+   "Although it is reportedly the wettest place on Earth, with an average annual rainfall of 11,872 millimetres (467.4 in), this claim is disputed by Lloró, Colombia, which reported an average yearly rainfall of 12,717 millimetres (500.7 in) between 1952 and 1989 and López de Micay, also in Colombia, which reported 12,892 millimetres (507.6 in) per year between 1960 and 2012."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "in-chenab",
+  "country": "in",
+  "fact": "India's Chenab Bridge is the highest rail bridge in the world: 359 metres",
+  "wiki": "Chenab Rail Bridge",
+  "check": [
+   "highest rail bridge",
+   "359"
+  ],
+  "image": "Chenab Rail Bridge",
+  "found": true,
+  "sentences": [
+   "With a deck height of 359 m (1,178 ft) from the river bed, the arch bridge is the highest rail bridge in the world.",
+   "The main deck of the bridge was planned at a height of 359 m (1,178 ft) above the river bed, making it the highest rail bridge in the world."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "in-langar",
+  "country": "in",
+  "fact": "The Golden Temple serves over 100,000 free meals every day",
+  "wiki": "Golden Temple",
+  "check": [
+   "100,000",
+   "langar"
+  ],
+  "image": "Golden Temple",
+  "found": true,
+  "sentences": [
+   "Over 100,000 vegetarian meals are served at the langar every day."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "ae-police",
+  "country": "ae",
+  "fact": "Dubai Police drive a Bugatti Veyron, the fastest police car in service",
+  "wiki": "Dubai Police Force",
+  "check": [
+   "Bugatti Veyron",
+   "fastest police car"
+  ],
+  "image": "Bugatti Veyron",
+  "found": true,
+  "sentences": [
+   "Guinness World Records awarded the Dubai Police Force the record for \"fastest police car in service\" for having a Bugatti Veyron in service, which has a top speed of 253 mph (407 km/h)."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "ch-guinea",
+  "country": "ch",
+  "fact": "In Switzerland it is illegal to keep just one guinea pig",
+  "wiki": "Guinea pig",
+  "check": [
+   "Switzerland",
+   "single guinea pig",
+   "illegal"
+  ],
+  "image": "Guinea pig",
+  "found": true,
+  "sentences": [
+   "In Switzerland, where owning a single guinea pig is considered harmful to its well-being, keeping a guinea pig without a companion is illegal."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "no-fund",
+  "country": "no",
+  "fact": "Norway's oil fund holds over 2.2 trillion US dollars, the largest in the world",
+  "wiki": "Government Pension Fund of Norway",
+  "check": [
+   "2.2 trillion",
+   "largest sovereign wealth fund"
+  ],
+  "image": "Oslo",
+  "found": true,
+  "sentences": [
+   "As of July 2026, it had over US$2.2 trillion in assets, equal to 1.5% of the value of the world's listed companies, making it the world's largest sovereign wealth fund in terms of total assets under management."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "cn-gorges",
+  "country": "cn",
+  "fact": "China's Three Gorges Dam is the world's largest power station",
+  "wiki": "Three Gorges Dam",
+  "check": [
+   "largest power station",
+   "22,500"
+  ],
+  "image": "Three Gorges Dam",
+  "found": true,
+  "sentences": [
+   "It is also the world's largest power station by installed capacity (22,500 MW); it generates 95±20 TWh of electricity per year on average, depending on the amount of precipitation in the river basin."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "us-penny",
+  "country": "us",
+  "fact": "Making a US penny once cost more than 2 cents",
+  "wiki": "Penny (United States coin)",
+  "check": [
+   "more than 2¢"
+  ],
+  "image": "Penny (United States coin)",
+  "found": true,
+  "sentences": [
+   "In the early 2010s, the price of metal used to make pennies rose to a noticeable cost to the mint which peaked at more than 2¢, a negative seigniorage, for the 1¢ face-value coin."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "np-flag",
+  "country": "np",
+  "fact": "Nepal has the only non-rectangular national flag in the world",
+  "wiki": "Flag of Nepal",
+  "check": [
+   "only non-rectangular national flag"
+  ],
+  "image": {
+   "flag": "np"
+  },
+  "found": true,
+  "sentences": [
+   "It is the only non-rectangular national flag in the world and the only one that is taller than it is wide."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "tr-istanbul",
+  "country": "tr",
+  "fact": "Istanbul is a city on two continents, Europe and Asia",
+  "wiki": "Istanbul",
+  "check": [
+   "two continents",
+   "Europe",
+   "Asia"
+  ],
+  "image": "Bosphorus Bridge",
+  "found": true,
+  "sentences": [
+   "It is a city on two continents; about two-thirds of its population live in Europe and the rest in Asia."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "mx-sinking",
+  "country": "mx",
+  "fact": "Mexico City sinks almost 50 centimetres every year",
+  "wiki": "Mexico City",
+  "check": [
+   "50 centimetres",
+   "sink"
+  ],
+  "image": "Mexico City Metropolitan Cathedral",
+  "found": true,
+  "sentences": [
+   "Since the beginning of the 20th century the city has sunk as much as nine meters (30 feet) in some areas, and it continues to sink almost 50 centimetres (20 in) every year."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "in-statue",
+  "country": "in",
+  "fact": "India's Statue of Unity is the tallest statue in the world: 182 metres",
+  "wiki": "Statue of Unity",
+  "check": [
+   "world's tallest statue",
+   "182"
+  ],
+  "image": "Statue of Unity",
+  "found": true,
+  "sentences": [
+   "The Statue of Unity is the world's tallest statue, with a height of 182 metres (597 feet), located in Narmada valley, near Kevadia in the state of Gujarat, India.",
+   "== Features ==\n\nThe Statue of Unity is the world's tallest statue at 182 metres (597 ft)."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "br-amazon",
+  "country": "br",
+  "fact": "The Amazon is the largest river in the world by water discharge",
+  "wiki": "Amazon River",
+  "check": [
+   "largest river in the world by discharge"
+  ],
+  "image": "Amazon River",
+  "found": true,
+  "sentences": [
+   "The Amazon River in South America is the largest river in the world by discharge volume of water, and the second-longest or longest river system in the world, a title which is disputed with the Nile."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "sa-rivers",
+  "country": "sa",
+  "fact": "Saudi Arabia has no permanent rivers",
+  "wiki": "Geography of Saudi Arabia",
+  "check": [
+   "absence of permanent rivers"
+  ],
+  "image": "Rub' al Khali",
+  "found": true,
+  "sentences": [
+   "In the absence of permanent rivers or bodies of water, streams and groundwater, desalinated seawater and very scarce surface water must supply the country's needs."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "in-postoffice",
+  "country": "in",
+  "fact": "India has a floating post office on Dal Lake in Kashmir",
+  "wiki": "Dal Lake",
+  "check": [
+   "Floating Post Office"
+  ],
+  "image": "Dal Lake",
+  "found": true,
+  "sentences": [
+   "=== Floating Post Office ===\nThe floating post office cum Museum at Dal Lake was inaugurated in 2011 by Omar Abdullah, the then Chief Minister of the state of Jammu and Kashmir.",
+   "1, Budiyar Chowk, and the floating Post Office puts a postage stamp on it."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "pk-salt",
+  "country": "pk",
+  "fact": "Pakistan's Khewra Salt Mine is the second largest salt mine in the world",
+  "wiki": "Khewra Salt Mine",
+  "check": [
+   "second largest salt mine"
+  ],
+  "image": "Khewra Salt Mine",
+  "found": true,
+  "sentences": [
+   "The Khewra Salt Mine (Urdu: کھیوڑہ نمک کان), also known as Mayo Salt Mine, is the world's second largest salt mine, located in Khewra in the Jhelum District of Punjab, Pakistan."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "dk-flag",
+  "country": "dk",
+  "fact": "Denmark has the oldest national flag still in use, since 1625",
+  "wiki": "Flag of Denmark",
+  "check": [
+   "oldest continuously used national flag",
+   "1625"
+  ],
+  "image": {
+   "flag": "dk"
+  },
+  "found": true,
+  "sentences": [
+   "The flag holds the Guinness world record of being the oldest continuously used national flag, that is since 1625."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "kw-dinar",
+  "country": "kw",
+  "fact": "The Kuwaiti dinar is the highest-valued currency unit in the world",
+  "wiki": "Kuwaiti dinar",
+  "check": [
+   "highest-valued currency unit"
+  ],
+  "image": "Kuwait Towers",
+  "found": true,
+  "sentences": [
+   "It is the world's highest-valued currency unit."
+  ],
+  "missing_page": false
+ },
+ {
+  "id": "bt-gnh",
+  "country": "bt",
+  "fact": "Bhutan's government follows Gross National Happiness instead of only money",
+  "wiki": "Gross National Happiness",
+  "check": [
+   "government of Bhutan follows"
+  ],
+  "image": "Paro Taktsang",
+  "found": true,
+  "sentences": [
+   "Gross National Happiness, (GNH; Dzongkha: རྒྱལ་ཡོངས་དགའ་སྐྱིད་དཔལ་འཛོམས།) sometimes called Gross Domestic Happiness (GDH), is a philosophy that the government of Bhutan follows."
+  ],
+  "missing_page": false
+ },
+ {
   "id": "in-stadium",
   "country": "in",
   "fact": "India has the biggest cricket stadium on Earth: 132,000 seats",
@@ -19,34 +500,31 @@
  {
   "id": "in-milk",
   "country": "in",
-  "fact": "India produces more milk than any other country",
+  "fact": "India has the world's largest dairy herd: over 300 million animals",
   "wiki": "Dairy in India",
   "check": [
-   "largest",
-   "milk"
+   "largest dairy herd"
   ],
   "image": "Dairy in India",
   "found": true,
   "sentences": [
-   "India has the world's largest dairy herd with over 300 million bovines, producing over 190 million tonnes of milk.",
-   "India has been the world's largest milk producer since 1997, when it surpassed the United States."
+   "India has the world's largest dairy herd with over 300 million bovines, producing over 190 million tonnes of milk."
   ],
   "missing_page": false
  },
  {
   "id": "in-shani",
   "country": "in",
-  "fact": "In one Indian village, houses have no front doors",
+  "fact": "In one Indian village, no house has doors",
   "wiki": "Shani Shingnapur",
   "check": [
+   "no house",
    "doors"
   ],
   "image": "Shani Shingnapur",
   "found": true,
   "sentences": [
-   "== Details ==\nShingnapur is also famous for the fact that no house in the village has doors, only door frames.",
-   "To this day, there are no doors for any houses, shops, temples.",
-   "situated within one kilometer radius of this Lord Shani temple have doors or locks."
+   "== Details ==\nShingnapur is also famous for the fact that no house in the village has doors, only door frames."
   ],
   "missing_page": false
  },
@@ -70,11 +548,10 @@
  {
   "id": "in-umling",
   "country": "in",
-  "fact": "India has the highest motorable road in the world",
+  "fact": "Until 2025, India had the highest motorable road on Earth",
   "wiki": "Umling La",
   "check": [
-   "highest",
-   "motorable"
+   "highest motorable"
   ],
   "image": "Umling La",
   "found": true,
@@ -104,11 +581,10 @@
  {
   "id": "in-election",
   "country": "in",
-  "fact": "India holds the largest election on Earth",
+  "fact": "India's 2024 vote was the largest election ever held",
   "wiki": "2024 Indian general election",
   "check": [
-   "largest",
-   "election"
+   "largest-ever election"
   ],
   "image": "Electronic voting in India",
   "found": true,
@@ -152,17 +628,17 @@
  {
   "id": "pk-sialkot",
   "country": "pk",
-  "fact": "Most of the world's hand-stitched footballs come from Sialkot, Pakistan",
+  "fact": "Over 70% of the world's footballs are made in Sialkot, Pakistan",
   "wiki": "Sialkot",
   "check": [
+   "70%",
    "footballs"
   ],
   "image": "Sialkot",
   "found": true,
   "sentences": [
    "The city has been labeled as the Football manufacturing capital of the World, as it produces over 70% of all footballs manufactured in the world.",
-   "The city has been labeled as the Football manufacturing capital of the World, as it produces over 70% of all footballs manufactured in the world.",
-   "=== Industry ===\nSialkot is the world's largest producer of hand-sewn footballs, with local factories manufacturing 40–60 million footballs a year, amounting to roughly 60% of world production."
+   "The city has been labeled as the Football manufacturing capital of the World, as it produces over 70% of all footballs manufactured in the world."
   ],
   "missing_page": false
  },
@@ -185,17 +661,16 @@
  {
   "id": "pk-badshahi",
   "country": "pk",
-  "fact": "Lahore's Badshahi Mosque held the title of world's largest mosque",
+  "fact": "Lahore's Badshahi Mosque was the world's largest mosque for 300 years",
   "wiki": "Badshahi Mosque",
   "check": [
-   "largest"
+   "largest",
+   "three hundred"
   ],
   "image": "Badshahi Mosque",
   "found": true,
   "sentences": [
-   "It was the largest mosque built during the Mughal era, and remained the largest in the world for over three hundred years until the late 20th century.",
-   "It is currently the third largest mosque in Pakistan.",
-   "The mosque has three marble domes, the largest of which is located in the centre of the mosque, and which is flanked by two smaller domes."
+   "It was the largest mosque built during the Mughal era, and remained the largest in the world for over three hundred years until the late 20th century."
   ],
   "missing_page": false
  },
@@ -231,19 +706,6 @@
    "Borobudur is the largest Buddhist temple in the world, and ranks with Bagan in Myanmar and Angkor Wat in Cambodia as one of the great archeological sites of Southeast Asia.",
    "In June 2012, Borobudur was recorded in the Guinness Book of World Records as the world's largest Buddhist temple."
   ],
-  "missing_page": false
- },
- {
-  "id": "id-jakarta",
-  "country": "id",
-  "fact": "Jakarta is sinking so fast Indonesia is moving its capital",
-  "wiki": "Jakarta",
-  "check": [
-   "sinking"
-  ],
-  "image": "Jakarta",
-  "found": false,
-  "sentences": [],
   "missing_page": false
  },
  {
@@ -315,23 +777,6 @@
   "missing_page": false
  },
  {
-  "id": "ph-chocolate",
-  "country": "ph",
-  "fact": "The Philippines has over 1,200 hills shaped like chocolate drops",
-  "wiki": "Chocolate Hills",
-  "check": [
-   "Bohol"
-  ],
-  "image": "Chocolate Hills",
-  "found": true,
-  "sentences": [
-   "The Chocolate Hills (Cebuano: Mga Bungtod sa Tsokolate, Filipino: Mga Tsokolateng Burol, or Mga Burol na Tsokolate) are a geological formation in the Philippine province of Bohol.",
-   "One of Bohol's best-known tourist attractions, these unique hills are scattered by the hundreds throughout the towns of Carmen, Batuan, and Sagbayan.",
-   "== Protection ==\n\n\n=== Legislation ===\nThe National Committee on Geological Sciences declared the Chocolate Hills of Bohol a National Geological Monument on June 18, 1988, in recognition of its special characteristics, scientific importance, uniqueness, and high scenic value."
-  ],
-  "missing_page": false
- },
- {
   "id": "ph-islands",
   "country": "ph",
   "fact": "The Philippines is made of 7,641 islands",
@@ -368,17 +813,15 @@
  {
   "id": "br-snakeisland",
   "country": "br",
-  "fact": "Brazil has an island so full of snakes that visitors are banned",
+  "fact": "A deadly snake lives on one Brazilian island and nowhere else on Earth",
   "wiki": "Ilha da Queimada Grande",
   "check": [
-   "golden lancehead"
+   "only natural home"
   ],
   "image": "Ilha da Queimada Grande",
   "found": true,
   "sentences": [
-   "Snake Island is the only natural home of the critically endangered, venomous golden lancehead pit viper (Bothrops insularis), whose diet consists of birds.",
-   "The first systematic study of the population of the golden lancehead (Bothrops insularis), which lives exclusively on Queimada Grande, found the number to be 2,000 to 4,000, concentrated almost entirely in the rainforest area of the island.",
-   "Despite a population of 41 recorded bird species on Queimada Grande, the golden lancehead preys on only two: the southern house wren (Troglodytes musculus) and the Chilean elaenia (Elaenia chilensis)."
+   "Snake Island is the only natural home of the critically endangered, venomous golden lancehead pit viper (Bothrops insularis), whose diet consists of birds."
   ],
   "missing_page": false
  },
@@ -396,23 +839,6 @@
   "sentences": [
    "With a population of more than 242 million, it is the most populous country in Africa, and the world's sixth-most populous country.",
    "Nigeria is the most populous country in Africa and accounts for about 17% of the continent's total population as of 2017; however, exactly how populous is a subject of speculation."
-  ],
-  "missing_page": false
- },
- {
-  "id": "pk-khunjerab2",
-  "country": "pk",
-  "fact": "Pakistan and China meet at one of the highest border crossings on Earth",
-  "wiki": "Khunjerab Pass",
-  "check": [
-   "border"
-  ],
-  "image": "Khunjerab Pass",
-  "found": true,
-  "sentences": [
-   "Khunjerab Pass (Chinese: 红其拉甫口岸; Urdu: درہ خنجراب ; Uyghur: قونجىراپ ئېغىزى) is a mountain pass on the Karakoram Highway in Pakistani-administered Gilgit-Baltistan bordering Xinjiang Autonomous Region of China.",
-   "It holds a significant strategic position on the northern border of Pakistan, specifically in the Gilgit-Baltistan's Hunza and Nagar districts.",
-   "Additionally, it is positioned on the southwestern border of China with Pakistan, in the Xinjiang region."
   ],
   "missing_page": false
  }
