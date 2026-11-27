@@ -1,0 +1,374 @@
+{
+ "id": "ep048",
+ "title": "Indonesia \ud83c\uddee\ud83c\udde9: only 6 countries have a bigger economy (PPP)",
+ "topic": "Bigger economy than Indonesia?",
+ "headline": "Bigger than *Indonesia*?",
+ "description": "Adjusted for prices, Indonesia's economy is $5.0 trillion. Only China, the USA, India, Russia, Japan and Germany are bigger. The UK, France and Brazil are not. Real World Bank data (2025, PPP). Comment your flag.",
+ "tags": [
+  "indonesia economy",
+  "indonesia",
+  "indonesia vs world",
+  "biggest economies",
+  "indonesia gdp ppp",
+  "indonesia vs uk",
+  "largest economies in the world",
+  "world map",
+  "country comparison"
+ ],
+ "source": "World Bank, GDP adjusted for prices (PPP, 2025), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "indonesia",
+  "economy",
+  "geography",
+  "countrycomparison"
+ ],
+ "format": "worldsplit",
+ "slot": "17:30",
+ "hook_type": "number",
+ "music": 2,
+ "cover": {
+  "flags": [
+   "id"
+  ],
+  "badge": "PART 2"
+ },
+ "localizations": {
+  "id": {
+   "title": "Indonesia \ud83c\uddee\ud83c\udde9: hanya 6 negara yang ekonominya lebih besar (PPP)",
+   "description": "Disesuaikan dengan harga, ekonomi Indonesia 5 triliun dolar. Hanya Tiongkok, Amerika, India, Rusia, Jepang dan Jerman yang lebih besar. Data Bank Dunia 2025. Komentar benderamu."
+  }
+ },
+ "segments": [
+  {
+   "scene": "worldsplit",
+   "text": "Only six countries have a bigger economy than Indonesia. Adjusted for prices. Not the UK. Not France.",
+   "props": {
+    "title": "Bigger economy than Indonesia?",
+    "ref": {
+     "flag": "id",
+     "label": "Indonesia"
+    },
+    "legend": {
+     "above": "Bigger economy",
+     "below": "Smaller economy"
+    },
+    "above": [
+     "cn",
+     "de",
+     "in",
+     "jp",
+     "ru",
+     "us"
+    ],
+    "below": [
+     "ad",
+     "ag",
+     "al",
+     "am",
+     "ao",
+     "ar",
+     "at",
+     "au",
+     "az",
+     "ba",
+     "bb",
+     "bd",
+     "be",
+     "bf",
+     "bg",
+     "bh",
+     "bi",
+     "bj",
+     "bn",
+     "bo",
+     "br",
+     "bt",
+     "bw",
+     "by",
+     "bz",
+     "ca",
+     "cd",
+     "cf",
+     "cg",
+     "ch",
+     "ci",
+     "cl",
+     "cm",
+     "co",
+     "cr",
+     "cv",
+     "cy",
+     "cz",
+     "dj",
+     "dk",
+     "dm",
+     "do",
+     "dz",
+     "ec",
+     "ee",
+     "eg",
+     "es",
+     "et",
+     "fi",
+     "fj",
+     "fm",
+     "fr",
+     "ga",
+     "gb",
+     "gd",
+     "ge",
+     "gh",
+     "gm",
+     "gn",
+     "gq",
+     "gr",
+     "gt",
+     "gw",
+     "gy",
+     "hk",
+     "hn",
+     "hr",
+     "ht",
+     "hu",
+     "ie",
+     "il",
+     "iq",
+     "ir",
+     "is",
+     "it",
+     "jm",
+     "jo",
+     "ke",
+     "kg",
+     "kh",
+     "ki",
+     "km",
+     "kn",
+     "kr",
+     "kw",
+     "kz",
+     "la",
+     "lc",
+     "lk",
+     "lr",
+     "ls",
+     "lt",
+     "lu",
+     "lv",
+     "ly",
+     "ma",
+     "md",
+     "me",
+     "mg",
+     "mh",
+     "mk",
+     "ml",
+     "mm",
+     "mn",
+     "mo",
+     "mr",
+     "mt",
+     "mu",
+     "mv",
+     "mw",
+     "mx",
+     "my",
+     "mz",
+     "na",
+     "ne",
+     "ng",
+     "ni",
+     "nl",
+     "no",
+     "np",
+     "nr",
+     "nz",
+     "om",
+     "pa",
+     "pe",
+     "pg",
+     "ph",
+     "pk",
+     "pl",
+     "pr",
+     "ps",
+     "pt",
+     "pw",
+     "py",
+     "qa",
+     "ro",
+     "rs",
+     "rw",
+     "sa",
+     "sb",
+     "sc",
+     "sd",
+     "se",
+     "sg",
+     "si",
+     "sk",
+     "sl",
+     "sn",
+     "so",
+     "sr",
+     "st",
+     "sv",
+     "sx",
+     "sz",
+     "td",
+     "tg",
+     "th",
+     "tj",
+     "tl",
+     "tm",
+     "tn",
+     "to",
+     "tr",
+     "tt",
+     "tv",
+     "tz",
+     "ua",
+     "ug",
+     "uy",
+     "uz",
+     "vc",
+     "vn",
+     "vu",
+     "ws",
+     "za",
+     "zm",
+     "zw"
+    ],
+    "at": "six"
+   },
+   "start": 0.05,
+   "end": 5.614,
+   "words": [
+    {
+     "word": "Only",
+     "start": 0.0,
+     "end": 0.2
+    },
+    {
+     "word": "six",
+     "start": 0.2,
+     "end": 0.4
+    },
+    {
+     "word": "countries",
+     "start": 0.4,
+     "end": 0.74
+    },
+    {
+     "word": "have",
+     "start": 0.74,
+     "end": 1.02
+    },
+    {
+     "word": "a",
+     "start": 1.02,
+     "end": 1.08
+    },
+    {
+     "word": "bigger",
+     "start": 1.08,
+     "end": 1.22
+    },
+    {
+     "word": "economy",
+     "start": 1.22,
+     "end": 1.64
+    },
+    {
+     "word": "than",
+     "start": 1.64,
+     "end": 1.88
+    },
+    {
+     "word": "Indonesia.",
+     "start": 1.88,
+     "end": 2.26
+    },
+    {
+     "word": "Adjusted",
+     "start": 2.58,
+     "end": 2.86
+    },
+    {
+     "word": "for",
+     "start": 2.86,
+     "end": 3.16
+    },
+    {
+     "word": "prices.",
+     "start": 3.16,
+     "end": 3.36
+    },
+    {
+     "word": "Not",
+     "start": 3.94,
+     "end": 4.02
+    },
+    {
+     "word": "the",
+     "start": 4.02,
+     "end": 4.18
+    },
+    {
+     "word": "UK.",
+     "start": 4.18,
+     "end": 4.36
+    },
+    {
+     "word": "Not",
+     "start": 4.8,
+     "end": 4.9
+    },
+    {
+     "word": "France.",
+     "start": 4.9,
+     "end": 5.22
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Can you name all six?",
+   "props": {},
+   "start": 5.674,
+   "end": 7.091,
+   "words": [
+    {
+     "word": "Can",
+     "start": 5.74,
+     "end": 5.76
+    },
+    {
+     "word": "you",
+     "start": 5.76,
+     "end": 5.88
+    },
+    {
+     "word": "name",
+     "start": 5.88,
+     "end": 6.08
+    },
+    {
+     "word": "all",
+     "start": 6.08,
+     "end": 6.34
+    },
+    {
+     "word": "six?",
+     "start": 6.34,
+     "end": 6.66
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 233,
+ "fps": 30,
+ "aligned": true,
+ "credits": []
+}
