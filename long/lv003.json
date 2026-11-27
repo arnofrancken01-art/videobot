@@ -1,0 +1,1071 @@
+{
+ "id": "lv003",
+ "long": true,
+ "title": "Indonesia 🇮🇩 vs Southeast Asia: 19 rounds, real data. Who wins?",
+ "headline": "Indonesia vs its *rivals*",
+ "topic": "Indonesia vs Southeast Asia",
+ "cover": {
+  "flags": [
+   "id",
+   "vn"
+  ],
+  "vs": true,
+  "badge": "19 ROUNDS"
+ },
+ "description": "Indonesia against Malaysia, the Philippines, Vietnam and Thailand in 19 rounds: people, money, exports, the rupiah and a quiz on what your $100 is worth. Every number is real World Bank data. Which country should Indonesia face next? Comment your flag.",
+ "tags": [
+  "indonesia vs malaysia",
+  "indonesia vs vietnam",
+  "indonesia vs thailand",
+  "indonesia vs philippines",
+  "indonesia economy",
+  "southeast asia comparison",
+  "asean countries",
+  "indonesian rupiah",
+  "country comparison",
+  "indonesia 2025"
+ ],
+ "hashtags": [
+  "indonesia",
+  "malaysia",
+  "vietnam",
+  "countrycomparison"
+ ],
+ "source": "World Bank, World Development Indicators (latest year with data for both countries per round, 2019-2025), data.worldbank.org",
+ "voice": "af_heart",
+ "format": "battle",
+ "music": 3,
+ "localizations": {
+  "id": {
+   "title": "Indonesia 🇮🇩 vs Asia Tenggara: 19 ronde, data asli. Siapa menang?",
+   "description": "Indonesia melawan Malaysia, Filipina, Vietnam dan Thailand dalam 19 ronde. Data asli Bank Dunia. Komentar benderamu."
+  },
+  "ms": {
+   "title": "Indonesia 🇮🇩 vs Asia Tenggara: 19 pusingan, data sebenar. Siapa menang?",
+   "description": "Indonesia lawan Malaysia, Filipina, Vietnam dan Thailand dalam 19 pusingan. Data sebenar Bank Dunia. Komen bendera anda."
+  },
+  "vi": {
+   "title": "Indonesia 🇮🇩 vs Đông Nam Á: 19 vòng, số liệu thật. Ai thắng?",
+   "description": "Indonesia đấu Malaysia, Philippines, Việt Nam và Thái Lan qua 19 vòng. Số liệu thật của Ngân hàng Thế giới. Hãy bình luận lá cờ của bạn."
+  },
+  "fil": {
+   "title": "Indonesia 🇮🇩 vs Southeast Asia: 19 rounds, totoong datos. Sino panalo?",
+   "description": "Indonesia laban sa Malaysia, Pilipinas, Vietnam at Thailand sa 19 rounds. Totoong datos ng World Bank. I-comment ang iyong bandila."
+  }
+ },
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "Indonesia against four neighbours. Nineteen rounds. Real data. Keep score.",
+   "props": {
+    "kicker": "Indonesia vs Southeast Asia",
+    "big": 19,
+    "format": {
+     "suffix": " rounds"
+    },
+    "sub": "Real World Bank data",
+    "flag": "id"
+   }
+  },
+  {
+   "scene": "hook",
+   "text": "One neighbour beats Indonesia by just six dollars. And the last chapter decides everything.",
+   "props": {
+    "kicker": "Income per person, 2025",
+    "big": 6,
+    "format": {
+     "prefix": "$"
+    },
+    "sub": "The gap with one neighbour",
+    "flag": "vn"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "First up. Malaysia. Right next door.",
+   "props": {
+    "a": {
+     "label": "Indonesia",
+     "flag": "id"
+    },
+    "b": {
+     "label": "Malaysia",
+     "flag": "my"
+    },
+    "chapter": "Indonesia vs *Malaysia*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population. Indonesia has almost eight times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 286,
+     "b": 36,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "Indonesia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. Indonesia is three times bigger.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 1.45,
+     "b": 0.47,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "Indonesia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Income per person. Malaysia is more than two and a half times richer.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 5060,
+     "b": 13125,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Malaysia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Exports. Eight times fewer people. And Malaysia still sells more. By less than five billion dollars.",
+   "props": {
+    "stat": {
+     "label": "Exports (2025)",
+     "a": 330,
+     "b": 335,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "Malaysia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Two all. Malaysia holds Indonesia to a draw.",
+   "props": {}
+  },
+  {
+   "scene": "race",
+   "text": "No points here. Just watch the six biggest economies of Southeast Asia since 1990.",
+   "props": {
+    "title": "Biggest economies in Southeast Asia",
+    "format": {
+     "prefix": "$",
+     "suffix": "B"
+    },
+    "years": [
+     1990,
+     1991,
+     1992,
+     1993,
+     1994,
+     1995,
+     1996,
+     1997,
+     1998,
+     1999,
+     2000,
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "focus": "Indonesia",
+    "show": 6,
+    "to": 1990,
+    "items": [
+     {
+      "label": "Indonesia",
+      "flag": "id",
+      "values": [
+       106,
+       117,
+       128,
+       158,
+       177,
+       202,
+       227,
+       216,
+       95,
+       140,
+       165,
+       160,
+       196,
+       235,
+       257,
+       286,
+       365,
+       432,
+       510,
+       540,
+       755,
+       893,
+       918,
+       913,
+       891,
+       861,
+       932,
+       1016,
+       1042,
+       1119,
+       1059,
+       1187,
+       1319,
+       1371,
+       1396,
+       1446
+      ]
+     },
+     {
+      "label": "Thailand",
+      "flag": "th",
+      "values": [
+       85,
+       98,
+       111,
+       129,
+       147,
+       169,
+       183,
+       150,
+       114,
+       127,
+       126,
+       120,
+       134,
+       152,
+       173,
+       189,
+       222,
+       263,
+       291,
+       282,
+       341,
+       371,
+       398,
+       420,
+       407,
+       401,
+       413,
+       456,
+       507,
+       544,
+       500,
+       506,
+       496,
+       517,
+       529,
+       577
+      ]
+     },
+     {
+      "label": "Singapore",
+      "flag": "sg",
+      "values": [
+       36,
+       45,
+       52,
+       61,
+       74,
+       88,
+       96,
+       100,
+       86,
+       86,
+       96,
+       90,
+       93,
+       98,
+       115,
+       128,
+       149,
+       181,
+       194,
+       194,
+       240,
+       279,
+       295,
+       308,
+       315,
+       308,
+       321,
+       345,
+       378,
+       377,
+       351,
+       441,
+       514,
+       511,
+       573,
+       604
+      ]
+     },
+     {
+      "label": "Vietnam",
+      "flag": "vn",
+      "values": [
+       6,
+       10,
+       10,
+       13,
+       16,
+       21,
+       25,
+       27,
+       27,
+       29,
+       31,
+       33,
+       35,
+       40,
+       45,
+       58,
+       66,
+       77,
+       99,
+       106,
+       147,
+       173,
+       196,
+       214,
+       233,
+       239,
+       257,
+       281,
+       310,
+       334,
+       347,
+       366,
+       413,
+       434,
+       476,
+       515
+      ]
+     },
+     {
+      "label": "Philippines",
+      "flag": "ph",
+      "values": [
+       51,
+       52,
+       60,
+       62,
+       73,
+       85,
+       95,
+       94,
+       74,
+       86,
+       84,
+       79,
+       84,
+       87,
+       95,
+       107,
+       128,
+       156,
+       182,
+       176,
+       208,
+       234,
+       262,
+       284,
+       297,
+       306,
+       319,
+       328,
+       347,
+       377,
+       362,
+       394,
+       404,
+       437,
+       462,
+       487
+      ]
+     },
+     {
+      "label": "Malaysia",
+      "flag": "my",
+      "values": [
+       44,
+       49,
+       59,
+       67,
+       74,
+       89,
+       101,
+       100,
+       72,
+       79,
+       94,
+       93,
+       101,
+       110,
+       125,
+       144,
+       163,
+       194,
+       231,
+       202,
+       255,
+       298,
+       314,
+       323,
+       338,
+       301,
+       301,
+       319,
+       359,
+       365,
+       337,
+       374,
+       408,
+       400,
+       422,
+       472
+      ]
+     }
+    ],
+    "chapter": "The *economy* race"
+   }
+  },
+  {
+   "scene": "race",
+   "text": "In 1990, Indonesia is already number one. Thailand is close behind.",
+   "props": {
+    "to": 1997
+   }
+  },
+  {
+   "scene": "race",
+   "text": "Then the Asian financial crisis hits. In 1998, Thailand takes the lead. For one year.",
+   "props": {
+    "to": 1999
+   }
+  },
+  {
+   "scene": "race",
+   "text": "Indonesia comes back. By 2010, it is more than twice the size of Thailand.",
+   "props": {
+    "to": 2010
+   }
+  },
+  {
+   "scene": "race",
+   "text": "Now watch Vietnam. In 1990, it was the smallest. In 2022, it passes Malaysia.",
+   "props": {
+    "to": 2022
+   }
+  },
+  {
+   "scene": "race",
+   "text": "Today, Indonesia is bigger than Singapore and Thailand combined.",
+   "props": {
+    "to": 2025
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Next up. The Philippines. Five rounds. The score is two all.",
+   "props": {
+    "a": {
+     "label": "Indonesia",
+     "flag": "id"
+    },
+    "b": {
+     "label": "Philippines",
+     "flag": "ph"
+    },
+    "chapter": "Indonesia vs the *Philippines*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population. Indonesia has almost two and a half times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 286,
+     "b": 117,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "Indonesia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Income per person. Indonesia wins. By almost nine hundred dollars.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 5060,
+     "b": 4171,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Indonesia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Electricity per person. Indonesia uses about sixty percent more.",
+   "props": {
+    "stat": {
+     "label": "Electricity per person (2024)",
+     "a": 1611,
+     "b": 988,
+     "format": {
+      "suffix": " kWh"
+     }
+    },
+    "at": "Indonesia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Money sent home by workers abroad. The Philippines gets more than twice as much.",
+   "props": {
+    "stat": {
+     "label": "Money sent home (2025)",
+     "a": 17.6,
+     "b": 41.6,
+     "format": {
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1
+     }
+    },
+    "at": "Philippines"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Young people without a job. The Philippines wins. Seven percent. Indonesia has thirteen.",
+   "props": {
+    "stat": {
+     "label": "Youth unemployment (2025)",
+     "a": 13.0,
+     "b": 7.0,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     },
+     "pick": "lower"
+    },
+    "at": "Philippines"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Three to two for Indonesia. Overall, five to four.",
+   "props": {}
+  },
+  {
+   "scene": "bubbles",
+   "text": "Two hundred eighty-six million people. This is Indonesia.",
+   "props": {
+    "title": "Population, 2025",
+    "format": {
+     "suffix": "M",
+     "decimals": 1
+    },
+    "item": {
+     "label": "Indonesia",
+     "flag": "id",
+     "value": 285.7
+    },
+    "at": "This",
+    "chapter": "Bigger than *three* neighbours"
+   }
+  },
+  {
+   "scene": "bubbles",
+   "text": "Vietnam. One hundred and two million.",
+   "props": {
+    "item": {
+     "label": "Vietnam",
+     "flag": "vn",
+     "value": 101.6
+    },
+    "at": "Vietnam"
+   }
+  },
+  {
+   "scene": "bubbles",
+   "text": "Thailand. Seventy-two million.",
+   "props": {
+    "item": {
+     "label": "Thailand",
+     "flag": "th",
+     "value": 71.6
+    },
+    "at": "Thailand"
+   }
+  },
+  {
+   "scene": "bubbles",
+   "text": "Malaysia. Thirty-six million.",
+   "props": {
+    "item": {
+     "label": "Malaysia",
+     "flag": "my",
+     "value": 36.0
+    },
+    "at": "Malaysia"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "Put all three together. Indonesia still has more than seventy-six million more people.",
+   "props": {
+    "value": 76.5,
+    "format": {
+     "prefix": "+",
+     "suffix": "M",
+     "decimals": 1
+    },
+    "caption": "more people in Indonesia than all three combined",
+    "at": "seventy",
+    "compare": {
+     "format": {
+      "suffix": "M",
+      "decimals": 1
+     },
+     "items": [
+      {
+       "label": "Vietnam, Thailand, Malaysia",
+       "value": 209.2
+      },
+      {
+       "label": "Indonesia",
+       "value": 285.7
+      }
+     ]
+    }
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Your turn now. No points for the countries. These are for you. Where does one hundred American dollars go further?",
+   "props": {
+    "question": "What $100 feels like (2025)",
+    "format": {
+     "prefix": "$"
+    },
+    "options": [
+     {
+      "label": "Indonesia",
+      "flag": "id",
+      "value": 349
+     },
+     {
+      "label": "Thailand",
+      "flag": "th",
+      "value": 326
+     }
+    ],
+    "pause": 2.0,
+    "chapter": "Quiz: *your* money there"
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Indonesia. There, your hundred dollars feels like three hundred forty-nine. In Thailand, three hundred twenty-six.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Vietnam or the Philippines?",
+   "props": {
+    "question": "What $100 feels like (2025)",
+    "format": {
+     "prefix": "$"
+    },
+    "options": [
+     {
+      "label": "Vietnam",
+      "flag": "vn",
+      "value": 357
+     },
+     {
+      "label": "Philippines",
+      "flag": "ph",
+      "value": 302
+     }
+    ],
+    "pause": 2.0
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Vietnam. Three hundred fifty-seven dollars. The Philippines, three hundred two.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Last one. Indonesia or Vietnam?",
+   "props": {
+    "question": "What $100 feels like (2025)",
+    "format": {
+     "prefix": "$"
+    },
+    "options": [
+     {
+      "label": "Indonesia",
+      "flag": "id",
+      "value": 349
+     },
+     {
+      "label": "Vietnam",
+      "flag": "vn",
+      "value": 357
+     }
+    ],
+    "pause": 2.2
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "Vietnam. By just eight dollars. Remember that country. It comes next.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "quiz",
+   "text": "How many did you get? Back to the battle. Indonesia leads five to four.",
+   "props": {}
+  },
+  {
+   "scene": "battle",
+   "text": "Vietnam. The fastest grower of all six. Five rounds.",
+   "props": {
+    "a": {
+     "label": "Indonesia",
+     "flag": "id"
+    },
+    "b": {
+     "label": "Vietnam",
+     "flag": "vn"
+    },
+    "chapter": "Indonesia vs *Vietnam*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population. Indonesia has almost three times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 286,
+     "b": 102,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "Indonesia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. Indonesia is almost three times bigger.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 1.45,
+     "b": 0.51,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "Indonesia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Economic growth. Vietnam grows eight percent a year. Indonesia, five.",
+   "props": {
+    "stat": {
+     "label": "Economic growth (2025)",
+     "a": 5.1,
+     "b": 8.0,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "Vietnam"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Exports. Vietnam sells about fifty percent more to the world.",
+   "props": {
+    "stat": {
+     "label": "Exports (2025)",
+     "a": 330,
+     "b": 506,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "Vietnam"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "And income per person. This is the one. Vietnam wins. By six dollars.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 5060,
+     "b": 5066,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Vietnam"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Three to two for Vietnam. Overall, seven all.",
+   "props": {}
+  },
+  {
+   "scene": "thennow",
+   "text": "Now the money itself. In 1990, one dollar bought about eighteen hundred rupiah. Guess what it buys now.",
+   "props": {
+    "label": "$1 in Indonesian rupiah",
+    "flag": "id",
+    "then": {
+     "year": 1990,
+     "value": 1843
+    },
+    "now": {
+     "year": 2025,
+     "value": 16478
+    },
+    "format": {
+     "decimals": 0
+    },
+    "good": false,
+    "chapter": "The *rupiah* story"
+   }
+  },
+  {
+   "scene": "thennow",
+   "text": "Sixteen thousand five hundred. Almost nine times more. In 1998 alone, the dollar got more than three times more expensive.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "thennow",
+   "text": "Malaysia's ringgit. In 1990, one dollar bought two point seven.",
+   "props": {
+    "label": "$1 in Malaysian ringgit",
+    "flag": "my",
+    "then": {
+     "year": 1990,
+     "value": 2.7
+    },
+    "now": {
+     "year": 2025,
+     "value": 4.3
+    },
+    "format": {
+     "decimals": 1
+    },
+    "good": false
+   }
+  },
+  {
+   "scene": "thennow",
+   "text": "Today, four point three. No points. But the ringgit held on much better.",
+   "props": {
+    "reveal": true
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Final chapter. Thailand. Seven all. Five rounds decide everything.",
+   "props": {
+    "a": {
+     "label": "Indonesia",
+     "flag": "id"
+    },
+    "b": {
+     "label": "Thailand",
+     "flag": "th"
+    },
+    "chapter": "The decider: *Thailand*"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Population. Indonesia has four times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 286,
+     "b": 72,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "Indonesia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Tourists before the pandemic. Thailand gets almost two and a half times more.",
+   "props": {
+    "stat": {
+     "label": "Tourists per year (2019)",
+     "a": 16.1,
+     "b": 39.9,
+     "format": {
+      "suffix": "M",
+      "decimals": 1
+     }
+    },
+    "at": "Thailand"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Income per person. Thailand is almost sixty percent richer.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 5060,
+     "b": 8057,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Thailand"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Two all. Size of the economy. Indonesia is two and a half times bigger.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 1.45,
+     "b": 0.58,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "Indonesia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Last round. Economic growth. Indonesia grows more than twice as fast.",
+   "props": {
+    "stat": {
+     "label": "Economic growth (2025)",
+     "a": 5.1,
+     "b": 2.4,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "Indonesia"
+   }
+  },
+  {
+   "scene": "battle",
+   "text": "Three to two. Indonesia takes the decider.",
+   "props": {}
+  },
+  {
+   "scene": "bignumber",
+   "text": "Final score. Indonesia ten. The neighbours nine.",
+   "props": {
+    "value": 10,
+    "format": {
+     "suffix": " – 9"
+    },
+    "caption": "Indonesia vs Southeast Asia, 19 rounds",
+    "at": "ten",
+    "chapter": "The *final* score"
+   }
+  },
+  {
+   "scene": "bignumber",
+   "text": "Malaysia and Thailand are richer per person. Vietnam is catching up fast. But nobody beats Indonesia's size.",
+   "props": {
+    "value": 286,
+    "format": {
+     "suffix": "M"
+    },
+    "caption": "people in Indonesia, 2025",
+    "at": "size"
+   }
+  },
+  {
+   "scene": "outro",
+   "text": "Which country should Indonesia face next?",
+   "props": {}
+  }
+ ]
+}
