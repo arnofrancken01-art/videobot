@@ -1,19 +1,51 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-26T17:42:33Z",
+ "fetched_at": "2026-11-27T14:42:58Z",
  "videos": [
+  {
+   "video_id": "TZAcx7hUFWg",
+   "title": "India 🇮🇳: where is your $100 worth more? 3 rounds #shorts",
+   "views": 153,
+   "question_posted": false,
+   "question": "India or Egypt?",
+   "comments": []
+  },
+  {
+   "video_id": "eSRrJP5RLdo",
+   "title": "Pakistan 🇵🇰 facts that sound fake but are true #shorts",
+   "views": 139,
+   "question_posted": false,
+   "question": "Which one did you know?",
+   "comments": [
+    {
+     "id": "UgyyMHO3qVNTS84aMOJ4AaABAg",
+     "author": "@itsHassanaligaming",
+     "text": "Indian are coming hide this",
+     "answered": false,
+     "replies": []
+    }
+   ]
+  },
   {
    "video_id": "NtR0LYuoiD8",
    "title": "Pakistan 🇵🇰: only 5 countries have a bigger army #shorts",
-   "views": 13,
-   "question_posted": false,
+   "views": 363,
+   "question_posted": true,
    "question": "Can you name all five?",
-   "comments": []
+   "comments": [
+    {
+     "id": "UgzUB6Y1hfOIYkiqWWB4AaABAg",
+     "author": "@Moeez_X",
+     "text": "india, usa, china, russia and brzil/japan\nbut india is so overrated",
+     "answered": false,
+     "replies": []
+    }
+   ]
   },
   {
    "video_id": "kNmHNPKGjJ0",
    "title": "India 🇮🇳 vs Germany 🇩🇪: who wins? 3 rounds, real data #shorts",
-   "views": 170,
+   "views": 490,
    "question_posted": true,
    "question": "India or Germany?",
    "comments": []
@@ -21,7 +53,7 @@
   {
    "video_id": "Uv6wqaPraaY",
    "title": "Money facts that sound fake but are true 🇦🇪🇰🇼🇳🇴🇺🇸 #shorts",
-   "views": 126,
+   "views": 299,
    "question_posted": true,
    "question": "Which one did you know?",
    "comments": [
@@ -42,7 +74,7 @@
   {
    "video_id": "oZPjVo70ip8",
    "title": "Pakistan 🇵🇰 is bigger than 5 European countries combined #shorts",
-   "views": 1020,
+   "views": 1143,
    "question_posted": true,
    "question": "Which country would you add?",
    "comments": [
@@ -75,7 +107,7 @@
   {
    "video_id": "0hTy91mL6UQ",
    "title": "India 🇮🇳 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data #shorts",
-   "views": 644,
+   "views": 928,
    "question_posted": true,
    "question": "India or Bangladesh?",
    "comments": [
@@ -120,7 +152,7 @@
   {
    "video_id": "1Wz1wjuK3uI",
    "title": "Indonesia 🇮🇩: only 3 countries have more people #shorts",
-   "views": 1427,
+   "views": 1499,
    "question_posted": true,
    "question": "Can you name all three?",
    "comments": [
@@ -157,25 +189,9 @@
   {
    "video_id": "rA9S46BMot4",
    "title": "Pakistan 🇵🇰: what is your $100 really worth there? #shorts",
-   "views": 981,
+   "views": 989,
    "question_posted": true,
    "question": "Where should your hundred dollars go?",
-   "comments": []
-  },
-  {
-   "video_id": "ULt9F3VVjWc",
-   "title": "India 🇮🇳 has more soldiers than USA, Russia and UK combined #shorts",
-   "views": 720,
-   "question_posted": true,
-   "question": "India or all three?",
-   "comments": []
-  },
-  {
-   "video_id": "0vGmNtN_3zE",
-   "title": "Brazil 🇧🇷 is bigger than these 7 European countries combined #shorts",
-   "views": 887,
-   "question_posted": true,
-   "question": "How many more would fit?",
    "comments": []
   }
  ]
