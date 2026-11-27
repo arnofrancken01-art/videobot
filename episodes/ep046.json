@@ -1,0 +1,29 @@
+{
+ "id": "ep046",
+ "title": "Pakistan 🇵🇰 facts that sound fake but are true",
+ "topic": "Pakistan: sounds fake, but true",
+ "headline": "*Pakistan* sounds fake",
+ "description": "Four Pakistan facts that sound made up but are real, each checked on Wikipedia. Which one did you know? Comment the number.",
+ "tags": ["pakistan", "pakistan facts", "sialkot footballs", "k2 mountain", "khewra salt mine", "badshahi mosque", "sounds fake but true", "fun facts"],
+ "source": "Wikipedia: Sialkot, K2, Khewra Salt Mine, Badshahi Mosque. Photos: Wikimedia Commons",
+ "voice": "af_heart",
+ "hashtags": ["pakistan", "facts", "soundsfakebuttrue", "didyouknow"],
+ "format": "facts",
+ "slot": "07:30",
+ "hook_type": "claim",
+ "music": 5,
+ "cover": {"badge": "ALL TRUE"},
+ "localizations": {
+  "ur": {
+   "title": "پاکستان 🇵🇰 کے حقائق جو جھوٹ لگتے ہیں مگر سچ ہیں",
+   "description": "پاکستان کے چار حقائق جو بناوٹی لگتے ہیں مگر سچ ہیں۔ آپ کو کون سا معلوم تھا؟ نمبر کمنٹ کریں۔"
+  }
+ },
+ "segments": [
+  {"scene": "photo", "text": "Most of the world's footballs come from one city in Pakistan.", "props": {"image": {"wiki": "Ball (association football)"}, "kicker": "Sialkot, Pakistan", "flag": "pk", "big": "*70%* of all footballs", "num": 1, "at": "footballs", "source": {"wiki": "Sialkot", "check": ["70%", "footballs"]}}},
+  {"scene": "photo", "text": "The second highest mountain on Earth is in Pakistan.", "props": {"image": {"wiki": "K2"}, "kicker": "K2, Pakistan", "flag": "pk", "big": "*8,611* metres high", "num": 2, "at": "second", "source": {"wiki": "K2", "check": ["second-highest mountain", "8,611"]}}},
+  {"scene": "photo", "text": "It has the second largest salt mine in the world.", "props": {"image": {"wiki": "Khewra Salt Mine"}, "kicker": "Khewra, Pakistan", "flag": "pk", "big": "A mountain of *SALT*", "num": 3, "at": "salt", "source": {"wiki": "Khewra Salt Mine", "check": ["second largest salt mine"]}}},
+  {"scene": "photo", "text": "And a mosque in Lahore was the world's largest for three hundred years.", "props": {"image": {"wiki": "Badshahi Mosque"}, "kicker": "Lahore, Pakistan", "flag": "pk", "big": "No. 1 for *300 YEARS*", "num": 4, "at": "largest", "source": {"wiki": "Badshahi Mosque", "check": ["largest", "three hundred"]}}},
+  {"scene": "outro", "text": "Which one did you know?", "props": {}}
+ ]
+}

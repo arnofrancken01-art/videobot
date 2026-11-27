@@ -1,0 +1,31 @@
+{
+ "id": "ep047",
+ "title": "India 🇮🇳: where is your $100 worth more? 3 rounds",
+ "topic": "Your $100 in India",
+ "headline": "Your $100 in *India*?",
+ "description": "Bring $100 to India and it buys what $435 buys in America. Is that more than in China, Pakistan or Egypt? Real World Bank data (2025, price-adjusted). India or Egypt? Comment your flag.",
+ "tags": ["india", "100 dollars in india", "india vs pakistan", "india vs china", "india vs egypt", "cost of living india", "purchasing power", "country comparison", "quiz"],
+ "source": "World Bank: GDP per person in US dollars and adjusted for prices (PPP), 2025, data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "money", "indiavspakistan", "countrycomparison"],
+ "format": "quiz",
+ "slot": "14:30",
+ "hook_type": "you",
+ "music": 4,
+ "cover": {"flags": ["in", "cn"], "vs": true, "badge": "3 ROUNDS"},
+ "localizations": {
+  "hi": {
+   "title": "भारत 🇮🇳: आपके $100 कहाँ ज़्यादा चलते हैं? 3 राउंड",
+   "description": "भारत में $100 उतना खरीदते हैं जितना अमेरिका में $435। चीन, पाकिस्तान या मिस्र से ज़्यादा? असली आंकड़े। अपना झंडा कमेंट करें।"
+  }
+ },
+ "segments": [
+  {"scene": "quiz", "text": "Your hundred dollars in India. Is it worth more than in China?", "props": {"question": "Where does $100 buy more?", "format": {"prefix": "$"}, "options": [{"label": "India", "flag": "in", "value": 435}, {"label": "China", "flag": "cn", "value": 212}], "pause": 1.6}},
+  {"scene": "quiz", "text": "India. It buys what four hundred thirty-five dollars buys in America.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Round two. India or Pakistan?", "props": {"question": "Where does $100 buy more?", "format": {"prefix": "$"}, "options": [{"label": "India", "flag": "in", "value": 435}, {"label": "Pakistan", "flag": "pk", "value": 412}], "pause": 1.6}},
+  {"scene": "quiz", "text": "India again. By just twenty-three dollars.", "props": {"reveal": true}},
+  {"scene": "quiz", "text": "Final round. India or Egypt?", "props": {"question": "Where does $100 buy more?", "format": {"prefix": "$"}, "options": [{"label": "India", "flag": "in", "value": 435}, {"label": "Egypt", "flag": "eg", "value": 655}], "pause": 1.8}},
+  {"scene": "quiz", "text": "Egypt. Six hundred fifty-five dollars. Prices there are even lower.", "props": {"reveal": true}},
+  {"scene": "outro", "text": "India or Egypt? Comment your flag.", "props": {}}
+ ]
+}
