@@ -1,35 +1,64 @@
 {
  "channel_id": "UCNgjx9NmMXteXl3VmttjE0A",
- "fetched_at": "2026-11-27T14:42:58Z",
+ "fetched_at": "2026-11-27T17:42:46Z",
  "videos": [
   {
-   "video_id": "TZAcx7hUFWg",
-   "title": "India 🇮🇳: where is your $100 worth more? 3 rounds #shorts",
-   "views": 153,
+   "video_id": "NCbpr7P8gzc",
+   "title": "Indonesia 🇮🇩: only 6 countries have a bigger economy (PPP) #shorts",
+   "views": 48,
    "question_posted": false,
-   "question": "India or Egypt?",
+   "question": "Can you name all six?",
    "comments": []
   },
   {
-   "video_id": "eSRrJP5RLdo",
-   "title": "Pakistan 🇵🇰 facts that sound fake but are true #shorts",
-   "views": 139,
+   "video_id": "wXQN3gFqkSw",
+   "title": "Indonesia 🇮🇩 vs Southeast Asia: 19 rounds, real data. Who wins?",
+   "views": 0,
    "question_posted": false,
-   "question": "Which one did you know?",
+   "question": "Which country should Indonesia face next?",
+   "comments": []
+  },
+  {
+   "video_id": "TZAcx7hUFWg",
+   "title": "India 🇮🇳: where is your $100 worth more? 3 rounds #shorts",
+   "views": 646,
+   "question_posted": true,
+   "question": "India or Egypt?",
    "comments": [
     {
-     "id": "UgyyMHO3qVNTS84aMOJ4AaABAg",
-     "author": "@itsHassanaligaming",
-     "text": "Indian are coming hide this",
+     "id": "UgzdFCzs32ASng_ebzJ4AaABAg",
+     "author": "@AAYRAHAAMYRAHCHANNEL",
+     "text": "🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳",
      "answered": false,
      "replies": []
     }
    ]
   },
   {
+   "video_id": "eSRrJP5RLdo",
+   "title": "Pakistan 🇵🇰 facts that sound fake but are true #shorts",
+   "views": 205,
+   "question_posted": true,
+   "question": "Which one did you know?",
+   "comments": [
+    {
+     "id": "UgyyMHO3qVNTS84aMOJ4AaABAg",
+     "author": "@itsHassanaligaming",
+     "text": "Indian are coming hide this",
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "Everyone's welcome here, India and Pakistan both 😄 Which Pakistan fact surprised you the most?"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "video_id": "NtR0LYuoiD8",
    "title": "Pakistan 🇵🇰: only 5 countries have a bigger army #shorts",
-   "views": 363,
+   "views": 418,
    "question_posted": true,
    "question": "Can you name all five?",
    "comments": [
@@ -37,15 +66,20 @@
      "id": "UgzUB6Y1hfOIYkiqWWB4AaABAg",
      "author": "@Moeez_X",
      "text": "india, usa, china, russia and brzil/japan\nbut india is so overrated",
-     "answered": false,
-     "replies": []
+     "answered": true,
+     "replies": [
+      {
+       "author": "@Money_mapped1",
+       "text": "4 out of 5! India, USA, China and Russia are right. The fifth is North Korea, not Brazil or Japan. Where are you watching from?"
+      }
+     ]
     }
    ]
   },
   {
    "video_id": "kNmHNPKGjJ0",
    "title": "India 🇮🇳 vs Germany 🇩🇪: who wins? 3 rounds, real data #shorts",
-   "views": 490,
+   "views": 536,
    "question_posted": true,
    "question": "India or Germany?",
    "comments": []
@@ -53,7 +87,7 @@
   {
    "video_id": "Uv6wqaPraaY",
    "title": "Money facts that sound fake but are true 🇦🇪🇰🇼🇳🇴🇺🇸 #shorts",
-   "views": 299,
+   "views": 311,
    "question_posted": true,
    "question": "Which one did you know?",
    "comments": [
@@ -74,7 +108,7 @@
   {
    "video_id": "oZPjVo70ip8",
    "title": "Pakistan 🇵🇰 is bigger than 5 European countries combined #shorts",
-   "views": 1143,
+   "views": 1159,
    "question_posted": true,
    "question": "Which country would you add?",
    "comments": [
@@ -107,7 +141,7 @@
   {
    "video_id": "0hTy91mL6UQ",
    "title": "India 🇮🇳 vs Bangladesh 🇧🇩: who wins? 3 rounds, real data #shorts",
-   "views": 928,
+   "views": 930,
    "question_posted": true,
    "question": "India or Bangladesh?",
    "comments": [
@@ -152,7 +186,7 @@
   {
    "video_id": "1Wz1wjuK3uI",
    "title": "Indonesia 🇮🇩: only 3 countries have more people #shorts",
-   "views": 1499,
+   "views": 1497,
    "question_posted": true,
    "question": "Can you name all three?",
    "comments": [
@@ -185,14 +219,6 @@
      ]
     }
    ]
-  },
-  {
-   "video_id": "rA9S46BMot4",
-   "title": "Pakistan 🇵🇰: what is your $100 really worth there? #shorts",
-   "views": 989,
-   "question_posted": true,
-   "question": "Where should your hundred dollars go?",
-   "comments": []
   }
  ]
 }
