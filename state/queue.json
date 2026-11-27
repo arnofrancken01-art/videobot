@@ -1,5 +1,5 @@
 {
- "_offset": 607496407,
+ "_offset": 607496410,
  "ep006": {
   "status": "approved",
   "posts": {
@@ -470,6 +470,28 @@
     "url": "https://youtube.com/shorts/eSRrJP5RLdo",
     "privacy": "private",
     "at": "2026-11-27T07:18:44Z"
+   }
+  }
+ },
+ "ep047": {
+  "status": "approved",
+  "posts": {
+   "youtube": {
+    "id": "TZAcx7hUFWg",
+    "url": "https://youtube.com/shorts/TZAcx7hUFWg",
+    "privacy": "private",
+    "at": "2026-11-27T07:18:56Z"
+   }
+  }
+ },
+ "ep048": {
+  "status": "approved",
+  "posts": {
+   "youtube": {
+    "id": "NCbpr7P8gzc",
+    "url": "https://youtube.com/shorts/NCbpr7P8gzc",
+    "privacy": "private",
+    "at": "2026-11-27T07:18:59Z"
    }
   }
  }
