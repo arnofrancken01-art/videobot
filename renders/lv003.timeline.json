@@ -1,0 +1,4196 @@
+{
+ "id": "lv003",
+ "long": true,
+ "title": "Indonesia \ud83c\uddee\ud83c\udde9 vs Southeast Asia: 19 rounds, real data. Who wins?",
+ "headline": "Indonesia vs its *rivals*",
+ "topic": "Indonesia vs Southeast Asia",
+ "cover": {
+  "flags": [
+   "id",
+   "vn"
+  ],
+  "vs": true,
+  "badge": "19 ROUNDS"
+ },
+ "description": "Indonesia against Malaysia, the Philippines, Vietnam and Thailand in 19 rounds: people, money, exports, the rupiah and a quiz on what your $100 is worth. Every number is real World Bank data. Which country should Indonesia face next? Comment your flag.",
+ "tags": [
+  "indonesia vs malaysia",
+  "indonesia vs vietnam",
+  "indonesia vs thailand",
+  "indonesia vs philippines",
+  "indonesia economy",
+  "southeast asia comparison",
+  "asean countries",
+  "indonesian rupiah",
+  "country comparison",
+  "indonesia 2025"
+ ],
+ "hashtags": [
+  "indonesia",
+  "malaysia",
+  "vietnam",
+  "countrycomparison"
+ ],
+ "source": "World Bank, World Development Indicators (latest year with data for both countries per round, 2019-2025), data.worldbank.org",
+ "voice": "af_heart",
+ "format": "battle",
+ "music": 3,
+ "localizations": {
+  "id": {
+   "title": "Indonesia \ud83c\uddee\ud83c\udde9 vs Asia Tenggara: 19 ronde, data asli. Siapa menang?",
+   "description": "Indonesia melawan Malaysia, Filipina, Vietnam dan Thailand dalam 19 ronde. Data asli Bank Dunia. Komentar benderamu."
+  },
+  "ms": {
+   "title": "Indonesia \ud83c\uddee\ud83c\udde9 vs Asia Tenggara: 19 pusingan, data sebenar. Siapa menang?",
+   "description": "Indonesia lawan Malaysia, Filipina, Vietnam dan Thailand dalam 19 pusingan. Data sebenar Bank Dunia. Komen bendera anda."
+  },
+  "vi": {
+   "title": "Indonesia \ud83c\uddee\ud83c\udde9 vs \u0110\u00f4ng Nam \u00c1: 19 v\u00f2ng, s\u1ed1 li\u1ec7u th\u1eadt. Ai th\u1eafng?",
+   "description": "Indonesia \u0111\u1ea5u Malaysia, Philippines, Vi\u1ec7t Nam v\u00e0 Th\u00e1i Lan qua 19 v\u00f2ng. S\u1ed1 li\u1ec7u th\u1eadt c\u1ee7a Ng\u00e2n h\u00e0ng Th\u1ebf gi\u1edbi. H\u00e3y b\u00ecnh lu\u1eadn l\u00e1 c\u1edd c\u1ee7a b\u1ea1n."
+  },
+  "fil": {
+   "title": "Indonesia \ud83c\uddee\ud83c\udde9 vs Southeast Asia: 19 rounds, totoong datos. Sino panalo?",
+   "description": "Indonesia laban sa Malaysia, Pilipinas, Vietnam at Thailand sa 19 rounds. Totoong datos ng World Bank. I-comment ang iyong bandila."
+  }
+ },
+ "segments": [
+  {
+   "scene": "hook",
+   "text": "Indonesia against four neighbours. Nineteen rounds. Real data. Keep score.",
+   "props": {
+    "kicker": "Indonesia vs Southeast Asia",
+    "big": 19,
+    "format": {
+     "suffix": " rounds"
+    },
+    "sub": "Real World Bank data",
+    "flag": "id"
+   },
+   "start": 0.05,
+   "end": 3.96,
+   "words": [
+    {
+     "word": "Indonesia",
+     "start": 0.0,
+     "end": 0.28
+    },
+    {
+     "word": "against",
+     "start": 0.28,
+     "end": 0.82
+    },
+    {
+     "word": "four",
+     "start": 0.82,
+     "end": 1.1
+    },
+    {
+     "word": "neighbours.",
+     "start": 1.1,
+     "end": 1.55
+    },
+    {
+     "word": "Nineteen",
+     "start": 1.55,
+     "end": 2.0
+    },
+    {
+     "word": "rounds.",
+     "start": 2.0,
+     "end": 2.32
+    },
+    {
+     "word": "Real",
+     "start": 2.68,
+     "end": 2.8
+    },
+    {
+     "word": "data.",
+     "start": 2.8,
+     "end": 3.1
+    },
+    {
+     "word": "Keep",
+     "start": 3.34,
+     "end": 3.44
+    },
+    {
+     "word": "score.",
+     "start": 3.44,
+     "end": 3.7
+    }
+   ]
+  },
+  {
+   "scene": "hook",
+   "text": "One neighbour beats Indonesia by just six dollars. And the last chapter decides everything.",
+   "props": {
+    "kicker": "Income per person, 2025",
+    "big": 6,
+    "format": {
+     "prefix": "$"
+    },
+    "sub": "The gap with one neighbour",
+    "flag": "vn"
+   },
+   "start": 4.02,
+   "end": 8.509,
+   "words": [
+    {
+     "word": "One",
+     "start": 4.1,
+     "end": 4.12
+    },
+    {
+     "word": "neighbour",
+     "start": 4.12,
+     "end": 4.34
+    },
+    {
+     "word": "beats",
+     "start": 4.34,
+     "end": 4.62
+    },
+    {
+     "word": "Indonesia",
+     "start": 4.62,
+     "end": 4.9
+    },
+    {
+     "word": "by",
+     "start": 4.9,
+     "end": 5.26
+    },
+    {
+     "word": "just",
+     "start": 5.26,
+     "end": 5.5
+    },
+    {
+     "word": "six",
+     "start": 5.5,
+     "end": 5.96
+    },
+    {
+     "word": "dollars.",
+     "start": 5.96,
+     "end": 6.42
+    },
+    {
+     "word": "And",
+     "start": 6.42,
+     "end": 6.6
+    },
+    {
+     "word": "the",
+     "start": 6.6,
+     "end": 6.7
+    },
+    {
+     "word": "last",
+     "start": 6.7,
+     "end": 6.88
+    },
+    {
+     "word": "chapter",
+     "start": 6.88,
+     "end": 7.2
+    },
+    {
+     "word": "decides",
+     "start": 7.2,
+     "end": 7.6
+    },
+    {
+     "word": "everything.",
+     "start": 7.6,
+     "end": 8.04
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "First up. Malaysia. Right next door.",
+   "props": {
+    "a": {
+     "label": "Indonesia",
+     "flag": "id"
+    },
+    "b": {
+     "label": "Malaysia",
+     "flag": "my"
+    },
+    "chapter": "Indonesia vs *Malaysia*"
+   },
+   "start": 8.569,
+   "end": 10.67,
+   "words": [
+    {
+     "word": "First",
+     "start": 8.68,
+     "end": 8.72
+    },
+    {
+     "word": "up.",
+     "start": 8.72,
+     "end": 8.92
+    },
+    {
+     "word": "Malaysia.",
+     "start": 9.4,
+     "end": 9.44
+    },
+    {
+     "word": "Right",
+     "start": 9.84,
+     "end": 10.0
+    },
+    {
+     "word": "next",
+     "start": 10.0,
+     "end": 10.22
+    },
+    {
+     "word": "door.",
+     "start": 10.22,
+     "end": 10.44
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Population. Indonesia has almost eight times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 286,
+     "b": 36,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "Indonesia"
+   },
+   "start": 10.73,
+   "end": 13.887,
+   "words": [
+    {
+     "word": "Population.",
+     "start": 10.66,
+     "end": 10.94
+    },
+    {
+     "word": "Indonesia",
+     "start": 11.64,
+     "end": 11.9
+    },
+    {
+     "word": "has",
+     "start": 11.9,
+     "end": 12.28
+    },
+    {
+     "word": "almost",
+     "start": 12.28,
+     "end": 12.52
+    },
+    {
+     "word": "eight",
+     "start": 12.52,
+     "end": 12.78
+    },
+    {
+     "word": "times",
+     "start": 12.78,
+     "end": 13.1
+    },
+    {
+     "word": "more",
+     "start": 13.1,
+     "end": 13.36
+    },
+    {
+     "word": "people.",
+     "start": 13.36,
+     "end": 13.7
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. Indonesia is three times bigger.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 1.45,
+     "b": 0.47,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "Indonesia"
+   },
+   "start": 13.947,
+   "end": 16.977,
+   "words": [
+    {
+     "word": "Size",
+     "start": 13.9,
+     "end": 14.08
+    },
+    {
+     "word": "of",
+     "start": 14.08,
+     "end": 14.28
+    },
+    {
+     "word": "the",
+     "start": 14.28,
+     "end": 14.38
+    },
+    {
+     "word": "economy.",
+     "start": 14.38,
+     "end": 14.68
+    },
+    {
+     "word": "Indonesia",
+     "start": 15.0,
+     "end": 15.34
+    },
+    {
+     "word": "is",
+     "start": 15.34,
+     "end": 15.86
+    },
+    {
+     "word": "three",
+     "start": 15.86,
+     "end": 16.16
+    },
+    {
+     "word": "times",
+     "start": 16.16,
+     "end": 16.44
+    },
+    {
+     "word": "bigger.",
+     "start": 16.44,
+     "end": 16.72
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Income per person. Malaysia is more than two and a half times richer.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 5060,
+     "b": 13125,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Malaysia"
+   },
+   "start": 17.037,
+   "end": 20.202,
+   "words": [
+    {
+     "word": "Income",
+     "start": 17.06,
+     "end": 17.16
+    },
+    {
+     "word": "per",
+     "start": 17.16,
+     "end": 17.48
+    },
+    {
+     "word": "person.",
+     "start": 17.48,
+     "end": 17.8
+    },
+    {
+     "word": "Malaysia",
+     "start": 18.04,
+     "end": 18.22
+    },
+    {
+     "word": "is",
+     "start": 18.22,
+     "end": 18.62
+    },
+    {
+     "word": "more",
+     "start": 18.62,
+     "end": 18.78
+    },
+    {
+     "word": "than",
+     "start": 18.78,
+     "end": 18.92
+    },
+    {
+     "word": "two",
+     "start": 18.92,
+     "end": 19.1
+    },
+    {
+     "word": "and",
+     "start": 19.1,
+     "end": 19.22
+    },
+    {
+     "word": "a",
+     "start": 19.22,
+     "end": 19.28
+    },
+    {
+     "word": "half",
+     "start": 19.28,
+     "end": 19.42
+    },
+    {
+     "word": "times",
+     "start": 19.42,
+     "end": 19.66
+    },
+    {
+     "word": "richer.",
+     "start": 19.66,
+     "end": 19.86
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Exports. Eight times fewer people. And Malaysia still sells more. By less than five billion dollars.",
+   "props": {
+    "stat": {
+     "label": "Exports (2025)",
+     "a": 330,
+     "b": 335,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "Malaysia"
+   },
+   "start": 20.262,
+   "end": 25.425,
+   "words": [
+    {
+     "word": "Exports.",
+     "start": 20.32,
+     "end": 20.48
+    },
+    {
+     "word": "Eight",
+     "start": 21.06,
+     "end": 21.24
+    },
+    {
+     "word": "times",
+     "start": 21.24,
+     "end": 21.56
+    },
+    {
+     "word": "fewer",
+     "start": 21.56,
+     "end": 21.74
+    },
+    {
+     "word": "people.",
+     "start": 21.74,
+     "end": 22.12
+    },
+    {
+     "word": "And",
+     "start": 22.44,
+     "end": 22.54
+    },
+    {
+     "word": "Malaysia",
+     "start": 22.54,
+     "end": 22.7
+    },
+    {
+     "word": "still",
+     "start": 22.7,
+     "end": 23.1
+    },
+    {
+     "word": "sells",
+     "start": 23.1,
+     "end": 23.36
+    },
+    {
+     "word": "more.",
+     "start": 23.36,
+     "end": 23.66
+    },
+    {
+     "word": "By",
+     "start": 23.66,
+     "end": 24.0
+    },
+    {
+     "word": "less",
+     "start": 24.0,
+     "end": 24.16
+    },
+    {
+     "word": "than",
+     "start": 24.16,
+     "end": 24.32
+    },
+    {
+     "word": "five",
+     "start": 24.32,
+     "end": 24.58
+    },
+    {
+     "word": "billion",
+     "start": 24.58,
+     "end": 24.82
+    },
+    {
+     "word": "dollars.",
+     "start": 24.82,
+     "end": 25.293
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Two all. Malaysia holds Indonesia to a draw.",
+   "props": {},
+   "start": 25.485,
+   "end": 27.589,
+   "words": [
+    {
+     "word": "Two",
+     "start": 25.293,
+     "end": 25.767
+    },
+    {
+     "word": "all.",
+     "start": 25.767,
+     "end": 26.24
+    },
+    {
+     "word": "Malaysia",
+     "start": 26.24,
+     "end": 26.24
+    },
+    {
+     "word": "holds",
+     "start": 26.24,
+     "end": 26.44
+    },
+    {
+     "word": "Indonesia",
+     "start": 26.44,
+     "end": 26.8
+    },
+    {
+     "word": "to",
+     "start": 26.8,
+     "end": 26.8
+    },
+    {
+     "word": "a",
+     "start": 26.8,
+     "end": 26.8
+    },
+    {
+     "word": "draw.",
+     "start": 26.8,
+     "end": 26.8
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "No points here. Just watch the six biggest economies of Southeast Asia since 1990.",
+   "props": {
+    "title": "Biggest economies in Southeast Asia",
+    "format": {
+     "prefix": "$",
+     "suffix": "B"
+    },
+    "years": [
+     1990,
+     1991,
+     1992,
+     1993,
+     1994,
+     1995,
+     1996,
+     1997,
+     1998,
+     1999,
+     2000,
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009,
+     2010,
+     2011,
+     2012,
+     2013,
+     2014,
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "focus": "Indonesia",
+    "show": 6,
+    "to": 1990,
+    "items": [
+     {
+      "label": "Indonesia",
+      "flag": "id",
+      "values": [
+       106,
+       117,
+       128,
+       158,
+       177,
+       202,
+       227,
+       216,
+       95,
+       140,
+       165,
+       160,
+       196,
+       235,
+       257,
+       286,
+       365,
+       432,
+       510,
+       540,
+       755,
+       893,
+       918,
+       913,
+       891,
+       861,
+       932,
+       1016,
+       1042,
+       1119,
+       1059,
+       1187,
+       1319,
+       1371,
+       1396,
+       1446
+      ]
+     },
+     {
+      "label": "Thailand",
+      "flag": "th",
+      "values": [
+       85,
+       98,
+       111,
+       129,
+       147,
+       169,
+       183,
+       150,
+       114,
+       127,
+       126,
+       120,
+       134,
+       152,
+       173,
+       189,
+       222,
+       263,
+       291,
+       282,
+       341,
+       371,
+       398,
+       420,
+       407,
+       401,
+       413,
+       456,
+       507,
+       544,
+       500,
+       506,
+       496,
+       517,
+       529,
+       577
+      ]
+     },
+     {
+      "label": "Singapore",
+      "flag": "sg",
+      "values": [
+       36,
+       45,
+       52,
+       61,
+       74,
+       88,
+       96,
+       100,
+       86,
+       86,
+       96,
+       90,
+       93,
+       98,
+       115,
+       128,
+       149,
+       181,
+       194,
+       194,
+       240,
+       279,
+       295,
+       308,
+       315,
+       308,
+       321,
+       345,
+       378,
+       377,
+       351,
+       441,
+       514,
+       511,
+       573,
+       604
+      ]
+     },
+     {
+      "label": "Vietnam",
+      "flag": "vn",
+      "values": [
+       6,
+       10,
+       10,
+       13,
+       16,
+       21,
+       25,
+       27,
+       27,
+       29,
+       31,
+       33,
+       35,
+       40,
+       45,
+       58,
+       66,
+       77,
+       99,
+       106,
+       147,
+       173,
+       196,
+       214,
+       233,
+       239,
+       257,
+       281,
+       310,
+       334,
+       347,
+       366,
+       413,
+       434,
+       476,
+       515
+      ]
+     },
+     {
+      "label": "Philippines",
+      "flag": "ph",
+      "values": [
+       51,
+       52,
+       60,
+       62,
+       73,
+       85,
+       95,
+       94,
+       74,
+       86,
+       84,
+       79,
+       84,
+       87,
+       95,
+       107,
+       128,
+       156,
+       182,
+       176,
+       208,
+       234,
+       262,
+       284,
+       297,
+       306,
+       319,
+       328,
+       347,
+       377,
+       362,
+       394,
+       404,
+       437,
+       462,
+       487
+      ]
+     },
+     {
+      "label": "Malaysia",
+      "flag": "my",
+      "values": [
+       44,
+       49,
+       59,
+       67,
+       74,
+       89,
+       101,
+       100,
+       72,
+       79,
+       94,
+       93,
+       101,
+       110,
+       125,
+       144,
+       163,
+       194,
+       231,
+       202,
+       255,
+       298,
+       314,
+       323,
+       338,
+       301,
+       301,
+       319,
+       359,
+       365,
+       337,
+       374,
+       408,
+       400,
+       422,
+       472
+      ]
+     }
+    ],
+    "chapter": "The *economy* race"
+   },
+   "start": 27.649,
+   "end": 32.401,
+   "words": [
+    {
+     "word": "No",
+     "start": 26.8,
+     "end": 27.34
+    },
+    {
+     "word": "points",
+     "start": 27.34,
+     "end": 28.02
+    },
+    {
+     "word": "here.",
+     "start": 28.02,
+     "end": 28.28
+    },
+    {
+     "word": "Just",
+     "start": 28.68,
+     "end": 28.88
+    },
+    {
+     "word": "watch",
+     "start": 28.88,
+     "end": 29.1
+    },
+    {
+     "word": "the",
+     "start": 29.1,
+     "end": 29.32
+    },
+    {
+     "word": "six",
+     "start": 29.32,
+     "end": 29.5
+    },
+    {
+     "word": "biggest",
+     "start": 29.5,
+     "end": 29.84
+    },
+    {
+     "word": "economies",
+     "start": 29.84,
+     "end": 30.16
+    },
+    {
+     "word": "of",
+     "start": 30.16,
+     "end": 30.5
+    },
+    {
+     "word": "Southeast",
+     "start": 30.5,
+     "end": 30.76
+    },
+    {
+     "word": "Asia",
+     "start": 30.76,
+     "end": 31.12
+    },
+    {
+     "word": "since",
+     "start": 31.12,
+     "end": 31.4
+    },
+    {
+     "word": "1990.",
+     "start": 31.4,
+     "end": 32.04
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "In 1990, Indonesia is already number one. Thailand is close behind.",
+   "props": {
+    "to": 1997
+   },
+   "start": 32.461,
+   "end": 36.027,
+   "words": [
+    {
+     "word": "In",
+     "start": 32.46,
+     "end": 32.52
+    },
+    {
+     "word": "1990,",
+     "start": 32.52,
+     "end": 32.98
+    },
+    {
+     "word": "Indonesia",
+     "start": 33.22,
+     "end": 33.38
+    },
+    {
+     "word": "is",
+     "start": 33.38,
+     "end": 33.74
+    },
+    {
+     "word": "already",
+     "start": 33.74,
+     "end": 34.0
+    },
+    {
+     "word": "number",
+     "start": 34.0,
+     "end": 34.22
+    },
+    {
+     "word": "one.",
+     "start": 34.22,
+     "end": 34.52
+    },
+    {
+     "word": "Thailand",
+     "start": 34.8,
+     "end": 34.96
+    },
+    {
+     "word": "is",
+     "start": 34.96,
+     "end": 35.28
+    },
+    {
+     "word": "close",
+     "start": 35.28,
+     "end": 35.42
+    },
+    {
+     "word": "behind.",
+     "start": 35.42,
+     "end": 35.62
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "Then the Asian financial crisis hits. In 1998, Thailand takes the lead. For one year.",
+   "props": {
+    "to": 1999
+   },
+   "start": 36.087,
+   "end": 41.358,
+   "words": [
+    {
+     "word": "Then",
+     "start": 36.2,
+     "end": 36.26
+    },
+    {
+     "word": "the",
+     "start": 36.5,
+     "end": 36.6
+    },
+    {
+     "word": "Asian",
+     "start": 36.6,
+     "end": 36.78
+    },
+    {
+     "word": "financial",
+     "start": 36.78,
+     "end": 37.04
+    },
+    {
+     "word": "crisis",
+     "start": 37.04,
+     "end": 37.46
+    },
+    {
+     "word": "hits.",
+     "start": 37.46,
+     "end": 37.74
+    },
+    {
+     "word": "In",
+     "start": 38.16,
+     "end": 38.24
+    },
+    {
+     "word": "1998,",
+     "start": 38.24,
+     "end": 38.68
+    },
+    {
+     "word": "Thailand",
+     "start": 39.22,
+     "end": 39.46
+    },
+    {
+     "word": "takes",
+     "start": 39.46,
+     "end": 39.84
+    },
+    {
+     "word": "the",
+     "start": 39.84,
+     "end": 40.04
+    },
+    {
+     "word": "lead.",
+     "start": 40.04,
+     "end": 40.2
+    },
+    {
+     "word": "For",
+     "start": 40.56,
+     "end": 40.6
+    },
+    {
+     "word": "one",
+     "start": 40.6,
+     "end": 40.82
+    },
+    {
+     "word": "year.",
+     "start": 40.82,
+     "end": 41.08
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "Indonesia comes back. By 2010, it is more than twice the size of Thailand.",
+   "props": {
+    "to": 2010
+   },
+   "start": 41.418,
+   "end": 45.385,
+   "words": [
+    {
+     "word": "Indonesia",
+     "start": 41.4,
+     "end": 41.64
+    },
+    {
+     "word": "comes",
+     "start": 41.64,
+     "end": 42.04
+    },
+    {
+     "word": "back.",
+     "start": 42.04,
+     "end": 42.3
+    },
+    {
+     "word": "By",
+     "start": 42.58,
+     "end": 42.68
+    },
+    {
+     "word": "2010,",
+     "start": 42.68,
+     "end": 42.86
+    },
+    {
+     "word": "it",
+     "start": 43.58,
+     "end": 43.62
+    },
+    {
+     "word": "is",
+     "start": 43.62,
+     "end": 43.7
+    },
+    {
+     "word": "more",
+     "start": 43.7,
+     "end": 43.88
+    },
+    {
+     "word": "than",
+     "start": 43.88,
+     "end": 44.02
+    },
+    {
+     "word": "twice",
+     "start": 44.02,
+     "end": 44.22
+    },
+    {
+     "word": "the",
+     "start": 44.22,
+     "end": 44.46
+    },
+    {
+     "word": "size",
+     "start": 44.46,
+     "end": 44.66
+    },
+    {
+     "word": "of",
+     "start": 44.66,
+     "end": 44.78
+    },
+    {
+     "word": "Thailand.",
+     "start": 44.78,
+     "end": 44.98
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "Now watch Vietnam. In 1990, it was the smallest. In 2022, it passes Malaysia.",
+   "props": {
+    "to": 2022
+   },
+   "start": 45.445,
+   "end": 50.617,
+   "words": [
+    {
+     "word": "Now",
+     "start": 45.44,
+     "end": 45.52
+    },
+    {
+     "word": "watch",
+     "start": 45.52,
+     "end": 45.7
+    },
+    {
+     "word": "Vietnam.",
+     "start": 45.7,
+     "end": 45.94
+    },
+    {
+     "word": "In",
+     "start": 46.54,
+     "end": 46.62
+    },
+    {
+     "word": "1990,",
+     "start": 46.62,
+     "end": 47.08
+    },
+    {
+     "word": "it",
+     "start": 47.36,
+     "end": 47.46
+    },
+    {
+     "word": "was",
+     "start": 47.46,
+     "end": 47.54
+    },
+    {
+     "word": "the",
+     "start": 47.54,
+     "end": 47.7
+    },
+    {
+     "word": "smallest.",
+     "start": 47.7,
+     "end": 47.94
+    },
+    {
+     "word": "In",
+     "start": 48.4,
+     "end": 48.52
+    },
+    {
+     "word": "2022,",
+     "start": 48.52,
+     "end": 49.04
+    },
+    {
+     "word": "it",
+     "start": 49.12,
+     "end": 49.64
+    },
+    {
+     "word": "passes",
+     "start": 49.64,
+     "end": 49.86
+    },
+    {
+     "word": "Malaysia.",
+     "start": 49.86,
+     "end": 50.1
+    }
+   ]
+  },
+  {
+   "scene": "race",
+   "text": "Today, Indonesia is bigger than Singapore and Thailand combined.",
+   "props": {
+    "to": 2025
+   },
+   "start": 50.677,
+   "end": 54.236,
+   "words": [
+    {
+     "word": "Today,",
+     "start": 50.74,
+     "end": 50.88
+    },
+    {
+     "word": "Indonesia",
+     "start": 51.16,
+     "end": 51.44
+    },
+    {
+     "word": "is",
+     "start": 51.44,
+     "end": 51.86
+    },
+    {
+     "word": "bigger",
+     "start": 51.86,
+     "end": 52.08
+    },
+    {
+     "word": "than",
+     "start": 52.08,
+     "end": 52.32
+    },
+    {
+     "word": "Singapore",
+     "start": 52.32,
+     "end": 52.64
+    },
+    {
+     "word": "and",
+     "start": 52.64,
+     "end": 52.96
+    },
+    {
+     "word": "Thailand",
+     "start": 52.96,
+     "end": 53.18
+    },
+    {
+     "word": "combined.",
+     "start": 53.18,
+     "end": 53.62
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Next up. The Philippines. Five rounds. The score is two all.",
+   "props": {
+    "a": {
+     "label": "Indonesia",
+     "flag": "id"
+    },
+    "b": {
+     "label": "Philippines",
+     "flag": "ph"
+    },
+    "chapter": "Indonesia vs the *Philippines*"
+   },
+   "start": 54.296,
+   "end": 57.74,
+   "words": [
+    {
+     "word": "Next",
+     "start": 54.14,
+     "end": 54.4
+    },
+    {
+     "word": "up.",
+     "start": 54.4,
+     "end": 54.66
+    },
+    {
+     "word": "The",
+     "start": 54.98,
+     "end": 55.06
+    },
+    {
+     "word": "Philippines.",
+     "start": 55.06,
+     "end": 55.52
+    },
+    {
+     "word": "Five",
+     "start": 55.8,
+     "end": 55.98
+    },
+    {
+     "word": "rounds.",
+     "start": 55.98,
+     "end": 56.2
+    },
+    {
+     "word": "The",
+     "start": 56.62,
+     "end": 56.66
+    },
+    {
+     "word": "score",
+     "start": 56.66,
+     "end": 56.84
+    },
+    {
+     "word": "is",
+     "start": 56.84,
+     "end": 57.06
+    },
+    {
+     "word": "two",
+     "start": 57.06,
+     "end": 57.24
+    },
+    {
+     "word": "all.",
+     "start": 57.24,
+     "end": 57.5
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Population. Indonesia has almost two and a half times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 286,
+     "b": 117,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "Indonesia"
+   },
+   "start": 57.8,
+   "end": 61.118,
+   "words": [
+    {
+     "word": "Population.",
+     "start": 58.0,
+     "end": 58.04
+    },
+    {
+     "word": "Indonesia",
+     "start": 58.64,
+     "end": 58.86
+    },
+    {
+     "word": "has",
+     "start": 58.86,
+     "end": 59.32
+    },
+    {
+     "word": "almost",
+     "start": 59.32,
+     "end": 59.54
+    },
+    {
+     "word": "two",
+     "start": 59.54,
+     "end": 59.8
+    },
+    {
+     "word": "and",
+     "start": 59.8,
+     "end": 59.92
+    },
+    {
+     "word": "a",
+     "start": 59.92,
+     "end": 59.98
+    },
+    {
+     "word": "half",
+     "start": 59.98,
+     "end": 60.12
+    },
+    {
+     "word": "times",
+     "start": 60.12,
+     "end": 60.4
+    },
+    {
+     "word": "more",
+     "start": 60.4,
+     "end": 60.6
+    },
+    {
+     "word": "people.",
+     "start": 60.6,
+     "end": 60.92
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Income per person. Indonesia wins. By almost nine hundred dollars.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 5060,
+     "b": 4171,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Indonesia"
+   },
+   "start": 61.178,
+   "end": 65.154,
+   "words": [
+    {
+     "word": "Income",
+     "start": 61.18,
+     "end": 61.32
+    },
+    {
+     "word": "per",
+     "start": 61.32,
+     "end": 61.54
+    },
+    {
+     "word": "person.",
+     "start": 61.54,
+     "end": 61.84
+    },
+    {
+     "word": "Indonesia",
+     "start": 62.2,
+     "end": 62.4
+    },
+    {
+     "word": "wins.",
+     "start": 62.4,
+     "end": 62.8
+    },
+    {
+     "word": "By",
+     "start": 62.8,
+     "end": 63.32
+    },
+    {
+     "word": "almost",
+     "start": 63.32,
+     "end": 63.58
+    },
+    {
+     "word": "nine",
+     "start": 63.58,
+     "end": 64.067
+    },
+    {
+     "word": "hundred",
+     "start": 64.067,
+     "end": 64.553
+    },
+    {
+     "word": "dollars.",
+     "start": 64.553,
+     "end": 65.04
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Electricity per person. Indonesia uses about sixty percent more.",
+   "props": {
+    "stat": {
+     "label": "Electricity per person (2024)",
+     "a": 1611,
+     "b": 988,
+     "format": {
+      "suffix": " kWh"
+     }
+    },
+    "at": "Indonesia"
+   },
+   "start": 65.214,
+   "end": 68.747,
+   "words": [
+    {
+     "word": "Electricity",
+     "start": 65.04,
+     "end": 65.56
+    },
+    {
+     "word": "per",
+     "start": 65.56,
+     "end": 65.9
+    },
+    {
+     "word": "person.",
+     "start": 65.9,
+     "end": 66.26
+    },
+    {
+     "word": "Indonesia",
+     "start": 66.56,
+     "end": 66.8
+    },
+    {
+     "word": "uses",
+     "start": 66.8,
+     "end": 67.32
+    },
+    {
+     "word": "about",
+     "start": 67.32,
+     "end": 67.54
+    },
+    {
+     "word": "sixty",
+     "start": 67.54,
+     "end": 67.88
+    },
+    {
+     "word": "percent",
+     "start": 67.88,
+     "end": 68.22
+    },
+    {
+     "word": "more.",
+     "start": 68.22,
+     "end": 68.5
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Money sent home by workers abroad. The Philippines gets more than twice as much.",
+   "props": {
+    "stat": {
+     "label": "Money sent home (2025)",
+     "a": 17.6,
+     "b": 41.6,
+     "format": {
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1
+     }
+    },
+    "at": "Philippines"
+   },
+   "start": 68.807,
+   "end": 72.717,
+   "words": [
+    {
+     "word": "Money",
+     "start": 68.8,
+     "end": 69.0
+    },
+    {
+     "word": "sent",
+     "start": 69.0,
+     "end": 69.26
+    },
+    {
+     "word": "home",
+     "start": 69.26,
+     "end": 69.46
+    },
+    {
+     "word": "by",
+     "start": 69.46,
+     "end": 69.64
+    },
+    {
+     "word": "workers",
+     "start": 69.64,
+     "end": 69.92
+    },
+    {
+     "word": "abroad.",
+     "start": 69.92,
+     "end": 70.26
+    },
+    {
+     "word": "The",
+     "start": 70.78,
+     "end": 70.84
+    },
+    {
+     "word": "Philippines",
+     "start": 70.84,
+     "end": 71.16
+    },
+    {
+     "word": "gets",
+     "start": 71.16,
+     "end": 71.42
+    },
+    {
+     "word": "more",
+     "start": 71.42,
+     "end": 71.62
+    },
+    {
+     "word": "than",
+     "start": 71.62,
+     "end": 71.78
+    },
+    {
+     "word": "twice",
+     "start": 71.78,
+     "end": 71.98
+    },
+    {
+     "word": "as",
+     "start": 71.98,
+     "end": 72.24
+    },
+    {
+     "word": "much.",
+     "start": 72.24,
+     "end": 72.44
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Young people without a job. The Philippines wins. Seven percent. Indonesia has thirteen.",
+   "props": {
+    "stat": {
+     "label": "Youth unemployment (2025)",
+     "a": 13.0,
+     "b": 7.0,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     },
+     "pick": "lower"
+    },
+    "at": "Philippines"
+   },
+   "start": 72.777,
+   "end": 78.295,
+   "words": [
+    {
+     "word": "Young",
+     "start": 72.78,
+     "end": 72.92
+    },
+    {
+     "word": "people",
+     "start": 72.92,
+     "end": 73.2
+    },
+    {
+     "word": "without",
+     "start": 73.2,
+     "end": 73.44
+    },
+    {
+     "word": "a",
+     "start": 73.44,
+     "end": 73.66
+    },
+    {
+     "word": "job.",
+     "start": 73.66,
+     "end": 73.88
+    },
+    {
+     "word": "The",
+     "start": 74.44,
+     "end": 74.44
+    },
+    {
+     "word": "Philippines",
+     "start": 74.44,
+     "end": 74.76
+    },
+    {
+     "word": "wins.",
+     "start": 74.76,
+     "end": 75.12
+    },
+    {
+     "word": "Seven",
+     "start": 75.12,
+     "end": 75.84
+    },
+    {
+     "word": "percent.",
+     "start": 75.84,
+     "end": 76.26
+    },
+    {
+     "word": "Indonesia",
+     "start": 76.78,
+     "end": 77.0
+    },
+    {
+     "word": "has",
+     "start": 77.0,
+     "end": 77.48
+    },
+    {
+     "word": "thirteen.",
+     "start": 77.48,
+     "end": 78.28
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Three to two for Indonesia. Overall, five to four.",
+   "props": {},
+   "start": 78.355,
+   "end": 81.222,
+   "words": [
+    {
+     "word": "Three",
+     "start": 78.28,
+     "end": 78.48
+    },
+    {
+     "word": "to",
+     "start": 78.48,
+     "end": 78.62
+    },
+    {
+     "word": "two",
+     "start": 78.62,
+     "end": 78.78
+    },
+    {
+     "word": "for",
+     "start": 78.78,
+     "end": 78.92
+    },
+    {
+     "word": "Indonesia.",
+     "start": 78.92,
+     "end": 79.18
+    },
+    {
+     "word": "Overall,",
+     "start": 79.7,
+     "end": 80.02
+    },
+    {
+     "word": "five",
+     "start": 80.02,
+     "end": 80.62
+    },
+    {
+     "word": "to",
+     "start": 80.62,
+     "end": 82.86
+    },
+    {
+     "word": "four.",
+     "start": 82.86,
+     "end": 83.24
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Two hundred eighty-six million people. This is Indonesia.",
+   "props": {
+    "title": "Population, 2025",
+    "format": {
+     "suffix": "M",
+     "decimals": 1
+    },
+    "item": {
+     "label": "Indonesia",
+     "flag": "id",
+     "value": 285.7
+    },
+    "at": "This",
+    "chapter": "Bigger than *three* neighbours"
+   },
+   "start": 81.282,
+   "end": 84.981,
+   "words": [
+    {
+     "word": "Two",
+     "start": 83.24,
+     "end": 83.24
+    },
+    {
+     "word": "hundred",
+     "start": 83.24,
+     "end": 83.24
+    },
+    {
+     "word": "eighty-six",
+     "start": 83.24,
+     "end": 83.24
+    },
+    {
+     "word": "million",
+     "start": 83.24,
+     "end": 83.24
+    },
+    {
+     "word": "people.",
+     "start": 83.24,
+     "end": 83.24
+    },
+    {
+     "word": "This",
+     "start": 83.24,
+     "end": 83.72
+    },
+    {
+     "word": "is",
+     "start": 83.72,
+     "end": 84.16
+    },
+    {
+     "word": "Indonesia.",
+     "start": 84.16,
+     "end": 84.48
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Vietnam. One hundred and two million.",
+   "props": {
+    "item": {
+     "label": "Vietnam",
+     "flag": "vn",
+     "value": 101.6
+    },
+    "at": "Vietnam"
+   },
+   "start": 85.041,
+   "end": 86.858,
+   "words": [
+    {
+     "word": "Vietnam.",
+     "start": 85.12,
+     "end": 85.16
+    },
+    {
+     "word": "One",
+     "start": 85.16,
+     "end": 85.415
+    },
+    {
+     "word": "hundred",
+     "start": 85.415,
+     "end": 85.67
+    },
+    {
+     "word": "and",
+     "start": 85.67,
+     "end": 85.925
+    },
+    {
+     "word": "two",
+     "start": 85.925,
+     "end": 86.18
+    },
+    {
+     "word": "million.",
+     "start": 86.18,
+     "end": 86.58
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Thailand. Seventy-two million.",
+   "props": {
+    "item": {
+     "label": "Thailand",
+     "flag": "th",
+     "value": 71.6
+    },
+    "at": "Thailand"
+   },
+   "start": 86.918,
+   "end": 89.216,
+   "words": [
+    {
+     "word": "Thailand.",
+     "start": 86.94,
+     "end": 87.08
+    },
+    {
+     "word": "Seventy-two",
+     "start": 87.08,
+     "end": 88.0
+    },
+    {
+     "word": "million.",
+     "start": 88.0,
+     "end": 88.88
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Malaysia. Thirty-six million.",
+   "props": {
+    "item": {
+     "label": "Malaysia",
+     "flag": "my",
+     "value": 36.0
+    },
+    "at": "Malaysia"
+   },
+   "start": 89.276,
+   "end": 91.123,
+   "words": [
+    {
+     "word": "Malaysia.",
+     "start": 89.36,
+     "end": 89.46
+    },
+    {
+     "word": "Thirty-six",
+     "start": 89.46,
+     "end": 90.24
+    },
+    {
+     "word": "million.",
+     "start": 90.24,
+     "end": 90.92
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "Put all three together. Indonesia still has more than seventy-six million more people.",
+   "props": {
+    "value": 76.5,
+    "format": {
+     "prefix": "+",
+     "suffix": "M",
+     "decimals": 1
+    },
+    "caption": "more people in Indonesia than all three combined",
+    "at": "seventy",
+    "compare": {
+     "format": {
+      "suffix": "M",
+      "decimals": 1
+     },
+     "items": [
+      {
+       "label": "Vietnam, Thailand, Malaysia",
+       "value": 209.2
+      },
+      {
+       "label": "Indonesia",
+       "value": 285.7
+      }
+     ]
+    }
+   },
+   "start": 91.183,
+   "end": 95.064,
+   "words": [
+    {
+     "word": "Put",
+     "start": 91.22,
+     "end": 91.24
+    },
+    {
+     "word": "all",
+     "start": 91.24,
+     "end": 91.38
+    },
+    {
+     "word": "three",
+     "start": 91.38,
+     "end": 91.58
+    },
+    {
+     "word": "together.",
+     "start": 91.58,
+     "end": 91.84
+    },
+    {
+     "word": "Indonesia",
+     "start": 92.54,
+     "end": 92.54
+    },
+    {
+     "word": "still",
+     "start": 92.54,
+     "end": 92.98
+    },
+    {
+     "word": "has",
+     "start": 92.98,
+     "end": 93.18
+    },
+    {
+     "word": "more",
+     "start": 93.18,
+     "end": 93.34
+    },
+    {
+     "word": "than",
+     "start": 93.34,
+     "end": 93.48
+    },
+    {
+     "word": "seventy-six",
+     "start": 93.48,
+     "end": 94.0
+    },
+    {
+     "word": "million",
+     "start": 94.0,
+     "end": 94.24
+    },
+    {
+     "word": "more",
+     "start": 94.24,
+     "end": 94.54
+    },
+    {
+     "word": "people.",
+     "start": 94.54,
+     "end": 94.84
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Your turn now. No points for the countries. These are for you. Where does one hundred American dollars go further?",
+   "props": {
+    "question": "What $100 feels like (2025)",
+    "format": {
+     "prefix": "$"
+    },
+    "options": [
+     {
+      "label": "Indonesia",
+      "flag": "id",
+      "value": 349
+     },
+     {
+      "label": "Thailand",
+      "flag": "th",
+      "value": 326
+     }
+    ],
+    "pause": 2.0,
+    "chapter": "Quiz: *your* money there"
+   },
+   "start": 95.124,
+   "end": 100.711,
+   "words": [
+    {
+     "word": "Your",
+     "start": 95.2,
+     "end": 95.22
+    },
+    {
+     "word": "turn",
+     "start": 95.22,
+     "end": 95.5
+    },
+    {
+     "word": "now.",
+     "start": 95.5,
+     "end": 95.8
+    },
+    {
+     "word": "No",
+     "start": 96.06,
+     "end": 96.18
+    },
+    {
+     "word": "points",
+     "start": 96.18,
+     "end": 96.42
+    },
+    {
+     "word": "for",
+     "start": 96.42,
+     "end": 96.62
+    },
+    {
+     "word": "the",
+     "start": 96.62,
+     "end": 96.68
+    },
+    {
+     "word": "countries.",
+     "start": 96.68,
+     "end": 96.88
+    },
+    {
+     "word": "These",
+     "start": 97.36,
+     "end": 97.4
+    },
+    {
+     "word": "are",
+     "start": 97.4,
+     "end": 97.7
+    },
+    {
+     "word": "for",
+     "start": 97.7,
+     "end": 97.82
+    },
+    {
+     "word": "you.",
+     "start": 97.82,
+     "end": 98.02
+    },
+    {
+     "word": "Where",
+     "start": 98.5,
+     "end": 98.54
+    },
+    {
+     "word": "does",
+     "start": 98.54,
+     "end": 98.7
+    },
+    {
+     "word": "one",
+     "start": 98.7,
+     "end": 98.86
+    },
+    {
+     "word": "hundred",
+     "start": 98.86,
+     "end": 99.02
+    },
+    {
+     "word": "American",
+     "start": 99.02,
+     "end": 99.46
+    },
+    {
+     "word": "dollars",
+     "start": 99.46,
+     "end": 99.94
+    },
+    {
+     "word": "go",
+     "start": 99.94,
+     "end": 100.1
+    },
+    {
+     "word": "further?",
+     "start": 100.1,
+     "end": 100.42
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Indonesia. There, your hundred dollars feels like three hundred forty-nine. In Thailand, three hundred twenty-six.",
+   "props": {
+    "reveal": true
+   },
+   "start": 102.771,
+   "end": 108.364,
+   "words": [
+    {
+     "word": "Indonesia.",
+     "start": 102.4,
+     "end": 103.0
+    },
+    {
+     "word": "There,",
+     "start": 103.64,
+     "end": 103.86
+    },
+    {
+     "word": "your",
+     "start": 103.86,
+     "end": 104.16
+    },
+    {
+     "word": "hundred",
+     "start": 104.16,
+     "end": 104.34
+    },
+    {
+     "word": "dollars",
+     "start": 104.34,
+     "end": 104.52
+    },
+    {
+     "word": "feels",
+     "start": 104.52,
+     "end": 104.96
+    },
+    {
+     "word": "like",
+     "start": 104.96,
+     "end": 105.28
+    },
+    {
+     "word": "three",
+     "start": 105.28,
+     "end": 105.367
+    },
+    {
+     "word": "hundred",
+     "start": 105.367,
+     "end": 105.453
+    },
+    {
+     "word": "forty-nine.",
+     "start": 105.453,
+     "end": 105.54
+    },
+    {
+     "word": "In",
+     "start": 105.54,
+     "end": 106.64
+    },
+    {
+     "word": "Thailand,",
+     "start": 106.64,
+     "end": 106.9
+    },
+    {
+     "word": "three",
+     "start": 106.9,
+     "end": 107.44
+    },
+    {
+     "word": "hundred",
+     "start": 107.44,
+     "end": 107.98
+    },
+    {
+     "word": "twenty-six.",
+     "start": 107.98,
+     "end": 108.52
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Round two. Vietnam or the Philippines?",
+   "props": {
+    "question": "What $100 feels like (2025)",
+    "format": {
+     "prefix": "$"
+    },
+    "options": [
+     {
+      "label": "Vietnam",
+      "flag": "vn",
+      "value": 357
+     },
+     {
+      "label": "Philippines",
+      "flag": "ph",
+      "value": 302
+     }
+    ],
+    "pause": 2.0
+   },
+   "start": 108.424,
+   "end": 110.484,
+   "words": [
+    {
+     "word": "Round",
+     "start": 108.52,
+     "end": 108.56
+    },
+    {
+     "word": "two.",
+     "start": 108.56,
+     "end": 108.82
+    },
+    {
+     "word": "Vietnam",
+     "start": 109.38,
+     "end": 109.38
+    },
+    {
+     "word": "or",
+     "start": 109.38,
+     "end": 109.74
+    },
+    {
+     "word": "the",
+     "start": 109.74,
+     "end": 109.84
+    },
+    {
+     "word": "Philippines?",
+     "start": 109.84,
+     "end": 110.1
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Vietnam. Three hundred fifty-seven dollars. The Philippines, three hundred two.",
+   "props": {
+    "reveal": true
+   },
+   "start": 112.544,
+   "end": 116.234,
+   "words": [
+    {
+     "word": "Vietnam.",
+     "start": 112.96,
+     "end": 113.42
+    },
+    {
+     "word": "Three",
+     "start": 113.42,
+     "end": 113.745
+    },
+    {
+     "word": "hundred",
+     "start": 113.745,
+     "end": 114.07
+    },
+    {
+     "word": "fifty-seven",
+     "start": 114.07,
+     "end": 114.395
+    },
+    {
+     "word": "dollars.",
+     "start": 114.395,
+     "end": 114.72
+    },
+    {
+     "word": "The",
+     "start": 114.72,
+     "end": 114.8
+    },
+    {
+     "word": "Philippines,",
+     "start": 114.8,
+     "end": 115.1
+    },
+    {
+     "word": "three",
+     "start": 115.1,
+     "end": 115.5
+    },
+    {
+     "word": "hundred",
+     "start": 115.5,
+     "end": 115.9
+    },
+    {
+     "word": "two.",
+     "start": 115.9,
+     "end": 116.3
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Last one. Indonesia or Vietnam?",
+   "props": {
+    "question": "What $100 feels like (2025)",
+    "format": {
+     "prefix": "$"
+    },
+    "options": [
+     {
+      "label": "Indonesia",
+      "flag": "id",
+      "value": 349
+     },
+     {
+      "label": "Vietnam",
+      "flag": "vn",
+      "value": 357
+     }
+    ],
+    "pause": 2.2
+   },
+   "start": 116.294,
+   "end": 118.26,
+   "words": [
+    {
+     "word": "Last",
+     "start": 116.3,
+     "end": 116.42
+    },
+    {
+     "word": "one.",
+     "start": 116.42,
+     "end": 116.66
+    },
+    {
+     "word": "Indonesia",
+     "start": 117.06,
+     "end": 117.18
+    },
+    {
+     "word": "or",
+     "start": 117.18,
+     "end": 117.64
+    },
+    {
+     "word": "Vietnam?",
+     "start": 117.64,
+     "end": 117.82
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "Vietnam. By just eight dollars. Remember that country. It comes next.",
+   "props": {
+    "reveal": true
+   },
+   "start": 120.52,
+   "end": 123.868,
+   "words": [
+    {
+     "word": "Vietnam.",
+     "start": 120.24,
+     "end": 120.7
+    },
+    {
+     "word": "By",
+     "start": 121.14,
+     "end": 121.3
+    },
+    {
+     "word": "just",
+     "start": 121.3,
+     "end": 121.46
+    },
+    {
+     "word": "eight",
+     "start": 121.46,
+     "end": 121.62
+    },
+    {
+     "word": "dollars.",
+     "start": 121.62,
+     "end": 121.94
+    },
+    {
+     "word": "Remember",
+     "start": 122.16,
+     "end": 122.36
+    },
+    {
+     "word": "that",
+     "start": 122.36,
+     "end": 122.62
+    },
+    {
+     "word": "country.",
+     "start": 122.62,
+     "end": 122.84
+    },
+    {
+     "word": "It",
+     "start": 123.06,
+     "end": 123.12
+    },
+    {
+     "word": "comes",
+     "start": 123.12,
+     "end": 123.3
+    },
+    {
+     "word": "next.",
+     "start": 123.3,
+     "end": 123.5
+    }
+   ]
+  },
+  {
+   "scene": "quiz",
+   "text": "How many did you get? Back to the battle. Indonesia leads five to four.",
+   "props": {},
+   "start": 123.928,
+   "end": 127.51,
+   "words": [
+    {
+     "word": "How",
+     "start": 123.98,
+     "end": 124.0
+    },
+    {
+     "word": "many",
+     "start": 124.0,
+     "end": 124.14
+    },
+    {
+     "word": "did",
+     "start": 124.14,
+     "end": 124.32
+    },
+    {
+     "word": "you",
+     "start": 124.32,
+     "end": 124.42
+    },
+    {
+     "word": "get?",
+     "start": 124.42,
+     "end": 124.64
+    },
+    {
+     "word": "Back",
+     "start": 125.04,
+     "end": 125.12
+    },
+    {
+     "word": "to",
+     "start": 125.12,
+     "end": 125.3
+    },
+    {
+     "word": "the",
+     "start": 125.3,
+     "end": 125.36
+    },
+    {
+     "word": "battle.",
+     "start": 125.36,
+     "end": 125.54
+    },
+    {
+     "word": "Indonesia",
+     "start": 125.96,
+     "end": 126.08
+    },
+    {
+     "word": "leads",
+     "start": 126.08,
+     "end": 126.54
+    },
+    {
+     "word": "five",
+     "start": 126.54,
+     "end": 126.82
+    },
+    {
+     "word": "to",
+     "start": 126.82,
+     "end": 127.0
+    },
+    {
+     "word": "four.",
+     "start": 127.0,
+     "end": 127.2
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Vietnam. The fastest grower of all six. Five rounds.",
+   "props": {
+    "a": {
+     "label": "Indonesia",
+     "flag": "id"
+    },
+    "b": {
+     "label": "Vietnam",
+     "flag": "vn"
+    },
+    "chapter": "Indonesia vs *Vietnam*"
+   },
+   "start": 127.57,
+   "end": 130.619,
+   "words": [
+    {
+     "word": "Vietnam.",
+     "start": 127.64,
+     "end": 127.78
+    },
+    {
+     "word": "The",
+     "start": 128.34,
+     "end": 128.42
+    },
+    {
+     "word": "fastest",
+     "start": 128.42,
+     "end": 128.68
+    },
+    {
+     "word": "grower",
+     "start": 128.68,
+     "end": 129.1
+    },
+    {
+     "word": "of",
+     "start": 129.1,
+     "end": 129.18
+    },
+    {
+     "word": "all",
+     "start": 129.18,
+     "end": 129.34
+    },
+    {
+     "word": "six.",
+     "start": 129.34,
+     "end": 129.58
+    },
+    {
+     "word": "Five",
+     "start": 129.82,
+     "end": 130.02
+    },
+    {
+     "word": "rounds.",
+     "start": 130.02,
+     "end": 130.26
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Population. Indonesia has almost three times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 286,
+     "b": 102,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "Indonesia"
+   },
+   "start": 130.679,
+   "end": 133.875,
+   "words": [
+    {
+     "word": "Population.",
+     "start": 130.68,
+     "end": 130.9
+    },
+    {
+     "word": "Indonesia",
+     "start": 131.82,
+     "end": 131.82
+    },
+    {
+     "word": "has",
+     "start": 131.82,
+     "end": 132.24
+    },
+    {
+     "word": "almost",
+     "start": 132.24,
+     "end": 132.54
+    },
+    {
+     "word": "three",
+     "start": 132.54,
+     "end": 132.8
+    },
+    {
+     "word": "times",
+     "start": 132.8,
+     "end": 133.1
+    },
+    {
+     "word": "more",
+     "start": 133.1,
+     "end": 133.3
+    },
+    {
+     "word": "people.",
+     "start": 133.3,
+     "end": 133.6
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Size of the economy. Indonesia is almost three times bigger.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 1.45,
+     "b": 0.51,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "Indonesia"
+   },
+   "start": 133.935,
+   "end": 137.214,
+   "words": [
+    {
+     "word": "Size",
+     "start": 133.94,
+     "end": 134.08
+    },
+    {
+     "word": "of",
+     "start": 134.08,
+     "end": 134.3
+    },
+    {
+     "word": "the",
+     "start": 134.3,
+     "end": 134.38
+    },
+    {
+     "word": "economy.",
+     "start": 134.38,
+     "end": 134.7
+    },
+    {
+     "word": "Indonesia",
+     "start": 134.7,
+     "end": 135.04
+    },
+    {
+     "word": "is",
+     "start": 135.04,
+     "end": 135.8
+    },
+    {
+     "word": "almost",
+     "start": 135.8,
+     "end": 136.02
+    },
+    {
+     "word": "three",
+     "start": 136.02,
+     "end": 136.34
+    },
+    {
+     "word": "times",
+     "start": 136.34,
+     "end": 136.68
+    },
+    {
+     "word": "bigger.",
+     "start": 136.68,
+     "end": 136.9
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Economic growth. Vietnam grows eight percent a year. Indonesia, five.",
+   "props": {
+    "stat": {
+     "label": "Economic growth (2025)",
+     "a": 5.1,
+     "b": 8.0,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "Vietnam"
+   },
+   "start": 137.274,
+   "end": 141.228,
+   "words": [
+    {
+     "word": "Economic",
+     "start": 137.28,
+     "end": 137.38
+    },
+    {
+     "word": "growth.",
+     "start": 137.38,
+     "end": 137.84
+    },
+    {
+     "word": "Vietnam",
+     "start": 138.28,
+     "end": 138.5
+    },
+    {
+     "word": "grows",
+     "start": 138.5,
+     "end": 138.92
+    },
+    {
+     "word": "eight",
+     "start": 138.92,
+     "end": 139.18
+    },
+    {
+     "word": "percent",
+     "start": 139.18,
+     "end": 139.48
+    },
+    {
+     "word": "a",
+     "start": 139.48,
+     "end": 139.62
+    },
+    {
+     "word": "year.",
+     "start": 139.62,
+     "end": 139.8
+    },
+    {
+     "word": "Indonesia,",
+     "start": 140.32,
+     "end": 140.32
+    },
+    {
+     "word": "five.",
+     "start": 140.8,
+     "end": 141.04
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Exports. Vietnam sells about fifty percent more to the world.",
+   "props": {
+    "stat": {
+     "label": "Exports (2025)",
+     "a": 330,
+     "b": 506,
+     "format": {
+      "prefix": "$",
+      "suffix": "B"
+     }
+    },
+    "at": "Vietnam"
+   },
+   "start": 141.288,
+   "end": 144.201,
+   "words": [
+    {
+     "word": "Exports.",
+     "start": 141.04,
+     "end": 141.46
+    },
+    {
+     "word": "Vietnam",
+     "start": 141.98,
+     "end": 142.2
+    },
+    {
+     "word": "sells",
+     "start": 142.2,
+     "end": 142.58
+    },
+    {
+     "word": "about",
+     "start": 142.58,
+     "end": 142.78
+    },
+    {
+     "word": "fifty",
+     "start": 142.78,
+     "end": 143.02
+    },
+    {
+     "word": "percent",
+     "start": 143.02,
+     "end": 143.36
+    },
+    {
+     "word": "more",
+     "start": 143.36,
+     "end": 143.62
+    },
+    {
+     "word": "to",
+     "start": 143.62,
+     "end": 143.76
+    },
+    {
+     "word": "the",
+     "start": 143.76,
+     "end": 143.84
+    },
+    {
+     "word": "world.",
+     "start": 143.84,
+     "end": 144.06
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "And income per person. This is the one. Vietnam wins. By six dollars.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 5060,
+     "b": 5066,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Vietnam"
+   },
+   "start": 144.261,
+   "end": 148.69,
+   "words": [
+    {
+     "word": "And",
+     "start": 144.28,
+     "end": 144.42
+    },
+    {
+     "word": "income",
+     "start": 144.42,
+     "end": 144.68
+    },
+    {
+     "word": "per",
+     "start": 144.68,
+     "end": 144.94
+    },
+    {
+     "word": "person.",
+     "start": 144.94,
+     "end": 145.26
+    },
+    {
+     "word": "This",
+     "start": 145.6,
+     "end": 145.82
+    },
+    {
+     "word": "is",
+     "start": 145.82,
+     "end": 146.08
+    },
+    {
+     "word": "the",
+     "start": 146.08,
+     "end": 146.28
+    },
+    {
+     "word": "one.",
+     "start": 146.28,
+     "end": 146.44
+    },
+    {
+     "word": "Vietnam",
+     "start": 146.76,
+     "end": 146.86
+    },
+    {
+     "word": "wins.",
+     "start": 146.86,
+     "end": 147.32
+    },
+    {
+     "word": "By",
+     "start": 147.32,
+     "end": 147.8
+    },
+    {
+     "word": "six",
+     "start": 147.8,
+     "end": 148.02
+    },
+    {
+     "word": "dollars.",
+     "start": 148.02,
+     "end": 148.36
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Three to two for Vietnam. Overall, seven all.",
+   "props": {},
+   "start": 148.75,
+   "end": 151.377,
+   "words": [
+    {
+     "word": "Three",
+     "start": 148.68,
+     "end": 148.88
+    },
+    {
+     "word": "to",
+     "start": 148.88,
+     "end": 149.02
+    },
+    {
+     "word": "two",
+     "start": 149.02,
+     "end": 149.18
+    },
+    {
+     "word": "for",
+     "start": 149.18,
+     "end": 149.48
+    },
+    {
+     "word": "Vietnam.",
+     "start": 149.48,
+     "end": 149.66
+    },
+    {
+     "word": "Overall,",
+     "start": 150.22,
+     "end": 150.32
+    },
+    {
+     "word": "seven",
+     "start": 150.74,
+     "end": 150.94
+    },
+    {
+     "word": "all.",
+     "start": 150.94,
+     "end": 151.14
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "Now the money itself. In 1990, one dollar bought about eighteen hundred rupiah. Guess what it buys now.",
+   "props": {
+    "label": "$1 in Indonesian rupiah",
+    "flag": "id",
+    "then": {
+     "year": 1990,
+     "value": 1843
+    },
+    "now": {
+     "year": 2025,
+     "value": 16478
+    },
+    "format": {
+     "decimals": 0
+    },
+    "good": false,
+    "chapter": "The *rupiah* story"
+   },
+   "start": 151.437,
+   "end": 156.473,
+   "words": [
+    {
+     "word": "Now",
+     "start": 151.34,
+     "end": 151.56
+    },
+    {
+     "word": "the",
+     "start": 151.56,
+     "end": 151.7
+    },
+    {
+     "word": "money",
+     "start": 151.7,
+     "end": 151.86
+    },
+    {
+     "word": "itself.",
+     "start": 151.86,
+     "end": 152.12
+    },
+    {
+     "word": "In",
+     "start": 152.58,
+     "end": 152.62
+    },
+    {
+     "word": "1990,",
+     "start": 152.62,
+     "end": 153.14
+    },
+    {
+     "word": "one",
+     "start": 153.42,
+     "end": 153.54
+    },
+    {
+     "word": "dollar",
+     "start": 153.54,
+     "end": 153.78
+    },
+    {
+     "word": "bought",
+     "start": 153.78,
+     "end": 153.96
+    },
+    {
+     "word": "about",
+     "start": 153.96,
+     "end": 154.18
+    },
+    {
+     "word": "eighteen",
+     "start": 154.18,
+     "end": 154.62
+    },
+    {
+     "word": "hundred",
+     "start": 154.62,
+     "end": 155.06
+    },
+    {
+     "word": "rupiah.",
+     "start": 155.06,
+     "end": 155.5
+    },
+    {
+     "word": "Guess",
+     "start": 155.5,
+     "end": 155.6
+    },
+    {
+     "word": "what",
+     "start": 155.6,
+     "end": 155.76
+    },
+    {
+     "word": "it",
+     "start": 155.76,
+     "end": 155.84
+    },
+    {
+     "word": "buys",
+     "start": 155.84,
+     "end": 156.0
+    },
+    {
+     "word": "now.",
+     "start": 156.0,
+     "end": 156.24
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "Sixteen thousand five hundred. Almost nine times more. In 1998 alone, the dollar got more than three times more expensive.",
+   "props": {
+    "reveal": true
+   },
+   "start": 156.533,
+   "end": 162.936,
+   "words": [
+    {
+     "word": "Sixteen",
+     "start": 156.533,
+     "end": 156.855
+    },
+    {
+     "word": "thousand",
+     "start": 156.855,
+     "end": 157.176
+    },
+    {
+     "word": "five",
+     "start": 157.176,
+     "end": 157.498
+    },
+    {
+     "word": "hundred.",
+     "start": 157.498,
+     "end": 157.82
+    },
+    {
+     "word": "Almost",
+     "start": 157.82,
+     "end": 158.02
+    },
+    {
+     "word": "nine",
+     "start": 158.02,
+     "end": 158.34
+    },
+    {
+     "word": "times",
+     "start": 158.34,
+     "end": 158.72
+    },
+    {
+     "word": "more.",
+     "start": 158.72,
+     "end": 159.06
+    },
+    {
+     "word": "In",
+     "start": 159.4,
+     "end": 159.44
+    },
+    {
+     "word": "1998",
+     "start": 159.44,
+     "end": 159.96
+    },
+    {
+     "word": "alone,",
+     "start": 159.96,
+     "end": 160.5
+    },
+    {
+     "word": "the",
+     "start": 160.76,
+     "end": 160.82
+    },
+    {
+     "word": "dollar",
+     "start": 160.82,
+     "end": 161.02
+    },
+    {
+     "word": "got",
+     "start": 161.02,
+     "end": 161.22
+    },
+    {
+     "word": "more",
+     "start": 161.22,
+     "end": 161.38
+    },
+    {
+     "word": "than",
+     "start": 161.38,
+     "end": 161.54
+    },
+    {
+     "word": "three",
+     "start": 161.54,
+     "end": 161.8
+    },
+    {
+     "word": "times",
+     "start": 161.8,
+     "end": 162.02
+    },
+    {
+     "word": "more",
+     "start": 162.02,
+     "end": 162.26
+    },
+    {
+     "word": "expensive.",
+     "start": 162.26,
+     "end": 162.46
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "Malaysia's ringgit. In 1990, one dollar bought two point seven.",
+   "props": {
+    "label": "$1 in Malaysian ringgit",
+    "flag": "my",
+    "then": {
+     "year": 1990,
+     "value": 2.7
+    },
+    "now": {
+     "year": 2025,
+     "value": 4.3
+    },
+    "format": {
+     "decimals": 1
+    },
+    "good": false
+   },
+   "start": 162.996,
+   "end": 167.015,
+   "words": [
+    {
+     "word": "Malaysia's",
+     "start": 162.46,
+     "end": 163.46
+    },
+    {
+     "word": "ringgit.",
+     "start": 163.46,
+     "end": 163.78
+    },
+    {
+     "word": "In",
+     "start": 164.16,
+     "end": 164.28
+    },
+    {
+     "word": "1990,",
+     "start": 164.28,
+     "end": 164.6
+    },
+    {
+     "word": "one",
+     "start": 165.16,
+     "end": 165.36
+    },
+    {
+     "word": "dollar",
+     "start": 165.36,
+     "end": 165.66
+    },
+    {
+     "word": "bought",
+     "start": 165.66,
+     "end": 165.88
+    },
+    {
+     "word": "two",
+     "start": 165.88,
+     "end": 166.253
+    },
+    {
+     "word": "point",
+     "start": 166.253,
+     "end": 166.627
+    },
+    {
+     "word": "seven.",
+     "start": 166.627,
+     "end": 167.0
+    }
+   ]
+  },
+  {
+   "scene": "thennow",
+   "text": "Today, four point three. No points. But the ringgit held on much better.",
+   "props": {
+    "reveal": true
+   },
+   "start": 167.075,
+   "end": 170.776,
+   "words": [
+    {
+     "word": "Today,",
+     "start": 167.0,
+     "end": 167.22
+    },
+    {
+     "word": "four",
+     "start": 167.22,
+     "end": 167.587
+    },
+    {
+     "word": "point",
+     "start": 167.587,
+     "end": 167.953
+    },
+    {
+     "word": "three.",
+     "start": 167.953,
+     "end": 168.32
+    },
+    {
+     "word": "No",
+     "start": 168.32,
+     "end": 168.52
+    },
+    {
+     "word": "points.",
+     "start": 168.52,
+     "end": 168.74
+    },
+    {
+     "word": "But",
+     "start": 169.22,
+     "end": 169.36
+    },
+    {
+     "word": "the",
+     "start": 169.36,
+     "end": 169.44
+    },
+    {
+     "word": "ringgit",
+     "start": 169.44,
+     "end": 169.66
+    },
+    {
+     "word": "held",
+     "start": 169.66,
+     "end": 169.82
+    },
+    {
+     "word": "on",
+     "start": 169.82,
+     "end": 170.0
+    },
+    {
+     "word": "much",
+     "start": 170.0,
+     "end": 170.24
+    },
+    {
+     "word": "better.",
+     "start": 170.24,
+     "end": 170.5
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Final chapter. Thailand. Seven all. Five rounds decide everything.",
+   "props": {
+    "a": {
+     "label": "Indonesia",
+     "flag": "id"
+    },
+    "b": {
+     "label": "Thailand",
+     "flag": "th"
+    },
+    "chapter": "The decider: *Thailand*"
+   },
+   "start": 170.836,
+   "end": 175.322,
+   "words": [
+    {
+     "word": "Final",
+     "start": 171.02,
+     "end": 171.02
+    },
+    {
+     "word": "chapter.",
+     "start": 171.02,
+     "end": 171.28
+    },
+    {
+     "word": "Thailand.",
+     "start": 171.84,
+     "end": 171.98
+    },
+    {
+     "word": "Seven",
+     "start": 172.56,
+     "end": 172.8
+    },
+    {
+     "word": "all.",
+     "start": 172.8,
+     "end": 173.14
+    },
+    {
+     "word": "Five",
+     "start": 173.42,
+     "end": 173.72
+    },
+    {
+     "word": "rounds",
+     "start": 173.72,
+     "end": 173.98
+    },
+    {
+     "word": "decide",
+     "start": 173.98,
+     "end": 174.26
+    },
+    {
+     "word": "everything.",
+     "start": 174.26,
+     "end": 174.86
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Population. Indonesia has four times more people.",
+   "props": {
+    "stat": {
+     "label": "Population (2025)",
+     "a": 286,
+     "b": 72,
+     "format": {
+      "suffix": "M"
+     }
+    },
+    "at": "Indonesia"
+   },
+   "start": 175.382,
+   "end": 178.225,
+   "words": [
+    {
+     "word": "Population.",
+     "start": 175.38,
+     "end": 175.6
+    },
+    {
+     "word": "Indonesia",
+     "start": 176.54,
+     "end": 176.54
+    },
+    {
+     "word": "has",
+     "start": 176.54,
+     "end": 176.86
+    },
+    {
+     "word": "four",
+     "start": 176.86,
+     "end": 177.14
+    },
+    {
+     "word": "times",
+     "start": 177.14,
+     "end": 177.42
+    },
+    {
+     "word": "more",
+     "start": 177.42,
+     "end": 177.66
+    },
+    {
+     "word": "people.",
+     "start": 177.66,
+     "end": 178.0
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Tourists before the pandemic. Thailand gets almost two and a half times more.",
+   "props": {
+    "stat": {
+     "label": "Tourists per year (2019)",
+     "a": 16.1,
+     "b": 39.9,
+     "format": {
+      "suffix": "M",
+      "decimals": 1
+     }
+    },
+    "at": "Thailand"
+   },
+   "start": 178.285,
+   "end": 181.892,
+   "words": [
+    {
+     "word": "Tourists",
+     "start": 178.26,
+     "end": 178.42
+    },
+    {
+     "word": "before",
+     "start": 178.42,
+     "end": 178.88
+    },
+    {
+     "word": "the",
+     "start": 178.88,
+     "end": 179.08
+    },
+    {
+     "word": "pandemic.",
+     "start": 179.08,
+     "end": 179.46
+    },
+    {
+     "word": "Thailand",
+     "start": 179.84,
+     "end": 180.04
+    },
+    {
+     "word": "gets",
+     "start": 180.04,
+     "end": 180.38
+    },
+    {
+     "word": "almost",
+     "start": 180.38,
+     "end": 180.64
+    },
+    {
+     "word": "two",
+     "start": 180.64,
+     "end": 180.88
+    },
+    {
+     "word": "and",
+     "start": 180.88,
+     "end": 180.98
+    },
+    {
+     "word": "a",
+     "start": 180.98,
+     "end": 181.04
+    },
+    {
+     "word": "half",
+     "start": 181.04,
+     "end": 181.16
+    },
+    {
+     "word": "times",
+     "start": 181.16,
+     "end": 181.36
+    },
+    {
+     "word": "more.",
+     "start": 181.36,
+     "end": 181.62
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Income per person. Thailand is almost sixty percent richer.",
+   "props": {
+    "stat": {
+     "label": "Income per person (2025)",
+     "a": 5060,
+     "b": 8057,
+     "format": {
+      "prefix": "$"
+     }
+    },
+    "at": "Thailand"
+   },
+   "start": 181.952,
+   "end": 184.942,
+   "words": [
+    {
+     "word": "Income",
+     "start": 181.88,
+     "end": 182.08
+    },
+    {
+     "word": "per",
+     "start": 182.08,
+     "end": 182.4
+    },
+    {
+     "word": "person.",
+     "start": 182.4,
+     "end": 182.68
+    },
+    {
+     "word": "Thailand",
+     "start": 182.98,
+     "end": 183.22
+    },
+    {
+     "word": "is",
+     "start": 183.22,
+     "end": 183.54
+    },
+    {
+     "word": "almost",
+     "start": 183.54,
+     "end": 183.78
+    },
+    {
+     "word": "sixty",
+     "start": 183.78,
+     "end": 184.04
+    },
+    {
+     "word": "percent",
+     "start": 184.04,
+     "end": 184.42
+    },
+    {
+     "word": "richer.",
+     "start": 184.42,
+     "end": 184.62
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Two all. Size of the economy. Indonesia is two and a half times bigger.",
+   "props": {
+    "stat": {
+     "label": "Size of the economy (2025)",
+     "a": 1.45,
+     "b": 0.58,
+     "format": {
+      "prefix": "$",
+      "suffix": "T",
+      "decimals": 2
+     }
+    },
+    "at": "Indonesia"
+   },
+   "start": 185.002,
+   "end": 189.001,
+   "words": [
+    {
+     "word": "Two",
+     "start": 185.14,
+     "end": 185.14
+    },
+    {
+     "word": "all.",
+     "start": 185.14,
+     "end": 185.4
+    },
+    {
+     "word": "Size",
+     "start": 185.78,
+     "end": 185.98
+    },
+    {
+     "word": "of",
+     "start": 185.98,
+     "end": 186.24
+    },
+    {
+     "word": "the",
+     "start": 186.24,
+     "end": 186.32
+    },
+    {
+     "word": "economy.",
+     "start": 186.32,
+     "end": 186.58
+    },
+    {
+     "word": "Indonesia",
+     "start": 187.16,
+     "end": 187.44
+    },
+    {
+     "word": "is",
+     "start": 187.44,
+     "end": 187.76
+    },
+    {
+     "word": "two",
+     "start": 187.76,
+     "end": 187.92
+    },
+    {
+     "word": "and",
+     "start": 187.92,
+     "end": 188.04
+    },
+    {
+     "word": "a",
+     "start": 188.04,
+     "end": 188.12
+    },
+    {
+     "word": "half",
+     "start": 188.12,
+     "end": 188.24
+    },
+    {
+     "word": "times",
+     "start": 188.24,
+     "end": 188.48
+    },
+    {
+     "word": "bigger.",
+     "start": 188.48,
+     "end": 188.72
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Last round. Economic growth. Indonesia grows more than twice as fast.",
+   "props": {
+    "stat": {
+     "label": "Economic growth (2025)",
+     "a": 5.1,
+     "b": 2.4,
+     "format": {
+      "suffix": "%",
+      "decimals": 1
+     }
+    },
+    "at": "Indonesia"
+   },
+   "start": 189.061,
+   "end": 192.887,
+   "words": [
+    {
+     "word": "Last",
+     "start": 189.12,
+     "end": 189.26
+    },
+    {
+     "word": "round.",
+     "start": 189.26,
+     "end": 189.5
+    },
+    {
+     "word": "Economic",
+     "start": 190.16,
+     "end": 190.16
+    },
+    {
+     "word": "growth.",
+     "start": 190.16,
+     "end": 190.58
+    },
+    {
+     "word": "Indonesia",
+     "start": 190.98,
+     "end": 191.16
+    },
+    {
+     "word": "grows",
+     "start": 191.16,
+     "end": 191.54
+    },
+    {
+     "word": "more",
+     "start": 191.54,
+     "end": 191.78
+    },
+    {
+     "word": "than",
+     "start": 191.78,
+     "end": 191.94
+    },
+    {
+     "word": "twice",
+     "start": 191.94,
+     "end": 192.1
+    },
+    {
+     "word": "as",
+     "start": 192.1,
+     "end": 192.34
+    },
+    {
+     "word": "fast.",
+     "start": 192.34,
+     "end": 192.54
+    }
+   ]
+  },
+  {
+   "scene": "battle",
+   "text": "Three to two. Indonesia takes the decider.",
+   "props": {},
+   "start": 192.947,
+   "end": 195.094,
+   "words": [
+    {
+     "word": "Three",
+     "start": 193.0,
+     "end": 193.06
+    },
+    {
+     "word": "to",
+     "start": 193.06,
+     "end": 193.24
+    },
+    {
+     "word": "two.",
+     "start": 193.24,
+     "end": 193.46
+    },
+    {
+     "word": "Indonesia",
+     "start": 193.96,
+     "end": 193.96
+    },
+    {
+     "word": "takes",
+     "start": 193.96,
+     "end": 194.36
+    },
+    {
+     "word": "the",
+     "start": 194.36,
+     "end": 194.54
+    },
+    {
+     "word": "decider.",
+     "start": 194.54,
+     "end": 194.82
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "Final score. Indonesia ten. The neighbours nine.",
+   "props": {
+    "value": 10,
+    "format": {
+     "suffix": " \u2013 9"
+    },
+    "caption": "Indonesia vs Southeast Asia, 19 rounds",
+    "at": "ten",
+    "chapter": "The *final* score"
+   },
+   "start": 195.154,
+   "end": 198.016,
+   "words": [
+    {
+     "word": "Final",
+     "start": 195.16,
+     "end": 195.24
+    },
+    {
+     "word": "score.",
+     "start": 195.24,
+     "end": 195.56
+    },
+    {
+     "word": "Indonesia",
+     "start": 196.12,
+     "end": 196.12
+    },
+    {
+     "word": "ten.",
+     "start": 196.12,
+     "end": 196.98
+    },
+    {
+     "word": "The",
+     "start": 196.98,
+     "end": 197.02
+    },
+    {
+     "word": "neighbours",
+     "start": 197.02,
+     "end": 197.6
+    },
+    {
+     "word": "nine.",
+     "start": 197.6,
+     "end": 197.66
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "Malaysia and Thailand are richer per person. Vietnam is catching up fast. But nobody beats Indonesia's size.",
+   "props": {
+    "value": 286,
+    "format": {
+     "suffix": "M"
+    },
+    "caption": "people in Indonesia, 2025",
+    "at": "size"
+   },
+   "start": 198.076,
+   "end": 203.794,
+   "words": [
+    {
+     "word": "Malaysia",
+     "start": 198.26,
+     "end": 198.26
+    },
+    {
+     "word": "and",
+     "start": 198.26,
+     "end": 198.68
+    },
+    {
+     "word": "Thailand",
+     "start": 198.68,
+     "end": 198.86
+    },
+    {
+     "word": "are",
+     "start": 198.86,
+     "end": 199.24
+    },
+    {
+     "word": "richer",
+     "start": 199.24,
+     "end": 199.4
+    },
+    {
+     "word": "per",
+     "start": 199.4,
+     "end": 199.7
+    },
+    {
+     "word": "person.",
+     "start": 199.7,
+     "end": 200.0
+    },
+    {
+     "word": "Vietnam",
+     "start": 200.6,
+     "end": 200.6
+    },
+    {
+     "word": "is",
+     "start": 200.6,
+     "end": 200.98
+    },
+    {
+     "word": "catching",
+     "start": 200.98,
+     "end": 201.16
+    },
+    {
+     "word": "up",
+     "start": 201.16,
+     "end": 201.34
+    },
+    {
+     "word": "fast.",
+     "start": 201.34,
+     "end": 201.58
+    },
+    {
+     "word": "But",
+     "start": 202.06,
+     "end": 202.18
+    },
+    {
+     "word": "nobody",
+     "start": 202.18,
+     "end": 202.32
+    },
+    {
+     "word": "beats",
+     "start": 202.32,
+     "end": 202.68
+    },
+    {
+     "word": "Indonesia's",
+     "start": 202.68,
+     "end": 203.12
+    },
+    {
+     "word": "size.",
+     "start": 203.12,
+     "end": 203.46
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Which country should Indonesia face next?",
+   "props": {},
+   "start": 203.854,
+   "end": 205.647,
+   "words": [
+    {
+     "word": "Which",
+     "start": 203.82,
+     "end": 203.98
+    },
+    {
+     "word": "country",
+     "start": 203.98,
+     "end": 204.2
+    },
+    {
+     "word": "should",
+     "start": 204.2,
+     "end": 204.48
+    },
+    {
+     "word": "Indonesia",
+     "start": 204.48,
+     "end": 204.72
+    },
+    {
+     "word": "face",
+     "start": 204.72,
+     "end": 205.1
+    },
+    {
+     "word": "next?",
+     "start": 205.1,
+     "end": 205.36
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 6190,
+ "fps": 30,
+ "aligned": true,
+ "credits": []
+}
