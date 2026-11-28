@@ -1,0 +1,391 @@
+{
+ "id": "ep050",
+ "title": "India \ud83c\uddee\ud83c\uddf3 has more people online than these 6 countries",
+ "topic": "India vs 6 countries",
+ "headline": "India vs *6 countries* online",
+ "description": "India's internet users against America, Brazil, Russia, Japan, Germany and the UK put together. Who has more? Real World Bank data for 2024. Comment your flag.",
+ "tags": [
+  "india internet users",
+  "india online",
+  "india vs usa",
+  "india vs brazil",
+  "india vs russia",
+  "internet users by country",
+  "most internet users",
+  "india digital",
+  "country comparison"
+ ],
+ "source": "World Bank, internet users (% of population) x population (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": [
+  "india",
+  "internet",
+  "indiavsusa",
+  "countrycomparison"
+ ],
+ "format": "bubbles",
+ "slot": "14:30",
+ "hook_type": "number",
+ "cover": {
+  "flags": [
+   "in"
+  ],
+  "badge": "REAL DATA"
+ },
+ "localizations": {
+  "hi": {
+   "title": "\u092d\u093e\u0930\u0924 \ud83c\uddee\ud83c\uddf3 \u092e\u0947\u0902 \u0907\u0928 6 \u0926\u0947\u0936\u094b\u0902 \u0938\u0947 \u091c\u093c\u094d\u092f\u093e\u0926\u093e \u0932\u094b\u0917 \u0911\u0928\u0932\u093e\u0907\u0928",
+   "description": "\u092d\u093e\u0930\u0924 \u0915\u0947 \u0907\u0902\u091f\u0930\u0928\u0947\u091f \u092f\u0942\u091c\u093c\u0930 \u092c\u0928\u093e\u092e \u0905\u092e\u0947\u0930\u093f\u0915\u093e, \u092c\u094d\u0930\u093e\u091c\u093c\u0940\u0932, \u0930\u0942\u0938, \u091c\u093e\u092a\u093e\u0928, \u091c\u0930\u094d\u092e\u0928\u0940 \u0914\u0930 \u092c\u094d\u0930\u093f\u091f\u0947\u0928 \u092e\u093f\u0932\u093e\u0915\u0930\u0964 \u0905\u0938\u0932\u0940 \u0906\u0902\u0915\u0921\u093c\u0947, 2024\u0964 \u0905\u092a\u0928\u093e \u091d\u0902\u0921\u093e \u0915\u092e\u0947\u0902\u091f \u0915\u0930\u0947\u0902\u0964"
+  }
+ },
+ "segments": [
+  {
+   "scene": "bubbles",
+   "text": "Nine hundred forty-two million people online. This is India.",
+   "props": {
+    "title": "People online, 2024",
+    "format": {
+     "suffix": "M"
+    },
+    "item": {
+     "label": "India",
+     "flag": "in",
+     "value": 942
+    },
+    "at": "This"
+   },
+   "start": 0.05,
+   "end": 3.407,
+   "words": [
+    {
+     "word": "Nine",
+     "start": 0.05,
+     "end": 0.253
+    },
+    {
+     "word": "hundred",
+     "start": 0.253,
+     "end": 0.457
+    },
+    {
+     "word": "forty-two",
+     "start": 0.457,
+     "end": 0.66
+    },
+    {
+     "word": "million",
+     "start": 0.66,
+     "end": 1.12
+    },
+    {
+     "word": "people",
+     "start": 1.12,
+     "end": 1.54
+    },
+    {
+     "word": "online.",
+     "start": 1.54,
+     "end": 1.78
+    },
+    {
+     "word": "This",
+     "start": 2.54,
+     "end": 2.54
+    },
+    {
+     "word": "is",
+     "start": 2.54,
+     "end": 2.88
+    },
+    {
+     "word": "India.",
+     "start": 2.88,
+     "end": 3.18
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "America. Three hundred twenty-two million.",
+   "props": {
+    "item": {
+     "label": "USA",
+     "flag": "us",
+     "value": 322
+    },
+    "at": "America"
+   },
+   "start": 3.467,
+   "end": 5.909,
+   "words": [
+    {
+     "word": "America.",
+     "start": 3.5,
+     "end": 3.76
+    },
+    {
+     "word": "Three",
+     "start": 3.76,
+     "end": 4.013
+    },
+    {
+     "word": "hundred",
+     "start": 4.013,
+     "end": 4.267
+    },
+    {
+     "word": "twenty-two",
+     "start": 4.267,
+     "end": 4.52
+    },
+    {
+     "word": "million.",
+     "start": 4.52,
+     "end": 5.64
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Brazil. One hundred seventy-nine million.",
+   "props": {
+    "item": {
+     "label": "Brazil",
+     "flag": "br",
+     "value": 179
+    },
+    "at": "Brazil"
+   },
+   "start": 5.969,
+   "end": 8.278,
+   "words": [
+    {
+     "word": "Brazil.",
+     "start": 6.04,
+     "end": 6.14
+    },
+    {
+     "word": "One",
+     "start": 6.14,
+     "end": 6.433
+    },
+    {
+     "word": "hundred",
+     "start": 6.433,
+     "end": 6.727
+    },
+    {
+     "word": "seventy-nine",
+     "start": 6.727,
+     "end": 7.02
+    },
+    {
+     "word": "million.",
+     "start": 7.02,
+     "end": 7.82
+    }
+   ]
+  },
+  {
+   "scene": "bubbles",
+   "text": "Russia. One hundred thirty-six million.",
+   "props": {
+    "item": {
+     "label": "Russia",
+     "flag": "ru",
+     "value": 136
+    },
+    "at": "Russia"
+   },
+   "start": 8.338,
+   "end": 10.381,
+   "words": [
+    {
+     "word": "Russia.",
+     "start": 8.36,
+     "end": 8.5
+    },
+    {
+     "word": "One",
+     "start": 8.5,
+     "end": 8.813
+    },
+    {
+     "word": "hundred",
+     "start": 8.813,
+     "end": 9.127
+    },
+    {
+     "word": "thirty-six",
+     "start": 9.127,
+     "end": 9.44
+    },
+    {
+     "word": "million.",
+     "start": 9.44,
+     "end": 10.06
+    }
+   ]
+  },
+  {
+   "scene": "bignumber",
+   "text": "Now add Japan. And Germany. And the UK. India still has more. By fifty-five million.",
+   "props": {
+    "value": 55,
+    "format": {
+     "prefix": "+",
+     "suffix": "M"
+    },
+    "caption": "more Indians online than all six combined",
+    "at": "fifty",
+    "compare": {
+     "format": {
+      "suffix": "M"
+     },
+     "items": [
+      {
+       "label": "All 6 together",
+       "value": 887
+      },
+      {
+       "label": "India",
+       "value": 942
+      }
+     ]
+    }
+   },
+   "start": 10.441,
+   "end": 15.514,
+   "words": [
+    {
+     "word": "Now",
+     "start": 10.64,
+     "end": 10.64
+    },
+    {
+     "word": "add",
+     "start": 10.64,
+     "end": 10.84
+    },
+    {
+     "word": "Japan.",
+     "start": 10.84,
+     "end": 11.12
+    },
+    {
+     "word": "And",
+     "start": 11.6,
+     "end": 11.7
+    },
+    {
+     "word": "Germany.",
+     "start": 11.7,
+     "end": 11.98
+    },
+    {
+     "word": "And",
+     "start": 12.34,
+     "end": 12.44
+    },
+    {
+     "word": "the",
+     "start": 12.44,
+     "end": 12.56
+    },
+    {
+     "word": "UK.",
+     "start": 12.56,
+     "end": 12.72
+    },
+    {
+     "word": "India",
+     "start": 13.24,
+     "end": 13.42
+    },
+    {
+     "word": "still",
+     "start": 13.42,
+     "end": 13.68
+    },
+    {
+     "word": "has",
+     "start": 13.68,
+     "end": 13.88
+    },
+    {
+     "word": "more.",
+     "start": 13.88,
+     "end": 14.12
+    },
+    {
+     "word": "By",
+     "start": 14.12,
+     "end": 14.42
+    },
+    {
+     "word": "fifty-five",
+     "start": 14.42,
+     "end": 14.7
+    },
+    {
+     "word": "million.",
+     "start": 14.7,
+     "end": 15.16
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Only China has more. Where is your country?",
+   "props": {},
+   "start": 15.574,
+   "end": 17.95,
+   "words": [
+    {
+     "word": "Only",
+     "start": 15.58,
+     "end": 15.78
+    },
+    {
+     "word": "China",
+     "start": 15.78,
+     "end": 16.0
+    },
+    {
+     "word": "has",
+     "start": 16.0,
+     "end": 16.3
+    },
+    {
+     "word": "more.",
+     "start": 16.3,
+     "end": 16.56
+    },
+    {
+     "word": "Where",
+     "start": 16.94,
+     "end": 17.0
+    },
+    {
+     "word": "is",
+     "start": 17.0,
+     "end": 17.18
+    },
+    {
+     "word": "your",
+     "start": 17.18,
+     "end": 17.36
+    },
+    {
+     "word": "country?",
+     "start": 17.36,
+     "end": 17.66
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 559,
+ "fps": 30,
+ "aligned": true,
+ "credits": []
+}
