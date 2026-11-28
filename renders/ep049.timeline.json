@@ -1,0 +1,365 @@
+{
+ "id": "ep049",
+ "title": "Indonesia \ud83c\uddee\ud83c\udde9 facts that sound fake but are true",
+ "topic": "Indonesia: sounds fake, but true",
+ "headline": "*Indonesia* sounds fake",
+ "description": "Four Indonesia facts that sound made up but are real, each checked on Wikipedia. Which one did you know? Comment the number.",
+ "tags": [
+  "indonesia",
+  "indonesia facts",
+  "komodo dragon",
+  "rafflesia",
+  "kopi luwak",
+  "17000 islands",
+  "sounds fake but true",
+  "fun facts"
+ ],
+ "source": "Wikipedia: Komodo dragon, Rafflesia arnoldii, Indonesia, Kopi luwak. Photos: Wikimedia Commons",
+ "voice": "af_heart",
+ "hashtags": [
+  "indonesia",
+  "facts",
+  "soundsfakebuttrue",
+  "didyouknow"
+ ],
+ "format": "facts",
+ "slot": "07:30",
+ "hook_type": "claim",
+ "cover": {
+  "badge": "ALL TRUE"
+ },
+ "localizations": {
+  "id": {
+   "title": "Fakta Indonesia \ud83c\uddee\ud83c\udde9 yang terdengar palsu tapi nyata",
+   "description": "Empat fakta Indonesia yang terdengar dibuat-buat tapi nyata. Mana yang sudah kamu tahu? Tulis nomornya di komentar."
+  }
+ },
+ "segments": [
+  {
+   "scene": "photo",
+   "text": "Dragons are real. They live in Indonesia.",
+   "props": {
+    "image": {
+     "wiki": "Komodo dragon"
+    },
+    "kicker": "Komodo, Indonesia",
+    "flag": "id",
+    "big": "The *largest* lizard on Earth",
+    "num": 1,
+    "at": "Dragons",
+    "source": {
+     "wiki": "Komodo dragon",
+     "check": [
+      "largest",
+      "lizard"
+     ]
+    }
+   },
+   "start": 0.05,
+   "end": 2.541,
+   "words": [
+    {
+     "word": "Dragons",
+     "start": 0.0,
+     "end": 0.24
+    },
+    {
+     "word": "are",
+     "start": 0.24,
+     "end": 0.64
+    },
+    {
+     "word": "real.",
+     "start": 0.64,
+     "end": 0.92
+    },
+    {
+     "word": "They",
+     "start": 1.36,
+     "end": 1.44
+    },
+    {
+     "word": "live",
+     "start": 1.44,
+     "end": 1.68
+    },
+    {
+     "word": "in",
+     "start": 1.68,
+     "end": 1.82
+    },
+    {
+     "word": "Indonesia.",
+     "start": 1.82,
+     "end": 2.1
+    }
+   ]
+  },
+  {
+   "scene": "photo",
+   "text": "The biggest flower on Earth grows there too.",
+   "props": {
+    "image": {
+     "wiki": "Rafflesia arnoldii"
+    },
+    "kicker": "Indonesia",
+    "flag": "id",
+    "big": "The *biggest* flower on Earth",
+    "num": 2,
+    "at": "flower",
+    "source": {
+     "wiki": "Rafflesia arnoldii",
+     "check": [
+      "largest",
+      "flower"
+     ]
+    }
+   },
+   "start": 2.601,
+   "end": 4.655,
+   "words": [
+    {
+     "word": "The",
+     "start": 2.6,
+     "end": 2.68
+    },
+    {
+     "word": "biggest",
+     "start": 2.68,
+     "end": 2.86
+    },
+    {
+     "word": "flower",
+     "start": 2.86,
+     "end": 3.14
+    },
+    {
+     "word": "on",
+     "start": 3.14,
+     "end": 3.4
+    },
+    {
+     "word": "Earth",
+     "start": 3.4,
+     "end": 3.6
+    },
+    {
+     "word": "grows",
+     "start": 3.6,
+     "end": 3.84
+    },
+    {
+     "word": "there",
+     "start": 3.84,
+     "end": 4.08
+    },
+    {
+     "word": "too.",
+     "start": 4.26,
+     "end": 4.38
+    }
+   ]
+  },
+  {
+   "scene": "photo",
+   "text": "The country is made of more than seventeen thousand islands.",
+   "props": {
+    "image": {
+     "wiki": "Raja Ampat Islands"
+    },
+    "kicker": "Raja Ampat, Indonesia",
+    "flag": "id",
+    "big": "*17,000* islands",
+    "num": 3,
+    "at": "seventeen",
+    "source": {
+     "wiki": "Indonesia",
+     "check": [
+      "17,000 islands"
+     ]
+    }
+   },
+   "start": 4.715,
+   "end": 7.377,
+   "words": [
+    {
+     "word": "The",
+     "start": 4.68,
+     "end": 4.78
+    },
+    {
+     "word": "country",
+     "start": 4.78,
+     "end": 5.06
+    },
+    {
+     "word": "is",
+     "start": 5.06,
+     "end": 5.26
+    },
+    {
+     "word": "made",
+     "start": 5.26,
+     "end": 5.4
+    },
+    {
+     "word": "of",
+     "start": 5.4,
+     "end": 5.52
+    },
+    {
+     "word": "more",
+     "start": 5.52,
+     "end": 5.64
+    },
+    {
+     "word": "than",
+     "start": 5.64,
+     "end": 5.78
+    },
+    {
+     "word": "seventeen",
+     "start": 5.78,
+     "end": 6.23
+    },
+    {
+     "word": "thousand",
+     "start": 6.23,
+     "end": 6.68
+    },
+    {
+     "word": "islands.",
+     "start": 6.68,
+     "end": 7.0
+    }
+   ]
+  },
+  {
+   "scene": "photo",
+   "text": "And one of the priciest coffees comes from beans eaten by civets.",
+   "props": {
+    "image": {
+     "wiki": "Kopi luwak"
+    },
+    "kicker": "Kopi luwak, Indonesia",
+    "flag": "id",
+    "big": "Coffee from *civet poop*",
+    "num": 4,
+    "at": "civets",
+    "source": {
+     "wiki": "Kopi luwak",
+     "check": [
+      "civet"
+     ]
+    }
+   },
+   "start": 7.437,
+   "end": 10.612,
+   "words": [
+    {
+     "word": "And",
+     "start": 7.4,
+     "end": 7.52
+    },
+    {
+     "word": "one",
+     "start": 7.52,
+     "end": 7.64
+    },
+    {
+     "word": "of",
+     "start": 7.64,
+     "end": 7.74
+    },
+    {
+     "word": "the",
+     "start": 7.74,
+     "end": 7.84
+    },
+    {
+     "word": "priciest",
+     "start": 7.84,
+     "end": 8.2
+    },
+    {
+     "word": "coffees",
+     "start": 8.2,
+     "end": 8.64
+    },
+    {
+     "word": "comes",
+     "start": 8.64,
+     "end": 8.88
+    },
+    {
+     "word": "from",
+     "start": 8.88,
+     "end": 9.08
+    },
+    {
+     "word": "beans",
+     "start": 9.08,
+     "end": 9.28
+    },
+    {
+     "word": "eaten",
+     "start": 9.28,
+     "end": 9.66
+    },
+    {
+     "word": "by",
+     "start": 9.66,
+     "end": 9.92
+    },
+    {
+     "word": "civets.",
+     "start": 9.92,
+     "end": 10.68
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Which one did you know?",
+   "props": {},
+   "start": 10.672,
+   "end": 11.72,
+   "words": [
+    {
+     "word": "Which",
+     "start": 10.68,
+     "end": 10.8
+    },
+    {
+     "word": "one",
+     "start": 10.8,
+     "end": 11.02
+    },
+    {
+     "word": "did",
+     "start": 11.02,
+     "end": 11.16
+    },
+    {
+     "word": "you",
+     "start": 11.16,
+     "end": 11.3
+    },
+    {
+     "word": "know?",
+     "start": 11.3,
+     "end": 11.48
+    }
+   ]
+  }
+ ],
+ "durationInFrames": 372,
+ "fps": 30,
+ "aligned": true,
+ "credits": [
+  "202306 Varanus komodoensis.jpg by James Jolokia (james1203) (CC BY 4.0), via Wikimedia Commons",
+  "Rafflesia arnoldii, Sumatra.jpg by LukeTriton (CC BY-SA 4.0), via Wikimedia Commons",
+  "Raja Ampat Islands - journal.pbio.1001457.g001.png by Jonathan Chase (CC BY 2.5), via Wikimedia Commons",
+  "Kopi Luwak, Yogyakarta, Indonesia.jpg by Etsuma.W (CC BY-SA 4.0), via Wikimedia Commons"
+ ]
+}
