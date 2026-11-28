@@ -1,0 +1,28 @@
+{
+ "id": "ep049",
+ "title": "Indonesia 🇮🇩 facts that sound fake but are true",
+ "topic": "Indonesia: sounds fake, but true",
+ "headline": "*Indonesia* sounds fake",
+ "description": "Four Indonesia facts that sound made up but are real, each checked on Wikipedia. Which one did you know? Comment the number.",
+ "tags": ["indonesia", "indonesia facts", "komodo dragon", "rafflesia", "kopi luwak", "17000 islands", "sounds fake but true", "fun facts"],
+ "source": "Wikipedia: Komodo dragon, Rafflesia arnoldii, Indonesia, Kopi luwak. Photos: Wikimedia Commons",
+ "voice": "af_heart",
+ "hashtags": ["indonesia", "facts", "soundsfakebuttrue", "didyouknow"],
+ "format": "facts",
+ "slot": "07:30",
+ "hook_type": "claim",
+ "cover": {"badge": "ALL TRUE"},
+ "localizations": {
+  "id": {
+   "title": "Fakta Indonesia 🇮🇩 yang terdengar palsu tapi nyata",
+   "description": "Empat fakta Indonesia yang terdengar dibuat-buat tapi nyata. Mana yang sudah kamu tahu? Tulis nomornya di komentar."
+  }
+ },
+ "segments": [
+  {"scene": "photo", "text": "Dragons are real. They live in Indonesia.", "props": {"image": {"wiki": "Komodo dragon"}, "kicker": "Komodo, Indonesia", "flag": "id", "big": "The *largest* lizard on Earth", "num": 1, "at": "Dragons", "source": {"wiki": "Komodo dragon", "check": ["largest", "lizard"]}}},
+  {"scene": "photo", "text": "The biggest flower on Earth grows there too.", "props": {"image": {"wiki": "Rafflesia arnoldii"}, "kicker": "Indonesia", "flag": "id", "big": "The *biggest* flower on Earth", "num": 2, "at": "flower", "source": {"wiki": "Rafflesia arnoldii", "check": ["largest", "flower"]}}},
+  {"scene": "photo", "text": "The country is made of more than seventeen thousand islands.", "props": {"image": {"wiki": "Raja Ampat Islands"}, "kicker": "Raja Ampat, Indonesia", "flag": "id", "big": "*17,000* islands", "num": 3, "at": "seventeen", "source": {"wiki": "Indonesia", "check": ["17,000 islands"]}}},
+  {"scene": "photo", "text": "And one of the priciest coffees comes from beans eaten by civets.", "props": {"image": {"wiki": "Kopi luwak"}, "kicker": "Kopi luwak, Indonesia", "flag": "id", "big": "Coffee from *civet poop*", "num": 4, "at": "civets", "source": {"wiki": "Kopi luwak", "check": ["civet"]}}},
+  {"scene": "outro", "text": "Which one did you know?", "props": {}}
+ ]
+}

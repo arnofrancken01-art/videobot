@@ -1,0 +1,31 @@
+{
+ "id": "ep051",
+ "title": "Pakistan 🇵🇰 is bigger than 6 rich nations combined (Part 2)",
+ "topic": "True size: Pakistan",
+ "headline": "Pakistan vs *6 rich* countries",
+ "description": "Japan, the UK, South Korea, Switzerland, Qatar and Singapore, all inside Pakistan at true size. Real World Bank land area data for 2024. Comment your flag.",
+ "tags": ["how big is pakistan", "pakistan true size", "pakistan vs japan", "pakistan vs uk", "pakistan land area", "true size map", "country size comparison", "pakistan vs south korea", "geography"],
+ "source": "World Bank, land area in square kilometers (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["pakistan", "japan", "truesize", "geography"],
+ "format": "truesize",
+ "slot": "17:30",
+ "hook_type": "question",
+ "cover": {"flags": ["pk"], "badge": "PART 2"},
+ "localizations": {
+  "ur": {
+   "title": "پاکستان 🇵🇰 ان 6 امیر ممالک سے مل کر بھی بڑا ہے (حصہ 2)",
+   "description": "جاپان، برطانیہ، جنوبی کوریا، سوئٹزرلینڈ، قطر اور سنگاپور، سب پاکستان کے اندر اصل سائز میں۔ ورلڈ بینک 2024۔ اپنا جھنڈا کمنٹ کریں۔"
+  }
+ },
+ "segments": [
+  {"scene": "truesize", "text": "How many rich countries fit inside Pakistan? Watch.", "props": {"title": "True size: Pakistan", "base": {"flag": "pk", "label": "Pakistan"}}},
+  {"scene": "truesize", "text": "Japan.", "props": {"item": {"flag": "jp", "label": "Japan"}, "at": "japan"}},
+  {"scene": "truesize", "text": "The UK.", "props": {"item": {"flag": "gb", "label": "UK"}, "at": "UK"}},
+  {"scene": "truesize", "text": "South Korea.", "props": {"item": {"flag": "kr", "label": "South Korea"}, "at": "south"}},
+  {"scene": "truesize", "text": "Switzerland.", "props": {"item": {"flag": "ch", "label": "Switzerland"}, "at": "switzerland"}},
+  {"scene": "truesize", "text": "Qatar.", "props": {"item": {"flag": "qa", "label": "Qatar"}, "at": "qatar"}},
+  {"scene": "truesize", "text": "And Singapore. Pakistan is still bigger.", "props": {"item": {"flag": "sg", "label": "Singapore"}, "at": "singapore"}},
+  {"scene": "outro", "text": "Which country would you add next?", "props": {}}
+ ]
+}

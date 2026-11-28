@@ -1,0 +1,24 @@
+{
+ "id": "ep050",
+ "title": "India 🇮🇳 has more people online than these 6 countries",
+ "topic": "India vs 6 countries",
+ "headline": "India vs *6 countries* online",
+ "description": "India's internet users against America, Brazil, Russia, Japan, Germany and the UK put together. Who has more? Real World Bank data for 2024. Comment your flag.",
+ "tags": ["india internet users", "india online", "india vs usa", "india vs brazil", "india vs russia", "internet users by country", "most internet users", "india digital", "country comparison"],
+ "source": "World Bank, internet users (% of population) x population (2024), data.worldbank.org",
+ "voice": "af_heart",
+ "hashtags": ["india", "internet", "indiavsusa", "countrycomparison"],
+ "format": "bubbles",
+ "slot": "14:30",
+ "hook_type": "number",
+ "cover": {"flags": ["in"], "badge": "REAL DATA"},
+ "localizations": {"hi": {"title": "भारत 🇮🇳 में इन 6 देशों से ज़्यादा लोग ऑनलाइन", "description": "भारत के इंटरनेट यूज़र बनाम अमेरिका, ब्राज़ील, रूस, जापान, जर्मनी और ब्रिटेन मिलाकर। असली आंकड़े, 2024। अपना झंडा कमेंट करें।"}},
+ "segments": [
+  {"scene": "bubbles", "text": "Nine hundred forty-two million people online. This is India.", "props": {"title": "People online, 2024", "format": {"suffix": "M"}, "item": {"label": "India", "flag": "in", "value": 942}, "at": "This"}},
+  {"scene": "bubbles", "text": "America. Three hundred twenty-two million.", "props": {"item": {"label": "USA", "flag": "us", "value": 322}, "at": "America"}},
+  {"scene": "bubbles", "text": "Brazil. One hundred seventy-nine million.", "props": {"item": {"label": "Brazil", "flag": "br", "value": 179}, "at": "Brazil"}},
+  {"scene": "bubbles", "text": "Russia. One hundred thirty-six million.", "props": {"item": {"label": "Russia", "flag": "ru", "value": 136}, "at": "Russia"}},
+  {"scene": "bignumber", "text": "Now add Japan. And Germany. And the UK. India still has more. By fifty-five million.", "props": {"value": 55, "format": {"prefix": "+", "suffix": "M"}, "caption": "more Indians online than all six combined", "at": "fifty", "compare": {"format": {"suffix": "M"}, "items": [{"label": "All 6 together", "value": 887}, {"label": "India", "value": 942}]}}},
+  {"scene": "outro", "text": "Only China has more. Where is your country?", "props": {}}
+ ]
+}
